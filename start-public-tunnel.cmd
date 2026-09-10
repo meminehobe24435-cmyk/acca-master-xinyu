@@ -29,7 +29,8 @@ start "ACCA Master Server" cmd /c "npm run start"
 timeout /t 8 /nobreak > nul
 
 echo [*] 正在申请临时公网地址（约 10 秒）...
-.tools\cloudflared.exe tunnel --url http://127.0.0.1:3000 --no-autoupdate
+REM 本机网络若存在代理，QUIC 长连接可能被中断；使用 HTTP/2 + IPv4 更稳定
+.tools\cloudflared.exe tunnel --url http://127.0.0.1:3000 --protocol http2 --edge-ip-version 4 --no-autoupdate
 
 echo.
 echo [*] 隧道已结束。按任意键关闭窗口。
