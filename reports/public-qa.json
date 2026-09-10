@@ -1,0 +1,40 @@
+[
+  {
+    "file": "30-public-mobile-home.png",
+    "path": "/dashboard",
+    "status": 200,
+    "title": "ACCA Master | ⭐🐟",
+    "overflow": false,
+    "consoleErrors": [],
+    "pageErrors": [
+      "Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ]
+  },
+  {
+    "file": "31-public-mobile-practice.png",
+    "path": "/practice",
+    "status": 200,
+    "title": "ACCA Master | ⭐🐟",
+    "overflow": false,
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  {
+    "file": "32-public-mobile-papers.png",
+    "path": "/papers/FR",
+    "status": 200,
+    "title": "ACCA Master | ⭐🐟",
+    "overflow": false,
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  {
+    "file": "33-public-desktop-home.png",
+    "path": "/",
+    "status": 200,
+    "title": "ACCA Master | ⭐🐟",
+    "overflow": false,
+    "consoleErrors": [],
+    "pageErrors": []
+  }
+]
