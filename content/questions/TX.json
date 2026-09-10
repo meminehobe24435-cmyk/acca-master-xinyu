@@ -1,0 +1,402 @@
+[
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "04",
+    "topicTitle": "Taxable Trading Profit Computation",
+    "kpTitle": "Adjusting accounting profit to taxable profit",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 1,
+    "textMd": "Tax year 2025/26 (FA 2025). A self-employed trader prepared accounts showing accounting profit of £50,000. The accounts included depreciation of £5,000 (a non-deductible item) and business entertainment of £1,200 (also non-deductible). Ignoring capital allowances, what is the tax-adjusted trading profit that will be taxed at the 2025/26 rates (20% basic, 40% higher, 45% additional after the £12,570 personal allowance)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "£56,200",
+        "isCorrect": true,
+        "feedbackMd": "正确。把两项税务不可扣除项加回：50,000 + 5,000（折旧）+ 1,200（业务娱乐）= £56,200。"
+      },
+      {
+        "key": "B",
+        "text": "£55,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。只加回了折旧 £5,000，漏掉了业务娱乐支出 £1,200。正确应为 £56,200。"
+      },
+      {
+        "key": "C",
+        "text": "£51,200",
+        "isCorrect": false,
+        "feedbackMd": "错误。只加回了娱乐费 £1,200，漏掉了折旧 £5,000。正确应为 £56,200。"
+      },
+      {
+        "key": "D",
+        "text": "£43,800",
+        "isCorrect": false,
+        "feedbackMd": "错误。把不可扣除项减去而非加回（50,000 − 5,000 − 1,200 = 43,800）。税务处理应加回。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n折旧与业务娱乐费都是税务上不允许扣除的项目（disallowable）。会计利润是 $\\text{£}50,000$，须把会计上已扣除但税务不允许的金额加回，才能得到 tax-adjusted trading profit。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{会计利润} &= \\text{£}50,000\\\\\n+ \\text{折旧（不可扣）} &= +\\text{£}5,000\\\\\n+ \\text{业务娱乐费（不可扣）} &= +\\text{£}1,200\\\\\n\\hline\n\\text{应税交易利润} &= \\text{£}56,200\n\\end{aligned}\n\n答案 = £56,200。在 2025/26 税年，该利润随后作为非储蓄所得，扣除个人免税额 £12,570 后按 20% 基本税率、40% 高税率或 45% 附加税率计税。\n\n## 对应知识点\n\nAdjusting accounting profit to taxable profit（第四章：从会计利润出发，逐项加回与减除）。\n\n## 其他选项分析\n\n- B：只加回折旧、漏掉娱乐费，导致 £55,000。\n- C：只加回娱乐费、漏掉折旧，导致 £51,200。\n- D：把不可扣除项当作扣除来减，方向错误。\n\n## 易错提醒\n\n最容易漏加回“折旧”或“娱乐费”之一，或误把加回当成减除。要牢记：会计利润中已经扣除的税务不可扣项必须加回。\n\n## 考试技巧\n\n先列出“加回项（折旧、罚款、娱乐、私人、资本支出、备抵）”清单，逐项核对会计利润是否已包含，避免漏项。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "05",
+    "topicTitle": "AIA and Full Expensing",
+    "kpTitle": "Annual Investment Allowance (AIA) £1,000,000",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 1,
+    "textMd": "Tax year 2025/26 (FA 2025). A sole trader incurred qualifying plant & machinery expenditure of £1,300,000 during the year. The Annual Investment Allowance (AIA) gives a 100% first-year deduction up to an annual limit of £1,000,000. What is the maximum Annual Investment Allowance that may be claimed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "£1,000,000",
+        "isCorrect": true,
+        "feedbackMd": "正确。AIA 上限为每年 £1,000,000，故最多可申请 £1,000,000；剩余 £300,000 进入主池按 18% 计提。"
+      },
+      {
+        "key": "B",
+        "text": "£1,300,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。虽然支出为 £1,300,000，但 AIA 年度上限为 £1,000,000，不能全额扣除。"
+      },
+      {
+        "key": "C",
+        "text": "£234,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。£234,000 是把 £1,300,000 按 18% 计算（£1,300,000×18%），这是 WDA 的思路，不是 AIA。"
+      },
+      {
+        "key": "D",
+        "text": "£0",
+        "isCorrect": false,
+        "feedbackMd": "错误。AIA 允许对符合条件支出 100% 即期扣除，并非无免税额（除非支出为零或不适用）。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\nAnnual Investment Allowance (AIA) 是对符合条件的工厂机器支出给予 100% 即期扣除的一项优惠，但每年有一个法定上限。2025/26 税年该上限为 £1,000,000，因此即使支出高达 £1,300,000，也只能申请到上限 £1,000,000。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{总合格支出} &= \\text{£}1,300,000\\\\\n\\text{AIA 可申请上限} &= \\text{£}1,000,000\\\\\n\\text{当年可申请 AIA} &= \\text{£}1,000,000\\\\\n\\hline\n\\text{剩余转入主池（按 18% WDA）} &= \\text{£}300,000\n\\end{aligned}\n\n答案 = £1,000,000。上一年度主池 WDA 为 18%、特池为 6%，均低于 100%。\n\n## 对应知识点\n\nAnnual Investment Allowance (AIA) £1,000,000（第五章）。\n\n## 其他选项分析\n\n- B：把全部支出当作可全额申请 AIA，忽略了 £1,000,000 上限。\n- C：误用主池 18% 的 WDA 思路替代 AIA。\n- D：漏掉 AIA 的 100% 即期扣除。\n\n## 易错提醒\n\nAIA 只适用于符合条件的工厂机器等资产，且汽车、某些特定资产不适用；AIA 上限 £1,000,000 是带 100% 即期扣除的年度限额，不是按利润比例。\n\n## 考试技巧\n\n记住 AIA 先处理新增支出（在 £1,000,000 内 100% 扣除），超出的部分再入主池/特池按 18%/6% 计提 WDA。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "06",
+    "topicTitle": "Class 1 National Insurance",
+    "kpTitle": "Class 1 employee NIC: 8% / 2% between PT and UEL",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 2,
+    "textMd": "Tax year 2025/26 (FA 2025). An employee earns a gross annual salary of £70,000. Class 1 employee National Insurance is charged at 8% on earnings between the Primary Threshold (£12,570) and the Upper Earnings Limit (£50,270), and at 2% on earnings above £50,270. What is the employee's Class 1 NIC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "£3,016.00",
+        "isCorrect": false,
+        "feedbackMd": "错误。£3,016 只计算了 8% 这一档（37,700×8%），漏掉了超过 UEL 部分按 2% 的 £394.60。"
+      },
+      {
+        "key": "B",
+        "text": "£3,410.60",
+        "isCorrect": true,
+        "feedbackMd": "正确。37,700×8% = £3,016；19,730×2% = £394.60；合计 £3,410.60。"
+      },
+      {
+        "key": "C",
+        "text": "£5,600.00",
+        "isCorrect": false,
+        "feedbackMd": "错误。£5,600 是按 8% 乘全部 £70,000 得出的（70,000×8%），忽略了 PT 门槛与超出 UEL 后只按 2% 的分段。"
+      },
+      {
+        "key": "D",
+        "text": "£394.60",
+        "isCorrect": false,
+        "feedbackMd": "错误。£394.60 只是超过 UEL 部分（19,730×2%）的税额，漏掉了 8% 主档的 £3,016。"
+      }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\nClass 1 employee NIC 按“分段”计算：先看工资落在哪些区间，再分别乘对应税率。2025/26 税年的 PT 为 £12,570、UEL 为 £50,270。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{8% 的区间：}& \\text{£}50,270 - \\text{£}12,570 = \\text{£}37,700\\\\\n& £37,700 \\times 8\\% = \\text{£}3,016.00\\\\[6pt]\n\\text{2% 的区间：}& \\text{£}70,000 - \\text{£}50,270 = \\text{£}19,730\\\\\n& £19,730 \\times 2\\% = \\text{£}394.60\\\\[6pt]\n\\hline\n\\text{合计} &= \\text{£}3,410.60\n\\end{aligned}\n\n答案 = £3,410.60。\n\n## 对应知识点\n\nClass 1 employee NIC: 8% / 2% between PT and UEL（第六章）。\n\n## 其他选项分析\n\n- A：漏掉 2% 超档部分。\n- C：错误地用 8% 计算全部工资。\n- D：漏掉 8% 主档部分。\n\n## 易错提醒\n\n务必把工资拆成三段：PT 以下不缴、PT 至 UEL 按 8%、UEL 以上按 2%。不要用单一税率乘全额。\n\n## 考试技巧\n\n先写“PT = £12,570”“UEL = £50,270”，再分两段计算，避免漏段或混档。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "09",
+    "topicTitle": "Corporation Tax Computation and Rates",
+    "kpTitle": "Marginal relief between £50,000 and £250,000",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "Tax year 2025/26 (FA 2025). A single company with no associated companies has taxable total profits of £150,000. The main rate for profits at or above £250,000 is 25%, the small profits rate for profits at or below £50,000 is 19%, and marginal relief applies between £50,000 and £250,000 using the marginal relief fraction of 3/200. Which of the following statements are correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The company's profits are within the marginal relief band.",
+        "isCorrect": true,
+        "feedbackMd": "正确。利润 £150,000 处于 £50,001–£250,000 之间，属边际减免区间。"
+      },
+      {
+        "key": "B",
+        "text": "Corporation tax is charged at 25% on the whole profit and marginal relief is then deducted.",
+        "isCorrect": true,
+        "feedbackMd": "正确。中间利润先按主税率 25% 计，再扣减边际减免。"
+      },
+      {
+        "key": "C",
+        "text": "The small profits rate of 19% applies to the whole profit.",
+        "isCorrect": false,
+        "feedbackMd": "错误。19% 仅适用于利润 ≤ £50,000；£150,000 适用 25% 扣减边际减免。"
+      },
+      {
+        "key": "D",
+        "text": "The corporation tax is £36,000.",
+        "isCorrect": true,
+        "feedbackMd": "正确。150,000×25% = 37,500；MR = 3/200×(250,000−150,000) = 1,500；37,500 − 1,500 = 36,000。"
+      }
+    ],
+    "answerJson": "[\"A\",\"B\",\"D\"]",
+    "explanationMd": "## 正确答案\n\nA、B、D\n\n## 为什么\n\n公司税自 2023/24 起（2025/26 沿用）实行多档税率：利润 ≤ £50,000 用 19% 小公司税率；利润 ≥ £250,000 用 25% 主税率；处在两者之间时适用“边际减免”，即先按 25% 计，再扣减边际减免，使实际税率落在 19%–25% 之间。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{按 25% 计} &= \\text{£}150,000 \\times 25\\% = \\text{£}37,500\\\\\n\\text{边际减免 (MR)} &= \\frac{3}{200} \\times (\\text{£}250,000 - \\text{£}150,000)\\\\\n&= 0.015 \\times \\text{£}100,000 = \\text{£}1,500\\\\[6pt]\n\\hline\n\\text{公司税} &= \\text{£}37,500 - \\text{£}1,500 = \\text{£}36,000\n\\end{aligned}\n\n有效税率 = 36,000 ÷ 150,000 = 24%，介于 19% 与 25% 之间，符合边际减免逻辑。\n\n## 对应知识点\n\nMarginal relief between £50,000 and £250,000（第九章）。\n\n## 其他选项分析\n\n- A：正确——£150,000 落在 £50,001–£250,000 区间内。\n- B：正确——先按 25%，再扣 MR。\n- C：错误——19% 只适用于 ≤ £50,000，不是 £150,000。\n- D：正确——£36,000 是上述计算所得。\n\n## 易错提醒\n\n最易错在：1) 把中间利润直接按 19% 计算；2) 忘记边际减免公式是 3/200 ×（上限 − 利润）；3) 忽略关联公司会使上下限按比例缩小。\n\n## 考试技巧\n\n先判断利润落在哪个区间，再决定用 25%＋边际减免，还是直接用 19%/25%。MR = 3/200 ×（上限 − 利润）是关键公式。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "08",
+    "topicTitle": "Business Asset Disposal Relief (BADR)",
+    "kpTitle": "BADR: conditions and the 10% rate",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 2,
+    "textMd": "Tax year 2025/26 (FA 2025). In December 2025 a basic-rate taxpayer sold their qualifying business as a going concern and realised a gain of £48,000 that is fully eligible for Business Asset Disposal Relief (BADR at 10%). They had no other chargeable gains in the year. The annual exempt amount is £3,000. What is the CGT payable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "£4,500",
+        "isCorrect": true,
+        "feedbackMd": "正确。48,000 − 3,000（AEA）= 45,000；45,000 × 10% = £4,500。"
+      },
+      {
+        "key": "B",
+        "text": "£4,800",
+        "isCorrect": false,
+        "feedbackMd": "错误。£4,800 是按 10% 乘全部 £48,000，忘了扣除年度免税额 £3,000。"
+      },
+      {
+        "key": "C",
+        "text": "£9,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。£9,000 是按 20% 计算（45,000×20%），但 BADR 的优惠税率是 10%，且本题为基本税率纳税人。"
+      },
+      {
+        "key": "D",
+        "text": "£0",
+        "isCorrect": false,
+        "feedbackMd": "错误。虽然有利得减免，但 £48,000 已远超年度免税额 £3,000，不能全额免税。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\nBusiness Asset Disposal Relief (BADR) 允许符合条件的企业资产利得按优惠税率 10% 计税，而不是通常的 18%/24%。计算时先扣除年度免税额 £3,000，再对剩余应税利得按 10% 计。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{BADR 合格利得} &= \\text{£}48,000\\\\\n- \\text{年度免税额 (AEA)} &= -\\text{£}3,000\\\\\n\\hline\n\\text{应税利得} &= \\text{£}45,000\\\\\n\\text{CGT} &= \\text{£}45,000 \\times 10\\% = \\text{£}4,500\n\\end{aligned}\n\n答案 = £4,500。\n\n## 对应知识点\n\nBADR: conditions and the 10% rate（第八章）。\n\n## 其他选项分析\n\n- B：漏扣年度免税额 £3,000。\n- C：误用 20%（应使用 BADR 的 10%）。\n- D：误以为利得因 BADR 而全部免税，实际 £48,000 已远超 £3,000。\n\n## 易错提醒\n\n1) BADR 只适用于符合资格的企业资产，且有终身限额；2) AEA £3,000 应先冲抵税率较高的利得；3) BADR 税率为 10%，非 18%/24%。\n\n## 考试技巧\n\n先确认该利得是否满足 BADR 条件，再“利得 − AEA”后按 10% 计税。若同时存在普通利得，应把 AEA 优先冲抵 24% 的普通利得。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "04",
+    "topicTitle": "Losses and the Income Tax Computation for the Self-employed",
+    "kpTitle": "Income tax computation for a self-employed individual",
+    "type": "FILL_NUMERIC",
+    "difficulty": 4,
+    "textMd": "Tax year 2025/26 (FA 2025). A self-employed individual had a tax-adjusted trading profit of £85,000 and gross bank interest of £6,000, with no other income. Personal allowance is £12,570 (not restricted). The basic rate band is £37,700 at 20%, the higher rate is 40%, and the additional rate is 45%. The savings starting rate of 0% is reduced by taxable non-savings income; the personal savings allowance is £500 for a higher-rate taxpayer (this taxpayer is higher-rate because taxable non-savings income exceeds the £37,700 basic band). Enter the total income tax liability in £.",
+    "options": [],
+    "answerJson": "{\"value\":\"23632\",\"tolerance\":50,\"unit\":\"£\"}",
+    "explanationMd": "## 正确答案\n\n£23,632\n\n## 为什么\n\n先合并总收入，再扣除个人免税额，然后按“非储蓄所得 → 储蓄所得”顺序分层计税。本题非储蓄所得为自雇利润 £85,000，储蓄所得为利息 £6,000。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{总收入} &= \\text{£}85,000 + \\text{£}6,000 = \\text{£}91,000\\\\\n- \\text{个人免税额} &= -\\text{£}12,570\\\\\n\\hline\n\\text{非储蓄所得（税）} &= \\text{£}85,000 - \\text{£}12,570 = \\text{£}72,430\\\\\n\\text{储蓄所得（税）} &= \\text{£}6,000\\\\[6pt]\n\\text{非储蓄计税：}& 37,700 \\times 20\\% = \\text{£}7,540\\\\\n& (72,430 - 37,700) = 34,730 \\times 40\\% = \\text{£}13,892\\\\\n& \\text{小计} = \\text{£}21,432\\\\[6pt]\n\\text{储蓄计税：}& \\text{基本带已被非储蓄所得用尽} \\Rightarrow \\text{高税率 }40\\%\\\\\n& \\text{储蓄起始 0% 带因非储蓄所得 }72,430>5,000 \\text{ 为 }0\\\\\n& \\text{PSA（高税率）}= \\text{£}500 \\times 0\\% = \\text{£}0\\\\\n& \\text{剩余} (6,000 - 500) = 5,500 \\times 40\\% = \\text{£}2,200\\\\[6pt]\n\\hline\n\\text{合计} &= \\text{£}21,432 + \\text{£}2,200 = \\text{£}23,632\n\\end{aligned}\n\n答案 = £23,632。\n\n## 对应知识点\n\nIncome tax computation for a self-employed individual（第四章）。\n\n## 其他选项分析\n\n本题为数值填空题，不设选项。常见错误为：漏扣个人免税额、误把储蓄按基本档 20% 计、或忽略 PSA 0% 部分。\n\n## 易错提醒\n\n1) 个人免税额要优先抵减非储蓄所得；2) 当非储蓄所得已用尽基本带时，储蓄与股息按高档计；3) 储蓄起始 0% 带会被非储蓄所得挤占；4) PSA 依纳税人档次而定（基本 £1,000、高率 £500、附加 £0）。\n\n## 考试技巧\n\n按“总收入 → 免税额 → 非储蓄 → 储蓄 → 股息”固定顺序逐层计算，并先判断纳税人是基本还是高税率，以确定 PSA 与储蓄/股息税率。",
+    "marks": 2,
+    "estimatedTimeSec": 150,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "11",
+    "topicTitle": "VAT Output and Input",
+    "kpTitle": "Output VAT on taxable supplies",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "Tax year 2025/26 (FA 2025). A VAT-registered business made standard-rated sales of £120,000 (exclusive of VAT) and taxable purchases of £45,000 (exclusive of VAT, all fully recoverable) in a VAT period. The standard rate is 20%. What is the net VAT payable to HMRC for the period?",
+    "options": [
+      {
+        "key": "A",
+        "text": "£15,000",
+        "isCorrect": true,
+        "feedbackMd": "正确。Output VAT = 120,000×20% = £24,000；Input VAT = 45,000×20% = £9,000；净应付 = 24,000 − 9,000 = £15,000。"
+      },
+      {
+        "key": "B",
+        "text": "£24,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。£24,000 只是 output VAT，忽略了可抵扣的 input VAT £9,000。"
+      },
+      {
+        "key": "C",
+        "text": "£9,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。£9,000 只是 input VAT，计算净应付时应从 output VAT 中扣除 input VAT，而不是只取 input VAT。"
+      },
+      {
+        "key": "D",
+        "text": "£19,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。该数值不符合任何标准计算（既不等于 output、也不等于 output−input）。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\nVAT 的净应付为“output VAT（销项税）减去可抵扣的 input VAT（进项税）”。Output VAT 按不含税销售额 × 税率（标准 20%）计算；input VAT 按不含税采购 × 20% 计算（此处全部可恢复）。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{Output VAT} &= \\text{£}120,000 \\times 20\\% = \\text{£}24,000\\\\\n\\text{Input VAT} &= \\text{£}45,000 \\times 20\\% = \\text{£}9,000\\\\[6pt]\n\\hline\n\\text{净应付 VAT} &= \\text{£}24,000 - \\text{£}9,000 = \\text{£}15,000\n\\end{aligned}\n\n答案 = £15,000。\n\n## 对应知识点\n\nOutput VAT on taxable supplies（第十一章）。\n\n## 其他选项分析\n\n- B：只算 output VAT，漏扣 input VAT。\n- C：只取 input VAT，方向错误。\n- D：数值不符合任何正确步骤。\n\n## 易错提醒\n\n1) 确认给出的销售额是不含税还是含税价：含税价须倒算（含税价 ÷ 1.2 × 20%）；2) 区分可恢复与不可恢复的 input VAT（用于免税供应或私人用途的不可扣）。\n\n## 考试技巧\n\n先确定“是否应税供应”，再分别算 output 与 input，最后 output − input = 应付净额。标记出“可恢复”的 input VAT 才算可抵扣。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "07",
+    "topicTitle": "CGT Rates and Annual Exempt Amount",
+    "kpTitle": "CGT rates: 18% basic and 24% higher (on/after 6 April 2024)",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 4,
+    "textMd": "Tax year 2025/26 (FA 2025). In 2025/26 a taxpayer had taxable income (after the personal allowance) of £32,000, leaving an unused basic-rate band for CGT of £37,700 − £32,000 = £5,700. During the year they sold a qualifying business, realising a gain of £30,000 fully eligible for Business Asset Disposal Relief (10%), and listed shares, realising a gain of £12,000. The annual exempt amount is £3,000. Non-BADR gains are taxed at 18% within the remaining basic band and 24% above it. What is the total CGT payable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "£4,818",
+        "isCorrect": true,
+        "feedbackMd": "正确。AEA 先冲抵 24% 的股份利得：12,000−3,000=9,000；其中 5,700×18%=1,026、3,300×24%=792，小计 £1,818；BADR 30,000×10%=£3,000；合计 £4,818。"
+      },
+      {
+        "key": "B",
+        "text": "£5,400",
+        "isCorrect": false,
+        "feedbackMd": "错误。该值按 30,000×10% + 12,000×20% 得出，漏扣 AEA 且误用 20%。"
+      },
+      {
+        "key": "C",
+        "text": "£3,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。这只计算了 BADR 部分（30,000×10%），完全忽略了股份利得 £12,000。"
+      },
+      {
+        "key": "D",
+        "text": "£5,238",
+        "isCorrect": false,
+        "feedbackMd": "错误。这是把 AEA £3,000 错误地优先冲抵 BADR 利得（30,000−3,000=27,000×10%=2,700；股份 5,700×18%+6,300×24%=2,538；合计 5,238），而非优先冲抵高税率的普通利得。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\nCGT 税率取决于当年应税所得对基本税率带的占用。本题应税所得 £32,000，故剩余基本带为 £5,700；非 BADR 利得中 £5,700 按 18%、超出部分按 24%。年度免税额 £3,000 应优先冲抵税率较高的普通利得（24%），以最大化节税。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{总利得} &= \\text{£}30,000 + \\text{£}12,000 = \\text{£}42,000\\\\\n\\text{AEA 优先冲抵 24% 的普通利得}&：\\text{£}12,000 - \\text{£}3,000 = \\text{£}9,000\\\\[6pt]\n\\text{普通利得计税：}& 5,700 \\times 18\\% = \\text{£}1,026\\\\\n& (9,000 - 5,700) = 3,300 \\times 24\\% = \\text{£}792\\\\\n& \\text{小计} = \\text{£}1,818\\\\[6pt]\n\\text{BADR 利得计税：}& 30,000 \\times 10\\% = \\text{£}3,000\\\\[6pt]\n\\hline\n\\text{合计 CGT} &= \\text{£}1,818 + \\text{£}3,000 = \\text{£}4,818\n\\end{aligned}\n\n答案 = £4,818。\n\n## 对应知识点\n\nCGT rates: 18% basic and 24% higher（第七章）。\n\n## 其他选项分析\n\n- B：漏扣 AEA 且误用 20%。\n- C：忽略普通利得。\n- D：把 AEA 错误冲抵低税率的 BADR 利得，而非 24% 的普通利得。\n\n## 易错提醒\n\n1) AEA 应优先冲抵税率最高的利得（普通 24% > BADR 10%）；2) 非 BADR 利得要拆“剩余基本带（18%）”与“超出部分（24%）”两段；3) 确定基本带剩余须先看应税所得如何占用。\n\n## 考试技巧\n\n先算“应税所得用掉多少基本带”，再决定利得分段；AEA 冲抵看“哪类利得税率更高”。把普通与 BADR 分开计税，最后相加。",
+    "marks": 2,
+    "estimatedTimeSec": 150,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "09",
+    "topicTitle": "Corporation Tax Computation and Rates",
+    "kpTitle": "Corporation tax main rate 25% and small profits rate 19%",
+    "type": "FILL_NUMERIC",
+    "difficulty": 5,
+    "textMd": "Tax year 2025/26 (FA 2025). Company Z had taxable total profits of £100,000 in its accounting period. It has one associated company, so there are two companies in the group and the marginal relief lower and upper limits are divided by 2: lower limit £25,000, upper limit £125,000. The main rate is 25% for profits at or above the upper limit, and the marginal relief fraction is 3/200. Enter the corporation tax payable in £.",
+    "options": [],
+    "answerJson": "{\"value\":\"24625\",\"tolerance\":50,\"unit\":\"£\"}",
+    "explanationMd": "## 正确答案\n\n£24,625\n\n## 为什么\n\n当公司有关联公司时，边际减免的上下限按“关联公司数量（含本公司）”均分。本题一家公司另有 1 家关联公司，共 2 家，故上限 = 250,000 ÷ 2 = £125,000，下限 = 50,000 ÷ 2 = £25,000。利润 £100,000 处于两者之间，适用边际减免：先按 25% 计，再扣减边际减免。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{上限} &= \\text{£}250,000 \\div 2 = \\text{£}125,000\\\\\n\\text{下限} &= \\text{£}50,000 \\div 2 = \\text{£}25,000\\\\[6pt]\n\\text{按 25% 计} &= \\text{£}100,000 \\times 25\\% = \\text{£}25,000\\\\\n\\text{边际减免 (MR)} &= \\frac{3}{200} \\times (\\text{£}125,000 - \\text{£}100,000)\\\\\n&= 0.015 \\times \\text{£}25,000 = \\text{£}375\\\\[6pt]\n\\hline\n\\text{公司税} &= \\text{£}25,000 - \\text{£}375 = \\text{£}24,625\n\\end{aligned}\n\n答案 = £24,625。有效税率 = 24,625 ÷ 100,000 = 24.625%，介于 19% 与 25% 之间。\n\n## 对应知识点\n\nCorporation tax main rate 25% and small profits rate 19%（第九章），并涉及 Marginal relief 的关联公司上下限均分。\n\n## 其他选项分析\n\n本题为数值填空题，不设选项。常见错误为：未把上下限按关联公司数量均分（直接用 50,000/250,000）、或对 MR 公式使用错误的“上限 − 利润”。\n\n## 易错提醒\n\n1) 关联公司数量包含本公司；2) 上下限都要均分；3) MR = 3/200 ×（调整后的上限 − 利润）；4) 短会计期间还需按比例调整上下限。\n\n## 考试技巧\n\n先确定“关联公司数量”，把上下限均分，再判断利润落在哪个区间，最后用“25%×利润 − MR”得出税负。",
+    "marks": 2,
+    "estimatedTimeSec": 180,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "TX",
+    "variant": "UK",
+    "chapterCode": "06",
+    "topicTitle": "Partnership Taxation",
+    "kpTitle": "Partnership tax computation (each partner)",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "Tax year 2025/26 (FA 2025). A and B are partners in a partnership. They share remaining profits in the ratio 2:1 after annual salaries of £12,000 (A) and £6,000 (B). The partnership's tax-adjusted trading profit for 2025/26 is £90,000. Ignoring other income and the personal allowance, what is A's share of the partnership profit that is taxed as his self-employment income?",
+    "options": [
+      {
+        "key": "A",
+        "text": "£60,000",
+        "isCorrect": true,
+        "feedbackMd": "正确。两支工资合计 18,000，剩余利润 90,000−18,000=72,000；A 按 2:1 分得 72,000×2/3=48,000；再加上工资 12,000，合计 £60,000。"
+      },
+      {
+        "key": "B",
+        "text": "£54,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。该值按 90,000×60%（2/3）得出，忽略应先支付工资再分配剩余利润。"
+      },
+      {
+        "key": "C",
+        "text": "£48,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。£48,000 只是 A 的剩余利润份额（72,000×2/3），漏加其工资 $12,000$。"
+      },
+      {
+        "key": "D",
+        "text": "£30,000",
+        "isCorrect": false,
+        "feedbackMd": "错误。£30,000 是 B 的合计份额（6,000 + 72,000×1/3 = 30,000），而非 A 的份额。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n合伙企业自身不纳税，其利润先支付合伴工资（salaries），再把剩余利润 (residual profit) 按约定利润分配比例分摊给各合伙人。每位合伙人把“工资 + 剩余利润份额”作为其自雇所得。\n\n## 计算过程\n\n\\begin{aligned}\n\\text{合伙利润} &= \\text{£}90,000\\\\\n- \\text{工资} (12,000+6,000) &= -\\text{£}18,000\\\\\n\\hline\n\\text{剩余利润} &= \\text{£}72,000\\\\[6pt]\n\\text{A 的剩余份额} &= \\text{£}72,000 \\times \\frac{2}{3} = \\text{£}48,000\\\\\n\\hline\n\\text{A 的合计份额} &= \\text{£}12,000 + \\text{£}48,000 = \\text{£}60,000\n\\end{aligned}\n\n答案 = £60,000。\n\n## 对应知识点\n\nPartnership tax computation (each partner)（第六章）。\n\n## 其他选项分析\n\n- B：忽略先支付工资，把 2:1 比例直接套在总利润上。\n- C：漏加 A 的工资 £12,000。\n- D：算出的是 B 的份额，混淆了 A/B。\n\n## 易错提醒\n\n一定要先减掉合伙人的工资/资本利息，再把剩余利润按比例分配；不要直接对总利润按比例乘。\n\n## 考试技巧\n\n顺序固定：总利润 − 工资/利息 = 剩余利润；剩余利润 × 各人份额比例；最后加回工资/利息，得出各合伙人计税所得。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": "2025/26",
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

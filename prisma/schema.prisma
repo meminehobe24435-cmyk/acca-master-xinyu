@@ -1,0 +1,517 @@
+// ACCA Master - Prisma Schema
+// 本地开发: SQLite (file:./dev.db)，生产可无缝切换 PostgreSQL（仅需修改 provider 与 DATABASE_URL）
+// 注: SQLite 不支持 Prisma enum / Json，故枚举以 String + 应用层常量表达，Json 以 String 存储。
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ========== 用户与认证 ==========
+
+model User {
+  id                String    @id @default(cuid())
+  email             String    @unique
+  username          String    @unique
+  passwordHash      String
+  displayName       String?
+  role              String    @default("USER") // USER | ADMIN
+  avatarHue         Int       @default(220)
+  examDate          DateTime? // 目标考试日期
+  dailyGoal         Int       @default(30) // 每日刷题目标
+  weeklyDays        Int       @default(5)
+  theme             String    @default("system") // light | dark | system
+  locale            String    @default("zh")
+  streakCount       Int       @default(0)
+  lastStudyDate     DateTime?
+  totalStudyMinutes Int       @default(0)
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  attempts           QuestionAttempt[]
+  favorites          Favorite[]
+  wrongQuestions     WrongQuestion[]
+  notes              Note[]
+  studySessions      StudySession[]
+  mockExamAttempts   MockExamAttempt[]
+  masteryScores      MasteryScore[]
+  studyPlans         StudyPlan[]
+  dailyTasks         DailyTask[]
+  userAchievements   UserAchievement[]
+  aiChats            AiChat[]
+  questionReports    QuestionReport[]
+  importBatches      ImportBatch[]
+}
+
+// ========== ACCA 知识树 ==========
+
+model SyllabusVersion {
+  id            String   @id @default(cuid())
+  code          String   @unique // 如 ACCA-Q-2026
+  name          String
+  effectiveFrom DateTime?
+  sourceUrl     String?
+  note          String?
+  createdAt     DateTime @default(now())
+
+  questions Question[]
+}
+
+model Paper {
+  id             String  @id @default(cuid())
+  code           String  @unique // BT MA FA LW PM TX FR AA FM SBL SBR AFM APM ATX AAA
+  name           String
+  nameCn         String?
+  level          String // APPLIED_KNOWLEDGE | APPLIED_SKILLS | STRATEGIC_PROFESSIONAL
+  category       String? // ESSENTIALS | OPTIONS (仅 Strategic Professional)
+  order          Int
+  accent         String? // 主题色
+  description    String?
+  examDurationMin Int   @default(180)
+  passMark       Int     @default(50)
+  examConfigJson String? // 官方考制: { sections: [{id,name,scope,count,marksPerQuestion,sectionMarks,writable}] }
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  variants   PaperVariant[]
+  chapters   Chapter[]
+  questions  Question[]
+  mockExams  MockExam[]
+}
+
+model PaperVariant {
+  id        String  @id @default(cuid())
+  paperId   String
+  code      String // GLO | UK | CHN | HKG | SGP | MYS | ...
+  label     String
+  region    String?
+  note      String?
+  createdAt DateTime @default(now())
+
+  paper     Paper       @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  questions Question[]
+  mockExams MockExam[]
+
+  @@unique([paperId, code])
+}
+
+model Chapter {
+  id          String  @id @default(cuid())
+  paperId     String
+  code        String // 01, 02 ...
+  title       String
+  order       Int
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  paper     Paper           @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  topics    Topic[]
+  questions Question[]
+
+  @@unique([paperId, code])
+}
+
+model Topic {
+  id          String  @id @default(cuid())
+  chapterId   String
+  title       String
+  order       Int
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  chapter         Chapter           @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  knowledgePoints KnowledgePoint[]
+  questions       Question[]
+
+  @@unique([chapterId, title])
+}
+
+model KnowledgePoint {
+  id                String  @id @default(cuid())
+  topicId           String
+  code              String? // 如 IFRS15.3
+  title             String
+  summary           String? // 一句话理解
+  contentMd         String? // 完整 Markdown 知识点
+  standardReference String? // IFRS 15 / IAS 16 等
+  examFrequency     String? // HIGH | MEDIUM | LOW
+  order             Int      @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  topic          Topic           @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  questions      Question[]
+  masteryScores  MasteryScore[]
+
+  @@unique([topicId, title])
+}
+
+// ========== 题库 ==========
+
+model Question {
+  id                String   @id @default(cuid())
+  paperId           String
+  variantId         String?
+  chapterId         String?
+  topicId           String?
+  knowledgePointId  String?
+
+  type            String  // SINGLE_CHOICE | MULTIPLE_CHOICE | TRUE_FALSE | FILL_NUMERIC | CALCULATION | MATCHING | CLASSIFICATION | CASE_MCQ | CONSTRUCTED_RESPONSE | ESSAY | ACCOUNTING_ENTRY | FINANCIAL_STATEMENT
+  difficulty      Int     // 1 基础 2 简单 3 中等 4 困难 5 Exam Level
+  status          String  @default("draft") // draft | ai_reviewed | human_reviewed | published | archived
+  reviewStatus    String? // draft | ai_reviewed | human_reviewed | published | archived
+
+  textMd          String // 题干（Markdown，可含 LaTeX 公式与表格）
+  answerJson      String // 规范答案（选择题为 ["B"]；数字题 {value,tolerance,unit}; 匹配 {pairs:[...]}; 分类 {assignment:{item:group}}; 主观题 {modelAnswer,rubric:[{point,marks}]}）
+  explanationMd   String // 完整解析（Markdown + LaTeX）
+  marks           Float  @default(1)
+  estimatedTimeSec Int  @default(120)
+
+  sourceType      String // original_ai_generated | public_sample | user_imported | licensed | manual_created
+  sourceName      String? // 来源名称（必须标注）
+  sourceUrl       String?
+  copyrightStatus String @default("original") // original | public_domain | cc | licensed | user_owned | other
+  syllabusVersionId String?
+  taxYear         String? // TX/ATX 专用: 2025/26
+  jurisdiction    String? // 法律科目专用: UK | Western Australia | ...
+  standardReference String? // IFRS 15 / IAS 16 / ISA 500 ...
+
+  questionHash    String  @unique // 规范化文本哈希（查重）; 由 importer 计算，unique 约束排除空串冲突
+
+  generationModel String?
+  generationDate  DateTime?
+  verified        Boolean  @default(false)
+  verifiedAt      DateTime?
+  verifiedBy      String?
+
+  attemptCount    Int   @default(0)
+  correctCount    Int   @default(0)
+  reportCount     Int   @default(0)
+  qualityScore    Float?
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  paper           Paper            @relation(fields: [paperId], references: [id])
+  variant         PaperVariant?    @relation(fields: [variantId], references: [id])
+  chapter         Chapter?         @relation(fields: [chapterId], references: [id])
+  topic           Topic?           @relation(fields: [topicId], references: [id])
+  knowledgePoint  KnowledgePoint?  @relation(fields: [knowledgePointId], references: [id])
+  syllabusVersion SyllabusVersion? @relation(fields: [syllabusVersionId], references: [id])
+  options         QuestionOption[]
+  attempts        QuestionAttempt[]
+  wrongQuestions  WrongQuestion[]
+  aiChats         AiChat[]
+  reports         QuestionReport[]
+
+  @@index([paperId, chapterId, status])
+  @@index([topicId])
+  @@index([knowledgePointId])
+  @@index([difficulty])
+  @@index([type])
+  @@index([status])
+  @@index([paperId, difficulty, status])
+  @@index([paperId, chapterId, difficulty])
+}
+
+model QuestionOption {
+  id         String  @id @default(cuid())
+  questionId String
+  key        String // A | B | C | D | E | TRUE | FALSE
+  text       String
+  isCorrect  Boolean @default(false)
+  feedbackMd String? // 该选项为什么错的解析
+  sortOrder  Int     @default(0)
+  createdAt  DateTime @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, key])
+}
+
+// ========== 答题记录 ==========
+
+model QuestionAttempt {
+  id          String   @id @default(cuid())
+  userId      String?
+  questionId  String
+  mode        String // PRACTICE | SMART | CHAPTER | KNOWLEDGE | RANDOM | MISTAKES | FAVORITES | MOCK | TEST | GUEST
+  answerJson  String? // 用户提交的答案
+  isCorrect   Boolean?
+  score       Float?
+  timeSpentSec Int    @default(0)
+  attemptDate DateTime @default(now())
+
+  user     User?    @relation(fields: [userId], references: [id])
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([userId, attemptDate])
+  @@index([questionId])
+  @@index([userId, questionId, attemptDate])
+}
+
+// ========== 模拟考试 ==========
+
+model MockExam {
+  id           String  @id @default(cuid())
+  paperId      String
+  variantId    String?
+  name         String
+  description  String?
+  durationMin  Int
+  totalMarks   Float
+  configJson   String // sections: [{id, name, questionIds: [..], marksPerQuestion}]
+  isActive     Boolean @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  paper    Paper              @relation(fields: [paperId], references: [id])
+  variant  PaperVariant?      @relation(fields: [variantId], references: [id])
+  attempts MockExamAttempt[]
+}
+
+model MockExamAttempt {
+  id          String   @id @default(cuid())
+  mockExamId  String
+  userId      String?
+  startAt     DateTime @default(now())
+  endAt       DateTime // startAt + duration
+  submittedAt DateTime?
+  status      String   @default("IN_PROGRESS") // IN_PROGRESS | SUBMITTED | AUTO_SUBMITTED | EXPIRED
+  answersJson String? // { questionId: answerJson }
+  score       Float?
+  totalMarks  Float?
+  sectionStatsJson String? // [{sectionId, earned, total, attempted}]
+  createdAt   DateTime @default(now())
+
+  mockExam MockExam   @relation(fields: [mockExamId], references: [id], onDelete: Cascade)
+  user     User?      @relation(fields: [userId], references: [id])
+
+  @@index([userId, startAt])
+}
+
+// ========== 收藏 / 错题 / 笔记 ==========
+
+model FavoriteCollection {
+  id          String   @id @default(cuid())
+  userId      String
+  name        String
+  description String?
+  createdAt   DateTime @default(now())
+
+  favorites Favorite[]
+}
+
+model Favorite {
+  id           String  @id @default(cuid())
+  userId       String
+  targetType   String // QUESTION | KNOWLEDGE_POINT | EXPLANATION
+  targetId     String
+  collectionId String?
+  note         String?
+  createdAt    DateTime @default(now())
+
+  user       User?               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  collection FavoriteCollection? @relation(fields: [collectionId], references: [id])
+
+  @@unique([userId, targetType, targetId])
+  @@index([userId])
+}
+
+model WrongQuestion {
+  id            String    @id @default(cuid())
+  userId        String
+  questionId    String
+  firstWrongAt  DateTime  @default(now())
+  lastWrongAt   DateTime  @default(now())
+  wrongCount    Int       @default(1)
+  stage         Int       @default(0) // 0..5 间隔重复阶段
+  nextReviewAt  DateTime  @default(now())
+  lastAnswerJson String?
+  errorCategory String? // CONCEPT | FORMULA | CALCULATION | MISREAD | FORGOT | STANDARD | CARELESS | OTHER
+  userLabel     String?
+  mastered      Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+  @@index([userId, mastered, nextReviewAt])
+}
+
+model Note {
+  id         String   @id @default(cuid())
+  userId     String
+  targetType String // QUESTION | KNOWLEDGE_POINT
+  targetId   String
+  contentMd  String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, targetType, targetId])
+  @@index([userId])
+}
+
+// ========== 学习记录 / 计划 ==========
+
+model StudySession {
+  id                 String   @id @default(cuid())
+  userId             String
+  startAt            DateTime @default(now())
+  endAt              DateTime?
+  durationSec        Int      @default(0)
+  questionsAttempted Int      @default(0)
+  correctCount       Int      @default(0)
+  mode               String   @default("PRACTICE")
+  createdAt          DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, startAt])
+}
+
+model StudyPlan {
+  id          String   @id @default(cuid())
+  userId      String
+  targetDate  DateTime
+  dailyGoalQuestions Int @default(30)
+  dailyMinutes Int    @default(60)
+  daysPerWeek Int     @default(5)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId])
+}
+
+model DailyTask {
+  id          String   @id @default(cuid())
+  userId      String
+  date        DateTime
+  type        String // CHAPTER_QUESTIONS | MISTAKE_REVIEW | MOCK_EXAM | KNOWLEDGE_REVIEW | CUSTOM
+  title       String
+  paperCode   String?
+  referenceId String?
+  targetCount Int      @default(20)
+  doneCount   Int      @default(0)
+  source      String   @default("PLAN") // PLAN | AUTO | CUSTOM
+  completed   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date, title])
+  @@index([userId, date])
+}
+
+// ========== 掌握度 ==========
+
+model MasteryScore {
+  id               String   @id @default(cuid())
+  userId           String
+  knowledgePointId String
+  score            Float    @default(0)
+  attempts         Int      @default(0)
+  correct          Int      @default(0)
+  lastCorrect      Boolean?
+  lastAttemptAt    DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  user            User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  knowledgePoint  KnowledgePoint  @relation(fields: [knowledgePointId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, knowledgePointId])
+  @@index([userId])
+}
+
+// ========== 成就 ==========
+
+model Achievement {
+  id          String @id @default(cuid())
+  code        String @unique
+  name        String
+  description String
+  icon        String // lucide icon name
+  threshold   Int
+  order       Int    @default(0)
+
+  userAchievements UserAchievement[]
+}
+
+model UserAchievement {
+  id           String   @id @default(cuid())
+  userId       String
+  achievementId String
+  unlockedAt   DateTime @default(now())
+
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement Achievement @relation(fields: [achievementId], references: [id])
+
+  @@unique([userId, achievementId])
+}
+
+// ========== AI ==========
+
+model AiChat {
+  id           String   @id @default(cuid())
+  userId       String?
+  questionId   String?
+  mode         String   @default("TUTOR") // TUTOR | REPORT | GENERATE
+  title        String?
+  messagesJson String   @default("[]")
+  createdAt    DateTime @default(now())
+
+  user     User?     @relation(fields: [userId], references: [id])
+  question Question? @relation(fields: [questionId], references: [id])
+
+  @@index([userId, createdAt])
+}
+
+// ========== 质量反馈 ==========
+
+model QuestionReport {
+  id         String   @id @default(cuid())
+  userId     String?
+  questionId String
+  reason     String // WRONG_ANSWER | BAD_QUESTION | UNCLEAR_EXPLANATION | OUTDATED | OTHER
+  detail     String?
+  status     String   @default("OPEN") // OPEN | RESOLVED | REJECTED
+  resolution String?
+  createdAt  DateTime @default(now())
+  resolvedAt DateTime?
+
+  user     User?     @relation(fields: [userId], references: [id])
+  question Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([status])
+  @@index([questionId])
+}
+
+// ========== 导入批次 ==========
+
+model ImportBatch {
+  id          String   @id @default(cuid())
+  userId      String?
+  fileName    String
+  format      String // CSV | XLSX | JSON
+  totalCount  Int
+  okCount     Int
+  warningCount Int
+  errorCount  Int
+  rowsJson    String   @default("[]") // [{row, status, message}]
+  questionIdsJson String @default("[]")
+  createdAt   DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+}

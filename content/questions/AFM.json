@@ -1,0 +1,52 @@
+[
+  {
+    "paper": "AFM",
+    "variant": "GLO",
+    "chapterCode": "03",
+    "topicTitle": "Investment appraisal under uncertainty",
+    "kpTitle": "Adjusted present value (APV)",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 4,
+    "textMd": "A company is appraising a project. The all-equity (base case) net present value (NPV) of the project is £180,000. The project is financed partly by a specific loan, giving a present value of interest tax shield of £60,000. The company will also incur a share issue cost of £20,000 and a flotation cost of £10,000. What is the project's adjusted present value (APV)?\n\nA. £210,000\nB. £240,000\nC. £220,000\nD. £120,000",
+    "options": [
+      { "key": "A", "text": "£210,000", "isCorrect": true, "feedbackMd": "正确：APV = 基础 NPV 180,000 + 税盾现值 60,000 − 发行成本 20,000 − 上市费用 10,000 = 210,000。" },
+      { "key": "B", "text": "£240,000", "isCorrect": false, "feedbackMd": "错误：240,000 = 180,000 + 60,000，只加了税盾却忽略了发行成本与上市费用。" },
+      { "key": "C", "text": "£220,000", "isCorrect": false, "feedbackMd": "错误：220,000 = 180,000 + 60,000 − 20,000，只扣了发行成本，未扣 10,000 的上市费用。" },
+      { "key": "D", "text": "£120,000", "isCorrect": false, "feedbackMd": "错误：120,000 = 180,000 − 60,000，把税盾当作扣减而非增加，方向相反。" }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n调整现值（APV）把项目价值拆成“全权益基础价值”与“融资副作用”两部分：APV = 基础 NPV + 融资副作用。融资副作用包括正的利息税盾与负的发行/上市成本。本题中，基础 NPV 为 180,000，税盾现值 60,000（正），发行成本 20,000 与上市费用 10,000（负）。\n\n## 计算过程\n\nAPV = 180,000 + 60,000 − 20,000 − 10,000 = £210,000\n\n## 对应知识点\n\nAFM 第 3 章：调整现值（APV）——基础 NPV 与融资效应分离。\n\n## 其他选项分析\n\nB 漏扣了发行与上市成本；C 只扣了发行成本未扣上市费用；D 把税盾方向搞反。只有 A 正确地把四项加总。\n\n## 易错提醒\n\nAPV 中的基础现金流要用“无杠杆资本成本（unlevered cost of equity）”折现，而不是加权平均资本成本（WACC）；融资副作用（税盾、补贴、发行成本）单独计算并加到基础 NPV。\n\n## 考试技巧\n\n按“基础 NPV + 各融资效应 − 各类发行/上市成本”的分项列出，逐项核对，避免漏加或漏减某一项。",
+    "marks": 2,
+    "estimatedTimeSec": 220,
+    "taxYear": null,
+    "standardReference": "ACCA AFM",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AFM",
+    "variant": "GLO",
+    "chapterCode": "08",
+    "topicTitle": "Types of currency risk and hedging",
+    "kpTitle": "Currency hedging with forwards and futures",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 4,
+    "textMd": "A UK exporter expects to receive US$1,000,000 in three months. The current spot rate is $1.40/£ and the three-month forward rate is $1.42/£. The exporter decides to hedge using a forward contract to sell the dollars. Approximately how many pounds will the exporter receive?\n\nA. £704,225\nB. £714,286\nC. £1,420,000\nD. £700,000",
+    "options": [
+      { "key": "A", "text": "£704,225", "isCorrect": true, "feedbackMd": "正确：把 1,000,000 美元按远期 1.42 美元/英镑卖出，得到 1,000,000 ÷ 1.42 ≈ 704,225 英镑。" },
+      { "key": "B", "text": "£714,286", "isCorrect": false, "feedbackMd": "错误：714,286 = 1,000,000 ÷ 1.40，用的是即期汇率而非远期汇率。" },
+      { "key": "C", "text": "£1,420,000", "isCorrect": false, "feedbackMd": "错误：1,420,000 = 1,000,000 × 1.42，把汇率方向用反了（应除以而非乘以）。" },
+      { "key": "D", "text": "£700,000", "isCorrect": false, "feedbackMd": "错误：近似值不精确，未按 1.42 准确折算；正确结果约为 704,225。" }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n远期合约（forward）在签约时就锁定未来汇率，用于对冲外币收款/付款的汇率风险。出口商未来将收到 1,000,000 美元，若现在以远期汇率 1.42 美元/英镑卖出美元，则锁定可兑换的英镑金额。因为汇率是“美元/英镑”，要把美元换成英镑需除以该汇率。\n\n## 计算过程\n\n英镑金额 = 1,000,000 ÷ 1.42 ≈ £704,225\n\n## 对应知识点\n\nAFM 第 8 章：汇率风险管理——远期合约对冲。\n\n## 其他选项分析\n\nB 用的是即期汇率 1.40（未反映对冲锁定）；C 把除法错做成乘法；D 为不精确近似。A 正确使用了给定的远期汇率。\n\n## 易错提醒\n\n记住汇率方向：若报价为 $/£（如 1.42），要把美元换算成英镑就用美元金额除以汇率；反之若为 £/$ 则相乘。同时区分“到期收款用远期锁定”与“即期的观望”。\n\n## 考试技巧\n\n先确认买卖方向（本题卖美元换英镑），再用远期汇率按正确方向折算；若给出即期与远期，注意区分二者用途（远期用于对冲）。",
+    "marks": 2,
+    "estimatedTimeSec": 200,
+    "taxYear": null,
+    "standardReference": "ACCA AFM",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

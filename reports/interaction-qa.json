@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Practice Runner Desktop",
+    "file": "21-practice-runner-desktop.png",
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  {
+    "name": "Answer Feedback Desktop",
+    "file": "22-answer-feedback-desktop.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "hasResultPanel": 3
+  },
+  {
+    "name": "Practice Runner Mobile 390",
+    "file": "23-mobile-runner.png",
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  {
+    "name": "Mobile Question Navigator Sheet",
+    "file": "24-mobile-nav-drawer.png",
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  {
+    "name": "Mock Exam Desktop",
+    "file": "25-mock-exam-desktop.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "url": "http://127.0.0.1:3000/mock/attempt/cmtv9q3i60009eyl4ofdenvpe"
+  },
+  {
+    "name": "Mock Exam Mobile 390",
+    "file": "26-mock-exam-mobile.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "url": "http://127.0.0.1:3000/mock/attempt/cmtv9q52k000deyl4m9satxa4"
+  },
+  {
+    "name": "Knowledge Point Mobile 390",
+    "file": "27-mobile-knowledge-point.png",
+    "consoleErrors": [],
+    "pageErrors": [],
+    "url": "http://127.0.0.1:3000/knowledge/cmtupfe0x0163eyd0rgiattm0"
+  },
+  {
+    "name": "Dark Mode Feedback",
+    "file": "28-dark-feedback.png",
+    "consoleErrors": [],
+    "pageErrors": []
+  }
+]

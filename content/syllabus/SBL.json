@@ -1,0 +1,868 @@
+{
+  "code": "SBL",
+  "name": "Strategic Business Leader",
+  "nameCn": "战略商业领袖",
+  "level": "STRATEGIC_PROFESSIONAL",
+  "category": "ESSENTIALS",
+  "order": 10,
+  "accent": "#6366f1",
+  "description": "融合领导力、公司治理、战略与风险管理的综合商业案例科目，考察高级管理者的决策与沟通能力。",
+  "examDurationMin": 195,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Case Study", "scope": "案例题", "count": 4, "marksPerQuestion": 20, "sectionMarks": 80 },
+      { "id": "B", "name": "Section B - Constructed Response", "scope": "主观题", "count": 2, "marksPerQuestion": 10, "sectionMarks": 20 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Leadership and Management",
+      "description": "理解领导者的角色、领导风格与变革管理，以及个人在组织中的责任。",
+      "topics": [
+        {
+          "title": "Leadership theories and styles",
+          "points": [
+            {
+              "code": "SBL.1.1",
+              "title": "Leadership qualities and styles",
+              "summary": "领导者通过愿景与影响力引导团队，不同领导风格（权威、民主、变革型等）适用于不同情境。",
+              "contentMd": "## 核心概念\n\n领导（leadership）是影响他人以实现共同目标的过程，区别于单纯的管理（管理侧重计划、组织与控制）。领导风格包括独裁/专制、民主/参与、放任（laissez-faire）、变革型（transformational）、交易型（transactional）与愿景型等，需依情境与组织发展阶段选择。\n\n## 常见考法\n\n判断某领导行为属于哪种风格，或评估风格与情境的匹配。\n\n## 易错点\n\n领导者与管理者不同：领导者强调方向与影响力，管理者侧重流程与执行。\n\n## 例子\n\n危机时刻迅速拍板的领导偏向专制风格；创新团队常用于协作民主风格。\n\n## 考试提醒\n\n把“情境领导”作为判断风格匹配的核心。",
+              "standardReference": "ACCA SBL Leadership",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.1.2",
+              "title": "Transformational and transactional leadership",
+              "summary": "变革型领导通过愿景与激励驱动变革，交易型领导通过奖惩维持秩序与绩效。",
+              "contentMd": "## 核心概念\n\n变革型领导（transformational leadership）通过理想化影响、鼓舞性激励、智力激发与个性化关怀，激发下属超越预期；交易型领导（transactional leadership）依靠权变奖励（contingent reward）与例外管理（management by exception）维持既定绩效。变革型更适合推动组织转型。\n\n## 常见考法\n\n区分两类领导并分析其适用情境与效果。\n\n## 易错点\n\n变革型与交易型并非对立，优秀领导者常兼而有之。\n\n## 例子\n\n领袖用宏大愿景激发研发团队创新，属变革型；用月度考核奖罚驱动销售，属交易型。\n\n## 考试提醒\n\n用“愿景激励 vs 奖惩控制”区分两类领导。",
+              "standardReference": "ACCA SBL Leadership",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.1.3",
+              "title": "Leadership effectiveness and followership",
+              "summary": "领导效果取决于能力、情境与下属配合，良好的追随关系是领导成功的保障。",
+              "contentMd": "## 核心概念\n\n领导有效性（leadership effectiveness）受领导者特质、下属特质（能力、动机、成熟度）与外部情境共同影响。成熟的追随者（followership）能主动、独立地执行并反馈，双方信任与沟通决定领导成败。\n\n## 常见考法\n\n分析影响领导有效性的因素，或评价领导与下属的匹配度。\n\n## 易错点\n\n领导有效性不是单靠领导者个人魅力，而是多方互动的结果。\n\n## 例子\n\n新领导空降成熟团队时，若忽略下属能力与信任，管理会受阻。\n\n## 考试提醒\n\n从“领导者+下属+情境”三角评估领导有效性。",
+              "standardReference": "ACCA SBL Leadership",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Change and organisational leadership",
+          "points": [
+            {
+              "code": "SBL.1.4",
+              "title": "Leading and managing change",
+              "summary": "组织变革需识别变革阻力，通过沟通、参与与领导推动向目标状态过渡。",
+              "contentMd": "## 核心概念\n\n变革管理（change management）需分析现状、设计目标并管理过渡过程，经典模型如 Kotter 八步（建立紧迫感、组建联盟、愿景沟通等）。变革阻力（resistance）源于利益、习惯、恐惧与不确定性，可通过沟通、参与、培训与激励化解。\n\n## 常见考法\n\n分析变革阻力的来源，或评价变革领导策略的有效性。\n\n## 易错点\n\n自上而下的强制变革往往因忽视员工参与而失败。\n\n## 例子\n\n企业引入新系统时提前让员工参与并培训，减少了变革阻力。\n\n## 考试提醒\n\n用“紧迫感→联盟→愿景→参与→巩固”梳理变革路径。",
+              "standardReference": "ACCA SBL Change Management",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.1.5",
+              "title": "Managing conflict and negotiation",
+              "summary": "冲突管理需要识别冲突根源并选择合适策略，谈判在追求共赢的同时保留各方诉求。",
+              "contentMd": "## 核心概念\n\n组织冲突（conflict）源于目标、资源、价值观与沟通差异，可用竞争、回避、迁就、妥协与协作五种策略（应对冲突模式）处理。谈判（negotiation）是各方通过沟通达成协议的过程，可追求分配型（dividing the pie）或整合型（expanding the pie）结果。\n\n## 常见考法\n\n判断冲突类型并选择处理策略，或分析谈判技巧。\n\n## 易错点\n\n协作（collaboration）追求双方共赢，而回避与迁就常掩盖问题。\n\n## 例子\n\n两个部门争夺预算，通过协作找到共享资源方案，属整合型谈判。\n\n## 考试提醒\n\n先识别冲突根源，再匹配应对策略。",
+              "standardReference": "ACCA SBL Conflict",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.1.6",
+              "title": "Personal development and professional responsibility",
+              "summary": "领导者需持续提升能力并承担专业责任，保持谦逊、正直与持续学习。",
+              "contentMd": "## 核心概念\n\n个人发展（personal development）涉及自我认知、技能提升、反馈与反思；专业责任（professional responsibility）要求领导者履行对组织、客户与社会的义务，做到正直、诚信与受托责任（stewardship）。\n\n## 常见考法\n\n评价领导者的自我认知与责任履行，或提出发展建议。\n\n## 易错点\n\n领导者应平衡“业绩导向”与“责任与伦理”。\n\n## 例子\n\n领导者定期复盘决策并寻求反馈，体现持续学习与自我发展。\n\n## 考试提醒\n\n把“能力+责任+学习”作为领导者的成长主线。",
+              "standardReference": "ACCA SBL Personal Development",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Leadership communication",
+          "points": [
+            {
+              "code": "SBL.1.7",
+              "title": "Effective communication channels",
+              "summary": "领导者需选择合适的沟通渠道与方式，确保信息准确、及时抵达恰当对象。",
+              "contentMd": "## 核心概念\n\n沟通（communication）需考虑信息内容、对象、渠道（正式/非正式、书面/口头）与反馈。领导者要确保沟通清晰、双向并能跨越部门与层级，避免信息过载与失真（filtering）。\n\n## 常见考法\n\n分析某沟通策略是否有效，或选择适合的沟通渠道。\n\n## 易错点\n\n仅靠自上而下的单向沟通易造成理解偏差与士气下降。\n\n## 例子\n\n重大战略调整通过全员大会（正式+口头）同步，并留有提问环节，效果更好。\n\n## 考试提醒\n\n用“对象+渠道+反馈”评估沟通有效性和适应性。",
+              "standardReference": "ACCA SBL Communication",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.1.8",
+              "title": "Interpersonal skills and emotional intelligence",
+              "summary": "情商（自我认知、自我管理、社交意识与人际关系管理）是领导者影响与凝聚他人的关键。",
+              "contentMd": "## 核心概念\n\n情商（emotional intelligence, EI）包括自我认知、自我管理、社会意识（同理心）与关系管理。高情商领导者能理解并管理自己与他人的情绪，减少冲突、增强信任与团队凝聚力。\n\n## 常见考法\n\n判断某行为体现的 EI 维度，或分析情商对领导的影响。\n\n## 易错点\n\n高情商不等于无条件顺从，而是妥善表达与处理情绪。\n\n## 例子\n\n领导在压力下保持冷静并倾听团队顾虑，体现了自我管理与社会意识。\n\n## 考试提醒\n\n记住 EI 四维度并映射到具体领导行为。",
+              "standardReference": "ACCA SBL Emotional Intelligence",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.1.9",
+              "title": "Managing teams and virtual teams",
+              "summary": "团队管理需明确目标、角色与协作机制，虚拟团队还须解决时区、文化与沟通。",
+              "contentMd": "## 核心概念\n\n高效团队具备清晰目标、互补技能、相互信任与良好沟通。团队发展阶段（forming, storming, norming, performing, adjourning）各有特征，领导者需因时应势。虚拟团队（virtual team）依赖技术与远程协作，须处理时差、文化差异、信任建立与沟通效率问题。\n\n## 常见考法\n\n分析团队所处的阶段，或提出改进虚拟团队协作的建议。\n\n## 易错点\n\n虚拟团队最大的挑战是“沟通与信任”，远距离削弱非言语交流。\n\n## 例子\n\n跨国虚拟研发团队通过定期视频与共享文档维持协作。\n\n## 考试提醒\n\n把“团队阶段+虚拟协作挑战”作为团队题的两条主线。",
+              "standardReference": "ACCA SBL Teams",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Corporate Governance",
+      "description": "掌握公司治理框架、董事会角色与利益相关者问责，理解控制与环境在治理中的作用。",
+      "topics": [
+        {
+          "title": "Governance framework and board",
+          "points": [
+            {
+              "code": "SBL.2.1",
+              "title": "The governance framework and principles",
+              "summary": "治理框架通过问责、透明、公平与责任原则，确保公司为股东及利益相关者的长期利益运作。",
+              "contentMd": "## 核心概念\n\n公司治理（corporate governance）是指导与控制公司的制度与过程，核心原则包括问责（accountability）、透明（transparency）、公平（fairness）与责任（responsibility）。治理框架涵盖董事会、审计委员会、风险与内控机制，目的在于平衡权力、防止滥用并保护利益相关者。\n\n## 常见考法\n\n分析治理缺陷或评价某治理安排是否恰当。\n\n## 易错点\n\n治理不仅是合规，更是为长期价值与受托责任服务。\n\n## 例子\n\n设立独立的审计委员会监督财务报告，是治理框架的常见安排。\n\n## 考试提醒\n\n把“问责、透明、公平、责任”四原则与治理安排对应。",
+              "standardReference": "ACCA SBL Corporate Governance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.2.2",
+              "title": "The board and its committees",
+              "summary": "董事会负责战略与监督，下设审计、提名、薪酬等委员会承担专项监督职能。",
+              "contentMd": "## 核心概念\n\n董事会（board）负责设定战略、聘任与监督高管、保障内控与合规。董事会通常下设审计委员会（监督财务报告与内控）、提名委员会（董事任命与继任）、薪酬委员会（高管薪酬）等，以强化独立监督。独立非执行董事是制衡的关键。\n\n## 常见考法\n\n评价董事会构成或某项委员会职责是否恰当。\n\n## 易错点\n\n独立非执行董事数量与独立性不足，会削弱监督功能。\n\n## 例子\n\n审计委员会定期与外部审计师单独会面，提升财务监督质量。\n\n## 考试提醒\n\n把“董事会+董事会下设委员会+独立性”作为治理结构的骨架。",
+              "standardReference": "ACCA SBL Corporate Governance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.2.3",
+              "title": "Directors' duties and accountability",
+              "summary": "董事负有勤勉、忠诚与受托责任，须为公司利益行事并对股东负责。",
+              "contentMd": "## 核心概念\n\n董事职责（directors' duties）通常包括勤勉义务（duty of care，审慎决策）、诚信/忠诚义务（duty of loyalty，避免利益冲突）与遵守法律章程的义务。董事须以公司整体利益行事，并对决策结果承担问责，如违反可能被追责。\n\n## 常见考法\n\n分析某董事行为违反哪项职责，或评估决策是否符合受托责任。\n\n## 易错点\n\n董事不能利用公司机会谋取私利，需回避利益冲突。\n\n## 例子\n\n董事隐瞒关联交易并从中获利，违背忠实义务与问责要求。\n\n## 考试提醒\n\n用“勤勉+忠诚+合规”三条线审视董事职责。",
+              "standardReference": "ACCA SBL Corporate Governance",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Accountability to stakeholders",
+          "points": [
+            {
+              "code": "SBL.2.4",
+              "title": "The agency relationship and accountability",
+              "summary": "代理问题源于所有权与控制权分离，治理通过监督与激励缓解管理层与股东间的利益偏离。",
+              "contentMd": "## 核心概念\n\n代理理论（agency theory）指出股东（委托人）与管理者（代理人）目标可能不一致，产生代理成本。治理通过董事会监督、绩效激励、信息披露与市场约束等机制缓解代理问题，促使管理层为股东利益行事。\n\n## 常见考法\n\n识别代理问题，或评估某项治理机制能否缓解代理冲突。\n\n## 易错点\n\n代理问题也存在于管理层与员工、股东与债权人等多重关系中。\n\n## 例子\n\n高管薪酬与股东回报挂钩，用于缓解关注短期利润的代理问题。\n\n## 考试提醒\n\n把“委托-代理+监督激励机制”作为分析治理的框架。",
+              "standardReference": "ACCA SBL Governance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.2.5",
+              "title": "Stakeholders and responsible business",
+              "summary": "企业对多元化利益相关者负责，需平衡财务与非财务价值，践行负责任经营。",
+              "contentMd": "## 核心概念\n\n企业除股东外还对员工、顾客、供应商、社区与社会负责（stakeholder theory）。负责任经营（responsible business）强调在追求利润同时考虑社会与环境影响，通过利益相关者沟通、透明披露与可持续实践建立长期信任。\n\n## 常见考法\n\n分析企业应如何平衡不同利益相关者诉求，或评价某项负责任经营实践。\n\n## 易错点\n\n平衡各方利益并无唯一答案，需结合情境加以权衡。\n\n## 例子\n\n企业聆听社区意见并改善环保，既回应社会又降低监管与声誉风险。\n\n## 考试提醒\n\n用“利益相关者+长期价值”来延展治理的边界。",
+              "standardReference": "ACCA SBL Governance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.2.6",
+              "title": "ESG and sustainability governance",
+              "summary": "ESG（环境、社会、治理）与可持续成为治理的重要内容，企业需整合到战略与报告。",
+              "contentMd": "## 核心概念\n\nESG（Environment, Social, Governance）与可持续发展要求企业把环境与社会影响纳入治理与战略。企业需建立可持续目标、披露 ESG 表现、管理气候与资源风险，并回应投资者与监管对可持续信息的需求。\n\n## 常见考法\n\n分析 ESG 对战略与治理的影响，或评价责任投资与披露。\n\n## 易错点\n\nESG 不是公关手段，需与真实行动与可核验数据匹配。\n\n## 例子\n\n企业设定碳减排目标并披露进展，回应投资者对气候风险的关注。\n\n## 考试提醒\n\n把 ESG 从“合规成本”转成“价值与风险管理的战略维度”。",
+              "standardReference": "ACCA SBL Sustainability",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Governance implementation",
+          "points": [
+            {
+              "code": "SBL.2.7",
+              "title": "Implementing governance effectively",
+              "summary": "治理落地需制度、人员与文化的配合，否则只是纸面合规。",
+              "contentMd": "## 核心概念\n\n有效治理需要健全的章程与政策、胜任且独立的董事、清晰的委员会职责、透明报告与健康的文化。若缺乏执行力与文化支持，治理框架会流于形式；应通过培训、考核与问责把治理内化为行为。\n\n## 常见考法\n\n评估某公司治理落地的有效性，或提出改进建议。\n\n## 易错点\n\n仅仅“设立了委员会”不等于治理到位，关键是独立性、权限与落实。\n\n## 例子\n\n公司明确审计委员会职权并赋予其独立接触渠道，治理落地更扎实。\n\n## 考试提醒\n\n用“制度+人+文化”三维度评价治理实施。",
+              "standardReference": "ACCA SBL Governance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.2.8",
+              "title": "Reporting and public accountability",
+              "summary": "企业通过财务与非财务报告透明披露，对股东与社会公众负责。",
+              "contentMd": "## 核心概念\n\n公开问责（public accountability）要求企业通过年报、ESG 报告与公告透明披露业绩、风险、治理与社会影响。真实充分的披露提升市场信任、降低信息不对称，也为监管与公众监督提供依据。\n\n## 常见考法\n\n评价披露的充分性与真实性，或分析其对信任的影响。\n\n## 易错点\n\n选择性披露或夸大宣传会损害可信度并引发监管质疑。\n\n## 例子\n\n公司如实披露管理层薪酬与关联交易，增强了股东信任。\n\n## 考试提醒\n\n把“透明披露”视为治理问责的对外窗口。",
+              "standardReference": "ACCA SBL Governance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.2.9",
+              "title": "Governance failures and lessons",
+              "summary": "治理失败的教训提示：须强化独立性、风险文化与问责，避免权力集中和自满。",
+              "contentMd": "## 核心概念\n\n治理失败（governance failures）多源于权力过度集中、董事会失灵、风险文化薄弱与缺乏问责（如公司丑闻）。其教训包括强化独立监督、提高透明度、完善风险内控、重视文化信号与建立有效问责，避免重蹈覆辙。\n\n## 常见考法\n\n分析某治理失败的根源，或提出防范治理失灵的对策。\n\n## 易错点\n\n失败往往不只有单一原因，而是文化、机制与外部约束共同作用。\n\n## 例子\n\n董事会未有效约束强势 CEO 的过度冒险，导致重大损失，凸显监督失灵。\n\n## 考试提醒\n\n记住“提高独立、透明、风险文化、问责”四类治理改进方向。",
+              "standardReference": "ACCA SBL Governance",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Strategy: Internal and External Analysis",
+      "description": "运用外部与内部分析工具理解战略环境，识别机会威胁与优势劣势。",
+      "topics": [
+        {
+          "title": "External analysis",
+          "points": [
+            {
+              "code": "SBL.3.1",
+              "title": "PESTEL and macro environment",
+              "summary": "PESTEL 从政治、经济、社会、技术、环境与法律六方面扫描外部宏观环境。",
+              "contentMd": "## 核心概念\n\nPESTEL 是扫描宏观环境的工具，涵盖政治（Political）、经济（Economic）、社会（Social）、技术（Technological）、环境（Environmental）与法律（Legal）。它帮助识别外在机会与威胁，为战略制定提供依据。\n\n## 常见考法\n\n运用 PESTEL 分析某行业或企业的外部环境。\n\n## 易错点\n\nPESTEL 关注外部趋势，不与内部分析（SWOT 的内部）混淆。\n\n## 例子\n\n数字税、环保法规与人口老龄化共同影响某行业的经营环境。\n\n## 考试提醒\n\n用“机会/威胁”视角衔接 PESTEL 与 SWOT。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.3.2",
+              "title": "Porter's five forces",
+              "summary": "五力模型衡量行业竞争强度与吸引力，包括现有竞争者、新进入者、替代品、买方与供应商议价能力。",
+              "contentMd": "## 核心概念\n\nPorter 五力包括：现有竞争强度、新进入者威胁、替代品威胁、买方议价能力与供应商议价能力。五力越强，行业平均盈利越被压榨，越大说明越需采取差异化、成本领先或纵向整合等战略来应对。\n\n## 常见考法\n\n用五力分析行业吸引力，或评估进入某行业的难易。\n\n## 易错点\n\n“进入壁垒”影响新进入者威胁，是吸引力的重要因素。\n\n## 例子\n\n高品牌忠诚与规模经济提高进入壁垒，降低新进入者威胁。\n\n## 考试提醒\n\n把五力逐一与证据对应，形成行业吸引力的结构化判断。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.3.3",
+              "title": "Competitive advantage and positioning",
+              "summary": "企业通过低成本、差异化或聚焦战略建立并维持竞争优势，明确战略定位。",
+              "contentMd": "## 核心概念\n\n波特的一般战略（generic strategies）包括成本领先（cost leadership）、差异化（differentiation）与聚焦（focus，分成本聚集/差异聚集）。企业需在“成本 vs 差异化”和“广泛 vs 窄范围”中做出清晰定位，避免“夹在中间（stuck in the middle）”。\n\n## 常见考法\n\n判断某企业的竞争战略，或分析其定位是否清晰可持续。\n\n## 易错点\n\n同时追求成本与差异化但不聚焦，易陷入夹在中间的困境。\n\n## 例子\n\n廉价航空公司靠成本领先，奢侈品牌靠差异化，定位分明。\n\n## 考试提醒\n\n用“成本/差异化 × 全市场/聚焦”二维定位竞争战略。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Internal analysis",
+          "points": [
+            {
+              "code": "SBL.3.4",
+              "title": "Resource-based view (RBV) and VRIO",
+              "summary": "资源基础观通过 VRIO（价值、稀缺、难模仿、组织）评估资源是否带来可持续竞争优势。",
+              "contentMd": "## 核心概念\n\n资源基础观（RBV）把竞争优势归因于组织独特的资源与能力。VRIO 框架检验资源是否：有价值（Valuable）、稀缺（Rare）、难以模仿（Inimitable）、且组织能利用（Organised），四项都满足则形成可持续竞争优势。\n\n## 常见考法\n\n用 VRIO 评估某资源或能力能否带来竞争优势。\n\n## 易错点\n\n仅“有价值”不足以形成优势，还须稀缺、难模仿并被组织利用。\n\n## 例子\n\n某企业的专利工艺（价值、稀缺、难模仿）配合组织能力，形成持续优势。\n\n## 考试提醒\n\n把 VRIO 作为“优势可持续性”的检验清单。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.3.5",
+              "title": "Value chain analysis",
+              "summary": "价值链把企业活动分解为基本与支持活动，识别价值创造与成本优化点。",
+              "contentMd": "## 核心概念\n\n波特价值链（value chain）分为基本活动（进货物流、生产、发货物流、营销销售、服务）与支持活动（采购、技术开发、人力资源管理、企业基础设施）。通过分析各活动对成本、差异化与质量的贡献，可定位竞争优势来源与改进点。\n\n## 常见考法\n\n用价值链识别企业的优势环节与成本改进空间。\n\n## 易错点\n\n“价值链”关注内部活动协同，须与外部五力分析结合。\n\n## 例子\n\n企业通过优化物流与仓储（基本活动）降低成本、提升响应。\n\n## 考试提醒\n\n把基本与支持活动作为内部审视的框架。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.3.6",
+              "title": "SWOT and TOWS analysis",
+              "summary": "SWOT 整合内部优势劣势与外部机会威胁，TOWS 据此选择行动战略。",
+              "contentMd": "## 核心概念\n\nSWOT 把内部分析（优势优势 strengths/劣势 weaknesses）与外部分析（机会 opportunities/威胁 threats）对接。TOWS 是进阶应用，产生四类战略：SO（利用优势抓机会）、WO（改劣势抓机会）、ST（用优势抗威胁）、WT（避劣势防威胁）。\n\n## 常见考法\n\n构建 SWOT 并据此提出战略行动。\n\n## 易错点\n\nSWOT 只是概括，TOWS 才把分析转向行动组合。\n\n## 例子\n\n企业用技术优势（S）抓住数字化转型市场（O），采用 SO 战略。\n\n## 考试提醒\n\n把 SWOT 作为“分析→行动”的连接器，善用 TOWS 组合。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Strategic capability and culture",
+          "points": [
+            {
+              "code": "SBL.3.7",
+              "title": "Strategic capability and benchmarking",
+              "summary": "战略能力是企业以优于对手的方式创造价值的资源与能力组合，可用标杆追踪来比较。",
+              "contentMd": "## 核心概念\n\n战略能力（strategic capability）指企业可持续地创造价值并回应环境变化的能力，常体现为效率、质量、创新与响应。标杆追踪（benchmarking）通过与行业内最佳或直接竞争者对比，识别差距并设定改进目标。\n\n## 常见考法\n\n评估企业的战略能力，或运用标杆分析识别改进机会。\n\n## 易错点\n\n竞争标杆需考虑可比性，不能只看表面数字。\n\n## 例子\n\n公司对标行业领先者的交付周期，发现差距并优化流程。\n\n## 考试提醒\n\n把“能力=资源+能力组合”与“标杆=照镜子改进”结合。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.3.8",
+              "title": "Cultural web and strategic change",
+              "summary": "文化网络（cultural web）的工具显性化组织文化的假设、符号、故事、仪式与权力结构。",
+              "contentMd": "## 核心概念\n\n文化网络（cultural web）是诊断组织文化的工具，包含：范式（paradigm）、符号（symbols）、故事（stories）、仪式与惯例（rituals and routines）、权力结构（power）、控制系统与组织结构。分析文化网络可判断文化是否与战略匹配，并作为变革的切入点。\n\n## 常见考法\n\n用文化网络诊断文化，或分析文化对战略变革的支撑/阻力。\n\n## 易错点\n\n文化若与战略不匹配，会阻碍变革落地。\n\n## 例子\n\n强调“稳健规避风险”的文化可能与高风险创新战略冲突。\n\n## 考试提醒\n\n把文化网络七个要素作为诊断组织的镜头。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.3.9",
+              "title": "Ansoff matrix and strategic direction",
+              "summary": "安索夫矩阵在现有/新产品与市场组合中选择市场渗透、开发、产品开发与多元化方向。",
+              "contentMd": "## 核心概念\n\n安索夫矩阵（Ansoff matrix）按“产品（现有/新）× 市场（现有/新）”给出四种成长方向：市场渗透（现有产品、现有市场）、市场开发（现有产品、新市场）、产品开发（新产品、现有市场）与多元化（新产品、新市场）。不同方向的风险与资源需求不同。\n\n## 常见考法\n\n判断某增长战略属于安索夫矩阵中的哪个象限。\n\n## 易错点\n\n多元化是风险最高的方向，因为产品与市场都是新的。\n\n## 例子\n\n把现有爆品推向新国家市场，属市场开发。\n\n## 考试提醒\n\n记住“产品与新市场”两个轴组合出四个方向。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Strategic Choice and Implementation",
+      "description": "评估战略选择并组织落地，涵盖业务战略、组织结构、人员与变革执行。",
+      "topics": [
+        {
+          "title": "Strategic choice",
+          "points": [
+            {
+              "code": "SBL.4.1",
+              "title": "Business strategy: cost leadership and differentiation",
+              "summary": "业务战略聚焦如何在细分市场建立优势，成本领先与差异化是最基本的两种路径。",
+              "contentMd": "## 核心概念\n\n业务层面战略（business-level strategy）回答“如何在特定市场获得优势”。成本领先通过规模、效率与供应链节约实现低价；差异化通过独特产品、品牌或服务赢得溢价。企业需结合自身能力与行业选择一条清晰路径并持续强化。\n\n## 常见考法\n\n判断某业务的战略类型，或分析其实现路径与可持续性。\n\n## 易错点\n\n成本领先与差异化都需要体系支撑，不可仅靠口号。\n\n## 例子\n\n超市以极致低成本选品与配送取胜，靠成本领先；高端手工艺品靠差异化。\n\n## 考试提醒\n\n在明确“目标市场+能力”后再判断成本或差异化路线。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.4.2",
+              "title": "Corporate strategy: diversification and integration",
+              "summary": "公司战略关注业务组合，横向/纵向一体化与多元化影响风险与协同。",
+              "contentMd": "## 核心概念\n\n公司层面战略（corporate-level strategy）涉及进入哪些业务领域。横向一体化（兼并同业）扩大规模；纵向一体化（前向/后向）控制上下游；非相关多元化进入不相关领域可分散风险但协同有限。并购与战略联盟是常见实现方式。\n\n## 常见考法\n\n判断某扩张行为属于哪种一体化/多元化，并评估其价值。\n\n## 易错点\n\n相关多元化能产生协同，非相关多元化协同弱、管理复杂。\n\n## 例子\n\n收购上游原材料供应商属后向一体化；并购同行业对手属横向一体化。\n\n## 考试提醒\n\n按“横向/纵向/多元化”归类扩张并评估协同与风险。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.4.3",
+              "title": "Evaluating strategic options (SAF)",
+              "summary": "用适用性、可接受性与可行性（SAF）框架评估战略选项，选择最佳方向。",
+              "contentMd": "## 核心概念\n\nSAF 评估法：适用性（suitability，是否契合环境与能力）、可接受性（acceptability，是否满足利益相关者期望与回报/风险）、可行性（feasibility，资源与能力能否实现）。常用工具包括风险评估、资本回报与情景分析。\n\n## 常见考法\n\n用 SAF 评价某战略选项，或比较多个战略备选。\n\n## 易错点\n\n三个维度需平衡，不可只考虑财务回报而忽视可行性。\n\n## 例子\n\n某并购回报诱人但资金与整合能力不足，可行性评分低。\n\n## 考试提醒\n\n用“SAF 三问”作为战略评估的结构化框架。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Strategy implementation",
+          "points": [
+            {
+              "code": "SBL.4.4",
+              "title": "Organisational structure for strategy",
+              "summary": "组织结构需与战略匹配，功能、事业部、矩阵等结构各有适应情境。",
+              "contentMd": "## 核心概念\n\n结构随战略走（structure follows strategy）。功能结构适合单业务专注；事业部结构适合多元化或跨地区；矩阵结构适合需要跨职能协作的项目型组织；网络/虚拟结构适合轻资产敏捷模式。结构错配会妨碍战略执行。\n\n## 常见考法\n\n分析某战略所需的组织结构，或判断现有结构的适配性。\n\n## 易错点\n\n结构影响沟通与决策，需考虑集权/分权程度。\n\n## 例子\n\n多业务集团通常采用事业部结构，便于各业务独立运营。\n\n## 考试提醒\n\n把“战略-结构-流程”作为组织设计的一致性主链。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.4.5",
+              "title": "Business process change and project management",
+              "summary": "实施战略需变革业务流程并管理项目，确保资源、进度与目标落地。",
+              "contentMd": "## 核心概念\n\n业务流程再造（BPR）与流程优化把战略转化为具体运营。项目管理（project management）通过范围、时间、成本、质量与风险管理，控制变革项目交付。成功实施需明确目标、配置资源、组建团队并监控进度与偏差。\n\n## 常见考法\n\n分析战略落地需要哪些流程与项目安排，或评价项目风险。\n\n## 易错点\n\n战略若不能落到流程与项目，会停留在纸面。\n\n## 例子\n\n推行数字化战略需要重组订单流程并立项系统迁移项目。\n\n## 考试提醒\n\n把“流程再造+项目管理”作为战略执行的双抓手。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.4.6",
+              "title": "Managing strategic change",
+              "summary": "战略变革需要感知阻力、选择变革方式并巩固新秩序，涉及文化、行为与制度协同。",
+              "contentMd": "## 核心概念\n\n战略性变革（strategic change）是规模与性质都较重大的转变，常面临文化阻力与资源约束。变革需明确紧迫性、建立推动联盟、沟通愿景、分步实施并固化新习惯；可用情境领导、参与式沟通与激励来降低阻力。\n\n## 常见考法\n\n分析战略变革阻力的来源，或设计变革推进策略。\n\n## 易错点\n\n忽视员工诉求的强制变革风险较高。\n\n## 例子\n\n组织转型时先试点再推广，降低了大规模变革的阻力。\n\n## 考试提醒\n\n用“阻力识别+沟通参与+分步固化”组织变革答案。",
+              "standardReference": "ACCA SBL Change Management",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Managing performance of strategy",
+          "points": [
+            {
+              "code": "SBL.4.7",
+              "title": "Strategy and control systems",
+              "summary": "战略绩效需借助控制与反馈系统监控，及时纠正偏差并调整方向。",
+              "contentMd": "## 核心概念\n\n战略控制（strategic control）关注“战略是否仍有效”，区别于运营控制关注日常执行。企业通过关键绩效指标（KPIs）、预算、平衡计分卡与定期复盘，监控战略目标达成，识别环境变化并动态调整。\n\n## 常见考法\n\n设计或评价战略绩效监控与控制系统。\n\n## 易错点\n\n控制过度会抑制创新，控制不足则难以纠偏。\n\n## 例子\n\n用月度复盘结合 KPI 仪表盘，及时发现战略执行偏差。\n\n## 考试提醒\n\n把“控制=监控+反馈+调整”作为战略执行的闭环。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.4.8",
+              "title": "Resource allocation and budgeting",
+              "summary": "战略实施需合理配置人、财、物资源，预算与资本配置支持战略落地。",
+              "contentMd": "## 核心概念\n\n资源分配（resource allocation）是战略与执行的桥梁，涉及资本预算、人员配置与关键资源倾斜。预算（budgeting）为财务目标与资源使用提供框架，但也可能僵化（如滚动预算与零基预算可增强弹性）。\n\n## 常见考法\n\n分析资源分配是否符合战略优先级，或评价预算方式的优劣。\n\n## 易错点\n\n把战略优先级与预算割裂会导致“战略多、资源少”。\n\n## 例子\n\n公司把预算向数字化项目倾斜，以支持转型战略。\n\n## 考试提醒\n\n用“战略导向+弹性机制”评估资源与预算配置。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.4.9",
+              "title": "Strategy and culture alignment",
+              "summary": "文化与战略的一致性决定执行效果，文化可支撑或阻碍战略落地。",
+              "contentMd": "## 核心概念\n\n当战略需要的文化与现有文化匹配时，执行顺畅；当战略要求新的行为（如创新、敏捷）而文化仍保守时，冲突显现。领导者可通过变革文化（修改范式、符号、故事与奖励）来促进战略执行。\n\n## 常见考法\n\n分析文化对战略的支撑或阻碍，或提出文化调适建议。\n\n## 易错点\n\n仅发布新战略而不调文化，执行会事倍功半。\n\n## 例子\n\n转型为创新型企业需同步塑造容忍失败、鼓励实验的文化。\n\n## 考试提醒\n\n把“战略-文化匹配”作为变革成败的软性因素。",
+              "standardReference": "ACCA SBL Strategy",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Risk Management and Internal Control",
+      "description": "掌握风险识别评估与应对，以及内部控制与内部审计在治理中的作用。",
+      "topics": [
+        {
+          "title": "Risk identification and assessment",
+          "points": [
+            {
+              "code": "SBL.5.1",
+              "title": "Risk and the risk management process",
+              "summary": "风险管理包含识别、评估、应对与监控的连续过程，旨在降低不确定性对目标的影响。",
+              "contentMd": "## 核心概念\n\n风险（risk）是不确定性对目标的影响，既可能带来损失（downside）也可能带来机会（upside）。风险管理过程（risk management process）一般包括：识别风险、评估其可能性和影响、选择应对策略（规避、降低、转移、接受）、实施并持续监控与报告。\n\n## 常见考法\n\n梳理风险管理流程，或识别某风险及其应对。\n\n## 易错点\n\n风险不仅包括损失，也包括未抓住的机会。\n\n## 例子\n\n企业对汇率波动风险采用远期合约对冲（转移/降低）。\n\n## 考试提醒\n\n把“识别-评估-应对-监控”作为答题主线。",
+              "standardReference": "ACCA SBL Risk Management",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.5.2",
+              "title": "Risk appetite, tolerance and categorisation",
+              "summary": "风险偏好决定企业愿意承担的风险水平，风险分类（战略、运营、财务、合规等）帮助聚焦管理。",
+              "contentMd": "## 核心概念\n\n风险偏好（risk appetite）是企业为追求目标愿意接受的总体风险水平；风险容忍度（risk tolerance）是具体目标可接受的偏差。风险分类常用战略、运营、财务（市场、信用、流动性）、合规与报告风险等，便于识别与分工管理。\n\n## 常见考法\n\n判断风险类型，或分析风险偏好对决策的影响。\n\n## 易错点\n\n风险偏好应清晰界定并与战略目标一致，避免模糊或矛盾。\n\n## 例子\n\n稳健型企业风险偏好低，倾向规避高波动投资。\n\n## 考试提醒\n\n先给风险归类，再谈偏好与容忍度。",
+              "standardReference": "ACCA SBL Risk Management",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.5.3",
+              "title": "Assessing and quantifying risk",
+              "summary": "风险评估可用定性判断与定量工具（概率、期望值、蒙特卡洛）来度量影响。",
+              "contentMd": "## 核心概念\n\n风险评估把风险的发生可能性与影响程度结合，形成风险矩阵排序。定量工具包括预期值（expected value）、标准差、情景分析、灵敏度分析与蒙特卡洛模拟，帮助量化潜在损失与决策风险。\n\n## 常见考法\n\n用概率或期望值评估风险，或选择适当的定量工具。\n\n## 易错点\n\n定量工具依赖假设，需结合定性判断与专家意见。\n\n## 例子\n\n某项目有 20% 概率损失 100 万，期望损失 = 20 万。\n\n## 考试提醒\n\n理解“可能性×影响”与常用量化工具的应用。",
+              "standardReference": "ACCA SBL Risk Management",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Internal control",
+          "points": [
+            {
+              "code": "SBL.5.4",
+              "title": "Internal control framework (COSO)",
+              "summary": "COSO 内控框架分五要素：控制环境、风险评估、控制活动、信息与沟通、监控。",
+              "contentMd": "## 核心概念\n\nCOSO 内部控制框架包含：控制环境（control environment）、风险评估（risk assessment）、控制活动（control activities）、信息与沟通（information & communication）与监督（monitoring）。内控目标涵盖运营效率、报告可靠与合规。\n\n## 常见考法\n\n判断某内控活动属于哪一要素，或分析内控缺失。\n\n## 易错点\n\n“控制环境”是其他要素的基础，文化与管理层态度至关重要。\n\n## 例子\n\n财务审批制度属于控制活动；高层重视合规形成良好控制环境。\n\n## 考试提醒\n\n记住 COSO 五要素名称并会归类具体控制。",
+              "standardReference": "ACCA SBL Internal Control",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.5.5",
+              "title": "Internal control and governance",
+              "summary": "内控是治理的组成部分，董事会需确保内控体系健全并监督其有效性。",
+              "contentMd": "## 核心概念\n\n内部控制支撑治理目标：保护资产、确保报告可靠、提升效率并保障合规。董事会（通过审计委员会）对内控有效性负责，需定期评估内控并披露重大缺陷。内控的脆弱会放大治理与经营风险。\n\n## 常见考法\n\n分析内控在治理中的作用，或识别并评估内控缺陷。\n\n## 易错点\n\n内控只能提供合理保证，不能杜绝舞弊。\n\n## 例子\n\n审计委员会监督内控评价并报告内控缺陷，体现治理责任。\n\n## 考试提醒\n\n把内控放入“治理-风险-合规”的整体框架理解。",
+              "standardReference": "ACCA SBL Internal Control",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.5.6",
+              "title": "Types of control and control activities",
+              "summary": "控制活动包括授权、职责分离、核对、资产保全、绩效复核与信息技术控制等。",
+              "contentMd": "## 核心概念\n\n控制活动（control activities）种类包括：审批与授权、职责分离（segregation of duties）、实物与访问控制、对账与核对、独立绩效复核，以及信息系统控制（一般控制与应用控制）。良好的控制组合能有效预防与发现差错和舞弊。\n\n## 常见考法\n\n识别某项控制属于哪种控制活动，或分析其作用。\n\n## 易错点\n\n职责分离（如出纳与记账分开）是防舞弊的关键控制。\n\n## 例子\n\n付款需经授权并由不同人核算，体现职责分离与控制活动。\n\n## 考试提醒\n\n把控制活动与具体场景对应，突出“预防+发现”双重功能。",
+              "standardReference": "ACCA SBL Internal Control",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Internal audit and risk assurance",
+          "points": [
+            {
+              "code": "SBL.5.7",
+              "title": "Internal audit function",
+              "summary": "内部审计独立评价内控、风险与治理流程，为管理层与董事会提供鉴证与建议。",
+              "contentMd": "## 核心概念\n\n内部审计（internal audit）是内部控制体系的一部分，独立、客观地评价并改进风险管理、内部控制与治理流程。它以风险为导向（risk-based internal audit），为管理层与审计委员会提供确认（assurance）与咨询，帮助提升运营效率与合规。\n\n## 常见考法\n\n分析内部审计的职能、独立性及其与外部审计的关系。\n\n## 易错点\n\n内部审计的独立性相对外部审计弱，通常向审计委员会汇报。\n\n## 例子\n\n内部审计定期评估采购流程内控，发现漏洞并提改进建议。\n\n## 考试提醒\n\n抓住“独立、风险导向、确认+咨询”三特征。",
+              "standardReference": "ACCA SBL Internal Audit",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.5.8",
+              "title": "Assurance and the three lines of defence",
+              "summary": "三道防线模型划分风险管理与保证职责：业务、内控/合规、内部与外部审计。",
+              "contentMd": "## 核心概念\n\n三道防线模型（three lines of defence）：第一道防线是业务运营与管理层（拥有并管理风险）；第二道防线是风险管理、合规与内控职能（监控第一道防线）；第三道防线是内部审计与外部审计（独立鉴证）。该模型明确分工，避免职责重叠与盲区。\n\n## 常见考法\n\n用三道防线模型界定各方职责，或分析保证的层次。\n\n## 易错点\n\n三道防线强调“问责+独立”，避免风险职责无人负责。\n\n## 例子\n\n业务部门执行内控（第一道）、风控监控（第二道）、内审独立评价（第三道）。\n\n## 考试提醒\n\n记住三道防线的角色分工并会应用。",
+              "standardReference": "ACCA SBL Internal Audit",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.5.9",
+              "title": "Fraud and the internal control environment",
+              "summary": "舞弊防范依赖健全内控、道德文化与举报机制，内控薄弱会滋生舞弊机会。",
+              "contentMd": "## 核心概念\n\n舞弊（fraud）的三个要素（舞弊三角）为：动机/压力（incentive）、机会（opportunity，源于内控缺陷）与借口（rationalisation）。防范措施包括加强控制环境、职责分离、匿名举报（whistleblowing）、审计与定期轮岗，并培育诚信文化。\n\n## 常见考法\n\n分析舞弊的成因（三角），或评估内控对防范舞弊的作用。\n\n## 易错点\n\n所谓“机会”正是内控漏洞，故内控是防舞弊的关键防线。\n\n## 例子\n\n财务人员兼任审批与记账（无职责分离），形成舞弊机会。\n\n## 考试提醒\n\n用“动机-机会-借口”三角分析舞弊成因并匹配防线。",
+              "standardReference": "ACCA SBL Internal Control",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Technology and Data Analytics",
+      "description": "理解数字技术、大数据与分析在战略、运营和风险中的作用，以及信息安全治理。",
+      "topics": [
+        {
+          "title": "Digital transformation and technology",
+          "points": [
+            {
+              "code": "SBL.6.1",
+              "title": "Impact of digital technology on strategy",
+              "summary": "数字技术重塑商业模式、运营与竞争格局，成为战略转型的关键驱动力。",
+              "contentMd": "## 核心概念\n\n数字技术（如云计算、物联网、移动互联网）重塑客户体验、供应链与商业模式。企业通过数字化转型提升效率、创新产品、触达新市场并获取数据洞察。数字战略需与技术、组织与能力协同，否则难以见效。\n\n## 常见考法\n\n分析数字技术对某行业或企业战略的影响。\n\n## 易错点\n\n数字化转型不仅是上系统，更涉及流程、组织与文化的再造。\n\n## 例子\n\n零售企业借助线上平台与数据运营，实现全渠道经营。\n\n## 考试提醒\n\n从“客户、流程、商业模式、数据”四方面分析数字化影响。",
+              "standardReference": "ACCA SBL Technology",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.6.2",
+              "title": "Big data and data analytics in decision making",
+              "summary": "大数据与数据分析把海量数据转化为洞察，支持预测、个性化与智能决策。",
+              "contentMd": "## 核心概念\n\n大数据（big data）以体量、速度、多样性、真实性为特征。数据分析（data analytics）分为描述性（发生了什么）、诊断性（为什么）、预测性（将来如何）与规约性（应怎么做）。它帮助企业优化运营、识别风险、预测需求并支持智能决策。\n\n## 常见考法\n\n判断某分析属于哪类分析，或评估数据分析的决策价值。\n\n## 易错点\n\n分析价值取决于数据质量与业务解释能力，而不仅是技术。\n\n## 例子\n\n用客户历史数据预测流失并制定挽留策略，属预测性分析。\n\n## 考试提醒\n\n记住四类分析层级并会对应应用场景。",
+              "standardReference": "ACCA SBL Data Analytics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.6.3",
+              "title": "Automation, AI and the future of work",
+              "summary": "自动化与人工智能替代重复劳动、辅助决策，重塑岗位结构与技能需求。",
+              "contentMd": "## 核心概念\n\n自动化（automation）与人工智能（AI）提升效率与准确性，可应用于客服、风控、预测与流程自动化（RPA）。同时它改变岗位结构，要求员工提升数字与数据分析技能，并带来算法偏见、责任与伦理治理议题。\n\n## 常见考法\n\n分析自动化/AI 对组织、岗位与管理者角色的影响。\n\n## 易错点\n\nAI 效果依赖数据质量，且需关注伦理与治理。\n\n## 例子\n\n财务部门用 RPA 自动对账，人工转向异常分析与决策支持。\n\n## 考试提醒\n\n从“效率提升+岗位变化+治理伦理”多维评估。",
+              "standardReference": "ACCA SBL Technology",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Data governance and information security",
+          "points": [
+            {
+              "code": "SBL.6.4",
+              "title": "Data governance and data quality",
+              "summary": "数据治理定义数据的所有权、质量、安全与合规要求，确保数据可信可用。",
+              "contentMd": "## 核心概念\n\n数据治理（data governance）包括数据所有权、数据质量标准、数据安全、隐私合规与元数据管理。数据质量（accuracy、completeness、consistency、timeliness）是分析与决策可信度的重要前提。\n\n## 常见考法\n\n设计数据治理框架，或分析数据质量问题的影响。\n\n## 易错点\n\n高质量数据治理是数据驱动决策的基础，不可忽视。\n\n## 例子\n\n企业为关键数据指定负责人并设质量指标，保障数据分析可信。\n\n## 考试提醒\n\n把“所有权+质量+安全+合规”作为数据治理的四大支柱。",
+              "standardReference": "ACCA SBL Data Governance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.6.5",
+              "title": "Cyber security and risk management",
+              "summary": "网络安全风险需要识别威胁并建立多层防御与应急响应，保障机密性、完整性与可用性。",
+              "contentMd": "## 核心概念\n\n网络风险（cyber risk）包括恶意软件、钓鱼、勒索、数据泄露与内部威胁。安全管理目标是保密性、完整性与可用性（CIA）。应对包括访问控制、加密、备份、员工培训、安全策略与应急响应（incident response）与业务连续性计划。\n\n## 常见考法\n\n识别网络威胁与对应的控制措施，或评估网络安全治理。\n\n## 易错点\n\n人是最大的薄弱环节，培训与文化建设与技术支持同样重要。\n\n## 例子\n\n企业部署防火墙并开展钓鱼演练，降低数据泄露概率。\n\n## 考试提醒\n\n用 CIA 三维度与“人+技术+流程”综合应对网络风险。",
+              "standardReference": "ACCA SBL Cyber Security",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.6.6",
+              "title": "Technology risk and digital resilience",
+              "summary": "技术依赖带来运营与安全风险，企业需建立数字韧性与快速恢复能力。",
+              "contentMd": "## 核心概念\n\n组织对信息技术的高依赖使其面临系统中断、数据丢失、供应商故障等风险。数字韧性（digital resilience）指在故障、攻击或灾难中维持运营并快速恢复的能力，需通过冗余、备份、灾备、业务连续性计划与演练来保障。\n\n## 常见考法\n\n分析技术中断的风险影响，或提出增强数字韧性的建议。\n\n## 易错点\n\n韧性需要预先投入与演练，而不是事后补救。\n\n## 例子\n\n企业建设同城双活数据中心并在灾难时切换，提升系统韧性。\n\n## 考试提醒\n\n把“冗余+备份+灾备+演练”作为数字韧性的组合拳。",
+              "standardReference": "ACCA SBL Technology Risk",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Data-driven and analytical leadership",
+          "points": [
+            {
+              "code": "SBL.6.7",
+              "title": "Leading technology-enabled strategy",
+              "summary": "领导者需拥抱技术、推动数字化文化并管理技术变革，避免被技术浪潮抛离。",
+              "contentMd": "## 核心概念\n\n技术领导（technology leadership）要求管理者理解技术价值、支持创新、推动数字化文化，并管理技术变革的风险。领导者需平衡短期效率与长期数字化转型，投入数字能力建设并鼓励数据驱动的决策习惯。\n\n## 常见考法\n\n评价领导者对数字化的引领作用，或提出推动技术战略的建议。\n\n## 易错点\n\n缺乏最高层支持的数字化往往半途而废。\n\n## 例子\n\nCEO 亲自推动数据平台建设并设专项预算，带动全员数据文化。\n\n## 考试提醒\n\n强调“高层支持+文化塑造+能力建设”的整合。",
+              "standardReference": "ACCA SBL Technology",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.6.8",
+              "title": "Monitoring technology and data ethics",
+              "summary": "技术应用需伦理与合规约束，关注隐私、公平与算法透明度。",
+              "contentMd": "## 核心概念\n\n技术伦理（technology ethics）关注数据隐私、算法公平、透明度与问责。企业应在使用 AI 与大数据时确保合规（如数据保护）、避免算法偏见、保障数据主体权利，并通过治理机制约束技术滥用。\n\n## 常见考法\n\n识别技术应用中的伦理与合规风险，或提出治理建议。\n\n## 易错点\n\n算法可能放大偏见，需人工复核与伦理审查。\n\n## 例子\n\n招聘算法若训练数据有偏，会产生歧视，需审计与纠偏。\n\n## 考试提醒\n\n把“隐私、公平、透明、问责”作为技术伦理的四大关切。",
+              "standardReference": "ACCA SBL Data Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.6.9",
+              "title": "Data analytics for risk and assurance",
+              "summary": "数据分析用于风险识别、舞弊侦测与审计鉴证，提升监督与洞察能力。",
+              "contentMd": "## 核心概念\n\n数据分析在风险管理中用于识别异常、监控关键风险指标与预测风险；在内部审计中用于全量测试、识别舞弊信号与提高审计效率。数据驱动的鉴证让风险与合规监督更精准。\n\n## 常见考法\n\n设计数据分析风险/审计方案，或评价其价值。\n\n## 易错点\n\n数据需与业务规则结合才能转化为有效信号。\n\n## 例子\n\n内审团队用数据比对识别异常付款，发现舞弊线索。\n\n## 考试提醒\n\n把“异常识别+信号分析+决策支持”作为数据价值的落点。",
+              "standardReference": "ACCA SBL Data Analytics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Organisational Control and Performance",
+      "description": "掌握绩效衡量与组织控制，理解平衡计分卡、预算与激励对绩效管理的作用。",
+      "topics": [
+        {
+          "title": "Performance measurement",
+          "points": [
+            {
+              "code": "SBL.7.1",
+              "title": "Financial and non-financial performance measures",
+              "summary": "绩效衡量需财务与非财务指标结合，避免单一财务指标带来的短视与扭曲。",
+              "contentMd": "## 核心概念\n\n财务指标（利润、ROCE、现金流）便于比较但偏短期、滞后；非财务指标（客户满意度、质量、员工、创新、流程）能反映长期驱动因素与过程表现。平衡的绩效体系把财务与非财务结合，避免追求短期数字而损害长期价值。\n\n## 常见考法\n\n设计综合绩效指标，或分析单一财务指标的局限。\n\n## 易错点\n\n非财务指标常是财务结果的先行指标（leading indicators）。\n\n## 例子\n\n企业同时追踪产品缺陷率（非财务）与净利润（财务），实现过程+结果双控。\n\n## 考试提醒\n\n用“财务 vs 非财务、结果 vs 过程”设计平衡指标。",
+              "standardReference": "ACCA SBL Performance Management",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.7.2",
+              "title": "The balanced scorecard",
+              "summary": "平衡计分卡从财务、客户、内部流程与学习成长四个视角衡量战略绩效。",
+              "contentMd": "## 核心概念\n\n平衡计分卡（Balanced Scorecard）从四个视角把战略转化为可衡量目标：财务（财务结果）、客户（满意度与价值）、内部流程（运营效率与质量）、学习与成长（员工能力与创新）。它把战略分解为因果链，平衡短期与长期、财务与非财务。\n\n## 常见考法\n\n构建或评价平衡计分卡，或把战略目标映射到四个视角。\n\n## 易错点\n\n四个视角必须由因果逻辑连接，而非简单罗列指标。\n\n## 例子\n\n从“员工培训（学习）→ 服务质量（流程）→ 客户满意（客户）→ 收入增长（财务）”层层传导。\n\n## 考试提醒\n\n记住四视角，并用因果链串联目标与指标。",
+              "standardReference": "ACCA SBL Balanced Scorecard",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.7.3",
+              "title": "Divisional performance and transfer pricing",
+              "summary": "事业部绩效衡量需运用 ROI/RI 等指标，转移定价影响各分部绩效与决策。",
+              "contentMd": "## 核心概念\n\n事业部绩效常用投资回报率（ROI）、剩余收益（RI）与经济增加值（EVA）衡量。转移定价（transfer pricing）是分部间内部交易的价格，影响利润分配与决策，常见方法有市场价格、成本加成与协商价；不当的转移定价会造成次优决策。\n\n## 常见考法\n\n计算 ROI/RI 并评价其局限，或分析转移定价对绩效的影响。\n\n## 易错点\n\nROI 可能诱使经理放弃高回报项目，RI 更利于目标一致。\n\n## 例子\n\n事业部间调拨产品按市场价格定价，避免利润扭曲。\n\n## 考试提醒\n\n把“事业部绩效+转移定价”作为激励与决策一致性的核心。",
+              "standardReference": "ACCA SBL Performance Management",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Budgeting and control",
+          "points": [
+            {
+              "code": "SBL.7.4",
+              "title": "The role of budgets and budgeting approaches",
+              "summary": "预算是计划与控制工具，不同预算方式（增量、零基、滚动）各有适用场景。",
+              "contentMd": "## 核心概念\n\n预算（budget）是量化的计划与控制工具，用于配置资源、协调行动、激励与考核。常见方式包括增量预算（在上年基础上调整）、零基预算（从零论证每项支出）、滚动预算（不断延伸）与作业基础预算。不同方式在灵活性、成本与激励上各有取舍。\n\n## 常见考法\n\n比较预算方式优劣，或判断某场景适用的预算方法。\n\n## 易错点\n\n增量预算可能导致“预算刚性与资源浪费”，零基预算更合理但成本高。\n\n## 例子\n\n在成本压力大时采用零基预算重审每项支出，减少浪费。\n\n## 考试提醒\n\n用“效率/成本/柔性”三视角比较预算方法。",
+              "standardReference": "ACCA SBL Budgeting",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.7.5",
+              "title": "Budgetary control and variances",
+              "summary": "预算控制通过比较预算与实际并分析差异，推动纠偏与绩效改进。",
+              "contentMd": "## 核心概念\n\n预算控制（budgetary control）把预算与实际执行结果对比，计算并分析差异（variance）。差异可能是价格、效率、产量等因素造成，需先判断是否可控，再到具体责任人，避免把不可控因素算作业绩缺陷。\n\n## 常见考法\n\n分析差异的成因与责任归属，或评价预算控制的健全性。\n\n## 易错点\n\n差异化差异（如市场整体下行）非经理可控，不应简单问责。\n\n## 例子\n\n材料价格上升导致不利差异，这是市场因素，不应归咎于采购经理。\n\n## 考试提醒\n\n把“差异→成因→可控性→责任”作为分析链。",
+              "standardReference": "ACCA SBL Budgetary Control",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.7.6",
+              "title": "Behavioural aspects of control",
+              "summary": "控制系统的设计会影响员工行为，需避免目标冲突、预算博弈与短视。",
+              "contentMd": "## 核心概念\n\n控制与考核会引发行为反应，如预算博弈（budgetary slack）、为达标而牺牲长期（短视）、目标不一致（goal incongruence）与企业政治。设计控制系统需考虑激励相容、参与式预算、合理指标与绩效文化，以减少负面行为。\n\n## 常见考法\n\n分析控制系统的行为副作用，或提出改善建议。\n\n## 易错点\n\n仅靠严厉考核可能诱发预算游戏与非道德行为。\n\n## 例子\n\n经理为留余地而压低预算目标，形成预算松弛。\n\n## 考试提醒\n\n用“激励相容+参与+长期导向”缓解控制的行为副作用。",
+              "standardReference": "ACCA SBL Behavioural Control",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Reward and governance of performance",
+          "points": [
+            {
+              "code": "SBL.7.7",
+              "title": "Reward systems and incentives",
+              "summary": "薪酬激励应与战略目标挂钩并兼顾长期，防止因短期激励而损害企业价值。",
+              "contentMd": "## 核心概念\n\n激励制度（reward system）通过薪酬、奖金、股权等把管理者与股东目标绑定。有效的激励应与长期绩效挂钩、指标清晰且可核验。过度依赖短期财务指标的激励易诱发盈余管理与短视行为。\n\n## 常见考法\n\n评价某激励方案是否驱动正确的行为。\n\n## 易错点\n\n只考核单一利润指标的激励会诱发短视与操纵。\n\n## 例子\n\n高管薪酬中纳入长期股东回报与 ESG 指标，平衡长短期激励。\n\n## 考试提醒\n\n用“指标挂钩+长期导向+可核验”评估激励制度。",
+              "standardReference": "ACCA SBL Reward",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.7.8",
+              "title": "Control systems and organisational culture",
+              "summary": "控制需与文化匹配，文化既是控制的一部分也影响控制的有效性。",
+              "contentMd": "## 核心概念\n\n文化与控制系统相辅相成：强文化能提供自发约束（价值观），减少繁琐流程；弱文化反之。控制过度会压抑创新与自主，控制不足则易失序。领导需在“严格控制（clan/官僚）”与“结果导向”之间取得平衡。\n\n## 常见考法\n\n分析文化对控制有效性的影响，或寻找控制与授权平衡。\n\n## 易错点\n\n控制体系最理想的是“员工自驱”而非仅靠监督。\n\n## 例子\n\n创新型公司更倚重价值观与结果控制，而非层层审批。\n\n## 考试提醒\n\n把“文化是柔性控制”与制度控制结合。",
+              "standardReference": "ACCA SBL Organisational Control",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.7.9",
+              "title": "Corporate performance and stakeholder value",
+              "summary": "企业绩效最终体现为长期利益相关者价值的创造，财务与非财务并重。",
+              "contentMd": "## 核心概念\n\n企业绩效的最终衡量是长期为股东及利益相关者创造价值。需平衡财务回报（利润、现金流、市场价值）与非财务维度（客户、员工、社会、环境），有时还需权衡短期业绩与长期可持续。\n\n## 常见考法\n\n评价企业整体价值创造，或分析绩效指标的完整性与前瞻性。\n\n## 易错点\n\n只看股价或利润会低估长期价值与可持续性。\n\n## 例子\n\n企业持续投入研发与环境，短期利润承压但长期价值提升。\n\n## 考试提醒\n\n用“长期价值+多利益相关者”衡量整体绩效。",
+              "standardReference": "ACCA SBL Performance Management",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Finance in Business Decision Making",
+      "description": "理解财务决策框架、投资评估、融资选择与风险管理对战略的支持。",
+      "topics": [
+        {
+          "title": "Financial decision framework",
+          "points": [
+            {
+              "code": "SBL.8.1",
+              "title": "Role of finance in strategy and value creation",
+              "summary": "财务为战略提供资源配置与价值评估支持，是企业价值的量化基础。",
+              "contentMd": "## 核心概念\n\n财务管理支撑战略：评估投资回报、配置资本、管理现金流与风险，并衡量价值创造。财务视角帮助管理层用客观数据验证战略，平衡增长、盈利与风险。\n\n## 常见考法\n\n分析财务职能如何支持战略决策，或评估某项决策的价值影响。\n\n## 易错点\n\n财务是战略的支撑而非替代，需与运营和市场判断结合。\n\n## 例子\n\n公司用资本预算评估并购项目，判断其是否创造价值。\n\n## 考试提醒\n\n把“价值创造+风险管理+资本配置”作为财务支持战略的主线。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.8.2",
+              "title": "Investment appraisal techniques",
+              "summary": "投资评估包括回收期、会计收益率、净现值与内部报酬率，需结合风险与假设。",
+              "contentMd": "## 核心概念\n\n投资评估方法：回收期（payback，关注回本速度）、会计收益率（ARR）、净现值（NPV，折现现金流，正值创造价值）与内部报酬率（IRR）。NPV 是理论最优，但需合理折现率与现金流预测，并结合风险与战略因素。\n\n## 常见考法\n\n计算 NPV/IRR 并解释判断，或比较不同方法的局限。\n\n## 易错点\n\n回收期忽略时间价值与回收期后现金流；IRR 有多解与规模问题。\n\n## 例子\n\n项目净现值 50 万为正，说明在要求回报率下仍创造价值。\n\n## 考试提醒\n\n强调 NPV 兼顾时间价值，是评估的基准方法。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.8.3",
+              "title": "Financing decisions and cost of capital",
+              "summary": "融资决策影响资本结构与资本成本，需在债务与权益间权衡风险与成本。",
+              "contentMd": "## 核心概念\n\n融资决策（financing decision）选择债务、权益或二者的组合。资本成本（cost of capital）是资金的最低必要回报率。债务有税盾但增加财务风险；权益无强制偿债但成本更高、稀释控制权。杠杆（gearing）上升会放大风险并可能推高资本成本。\n\n## 常见考法\n\n分析融资选择对资本结构、风险与成本的影响。\n\n## 易错点\n\n高杠杆在盈利时放大收益，但也增加破产风险。\n\n## 例子\n\n公司大量举债扩张，财务风险上升，利息保障倍数下降。\n\n## 考试提醒\n\n把握“税盾 vs 财务风险”的资本结构权衡。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Financial risk management",
+          "points": [
+            {
+              "code": "SBL.8.4",
+              "title": "Types of financial risk",
+              "summary": "财务风险包括流动性、利率、汇率、信用与商品价格风险，需识别并管理。",
+              "contentMd": "## 核心概念\n\n财务风险（financial risk）包括流动性风险（无法偿付短期债务）、利率风险（利率变化）、汇率风险（外币敞口）、信用风险（对方违约）与商品价格风险。这些风险会侵蚀现金流与利润，须在经营中识别并控制。\n\n## 常见考法\n\n识别某风险类型，或分析其对企业的影响。\n\n## 易错点\n\n财务风险不限于借贷风险，还包括经营中汇率、利率与流动性的波动。\n\n## 例子\n\n出口企业面临应收账款汇率波动，属汇率风险。\n\n## 考试提醒\n\n把各类财务风险与其来源、影响对应。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.8.5",
+              "title": "hedging financial risks",
+              "summary": "对冲（套期保值）用衍生工具锁定风险，分为远期、期货、期权与互换。",
+              "contentMd": "## 核心概念\n\n对冲（hedging）用金融工具抵消价格、利率或汇率的不利波动。工具有远期（forward）、期货（futures）、期权（options）与互换（swaps）。对冲目标是降低不确定性，但需权衡成本、基差风险与套期会计处理。\n\n## 常见考法\n\n选择合适对冲工具，或分析对冲的成本与效果。\n\n## 易错点\n\n对冲旨在“锁定/降险”，而非投机获利。\n\n## 例子\n\n出口商以远期外汇合约锁定未来收款汇率。\n\n## 考试提醒\n\n理解各类工具特征：远期锁定、期权赋予权利、互换交换现金流。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.8.6",
+              "title": "Working capital and cash flow management",
+              "summary": "营运资金与现金流管理保障日常经营周转，是财务稳健的基石。",
+              "contentMd": "## 核心概念\n\n营运资金管理（working capital management）平衡流动性（应收、存货、现金）与盈利性。现金循环周期（cash conversion cycle）衡量从付款到收现的时间，越短越好。企业需优化存货、信用与付款政策，避免“有利润却缺现金”。\n\n## 常见考法\n\n分析营运资金政策对流动性/盈利的影响，或计算现金循环周期。\n\n## 易错点\n\n放宽信用可促销售，但占用资金并增加坏账风险。\n\n## 例子\n\n企业缩短应收回收期与存货周转，降低营运资金占用。\n\n## 考试提醒\n\n把握“流动性 vs 盈利性”的营运资金权衡。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Finance and value evaluation",
+          "points": [
+            {
+              "code": "SBL.8.7",
+              "title": "Valuation and business combinations",
+              "summary": "企业估值方法（资产、收益、市场倍数、现金流折现）用于并购与价值评估。",
+              "contentMd": "## 核心概念\n\n企业估值方法包括资产基础法（净资产）、收益法（如市盈率 P/E、EV/EBITDA 倍数）、现金流折现法（DCF）与市场可比法。估值受预期增长、风险、市场情绪与协同效应影响，常需多种方法交叉验证。\n\n## 常见考法\n\n运用某估值方法计算企业价值，或比较不同方法的结果。\n\n## 易错点\n\n估值是“估计”而非精确，需结合假设与情境。\n\n## 例子\n\n用 DCF 评估目标企业未来现金流现值，作为并购出价参考。\n\n## 考试提醒\n\n把“资产、收益、倍数、DCF”作为估值工具箱。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.8.8",
+              "title": "Mergers and acquisitions strategy",
+              "summary": "并购是实现增长与协同的战略工具，需评估战略契合、估值与整合风险。",
+              "contentMd": "## 核心概念\n\n并购（M&A）用于获取能力、规模、市场或技术。决策需评估战略契合度、合理估值、融资安排与整合（integration）风险。并购常因过度乐观（如高估协同、低估整合难度）而失败，需审慎论证。\n\n## 常见考法\n\n评估某并购的战略合理性与风险，或分析并购失败原因。\n\n## 易错点\n\n“并购创造价值”常被高估，整合与协同实现是难点。\n\n## 例子\n\n科技公司并购初创企业获取技术，但文化整合不当导致人才流失。\n\n## 考试提醒\n\n从“战略契合-估值-融资-整合”四方面审视并购。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.8.9",
+              "title": "Financial resilience and sustainable finance",
+              "summary": "财务韧性保障在压力下持续经营，可持续金融把环境社会目标纳入融资与投资。",
+              "contentMd": "## 核心概念\n\n财务韧性（financial resilience）指企业在宏观经济、市场或经营冲击中维持流动性与持续经营的能力，需合理资本结构、缓冲现金流与风险预案。可持续金融（sustainable finance）把 ESG 纳入融资（如绿色债券）与投资决策，兼顾财务与社会回报。\n\n## 常见考法\n\n分析企业财务韧性，或评价可持续融资的价值。\n\n## 易错点\n\n过度负债削弱韧性，可持续理念需与回报平衡。\n\n## 例子\n\n企业保持充裕现金并发行绿色债券支持环保项目，兼顾韧性与可持续。\n\n## 考试提醒\n\n把“韧性=流动性+资本缓冲”“可持续=ESG+回报”结合。",
+              "standardReference": "ACCA SBL Finance",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Ethics, Culture and Professional Values",
+      "description": "围绕专业道德、治理文化与职业怀疑，培养负责任的管理者价值观与行为。",
+      "topics": [
+        {
+          "title": "Professional ethics",
+          "points": [
+            {
+              "code": "SBL.9.1",
+              "title": "Fundamental ethical principles",
+              "summary": "专业道德的基本原则包括诚信、客观、专业胜任、保密与专业行为。",
+              "contentMd": "## 核心概念\n\nACCA/IESBA 的基本道德原则（fundamental principles）包括：诚信（integrity）、客观（objectivity）、专业胜任与应有的审慎（professional competence and due care）、保密（confidentiality）与专业行为（professional behaviour）。它们是财务与管理职业行为的底线。\n\n## 常见考法\n\n判断某行为违背哪项基本原则，或识别道德困境。\n\n## 易错点\n\n“客观”要求不受偏见与不当影响，与诚信相区分。\n\n## 例子\n\n管理层要求会计人员隐瞒坏账，违背诚信与如实反映。\n\n## 考试提醒\n\n用“诚、客、能、密、行”对应具体场景。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.9.2",
+              "title": "Ethical threats and safeguards",
+              "summary": "识别自身利益、自我评价等威胁，并采取防范措施或拒绝/退出。",
+              "contentMd": "## 核心概念\n\n道德威胁包括自身利益、自我评价、拥护、密切关系与压力威胁。应对（safeguards）可由制度（如独立审核、委员会）、职业规则或主体内控制提供；当威胁重大且无法消除时，应拒绝或退出相关业务。\n\n## 常见考法\n\n识别威胁类型并给出适当应对。\n\n## 易错点\n\n“密切关系”威胁来自关系亲近导致丧失独立判断。\n\n## 例子\n\n审计师与客户长期合作致关系过密，应通过轮换或独立复核缓解。\n\n## 考试提醒\n\n“识别威胁→评估重大性→采取防范/拒绝”是标准答题框架。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.9.3",
+              "title": "Ethical decision making frameworks",
+              "summary": "借助道德决策框架，系统分析困境并做出负责、可持续的选择。",
+              "contentMd": "## 核心概念\n\n道德决策框架通过澄清问题、识别受影响者、评估后果、对照原则与选择行动，帮助处理灰色地带的困境。常用“美国注册会计师协会”式五步法，或结合原则、后果与德性伦理进行判断，做到公开、透明并可辩护。\n\n## 常见考法\n\n运用道德框架分析案例并给出结论。\n\n## 易错点\n\n道德决策要兼顾结果与原则，而非只看短期得失。\n\n## 例子\n\n面对利益诱惑，经理先识别冲突、评估影响再拒绝，体现伦理决策。\n\n## 考试提醒\n\n把“问题-人选-后果-原则-行动-反思”串成框架。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Organisational culture and ethics",
+          "points": [
+            {
+              "code": "SBL.9.4",
+              "title": "Ethical culture and tone at the top",
+              "summary": "组织的道德文化由高层示范与制度共同塑造，形成全员自觉的行为底线。",
+              "contentMd": "## 核心概念\n\n道德文化（ethical culture）通过高层示范（tone at the top）、明示价值观、奖惩机制与持续沟通塑造。当“做正确的事”成为默认行为时，员工在无人监督时也会遵规，从而降低舞弊与合规风险。\n\n## 常见考法\n\n分析高层如何塑造道德文化，或评价文化的道德性。\n\n## 易错点\n\n高层言行不一会瓦解任何道德制度。\n\n## 例子\n\nCEO 公开拒绝灰色交易并奖励举报，强化了诚信文化。\n\n## 考试提醒\n\n把“领导示范+制度激励+持续沟通”作为道德文化建设。",
+              "standardReference": "ACCA SBL Ethical Culture",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBL.9.5",
+              "title": "Corporate social responsibility and ethical strategy",
+              "summary": "企业需把社会责任与伦理融入战略，平衡利润与社会价值。",
+              "contentMd": "## 核心概念\n\n企业社会责任（CSR）与可持续战略要求企业在追求利润时兼顾社会与环境责任。把伦理性融入愿景、使命与决策，不仅能降低风险、赢得信任，还能形成差异化与长期价值。\n\n## 常见考法\n\n分析企业如何将责任融入战略，或评价责任的商业价值。\n\n## 易错点\n\nCSR 是战略嵌入，而非公关或短期慈善。\n\n## 例子\n\n企业把环保与员工福祉写入战略，并配套资源与考核。\n\n## 考试提醒\n\n从“融入战略+资源配套+长期价值”看责任的落地。",
+              "standardReference": "ACCA SBL CSR",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.9.6",
+              "title": "Whistleblowing and speaking up",
+              "summary": "举报机制保护员工揭露不当行为，是维护组织诚信与合规的重要防线。",
+              "contentMd": "## 核心概念\n\n举报（whistleblowing）指员工或相关人员向内部或外部揭露不当行为、舞弊或合规问题。有效的举报机制需保密、便捷、非报复，并提供独立渠道与后续处理。它帮助组织及时发现和纠正问题，保护公众利益。\n\n## 常见考法\n\n分析举报机制的要素，或讨论揭发者的保护与风险。\n\n## 易错点\n\n需平衡保密与公平，避免打击报复与虚假举报。\n\n## 例子\n\n公司设置匿名举报热线，财务人员揭发舞弊并获保护。\n\n## 考试提醒\n\n把“保密+非报复+独立渠道+妥善处理”作为举报机制要点。",
+              "standardReference": "ACCA SBL Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Professional values in practice",
+          "points": [
+            {
+              "code": "SBL.9.7",
+              "title": "Professional scepticism and professional judgement",
+              "summary": "职业怀疑与专业判断帮助管理者审慎评估信息、挑战假设并做出可靠决策。",
+              "contentMd": "## 核心概念\n\n职业怀疑（professional scepticism）是以质疑态度审视证据与假设；专业判断（professional judgement）是在模糊情形下基于专业标准与经验的合理决策。二者结合能提升信息可靠性、识别风险并避免盲从。\n\n## 常见考法\n\n说明职业怀疑与判断在决策中的价值。\n\n## 易错点\n\n职业怀疑不等于恶意猜疑，而是基于证据的审慎。\n\n## 例子\n\n管理层对一份可疑报告保持怀疑并要求补充佐证。\n\n## 考试提醒\n\n“判断+怀疑”是专业价值的核心能力。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.9.8",
+              "title": "The public interest and professional responsibility",
+              "summary": "专业人员须以公众利益为重，承担对社会、组织与客户的责任。",
+              "contentMd": "## 核心概念\n\n公众利益（public interest）要求专业人员超越客户或个人利益，维护社会信任与市场秩序。管理者的专业责任包括诚信履职、维护公正、避免误导与承担受托责任（stewardship）。\n\n## 常见考法\n\n分析专业人员的公众利益责任，或识别利益冲突。\n\n## 易错点\n\n公众利益优先于个别客户要求。\n\n## 例子\n\n会计师拒绝为客户出具误导性证明，以守护公众利益。\n\n## 考试提醒\n\n把“公众利益+受托责任”作为职业行为的根本立场。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBL.9.9",
+              "title": "Making difficult decisions with integrity",
+              "summary": "在压力与诱惑下坚持正直，是管理者维护职业声誉与组织信任的根本。",
+              "contentMd": "## 核心概念\n\n面对短期业绩压力、利益诱惑或上级不当要求，坚守正直（integrity）需要勇气与清晰的伦理框架。通过记录、沟通、遵循程序与必要时寻求建议/举报，管理者既能抗住压力，也保护自身与组织。\n\n## 常见考法\n\n分析管理者在压力下如何坚持正直，或提出应对建议。\n\n## 易错点\n\n一次妥协可能损害长期职业声誉与信任。\n\n## 例子\n\n经理拒绝虚增利润的要求，即便短期受损也维护了诚信。\n\n## 考试提醒\n\n用“识别诱惑→对照原则→沟通记录→必要时上报”组织思路。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

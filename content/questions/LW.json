@@ -1,0 +1,266 @@
+[
+  {
+    "paper": "LW",
+    "variant": "ENG",
+    "jurisdiction": "England & Wales",
+    "chapterCode": "02",
+    "topicTitle": "Offer and Acceptance",
+    "kpTitle": "Offer and invitation to treat",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 1,
+    "textMd": "在 England & Wales 某商店的橱窗里展示一件标价为 £1,000 的夹克，并在旁注明\"此价出售\"。顾客进入商店表示愿意购买。根据合同法，商店橱窗中的标价表示在法律上通常应被认定为：",
+    "options": [
+      {
+        "key": "A",
+        "text": "构成要约，双方立即成立合同",
+        "isCorrect": false,
+        "feedbackMd": "错误：橱窗陈列通常只是邀请顾客作出要约，而非可被\"承诺\"直接成立合同的要约（Fisher v Bell）。"
+      },
+      {
+        "key": "B",
+        "text": "构成要约邀请（invitation to treat）",
+        "isCorrect": true,
+        "feedbackMd": "正确：橱窗陈列、目录与一般广告通常被认定为邀约邀请，顾客的购买意向才构成要约，商店可决定是否承诺。"
+      },
+      {
+        "key": "C",
+        "text": "构成对价条款，与合同成立无关",
+        "isCorrect": false,
+        "feedbackMd": "错误：对价涉及利益交换，而非判断橱窗标价是否构成要约；此处讨论的是要约与要约邀请的区分。"
+      },
+      {
+        "key": "D",
+        "text": "构成承诺，商店立即受合同约束",
+        "isCorrect": false,
+        "feedbackMd": "错误：承诺是对要约的无条件同意；橱窗陈列并非承诺，也不能使商店立即受拘束。"
+      }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n在 England & Wales，合同成立的起点是判断一方表示是否构成要约（offer）。橱窗中显示商品与价格通常被认定为\"要约邀请\"（invitation to treat）。请参考 Fisher v Bell 与 Partridge v Crittenden：一般公开陈列、广告与价目表并非要约，而是邀请相对方向卖方提出要约。因此顾客表示愿意购买，实质上是向商店提出要约，商店并无必须接受的义务，仍可自由决定是否达成交易。这一区分保护了卖方免受因橱窗或广告陈列而意外承担合同义务的风险，是客观理性人视角的体现。\n\n## 计算过程\n\n本题为法律推理题，无独立计算过程。解题关键在于识别\"要约\"与\"要约邀请\"的法律界限：看该表示是否可由对方单纯以\"接受\"即成立合同。橱窗陈列并不能仅靠顾客承诺即缔结合同，故属要约邀请。\n\n## 对应知识点\n\n本题对应章节 02\"Formation of Contracts\"中\"Offer and Acceptance\"主题的\"Offer and invitation to treat\"知识点。\n\n## 其他选项分析\n\nA 错在把橱窗陈列当成就构成要约；若如此，商店将无法拒绝任何进店购买的顾客，显然不符合普通法实践。C 错在引入与本题无关的对价概念，本题焦点是要约与要约邀请的区分。D 错在把陈列当作承诺——承诺必须以无条件同意回应要约，而陈列并非对任何要约的同意。\n\n## 易错提醒\n\n切勿把\"橱窗标价\"\"网上目录\"或\"一则广告\"当作要约；它们一般只是要约邀请。\n\n## 考试技巧\n\n记住测试：如果对方以\"接受\"即可创设合同，则该表示多为要约；若还需买方先出价、卖方尚可取舍，则多为邀约邀请。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "LW",
+    "variant": "ENG",
+    "jurisdiction": "England & Wales",
+    "chapterCode": "02",
+    "topicTitle": "Consideration",
+    "kpTitle": "Part payment of debt and promissory estoppel",
+    "type": "TRUE_FALSE",
+    "difficulty": 2,
+    "textMd": "在 England & Wales，A 欠 B £10,000，已到期。B 明确表示\"只需支付 £8,000 即可了结全部债务\"，A 支付了 £8,000。随后 B 反悔，要求 A 再支付所欠 £2,000。判断以下说法是否正确：根据普通法（并结合禁反言理论），B 的主张通常无法得到法院支持。",
+    "options": [
+      {
+        "key": "TRUE",
+        "text": "正确",
+        "isCorrect": true,
+        "feedbackMd": "正确：普通法上收取部分款项本身不能免除全部债务（part payment rule），但 B 曾作出明确允诺，A 基于信赖支付且已改变地位（支付了 £8,000），依据禁反言（promissory estoppel，High Trees 案）B 应受其允诺拘束，通常不得再追讨 £2,000。"
+      },
+      {
+        "key": "FALSE",
+        "text": "错误",
+        "isCorrect": false,
+        "feedbackMd": "错误：虽然部分支付原则（Pinnel's Case）起初对债主有利，但 B 的明确允诺结合 A 的信赖与支付改变，令禁反言可用作\"盾\"，阻止 B 反悔追讨余款。"
+      }
+    ],
+    "answerJson": "[\"TRUE\"]",
+    "explanationMd": "## 正确答案\n\nTRUE（正确）\n\n## 为什么\n\n在 England & Wales，普通法确立 Pinnel's Case 规则：债务人部分支付不能自动免除全部债务，债权人仍可追讨差额。但 Central London Property Trust v High Trees House Ltd 发展出禁反言（promissory estoppel）：当一方作出明确允诺，并使对方信赖该允诺而改变地位（此处 A 实际支付了 £8,000）时，允诺人通常不得反悔。因此，尽管部分支付规则本不利于 A，B 却因自己的明确允诺而被禁止再主张剩余 £2,000。需注意禁反言大多作为\"抗辩之盾\"使用，而非创设新的给付义务。\n\n## 计算过程\n\n本题为法律推理题，无独立计算过程。判断顺序为：先适用部分支付规则（倾向支持 B），再以 B 的明确允诺与 A 信赖改变触发禁反言，从而否定 B 的追索。\n\n## 对应知识点\n\n本题对应章节 02\"Formation of Contracts\"中\"Consideration\"主题的\"Part payment of debt and promissory estoppel\"知识点。\n\n## 其他选项分析\n\nFALSE 选项建立在\"部分支付规则必然支持债权人\"的错误前提上，忽略了 B 明确允诺后禁反言所产生的限制；因此该结论不能成立。\n\n## 易错提醒\n\n不要把禁反言当作可创造新债务的\"矛\"，它一般是\"盾\"，仅用于阻止允诺人反悔；也要记住部分支付本身并不能免除全部债务。\n\n## 考试技巧\n\n看到\"明确允诺 + 对方信赖改变\"场景，优先考虑 promissory estoppel；同时说明它是抗辩而非诉因。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "LW",
+    "variant": "ENG",
+    "jurisdiction": "England & Wales",
+    "chapterCode": "07",
+    "topicTitle": "Directors' Duties",
+    "kpTitle": "Duties to act within powers and promote success (s.171-172)",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 2,
+    "textMd": "在 England & Wales，某有限公司的董事会面临是否关闭长期亏损、员工众多的老厂以转向高利润新业务的决策。依据 Companies Act 2006 s.172，董事在作出该决定时应：",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅以短期股价最大化为唯一考量",
+        "isCorrect": false,
+        "feedbackMd": "错误：s.172 要求董事为成员整体利益促进公司成功，并考虑长期后果、雇员、供应商、客户、社区与环境等多元因素，而非只看短期股价。"
+      },
+      {
+        "key": "B",
+        "text": "以善意促进公司整体利益，并兼顾雇员、供应商、客户、社区、环境及长期后果",
+        "isCorrect": true,
+        "feedbackMd": "正确：s.172 规定董事须善意地为公司整体成功行事，并权衡所列举的多元利益相关者与长期影响，这正是该题所考查的核心。"
+      },
+      {
+        "key": "C",
+        "text": "以判断商业决策的智慧为由，法院会自动干预董事的决定",
+        "isCorrect": false,
+        "feedbackMd": "错误：法院不会以\"经营智慧\"为由随意再审董事的商业判断，只要董事出于善意且为公司整体利益行事即可；这与 s.172 的善意标准一致，但 C 的说法并非 s.172 的直接要求。"
+      },
+      {
+        "key": "D",
+        "text": "只须避免利益冲突，无需考虑经营决定",
+        "isCorrect": false,
+        "feedbackMd": "错误：避免利益冲突是 s.175 的范畴，而非 s.172 的核心；s.172 强调在善意为公司成功行事时平衡多元利益考虑。"
+      }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n在 England & Wales，Companies Act 2006 s.172 要求董事以善意促进公司整体利益与成员整体成功，并在决策中考虑雇员利益、供应商与客户关系、社区与环境影响，以及公司行为的长期后果。该题中关闭亏损老厂涉及雇员、社区、客户与长期战略等多方利益，董事不能只盯短期股价，而须在善意为公司整体利益的前提下权衡各要素。请注意，法院并不以\"经营智慧\"替代董事判断，这尊重董事的商业裁量；但 s.172 的善意与整体利益仍是可被审查的边界。\n\n## 计算过程\n\n本题为法律推理题，无独立计算过程。判断要点：识别 s.172 所列举的考量因素，并结合善意与整体利益标准判断董事的决策框架。\n\n## 对应知识点\n\n本题对应章节 07\"Management: Directors\"中\"Directors' Duties\"主题的\"Duties to act within powers and promote success (s.171-172)\"知识点。\n\n## 其他选项分析\n\nA 过于片面，排除长期与多元利益，与 s.172 不符。C 混淆了董事判断与司法审查的关系，且并非 s.172 的直接要求。D 把 s.172 的内容错置于 s.175 的利益冲突义务上。\n\n## 易错提醒\n\ns.172 不是\"只对股东负责\"，而是兼顾多元利益相关者与长期价值；也不要误以为法院会审查董事的商业判断是否\"聪明\"。\n\n## 考试技巧\n\n凡涉及公司重大经营决策，先想 s.172 的善意与整体利益，再回忆其列明的考量因素（员工、供应商、客户、社区、环境、长期）。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "LW",
+    "variant": "ENG",
+    "jurisdiction": "England & Wales",
+    "chapterCode": "05",
+    "topicTitle": "Separate Legal Personality",
+    "kpTitle": "Separate legal personality and the Salomon principle",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "在 England & Wales，A 成立一家有限公司并持有 99% 股份、同时担任主要债权人。公司因经营失败资不抵债，公司债权人拟直接向 A 的个人财产追偿。依据 Salomon v A Salomon & Co Ltd 确立的原则，公司债权人通常：",
+    "options": [
+      {
+        "key": "A",
+        "text": "可以直接追偿，因为 A 几乎控制全部股份",
+        "isCorrect": false,
+        "feedbackMd": "错误：仅因股东控制公司并不使公司丧失独立人格；Salomon 案明确股东即使控制公司也须受法人独立保护，债权人不得直接追索其个人资产。"
+      },
+      {
+        "key": "B",
+        "text": "可以追偿，因为 A 同时是公司债权人使其丧失有限责任",
+        "isCorrect": false,
+        "feedbackMd": "错误：A 同时作为公司债权人不影响公司独立人格；公司债务由公司自身承担，A 作为股东仅以其注资额为限担责。"
+      },
+      {
+        "key": "C",
+        "text": "通常不能直接追偿，除非符合揭穿公司面纱的例外情形",
+        "isCorrect": true,
+        "feedbackMd": "正确：Salomon 案确立公司独立法人人格，公司与股东分离；债权人只能主张公司资产，除非存在刺破面纱的例外（如欺诈、规避义务等）。"
+      },
+      {
+        "key": "D",
+        "text": "必须由法院先行批准才能起诉公司",
+        "isCorrect": false,
+        "feedbackMd": "错误：债权人当然可以就公司债务起诉公司，与\"是否可直接追究股东个人\"是两回事；此说法偏离 Salomon 原则的核心。"
+      }
+    ],
+    "answerJson": "[\"C\"]",
+    "explanationMd": "## 正确答案\n\nC\n\n## 为什么\n\n在 England & Wales，Salomon v A Salomon & Co Ltd 确立了公司独立法人人格（separate legal personality）：公司一经注册即在法律上独立于股东与董事，公司债务由公司承担，股东通常以其认缴出资额为限担责。本案中 A 持股 99% 且同时为公司债权人，并不改变这一原则——公司仍是独立主体，公司债权人只能就公司资产主张。要追究股东个人或控制人的责任，必须存在\"揭穿公司面纱\"（lifting the veil）的例外，例如公司被用作欺诈或规避义务的工具。\n\n## 计算过程\n\n本题为法律推理题，无独立计算过程。关键在于理解法人独立与刺破面纱例外的关系，而非计算。\n\n## 对应知识点\n\n本题对应章节 05\"Companies: Legal Personality and Formation\"中\"Separate Legal Personality\"主题的\"Separate legal personality and the Salomon principle\"知识点。\n\n## 其他选项分析\n\nA 把\"控股\"误当刺破理由；B 把\"股东兼债主\"误当丧失有限责任；D 把\"起诉公司\"与\"追究股东个人\"混为一谈。\n\n## 易错提醒\n\n刺破公司面纱是例外而非常态：需要有欺诈、规避义务等不当目的，单纯控股权或同时担任债权人并不足够。\n\n## 考试技巧\n\n牢记 Salomon 案与\"刺破是例外\"的对应；见到\"唯一股东/主要股东\"场景，先默认为法人独立，再找是否有欺诈或规避情形。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "LW",
+    "variant": "ENG",
+    "jurisdiction": "England & Wales",
+    "chapterCode": "10",
+    "topicTitle": "Unfair Dismissal and Redundancy",
+    "kpTitle": "Qualifying period and grounds for unfair dismissal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "在 England & Wales，一名雇员入职仅 10 个月即被解雇，雇主给出的理由是雇员曾揭发公司内部财务造假（属受保护披露的举报行为）。该雇员主张不公平解雇。依据 Employment Rights Act 1996，正确的判断是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "该雇员因连续服务不足两年，不能主张任何解雇救济",
+        "isCorrect": false,
+        "feedbackMd": "错误：连续服务两年是普通不公平解雇的资格门槛，但自动不公平解雇（如因举报/受保护披露）不要求该服务期，故不能以此否定其主张。"
+      },
+      {
+        "key": "B",
+        "text": "即使服务不足两年，因揭发属自动不公平解雇（受保护披露），雇员仍可主张",
+        "isCorrect": true,
+        "feedbackMd": "正确：依 Employment Rights Act 1996，因\"公利披露/举报\"等原因的解雇属自动不公平解雇，不受连续服务两年门槛限制，雇员仍可主张救济。"
+      },
+      {
+        "key": "C",
+        "text": "该解雇只属于错误解雇（wrongful dismissal），不存在不公平解雇问题",
+        "isCorrect": false,
+        "feedbackMd": "错误：本题涉及的是法定不公平解雇，而非仅合同通知期的错误解雇；且举报解雇属自动不公平情形，并非单纯违约问题。"
+      },
+      {
+        "key": "D",
+        "text": "须先证明雇主存在欺诈才能主张不公平解雇",
+        "isCorrect": false,
+        "feedbackMd": "错误：不公平解雇的成立并不以雇主欺诈为要件；关键在解雇原因是否属禁止情形或合理性不足，本题中举报解雇已属自动不公平。"
+      }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n在 England & Wales，依据 Employment Rights Act 1996 Part X，雇员通常须满足\"连续服务满两年\"的资格期才可主张不公平解雇。但法律规定了一系列\"自动不公平解雇\"（automatically unfair dismissal）情形，如因怀孕/生育、工会活动、担任受保护披露（举报人）等而被解雇，这类情形不要求满足两年服务期。本案雇员因揭发公司财务造假（公利披露）被解雇，属于自动不公平解雇情形，因此即使服务不足两年，仍可提出主张。\n\n## 计算过程\n\n本题为法律推理题，无独立计算过程。关键在于先判断是否属\"自动不公平解雇\"；若是，则资格期门槛即不适用。\n\n## 对应知识点\n\n本题对应章节 10\"Employment Law\"中\"Unfair Dismissal and Redundancy\"主题的\"Qualifying period and grounds for unfair dismissal\"知识点。\n\n## 其他选项分析\n\nA 忽略了自动不公平解雇不要求服务期；C 把不公平解雇与错误解雇混为一谈；D 人为拔高举证门槛，不属法定要件。\n\n## 易错提醒\n\n记住\"任职年限\"只是普通不公平解雇的资格门槛，遇到举报、怀孕、工会等情形要立刻识别为自动不公平解雇，无需该门槛。\n\n## 考试技巧\n\n一看到\"揭发/举报/怀孕/工会\"关键词，优先考虑自动不公平解雇；再说明它绕开连续服务两年的要求。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "LW",
+    "variant": "ENG",
+    "jurisdiction": "England & Wales",
+    "chapterCode": "04",
+    "topicTitle": "Partnership Liability and Dissolution",
+    "kpTitle": "Liability of partners and Partnership Act 1890",
+    "type": "CASE_MCQ",
+    "difficulty": 4,
+    "textMd": "【案例】\n\n在 England & Wales，甲、乙两人共同经营一家设计工作室，未签署合伙协议，但共同出资、共同管理并按约定的比例分享利润。某日，乙以工作室名义与丙签订一份大型采购合同，合同金额显著超出工作室日常经营规模。丙并不知晓该工作室的经营限额，也未察觉乙未经授权。后工作室资金链断裂，无法支付丙的货款。\n\n【问题】\n\n依据 Partnership Act 1890 及相关法律，下列关于甲乙对丙责任的说法，正确的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "因乙越权且金额巨大，乙个人对丙负责，甲不承担责任",
+        "isCorrect": false,
+        "feedbackMd": "错误：合伙人对外订立合同原则上使合伙及全体合伙人承担连带责任；乙是否为合伙约定范围内的行为，以及丙是否为善意第三方，决定责任归属，但把责任绝对划归乙一人并不准确。"
+      },
+      {
+        "key": "B",
+        "text": "甲乙作为合伙人，应对该合伙债务向丙承担连带无限责任",
+        "isCorrect": true,
+        "feedbackMd": "正确：依 Partnership Act 1890，合伙人就其合伙在经营过程中所负债务承担连带（joint and several）无限责任；工作室经营中产生的债务，丙可向甲乙任一人或合伙主张，故甲乙连带且无限负责。"
+      },
+      {
+        "key": "C",
+        "text": "甲仅以其出资额为限承担责任，其余由乙承担",
+        "isCorrect": false,
+        "feedbackMd": "错误：普通合伙的合伙人对合伙债务承担无限责任，而非以出资额为限；有限责任是公司或 LLP 的特征，普通合伙人并不享有。"
+      },
+      {
+        "key": "D",
+        "text": "甲作为未参与该项交易的合伙人，不承担责任",
+        "isCorrect": false,
+        "feedbackMd": "错误：合伙人责任依合伙关系而非是否亲自参与某项交易而定；合伙人通常就合伙经营中产生的债务对善意第三人承担连带责任。"
+      }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n在 England & Wales，甲乙共同出资、共同管理并分享利润，构成 Partnership Act 1890 下的合伙。依该法，每一合伙人对合伙在经营中产生的债务与其他合伙人承担连带（joint and several）无限责任。乙以工作室名义与丙缔约，属合伙经营行为；丙作为善意第三方，有权要求合伙或任一合伙人承担债务。因此，甲乙须对该采购合同债务共同向丙负无限连带责任。至于乙是否越出日常规模，主要影响合伙人内部追偿与责任分配，并不免除合伙人对外承担连带责任。\n\n## 计算过程\n\n本题为法律推理题，无独立计算过程。判断步骤为：确认合伙存在（共同经营/盈利）→ 确定债务属合伙经营债务 → 适用连带无限责任规则，把责任归于甲乙二人。\n\n## 对应知识点\n\n本题对应章节 04\"Agency and Partnership\"中\"Partnership Liability and Dissolution\"主题的\"Liability of partners and Partnership Act 1890\"知识点。\n\n## 其他选项分析\n\nA 错误地把责任归于乙一人，而忽略合伙人对合伙债务的连带责任；C 错误地把普通合伙当作有限责任安排；D 错误地以\"是否参与交易\"判断合伙人责任，责任归属于合伙关系而非个人参与。\n\n## 易错提醒\n\n普通合伙的合伙人承担无限连带责任，不因是否亲自签约或出资份额不同而免除；有限责任（以出资额为限）属于公司或 LLP 的特征。\n\n## 考试技巧\n\n案例题先判断是否构成合伙（共同经营+盈利），再落实\"连带无限责任\"：丙可向任一合伙人追偿，合伙人之间再依内部约定分担。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": null,
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

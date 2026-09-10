@@ -1,0 +1,621 @@
+{
+  "code": "AAA",
+  "name": "Advanced Audit and Assurance",
+  "nameCn": "高级审计与鉴证",
+  "level": "STRATEGIC_PROFESSIONAL",
+  "category": "OPTIONS",
+  "order": 15,
+  "accent": "#f59e0b",
+  "description": "面向高级审计与鉴证，涵盖审计伦理、计划与风险、证据、集团审计、质量控制、审计报告与其他鉴证与舞弊审计。",
+  "examDurationMin": 195,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Case Question", "scope": "案例题", "count": 2, "marksPerQuestion": 25, "sectionMarks": 50 },
+      { "id": "B", "name": "Section B - Constructed Response (2 of 3)", "scope": "主观题", "count": 2, "marksPerQuestion": 25, "sectionMarks": 50 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" },
+    { "code": "INT", "label": "International", "region": "International" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Ethical and Professional Requirements",
+      "description": "掌握审计师的独立性与道德要求、公众利益责任与接受客户时的伦理评估。",
+      "topics": [
+        {
+          "title": "Ethical requirements for auditors",
+          "points": [
+            {
+              "code": "AAA.1.1",
+              "title": "Fundamental ethical principles",
+              "summary": "审计师须遵守诚信、客观、专业胜任、保密与专业行为五项基本道德原则。",
+              "contentMd": "## 核心概念\n\n审计师遵循的基本道德原则（fundamental principles）：诚信（integrity）、客观（objectivity）、专业胜任与应有的审慎（professional competence and due care）、保密（confidentiality）与专业行为（professional behaviour）。这些原则是审计独立与可信的根基。\n\n## 常见考法\n\n识别审计师行为违背哪项原则。\n\n## 易错点\n\n独立性与客观性相关但独立是审计特有的制衡。\n\n## 例子\n\n审计师接受客户礼品可能损害客观与专业行为。\n\n## 考试提醒\n\n用“诚、客、能、密、行”对应具体伦理场景。",
+              "standardReference": "IESBA Code / ACCA Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.1.2",
+              "title": "Independence and threats",
+              "summary": "审计独立（实质与形式上）受自身利益、自我评价等威胁，需识别并防范。",
+              "contentMd": "## 核心概念\n\n审计独立性包括实质独立（mental independence）与形式独立（appearance）。威胁包括自身利益、自我评价、拥护、密切关系与压力威胁。审计师须识别威胁并采取防范（如轮换、独立复核、隔离），过重则须拒绝或退出。\n\n## 常见考法\n\n识别独立性威胁并评估防范措施。\n\n## 易错点\n\n“自我评价”指审计自己曾编制/提供的内容（如代理记账）。\n\n## 例子\n\n审计师为客户提供记账又审计，产生自我评价威胁。\n\n## 考试提醒\n\n“威胁→重大性→防范/退出”是独立性回应框架。",
+              "standardReference": "IESBA Code / ACCA Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.1.3",
+              "title": "Acceptance and continuance of clients",
+              "summary": "接受客户前须评估诚信、风险与胜任能力，并考虑职业道德与独立性。",
+              "contentMd": "## 核心概念\n\n客户接受与持续（client acceptance/continuance）评估包括：客户的诚信与管理层品格、业务与经营风险、事务所的胜任能力与资源、以及独立性与合规要求。高风险或不诚信客户应审慎或拒绝。\n\n## 常见考法\n\n评估是否接受某客户。\n\n## 易错点\n\n接受前评估诚信与风险是审计师首要防线。\n\n## 例子\n\n对涉嫌舞弊或治理薄弱的客户，事务所应谨慎决定接受。\n\n## 考试提醒\n\n把“诚信+风险+胜任+独立”作为接受评估四要素。",
+              "standardReference": "ISA 220 / ACCA Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Professional scepticism and public interest",
+          "points": [
+            {
+              "code": "AAA.1.4",
+              "title": "Professional scepticism",
+              "summary": "职业怀疑要求审计师保持质疑态度，审慎评估证据、挑战管理层假设。",
+              "contentMd": "## 核心概念\n\n职业怀疑（professional scepticism）指审计师以质疑态度审视证据与管理层陈述，识别可能存在的舞弊与错报，不轻信、不盲从。它体现为对管理层估计的谨慎、对异常事项的追查与对证据充分的坚持。\n\n## 常见考法\n\n分析审计师是否体现了职业怀疑。\n\n## 易错点\n\n职业怀疑是“基于证据的审慎”，不是怀疑一切的对立态度。\n\n## 例子\n\n对收入异常增长要求补充证据，体现职业怀疑。\n\n## 考试提醒\n\n把“质疑+追查+证据充分”作为职业怀疑的体现。",
+              "standardReference": "ISA / ACCA Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.1.5",
+              "title": "The public interest and auditor's role",
+              "summary": "审计师承担公众利益责任，通过对报表独立鉴证服务于投资者与社会。",
+              "contentMd": "## 核心概念\n\n审计师对公众利益（public interest）负责，其独立鉴证为投资者、债权人与社会提供可信的财务信息。公众利益超越个别客户利益，审计师须在压力下坚持独立、客观与如实报告。\n\n## 常见考法\n\n分析审计师的公众利益责任或与客户利益的冲突。\n\n## 易错点\n\n公众利益优先于客户利益与事务所自身利益。\n\n## 例子\n\n审计师顶住客户压力如实出具保留意见，守护公众利益。\n\n## 考试提醒\n\n把“公众利益+独立+如实报告”作为审计职业的立场。",
+              "standardReference": "IESBA Code / ACCA Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.1.6",
+              "title": "Ethical conflicts and resolutions",
+              "summary": "面对伦理冲突，审计师需按框架分析并寻求解决，必要时退出或报告。",
+              "contentMd": "## 核心概念\n\n当客户要求违反准则或存在利益冲突时，审计师应识别冲突、评估原则、与相应层级沟通、咨询专业机构，必要时拒绝或退出。伦理冲突的解决应透明、留痕并符合职业标准。\n\n## 常见考法\n\n分析伦理冲突并提出解决方式。\n\n## 易错点\n\n遇到冲突不可只求“平衡”，而要坚持原则并适当升级。\n\n## 例子\n\n审计师发现管理层隐瞒舞弊，应与治理层沟通并审慎处理。\n\n## 考试提醒\n\n“识别→评估→沟通→必要时退出”是冲突解决路径。",
+              "standardReference": "IESBA Code / ACCA Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Audit of Financial Statements: Planning and Risk",
+      "description": "掌握审计计划、重要性与风险评估，以及针对重大错报风险的应对。",
+      "topics": [
+        {
+          "title": "Audit planning and materiality",
+          "points": [
+            {
+              "code": "AAA.2.1",
+              "title": "Audit planning and strategy",
+              "summary": "审计计划确定范围、时间与资源，并指导风险评估与程序执行。",
+              "contentMd": "## 核心概念\n\n审计计划（audit planning）包括总体策略（audit strategy）与具体审计计划（audit plan），确定审计范围、重要性、风险评估、资源分配与时间安排。良好计划提高审计效率与效果。\n\n## 常见考法\n\n描述审计计划的内容或目的。\n\n## 易错点\n\n计划应在审计开始时就制定，并根据进展持续更新。\n\n## 例子\n\n计划阶段确定重要性、审计团队与关键日期。\n\n## 考试提醒\n\n把“范围+重要性+风险+资源+时间”作为计划要素。",
+              "standardReference": "ISA 300",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.2.2",
+              "title": "Materiality",
+              "summary": "重要性（materiality）影响审计程序与判断，按报表整体与特定项目设定。",
+              "contentMd": "## 核心概念\n\n重要性（materiality）是若错报单独或连同导致使用者决策改变的门槛。审计师确定报表整体重要性、特定项目重要性（如关键披露）与执行重要性（performance materiality，低于整体以留空间），并随审计修正。\n\n## 常见考法\n\n计算或判断重要性及其对审计的影响。\n\n## 易错点\n\n执行重要性低于整体重要性，用于确定审计程序的数量与范围。\n\n## 例子\n\n确定整体重要性为利润 5%，执行重要性设为其中的 70%。\n\n## 考试提醒\n\n区分“报表整体/特定/执行”三级重要性。",
+              "standardReference": "ISA 320",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.2.3",
+              "title": "Audit risk model",
+              "summary": "审计风险（固有、控制、检查风险）模型帮助审计师确定所需证据与程序。",
+              "contentMd": "## 核心概念\n\n审计风险（audit risk）＝固有风险（inherent risk）＋控制风险（control risk）＋检查风险（detection risk）。审计师通过了解被审计单位与内控评估固有与控制风险，据此确定可接受的检查风险与所需审计程序。\n\n## 常见考法\n\n评估各项风险并说明其对程序的影响。\n\n## 易错点\n\n高风险→需更多证据；低风险→可适当减少程序但须保持底限。\n\n## 例子\n\n存货变现与计价固有风险高，需增加证据与细节测试。\n\n## 考试提醒\n\n把“固有+控制→检查风险→程序力度”关联。",
+              "standardReference": "ISA 200 / ISA 315",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Assessing and responding to risk",
+          "points": [
+            {
+              "code": "AAA.2.4",
+              "title": "Understanding the entity and its environment",
+              "summary": "审计师须了解被审计单位及其环境与内控，以识别重大错报风险。",
+              "contentMd": "## 核心概念\n\n按 ISA 315，审计师须了解被审计单位及其环境（行业、监管、经营、财务）、适用的财务报告框架及其内控，以识别和评估重大错报风险（含舞弊风险）。\n\n## 常见考法\n\n说明了解环境为何重要，或识别潜在风险。\n\n## 易错点\n\n对环境与内控的了解是风险评估的基础，不可或缺。\n\n## 例子\n\n审计师了解客户行业竞争激烈与报表压力，识别收入操纵风险。\n\n## 考试提醒\n\n“环境+内控→风险”是 ISA 315 的逻辑主线。",
+              "standardReference": "ISA 315",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.2.5",
+              "title": "Significant risks and responses",
+              "summary": "识别重大风险（significant risks）并设计有效应对，特别是舞弊与复杂估计。",
+              "contentMd": "## 核心概念\n\n重大风险（significant risks）是需要特别考虑的风险（如管理层凌驾、复杂估计、异常交易）。审计师须针对这些风险设计专门应对（如增加测试、质疑假设、利用专家），并评估其证据充分性。\n\n## 常见考法\n\n识别重大风险并设计应对程序。\n\n## 易错点\n\n重大风险通常导致“特别风险”，需专门程序与治理层沟通。\n\n## 例子\n\n收入确认被判断为舞弊风险，审计师执行更严格的控制与细节测试。\n\n## 考试提醒\n\n把“识别→专门应对→证据→沟通”作为重大风险处理。",
+              "standardReference": "ISA 315 / ISA 240",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.2.6",
+              "title": "Fraud and the risk of management override",
+              "summary": "审计师须考虑舞弊风险，尤其管理层凌驾控制的风险与信号。",
+              "contentMd": "## 核心概念\n\n审计师须评估舞弊（fraud）风险（虚报或侵占），并特别关注管理层凌驾于控制（management override of controls）的风险。应对包括：测试分录调整、复核估计、检查异常交易、询问与治理层沟通。\n\n## 常见考法\n\n识别舞弊风险信号并提出应对。\n\n## 易错点\n\n舞弊多为管理层主导且难以发现，审计师须保持职业怀疑。\n\n## 例子\n\n期末大量不寻常调整分录，提示管理层凌驾风险。\n\n## 考试提醒\n\n“舞弊三角+管理层凌驾+专门程序”是应对框架。",
+              "standardReference": "ISA 240",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Audit evidence considerations",
+          "points": [
+            {
+              "code": "AAA.2.7",
+              "title": "Sufficient appropriate audit evidence",
+              "summary": "审计证据须充分且适当，其充分性与适当性受来源、可靠性影响。",
+              "contentMd": "## 核心概念\n\n审计证据需充分（sufficient，数量）且适当（appropriate，质量/相关性+可靠性）。可靠性受来源影响：外部独立来源通常更可靠；直接获取与书面比口头可靠；内控有效时控制测试可补充证据。\n\n## 常见考法\n\n判断证据的充分性与适当性。\n\n## 易错点\n\n证据质量（适当性）与数量（充分性）相互影响，但质量更关键。\n\n## 例子\n\n银行询证函比管理层口头陈述更可靠。\n\n## 考试提醒\n\n从“来源、形式、直接/间接、内控”判断证据可靠性。",
+              "standardReference": "ISA 500",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.2.8",
+              "title": "Using the work of experts",
+              "summary": "利用专家工作时，审计师须评估其能力、客观性与工作质量。",
+              "contentMd": "## 核心概念\n\n当审计需专业知识时，可利用管理层的或审计师的专家（expert）。审计师须评估专家的胜任能力、能力与客观性，并通过了解其假设、复核其工作来证明专家工作恰当（如利用专家评估。\n\n## 常见考法\n\n说明如何利用与评价专家的工作。\n\n## 易错点\n\n审计师对专家工作仍负最终责任，需复核而非盲信。\n\n## 例子\n\n对复杂估值，审计师评估估值专家的方法与关键假设。\n\n## 考试提醒\n\n“评估能力/客观性+复核关键假设”是利用专家的核心。",
+              "standardReference": "ISA 500 / ISA 620",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.2.9",
+              "title": "Group audit and component auditors",
+              "summary": "集团审计中，主审审计师需与组成部分审计师沟通，评价其工作。",
+              "contentMd": "## 核心概念\n\n集团审计（group audit）中，主审审计师（group auditor）运用组成部分（component）的信息，必要时利用组成部分审计师。主审审计师须确定重要性、指导与复核组成部分审计师的工作、并评价其客观性与胜任能力。\n\n## 常见考法\n\n分析集团审计的协调与组成部分审计师的利用。\n\n## 易错点\n\n主审审计师须评估组成部分审计师工作的充分性与适当性。\n\n## 例子\n\n集团主审审计师向子公司审计师下达指令并复核其工作。\n\n## 考试提醒\n\n把“组成部分+指导复核+评价”作为集团审计要点。",
+              "standardReference": "ISA 600",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Audit Evidence: Complex Areas",
+      "description": "处理复杂领域的审计证据，如估计、存货、收入与金融工具。",
+      "topics": [
+        {
+          "title": "Auditing estimates and accounting ests",
+          "points": [
+            {
+              "code": "AAA.3.1",
+              "title": "Auditing accounting estimates",
+              "summary": "会计估计（坏账、减值等）具不确定性，审计师须评估其方法与假设。",
+              "contentMd": "## 核心概念\n\n会计估计（accounting estimates）涉及不确定性与管理层判断。审计师需了解估计的性质、测试过程的合理性，评估管理层假设与方法，利用偏差识别与管理层偏见，并考虑悲观或乐观的综合。\n\n## 常见考法\n\n审计会计估计的程序与关注点。\n\n## 易错点\n\n估计审计重在“假设+方法+证据”的合理性。\n\n## 例子\n\n坏账准备占比较高且假设激进，需针对性程序。\n\n## 考试提醒\n\n把“测试过程+挑战假设+识别偏差”作为估计审计。",
+              "standardReference": "ISA 540",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.3.2",
+              "title": "Auditing inventories and valuation",
+              "summary": "存货审计关键在存货存在、完整与计价，涉及盘点与成本测试。",
+              "contentMd": "## 核心概念\n\n存货审计关注存在（参与盘点）、完整（检查所有存货）、权利与计价（成本/可变现净值测试）。对复杂或减值存货需额外程序（如专家估值、先进先出等）。\n\n## 常见考法\n\n设计存货审计程序或识别风险。\n\n## 易错点\n\n存货计价（NRV）与周转慢的减值风险是关注重点。\n\n## 例子\n\n对可能过时的库存测试其可变现净值。\n\n## 考试提醒\n\n把“存在+完整+计价”作为存货审计三条线。",
+              "standardReference": "ISA 501",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.3.3",
+              "title": "Auditing revenue and financial instruments",
+              "summary": "收入与金融工具涉及复杂判断，需专门审计程序与风险评估。",
+              "contentMd": "## 核心概念\n\n收入审计关注收入确认的时点与金额（IFRS 15）与主/代理；金融工具审计关注分类、计量与减值（ECL）的模型与假设。二者都依赖管理层判断，是舞弊与错报的高风险领域。\n\n## 常见考法\n\n设计收入或金融工具的审计程序。\n\n## 易错点\n\n金融工具减值（ECL）的模型与假设是审计难点。\n\n## 例子\n\n对金融资产 ECL 需评价模型的假设与数据。\n\n## 考试提醒\n\n把“判断+模型假设+风险”作为复杂领域审计。",
+              "standardReference": "ISA 500 / ISA 315",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Audit evidence quality",
+          "points": [
+            {
+              "code": "AAA.3.4",
+              "title": "Continuity and going concern evidence",
+              "summary": "持续经营评估需审计师评价管理层判断与未来现金流等证据。",
+              "contentMd": "## 核心概念\n\n审计师须评估被审计单位持续经营（going concern）能力，评价管理层对未来现金流与融资的安排，识别可能影响持续经营的重大不确定事项。\n\n## 常见考法\n\n识别持续经营风险与所需证据。\n\n## 易错点\n\n持续经营不确定影响审计意见类型。\n\n## 例子\n\n公司依赖一笔即将到期的融资，存在持续经营重大不确定风险。\n\n## 考试提醒\n\n把“未来现金流+融资+重大不确定”作为持续经营证据。",
+              "standardReference": "ISA 570",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.3.5",
+              "title": "Using analytical procedures",
+              "summary": "分析程序用于了解、风险识别与复核，须评估其可靠性。",
+              "contentMd": "## 核心概念\n\n分析程序（analytical procedures）通过比较与比率分析识别异常波动，用于计划（风险评估）、实质（必要时）与复核。其可靠性取决于数据的可比性与内部一致性，需结合其他证据。\n\n## 常见考法\n\n设计或解释分析程序的使用。\n\n## 易错点\n\n分析程序是“信宽点”，不能替代必要细节测试。\n\n## 例子\n\n毛利率异常下滑引发对收入/成本的进一步核查。\n\n## 考试提醒\n\n把“计划/复核+异常+结合证据”作为分析程序应用。",
+              "standardReference": "ISA 520",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.3.6",
+              "title": "Auditor's documentation and evidence quality",
+              "summary": "审计工作底稿记录证据与判断，其质量支撑意见与质量复核。",
+              "contentMd": "## 核心概念\n\n审计工作底稿（working papers）记录程序、证据与结论，应清晰、连贯且能支持审计意见，并便于复核与质量控制。底稿的质量决定证据的可信与可问责。\n\n## 常见考法\n\n说明底稿的作用与要求。\n\n## 易错点\n\n底稿须及时编制并充分记录判断与结论。\n\n## 例子\n\n审计师留存对重大判断的讨论与结论。\n\n## 考试提醒\n\n把“记录+支持意见+便于复核”作为底稿价值。",
+              "standardReference": "ISA 230",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Group Audits",
+      "description": "掌握集团审计的范围、组成部分审计师配合、合并与集团特殊性。",
+      "topics": [
+        {
+          "title": "Group audit considerations",
+          "points": [
+            {
+              "code": "AAA.4.1",
+              "title": "Group audit and component auditors",
+              "summary": "集团审计涉及多组成部分，主审审计师须统筹并利用组成部分审计师。",
+              "contentMd": "## 核心概念\n\n集团审计（group audit）由集团审计师（group auditor）获取集团报表审计证据，并可能利用组成部分审计师（component auditor）。集团审计师设定集团与组成部分重要性、指导与复核组成部分工作并评价其独立性。\n\n## 常见考法\n\n说明集团审计师对组成部分审计师的管理与复核。\n\n## 易错点\n\n集团审计师须评价组成部分审计师工作的充分适当，无法盲信。\n\n## 例子\n\n集团审计师向海外子公司审计师下达重要性与审计范围指令。\n\n## 考试提醒\n\n把“占成分审计师+指导+复核+评价”作为集团审计。",
+              "standardReference": "ISA 600",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.4.2",
+              "title": "Group consolidation and eliminating entries",
+              "summary": "集团审计关注合并调整、抵销分录与少数股东权益的准确性。",
+              "contentMd": "## 核心概念\n\n集团报表合并涉及内部交易抵销、公允调整、商誉与少数股东权益（NCI）。审计须验证合并调整的完整与准确，评估内部购销未实现利润的抵销及商誉减值。\n\n## 常见考法\n\n审计合并与抵销分录的程序。\n\n## 易错点\n\n内部交易未实现利润抵销与商誉减值是集团审计难点。\n\n## 例子\n\n审计内部销售未实际对外出售的存货未实现利润抵销。\n\n## 考试提醒\n\n把“抵销+公允调整+商誉+NCI”作为集团审计重点。",
+              "standardReference": "ISA 600",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.4.3",
+              "title": "Group audit risk and issues",
+              "summary": "集团审计风险包括多主体、跨区、整体化不足与组成部分重大错报。",
+              "contentMd": "## 核心概念\n\n集团审计风险（group audit risk）来自集团结构复杂、跨区合规、组成部分审计不充分与整体化不足。审计师需评估集团范围内的风险，识别重大组成部分并合理分配资源与复核。\n\n## 常见考法\n\n分析集团审计的风险与应对。\n\n## 易错点\n\n对不重大组成部分也不能完全忽略，需满足底限程序。\n\n## 例子\n\n集团审计师识别重大子公司并重点分配证据与复核。\n\n## 考试提醒\n\n把“结构+跨区+重大组成部分+复核”作为风险应对。",
+              "standardReference": "ISA 600",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Group audit and going concern",
+          "points": [
+            {
+              "code": "AAA.4.4",
+              "title": "Consolidated going concern considerations",
+              "summary": "集团持续经营评估需整合整个集团的现金流与融资安排。",
+              "contentMd": "## 核心概念\n\n集团层面的持续经营（going concern）评估需考虑集团整体（包括各组成部分）的现金流、融资能力与债务协议，识别并披露重大不确定事项。\n\n## 常见考法\n\n分析集团持续经营问题。\n\n## 易错点\n\n集团持续经营风险可能只在整体层面显现。\n\n## 例子\n\n集团依赖集团内部资金池或再融资，存在持续经营风险。\n\n## 考试提醒\n\n把“集团整体现金流+融资+披露”纳入评估。",
+              "standardReference": "ISA 570",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.4.5",
+              "title": "Other group considerations and reporting",
+              "summary": "集团审计报告需反映对组成部分与集团层面问题的结论。",
+              "contentMd": "## 核心概念\n\n集团审计报告中，集团审计师须考虑组成部分审计师的报告、集团层面的调整与披露，并据以形成意见。若组成部分审计受限，可能影响集团意见。\n\n## 常见考法\n\n分析集团审计发现对审计报告的影响。\n\n## 易错点\n\n组成部分审计受限可能传导至集团审计意见。\n\n## 例子\n\n某重要子公司审计受限，可能影响集团审计意见。\n\n## 考试提醒\n\n把“组成部分→集团意见”作为集团报告关联。",
+              "standardReference": "ISA 600 / ISA 700",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Quality Control (ISQM 1)",
+      "description": "掌握事务所质量管理体系（ISQM 1）与项目层面的质量管理要求。",
+      "topics": [
+        {
+          "title": "Quality management ISQM 1",
+          "points": [
+            {
+              "code": "AAA.5.1",
+              "title": "ISQM 1: quality management system",
+              "summary": "ISQM 1 要求事务所建立与维护质量管理体系，涵盖治理、风险、资源与监控。",
+              "contentMd": "## 核心概念\n\nISQM 1 要求事务所设计、实施与运行质量管理体系（QMS），包含治理与领导、风险评价、相关道德要求、业务接受与持续、业务执行、资源、信息沟通与监控（八个组成部分），并持续评估其质量目标。\n\n## 常见考法\n\n说明 ISQM 1 的构成或其对事务所的要求。\n\n## 易错点\n\nISQM 1 是“体系化”质量管理，非仅针对个别业务。\n\n## 例子\n\n事务所建立风险管理与业务接受评估体系，符合 ISQM 1。\n\n## 考试提醒\n\n把握“八个组成部分+持续评价”的结构。",
+              "standardReference": "ISQM 1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.5.2",
+              "title": "ISQM 1: monitoring and remediation",
+              "summary": "监控与整改是 ISQM 1 的关键，事务所须识别缺陷并采取纠正措施。",
+              "contentMd": "## 核心概念\n\nISQM 1 要求事务所对质量管理体系进行监控（monitoring），识别缺陷（deficiencies），并采取整改（remediation）措施，且向相关方（网络或监管）报告。监控包括业务复核与系统性评价。\n\n## 常见考法\n\n分析监控与缺陷整改的要求。\n\n## 易错点\n\n发现缺陷后必须整改，不能只记录。\n\n## 例子\n\n事务所发现某业务团队质量控制不足，采取培训与复核整改。\n\n## 考试提醒\n\n“监控→识别缺陷→整改→报告”是闭环。",
+              "standardReference": "ISQM 1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.5.3",
+              "title": "ISQM 2: engagement quality reviews",
+              "summary": "ISQM 2 要求对特定审计业务进行项目质量复核（EQR）。",
+              "contentMd": "## 核心概念\n\nISQM 2 规定对公共利益实体（PIE）等业务的审计项目质量复核（engagement quality review），由独立性足够、胜任的复核人审查审计工作的客观评价重要判断与结论，并出具 EQR 报告。\n\n## 常见考法\n\n说明 EQR 的适用与目的。\n\n## 易错点\n\nEQR 复核人须独立于项目组，否则复核无效。\n\n## 例子\n\n对上市公司审计，项目复核人独立复核审计报告与重大判断。\n\n## 考试提醒\n\n把“独立+胜任+复核重大判断”作为 EQR 核心。",
+              "standardReference": "ISQM 2",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Quality control in practice",
+          "points": [
+            {
+              "code": "AAA.5.4",
+              "title": "ISQM 1: resources and information",
+              "summary": "质量管理需充足资源与信息沟通，保障业务按准则执行。",
+              "contentMd": "## 核心概念\n\nISQM 1 要求事务所配备胜任的人员与技术等资源（resources），并建立有效的信息与沟通（information and communication）机制，使项目组获取必要的信息支持业务执行。\n\n## 常见考法\n\n分析资源与信息沟通对质量管理的作用。\n\n## 易错点\n\n资源不足会削弱业务质量。\n\n## 例子\n\n事务所为复杂业务配备专家与足够人手。\n\n## 考试提醒\n\n把“资源+信息沟通”作为质量管理支撑。",
+              "standardReference": "ISQM 1",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.5.5",
+              "title": "Quality control and ethical compliance",
+              "summary": "质量管理体系须与道德与独立性要求衔接，保障整体合规。",
+              "contentMd": "## 核心概念\n\nISQM 1 要求事务所把相关道德要求（含独立性）纳入质量管理体系，确保人员遵守、识别并解决独立性与道德威胁，从而保障业务质量与公众信任。\n\n## 常见考法\n\n分析质量管理与道德合规的衔接。\n\n## 易错点\n\n独立性通常在政策与监控层面融入质量管理。\n\n## 例子\n\n事务所定期监控人员独立性与职责分离情况。\n\n## 考试提醒\n\n把“道德+独立性+监控”纳入质量管理框架。",
+              "standardReference": "ISQM 1 / IESBA",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.5.6",
+              "title": "Quality control issues and audit quality",
+              "summary": "审计质量由事务所质量体系、个人胜任与职业怀疑共同保障。",
+              "contentMd": "## 核心概念\n\n审计质量（audit quality）取决于事务所质量管理体系、项目组胜任与职业怀疑、以及治理与监管环境。质量缺陷（如操纵、复核不足）会损害审计可信度，需通过体系与文化持续提升。\n\n## 常见考法\n\n分析影响审计质量的因素。\n\n## 易错点\n\n质量是体系+人+文化的综合结果。\n\n## 例子\n\n复核与怀疑不足导致未能发现重大错报，损害审计质量。\n\n## 考试提醒\n\n把“体系+能力+怀疑+文化”作为审计质量支柱。",
+              "standardReference": "ISQM 1",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "External Audit Reports",
+      "description": "掌握审计报告要素、意见类型（ISA 700/705/706）与关键审计事项、持续经营报告。",
+      "topics": [
+        {
+          "title": "Audit report and opinions",
+          "points": [
+            {
+              "code": "AAA.6.1",
+              "title": "Audit report: ISA 700 form and content",
+              "summary": "审计报告须含要素（如意见、责任、范围），意见是审计师对报表的结论。",
+              "contentMd": "## 核心概念\n\n按 ISA 700，审计报告包含标题、收件人、审计意见、形成意见的基础、关键审计事项（上市公司）、责任（管理层与治理层）、报告日期与签名等要素。意见类型决定报告表述。\n\n## 常见考法\n\n指出审计报告应含的要素或修改情形。\n\n## 易错点\n\n“关键审计事项”主要在上市公司/高风险业务的报告披露。\n\n## 例子\n\n上市公司审计报告包括关键审计事项段。\n\n## 考试提醒\n\n把“意见+基础+责任+关键事项+日期”作为报告结构。",
+              "standardReference": "ISA 700",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.6.2",
+              "title": "Types of modified opinions (ISA 705)",
+              "summary": "修改意见（保留、否定、无法表示）取决于重大且广泛的关系。",
+              "contentMd": "## 核心概念\n\n当存在重大错报或审计范围受限时，审计师出具修改意见（modified opinions）：保留意见（qualified，重大但不广泛）、否定意见（adverse，重大且广泛+存在重大错报）、无法表示意见（disclaimer，重大且广泛+范围受限）。判断“重大”与“广泛”是关键。\n\n## 常见考法\n\n根据情形判断应出具哪种修改意见。\n\n## 易错点\n\n“重大”指金额重要性，“广泛”指影响范围（对报表整体），二者决定意见种类。\n\n## 例子\n\n存货金额重大错报但不影响整体，出具保留意见。\n\n## 考试提醒\n\n用“有无重大×是否广泛”的二维判断意见类型。",
+              "standardReference": "ISA 705",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.6.3",
+              "title": "Key audit matters (ISA 701)",
+              "summary": "关键审计事项（KAM）是审计师认为最重要的审计事项，在报告中单列沟通。",
+              "contentMd": "## 核心概念\n\n关键审计事项（key audit matters, KAM）是审计师根据职业判断认为当期财务报表审计中最重要的事项，通常为高风险或复杂判断领域（如收入确认、估计、减值）。ISA 701 要求（对符合条件实体）在审计报告中单独描述。\n\n## 常见考法\n\n识别关键审计事项或说明其意义。\n\n## 易错点\n\nKAM 不是意见修正，而是与使用者的沟通。\n\n## 例子\n\n对收入确认认定 KAM 并在报告中描述审计应对。\n\n## 考试提醒\n\n把“最重要事项+高风险判断+沟通目的”作为 KAM。",
+              "standardReference": "ISA 701",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Going concern and other reporting",
+          "points": [
+            {
+              "code": "AAA.6.4",
+              "title": "Going concern and the audit report (ISA 570)",
+              "summary": "持续经营重大不确定影响报告，可能涉及专门段落或修改意见。",
+              "contentMd": "## 核心概念\n\n若存在与持续经营相关的重大不确定性，审计师可在报告中加“与持续经营相关的重大不确定性”部分（通常不修改意见，但披露充分时）；若披露不充分或存在重大错报/范围受限，则可能出具修改意见。\n\n## 常见考法\n\n判断持续经营不确定对意见与报告的影响。\n\n## 易错点\n\n“重大不确定+充分披露”通常不修改意见，但需专门段落。\n\n## 例子\n\n公司持续经营存重大不确定但披露充分，报告增加相关段落。\n\n## 考试提醒\n\n用“不确定性+披露/错报/范围”判断是否专门段落或修改意见。",
+              "standardReference": "ISA 570",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.6.5",
+              "title": "Emphasis of matter and other matter paragraphs (ISA 706)",
+              "summary": "强调事项与其他事项段落用于沟通不影响意见但重要的事项。",
+              "contentMd": "## 核心概念\n\n强调事项段（emphasis of matter）强调已适当披露且对使用者理解至关重要的事项；其他事项段（other matter）沟通与使用者理解审计或报表相关的其他事项。二者不改变审计意见。\n\n## 常见考法\n\n判断是否应加强调事项段或其他事项段。\n\n## 易错点\n\n强调事项不修改意见，只作突出说明。\n\n## 例子\n\n对重大诉讼结果强调披露，但不影响意见。\n\n## 考试提醒\n\n把“不修改意见+突出重要披露”作为强调事项原则。",
+              "standardReference": "ISA 706",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.6.6",
+              "title": "Communicating with those charged with governance",
+              "summary": "审计师须与治理层沟通重要发现、判断与独立性问题。",
+              "contentMd": "## 核心概念\n\n审计师须与治理层（those charged with governance）沟通审计范围、时间、重要发现、审计重大判断与独立性等（ISA 260），包括重要审计发现与可能影响报告的事项。\n\n## 常见考法\n\n说明与治理层沟通的内容。\n\n## 易错点\n\n沟通对象与内容因情形而异，但重要判断须沟通。\n\n## 例子\n\n审计师向审计委员会披露关键审计判断。\n\n## 考试提醒\n\n把“范围+发现+判断+独立”作为沟通清单。",
+              "standardReference": "ISA 260 / ISA 265",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Other Assurance Engagements",
+      "description": "理解审阅业务、约定程序与其他鉴证服务的标准与报告。",
+      "topics": [
+        {
+          "title": "Review and agreed-upon procedures",
+          "points": [
+            {
+              "code": "AAA.7.1",
+              "title": "Review engagements (ISRE 2400)",
+              "summary": "审阅业务提供有限保证，主要用询问与分析程序，报告为消极保证。",
+              "contentMd": "## 核心概念\n\n审阅业务（review engagement, ISRE 2400）提供有限保证（limited assurance），基于询问与分析程序，而非细节测试。审阅报告通常表述“未引起注意表明报表存在重大错报”的消极保证（negative assurance）。\n\n## 常见考法\n\n区分审计与审阅，或说明审阅的保证与程序。\n\n## 易错点\n\n审阅证据与保证水平低于审计。\n\n## 例子\n\n中期财务报表审阅采用询问与分析程序。\n\n## 考试提醒\n\n把“有限保证+询问分析+消极保证”作为审阅特征。",
+              "standardReference": "ISRE 2400",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.7.2",
+              "title": "Agreed-upon procedures (ISRS 4400)",
+              "summary": "约定程序业务（AUP）按约定执行特定程序并报告事实，不提供结论保证。",
+              "contentMd": "## 核心概念\n\n约定程序业务（agreed-upon procedures, ISRS 4400）由业务委托人约定特定程序，审计师执行并报告事实性发现，不提供任何保证结论，也不得出意见。适合特定数据检查。\n\n## 常见考法\n\n说明 AUP 的性质与报告。\n\n## 易错点\n\nAUP 不提供保证，只报告执行结果的“事实”。\n\n## 例子\n\n对某项合同付款按约定检查并报告相符性。\n\n## 考试提醒\n\n把“约定程序+事实报告+无保证”作为 AUP 特点。",
+              "standardReference": "ISRS 4400",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Assurance and other services",
+          "points": [
+            {
+              "code": "AAA.7.3",
+              "title": "Assurance engagements: reasonable vs limited",
+              "summary": "鉴证业务分合理保证与有限保证，其程序与结论表述不同。",
+              "contentMd": "## 核心概念\n\n鉴证业务（assurance engagements）按保证程度分为合理保证（reasonable assurance，如审计）与有限保证（limited assurance，如审阅）。合理保证程序更充分，结论为正面意见；有限保证为消极表述。\n\n## 常见考法\n\n区分合理与有限保证。\n\n## 易错点\n\n有限保证不等于低水平保证，而是程序范围不同。\n\n## 例子\n\n审计（合理保证）vs 审阅（有限保证）。\n\n## 考试提醒\n\n用“程序范围+结论形式”区分两端保证。",
+              "standardReference": "ISAE / ISSA Framework",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.7.4",
+              "title": "Prospective financial information (ISAE 3400)",
+              "summary": "预测与前瞻性财务信息的鉴证需关注假设与编制基础。",
+              "contentMd": "## 核心概念\n\n对前瞻性财务信息（prospective financial information）的鉴证（ISAE 3400）评估编制的假设与基础，重点审查假设是否合理、基础是否恰当。由于未来不确定性，报告需说明假设的局限。\n\n## 常见考法\n\n说明前瞻信息鉴证的重点。\n\n## 易错点\n\n前瞻信息不确定性高，鉴证重点在假设而非预测结果。\n\n## 例子\n\n对企业预测报告审查其假设与编制基础。\n\n## 考试提醒\n\n把“假设合理性+编制基础+不确定性”作为重点。",
+              "standardReference": "ISAE 3400",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "AAA.7.5",
+              "title": "Assurance on sustainability and integrated reporting",
+              "summary": "对可持续与整合信息的鉴证日益重要，涉及 ESG 数据的可靠性。",
+              "contentMd": "## 核心概念\n\n对可持续信息（如 ESG、碳数据）的鉴证业务增长，审计师评估数据收集、计量与披露的可靠性。需要专门技能并考虑数据口径与保证程度。\n\n## 常见考法\n\n分析可持续信息鉴证的要求与挑战。\n\n## 易错点\n\nESG 数据口径与可核验性是鉴证难点。\n\n## 例子\n\n对碳排数据的外部鉴证增强可信度。\n\n## 考试提醒\n\n把“数据可靠性+口径+保证”作为可持续鉴证要点。",
+              "standardReference": "ISSA / ISAE 3000",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Forensic and Fraud Audit",
+      "description": "掌握舞弊调查、法务会计与舞弊风险应对，以及审计师在舞弊中的责任。",
+      "topics": [
+        {
+          "title": "Fraud and forensic audit",
+          "points": [
+            {
+              "code": "AAA.8.1",
+              "title": "Fraud risk and auditor responsibilities",
+              "summary": "审计师对舞弊负保持职业怀疑并识别风险的责任，但不负责发现所有舞弊。",
+              "contentMd": "## 核心概念\n\n审计师有责任保持职业怀疑，评估舞弊风险并执行程序以识别重大错报，但审计只能为发现舞弊提供合理保证（非绝对）。管理层与治理层对防范舞弊承担首要责任。\n\n## 常见考法\n\n说明审计师对舞弊的责任边界。\n\n## 易错点\n\n审计不能保证发现所有舞弊，重点是重大错报。\n\n## 例子\n\n审计师识别收入操纵风险并加强测试。\n\n## 考试提醒\n\n把“职业怀疑+风险评估+合理保证”作为核心。",
+              "standardReference": "ISA 240",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AAA.8.2",
+              "title": "Fraud indicators and forensic techniques",
+              "summary": "舞弊调查运用信号识别与法务技术（如分析、访谈、抽样）揭露舞弊。",
+              "contentMd": "## 核心概念\n\n舞弊信号（如异常交易、大量调整、控制失效）需追查。法务会计（forensic accounting）用数据分析、异常识别、访谈与证据链构建，调查舞弊事实并支持法律行动。\n\n## 常见考法\n\n识别舞弊信号或运用法务调查技术。\n\n## 易错点\n\n法务调查需合法取证并保护证据链。\n\n## 例子\n\n通过异常付款模式分析发现舞弊线索。\n\n## 考试提醒\n\n把“信号+技术+证据链”作为法务调查框架。",
+              "standardReference": "ISA 240 / Forensic",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.8.3",
+              "title": "Responding to suspected fraud",
+              "summary": "审计师发现疑似舞弊时需沟通、评估影响并考虑报表与法律后果。",
+              "contentMd": "## 核心概念\n\n审计师疑似舞弊时应与适当层级沟通（通常高层/治理层）、评估对报表与意见的影响，必要时考虑对报告与披露的修改，并可能受法律与职业要求影响。\n\n## 常见考法\n\n分析审计师发现舞弊后的应对。\n\n## 易错点\n\n舞弊沟通与升级必须及时、谨慎并按准则处理。\n\n## 例子\n\n发现管理层疑似舞弊，审计师与治理层沟通并评估影响。\n\n## 考试提醒\n\n把“沟通+评估影响+报告/披露调整”作为应对。",
+              "standardReference": "ISA 240",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Fraud in the audit context",
+          "points": [
+            {
+              "code": "AAA.8.4",
+              "title": "Fraud: types and perpetrators",
+              "summary": "舞弊分财务报告舞弊与资产侵占，常见由管理层或员工实施。",
+              "contentMd": "## 核心概念\n\n财务报告舞弊（fraudulent financial reporting，如虚增收入）多由管理层主导；资产侵占（misappropriation，如挪用现金）多由员工实施。舞弊三角（压力、机会、借口）解释其成因。\n\n## 常见考法\n\n判断舞弊类型与实施者。\n\n## 易错点\n\n两类舞弊的财务报表影响与防识别不同。\n\n## 例子\n\n管理层虚增收入属舞弊报告；出纳挪用属资产侵占。\n\n## 考试提醒\n\n用“类型+实施者+动机三角”分析舞弊。",
+              "standardReference": "ISA 240",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.8.5",
+              "title": "Preventing and detecting fraud",
+              "summary": "防范舞弊依靠内部控制、治理与道德文化，审计师关注内控与治理薄弱环节。",
+              "contentMd": "## 核心概念\n\n防范舞弊依赖健全内控（职责分离、授权、核对）、道德文化与治理监督。审计师通过评估内控、识别治理弱项与高风险领域，设计程序增加发现舞弊的可能性。\n\n## 常见考法\n\n分析预防舞弊的控制或识别内控薄弱点。\n\n## 易错点\n\n内控薄弱与治理缺陷是舞弊的温床。\n\n## 例子\n\n财务人员兼任付款与记账，内控缺陷滋生舞弊机会。\n\n## 考试提醒\n\n把“内控+治理+文化→舞弊防范”结合。",
+              "standardReference": "ISA 240",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.8.6",
+              "title": "Forensic investigation and reporting",
+              "summary": "法务调查需形成可用的证据与报告，服务于追责与决策。",
+              "contentMd": "## 核心概念\n\n法务调查（forensic investigation）围绕问题定义、证据收集、分析与结论报告，确保证据合法、完整、可追溯，并形成书面报告支持管理层或法律程序。\n\n## 常见考法\n\n说明法务调查的过程与报告要求。\n\n## 易错点\n\n法务报告须证据支撑、口径清晰并具可辩护性。\n\n## 例子\n\n调查后出具包含事实证据与结论的法务报告。\n\n## 考试提醒\n\n把“问题定义+取证+结论报告”作为法务调查流程。",
+              "standardReference": "Forensic / ISA 240",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Current Issues and Developments",
+      "description": "关注影响审计与鉴证的当代议题，如技术、可持续报告、监管与国际发展。",
+      "topics": [
+        {
+          "title": "Contemporary audit issues",
+          "points": [
+            {
+              "code": "AAA.9.1",
+              "title": "Technology and audit",
+              "summary": "数据分析、自动化与 AI 提升审计效率与覆盖，也带来模型与数据风险。",
+              "contentMd": "## 核心概念\n\n技术（数据分析、RPA、AI）让审计测试更全面（全量而非抽样）、预测与异常识别更精准，但带来数据质量、模型偏差与审计判断依赖技术的风险。审计师需理解工具并保持质疑。\n\n## 常见考法\n\n分析技术对审计的影响。\n\n## 易错点\n\n技术是工具，专业判断与怀疑仍不可替代。\n\n## 例子\n\n用数据分析全量测试付款，提升覆盖率。\n\n## 考试提醒\n\n把“效率提升+覆盖扩大+数据/模型风险”作为技术影响。",
+              "standardReference": "ISA / Technology",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.9.2",
+              "title": "Sustainability reporting and assurance trends",
+              "summary": "可持续报告与鉴证快速发展，成为审计与鉴证的新领域。",
+              "contentMd": "## 核心概念\n\n可持续（ESG）报告与鉴证日益要求，监管（如 CSRD）推动对可持续信息的可靠披露与鉴证。审计师需具备非财务数据评估能力，关注口径、可比性与保证程度。\n\n## 常见考法\n\n分析可持续报告/鉴证的趋势与要求。\n\n## 易错点\n\nESG 鉴证需专门技能且数据口径复杂。\n\n## 例子\n\n企业出具可持续报告并寻求外部鉴证提升可信度。\n\n## 考试提醒\n\n把“监管驱动+数据可靠性+鉴证技能”作为趋势主线。",
+              "standardReference": "ISSA / ISA",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AAA.9.3",
+              "title": "Regulatory and professional developments",
+              "summary": "监管与职业准则的演进提升审计质量与透明度，带来新挑战。",
+              "contentMd": "## 核心概念\n\n监管（如审计监管机构、公司治理改革）与准则演进（如 ISQM、可持续鉴证）提高审计期望与透明度。审计师需适应更高的问责、披露与独立性要求。\n\n## 常见考法\n\n分析监管与准则发展对审计的影响。\n\n## 易错点\n\n监管趋严提升执业成本与责任，也提升质量。\n\n## 例子\n\n对审计师的独立性披露与监管审查日益严格。\n\n## 考试提醒\n\n把“透明+问责+准则演进”作为当代发展主线。",
+              "standardReference": "ISQM / Regulation",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Future of assurance",
+          "points": [
+            {
+              "code": "AAA.9.4",
+              "title": "Continuous auditing and real-time assurance",
+              "summary": "持续审计与实时鉴证利用数据与自动化，提升及时性与覆盖。",
+              "contentMd": "## 核心概念\n\n持续审计（continuous auditing）借助系统对接与数据流，更频繁地监控与测试，实现实时洞察与快速响应。它提高审计及时性与全面性，但依赖系统可靠与数据可获取。\n\n## 常见考法\n\n分析持续审计的价值与风险。\n\n## 易错点\n\n持续审计是工具增强，仍需综合判断与保证。\n\n## 例子\n\n通过系统实时监控关键交易阈值，发现异常即预警。\n\n## 考试提醒\n\n把“实时+覆盖+依赖系统”作为持续审计要点。",
+              "standardReference": "ISA / Technology",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "AAA.9.5",
+              "title": "Global trends and emerging expectations",
+              "summary": "全球化与信息需求推动审计扩展范围，向全面鉴证与非财务信息演进。",
+              "contentMd": "## 核心概念\n\n全球监管与投资者期望推动审计从财务向更全面的可持续与非财务鉴证扩展，审计师角色拓宽，需提升跨领域能力与怀疑精神。\n\n## 常见考法\n\n讨论审计未来的范围与挑战。\n\n## 易错点\n\n审计范围扩展对能力与独立性提出更高要求。\n\n## 例子\n\n审计从单纯财务转向财务+可持续综合鉴证。\n\n## 考试提醒\n\n把“范围扩展+能力提升+监管期望”作为未来趋势。",
+              "standardReference": "ISSA / ISA",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "AAA.9.6",
+              "title": "Ethics in a changing environment",
+              "summary": "新技术与复杂环境中，审计师须坚守道德与独立，应对新风险。",
+              "contentMd": "## 核心概念\n\n面对新技术、复杂报表与监管环境，审计师要坚持道德原则与独立，识别数据与 AI 使用中的伦理风险，维护公众信任。\n\n## 常见考法\n\n分析变化环境下的伦理与独立挑战。\n\n## 易错点\n\n技术进步不能削弱职业怀疑与道德底线。\n\n## 例子\n\n在 AI 辅助审计中仍须人工复核判断，保持怀疑。\n\n## 考试提醒\n\n把“技术+独立+怀疑+公众利益”作为伦理新要点。",
+              "standardReference": "IESBA / ISQM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

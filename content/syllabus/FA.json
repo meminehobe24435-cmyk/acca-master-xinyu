@@ -1,0 +1,465 @@
+{
+  "code": "FA",
+  "name": "Financial Accounting",
+  "nameCn": "财务会计",
+  "level": "APPLIED_KNOWLEDGE",
+  "category": null,
+  "order": 3,
+  "accent": "#f59e0b",
+  "description": "财务会计（FA）是 ACCA 应用知识阶段的科目，讲授会计要素、复式记账、会计调整与财务报表编制，为读懂与编制财务信息奠定基础。",
+  "examDurationMin": 120,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Objective Test", "scope": "客观题", "count": 30, "marksPerQuestion": 2, "sectionMarks": 60 },
+      { "id": "B", "name": "Section B - OT Case Questions", "scope": "案例选择", "count": 20, "marksPerQuestion": 2, "sectionMarks": 40 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "The Context and Purpose of Financial Reporting",
+      "description": "理解财务报告的目标、使用者与报表构成。",
+      "topics": [
+        {
+          "title": "The purpose of financial reporting",
+          "points": [
+            {
+              "code": "FA.1.1",
+              "title": "Objective of financial reporting",
+              "summary": "财务报告的目标是向现有及潜在投资者、贷款人等提供有用信息以做出资源配置决策。",
+              "contentMd": "## 核心概念\n\n财务报告目标（objective）是为报表使用者提供关于主体财务状况、经营成果与现金流量的信息，帮助其评价管理层受托责任并作出经济决策。\n\n## 常见考法\n\n单选出题，识别财务报告的首要目标或最需要服务的使用者群体。\n\n## 易错点\n\n区别“法定合规”与“为决策提供信息”：财务报告既要合规，也要有用；目标并非单纯满足形式要求。\n\n## 例子\n\n股东据年报判断是否继续持有股票，属于基于财务信息的资源配置决策。\n\n## 考试提醒\n\n记住关键词：为使用者+决策有用+评价受托责任。",
+              "standardReference": "IFRS Conceptual Framework (2022) - Objective of financial reporting",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.1.2",
+              "title": "Users of financial statements",
+              "summary": "主要使用者包括投资者、贷款人、供应商、员工、政府（税务机关）等，各取所需。",
+              "contentMd": "## 核心概念\n\n使用者围绕主体有不同信息需求：投资者关注回报与风险；贷款人/供应商关注偿债能力；员工关注薪酬与就业保障；税务机关关注应纳税所得；公众关注社会责任。\n\n## 常见考法\n\n识别某类使用者的主要信息需求，或区分内部（管理层）与外部使用者。\n\n## 易错点\n\n管理层既是使用者，同时负责编制报表，与外部使用者立场不同；税务机关依据税法，信息需求特殊。\n\n## 例子\n\n银行审阅借款人报表以评估其能否按期还本付息。\n\n## 考试提醒\n\n按“资本提供者（投资者/贷款人）”为首要使用者来判断，其余为次要使用者。",
+              "standardReference": "IFRS Conceptual Framework (2022) - Users and their information needs",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FA.1.3",
+              "title": "Components of the financial statements",
+              "summary": "一套完整财务报表含财务状况表、损益表、权益变动表、现金流量表与附注。",
+              "contentMd": "## 核心概念\n\n主要报表包括：statement of financial position（财务状况表/SFP）、statement of profit or loss（损益表/P&L）、statement of changes in equity（权益变动表）、statement of cash flows（现金流量表）及附注。\n\n## 常见考法\n\n识别每个报表反映的内容，或判断某项数据属于哪个报表。\n\n## 易错点\n\n收入与费用属于损益表；资产、负债与权益属于财务状况表；现金流入出属于现金流量表。\n\n## 例子\n\n期末存货余额列示于 SFP（资产），而其变动影响 P&L 的销售成本。\n\n## 考试提醒\n\n建立“报表—内容”对应表，是后续报表编制题的基础。",
+              "standardReference": "IAS 1 - Presentation of Financial Statements",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Regulatory framework",
+          "points": [
+            {
+              "code": "FA.1.4",
+              "title": "IASB and the standards framework",
+              "summary": "IASB 制定国际财务报告准则（IFRS），并由当地监管机构采纳或补充。",
+              "contentMd": "## 核心概念\n\nIASB（国际会计准则理事会）发布 IFRS；其前身制定的 IAS 仍在沿用。各国监管机构（如 UK 的 FRC）采纳 IFRS 并可能附加当地要求。准则保证可比性与可靠性。\n\n## 常见考法\n\n识别 IASB 的角色、IFRS 与当地准则的关系，或判断标准制定机构职能。\n\n## 易错点\n\nIASB 制定准则但不直接执法；准则通过当地监管机构落实。\n\n## 例子\n\n英国上市公司按 UK-endorsed IFRS 编制合并报表。\n\n## 考试提醒\n\n记住三层：准则制定者（IASB）—监督/执法（当地监管）—主体（公司）。",
+              "standardReference": "IFRS Foundation / IASB",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "The Qualitative Characteristics of Financial Information",
+      "description": "掌握质疑性特征框架中的基本与增强特征。",
+      "topics": [
+        {
+          "title": "Qualitative characteristics",
+          "points": [
+            {
+              "code": "FA.2.1",
+              "title": "Relevance and faithful representation",
+              "summary": "相关性与如实反映是使信息有用的两个基本质疑性特征。",
+              "contentMd": "## 核心概念\n\n相关性（relevance）：信息能影响使用者决策，识别计量包括重要性（materiality）。如实反映（faithful representation）：信息完整、中立、无差错。二者为基本质疑性特征。\n\n## 常见考法\n\n判断某项特征属于基本还是增强，或说明重要性的含义。\n\n## 易错点\n\n相关性≠重要性；重要性是相关性的限定（门槛）。还有理解可比性、可验证性、及时性、可理解性为增强特征。\n\n## 例子\n\n错报金额大到影响决策即为重要；金额极小则不重要，可不单独披露。\n\n## 考试提醒\n\n把八个特征分类记牢：基本（相关、如实反映），增强（可比、可验证、及时、可理解）。",
+              "standardReference": "IFRS Conceptual Framework (2022) - Fundamental qualitative characteristics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.2.2",
+              "title": "Enhancing qualitative characteristics",
+              "summary": "可比性、可验证性、及时性与可理解性增强信息的效用。",
+              "contentMd": "## 核心概念\n\n增强特征包括可比性（comparability）、可验证性（verifiability）、及时性（timeliness）、可理解性（understandability）。它们提升基本特征的效用。\n\n## 常见考法\n\n识别属于增强特征的选项，或说明其在报表中的体现。\n\n## 易错点\n\n勿把增强特征当基本特征；增强特征不能弥补基本特征缺失。\n\n## 例子\n\n跨期一致采用同一会计政策体现可比性；独立第三方可复核数字体现可验证性。\n\n## 考试提醒\n\n记忆：增强=可（比、验证、理解）+ 及时。",
+              "standardReference": "IFRS Conceptual Framework (2022) - Enhancing qualitative characteristics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FA.2.3",
+              "title": "Going concern and the underlying assumptions",
+              "summary": "持续经营假设为主体的会计基础，可计量的货币计量与权责发生制是基础假设。",
+              "contentMd": "## 核心概念\n\n持续经营（going concern）假设主体在可预见未来持续经营，不发生清算；权责发生制（accrual）与货币计量（money measurement）是重要假设。\n\n## 常见考法\n\n识别持续经营假设的含义，或判断其被违反对报表列报方式的影响。\n\n## 易错点\n\n若持续经营可能不成立，应按可实现净值列报并披露；这是在清算风险下最重要的判断。\n\n## 例子\n\n企业面临破产清算风险时，应质疑持续经营假设并调整计价基础。\n\n## 考试提醒\n\n持续经营是列报基础；答题时若提到清算/无法偿债，即为对其的质疑。",
+              "standardReference": "IAS 1 - Going concern",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Elements of financial statements",
+          "points": [
+            {
+              "code": "FA.2.4",
+              "title": "Assets, liabilities, equity, income and expenses",
+              "summary": "会计五要素：资产评估的可控制资源，负债是现时义务，权益是净资产，收入与费用影响损益。",
+              "contentMd": "## 核心概念\n\n资产（asset）是由过去事项形成、由主体控制的预期经济利益资源；负债（liability）是现时义务；权益（equity）=资产−负债；收入（income）增加经济利益，费用（expense）减少。\n\n## 常见考法\n\n判断某项目属于哪个要素，或根据要素定义辨析其身份。\n\n## 易错点\n\n资产强调“控制”而非所有权；收入与所有者投入资本区分开。\n\n## 例子\n\n租赁使用权的机器虽不属自有，但若控制其使用即为主体资产。\n\n## 考试提醒\n\n用“定义+确认条件”两步判断要素，比死记更稳。",
+              "standardReference": "IFRS Conceptual Framework (2022) - Elements of financial statements",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Double-entry and the Accounting System",
+      "description": "掌握复式记账规则、试算平衡与暂记账户。",
+      "topics": [
+        {
+          "title": "Double-entry bookkeeping",
+          "points": [
+            {
+              "code": "FA.3.1",
+              "title": "Rules of debit and credit",
+              "summary": "资产与费用借方增加，负债、权益与收入贷方增加，借贷必相等。",
+              "contentMd": "## 核心概念\n\n复式记账：每笔交易同时借记与贷记一个或多个账户。资产、费用增加记借方；负债、权益、收入增加记贷方。会计恒等式 Asset=Equity+Liabilities 保持平衡。\n\n## 常见考法\n\n判断某交易应借/贷哪个账户，或据分录判断影响。\n\n## 易错点\n\n收入增加记贷方（与直觉相反），费用增加记借方；先用“影响哪个要素+增或减”推导，再定借/贷。\n\n## 例子\n\n现金购设备：Dr 设备（资产增），Cr 现金（资产减）。\n\n## 考试提醒\n\n牢记口诀：资产、费用借方增；负债、权益、收入贷方增。",
+              "standardReference": "Syllabus D1 - Double-entry bookkeeping",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.3.2",
+              "title": "Double-entry for purchases and sales",
+              "summary": "赊购记 Dr Purchases/Inventory、Cr Payables；赊销记 Dr Receivables、Cr Sales。",
+              "contentMd": "## 核心概念\n\n赊购：借 Purchases（或 Inventory）、贷 Payables；赊销：借 Receivables、贷 Sales。现金与银行账户作为对方科目记录收付。\n\n## 常见考法\n\n编制赊购、赊销、付款、收款的分录，或据分录恢复交易。\n\n## 易错点\n\n现购/赊购的对方科目不同（Cash vs Payables）；退货时要反向冲回。\n\n## 例子\n\n赊购存货 800：Dr Purchases 800，Cr Payables 800。\n\n## 考试提醒\n\n先用“交易涉及哪些要素”列清单，再逐一落借/贷，最后核对借贷相等。",
+              "standardReference": "Syllabus D1 - Double-entry bookkeeping",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.3.3",
+              "title": "Suspense accounts and the trial balance",
+              "summary": "试算不平衡时以差额暂记入暂记账户，查明错误后将其结转清零。",
+              "contentMd": "## 核心概念\n\n试算平衡表（trial balance）汇总各账户借方与贷方余额，借贷必须相等。若不平衡，暂将差额计入暂记账户（suspense account）临时平衡，再逐项查错并更正。\n\n## 常见考法\n\n计算暂记账户余额，判断哪些错误需通过暂记账户更正，或更正分录。\n\n## 易错点\n\n只有影响试算平衡的错误才需暂记账户；漏记、借贷方向相同的错误可能不使试算不平衡。\n\n## 例子\n\n借方总额 100,000、贷方总额 99,400，差额 600 入暂记账户借方。\n\n## 考试提醒\n\n审题区分“导致不平衡的错误”与“不影响平衡的错误”，前者才过暂记账户。",
+              "standardReference": "Syllabus D3 - Trial balance and suspense account",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Books of prime entry and control accounts",
+          "points": [
+            {
+              "code": "FA.3.4",
+              "title": "Sales and purchase ledgers and control accounts",
+              "summary": "明细分类账记录客户/供应商明细，控制账户汇总总余额并核对勾稽。",
+              "contentMd": "## 核心概念\n\n销售分类账（receivables ledger）按客户设明细；采购分类账（payables ledger）按供应商设明细。控制账户（control account）汇总某类明细账借贷总额，用于校对明细与总账一致性。\n\n## 常见考法\n\n编制应收/应付控制账户（含期初、赊销/赊购、收款/付款、退货、坏账），或解释其作用。\n\n## 易错点\n\n控制账户只反映赊销/赊购，现金交易不计入；销货退回冲减应收，购货退回冲减应付。\n\n## 例子\n\n应收控制账户：期初 50,000+赊销 120,000−收款 100,000−退款 2,000=期末 68,000。\n\n## 考试提醒\n\n控制账户题按“期初+发生−减少=期末”写 T 账，别漏退货和坏账。",
+              "standardReference": "Syllabus D2 - Control accounts",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Recording Sales, Purchases and Inventory",
+      "description": "掌握交易记录、永续/定期盘存与存货计价。",
+      "topics": [
+        {
+          "title": "Recording transactions",
+          "points": [
+            {
+              "code": "FA.4.1",
+              "title": "Recording credit purchases and sales",
+              "summary": "赊销与赊购分别挂应收、应付账户，退货反向冲销。",
+              "contentMd": "## 核心概念\n\n赊销记借应收、贷销售收入；赊购记借存货/采购、贷应付。销售退回冲减收入与应收；购货退回冲减存货/采购与应付。\n\n## 常见考法\n\n判断交易对科目影响，或直接编写分录。\n\n## 易错点\n\n销售退回按退货价冲收入（非营业成本），购货退回按原价冲采购。\n\n## 例子\n\n赊销 5,000：Dr 应收 5,000，Cr 销售收入 5,000。\n\n## 考试提醒\n\n把“交易→科目→借贷”三链条写清楚，正确率最高。",
+              "standardReference": "Syllabus D1 - Double-entry for sales and purchases",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FA.4.2",
+              "title": "Perpetual and periodic inventory systems",
+              "summary": "永续盘存实时更新存货账户，定期盘存期末盘点后再结转成本。",
+              "contentMd": "## 核心概念\n\n永续盘存制（perpetual）：每次购入/售出即时更新存货账户与销售成本。定期盘存制（periodic）：期末盘点确定结存，再用期初+购入−期末推销售成本。\n\n## 常见考法\n\n识别两种盘存制的分录差异，或判断控制与盘点结果的作用。\n\n## 易错点\n\n定期制下存货账户期初余额在结账前未清，需期末调整；永续制下更利于实时控制与发现短缺。\n\n## 例子\n\n永续制下售出商品：Dr 销售成本、Cr 存货；定期制下期末统一结转。\n\n## 考试提醒\n\n关键词“实时更新”=永续；“期末盘点”=定期。",
+              "standardReference": "Syllabus E1 - Inventory systems",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Inventory measurement",
+          "points": [
+            {
+              "code": "FA.4.3",
+              "title": "Inventory at the lower of cost and net realisable value",
+              "summary": "存货按成本与可变现净值孰低计量，成本高于可变现净值时计提减值。",
+              "contentMd": "## 核心概念\n\n存货期末按成本（cost）与可变现净值（net realisable value，NRV）孰低计量。NRV=预计售价−估计完工成本−销售费用。若 NRV<成本，差额计提减记并计入当期费用。\n\n## 常见考法\n\n计算某存货的成本与 NRV 并选择孰低值，或计算期末存货减记额。\n\n## 易错点\n\nNRV 要扣“完工成本”与“销售成本”两类，且是预计的；不可用历史售价代替。\n\n## 例子\n\n成本 400，预计售价 450，完工成本 30，销售成本 70：NRV=450−30−70=350，按 350 计量。\n\n## 考试提醒\n\n凡题干给出售价与相关成本，先算 NRV，再与成本比较取低值。",
+              "standardReference": "IAS 2 - Inventories",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.4.4",
+              "title": "Cost formulas (FIFO and AVCO)",
+              "summary": "FIFO 先进先出，AVCO 加权平均，不同计价影响存货与销售成本。",
+              "contentMd": "## 核心概念\n\nFIFO（first-in first-out）先购先出，期末存货较接近最新价；AVCO（weighted average cost）按加权平均单价计价。IAS 2 允许 FIFO 或 AVCO，禁止以类似 LIFO 计价。\n\n## 常见考法\n\n计算两种方法下的期末存货或销售成本，或比较其对利润的影响。\n\n## 易错点\n\n先确认盘存制（永续/定期）对 AVCO 计算的差异；涨价时 FIFO 利润较高。\n\n## 例子\n\n期初无存货，购 200@4、100@6，售 150 件：FIFO 期末=50×4+100×6=800。\n\n## 考试提醒\n\n方法之争实则数字之争：画流水账逐批算，是最稳妥的做法。",
+              "standardReference": "IAS 2 - Cost formulas",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Recording Receivables, Payables and Cash",
+      "description": "掌握坏账、应收减值、应付控制与银行对账。",
+      "topics": [
+        {
+          "title": "Receivables",
+          "points": [
+            {
+              "code": "FA.5.1",
+              "title": "Irrecoverable debts (bad debts)",
+              "summary": "已确认无法收回的应收款确认为坏账，直接冲减应收并计入当期费用。",
+              "contentMd": "## 核心概念\n\n坏账（irrecoverable debt）：经确认无法收回的应收账款，作废销：Dr 坏账费用，Cr 应收。若后续收回，作反向或复式调整。\n\n## 常见考法\n\n计算坏账对利润与应收账款的影响，或日后收回的会计处理。\n\n## 易错点\n\n坏账冲减具体应收账款；若期末又收回，先恢复后再确认收款。\n\n## 例子\n\n确认某客户账单 3,000 无法收回：Dr 坏账费用 3,000，Cr 应收 3,000。\n\n## 考试提醒\n\n坏账=直接冲销具体款项；而“减值准备”是估计性计提（见下词条）。",
+              "standardReference": "IAS 36 - Impairment of assets / IAS 2 trade receivables",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.5.2",
+              "title": "Allowance for receivables",
+              "summary": "按估计比例计提应收减值准备，变动额计入当期损益。",
+              "contentMd": "## 核心概念\n\n应收减值准备（allowance for receivables）：按期末应收账款的一定比例估计，计提时借坏账费用、贷减值准备；若期末所需准备高于期初余额，差额为当期费用（减少），低于则为冲回（收益）。\n\n## 常见考法\n\n计算应计提/冲回的减值准备及对损益的影响，或求期末准备余额。\n\n## 易错点\n\n计入损益的是“准备的变动额”，而非期末准备余额；准备余额在 SFP 作为应收减项列示。\n\n## 例子\n\n应收 80,000，计提 5% 准备=4,000；期初准备 2,500，则本期费用=4,000−2,500=1,500。\n\n## 考试提醒\n\n区分：坏账是直接冲销；减值准备变动 = 期末余额−期初余额，损益只算变动。",
+              "standardReference": "IAS 36 - Impairment of trade receivables",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Payables and cash",
+          "points": [
+            {
+              "code": "FA.5.3",
+              "title": "Payables and the purchase ledger control",
+              "summary": "应付账款与采购分类账控制账户用于核算赊购与偿付。",
+              "contentMd": "## 核心概念\n\n应付账款（payables）源于赊购，付款与退货减少余额。采购分类账控制账户汇总赊购、付款、退货与折扣，并以明细账核对。\n\n## 常见考法\n\n编制应付控制账户，或计算应付余额。\n\n## 易错点\n\n现金采购不计入应付控制账户；取得的现金折扣减少应付。\n\n## 例子\n\n期初应付 30,000+赊购 90,000−付款 78,000−退货 3,000=期末 39,000。\n\n## 考试提醒\n\n“应付”只看赊购与偿付，凡现金交易一律排除。",
+              "standardReference": "Syllabus D2 - Payables control account",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FA.5.4",
+              "title": "Bank reconciliation",
+              "summary": "银行对账调整账面与银行对账单差异，识别未达账项与错误。",
+              "contentMd": "## 核心概念\n\n银行对账（bank reconciliation）比较账面余额与银行对账单余额，调整在途存款、未兑付支票等未达账项，以及银行手续费、直接借记等。\n\n## 常见考法\n\n编制银行对账表，调整现金账簿或判断某些项目计入哪边。\n\n## 易错点\n\n从“银行对账单余额”调整到“账面余额”时，未达账项方向要正确；手续费由银行扣减，须由企业入账。\n\n## 例子\n\n账面 12,000，在途存款 4,000（加），未兑付支票 2,500（减），手续费 300（减）。\n\n## 考试提醒\n\n牢记“在途存款加、未兑付支票减、手续费减”等常见项，并看清由哪一方调整。",
+              "standardReference": "Syllabus D2 - Bank reconciliation",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Non-current Assets",
+      "description": "掌握 IAS 16 初始计量、折旧、处置与重估基础。",
+      "topics": [
+        {
+          "title": "Acquisition and measurement under IAS 16",
+          "points": [
+            {
+              "code": "FA.6.1",
+              "title": "Initial recognition and measurement",
+              "summary": "固定资产初始按成本计量，成本含买价及达到可用状态前的直接可归属支出。",
+              "contentMd": "## 核心概念\n\nIAS 16 要求固定资产（PPE）初始按成本计，成本包括购买价、进口税费及使资产达到可使用状态前的直接成本（如安装、运输、测试）。\n\n## 常见考法\n\n确定应计入固定资产成本的支出，或识别不应资本化的费用。\n\n## 易错点\n\n日常维修与员工培训费用不计入成本；只有使资产达到预期状态的支出才资本化。\n\n## 例子\n\n采购机器价款 50,000+运输 1,200+安装 800=资本化成本 52,000。\n\n## 考试提醒\n\n审题区分资本化 vs 费用化：达到可使用状态前的直接支出资本化，之后费用化。",
+              "standardReference": "IAS 16 - Property, Plant and Equipment",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.6.2",
+              "title": "Depreciation (straight line and reducing balance)",
+              "summary": "折旧把成本在可用寿命内系统分摊；直线法与余额递减法是最常见两种。",
+              "contentMd": "## 核心概念\n\n折旧（depreciation）把资产可折旧金额（成本−残值）系统分摊到使用寿命内。直线法每年折旧=可折旧金额÷寿命；余额递减法按固定比例对期初账面价值计提。\n\n## 常见考法\n\n计算某年直线法或余额递减法折旧，或计算期末账面价值。\n\n## 易错点\n\n直线法用“成本−残值”；余额递减法按账面价值计提，逐年递减；残值不为零时应扣除。\n\n## 例子\n\n成本 60,000，残值 4,000，寿命 8 年：年折旧=(60,000−4,000)÷8=7,000。\n\n## 考试提醒\n\n先确认“是否含残值”，再选直线或余额递减，别把残值漏算。",
+              "standardReference": "IAS 16 - Depreciation",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.6.3",
+              "title": "Disposal and revaluation of non-current assets",
+              "summary": "处置时计算处置利得/损失；重估按公允价值计价并对重估增值计入其他综合收益。",
+              "contentMd": "## 核心概念\n\n处置利得/损失=处置收入−处置时账面价值。重估模型（revaluation）与成本模型二选一；重估增值计入其他综合收益（权益中的重估准备），减值则冲减该准备。\n\n## 常见考法\n\n计算处置利得/损失，或判断重估增值/减值的处理方向。\n\n## 易错点\n\n处置损失计入当期损益；重估增值计入权益，通常不进入损益，除非冲减此前减值。\n\n## 例子\n\n机器账面价值 20,000，处置收入 23,000，处置利得=3,000。\n\n## 考试提醒\n\n处置看“账面价值仍是多少”；重估按模型选择，增值入权益。",
+              "standardReference": "IAS 16 - Depreciation, disposal and revaluation",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Accruals, Prepayments and the Trial Balance",
+      "description": "掌握权责发生制下的应计与预付调整及暂记账户更正。",
+      "topics": [
+        {
+          "title": "Accruals and prepayments",
+          "points": [
+            {
+              "code": "FA.7.1",
+              "title": "Accruals and prepayments",
+              "summary": "权责发生制下，应计为已发生未支付费用，预付为已支付未发生费用。",
+              "contentMd": "## 核心概念\n\n应计（accrual）：费用已发生但未支付，期末补记；预付（prepayment）：费用已支付但跨期，期末结转下期。权责发生制按归属期间确认收支，而非收付实现。\n\n## 常见考法\n\n计算期末应计或预付金额，或对损益、资产负债的影响。\n\n## 易错点\n\n应计是负债（未付），预付是资产（已付未耗）；调整方向与“多/少付”对应。\n\n## 例子\n\n全年租金 24,000 于年初一次付清，期末（3 月末）已耗 3 个月=6,000，预付 9 个月=18,000。\n\n## 考试提醒\n\n先判断“已发生但未付”（应计）还是“已付但未发生”（预付），再确定借贷。",
+              "standardReference": "Syllabus E4 - Accruals and prepayments",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.7.2",
+              "title": "Adjusting entries on accruals and prepayments",
+              "summary": "期末调整分录把应计/预付正确归入损益与资产负债。",
+              "contentMd": "## 核心概念\n\n应计调整：Dr 费用、Cr 应计（负债）；预付调整：Dr 预付（资产）、Cr 费用。正确调整让损益基于实际归属期间。\n\n## 常见考法\n\n编写应计/预付的调整分录，或由调整后数字求报表金额。\n\n## 易错点\n\n期末预付转为下期费用并冲减本期费用；应计则增加本期费用。\n\n## 例子\n\n期初预付 4,000 本期应分摊：Dr 费用 4,000，Cr 预付 4,000。\n\n## 考试提醒\n\n记“预付是资产、应计是负债”，调整分录方向自然不易错。",
+              "standardReference": "Syllabus E4 - Accruals and prepayments",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Trial balance and errors",
+          "points": [
+            {
+              "code": "FA.7.3",
+              "title": "Suspense account and correction of errors",
+              "summary": "试算不平衡用暂记账户过渡，更正影响平衡的错误后结清暂记账户。",
+              "contentMd": "## 核心概念\n\n导致试算不平衡的错误（如单边过账、金额错录某边）会生成暂记账户差额；查明后通过更正分录结清。不影响平衡的错误（如双方同错、遗漏整笔）不涉及暂记账户。\n\n## 常见考法\n\n识别是否用到暂记账户，计算调整后余额，或编写更正分录。\n\n## 易错点\n\n只影响一边或金额不等才产生暂记账户；完整遗漏或借贷同错则不改变平衡。\n\n## 例子\n\n某金额 900 仅记入借方，需通过暂记账户补平贷方。\n\n## 考试提醒\n\n先判断“是否失衡”，再决定是否暂记；失衡金额即为需要结转的差额。",
+              "standardReference": "Syllabus D3 - Suspense account and errors",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FA.7.4",
+              "title": "Errors that do not affect the trial balance",
+              "summary": "遗漏、双方同错、借贷反向等不使试算不平衡，无需暂记账户。",
+              "contentMd": "## 核心概念\n\n不影响平衡的错误包括：整笔交易漏记、借贷金额记错但相等、借/贷记错账户（仍平衡）、借贷方向颠倒。这些错误须单独更正，但对试算平衡无影响。\n\n## 常见考法\n\n判断哪些错误不会改变试算平衡，或识别其类型。\n\n## 易错点\n\n不改变平衡照常会影响利润或账户余额；只是不影响“平衡与否”。\n\n## 例子\n\n把赊购审计费 200 误记为赊购办公费 200（账户错但平衡）。\n\n## 考试提醒\n\n按“是否影响借贷合计”分级：失衡才暂记；均衡错账单独更。",
+              "standardReference": "Syllabus D3 - Errors and their effect",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Preparing Financial Statements",
+      "description": "掌握损益表与财务状况表的编制及期末调整。",
+      "topics": [
+        {
+          "title": "Statement of profit or loss",
+          "points": [
+            {
+              "code": "FA.8.1",
+              "title": "Preparing the statement of profit or loss",
+              "summary": "损益表列示收入减销售成本得出毛利，再减费用得出期间利润。",
+              "contentMd": "## 核心概念\n\n损益表结构：销售收入−销售成本=毛利；毛利−营业费用=经营利润/期间利润。销售成本=期初存货+购入−期末存货。\n\n## 常见考法\n\n根据试算平衡与调整事项（存货、应计/预付、减值、折旧）编制损益表，或计算净利润。\n\n## 易错点\n\n销售成本与期末存货关系、应计/预付及坏账/折旧对利润的影响是常考调整。\n\n## 例子\n\n收入 200,000，期初存货 20,000、购入 110,000、期末存货 25,000，则销售成本=105,000，毛利=95,000。\n\n## 考试提醒\n\n把调整项逐一过到损益表：应计增费用、预付减费用、折旧与坏账增费用。",
+              "standardReference": "Syllabus F - Financial statements preparation",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.8.2",
+              "title": "Statement of financial position classification",
+              "summary": "财务状况表把资产、负债与权益按流动性分类列示。",
+              "contentMd": "## 核心概念\n\nSFP 结构：非流动资产（固定资产、无形、投资）与流动资产（存货、应收、现金）；非流动负债（长期借款）与流动负债（应付款项、短期借款、税金）；权益（股本、公积、留存收益）。\n\n## 常见考法\n\n将项目归入非流动/流动资产、非流动/流动负债或权益，或判断某项目列报位置。\n\n## 易错点\n\n“一年内可变现/到期”通常为流动；报表项目位置错误是常见失分。\n\n## 例子\n\n厂房是非流动资产；应收账款为流动资产；12 个月内到期的借款为非流动负债。\n\n## 考试提醒\n\n先按“是否在一年内变现/到期”判断流动性，再归类到资产、负债或权益。",
+              "standardReference": "IAS 1 - Statement of financial position",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Adjustments in preparing financial statements",
+          "points": [
+            {
+              "code": "FA.8.3",
+              "title": "Year-end adjustments",
+              "summary": "存货跌价、应计/预付、减值与折旧等期末调整使报表更准确。",
+              "contentMd": "## 核心概念\n\n期末需调整：存货按成本与可变现净值孰低、应计/预付、应收减值准备、固定资产折旧与处置。未调整会导致利润与资产负债失真。\n\n## 常见考法\n\n把多个调整综合应用到损益表与 SFP，或判断漏调某项的后果。\n\n## 易错点\n\n各调整对资产、负债与权益的影响方向不同，需逐项分析。\n\n## 例子\n\n漏计折旧会高估利润与固定资产账面价值。\n\n## 考试提醒\n\n先逐项列出调整，再分别计其对利润与资产负债的影响，最忌一次性合并出错。",
+              "standardReference": "Syllabus F - Adjustments in preparing financial statements",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Simple Group Accounts",
+      "description": "掌握合并报表的目标、商誉与非控制权益基础。",
+      "topics": [
+        {
+          "title": "Consolidation basics",
+          "points": [
+            {
+              "code": "FA.9.1",
+              "title": "The purpose of consolidated accounts and control",
+              "summary": "合并报表把母公司与子公司视为一个经济实体，反映其整体的财务状况与成果。",
+              "contentMd": "## 核心概念\n\n合并报表（consolidated financial statements）把母公司与受其控制的子公司合并列报，视同单一经济实体。控制通常为持股 50% 以上。\n\n## 常见考法\n\n判断合并报表的目标，或识别哪些子公司纳入合并（具有控制权者）。\n\n## 易错点\n\n合并报表不是简单相加；要抵消内部交易、投资与权益；控制以实质为准。\n\n## 例子\n\n母公司持股 80%（控股权），把子公司净资产与损益按比例并入。\n\n## 考试提醒\n\n控制→合并；不控制（如少数持股）→按投资或联营处理。",
+              "standardReference": "IFRS 10 - Consolidated Financial Statements",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.9.2",
+              "title": "Goodwill and non-controlling interest at acquisition",
+              "summary": "商誉是支付对价超出所获子公司可辨认净资产份额的部分，非控制权益是母公司未持有的份额。",
+              "contentMd": "## 核心概念\n\n商誉（goodwill）=对价+非控制权益−子公司可辨认净资产公允价值的归属份额。非控制权益（NCI）为子公司净资产中不由母公司拥有的部分。\n\n## 常见考法\n\n计算初始商誉或 NCI，或在合并 SFP 中识别其列示。\n\n## 易错点\n\n商誉按“对价+少数股东权益−净资产的母公司份额”计算；若按比例法，NCI 用账面比例计量。\n\n## 例子\n\n母公司付 500,000 购 80%，子公司可辨认净资产公允价 550,000：商誉=500,000−80%×550,000=60,000。\n\n## 考试提醒\n\n写清参数：对价、持股比例、所购净资产公允价，缺一不可。",
+              "standardReference": "IFRS 3 - Business Combinations",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.9.3",
+              "title": "Intra-group balances (basics)",
+              "summary": "合并时抵消母子公司之间内部往来、交易与未实现利润。",
+              "contentMd": "## 核心概念\n\n内部往来（集团内应收/应付、交易）在合并时须抵消；内部出售未售给外部的存货产生的未实现利润也应抵消。\n\n## 常见考法\n\n识别需抵消的内部交易，或计算抵消对合并利润的影响。\n\n## 易错点\n\n只抵消集团内部部分；未实现的内部利润须在合并层面剔除。\n\n## 例子\n\n母公司向子公司赊销 20,000 尚未结算：合并时冲销内部应收应付 20,000。\n\n## 考试提醒\n\n合并后主体只对集团外部报告，内部一切往来与未实现利润都要抵消。",
+              "standardReference": "IFRS 3 - Intra-group transactions",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Regulatory and Ethical Issues of Accounting",
+      "description": "了解监管、地方法规与职业道德基本原则。",
+      "topics": [
+        {
+          "title": "Regulatory framework and ethics",
+          "points": [
+            {
+              "code": "FA.10.1",
+              "title": "The role of regulatory bodies and local regulation",
+              "summary": "IASB 制定准则，地方监管机构（如 FRC）实施并补充当地要求。",
+              "contentMd": "## 核心概念\n\n准则体系：IASB 制定 IFRS，地方监管（如 UK FRC、公司法）规定编制与披露要求。公司须遵循适用准则并符合当地法规，如定期审计与公司治理。\n\n## 常见考法\n\n识别准则制定者与监管者职责，或判断公司须遵守的法规要求。\n\n## 易错点\n\n会计准则与税法的口径可能不同；受监管主体须同时满足财务报告与法定合规。\n\n## 例子\n\n英国上市公司按 UK-adopted IFRS 编制报表，并遵守公司法要求。\n\n## 考试提醒\n\n层面：国际准则（IFRS）→ 当地监管（FRC/公司法）→ 公司实务。",
+              "standardReference": "IFRS Foundation / local Companies Act",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FA.10.2",
+              "title": "Fundamental ethical principles",
+              "summary": "会计职业五项基本原则：诚信、客观、专业胜任与应有审慎、保密、职业行为。",
+              "contentMd": "## 核心概念\n\nACCA 职业道德准则的核心五原则：integrity（诚信）、objectivity（客观）、professional competence and due care（专业胜任与应有审慎）、confidentiality（保密）、professional behaviour（职业行为）。\n\n## 常见考法\n\n识别某情景违反哪一原则，或判断哪些属于基本原则。\n\n## 易错点\n\n保密要求不得在未经授权时披露客户信息；客观要求不受偏见、利益冲突影响。\n\n## 例子\n\n为迎合管理层而美化报表业绩，违背诚信与客观。\n\n## 考试提醒\n\n用“诚信、客观、胜任审慎、保密、职业行为”五词快速匹配情景。",
+              "standardReference": "ACCA Code of Ethics - Fundamental principles",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FA.10.3",
+              "title": "Legal and regulatory requirements of financial reporting",
+              "summary": "财务报表须符合准则并满足法律披露义务，如审计要求。",
+              "contentMd": "## 核心概念\n\n财务报表既要遵循适用财务报告准则，也要满足公司法的披露、审计与备案要求。法定审计与向股东报告是常见合规义务。\n\n## 常见考法\n\n识别法定要求（如审计、报表备案），或判断合规与披露义务。\n\n## 易错点\n\n某些主体可能享受豁免，但一般须编制经审计报表并报送监管机构。\n\n## 例子\n\n上市公司须编制合并报表并经独立审计，向监管机构备案。\n\n## 考试提醒\n\n合规题从“准则+法律+审计”三个来源找答案。",
+              "standardReference": "Local Companies Act / IASB requirement",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

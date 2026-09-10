@@ -1,0 +1,566 @@
+[
+  {
+    "file": "01-landing-desktop.png",
+    "name": "Landing Desktop",
+    "path": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=1ld0r net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=1ld0r net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=1ld0r net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=1ld0r net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "02-dashboard-desktop.png",
+    "name": "Dashboard Desktop",
+    "path": "/dashboard",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [
+      "div.h-full w-full flex-1 rounded-full bg-primary transition-all right=305",
+      "div.flex flex-wrap gap-1 min-w-max right=1481",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1453",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1467",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1481"
+    ],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/practice?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/favorites?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=sheco net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "03-practice-desktop.png",
+    "name": "Practice Desktop",
+    "path": "/practice",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/analytics?_rsc=1l0s4 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=1l0s4 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=1l0s4 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/help?_rsc=1l0s4 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/question-bank?_rsc=1l0s4 net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "04-papers-desktop.png",
+    "name": "Papers Desktop",
+    "path": "/papers",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/favorites?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/help?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/BT?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/MA?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/FA?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/LW?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/PM?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/TX?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/FR?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/AA?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/FM?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/SBL?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/SBR?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/AFM?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/APM?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/ATX?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/AAA?_rsc=drfvw net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "05-mock-desktop.png",
+    "name": "Mock Desktop",
+    "path": "/mock",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/plan?_rsc=1yhiz net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "06-wrong-questions-desktop.png",
+    "name": "Mistakes Desktop",
+    "path": "/mistakes",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=k1htd net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=k1htd net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=k1htd net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/favorites?_rsc=k1htd net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=k1htd net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=k1htd net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=k1htd net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/help?_rsc=k1htd net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "07-analytics-desktop.png",
+    "name": "Analytics Desktop",
+    "path": "/analytics",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [
+      "div.flex flex-wrap gap-1 min-w-max right=1481",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1453",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1467",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1481"
+    ],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=scpsq net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "08-mobile-home.png",
+    "name": "Dashboard Mobile 390",
+    "path": "/dashboard",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1230,
+    "winWidth": 1230,
+    "offenders": [
+      "div.h-full w-full flex-1 rounded-full bg-primary transition-all right=33",
+      "div.h-full w-full flex-1 rounded-full bg-primary transition-all right=37"
+    ],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/profile?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?mode=smart&_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=sheco net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "09-mobile-practice.png",
+    "name": "Practice Mobile 390",
+    "path": "/practice",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 390,
+    "winWidth": 390,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=1l0s4 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=1l0s4 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=1l0s4 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=1l0s4 net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "10-mobile-dashboard.png",
+    "name": "Papers Mobile 390",
+    "path": "/papers",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 453,
+    "winWidth": 453,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/BT?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/MA?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/FA?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/LW?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers/PM?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=drfvw net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=drfvw net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "11-mobile-mock.png",
+    "name": "Mock Mobile 390",
+    "path": "/mock",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 413,
+    "winWidth": 413,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=1yhiz net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "12-admin.png",
+    "name": "Admin Dashboard",
+    "path": "/admin",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/admin/questions?_rsc=1j6cs net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/admin/import?_rsc=1j6cs net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/admin/generate?_rsc=1j6cs net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/admin/review?_rsc=1j6cs net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/admin/reports?_rsc=1j6cs net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "12b-admin-login.png",
+    "name": "Admin Login (protected)",
+    "path": "/admin-login",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  {
+    "file": "13-mobile-large-knowledge.png",
+    "name": "Paper FR Mobile 430",
+    "path": "/papers/FR",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 615,
+    "winWidth": 615,
+    "offenders": [
+      "div.h-full w-full flex-1 rounded-full bg-primary transition-all right=37"
+    ],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?paper=cmtupfe0k015veyd0l7xwe5z2&_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?paper=FR&_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe0x0163eyd0rgiattm0?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe100165eyd0avvpnbu2?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe140167eyd0aa4428s4?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe1b016beyd0dmdd6bk4?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe1d016deyd0psj6vhnk?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe1h016feyd0drb2szfj?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe1n016jeyd0kjlcdsa5?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe1q016leyd0vx24c555?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe1t016neyd0utdqvqc3?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe25016veyd07jxqrgfh?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe22016teyd0qicdhbid?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe2c016zeyd0mxh9smay?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/knowledge/cmtupfe2f0171eyd046kuyj4t?_rsc=1wujl net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=1wujl net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "14-analytics-mobile.png",
+    "name": "Analytics Mobile 390",
+    "path": "/analytics",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1230,
+    "winWidth": 1230,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/mock?_rsc=scpsq net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/dashboard?_rsc=scpsq net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=scpsq net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=scpsq net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=scpsq net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "15-plan-desktop.png",
+    "name": "Plan Desktop",
+    "path": "/plan",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/profile?_rsc=i7t5b net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/help?_rsc=i7t5b net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "16-favorites-desktop.png",
+    "name": "Favorites Desktop",
+    "path": "/favorites",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=5pcb1 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/help?_rsc=5pcb1 net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "17-help-desktop.png",
+    "name": "Help Desktop",
+    "path": "/help",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/favorites?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=15eht net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=15eht net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "18-profile-desktop.png",
+    "name": "Profile Desktop",
+    "path": "/profile",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/dashboard?_rsc=1nu6a net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/practice?_rsc=1nu6a net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=1nu6a net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=1nu6a net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=1nu6a net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/favorites?_rsc=1nu6a net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=1nu6a net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=1nu6a net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "19-question-bank-desktop.png",
+    "name": "Question Bank Desktop",
+    "path": "/question-bank",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/favorites?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/help?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/question/cmtupfhpd03b1eyd0qrl87xrj?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/question/cmtupfhp603azeyd0jps7udcw?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/question/cmtupfhoo03apeyd0b9sdjggv?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/question/cmtupfho803afeyd0qo3o5x85?_rsc=3hvo0 net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/question/cmtupfho103adeyd09uwwflbs?_rsc=3hvo0 net::ERR_ABORTED"
+    ]
+  },
+  {
+    "file": "20-dark-dashboard.png",
+    "name": "Dashboard Dark",
+    "path": "/dashboard",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "horizontalOverflow": false,
+    "docWidth": 1440,
+    "winWidth": 1440,
+    "offenders": [
+      "div.h-full w-full flex-1 rounded-full bg-primary transition-all right=305",
+      "div.flex flex-wrap gap-1 min-w-max right=1481",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1453",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1467",
+      "div.h-2.5 w-2.5 rounded-[3px] bg-secondary right=1481"
+    ],
+    "squeezedText": [],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [
+      "GET http://127.0.0.1:3000/practice?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mock?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/papers?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/mistakes?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/favorites?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/analytics?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/plan?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/profile?_rsc=sheco net::ERR_ABORTED",
+      "GET http://127.0.0.1:3000/help?_rsc=sheco net::ERR_ABORTED"
+    ]
+  }
+]

@@ -1,0 +1,847 @@
+{
+  "code": "FR",
+  "name": "Financial Reporting",
+  "nameCn": "财务报告",
+  "level": "APPLIED_SKILLS",
+  "category": null,
+  "order": 7,
+  "accent": "#6366f1",
+  "description": "财务报告科目：掌握 IFRS 报表编制、合并与解读的能力，覆盖从概念框架到合并报表与财务分析的全流程。",
+  "examDurationMin": 180,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Objective Test Questions", "scope": "客观题", "count": 15, "marksPerQuestion": 2, "sectionMarks": 30 },
+      { "id": "B", "name": "Section B - OT Case Questions", "scope": "案例选择", "count": 15, "marksPerQuestion": 2, "sectionMarks": 30 },
+      { "id": "C", "name": "Section C - Constructed Response", "scope": "主观题", "count": 2, "marksPerQuestion": 20, "sectionMarks": 40 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "The Conceptual Framework of Financial Reporting",
+      "description": "概念框架：确立财务报告目标、质量特征与报表要素的定义和确认计量基础。",
+      "topics": [
+        {
+          "title": "Purpose and status of the conceptual framework",
+          "points": [
+            {
+              "code": "FR.01.1.1",
+              "title": "Purpose and status of the Conceptual Framework",
+              "summary": "概念框架为制定与理解 IFRS 提供一致的逻辑基础，本身并非准则，冲突时准则优先。",
+              "contentMd": "## 核心概念\n\nConceptual Framework（概念框架）是一套相互关联的概念体系，用于指导 IASB 制定新准则、帮助报表编制者一致地应用准则，并帮助审计师与使用者理解报表。它不是一份 IFRS 准则，没有强制效力（authority）。\n\n当准则与框架冲突时，以准则（Standards）为准；框架主要用于填补准则未覆盖的空白。\n\n## 常见考法\n\n- 判断某项表述是来自框架还是具体准则。\n- 考查框架的作用与地位：编制者如何使用、何时适用。\n\n## 易错点\n\n- 误以为框架具有与准则同等的强制约束力。\n- 混淆“框架指导准则制定”与“框架覆盖所有会计处理细节”。\n\n## 例子\n\n某新型交易无现成准则，编制者参考框架确定其确认与计量，但若日后出台准则，则改按准则执行。\n\n## 考试提醒\n\n理解框架是“原则性指引”而非“规则”，考试中多选与判断题常围绕其地位设题。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.01.1.2",
+              "title": "Objective of financial reporting and the users",
+              "summary": "财务报告的目标是向现有及潜在投资者、贷款人和其他债权人提供有用信息，供其作出资源配置决策并评估管理层受托责任。",
+              "contentMd": "## 核心概念\n\n财务报告的核心目标是为现有和潜在的 investors（投资者）、lenders（贷款人）及其他 creditors（债权人）提供关于主体经济资源、对资源的主张以及资源与主张变动信息的 useful financial information（有用财务信息）。\n\n使用者据此作出投放资源（向实体提供资源）的决策，并评估管理层对受托资源的 stewardship（受托责任）。\n\n## 常见考法\n\n- 识别主要使用者群体（primary users）。\n- 说明财务信息为何有助于资源配置与受托责任评估。\n\n## 易错点\n\n- 把“所有潜在使用者”（如员工、公众、监管者）都当作主要使用者。\n- 忽略信息必须是“决策有用”的这一前提。\n\n## 例子\n\n投资者评估是否增持股票，贷款人评估能否按期收回本息，两者都依赖报表提供的财务信息。\n\n## 考试提醒\n\n牢记“主要使用者=投资者/贷款人/债权人”，考题常要求区分使用者并说明信息如何满足其决策需要。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.01.1.3",
+              "title": "The reporting entity concept",
+              "summary": "报告主体是不一定受法律边界限制的经济单元，其边界由使用者需求界定，可能包含多个法律实体的合并范围。",
+              "contentMd": "## 核心概念\n\nA reporting entity（报告主体）是指需要、且能够合理地被要求编制财务报告的经济单元。它不一定与法律边界（legal entity）一致，可以是整体集团（group）的一部分，也可包含母公司及其子公司。\n\n报告主体的边界取决于主要使用者的信息需求，而非纯法律形式；控制资源的能力决定了哪些资源与主张应纳入报告范围。\n\n## 常见考法\n\n- 判断报告主体范围：单一法人 vs. 集团。\n- 说明边界如何由使用者需求决定。\n\n## 易错点\n\n- 把报告主体等同于法律实体。\n- 忽略合并范围是基于“控制”而非股权比例。\n\n## 例子\n\n母公司与其多家子公司构成一个报告主体（合并集团），但每家公司仍是独立的法律实体。\n\n## 考试提醒\n\n理解“控制”决定纳入范围，考试中常与合并报表章节联动，考查哪些主体应纳入合并。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Qualitative characteristics of useful financial information",
+          "points": [
+            {
+              "code": "FR.01.2.1",
+              "title": "Fundamental qualitative characteristics",
+              "summary": "基础质量特征是 relevance 相关性与 faithful representation 如实反映，是信息有用性的必要条件。",
+              "contentMd": "## 核心概念\n\n基础质量特征（fundamental qualitative characteristics）包括 relevance（相关性）和 faithful representation（如实反映）。\n\nrelevance：信息能够影响使用者决策，具有 predictive value（预测价值）和 confirmatory value（确认价值），并可能受 materiality（重要性）限制。\n\nfaithful representation：信息完整（complete）、中立（neutral）、无差错（free from error），如实反映其所要表述的经济现象。\n\n## 常见考法\n\n- 区分基础质量特征与增强质量特征。\n- 判断某项信息是否相关、是否如实反映。\n\n## 易错点\n\n- 把 materiality 误当作一项独立的基础质量特征，它其实是 relevance 的一个方面。\n- 将“中立”与“客观/主观”混淆。\n\n## 例子\n\n资产按公允反映其经济价值的信息是相关的；同时报表附注完整披露该资产的相关风险，也满足如实反映。\n\n## 考试提醒\n\n高频考点是特征分类与判断，重点记忆 relevance 与 faithful representation 的定义及关键属性。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.01.2.2",
+              "title": "Enhancing qualitative characteristics",
+              "summary": "增强质量特征包括可比性、可验证性、及时性与可理解性，提升基础特征的效用但不可替代之。",
+              "contentMd": "## 核心概念\n\n增强质量特征（enhancing qualitative characteristics）包括 comparability（可比性）、verifiability（可验证性）、timeliness（及时性）和 understandability（可理解性）。\n\ncomparability：使用者能识别与比较不同期间、不同主体间的相似与差异，包括一致性（consistency）。\n\nverifiability：不同知情且独立的观察者能够就表述的忠实性达成一致。\n\ntimeliness：在信息失去影响决策能力前获得信息。\n\nunderstandability：信息分类、描述清晰简洁，假定使用者具备合理商业知识。\n\n## 常见考法\n\n- 识别并列举四项增强质量特征。\n- 判断某项特征属于基础还是增强。\n\n## 易错点\n\n- 将 enhance 误当作可替换 fundamental 的同类特征。\n- 混淆一致性（consistency）与可比性（comparability）。\n\n## 例子\n\n主体在不同期间采用一致的会计政策（consistency），从而提升信息的可比性。\n\n## 考试提醒\n\n熟记“CVTU”四要素（Comparable、Verifiable、Timely、Understandable），结合场景判断其应用。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.01.2.3",
+              "title": "The cost constraint on useful information",
+              "summary": "报告信息的成本不应超过其带来的效益，这是信息质量特征的普遍约束条件。",
+              "contentMd": "## 核心概念\n\ncost constraint（成本约束）指出：编制财务报告是有成本的，只有当信息的效益（benefit）超过其提供成本时，才应编制或要求该信息。\n\n成本不仅包括编制、收集与审计费用，还包括使用者处理信息的成本；效益则体现为更优的决策与资源配置。\n\n## 常见考法\n\n- 说明成本约束如何限制信息的提供。\n- 评估某一披露是否在成本效益范围内。\n\n## 易错点\n\n- 把成本约束当作一项“质量特征”。\n- 只考虑编制成本而忽略使用者成本。\n\n## 例子\n\n若要求编制某项极其复杂的披露，其编制与审计成本远超给使用者带来的决策收益，即可合理地省略。\n\n## 考试提醒\n\n理解成本约束是“边界条件”（constraint）而非质量特征，考试常以评估披露必要性形式出现。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Elements, recognition and measurement",
+          "points": [
+            {
+              "code": "FR.01.3.1",
+              "title": "Definitions of the elements of financial statements",
+              "summary": "报表要素分两类：资产/负债/权益反映财务状况，收入/费用反映经营业绩，各要素有严格定义。",
+              "contentMd": "## 核心概念\n\n财务报告的要素（elements）分为两类：\n\n财务状况类：asset（资产）——由过去事项形成、主体控制的现时经济资源；liability（负债）——由过去事项形成的现时义务，偿还将导致经济资源流出；equity（权益）——资产减负债后的剩余权益。\n\n经营业绩类：income（收入）——导致权益增加、与所有者投入无关的经济利益流入，含 revenue（收入）与 gain（利得）；expense（费用）——导致权益减少、与所有者分配无关的经济利益流出，含费用与损失（loss）。\n\n## 常见考法\n\n- 判断一项事项属于哪个要素。\n- 区分 income 与 gain、expense 与 loss 的异同。\n\n## 易错点\n\n- 将“控制”与“法定所有权”等同。\n- 忽略收入/费用定义中的“与所有者交易无关”这一限定。\n\n## 例子\n\n主体拥有但以租赁方式取得的设备，因主体控制其使用权而构成资产。\n\n## 考试提醒\n\n熟练背诵并区分各要素定义是选择题基础，注意“控制”“现时义务”“权益变动”等关键词。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.01.3.2",
+              "title": "Recognition criteria",
+              "summary": "确认的基本条件是同时满足要素定义、且可能带来经济利益流入或流出并能够可靠计量。",
+              "contentMd": "## 核心概念\n\nrecognition（确认）是将符合要素定义的项目计入报表（statement of financial position 或 statement of profit or loss）的过程。\n\n确认条件：项目同时满足要素定义，经济利益很可能（probable）流入或流出，且成本或价值能够可靠计量（reliably measurable）。\n\n若某项目仅满足定义但无法可靠计量，则不确认，可能通过披露提供相关信息。\n\n## 常见考法\n\n- 判断某项目是否应被确认。\n- 结合“很可能”“可靠计量”两个条件分析确认与否。\n\n## 易错点\n\n- 只考虑要素定义而忽略“可靠计量”与“很可能”条件。\n- 将确认（recognition）与披露（disclosure）混为一谈。\n\n## 例子\n\n一项潜在的诉讼赔偿，胜诉可能性较低且金额难以可靠估计，则不应确认，但可在附注披露。\n\n## 考试提醒\n\n确认标准的“两个核心门槛”（很可能、可可靠计量）是判断型考题的得分点。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.01.3.3",
+              "title": "Measurement bases and capital maintenance",
+              "summary": "计量基础含历史成本、现行成本、可变现净值、现值与公允价值，资本保全分财务资本与实物资本保全。",
+              "contentMd": "## 核心概念\n\n计量基础（measurement bases）主要有 historical cost（历史成本）、current cost（现行成本）、realisable value（可变现净值）、present value（现值）与 fair value（公允价值）。\n\n历史成本以交易价格入账、后续按折旧或减值调整；公允价值反映退出价格（exit price）。\n\ncapital maintenance（资本保全）：财务资本保全（financial capital maintenance）以货币金额衡量利润；实物资本保全（physical capital maintenance）以实物生产能力衡量利润。\n\n## 常见考法\n\n- 区分不同计量基础的特点与适用场景。\n- 说明财务资本保全与实物资本保全对利润计量的影响。\n\n## 易错点\n\n- 将公允价值与历史成本的概念混淆。\n- 混淆两种资本保全观下利润的界定差异。\n\n## 例子\n\n物价上涨期间，若按实物资本保全，只有维持同等生产能力之上的增值才计为利润。\n\n## 考试提醒\n\n理解“利润=期末资本-期初资本-投入+分配”这一资本保全逻辑，选择题常据此计算。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "A Regulatory Framework for Financial Reporting",
+      "description": "监管框架：介绍 IFRS 基金会与 IASB 的准则制定流程、各国监管机构角色及全球趋同。",
+      "topics": [
+        {
+          "title": "The IFRS standard-setting structure",
+          "points": [
+            {
+              "code": "FR.02.1.1",
+              "title": "The IFRS Foundation and the IASB",
+              "summary": "IFRS Foundation 是独立非营利组织，其下设 IASB 负责制定 IFRS，并由受托人监督治理、IFRS Interpretations Committee 提供解释。",
+              "contentMd": "## 核心概念\n\nThe IFRS Foundation（IFRS 基金会）是独立的、非营利的监督机构，负责监督国际会计准则的制定。其治理由 Trustees（受托人）负责，受托人负责任命 IASB 成员并确保流程公正。\n\nThe IASB（国际会计准则理事会）是基金会下设的标准制定机构，负责制定和发布 IFRS Standards。此外还有 IFRS Interpretations Committee（IFRS 解释委员会），负责对准则应用中的问题进行解释。\n\n## 常见考法\n\n- 区分 IFRS Foundation、IASB 与解释委员会的分工。\n- 说明 IASB 的独立性及其编制准则的角色。\n\n## 易错点\n\n- 混淆“受托人监督”与“IASB 制定准则”的具体职责。\n- 把解释委员会误认为制定准则的机构。\n\n## 例子\n\n当某准则应用出现分歧时，由 IFRS Interpretations Committee 发布解释，而 IASB 负责制定新准则。\n\n## 考试提醒\n\n记住“基金会→受托人监督，IASB→制定，解释委员会→解释”的三层结构，判断型题常见。",
+              "standardReference": "IFRS Foundation",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.02.1.2",
+              "title": "Due process for developing IFRS Standards",
+              "summary": "准则制定遵循公开透明的征求意见流程，包括研究、发布征求意见稿、公开反馈、审议与最终发布等阶段。",
+              "contentMd": "## 核心概念\n\ndue process（应循程序）是 IASB 制定准则时遵循的公开、透明、可问责的流程。通常包括：确定议程、研究与讨论、发布 Discussion Paper（讨论稿）或 Exposure Draft（征求意见稿）、公开征求并分析意见、召开公开会议审议、最终发布准则并说明采纳与否的理由。\n\n该流程旨在保证利益相关者（stakeholders）有机会参与，提升准则质量与合法性。\n\n## 常见考法\n\n- 列举 due process 的主要阶段。\n- 说明公开征求意见的作用。\n\n## 易错点\n\n- 认为征求意见稿即为最终准则。\n- 忽略流程中“对意见进行分析与回应”这一环节。\n\n## 例子\n\nIASB 就某新准则发布 Exposure Draft，收集各界反馈后修订并发布最终 IFRS，同时附上收到的意见及处理结论。\n\n## 考试提醒\n\n此考点为识记型内容，结合“过程合法性+公众参与”理解，考频较低但需能列举阶段。",
+              "standardReference": "IFRS Foundation",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Regulatory framework and convergence",
+          "points": [
+            {
+              "code": "FR.02.2.1",
+              "title": "The role of the Financial Reporting Council (FRC)",
+              "summary": "FRC 是英国独立的财务报告监管机构，负责制定会计准则、审查公司报告并实施审计与治理监管。",
+              "contentMd": "## 核心概念\n\nThe Financial Reporting Council (FRC，英国财务报告理事会) 是英国独立的监管机构，负责制定与维护 UK accounting standards（英国会计准则）、审查大型公司的财务报告，并负责审计、精算及公司治理方面的监管。\n\n其目标是提升企业报告的透明度与质量，保护投资者利益，并增强公众对公司报告的信心。\n\n## 常见考法\n\n- 识别 FRC 在监管框架中的职能定位。\n- 对比 FRC 与 IASB 的角色差异。\n\n## 易错点\n\n- 把 FRC 视为国际准则制定者。\n- 忽略其在审计与治理监管中的作用。\n\n## 例子\n\n在英国注册的公司若未采用 IFRS，可能需遵循 FRC 制定的 UK GAAP。\n\n## 考试提醒\n\n明确 FRC 是“英国国内”监管机构，区别于国际层面的 IASB，选择题多为定位判断。",
+              "standardReference": "Companies Act 2006",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "FR.02.2.2",
+              "title": "Adoption of IFRS and global convergence",
+              "summary": "许多国家和地区采用 IFRS 作为其报告准则，或推动本地准则与 IFRS 趋同，以提升可比性与跨境融资效率。",
+              "contentMd": "## 核心概念\n\nAdoption of IFRS（采用 IFRS）指国家或地区将国际会计准则作为法定报告准则予以采纳。欧盟自 2005 年起要求上市公司按采纳后的 IFRS 编制合并报表——即 endorsement（背书采纳）机制。\n\nConvergence（趋同）指各国准则制定者（如美国 FASB）与 IASB 合作，消除差异、推动本地准则与 IFRS 一致，以增强全球可比性并降低编制与使用成本。\n\n## 常见考法\n\n- 区分“采用 IFRS”与“与 IFRS 趋同”。\n- 说明 IFRS 全球采用带来的好处与挑战。\n\n## 易错点\n\n- 认为所有国家完全一致地执行 IFRS。\n- 低估趋同过程中的制度与法律障碍。\n\n## 例子\n\n欧盟通过背书机制采纳 IFRS，但可能对个别条款作出修改后才生效。\n\n## 考试提醒\n\n牢记“术语区分（adoption vs convergence）”及“全球一体化与本地差异并存”，论述题可从成本效益角度展开。",
+              "standardReference": "IFRS",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Presentation of Financial Statements",
+      "description": "报表列报：掌握 IAS 1 完整报表组成与列报要求、IAS 8 会计政策变更与差错更正、IAS 10 期后事项。",
+      "topics": [
+        {
+          "title": "IAS 1 presentation of financial statements",
+          "points": [
+            {
+              "code": "FR.03.1.1",
+              "title": "Components of a complete set of financial statements",
+              "summary": "一套完整财务报表包括财务状况表、损益表、权益变动表、现金流量表、附注及同期比较信息。",
+              "contentMd": "## 核心概念\n\n根据 IAS 1，一套完整财务报表（a complete set of financial statements）包括：\n\n1. a statement of financial position（财务状况表）；\n2. a statement of profit or loss and other comprehensive income（损益及其他综合收益表）；\n3. a statement of changes in equity（权益变动表）；\n4. a statement of cash flows（现金流量表）；\n5. notes（附注），包括重要会计政策与解释性信息；\n6. 必要时还包括会计政策说明及比较信息（comparative information）。\n\n## 常见考法\n\n- 列举完整财务报表的组成。\n- 区分报表内部与附注披露的内容。\n\n## 易错点\n\n- 遗漏“比较信息”或“权益变动表”。\n- 将“资产负债表/损益表/现金流量表、附注”视为全部，忽略权益变动表。\n\n## 例子\n\n一套年度报告通常同时披露本期与上期的比较数据，便于使用者评估变动趋势。\n\n## 考试提醒\n\n熟记六项组成，尤其“statement of changes in equity”常被遗漏，选择题重要。",
+              "standardReference": "IAS 1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.03.1.2",
+              "title": "Current and non-current classification and going concern",
+              "summary": "资产与负债按流动与非流动分类，主体应按持续经营假设编制报表并披露相关判断。",
+              "contentMd": "## 核心概念\n\nIAS 1 要求主体将资产与负债划分为 current（流动）与 non-current（非流动）。流动资产通常指预计在正常经营周期内变现、持有以备出售或在 12 个月内变现的资产；流动负债指预计在 12 个月内清偿或正常经营周期内到期的负债。\n\nGoing concern（持续经营）假设主体将持续经营并可预见未来正常清算。编制者在评估持续经营时应考虑可获得信息，若存在重大不确定性，应在报表中披露。\n\n## 常见考法\n\n- 判断某项资产/负债是流动还是非流动。\n- 评估持续经营假设是否适用并说明披露要求。\n\n## 易错点\n\n- 忽略“经营周期”而只用 12 个月规则判断。\n- 未区分报表列示（classification）与计量基础的关系。\n\n## 例子\n\n某公司预计未来 6 个月内处置的存货归为流动资产，而自用厂房归为非流动资产。\n\n## 考试提醒\n\n关注分类的“经营周期/12 个月”双重标准，以及持续经营出现重大不确定性时的披露义务。",
+              "standardReference": "IAS 1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.03.1.3",
+              "title": "Structure and content requirements",
+              "summary": "IAS 1 规定了报表列示的最低信息、各报表应列的标题与项目，以及抵销与对应信息要求。",
+              "contentMd": "## 核心概念\n\nIAS 1 对报表的 structure（结构）与 content（内容）提出最低要求，包括报表名称、报告期间、报告货币、列报货币单位等信息。\n\n主体应在财务状况表中列示资产、负债、权益等主要类别，在损益表中列示收入、费用、税后损益等。附注应提供补充信息，并遵循重要性（materiality）原则。\n\n此外，IAS 1 要求资产与负债不得随意抵销（offset），除非准则允许或要求，并应列示比较信息。\n\n## 常见考法\n\n- 判断某一项目是否应在表内列示或仅附注披露。\n- 识别违反结构/内容要求的情形。\n\n## 易错点\n\n- 误以为可任意抵销资产与负债。\n- 忽略报表名称、期间等基本列报信息。\n\n## 例子\n\n某公司不能将一项应收账款与同一客户的应付账款相抵销，除非满足准则规定的抵销条件。\n\n## 考试提醒\n\n重点记忆“不得随意抵销、需列比较信息、附注解释项目”等要求，选择题常考。",
+              "standardReference": "IAS 1",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "IAS 8 accounting policies, estimates and errors",
+          "points": [
+            {
+              "code": "FR.03.2.1",
+              "title": "Changes in accounting policies",
+              "summary": "会计政策变更只有在准则要求或更能提供可靠相关信息时才允许，并应按追溯调整法处理。",
+              "contentMd": "## 核心概念\n\nA change in accounting policy（会计政策变更）通常采用 retrospective application（追溯调整法），即调整比较期间报告金额，如同新政策一直适用，并将影响计入期初权益。\n\n只有当准则要求变更、或变更能更可靠且更相关地反映交易时，才允许变更。不能因税收便利或新政策更“好看”而随意变更。\n\n## 常见考法\n\n- 判断某项调整属于政策变更还是估计变更。\n- 说明追溯调整法的处理与报表影响。\n\n## 易错点\n\n- 将政策变更与估计变更相混淆。\n- 忽略追溯调整需调整比较期间与期初权益。\n\n## 例子\n\n存货计价方法由加权平均改为 FIFO，应追溯重述以前各期报表金额。\n\n## 考试提醒\n\n区分“政策变更（追溯）”与“估计变更（未来适用）”是关键，考题常要求分类并说明处理方法。",
+              "standardReference": "IAS 8",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.03.2.2",
+              "title": "Changes in accounting estimates",
+              "summary": "会计估计变更是对未来不确定性判断的更新，采用未来适用法，不影响以前期间。",
+              "contentMd": "## 核心概念\n\nA change in accounting estimate（会计估计变更）是主体根据新信息、新进展对新情况作出的重新评估，例如应收款项坏账率、资产折旧年限或残值的调整。\n\n估计变更采用 prospective application（未来适用法），即自变更当期及未来期间反映影响，不追溯调整以前期间。\n\n## 常见考法\n\n- 识别政策变更与估计变更的界限。\n- 计算估计变更对未来期间损益的影响。\n\n## 易错点\n\n- 误以为估计变更需追溯重述。\n- 将政策变更误判为估计变更。\n\n## 例子\n\n设备折旧年限由 10 年改为 8 年，按新年限计算未来期间折旧，不追溯以前年度。\n\n## 考试提醒\n\n核心是“未来适用”与“不追溯”，结合折旧、坏账估计等常见场景出题。",
+              "standardReference": "IAS 8",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.03.2.3",
+              "title": "Correction of prior period errors",
+              "summary": "前期差错须按追溯重述法更正，重述比较期间金额，影响计入期初留存收益。",
+              "contentMd": "## 核心概念\n\nA prior period error（前期差错）是因疏忽、误用会计政策、曲解事实或欺诈等导致前期报表错报。\n\n更正采用 retrospective restatement（追溯重述）：重述比较期间的金额，若差错发生在更早期间，则调整列报最早期间的期初留存收益（retained earnings）。\n\n## 常见考法\n\n- 识别属于前期差错的调整。\n- 说明追溯重述如何影响比较报表与期初权益。\n\n## 易错点\n\n- 把差错更正与政策变更混为一谈。\n- 忽略需调整期初留存收益。\n\n## 例子\n\n某期存货盘点高估，导致前期利润虚增，应重述比较期间损益与期初留存收益。\n\n## 考试提醒\n\n对比“政策变更/估计变更/差错更正”三者处理差异是高频考点，注意各自的处理方法与影响。",
+              "standardReference": "IAS 8",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "IAS 10 events after the reporting period",
+          "points": [
+            {
+              "code": "FR.03.3.1",
+              "title": "Adjusting and non-adjusting events after the reporting period",
+              "summary": "期后事项分为调整事项与非调整事项；调整事项须调整报表金额，非调整事项通常仅披露。",
+              "contentMd": "## 核心概念\n\nEvents after the reporting period（报告期后事项）是报告期末与报表批准日之间发生的事项。分两类：\n\nadjusting events（调整事项）：提供报告期末已存在情况的证据，例如客户破产、存货销售价格下降，应调整报表金额。\n\nnon-adjusting events（非调整事项）：反映报告期后新发生的情况，例如合并、台风损失，通常不调整报表，但若重大则需披露。\n\n## 常见考法\n\n- 判断某个期后事项是调整还是非调整。\n- 说明对报表金额或披露的影响。\n\n## 易错点\n\n- 以事项“重要性”而不是“是否反映期末已存在情况”来区分。\n- 忽略重大非调整事项的披露要求。\n\n## 例子\n\n报告期后客户宣告破产，说明期末应收账款收不回，属于调整事项，应计提坏账。\n\n## 考试提醒\n\n判断标准是“期末前是否已存在该情况”，考题常给具体事项要求分类并说明处理。",
+              "standardReference": "IAS 10",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.03.3.2",
+              "title": "Going concern and events after the reporting period",
+              "summary": "若期后事项表明主体不再符合持续经营假设，应停止采用持续经营基准并披露相关情况。",
+              "contentMd": "## 核心概念\n\nIf 报告期后发生的事项表明主体不再具备 going concern（持续经营）能力，例如重大经营失败、大额资金需求或预期倒闭，则主体不应再按持续经营基准编制报表（或应调整并充分披露）。\n\n对于非调整事项，若其威胁持续经营，无论是否调整报表金额，都应在报表中披露，以提醒使用者评估主体能否持续经营。\n\n## 常见考法\n\n- 判断期后事项对持续经营假设的影响。\n- 说明披露与编制基础调整的处理。\n\n## 易错点\n\n- 忽略持续经营不确定性的披露义务。\n- 误以为重大非调整事项需调整报表。\n\n## 例子\n\n报告期后主体丧失一项关键融资来源，可能无法继续经营，管理层应在报表中充分披露该不确定性。\n\n## 考试提醒\n\n结合“持续经营+期后事项”考查判断与披露，属于重点综合考点。",
+              "standardReference": "IAS 10",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Statement of Cash Flows",
+      "description": "现金流量表：掌握 IAS 7 报表目的、活动分类，以及直接法与间接法编制和利息、股利、税项处理。",
+      "topics": [
+        {
+          "title": "IAS 7 purpose and classification",
+          "points": [
+            {
+              "code": "FR.04.1.1",
+              "title": "Purposes and benefits of the statement of cash flows",
+              "summary": "现金流量表反映现金及现金等价物变动，帮助使用者评估主体产生现金的能力、偿债能力与财务稳健性。",
+              "contentMd": "## 核心概念\n\nThe statement of cash flows（现金流量表）按 IAS 7 编制，反映主体在期间内现金及 cash equivalents（现金等价物）的变动，并按经营、投资、筹资活动分类列示。\n\n其价值在于：评估主体产生未来现金流的能力、偿债与分红能力、盈利能力与现金流的差异，以及资本结构变化。cash flows 提供比利润更能反映实际现金实力的信息。\n\n## 常见考法\n\n- 说明现金流量表的使用价值。\n- 区分现金与现金等价物。\n\n## 易错点\n\n- 将现金流量表等同于利润表。\n- 忽略现金等价物（高流动性短期投资）的界定。\n\n## 例子\n\n一家利润可观但现金流紧张的公司，其现金流量表能揭示应收款项回笼缓慢、经营现金流为负的风险。\n\n## 考试提醒\n\n理解报表“以现金为基础”的视角，与权责发生制的利润表形成对比，论述题常见。",
+              "standardReference": "IAS 7",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.04.1.2",
+              "title": "Classification of operating, investing and financing activities",
+              "summary": "现金流量分为经营、投资与筹资三类：经营为日常业务，投资为长期资产与投资，筹资为资本与借款相关活动。",
+              "contentMd": "## 核心概念\n\nIAS 7 将现金流量分为三类：\n\noperating activities（经营活动）：主体主要收入相关活动及其它不属于投资或筹资的活动，如销售收现、采购付现、支付税款与利息。\n\ninvesting activities（投资活动）：取得与处置长期资产及其他投资，如购建厂房、出售子公司股权。\n\nfinancing activities（筹资活动）：改变权益与借款规模的活动，如发行股份、借款与偿还借款、支付股利。\n\n## 常见考法\n\n- 将给定现金流量归入正确分类。\n- 说明各分类的典型项目。\n\n## 易错点\n\n- 将支付股利、利息误判分类。\n- 把投资活动与经营活动项目混淆。\n\n## 例子\n\n购买设备属于投资活动，借款收到的现金属于筹资活动，销售商品收现属于经营活动。\n\n## 考试提醒\n\n三类活动名称与典型项目必须牢记，选择题常用具体现金流考查分类。",
+              "standardReference": "IAS 7",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Methods of preparing the statement of cash flows",
+          "points": [
+            {
+              "code": "FR.04.2.1",
+              "title": "The direct method",
+              "summary": "直接法直接列示主要经营现金收入与支出项目，直观但需较详细的现金记录。",
+              "contentMd": "## 核心概念\n\nThe direct method（直接法）逐项列示经营活动的主要类别现金收支，例如从客户收到的现金、支付给供应商的现金、支付给员工的现金、支付税金与利息等，从而直接得出经营现金净流量。\n\n其优点是易于使用者理解现金进出的来源与去向，但需要较详细的会计记录。IAS 7 鼓励采用直接法。\n\n## 常见考法\n\n- 用直接法计算某项经营现金收支。\n- 比较直接法与间接法的优劣。\n\n## 易错点\n\n- 混淆直接法与间接法的计算起点。\n- 未区分“含税”与“不含税”的现金流量。\n\n## 例子\n\n“收到客户现金”=销售收入（不含税）+应收款项减少-预收款项增加等调整。\n\n## 考试提醒\n\n直接法更直观，考题常要求从销售、采购等数据推算各经营现金收支项目。",
+              "standardReference": "IAS 7",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.04.2.2",
+              "title": "The indirect method and reconciliation of operating profit",
+              "summary": "间接法以税前利润为起点，剔除不影响现金的项目并调整营运资本变动，得出经营现金净流量。",
+              "contentMd": "## 核心概念\n\nThe indirect method（间接法）以 profit before tax（税前利润）为起点，调整非现金项目（折旧、减值、汇兑损益、处置损益、利息等）以及营运资本变动（存货、应收、应付、预提等），得出经营活动现金净流量。\n\n其优点是无需详细的现金记录即可编制，因而被广泛采用。\n\n## 常见考法\n\n- 从税前利润推算经营现金净流量。\n- 正确处理营运资本变动与各调整项目。\n\n## 易错点\n\n- 营运资本增加/减少的加、减方向判断错误。\n- 将投资/筹资活动的损益误纳入经营调整。\n\n## 例子\n\n以税前利润 500 为起点，加回折旧 80、减处置收益 30，考虑存货减少加 40、应收增加减 50，得到经营现金净流量。\n\n## 考试提醒\n\n间接法是 Section C 常见大题，务必整握“+折旧、-存货增加、+存货减少、-应收增加、+应付增加”等符号方向。",
+              "standardReference": "IAS 7",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.04.2.3",
+              "title": "Statement of cash flows for interest, dividends and tax",
+              "summary": "利息、股利与税项的现金流分类由主体选择并一致应用，但税项通常单列为经营活动。",
+              "contentMd": "## 核心概念\n\nIAS 7 对 interest（利息）、dividends（股利）与 tax（税项）的现金流量分类采取弹性处理，主体应一致地适用：\n\n- 利息支付与收到可归为经营或筹资/投资；\n- 股利支付可归为筹资，收到的股利可归为投资；\n- 所得税（income tax）现金流量通常单独列示，多归入经营活动，除非能明确归属于投资或筹资活动。\n\n主体需披露所选政策，并保证分类一致。\n\n## 常见考法\n\n- 判断利息、股利、税项现金流的分类。\n- 说明披露与一致性要求。\n\n## 易错点\n\n- 认为所有主体对利息/股利的分类必须相同。\n- 忽略税项单独列示的规定。\n\n## 例子\n\n某公司将收到的股利归入投资活动、支付的股利归入筹资活动，并保持各期一致。\n\n## 考试提醒\n\n“一致性+披露”是考点核心，理解主体有选择权但需说明并稳定应用。",
+              "standardReference": "IAS 7",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Non-current Assets: PPE and Investment Property",
+      "description": "非流动资产：掌握 IAS 16 不动产厂场设备的确认计量与重估、IAS 40 投资性房地产、IAS 23 借款费用与 IAS 20 政府补助。",
+      "topics": [
+        {
+          "title": "IAS 16 property, plant and equipment",
+          "points": [
+            {
+              "code": "FR.05.1.1",
+              "title": "Initial recognition and measurement of PPE",
+              "summary": "PPE 初始按成本确认，成本含购买价款、可直接归属的使资产达到预定可使用状态的支出及拆除恢复成本。",
+              "contentMd": "## 核心概念\n\nProperty, plant and equipment (PPE，不动产、厂场与设备) 的确认需同时满足：与项目相关的未来经济利益很可能流入，且成本能够可靠计量。\n\n初始计量按 cost（成本），包括购买价格、可直接归属的使资产达到预定可使用状态（intended use）的支出，以及预计的拆除与场地恢复成本（dismantling and restoration）。\n\n## 常见考法\n\n- 判断哪些支出可资本化计入 PPE 成本。\n- 识别应予资本化或费用化的项目。\n\n## 易错点\n\n- 把日常维修直接资本化。\n- 忽略可直接归属的安装、运输、测试等成本。\n\n## 例子\n\n购买机器价款 100、运输费 5、安装费 3 均计入成本；日常保养费 2 则费用化。\n\n## 考试提醒\n\n资本化条件“使用该资产所需支出”是判断核心，注意区分资本化支出与费用化支出。",
+              "standardReference": "IAS 16",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.05.1.2",
+              "title": "Depreciation and the revaluation model",
+              "summary": "固定资产按成本减值或重估值后续计量；折旧系统分摊应计折旧额，重估增/减值分别计入 OCI 或损益。",
+              "contentMd": "## 核心概念\n\n后续计量可选择 cost model（成本模型，成本-累计折旧-减值）或 revaluation model（重估模型，公允价值-后续累计折旧与减值）。采用重估模型时，资产账面价值应为其重估日的公允价值，并需定期重估。\n\nDeamortisation（折旧）是系统地在资产使用寿命内分摊其应计折旧额（折旧成本=成本/重估值-残值），方法如 straight-line 与 reducing balance。\n\n重估增值计入 other comprehensive income（OCI），重估减值先冲减此前计入 OCI 的重估盈余，其余计入损益。\n\n## 常见考法\n\n- 计算折旧及重估后的账面价值。\n- 处理重估增值与减值的核算。\n\n## 易错点\n\n- 重估减值先冲减重估盈余还是直接计损益，处理顺序易错。\n- 忽略重估模型需定期评估公允价值。\n\n## 例子\n\n资产重估增值 50 计入 OCI；若此前已计入损益的减值恢复，则先转回损益。\n\n## 考试提醒\n\n重估盈余（revaluation surplus）与 OCI 的处理是重点，务必整握“先冲重估盈余、其余进损益”的顺序。",
+              "standardReference": "IAS 16",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.05.1.3",
+              "title": "Derecognition and disposal of PPE",
+              "summary": "处置或预期不再带来经济利益时终止确认 PPE，处置利得/损失计入损益，不收列为收入。",
+              "contentMd": "## 核心概念\n\nDerecognition（终止确认）发生在资产处置（disposal）或预期其使用/处置不再带来未来经济利益时。\n\n处置时，将资产的账面价值（carrying amount）与处置收入（net proceeds）差额确认为 gain or loss（利得或损失），计入损益。利得或损失不得计为 revenue（收入）。\n\n## 常见考法\n\n- 计算处置资产的利得或损失。\n- 判断终止确认的时点与核算。\n\n## 易错点\n\n- 把处置利得计作收入。\n- 未按“账面价值-处置净收入”计算差额。\n\n## 例子\n\n资产账面价值 70、处置收入 90，则确认利得 20 计入损益。\n\n## 考试提醒\n\n处置损益的计算与“不计为收入”的处理是考点，注意与重估盈余的结转结合。",
+              "standardReference": "IAS 16",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "IAS 40 investment property",
+          "points": [
+            {
+              "code": "FR.05.2.1",
+              "title": "Recognition and measurement of investment property",
+              "summary": "投资性房地产是为赚取租金或资本增值而持有的房地产，初始按成本计量，后续可选成本模型或公允价值模型。",
+              "contentMd": "## 核心概念\n\nInvestment property（投资性房地产）指为赚取租金（rental）或资本增值（capital appreciation）或两者而持有（由业主或承租人以使用权资产形式持有）的房地产，不同于自用房地产（owner-occupied property，按 IAS 16）与日常销售存货。\n\n初始按 cost 计量，包括交易的直接可归属成本。后续可选择 cost model 或 fair value model，并保持一致。\n\n## 常见考法\n\n- 区分投资性房地产与自用房地产、存货。\n- 判断确认条件与初始计量。\n\n## 易错点\n\n- 把自用厂房归为投资性房地产。\n- 忽略后续计量政策的一致性要求。\n\n## 例子\n\n企业持有用于出租收租金的写字楼属于投资性房地产；自用办公楼则按 IAS 16 处理。\n\n## 考试提醒\n\n判断标准是“持有目的（租金/资本增值）”，分类题是常考形式。",
+              "standardReference": "IAS 40",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.05.2.2",
+              "title": "Fair value model and cost model for investment property",
+              "summary": "公允价值模型下公允价值变动计入损益，不折旧；成本模型则按 IAS 16 折旧并计提减值。",
+              "contentMd": "## 核心概念\n\nFair value model（公允价值模型）：投资性房地产按公允价值计量，公允价值变动直接计入当期损益（profit or loss），且不计提折旧。\n\nCost model（成本模型）：按成本-累计折旧-减值计量，折旧与减值按 IAS 16/36 处理。两模型一经选定应一致应用。\n\n## 常见考法\n\n- 计算公允价值变动对损益的影响。\n- 区分两模型的折旧与减值处理差异。\n\n## 易错点\n\n- 误以为公允价值模型仍需计提折旧。\n- 混淆后续计量模型可随意切换。\n\n## 例子\n\n投资性房地产公允价值从 100 升至 130，计入损益 30；成本模型下则继续按折旧处理。\n\n## 考试提醒\n\n“公允价值变动进损益、不折旧”是公允价值模型的核心结论，常与 OCI 处理对比考查。",
+              "standardReference": "IAS 40",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "IAS 23 borrowing costs and IAS 20 government grants",
+          "points": [
+            {
+              "code": "FR.05.3.1",
+              "title": "Capitalisation of borrowing costs",
+              "summary": "符合条件的借款成本应资本化计入符合条件的资产的成本，其余借款成本于发生时费用化。",
+              "contentMd": "## 核心概念\n\nIAS 23 规定，直接归属于符合条件的资产（qualifying asset，需要较长准备时间才能达到预定可使用/可售状态的资产）的借款成本（borrowing costs）应资本化（capitalised）计入该资产成本。\n\n其他借款成本应在发生当期费用化。资本化期间的起止为：资产开始发生支出与借款成本、且相关活动进行时起，至资产基本达到预定可用状态时止。\n\n## 常见考法\n\n- 判断某项资产是否为符合条件的资产。\n- 计算应资本化的借款成本金额。\n\n## 易错点\n\n- 将一般性借款成本不加区分地资本化。\n- 忽略资本化期间的起止时点。\n\n## 例子\n\n建造厂房（需 18 个月）期间的专项借款利息应资本化；购买现成设备的短期借款利息则费用化。\n\n## 考试提醒\n\n记忆“符合条件资产+资本化期间”，计算题常要求按期间占比计算应资本化金额。",
+              "standardReference": "IAS 23",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.05.3.2",
+              "title": "Accounting for government grants",
+              "summary": "政府补助在与确保相关条件满足及补助可收到时确认，采用收益法在相关期间系统计入损益或抵扣资产成本。",
+              "contentMd": "## 核心概念\n\nGovernment grants（政府补助）是政府以转移资源形式提供的援助，用于换取主体过去或未来满足某些条件。\n\nIAS 20 采用 income approach（收益法）：当主体有合理保证符合补助所附条件、且补助能够收到时确认。若补助与资产相关（asset-related），可作递延收益在资产寿命内系统摊销，或直接冲减资产账面价值；若与收益相关（income-related），则在相关期间计入损益。\n\n## 常见考法\n\n- 判断补助的确认时点与金额。\n- 说明与资产相关/收益相关补助的处理。\n\n## 易错点\n\n- 在条件未满足时过早确认补助。\n- 混淆资产相关与收益相关补助的核算方式。\n\n## 例子\n\n政府为补贴某项符合条件研发项目拨付款项，在满足条件并确定能收到时确认并分期计入损益。\n\n## 考试提醒\n\n把握“确认条件+收益法分期”主线，资产相关补助的递延/冲减法也是考点。",
+              "standardReference": "IAS 20",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Intangible Assets and Impairment",
+      "description": "无形资产与减值：掌握 IAS 38 无形资产的确认计量与内部研发的处理，以及 IAS 36 减值迹象、可收回金额与现金产出单元减值。",
+      "topics": [
+        {
+          "title": "IAS 38 intangible assets",
+          "points": [
+            {
+              "code": "FR.06.1.1",
+              "title": "Recognition and measurement of intangible assets",
+              "summary": "无形资产为可辨认、非货币性且无实物形态的资产，满足可辨认性、控制与未来经济利益且成本可可靠计量时确认。",
+              "contentMd": "## 核心概念\n\nAn intangible asset（无形资产）是可辨认（identifiable）、非货币性（non-monetary）且无实物形态（without physical substance）的资产。可辨认性要求其可分出来源（如单独出售、转让或出租），或者源于合同或法定权利。\n\n确认需同时满足：未来经济利益很可能流入、成本能够可靠计量。初始按成本计量，后续可选成本模型或重估模型（仅当存在活跃市场）。\n\n## 常见考法\n\n- 判断某项目是否可确认为无形资产。\n- 说明可辨认性、控制与未来经济利益条件。\n\n## 易错点\n\n- 将内部品牌、客户名单等不可辨认资产确认。\n- 忽略控制（control）这一确认要件。\n\n## 例子\n\n被收购时单独确认的可辨认专利权确认为无形资产；内部培育的自创品牌因难以辨认与控制，通常不确认。\n\n## 考试提醒\n\n“可辨认性、控制、无实物形态”是核心三要件，分类判断题高频出现。",
+              "standardReference": "IAS 38",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.06.1.2",
+              "title": "Internally generated intangibles and research and development",
+              "summary": "内部研发分为研究阶段（费用化）与开发阶段（满足条件时资本化），自创商誉与品牌等不得确认。",
+              "contentMd": "## 核心概念\n\nIAS 38 要求将内部研发分为 research phase（研究阶段）与 development phase（开发阶段）。\n\nresearch 阶段的支出——寻求新知识或理解——应费用化（expensed）；development 阶段，当满足技术可行、意图完成使用或出售、有能力使用或出售、存在市场或用途、有足够资源及能可靠计量支出等条件时，应资本化（capitalised）为无形资产。\n\n自创商誉（internally generated goodwill）、品牌、报刊刊头等不得确认为无形资产。\n\n## 常见考法\n\n- 判断研发支出应资本化还是费用化。\n- 识别不可确认的内部无形资产。\n\n## 易错点\n\n- 将研究阶段支出资本化。\n- 忽略开发阶段资本化的严格条件。\n\n## 例子\n\n研发项目在研究阶段的支出 50 直接费用化；进入开发阶段并满足条件后支出 80 资本化为无形资产。\n\n## 考试提醒\n\n“研究费用化、开发符合条件才资本化”是经典考点，常结合场景判断费用化/资本化金额。",
+              "standardReference": "IAS 38",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "IAS 36 impairment of assets",
+          "points": [
+            {
+              "code": "FR.06.2.1",
+              "title": "Indicators of impairment and the recoverable amount",
+              "summary": "当存在减值迹象时，应以可收回金额（公允价值减处置费用与使用价值孰高）与账面价值比较并计提减值。",
+              "contentMd": "## 核心概念\n\nIAS 36 要求主体在每个报告日评估是否存在减值（impairment）迹象，如资产市值大幅下跌、市场或技术环境不利变化、资产闲置或受损、主体经营不利变化等。\n\n当存在迹象时，需测试 recoverable amount（可收回金额），其为 higher of（fair value less costs of disposal，公允价值减处置费用）和（value in use，使用价值）。若账面价值（carrying amount）高于可收回金额，则计提减值，差额计入损益（若重估模型则先冲减重估盈余）。\n\n## 常见考法\n\n- 识别减值迹象。\n- 计算可收回金额并确定减值损失。\n\n## 易错点\n\n- 混淆“公允价值减处置费用”与“使用价值”。\n- 忽略商誉与无确定寿命无形资产须每年强制测试。\n\n## 例子\n\n资产账面价值 200，公允价值减处置费用 170，使用价值 180，则可收回金额为 180，计提减值 20。\n\n## 考试提醒\n\n“取两者孰高”是可收回金额的关键，计算题应明确比较对象并确定减值。",
+              "standardReference": "IAS 36",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.06.2.2",
+              "title": "Impairment of a cash-generating unit",
+              "summary": "当单项资产难以单独估计可收回金额时，需对现金产出单元进行减值测试，减值按单元内资产账面价值比例分摊。",
+              "contentMd": "## 核心概念\n\nA cash-generating unit (CGU，现金产出单元) 是能够从持续使用中产生现金流入且基本独立于其他资产的最小可辨认资产组。\n\n当单项资产无法单独确定可收回金额（如商誉、总部资产）时，应测试其所属 CGU。若 CGU 的可收回金额低于其账面价值，则确认减值，并按各资产账面价值所占比例分摊减值（先冲减商誉，再按比例分摊至其他资产）。\n\n## 常见考法\n\n- 判断何时需按 CGU 进行减值测试。\n- 分摊 CGU 减值损失的计算。\n\n## 易错点\n\n- 未先将减值冲减商誉。\n- 分摊时忽略单项资产不得低于其可收回金额的原则。\n\n## 例子\n\n某 CGU 账面价值 500（含商誉 100），可收回金额 400，减值 100，先冲减商誉 100。\n\n## 考试提醒\n\nCGU 测试与“先商誉后按比例分摊”是重点，注意分摊后单项资产不低于其本身可收回金额。",
+              "standardReference": "IAS 36",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.06.2.3",
+              "title": "Reversal of an impairment loss",
+              "summary": "满足条件时减值损失可转回，但不得超过未计提减值时应有的账面价值，商誉减值损失不得转回。",
+              "contentMd": "## 核心概念\n\nIf 判断减值的条件不再存在，或可收回金额上升，可转回（reverse）此前确认的减值损失（但商誉减值不得转回）。\n\n转回后的账面价值不得超过资产在未计提减值时应有的金额（即按原折旧口径计算的账面价值）。若资产按重估模型计量，转回先计入损益，余额计入重估盈余（OCI）。\n\n## 常见考法\n\n- 判断减值是否可以转回及其上限。\n- 计算转回金额及分录影响。\n\n## 易错点\n\n- 对商誉减值予以转回。\n- 转回后账面价值超过未减值时应有的金额。\n\n## 例子\n\n某项设备原计提减值 30，现可收回金额回升，转回上限为“未计提减值时的账面价值”减去当前欠计提的折旧余额。\n\n## 考试提醒\n\n“商誉永不转回 + 转回上限”是两大关键，判断题与计算题均常见。",
+              "standardReference": "IAS 36",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Inventory, Receivables and Cash",
+      "description": "存货、应收款项与现金：掌握 IAS 2 存货成本与可变现净值计量及成本公式，以及 IFRS 9 应收款项预期信用损失。",
+      "topics": [
+        {
+          "title": "IAS 2 inventories",
+          "points": [
+            {
+              "code": "FR.07.1.1",
+              "title": "Measurement of inventories at the lower of cost and net realisable value",
+              "summary": "存货按成本与可变现净值孰低计量，当可变现净值低于成本时计提跌价准备。",
+              "contentMd": "## 核心概念\n\nIAS 2 要求存货（inventories）按 lower of cost and net realisable value (NRV)（成本与可变现净值孰低）计量。\n\ncost 包括购买成本、加工成本及其他使存货达到当前位置与状态所发生的支出。\n\nNRV（可变现净值）= 估计售价 - 预计完工成本 - 预计销售费用。当 NRV 低于成本时，应计提 inventory write-down（存货跌价准备），计入当期损益，后续若 NRV 回升可转回。\n\n## 常见考法\n\n- 计算存货应计量的金额并计提跌价。\n- 判断哪些支出计入存货成本。\n\n## 易错点\n\n- 将 NRV 与公允价值混为一谈。\n- 忽略异常损耗、销售费用等应从 NRV 中扣除。\n\n## 例子\n\n存货成本 120，估计售价 150，预计完工费用 15、销售费用 10，则 NRV=125，按 120 计量（无需跌价）。\n\n## 考试提醒\n\nNRV 的计算（售价-完工成本-销售费用）是高频计算点，务必整握公式。",
+              "standardReference": "IAS 2",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.07.1.2",
+              "title": "Cost formulas: FIFO and weighted average",
+              "summary": "存货成本可采用 FIFO 或加权平均法，同类存货应一致应用；FIFO 在价格上涨时使成本偏低、利润偏高。",
+              "contentMd": "## 核心概念\n\nIAS 2 允许采用 cost formula（成本公式）确定存货成本，常用 FIFO（先进先出法）与 weighted average cost（加权平均法）。\n\nFIFO 假定先购入的存货先被销售，期末存货按最近购入成本计价；weighted average 按期初加本期购买的平均成本计价。同类项目（similar nature and use）应使用相同的成本公式，并保持一致。\n\n## 常见考法\n\n- 用 FIFO 或加权平均计算销货成本与期末存货。\n- 比较两种方法在不同价格环境下的影响。\n\n## 易错点\n\n- 价格上涨时误判 FIFO 对利润的影响。\n- 对不同类存货强制使用同一种公式。\n\n## 例子\n\n价格上涨时，FIFO 下期末存货成本较高、销货成本较低，从而利润偏高；加权平均法结果介于其间。\n\n## 考试提醒\n\n理解两种方法对利润/存货的影响方向是考点，结合价格趋势判断报表效果。",
+              "standardReference": "IAS 2",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "IFRS 9 impairment of receivables",
+          "points": [
+            {
+              "code": "FR.07.2.1",
+              "title": "Expected credit losses and the simplified approach",
+              "summary": "IFRS 9 采用预期信用损失模型，应收款项通常按简化法按全部存续期预期信用损失计提坏账准备。",
+              "contentMd": "## 核心概念\n\nIFRS 9 以 expected credit losses (ECL，预期信用损失) 模型取代已发生损失模型，要求主体对金融资产确认预期信用损失准备。\n\n对于不含重大融资成分的应收账款（trade receivables），可采用 simplified approach（简化法），即按整个存续期的预期信用损失计提准备，通常基于账龄（ageing）与历史损失率计算。\n\n## 常见考法\n\n- 按账龄矩阵计算预期信用损失。\n- 说明 ECL 模型相对旧模型的改进。\n\n## 易错点\n\n- 仍用“已发生损失”思维而非“预期损失”。\n- 忽略历史损失率需结合前瞻性信息调整。\n\n## 例子\n\n某账龄 0-30 天应收 100、损失率 1%，31-90 天应收 50、损失率 5%，则合计预期信用损失 =1+2.5=3.5。\n\n## 考试提醒\n\n掌握账龄+损失率的计算，理解“预期/全寿命”视角与简化法的适用。",
+              "standardReference": "IFRS 9",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.07.2.2",
+              "title": "Bad and doubtful debts",
+              "summary": "坏账与呆账：直接核销坏账、计提呆账准备，坏账损失计入当期损益，各项准备按预期信用损失估算。",
+              "contentMd": "## 核心概念\n\nBad debts（坏账）指确定无法收回的应收款项，应直接核销（write off），冲出余额并计入当期损益。\n\nDoubtful debts（疑账/呆账）指可能无法收回的款项，通过 allowance（准备）计提，形成对采购或销售的冲减，并在资产负债表中作为应收款项的备抵。\n\n## 常见考法\n\n- 处理坏账核销与准备计提的记账。\n- 计算利润表影响与应收款项净额。\n\n## 易错点\n\n- 将坏账核销与准备计提混为一谈。\n- 忽略核销后、收回时点的处理。\n\n## 例子\n\n某应收账款无法收回 10，先冲减准备，差额计入当期坏账损失；若此前已计提准备则减少准备。\n\n## 考试提醒\n\n区分“核销（已确定收不回）”与“计提准备（可能收不回）”，注意核销与收回的分录方向。",
+              "standardReference": "IAS 1",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Revenue",
+      "description": "收入：掌握 IFRS 15 五步法模型，识别合同、履约义务、交易价格、分摊与确认收入。",
+      "topics": [
+        {
+          "title": "IFRS 15 five-step model",
+          "points": [
+            {
+              "code": "FR.08.1.1",
+              "title": "Identify the contract with a customer",
+              "summary": "IFRS 15 五步法第一步：识别与客户的合同，需满足合同成立条件，并经审批、明确权利与付款条款等。",
+              "contentMd": "## 核心概念\n\nIFRS 15 采用 five-step model（五步模型）确认收入。第一步是 identify the contract with a customer（识别与客户的合同）。\n\n合同需同时满足：各方已批准并有履约承诺、各方权利与付款条款可识别、合同具有商业实质、对价很可能收回。只有满足条件的合同才能适用本准则。\n\n## 常见考法\n\n- 判断某项安排是否构成合同。\n- 识别合同成立的条件。\n\n## 易错点\n\n- 将尚未经审批或不具有商业实质的安排视为合同。\n- 忽略对价很可能收回这一条件。\n\n## 例子\n\n与客户签署的书面销售协议，明确货物、价款、交付条款且客户信用良好，构成合同。\n\n## 考试提醒\n\n记住“合同四条件”（批准、权利义务、商业实质、对价可收回），选择题常据此判断。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.08.1.2",
+              "title": "Identify performance obligations",
+              "summary": "第二步是识别履约义务，即向客户转让可明确区分的商品或服务的承诺，不满足可区分标准的应合并。",
+              "contentMd": "## 核心概念\n\nA performance obligation（履约义务）是向客户转让一项可明确区分的商品或服务（distinct good or service）的承诺。\n\n一项商品/服务是 distinct（可区分）的，需同时满足：客户能够从该商品自身或与其他易得资源一并获益（capable of being distinct），且主体在合同内将转让该商品的承诺与其它承诺可单独识别（distinct within the context of the contract）。\n\n同一时点转移的系列商品若具有基本相同模式，可合并为一个履约义务。\n\n## 常见考法\n\n- 判断合同中包含几项履约义务。\n- 区分“可区分”与“不可区分”的商品。\n\n## 易错点\n\n- 将捆绑销售错误拆分为多项义务。\n- 忽略“在合同背景中可识别”这一判断。\n\n## 例子\n\n销售软件并提供一年安装服务，若安装独立可区分，则为两项履约义务；若安装软件必须依赖服务才有价值，则合并。\n\n## 考试提醒\n\n记忆“可区分（获益+合同内可单独识别）”双重标准，是五步法的重要判定点。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.08.1.3",
+              "title": "Determine the transaction price",
+              "summary": "第三步是确定交易价格，考虑可变对价、重大融资成分、非现金对价与应付客户对价等因素。",
+              "contentMd": "## 核心概念\n\nThe transaction price（交易价格）是主体预期因转让商品或服务而有权收取的对价金额，需考虑：\n\nvariable consideration（可变对价，如折扣、返利、退款）——按预期价值或最可能金额估计，并受“很可能不发生大额转回”限制；significant financing component（重大融资成分）；non-cash consideration（非现金对价）；consideration payable to a customer（应付给客户的对价，如优惠券）。\n\n## 常见考法\n\n- 计算含可变对价或融资成分的交易价格。\n- 判断对价估计方法与限制。\n\n## 易错点\n\n- 未扣除可变对价或应付客户对价。\n- 忽略重大融资成分的折算。\n\n## 例子\n\n合同含销售返利 5%，交易价格应按扣除返利后的金额估计，并评估转回风险。\n\n## 考试提醒\n\n掌握“可变对价估计+转回限制+融资成分”几个要点，计算题常考对价金额。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.08.1.4",
+              "title": "Allocate the transaction price and recognise revenue",
+              "summary": "第四步按各履约义务的相对独立售价分摊交易价格，第五步在履行履约义务（控制权转移）时确认收入。",
+              "contentMd": "## 核心概念\n\n第四步 allocate the transaction price（分摊交易价格）：将交易价格按各履约义务的相对独立售价（standalone selling price）比例分摊。\n\n第五步 recognise revenue（确认收入）：当主体履行履约义务（when or as control of the goods or services transfers，控制权转移）时确认收入。控制权转移可在一时点（point in time，如交付商品）或一段时间内（over time，如提供长期服务）发生。\n\n## 常见考法\n\n- 按相对售价分摊合同总价。\n- 判断收入确认时点及计量。\n\n## 易错点\n\n- 未按相对独立售价比例分摊。\n- 混淆一段时间内与一时点确认收入的条件。\n\n## 例子\n\n合同总价 150，商品与服务的独立售价分别为 60、90，则分别确认 60 与 90 按比例分摊。\n\n## 考试提醒\n\n“相对售价分摊+控制权转移确认”是最后两步的核心，大题常要求计算分摊金额与确认时点。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Leases",
+      "description": "租赁：掌握 IFRS 16 承租人对使用权资产与租赁负债的确认与后续计量，以及出租人会计与例外情形。",
+      "topics": [
+        {
+          "title": "IFRS 16 leases - the lessee",
+          "points": [
+            {
+              "code": "FR.09.1.1",
+              "title": "Identifying a lease and the right-of-use asset",
+              "summary": "租赁是让渡一段时间内使用某项资产（已识别资产）权利以换取对价的合同，承租人确认使用权资产与租赁负债。",
+              "contentMd": "## 核心概念\n\nA lease（租赁）是让渡对 identified asset（已识别资产）在约定期间内使用之控制权以换取对价的合同。需判断：是否存在已识别资产、承租人是否控制该资产的使用（即有权主导其使用并获得几乎全部经济利益）。\n\n承租人（lessee）对多数租赁在租赁期开始日确认 right-of-use asset（使用权资产）与 lease liability（租赁负债），只有短期租赁和低价值租赁可豁免。\n\n## 常见考法\n\n- 判断一项安排是否构成租赁。\n- 识别已识别资产与控制权。\n\n## 易错点\n\n- 把服务合同（无已识别资产）误判为租赁。\n- 忽略出租人是否具有实质性替换权。\n\n## 例子\n\n租赁一台指定编号的起重机，出租人无实质性替换权，则构成租赁；外包 IT 服务通常不构成租赁。\n\n## 考试提醒\n\n“已识别资产+控制使用+获得几乎全部经济利益”是判断核心，选择题常考。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.09.1.2",
+              "title": "Initial measurement of the right-of-use asset and lease liability",
+              "summary": "租赁负债按未支付租赁付款额的现值计量，使用权资产按租赁负债加上初始直接成本等计量。",
+              "contentMd": "## 核心概念\n\nLease liability（租赁负债）按 lease payments（租赁付款额，含固定付款、预计残值担保等）的现值计量，折现率采用租赁内含利率（interest rate implicit in the lease），若无法确定则用增量借款利率（incremental borrowing rate）。\n\nRight-of-use asset（使用权资产）初始按成本计量，包括租赁负债的初始金额、租赁开始日或之前支付的租赁付款、初始直接成本（initial direct costs）及拆卸恢复成本的估计。\n\n## 常见考法\n\n- 计算租赁负债现值与使用权资产初始金额。\n- 判断应计入租赁付款额的项目。\n\n## 易错点\n\n- 忽略初始直接成本计入使用权资产。\n- 未区分可变租赁付款与固定租赁付款。\n\n## 例子\n\n年租金 100、3 年、折现率 5%，租赁负债现值约 272.3，加上初始直接成本 10，使用权资产约 282.3。\n\n## 考试提醒\n\n“付款额现值+内含/增量借款利率，使用权资产含直接成本”是计算核心，务必整握现值公式。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.09.1.3",
+              "title": "Subsequent measurement of the right-of-use asset and lease liability",
+              "summary": "使用权资产按成本或重估模型计量并计提折旧，租赁负债按摊余成本计量并以实际利率法确认利息费用。",
+              "contentMd": "## 核心概念\n\nSubsequent measurement（后续计量）：\n\n- Right-of-use asset 按 cost model（成本-累计折旧-减值）计量，并按租赁期或资产使用寿命孰短计提折旧（depreciation），若租赁期结束时所有权转移则按使用寿命。\n\n- Lease liability 按 amortised cost（摊余成本）计量，使用 effective interest method（实际利率法）确认 interest expense（利息费用），同时针对租赁付款减少负债。\n\n## 常见考法\n\n- 计算每年利息费用与租赁负债余额。\n- 编制使用权资产折旧与还款分录。\n\n## 易错点\n\n- 折旧年限选择（租赁期 vs 使用寿命）错误。\n- 利息与本金的分摊方向弄反。\n\n## 例子\n\n租赁负债 272.3、利率 5%，第一年确认利息 13.6，支付 100 后负债余额 185.9；使用权资产按 3 年计提折旧。\n\n## 考试提醒\n\n实际利率法的利息与本金分摊是重点计算，注意初始确认与后续摊余的联动。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "IFRS 16 leases - lessor and exemptions",
+          "points": [
+            {
+              "code": "FR.09.2.1",
+              "title": "Lessor accounting: operating and finance leases",
+              "summary": "出租人将租赁分为融资租赁（转移几乎全部风险与报酬）与经营租赁，分类不同则确认与计量不同。",
+              "contentMd": "## 核心概念\n\nLESSORS（出租人）需将租赁分为 finance lease（融资租赁，实质上转移了所有权相关的几乎全部风险与报酬）与 operating lease（经营租赁，未转移几乎全部风险与报酬）。\n\nFinance lease：出租人确认净投资（net investment in the lease），即租赁应收款，并在租赁期内按实际利率法确认利息收入；同时终止确认标的资产。\n\nOperating lease：出租人保留标的资产在其资产负债表中，按直线法（或其它系统基础）确认租金收入。\n\n## 常见考法\n\n- 判断出租人应将其归为融资租赁还是经营租赁。\n- 说明两类租赁的收入确认差异。\n\n## 易错点\n\n- 按承租人角度混淆出租人分类标准。\n- 忽略融资租赁需终止确认标的资产。\n\n## 例子\n\n若租赁期占资产大部分使用寿命、且几乎转移全部风险报酬，出租人将其归为融资租赁。\n\n## 考试提醒\n\n记忆“风险报酬是否几乎全部转移”这一分类标准，以及两类租赁的核算差异。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.09.2.2",
+              "title": "Exception for short-term and low-value leases",
+              "summary": "承租人对短期租赁与低价值租赁可选择豁免，不确认使用权资产与租赁负债，而按直线法计入费用。",
+              "contentMd": "## 核心概念\n\n承租人可选择对以下两类租赁豁免（exemption）：\n\n- short-term leases（短期租赁）：租赁期不超过 12 个月且不含购买选择权的租赁。\n\n- low-value leases（低价值租赁）：标的资产在全新状态时价值较低，如个人电脑、小型办公设备等。\n\n采用豁免时，承租人负 lease payments 按 straight-line basis（直线法）或其它系统基础计入费用（profit or loss），不确认权利使用资产与租赁负债。该选择应一致应用于性质相似的租赁。\n\n## 常见考法\n\n- 判断某租赁是否适用短期/低价值豁免。\n- 说明豁免下的费用确认方式。\n\n## 易错点\n\n- 将含购买选择权的短期租赁误判为可豁免。\n- 忽略豁免应一致适用。\n\n## 例子\n\n租用 6 个月、价值较低的一批办公设备，可选择豁免并按直线法按月计入租金费用。\n\n## 考试提醒\n\n记忆“≤12 个月且无购买权（短期）”与“全新价值较低（低价值）”两个条件，判断型题常见。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Provisions, Contingencies and Events after the Reporting Period",
+      "description": "准备、或有事项与期后事项：掌握 IAS 37 准备的确认计量与或有负债/资产，以及 IAS 10 调整与非调整事项。",
+      "topics": [
+        {
+          "title": "IAS 37 provisions and contingencies",
+          "points": [
+            {
+              "code": "FR.10.1.1",
+              "title": "Recognition criteria for a provision",
+              "summary": "准备是金额或时点不确定的负债，确认需同时满足现时义务、很可能导致资源流出且金额能可靠估计。",
+              "contentMd": "## 核心概念\n\nA provision（准备）是金额或时点具不确定性的 liabilities（负债）。确认需同时满足：\n\n1. an present obligation（现时义务）源于过去事项（past event）；\n2. 清偿该义务很可能（probable，即更可能发生）导致经济资源流出；\n3. 金额能够可靠估计（reliably estimated）。\n\n准备与应付账款（trade payables）不同，后者金额与时点通常确定。\n\n## 常见考法\n\n- 判断某项义务是否应确认准备。\n- 分析三个确认条件是否满足。\n\n## 易错点\n\n- 将“很可能”与“可能”混淆。\n- 忽略准备需以现时义务为起点。\n\n## 例子\n\n因产品质量保证而预计未来维修支出 20，满足现时义务、很可能流出、可估计，应确认准备。\n\n## 考试提醒\n\n“现时义务+很可能流出+可靠估计”三条件是确认核心，选择题与论述题均高频。",
+              "standardReference": "IAS 37",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.10.1.2",
+              "title": "Measurement of a provision",
+              "summary": "准备按履行现时义务所需支出的最佳估计现值计量，并考虑折现与风险调整。",
+              "contentMd": "## 核心概念\n\nA provision 应按履行现时义务所需支出的 best estimate（最佳估计）计量，即在报告日清偿义务所需的、经风险调整的金额。\n\n若货币时间价值影响重大，应使用税前折现率对预计支出进行 discounting（折现），并以 present value（现值）计量。准备应在每个报告日复核并调整，反映当前最佳估计。\n\n## 常见考法\n\n- 计算准备的最佳估计金额或现值。\n- 说明折现与风险调整的处理。\n\n## 易错点\n\n- 将毛额与税后折现混淆。\n- 忽略后续复核与调整。\n\n## 例子\n\n预计两年后需支付 100，折现率 6%，则准备现值约 89.0。\n\n## 考试提醒\n\n掌握“最佳估计+重大时折现（税前折现率）”，并注意准备在后续期间的复核调整。",
+              "standardReference": "IAS 37",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.10.1.3",
+              "title": "Contingent liabilities and contingent assets",
+              "summary": "或有负债是因未确认或可能性较低而不确认的潜在义务，或有资产为可能的利益流入，均不确认但需披露。",
+              "contentMd": "## 核心概念\n\nA contingent liability（或有负债）是：\n\n1. 由过去事项产生的潜在义务（possible obligation），其存在与否需由未来事件确认；或\n2. 现时义务但经济资源流出的可能性不是很可能，或金额无法可靠估计，因而未确认。\n\nA contingent asset（或有资产）是由过去事项产生的可能利益流入，因其并非很可能确认而不予确认，通常作 disclosure（披露）。\n\n## 常见考法\n\n- 区分准备、或有负债与或有资产。\n- 说明披露与确认的处理差异。\n\n## 易错点\n\n- 将或有负债当作需确认的准备。\n- 在或有资产很可能实现时仍不确认。\n\n## 例子\n\n未决诉讼可能败诉但可能性不高，则作为或有负债披露而非确认；若胜诉收益很可能实现，则确认。\n\n## 考试提醒\n\n“确认 vs 披露，很可能 vs 可能”是判别核心，注意或有资产实现几乎确定时才确认。",
+              "standardReference": "IAS 37",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "IAS 10 events after the reporting period",
+          "points": [
+            {
+              "code": "FR.10.2.1",
+              "title": "Adjusting and non-adjusting events",
+              "summary": "期后事项分调整事项（反映期末已存在情况，调整报表金额）与非调整事项（反映期末后新情况，通常披露）。",
+              "contentMd": "## 核心概念\n\nEvents after the reporting period 是报告期末至报表批准日之间发生的事项，分为：\n\nadjusting events（调整事项）：提供报告期末已存在情况的证据，应调整报表中确认的金额。例如期末后客户破产、存货售价低于成本。\n\nnon-adjusting events（非调整事项）：反映报告期后新出现的情况，一般不调整确认金额，但若重大则需披露其性质与影响的估计。\n\n## 常见考法\n\n- 分类并说明各期后事项的处理。\n- 说明对报表金额或披露的影响。\n\n## 易错点\n\n- 按“是否重要”而非“是否反映期末情况”来分类。\n- 忽略重大非调整事项的披露义务。\n\n## 例子\n\n报告期后一栋厂房被烧毁，属于非调整事项，应披露；期末存货销售价格下跌至成本以下，属调整事项，应计提跌价。\n\n## 考试提醒\n\n分类标准“期末前是否已存在该情况”是核心，常给具体事项要求判断与处理。",
+              "standardReference": "IAS 10",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "title": "Taxation",
+      "description": "税务会计：掌握 IAS 12 当期所得税与递延所得税负债/资产的确认计量、暂时性差异及重估递延税处理。",
+      "topics": [
+        {
+          "title": "IAS 12 current tax",
+          "points": [
+            {
+              "code": "FR.11.1.1",
+              "title": "Recognition and measurement of current tax",
+              "summary": "当期所得税按本期应纳税所得适用税率计量，已缴税款与欠缴税款的差额确认为当期税收资产或负债。",
+              "contentMd": "## 核心概念\n\nCurrent tax（当期所得税）按报告日预期支付的、基于 taxable profit（应纳税所得额）计算的金额计量，采用已颁布或实质已颁布的税率（enacted or substantively enacted tax rates）。\n\n当已缴税费超过应缴税额时，确认 a tax asset（税收资产）；当应缴税额超过已缴部分时，确认 a tax liability（税收负债）。未确认的亏损、税款抵减可形成递延税资产。\n\n## 常见考法\n\n- 计算当期应缴所得税。\n- 判断税收资产或负债的确认。\n\n## 易错点\n\n- 忽略使用“已颁布或实质已颁布”税率。\n- 混淆税收资产与应付税款。\n\n## 例子\n\n会计利润调整纳税差异后为应纳税所得 300，税率 25%，则当期应缴税款 75。\n\n## 考试提醒\n\n计算当期税时注意“会计利润→应纳税所得”的差异调整，以及税率的选择。",
+              "standardReference": "IAS 12",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "IAS 12 deferred tax",
+          "points": [
+            {
+              "code": "FR.11.2.1",
+              "title": "Deferred tax liabilities and deferred tax assets",
+              "summary": "递延税源于资产/负债账面价值与计税基础之间的暂时性差异，确认递延税负债/资产并在预期转回时清偿。",
+              "contentMd": "## 核心概念\n\nDeferred tax（递延所得税）核算因资产/负债的 carrying amount（账面价值）与 tax base（计税基础）之间的 temporary differences（暂时性差异）而产生的未来所得税影响。\n\nDeferred tax liability（递延税负债）因 taxable temporary differences（应纳税暂时性差异）而确认，将在未来期间增加应缴税额；Deferred tax asset（递延税资产）因 deductible temporary differences（可抵扣暂时性差异）及未利用亏损/税收抵减而确认，但需以很可能获得未来应税利润为前提。\n\n## 常见考法\n\n- 判断某差异是否产生递延税负债或资产。\n- 说明确认条件及金额确定。\n\n## 易错点\n\n- 忽略递延税资产需以未来应税利润为限。\n- 将永久性差异误当作暂时性差异。\n\n## 例子\n\n资产账面价值 200、计税基础 140，产生应纳税暂时性差异 60，确认递延税负债 15（×25%）。\n\n## 考试提醒\n\n“账面价值-计税基础=暂时性差异”是基础，区分应纳税与可抵扣差异决定负债或资产。",
+              "standardReference": "IAS 12",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.11.2.2",
+              "title": "Calculation of deferred tax and temporary differences",
+              "summary": "递延税按预期转回期间适用税率计算，暂时性差异分为应纳税与可抵扣两类，并考虑未来转回方式。",
+              "contentMd": "## 核心概念\n\nTemporary differences（暂时性差异）为资产/负债的账面价值与其计税基础之间的差额，分两类：\n\ntaxable temporary differences（应纳税暂时性差异）——在资产或负债清偿/收回时会产生未来应税金额，确认递延税负债；deductible temporary differences（可抵扣暂时性差异）——会产生未来可抵扣金额，确认递延税资产。\n\n递延税按预期差异转回期间适用（enacted/substantively enacted）的税率计量，并反映主体预期收回资产的方式（使用 vs 出售）。\n\n## 常见考法\n\n- 计算暂时性差异与递延税余额。\n- 说明差异转回方式对递延税计量的影响。\n\n## 易错点\n\n- 用现行税率而非预期转回税率。\n- 忽略可抵扣差异确认资产的可实现性限制。\n\n## 例子\n\n资产账面价值 300、计税基础 200，应纳税暂时性差异 100，预期转回税率 25%，递延税负债 25。\n\n## 考试提醒\n\n掌握“账面价值-计税基础”及“预期转回税率”的计算逻辑，注意重估与折旧方式的影响。",
+              "standardReference": "IAS 12",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.11.2.3",
+              "title": "Deferred tax on revaluation",
+              "summary": "资产重估产生的递延税计入其他综合收益或重估盈余，而非损益，反映重估增值带来的未来纳税义务。",
+              "contentMd": "## 核心概念\n\nWhen 资产按重估价值计量（如 IAS 16 重估模型），重估增值会产生应纳税暂时性差异，因为计税基础不变而账面价值上升，未来出售/回收将产生应税金额。\n\n与其相关 deferred tax（递延税）应计入其他综合收益（other comprehensive income）或直接计入重估盈余（revaluation surplus），与产生该差异的项目处理一致，而非计入当期损益。\n\n## 常见考法\n\n- 计算重估产生的递延税并确定计入科目。\n- 说明递延税与重估盈余的联动。\n\n## 易错点\n\n- 将重估递延税计入损益。\n- 忽略递延税计入重估盈余（OCI）。\n\n## 例子\n\n资产重估增值 100，税率 25%，产生递延税负债 25，计入重估盈余（OCI），净增值 75。\n\n## 考试提醒\n\n“重估递延税计入 OCI/重估盈余”是关键结论，计算时注意区分计入损益与计入重估盈余的部分。",
+              "standardReference": "IAS 12",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "title": "Equity, Finance Costs and Earnings per Share",
+      "description": "权益、融资成本与每股收益：掌握 IAS 32 权益与负债的区分、IAS 1 融资成本，以及 IAS 33 基本与稀释每股收益。",
+      "topics": [
+        {
+          "title": "Equity and financial instruments",
+          "points": [
+            {
+              "code": "FR.12.1.1",
+              "title": "Presentation of equity and liabilities",
+              "summary": "金融工具按合同实质区分负债或权益，负债为未来交付现金或资产的现时义务，权益为扣除负债后的剩余权益。",
+              "contentMd": "## 核心概念\n\nIAS 32 依据合同实质（substance）将金融工具区分为 financial liability（金融负债）或 equity instrument（权益工具）。\n\nA financial liability 是交付现金或另一金融资产、或在不利条件下交换金融资产的现时义务；A equity instrument 是证明在扣除所有负债后对主体资产享有剩余权益的合同。\n\n关键判断：主体是否具有无条件避免交付现金（或其它金融资产）的能力——若须交付则为负债，否则为权益。\n\n## 常见考法\n\n- 判断某项金融工具是负债还是权益。\n- 说明混合工具（如可转换债券）的拆分。\n\n## 易错点\n\n- 按法律形式而非合同实质分类。\n- 忽略“无条件避免交付现金”的判断。\n\n## 例子\n\n普通股通常为权益；若发行约定到期必须回购并付现金的优先股，则为负债。\n\n## 考试提醒\n\n“是否含无条件交付现金义务”是分类核心，注意优先股按实质分为负债或权益。",
+              "standardReference": "IAS 32",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.12.1.2",
+              "title": "Finance costs and the cost of debt",
+              "summary": "融资成本包括利息及与借款相关的费用，按摊余成本和实际利率法计量；权益股息不构成融资成本。",
+              "contentMd": "## 核心概念\n\nFinance costs（融资成本）包括借款利息、与借款有关的费用（如发行费用）、以及租金/租赁利息等，通常采用 effective interest method（实际利率法）按 amortised cost（摊余成本）计量。\n\nThe cost of debt（债务成本）是主体为维持或增加债务融资所付出的成本（利率、费用、税后）。权益融资的股息分配（dividends）不属于融资成本，作为利润分配处理。\n\n## 常见考法\n\n- 计算按实际利率法确认的融资成本。\n- 区分融资成本与利润分配（股息）。\n\n## 易错点\n\n- 把支付的股息计为融资成本。\n- 忽略借款相关费用的摊销。\n\n## 例子\n\n面值 100、利率 8%、按 95 折价发行的债券，实际利率高于票面，按实际利率法确认利息费用并摊销折价。\n\n## 考试提醒\n\n“实际利率法+摊余成本”是计算核心，注意股息属利润分配而非费用。",
+              "standardReference": "IAS 1",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "IAS 33 earnings per share",
+          "points": [
+            {
+              "code": "FR.12.2.1",
+              "title": "Basic earnings per share",
+              "summary": "基本每股收益=归属于普通股股东的当期净利润÷加权平均发行在外的普通股股数。",
+              "contentMd": "## 核心概念\n\nBasic EPS（基本每股收益）= (profit or loss attributable to ordinary shareholders 归属于普通股股东的利润) ÷ (weighted average number of ordinary shares outstanding 加权平均发行在外普通股股数)。\n\n计算时需考虑年内发行、回购股票的时间加权，以及资本公积转增（bonus issue）和股票分割等因素对流通股数量的调整。\n\n## 常见考法\n\n- 计算加权平均股数与基本每股收益。\n- 处理年内发行、回购与转增的影响。\n\n## 易错点\n\n- 忽略按时间加权计算股数。\n- 未考虑资本公积转增对股数的调整。\n\n## 例子\n\n年初普通股 100 万股，7 月 1 日增发 20 万股，则加权平均股数=100+20×6/12=110 万股。\n\n## 考试提醒\n\n“净利润÷加权平均股数”是基本公式，时间加权与转增调整是错误高发点。",
+              "standardReference": "IAS 33",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.12.2.2",
+              "title": "Diluted earnings per share",
+              "summary": "稀释每股收益考虑可转换债券、认股权证等潜在普通股的影响，按调整后净利润与股数计算。",
+              "contentMd": "## 核心概念\n\nDiluted EPS（稀释每股收益）反映潜在普通股（potentially dilutive instruments，如可转换债券、认股权证、期权）转换后对每股收益的最大稀释影响。\n\n计算时，将净利润调整为考虑潜在普通股转换可能减少的利息（税后），并将加权平均股数调整为包含新增流通的潜在普通股股数。\n\nOnly 具有稀释性（dilutive）的潜在普通股应计入，否则会虚增每股收益。\n\n## 常见考法\n\n- 计算可转换债等工具的稀释每股收益。\n- 判断哪些工具具有稀释作用。\n\n## 易错点\n\n- 将不具稀释性的工具计入。\n- 忽略新增股数与净利润调整的对应关系。\n\n## 例子\n\n可转换债券面值 100、利率 8%、税率 25%、可转换 20 股，则分子加回 6（8×(1-25%)），分母增加 20 股。\n\n## 考试提醒\n\n“税后利息加回+股数增加”是稀释 EPS 的两大调整，注意判断稀释性。",
+              "standardReference": "IAS 33",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "title": "Consolidated Financial Statements",
+      "description": "合并报表：掌握 IFRS 10 控制与合并范围、IFRS 3 商誉与非控制权益计量，以及合并工作底稿与内部交易抵销。",
+      "topics": [
+        {
+          "title": "IFRS 10 control and IFRS 3 business combinations",
+          "points": [
+            {
+              "code": "FR.13.1.1",
+              "title": "Scope of consolidation and control",
+              "summary": "合并范围由控制决定，控制需同时具备对被投资者的权力、来自可变动回报的敞口或权利，以及运用权力影响回报的能力。",
+              "contentMd": "## 核心概念\n\nUnder IFRS 10，consolidation（合并）范围由 control（控制）决定。投资者控制被投资者需同时满足：\n\n1. 对被投资者拥有权力（power），即能主导其相关活动；\n2. 因参与被投资者业务而享有可变回报（variable returns）的敞口或权利；\n3. 能够运用其权力影响该等回报的金额。\n\nControl 通常以表决权比例为主要证据，但还需考虑潜在表决权、协议安排等实质。全资/控股子公司均应纳入合并。\n\n## 常见考法\n\n- 判断某主体是否被控制而需纳入合并。\n- 分析控制的三要素。\n\n## 易错点\n\n- 仅按持股比例判断控制，忽略权力与回报的实质。\n- 忽略特殊目的实体或被投资方虽持股不足仍被控制的情形。\n\n## 例子\n\n母公司持有子公司 80% 表决权并能主导其经营决策，即使其余 20% 为少数股东，仍构成控制并纳入合并。\n\n## 考试提醒\n\n“三要素（权力+可变回报+影响回报能力）”是控制判断核心，论述题常考合并范围。",
+              "standardReference": "IFRS 10",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.13.1.2",
+              "title": "Goodwill on acquisition and measurement of NCI",
+              "summary": "商誉按合并对价与非控制权益公允价值之和减去可辨认净资产公允价值的差额计量，NCI 可按公允价值或比例计量。",
+              "contentMd": "## 核心概念\n\nIn a business combination（企业合并），购买方按 IFRS 3 确认商誉（goodwill）：\n\nGoodwill = (考虑 transferred consideration 转让对价 + 非控制权益（NCI）的公允价值) - (可辨认净资产（identifiable net assets）的公允价值)。\n\nNCI（非控制权益）计量有两种选择：按公允价值（full goodwill method）或按可辨认净资产中 NCI 的持股比例份额（proportionate method）计量。商誉不与资产分别摊销，而于每年进行减值测试。\n\n## 常见考法\n\n- 计算商誉（区分全额商誉与比例商誉法）。\n- 计量非控制权益。\n\n## 易错点\n\n- 忽略 NCI 两种计量方法的差异。\n- 商誉错误地按年摊销。\n\n## 例子\n\n付出对价 800、NCI 公允价值 200、可辨认净资产公允价值 900，则全额商誉 =800+200-900=100。\n\n## 考试提醒\n\n熟记商誉公式，并注意 NCI 计量方法在计算商誉与合并权益时的处理差异。",
+              "standardReference": "IFRS 3",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Consolidation adjustments",
+          "points": [
+            {
+              "code": "FR.13.2.1",
+              "title": "Consolidated statement of financial position: working papers",
+              "summary": "合并财务状况表通过工作底稿逐项抵销投资与权益、确认商誉与 NCI、调整公允价值和内部交易后汇总编制。",
+              "contentMd": "## 核心概念\n\n编制 consolidated statement of financial position（合并财务状况表）常用 working papers（工作底稿）系统：\n\n1. 逐行合并母子公司资产、负债、权益；\n2. 抵销母公司对子公司的投资与被投资方的权益（investment in subsidiary）；\n3. 确认 goodwill（商誉）与 NCI；\n4. 将子公司净资产按公允价值（fair value）调整；\n5. 抵销集团内部交易与内部未实现利润。\n\n## 常见考法\n\n- 编制合并财务状况表并计算合并权益。\n- 处理抵销分录与公允价值调整。\n\n## 易错点\n\n- 未抵销投资与权益导致虚增。\n- 遗漏内部交易或公允价值调整。\n\n## 例子\n\n合并时抵销母公司长期股权投资与子公司所有者权益，差额确认为商誉，归属于少数股东的权益计为 NCI。\n\n## 考试提醒\n\n掌握“抵销投资+确认商誉/NCI+公允价值调整+内部抵销”的工作底稿流程。",
+              "standardReference": "IFRS 10",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.13.2.2",
+              "title": "Post-acquisition retained earnings and intra-group balances",
+              "summary": "合并留存收益含母公司自身留存收益加收购后享有的子公司留存收益份额，并抵销集团内部往来余额与未实现利润。",
+              "contentMd": "## 核心概念\n\nGroup retained earnings（合并留存收益）= 母公司自身留存收益 + 收购日后（post-acquisition）按持股比例享有的子公司留存收益份额。收购日前（pre-acquisition）的被收购方留存收益作为合并时抵销的部分，不计入合并留存收益。\n\nIntra-group balances（集团内部往来）如内部销售、内部应收应付、内部未实现利润等项目应在合并时抵销（elimination），避免重复确认与虚增利润。\n\n## 常见考法\n\n- 计算合并留存收益与合并权益。\n- 处理内部往来余额与未实现利润的抵销。\n\n## 易错点\n\n- 将收购前子公司留存收益纳入合并留存收益。\n- 遗漏内部未实现利润的抵销。\n\n## 例子\n\n子公司自收购后实现利润 100，母公司持股 80%，则并入合并留存收益 80，其余 20 归 NCI。\n\n## 考试提醒\n\n“收购前 vs 收购后利润、内部抵销”是合并计算的核心，注意 NCI 对利润的归属。",
+              "standardReference": "IFRS 10",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "title": "Analysing and Interpreting Financial Statements",
+      "description": "财务分析：掌握盈利能力、流动性、负债与投资相关财务比率，并能解释比率及其局限性。",
+      "topics": [
+        {
+          "title": "Ratio analysis - profitability",
+          "points": [
+            {
+              "code": "FR.14.1.1",
+              "title": "Return on capital employed and return ratios",
+              "summary": "ROCE 衡量资本投入产生经营利润的效率，是核心盈利能力指标，与资产回报率、权益回报率等相关比率结合分析。",
+              "contentMd": "## 核心概念\n\nReturn on capital employed (ROCE，已动用资本回报率) = PBIT（息税前利润，或经营利润）÷ (Equity + Non-current liabilities 或 capital employed) × 100%。它反映主体运用全部长期资本创造经营回报的效率。\n\n相关回报类比率还有 Return on assets (ROA，资产回报率) = 经营利润 ÷ 总资产；Return on equity (ROE，净资产回报率) = 净利润 ÷ 权益。\n\n## 常见考法\n\n- 计算 ROCE、ROA、ROE 等指标。\n- 解释回报比率的含义与改进方向。\n\n## 易错点\n\n- 分母口径（权益+长期负债 vs 总资产）不一致。\n- 分子使用净利润而非经营利润计算 ROCE。\n\n## 例子\n\n经营利润 100、权益 300、长期负债 200，则 ROCE = 100 ÷ 500 ×100% = 20%。\n\n## 考试提醒\n\n“ROCE=EBIT÷资本占用”是核心，注意分子分母口径匹配与指标间的分解分析。",
+              "standardReference": "IAS 1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.14.1.2",
+              "title": "Profit margins and asset turnover",
+              "summary": "利润率衡量销售的盈利效率，资产周转率衡量资产运用效率，二者与 ROCE 通过杜邦分解相联系。",
+              "contentMd": "## 核心概念\n\nProfit margins（利润率）包括：Gross profit margin（毛利率）=毛利 ÷ 销售收入 ×100%；Operating profit margin（营业利润率）=经营利润 ÷ 销售收入 ×100%；Net profit margin（净利率）=净利润 ÷ 销售收入 ×100%。\n\nAsset turnover（资产周转率）=销售收入 ÷ 总资产，反映每单位资产产生销售的能力。ROCE 可通过“利润率×资产周转率”进行分解分析（如杜邦分析）。\n\n## 常见考法\n\n- 计算各项利润率与资产周转率。\n- 用杜邦分解分析盈利能力变动的驱动因素。\n\n## 易错点\n\n- 分子口径（毛利/营业/净利）混淆。\n- 忽略周转率与利润率的联动关系。\n\n## 例子\n\n销售收入 1000、毛利率 40%、总资产 500，则资产周转率=2，营业利润率提高会同时提升 ROCE。\n\n## 考试提醒\n\n掌握“利润率×周转率”驱动 ROCE 的逻辑，以及各利润率的分子口径。",
+              "standardReference": "IAS 1",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Ratio analysis - liquidity, gearing and investment",
+          "points": [
+            {
+              "code": "FR.14.2.1",
+              "title": "Liquidity and efficiency ratios",
+              "summary": "流动性比率评估短期偿债能力，效率比率评估营运资本管理效率，如流动比率、速动比率与存货/应收/应付周转天数。",
+              "contentMd": "## 核心概念\n\nLiquidity ratios（流动性比率）：Current ratio（流动比率）=流动资产 ÷ 流动负债；Quick ratio（速动比率）=(流动资产-存货) ÷ 流动负债。\n\nEfficiency ratios（效率比率）：Inventory turnover days（存货周转天数）；Receivables collection period（应收账款回收天数）；Payables payment period（应付账款付款天数）＝相关项目 ÷ 销售成本（或销售收入）×365。\n\n这些比率共同评估主体的短期偿债与现金循环管理效率。\n\n## 常见考法\n\n- 计算流动比率、速动比率及相关周转天数。\n- 评价主体流动性与营运资金管理。\n\n## 易错点\n\n- 速动比率口径（剔除存货）处理错误。\n- 与周转天数计算时分子/分母口径混淆。\n\n## 例子\n\n流动资产 200、存货 60、流动负债 100，则流动比率=2，速动比率=1.4。\n\n## 考试提醒\n\n计算各项流动性/效率比率并解释其含义与改进方向，论述题常要求结合行业背景分析。",
+              "standardReference": "IAS 1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "FR.14.2.2",
+              "title": "Gearing and investment ratios",
+              "summary": "负债水平比率衡量资本结构与财务风险，投资比率反映股东回报，如债务权益比、利息保障倍数与每股收益、市盈率。",
+              "contentMd": "## 核心概念\n\nGearing ratios（负债水平/资本结构比率）：Debt to equity ratio（债务与权益比）＝负债 ÷ 权益；Interest cover（利息保障倍数）＝经营利润 ÷ 利息费用，反映支付利息的能力。\n\nInvestment ratios（投资比率）：Dividend per share、Dividend cover（股息保障倍数）＝净利润 ÷ 股息；Earnings per share（每股收益）与 Price/Earnings (P/E) ratio（市盈率）＝每股市价 ÷ 每股收益，用于评估股价相对盈利的水平。\n\n## 常见考法\n\n- 计算负债水平与投资比率。\n- 解释资本结构与股东回报的关系。\n\n## 易错点\n\n- 分母使用权益而非资本总额造成口径错误。\n- 忽略利息保障倍数需用经营利润（EBIT）。\n\n## 例子\n\n债务 400、权益 400，则债务权益比=100%；经营利润 120、利息 40，利息保障倍数=3。\n\n## 考试提醒\n\n掌握“债务/权益、利息保障、EPS、P/E”等计算与解读，并联系财务风险判断。",
+              "standardReference": "IAS 1",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "FR.14.2.3",
+              "title": "Interpretation of ratios and their limitations",
+              "summary": "财务比率分析需结合行业、趋势与性质进行综合解读，并注意会计政策、通货膨胀、非财务因素等局限性。",
+              "contentMd": "## 核心概念\n\nRatio analysis（比率分析）的价值在于将绝对数转化为可比较的相对指标，解释盈利能力、偿债能力与经营效率，并识别发展趋势。\n\nHowever，比率分析存在局限性：仅依赖历史与会计数据，不同主体会计政策可比性受限；价格变动对历史数据的影响；忽略非财务因素（如技术、管理、市场）；比率易受操纵或口径选择影响，需结合行业基准与定性信息综合判断。\n\n## 常见考法\n\n- 综合解读各项比率并指出潜在问题。\n- 说明比率分析的局限性。\n\n## 易错点\n\n- 脱离行业与趋势孤立看单个比率。\n- 忽视会计政策差异导致的不可比。\n\n## 例子\n\n某公司流动比率低于行业均值，但可能因营运资金管理高效、存货周转加快所致，需结合趋势与行业判断。\n\n## 考试提醒\n\n论述题强调“综合+趋势+行业基准+局限性”，回答时兼顾定量计算与定性解释。",
+              "standardReference": "IAS 1",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

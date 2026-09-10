@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ⭐🐟 视觉体系：象牙白 + 柔和薰衣草 + 雾蓝 + 微量玫瑰 + 柔和金（保持 WCAG 可读性） */
+  :root {
+    --background: 40 33% 98.6%; /* Ivory */
+    --foreground: 248 18% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 248 18% 14%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 248 18% 14%;
+    --primary: 258 52% 56%; /* Lavender-indigo（保持专业感） */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 252 32% 96%;
+    --secondary-foreground: 250 22% 20%;
+    --muted: 250 26% 96.5%;
+    --muted-foreground: 250 10% 45%;
+    --accent: 258 46% 95.5%;
+    --accent-foreground: 258 46% 38%;
+    --destructive: 356 62% 54%; /* 柔和玫瑰红 */
+    --destructive-foreground: 0 0% 100%;
+    --success: 164 52% 38%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 78% 52%; /* 柔和金 / 琥珀 */
+    --warning-foreground: 30 40% 14%;
+    --border: 254 26% 91%;
+    --input: 254 24% 89%;
+    --ring: 258 52% 62%;
+    --radius: 0.85rem;
+  }
+
+  .dark {
+    /* 深蓝黑 + 低饱和紫 + 柔和金色星点 */
+    --background: 247 24% 7%;
+    --foreground: 250 20% 95%;
+    --card: 248 20% 10%;
+    --card-foreground: 250 20% 95%;
+    --popover: 248 20% 10%;
+    --popover-foreground: 250 20% 95%;
+    --primary: 258 62% 72%;
+    --primary-foreground: 248 26% 10%;
+    --secondary: 248 16% 16%;
+    --secondary-foreground: 250 18% 92%;
+    --muted: 248 16% 16%;
+    --muted-foreground: 250 12% 66%;
+    --accent: 258 30% 20%;
+    --accent-foreground: 258 70% 84%;
+    --destructive: 356 62% 62%;
+    --destructive-foreground: 248 26% 8%;
+    --success: 164 46% 54%;
+    --success-foreground: 248 26% 8%;
+    --warning: 40 84% 62%; /* 柔和金 */
+    --warning-foreground: 248 26% 8%;
+    --border: 248 14% 20%;
+    --input: 248 14% 22%;
+    --ring: 258 62% 72%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-foreground;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-violet-500 to-cyan-400 bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/10 dark:hover:shadow-black/50;
+  }
+
+  /* ⭐🐟 柔和渐变背景（首页 / 空状态） */
+  .soft-aurora {
+    background-image:
+      radial-gradient(60% 50% at 15% 10%, hsl(258 60% 92% / 0.75) 0%, transparent 60%),
+      radial-gradient(50% 45% at 85% 15%, hsl(196 60% 92% / 0.7) 0%, transparent 62%),
+      radial-gradient(45% 40% at 60% 90%, hsl(345 60% 94% / 0.55) 0%, transparent 65%);
+  }
+  .dark .soft-aurora {
+    background-image:
+      radial-gradient(60% 50% at 15% 10%, hsl(258 50% 26% / 0.5) 0%, transparent 60%),
+      radial-gradient(50% 45% at 85% 15%, hsl(210 45% 24% / 0.45) 0%, transparent 62%),
+      radial-gradient(45% 40% at 60% 90%, hsl(330 30% 24% / 0.35) 0%, transparent 65%);
+  }
+
+  .thin-divider {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-border to-transparent;
+  }
+
+  .subtle-grid {
+    background-image:
+      linear-gradient(to right, hsl(var(--border) / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border) / 0.5) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  /* 移动端横向滚动表格提示 */
+  .table-scroll {
+    @apply relative overflow-x-auto rounded-lg border;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-scroll::after {
+    content: "← 左右滑动查看完整表格 →";
+    @apply sticky bottom-0 left-0 block w-full bg-gradient-to-t from-card to-transparent py-1 text-center text-[10px] text-muted-foreground;
+  }
+  @media (min-width: 768px) {
+    .table-scroll::after {
+      display: none;
+    }
+  }
+
+  /* ===== Markdown / 解析内容排版 ===== */
+  .md-content {
+    @apply text-[15px] leading-7 text-foreground/90;
+  }
+  .md-content h1 {
+    @apply mt-6 mb-3 text-xl font-bold tracking-tight;
+  }
+  .md-content h2 {
+    @apply mt-6 mb-2 flex items-center gap-2 text-lg font-semibold tracking-tight text-foreground;
+  }
+  .md-content h3 {
+    @apply mt-4 mb-2 text-base font-semibold;
+  }
+  .md-content p {
+    @apply my-2;
+  }
+  .md-content ul {
+    @apply my-2 list-disc space-y-1 pl-6;
+  }
+  .md-content ol {
+    @apply my-2 list-decimal space-y-1 pl-6;
+  }
+  .md-content li > ul,
+  .md-content li > ol {
+    @apply mt-1;
+  }
+  .md-content strong {
+    @apply font-semibold text-foreground;
+  }
+  .md-content code {
+    @apply rounded bg-secondary px-1.5 py-0.5 font-mono text-[13px] text-foreground;
+  }
+  .md-content pre {
+    @apply my-3 overflow-x-auto rounded-lg border bg-secondary/60 p-4 text-sm;
+  }
+  .md-content pre code {
+    @apply bg-transparent p-0;
+  }
+  .md-content blockquote {
+    @apply my-3 rounded-r-lg border-l-4 border-primary/50 bg-primary/5 px-4 py-2 text-foreground/80;
+  }
+  .md-content table {
+    @apply my-3 w-full border-collapse overflow-hidden rounded-lg text-sm;
+  }
+  .md-content table th {
+    @apply border border-border bg-secondary px-3 py-2 text-left font-semibold;
+  }
+  .md-content table td {
+    @apply border border-border px-3 py-2;
+  }
+  .md-content table tr:nth-child(even) td {
+    @apply bg-secondary/30;
+  }
+  .md-content hr {
+    @apply my-4 border-border;
+  }
+  .md-content .katex-display {
+    @apply my-3 overflow-x-auto py-1;
+  }
+  .md-content a {
+    @apply text-primary underline underline-offset-2;
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted-foreground) / 0.4) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-muted-foreground/30;
+  }
+}
+
+/* ⭐🐟 轻量动效（仅在品牌/反馈处使用，题目阅读区不受影响） */
+@keyframes acca-float {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.55; }
+  50% { transform: translateY(-10px) scale(1.06); opacity: 0.9; }
+}
+
+@keyframes acca-swim {
+  0% { transform: translateX(-8px) rotate(0deg); }
+  50% { transform: translateX(48px) rotate(-2deg); }
+  100% { transform: translateX(-8px) rotate(0deg); }
+}
+
+@keyframes acca-twinkle {
+  0%, 100% { opacity: 0; transform: scale(0.7); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+@keyframes acca-rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.acca-rise {
+  animation: acca-rise 0.35s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .acca-swim,
+  .acca-rise {
+    animation: none !important;
+  }
+}
+
+/* 打印成绩单时只保留内容 */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

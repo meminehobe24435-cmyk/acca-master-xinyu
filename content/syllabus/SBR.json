@@ -1,0 +1,963 @@
+{
+  "code": "SBR",
+  "name": "Strategic Business Reporting",
+  "nameCn": "战略商业报告",
+  "level": "STRATEGIC_PROFESSIONAL",
+  "category": "ESSENTIALS",
+  "order": 11,
+  "accent": "#0ea5e9",
+  "description": "面向高级财务报表编制的准则应用与集团合并，强调判断、会计政策选择与报告中的专业伦理。",
+  "examDurationMin": 195,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Case Question", "scope": "案例题", "count": 4, "marksPerQuestion": 12.5, "sectionMarks": 50 },
+      { "id": "B", "name": "Section B - Constructed Response", "scope": "主观题", "count": 2, "marksPerQuestion": 25, "sectionMarks": 50 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" },
+    { "code": "INT", "label": "International", "region": "International" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "The Conceptual Framework and Professional Ethics",
+      "description": "理解财务报告概念框架的目标、要素与计量，以及会计专业伦理在报告中的体现。",
+      "topics": [
+        {
+          "title": "The Conceptual Framework",
+          "points": [
+            {
+              "code": "SBR.1.1",
+              "title": "Objectives and qualitative characteristics",
+              "summary": "财务报告旨在提供有用决策信息，质量标准包括相关性与如实反映等基本特征及增强特征。",
+              "contentMd": "## 核心概念\n\n目标（objective）是为现有与潜在投资者、贷款人及其他债权人提供决策有用的信息。基本质量特征（fundamental characteristics）包括相关性（relevance）与如实反映（faithful representation）；增强特征（enhancing）包括可比性、可验证性、及时性与可理解性。\n\n## 常见考法\n\n判断某项信息是否满足某质量特征，或权衡质量特征之间的冲突。\n\n## 易错点\n\n相关性与如实反映是“基本”特征，二者缺一不可；增强特征只在基本特征满足后起增强作用。\n\n## 例子\n\n企业在报表中披露重大或有负债，是为了如实反映潜在义务，增强相关性。\n\n## 考试提醒\n\n区分“基本 vs 增强”质量特征，是概念框架题的常考点。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.1.2",
+              "title": "Elements of financial statements",
+              "summary": "财务报表要素包括资产、负债、权益、收入与费用，分别有定义与确认条件。",
+              "contentMd": "## 核心概念\n\n资产（asset）是过去事项形成、由主体控制的现时经济资源；负债（liability）是过去事项形成的现时义务，会导致经济资源流出；权益（equity）是扣除负债后的剩余权益；收入与费用分别反映权益的增加与减少。确认需满足“相关性+如实反映”并满足要素定义。\n\n## 常见考法\n\n判断某项是否符合某要素定义，或评估确认条件是否满足。\n\n## 易错点\n\n“控制”而非“所有权”是资产定义的核心，租赁资产虽无所有权也可确认为资产。\n\n## 例子\n\n企业控制的租入厂房符合资产定义，因为企业拥有使用与收益的权利。\n\n## 考试提醒\n\n记牢资产“控制”与负债“现时义务”两个关键词。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.1.3",
+              "title": "Measurement bases",
+              "summary": "计量基础包括历史成本、现行成本、可变现净值、现值与公允价值，各适用于不同情形。",
+              "contentMd": "## 核心概念\n\n计量基础（measurement basis）包括历史成本（historical cost）、现行成本（current cost）、可变现净值（realisable value）、现值（present value）与公允价值（fair value）。准则为不同类型项目指定计量基础，如 IAS 16 允许成本或重估模式，IFRS 9 部分金融资产以公允价值计量。\n\n## 常见考法\n\n判断某资产按哪种基础计量，或比较不同基础的信息优劣。\n\n## 易错点\n\n公允价值与可变现净值不同：公允价值是市场参与者的视角，可变现净值是出售净额。\n\n## 例子\n\n投资性房地产可按公允价值计量，其变动计入损益。\n\n## 考试提醒\n\n把“历史成本 vs 公允价值”作为计量的两条主线理解。",
+              "standardReference": "IFRS Conceptual Framework",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Professional ethics in reporting",
+          "points": [
+            {
+              "code": "SBR.1.4",
+              "title": "The fundamental ethical principles",
+              "summary": "会计职业的基本道德原则包括诚信、客观、专业胜任、保密与专业行为。",
+              "contentMd": "## 核心概念\n\n基本道德原则（fundamental principles）包括诚信（integrity）、客观（objectivity）、专业胜任与应有的审慎（professional competence and due care）、保密（confidentiality）与专业行为（professional behaviour）。这些原则支撑报表编制者的正当判断。\n\n## 常见考法\n\n识别会计人员在报告中的行为违背哪项原则。\n\n## 易错点\n\n客观性要求不受偏见、利益冲突或他人不当影响；泄密则违背保密原则。\n\n## 例子\n\n财务总监迫于压力虚增收入，违背了诚信与客观原则。\n\n## 考试提醒\n\n用“诚、客、能、密、行”五大原则对应具体场景。",
+              "standardReference": "IESBA / ACCA Code of Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.1.5",
+              "title": "Threats to ethical principles and safeguards",
+              "summary": "道德威胁（自身利益、自我评价等）需识别并采取防范措施，必要时拒绝或退出。",
+              "contentMd": "## 核心概念\n\n道德威胁包括自身利益（self-interest）、自我评价（self-review）、拥护（advocacy）、密切关系（familiarity）与压力（intimidation）威胁。应对措施（safeguards）分为由职业、法规或主体建立的制度和流程，如独立委员会、轮换、咨询与复核；若威胁重大且无法消除，应拒绝或退出。\n\n## 常见考法\n\n判断某情形属于哪种威胁，或评估防范措施是否充分。\n\n## 易错点\n\n“自我评价”指检查自己以前的工作，例如审计自己编制的会计数据。\n\n## 例子\n\n项目合伙人连续多年审计同一客户，关系渐密，属于密切关系威胁。\n\n## 考试提醒\n\n把五类威胁与常见场景对应，并给出“防范或退出”的应对。",
+              "standardReference": "IESBA / ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.1.6",
+              "title": "Ethics, corporate governance and reporting quality",
+              "summary": "强有力的治理与道德文化提升报告质量，降低舞弊与盈余管理风险。",
+              "contentMd": "## 核心概念\n\n良好的公司治理与道德文化创造“说真话”的环境，审计委员会监督财务报告，内控保障数据可靠。盈余管理（earnings management）与舞弊会使报告失真，需通过治理、审计与伦理共同抑制。\n\n## 常见考法\n\n分析治理/文化如何影响报告质量，或识别盈余管理迹象。\n\n## 易错点\n\n合法的会计政策选择与违规盈余管理之间界限模糊，需判断动机与实质。\n\n## 例子\n\n审计委员会定期与审计师单独沟通，有助于发现潜在盈余管理。\n\n## 考试提醒\n\n把“治理-内控-文化”作为保障报告质量的系统。",
+              "standardReference": "IFRS Conceptual Framework / ACCA Code",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "First-time adoption and policies",
+          "points": [
+            {
+              "code": "SBR.1.7",
+              "title": "Accounting policies and estimates",
+              "summary": "会计政策是编制报表采用的特定原则，会计估计是对不确定项目的判断，二者变更处理不同。",
+              "contentMd": "## 核心概念\n\n会计政策（accounting policy）是主体编制报表所采用的具体原则、基础与规则；会计估计（accounting estimate）是对金额带有不确定性的判断（如坏账准备、可用寿命）。政策变更通常追溯调整，估计变更则前瞻适用（prospective）。\n\n## 常见考法\n\n区分政策变更与估计变更，判断应追溯还是前瞻处理。\n\n## 易错点\n\n把“估计变更”误当作政策变更而追溯调整，是常见错误。\n\n## 例子\n\n因获得新信息而修改坏账准备比例，属会计估计变更，改为前瞻适用。\n\n## 考试提醒\n\n记忆“政策变更追溯、估计变更前瞻”这一原则。",
+              "standardReference": "IAS 8",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.1.8",
+              "title": "Fair value measurement",
+              "summary": "公允价值是市场参与者在计量日有序交易中出售资产或转移负债的价格。",
+              "contentMd": "## 核心概念\n\n公允价值（fair value）是计量日市场参与者在有序交易中出售资产或转移负债所收取/支付的价格，基于市场视角而非主体特有。公允价值层级（fair value hierarchy）分三层：活跃市场报价（Level 1）、可观察输入（Level 2）与不可观察输入（Level 3）。\n\n## 常见考法\n\n判断某项公允价值输入属于哪一层级，或评价公允价值计量的可靠性。\n\n## 易错点\n\n公允价值是“退出价格（exit price）”，不是“进入价格”。\n\n## 例子\n\n上市股票用交易所报价计量，属于 Level 1 公允价值。\n\n## 考试提醒\n\n记住“退出价格+层级”是公允价值计量的两个要点。",
+              "standardReference": "IFRS 13",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.1.9",
+              "title": "First-time adoption of IFRSs",
+              "summary": "首次采用 IFRS（IFRS 1）要求按追溯法编制期初报表，并提供若干豁免与例外。",
+              "contentMd": "## 核心概念\n\nIFRS 1 要求主体在首次采用日按 IFRS 确认计量所有资产与负债，并追溯应用，从而生成可比期初报表。为降低实施成本，IFRS 1 提供选择性豁免（如业务合并、公允价值作为认定成本）与强制性例外（如对估计的追溯限制）。\n\n## 常见考法\n\n判断某项目能否采用豁免，或评估首次采用的处理方式。\n\n## 易错点\n\n豁免是“可选”，例外是“禁止”，二者方向不同。\n\n## 例子\n\n首次采用者可选择以公允价值作为某项固定资产的认定成本。\n\n## 考试提醒\n\n把握“豁免=可选、例外=强制”的区分。",
+              "standardReference": "IFRS 1",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Revenue",
+      "description": "运用 IFRS 15 五步法处理复杂的收入确认，特别是时段确认、可变对价与主代理判断。",
+      "topics": [
+        {
+          "title": "IFRS 15 five-step model",
+          "points": [
+            {
+              "code": "SBR.2.1",
+              "title": "Identify the contract and performance obligations",
+              "summary": "第一步识别合同（具备商业实质、可收款等），第二步识别单项履约义务（可明确区分）。",
+              "contentMd": "## 核心概念\n\nIFRS 15 五步法：1) 识别与客户的合同；2) 识别合同中履约义务（performance obligations）；3) 确定交易价格；4) 分摊交易价格到各履约义务；5) 履行履约义务时确认收入。履约义务是向客户转让可明确区分的商品或服务的承诺（distinct）。\n\n## 常见考法\n\n判断某承诺是否构成单项履约义务，或识别合同何时成立。\n\n## 易错点\n\n“可明确区分”需满足“客户能单独受益+转让可独立识别”，不是任意拆分。\n\n## 例子\n\n销售软件并含安装服务，若安装可单独购买，则可能构成两项履约义务。\n\n## 考试提醒\n\n把“可明确区分”作为判断履约义务数量的核心标准。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.2.2",
+              "title": "Determine and allocate the transaction price",
+              "summary": "交易价格需考虑可变对价、重大融资成分与对价支付，并按相对单独售价分摊到各义务。",
+              "contentMd": "## 核心概念\n\n交易价格（transaction price）是主体预期有权收取的对价金额，需考虑：可变对价（variable consideration，用期望值或最可能金额估计）、重大融资成分（significant financing component）、非现金对价与应付客户对价。分摊（allocate）时按各履约义务的相对独立售价（standalone selling price）比例进行。\n\n## 常见考法\n\n估计可变对价，或按相对售价分摊交易价格。\n\n## 易错点\n\n可变对价须满足“极可能不会发生重大转回”的限制，否则不能确认。\n\n## 例子\n\n合同含 100 万元营业额 5% 的销售返利，需估计预计返利并计入可变对价。\n\n## 考试提醒\n\n记牢“可变对价+融资成分+相对售价分摊”三要点。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.2.3",
+              "title": "Recognise revenue over time vs at a point in time",
+              "summary": "收入在控制权转移时确认，同时段确认需满足持续转移标准，否则在某一时点确认。",
+              "contentMd": "## 核心概念\n\n收入确认的时点取决于控制权（control）的转移。若满足时段确认（over time）条件（如客户同时取得并消耗利益、主体履约创造客户控制的资产、资产无替代用途且有权收款），则按履约进度在期间确认；否则在控制权转移的某一时点（point in time）确认。\n\n## 常见考法\n\n判断某合同应时段还是时点确认，或计算时段确认的进度。\n\n## 易错点\n\n“时段确认”需满足三项条件之一，不是所有长期合同都能时段确认。\n\n## 例子\n\n定制化软件的建造合同通常满足时段确认，按完工百分比确认收入。\n\n## 考试提醒\n\n用“客户是否持续取得利益/资产是否为客户创造/有无替代用途”判断。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Complex revenue issues",
+          "points": [
+            {
+              "code": "SBR.2.4",
+              "title": "Principal vs agent",
+              "summary": "主体现控制商品或服务再转让给客户，则为主事方（principal）；仅安排他人提供则为代理人（agent）。",
+              "contentMd": "## 核心概念\n\n主事方（principal）在转让前控制商品或服务，按总额确认收入、并以对客户的应付为成本；代理人（agent）仅安排第三方提供，按净额确认收入（即佣金或手续费）。判断依据是“是否在转让前拥有控制权”，考虑存货风险、定价权等因素。\n\n## 常见考法\n\n判断主体是主事方还是代理人，并确定收入的总额/净额处理。\n\n## 易错点\n\n“承担存货风险”是主事方的强信号，但不构成唯一标准。\n\n## 例子\n\n线上平台仅为商家与顾客撮合交易，通常作为代理人按佣金确认收入。\n\n## 考试提醒\n\n以“控制权”为核心，结合风险与定价判断主/代理地位。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.2.5",
+              "title": "Contract costs and contract modifications",
+              "summary": "增量合同成本可资本化并摊销，合同变更需判断是否构成新合同或作为原合同的调整。",
+              "contentMd": "## 核心概念\n\n取得合同而发生的增量成本（incremental cost of obtaining a contract，如销售佣金）若预期可收回，应资本化为资产并随收入确认摊销；履行合同发生的成本按相关准则判断资本化或费用化。合同变更（contract modification）若新增的商品可明确区分且价格反映单独售价，则作为单独合同处理；否则作为原合同的调整或对剩余义务的调整。\n\n## 常见考法\n\n判断合同变更的处理方式，或识别资本化的合同成本。\n\n## 易错点\n\n增量成本资本化须满足“预期可收回”，且需在相关期间系统摊销。\n\n## 例子\n\n销售佣金是为取得合同发生的增量成本，可资本化为合同成本资产。\n\n## 考试提醒\n\n把“能否单独区分+价格是否公允”作为合同变更分流的判断。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.2.6",
+              "title": "Licences, warranties and other revenue topics",
+              "summary": "许可证收入需区分使用权或知识产权，保证型与维修型质保的处理不同。",
+              "contentMd": "## 核心概念\n\n特许权（licence）收入需判断是“提供使用权”（right to access，时段确认）还是“提供使用权利”（right to use，时点确认），取决于主体是否持续进行影响知识产权的活动。质保（warranty）若属于保证性质（provides assurance），作为预计负债；若属于服务性质（provides service），作为单项履约义务。\n\n## 常见考法\n\n判断许可证收入的确认时点，或区分两种质保。\n\n## 易错点\n\n“提供使用权利”是时点确认，与“提供使用权”的时段确认不同。\n\n## 例子\n\n出售软件终身授权属于权利，通常在交付时点确认收入。\n\n## 考试提醒\n\n记住“保证型质保→预计负债，服务型质保→履约义务”。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Revenue application and disclosure",
+          "points": [
+            {
+              "code": "SBR.2.7",
+              "title": "Disclosure of revenue",
+              "summary": "主体需分解收入（按类别）、披露履约义务与交易价格分摊等重要信息。",
+              "contentMd": "## 核心概念\n\nIFRS 15 要求披露收入分解（disaggregation）以说明收入的性质、金额、时间与不确定性，并披露履约义务、合同余额、与客户合同相关的重要判断，以及交易价格分摊到剩余履约义务的信息。\n\n## 常见考法\n\n指出应披露哪些收入相关信息，或解释披露的价值。\n\n## 易错点\n\n披露重点是收入分解与剩余履约义务信息，帮助使用者理解收入的来源与未来。\n\n## 例子\n\n按产品、地区或客户类型分解收入，是常见的收入披露方式。\n\n## 考试提醒\n\n关注“分解+履约义务+判断”三块披露要求。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.2.8",
+              "title": "Judgement in revenue recognition",
+              "summary": "收入确认需大量判断，如可变对价、履约义务识别与控制权转移时点，容易出现盈余管理空间。",
+              "contentMd": "## 核心概念\n\n由于收入确认依赖判断（如对可变对价、履约进度、主/代理的估计），企业可能利用这些判断进行盈余管理（如提前确认收入）。审计师与管理层需评估判断的合理性，并加强披露。\n\n## 常见考法\n\n识别收入确认中可能的盈余管理手段，或评估管理层判断的合理性。\n\n## 易错点\n\n盈余管理在准则允许的判断空间内发生，需关注动机与信号。\n\n## 例子\n\n期末冲刺发货以提前确认收入，是常见的收入操纵迹象。\n\n## 考试提醒\n\n把“判断空间+动机+披露”作为防范收入操纵的逻辑。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.2.9",
+              "title": "Practical revenue scenarios",
+              "summary": "把五步法应用于软件、建筑、零售、餐饮等行业的实际收入场景。",
+              "contentMd": "## 核心概念\n\n不同行业收入确认应用差异明显：建筑合同常按履约进度时段确认；软件可能分许可证与支持服务；零售常即时确认并处理退货；餐饮会员卡需按履约进度分摊。核心仍是“识别义务+确认时点”。\n\n## 常见考法\n\n针对具体行业场景应用五步法，判断收入金额与确认时点。\n\n## 易错点\n\n会员卡未兑换部分构成递延收入，不能全部在销售时点确认。\n\n## 例子\n\n健身房年卡收入需按会员期限分摊确认，而非一次性全额确认。\n\n## 考试提醒\n\n用“交易发生了什么、何时交付了义务”来落地五步法。",
+              "standardReference": "IFRS 15",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Financial Instruments",
+      "description": "掌握 IFRS 9 金融工具的分类、计量与减值（预期信用损失），以及套期会计的基本思路。",
+      "topics": [
+        {
+          "title": "Classification and measurement",
+          "points": [
+            {
+              "code": "SBR.3.1",
+              "title": "Business model and SPPI test",
+              "summary": "金融资产分类取决于商业模式与合同现金流特征（SPPI），决定按摊余成本、FVOCI 或 FVTPL 计量。",
+              "contentMd": "## 核心概念\n\nIFRS 9 对金融资产分类采用“商业模式（business model）+ 合同现金流特征（SPPI）”双测试。若商业模式为持有收取合同现金流且现金流仅为本金及利息（SPPI），按摊余成本（amortised cost）；若商业模式既收取现金流又出售，按公允价值变动计入其他综合收益（FVOCI）；否则按公允价值变动计入损益（FVTPL）。\n\n## 常见考法\n\n判断某金融资产按哪种类别计量，或分析商业模式改变的影响。\n\n## 易错点\n\nSPPI 测试不合格的资产（如某些权益或混合工具）只能按 FVTPL。\n\n## 例子\n\n摊收到期本息的贷款通常按摊余成本计量。\n\n## 考试提醒\n\n用“商业模式+SPPI”两个开关组合决定分类。",
+              "standardReference": "IFRS 9",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.3.2",
+              "title": "Initial and subsequent measurement",
+              "summary": "金融工具初始以公允价值计量，后续按类别采用摊余成本或公允价值，并处理交易成本与利得损失。",
+              "contentMd": "## 核心概念\n\n金融资产初始按公允价值确认，交易成本（transaction costs）根据后续计量类别处理：按摊余成本或 FVOCI 的可计入初始账面价值，按 FVTPL 的则计入当期损益。后续计量时，摊余成本模式用实际利率法（effective interest rate）摊余；公允价值模式则将变动计入损益或 OCI。\n\n## 常见考法\n\n将交易成本计入某类资产，或计算实际利率法下的摊余成本。\n\n## 易错点\n\n按 FVTPL 计量的资产，其交易成本计入当期损益而非资产账面价值。\n\n## 例子\n\n购买按摊余成本计量的债券，支付的经纪费可作为初始成本的一部分。\n\n## 考试提醒\n\n先定类别，再定交易成本归属与后续计量。",
+              "standardReference": "IFRS 9",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.3.3",
+              "title": "Reclassification and derecognition",
+              "summary": "商业模式改变时金融资产可重分类，已确认或已转出风险的资产需终止确认。",
+              "contentMd": "## 核心概念\n\n当主体改变管理金融资产的商业模式时，IFRS 9 允许在特定情形下重分类（reclassification），并采用未来适用法（prospective）。终止确认（derecognition）需评估是否转移了金融资产的现金流量或实质上转移了所有风险与报酬；若保留重大风险与报酬，则不终止确认。\n\n## 常见考法\n\n判断金融资产能否重分类，或分析某保理/证券化能否终止确认。\n\n## 易错点\n\n重分类仅在商业模式改变时发生，且须未来适用；终止确认的关键是“风险与报酬是否实质转移”。\n\n## 例子\n\n公司将应收账款无追索权保理给银行，若风险与报酬实质转移，则终止确认应收款。\n\n## 考试提醒\n\n用“风险与报酬+控制”来判断终止确认。",
+              "standardReference": "IFRS 9",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Impairment of financial assets",
+          "points": [
+            {
+              "code": "SBR.3.4",
+              "title": "Expected credit losses (ECL) model",
+              "summary": "IFRS 9 用预期信用损失替代已发生损失模型，需在初始确认即确认预期损失。",
+              "contentMd": "## 核心概念\n\nIFRS 9 采用预期信用损失模型（expected credit losses, ECL），分三阶段：阶段1 信用风险未显著增加，确认 12 个月预期损失并计提利息；阶段2 信用风险显著增加，确认整个存续期预期损失；阶段3 已发生减值（credit-impaired），确认存续期损失并按账面总额计提利息。\n\n## 常见考法\n\n判断某项资产处于哪个阶段，或计算各阶段减值准备与利息。\n\n## 易错点\n\n阶段1与阶段2的差异在于“信用风险是否显著增加”，而非仅看是否违约。\n\n## 例子\n\n借款人信用评级大幅下滑但未违约，可能从阶段1进入阶段2，计提存续期损失。\n\n## 考试提醒\n\n用“风险是否显著增加/是否已减值”判断阶段。",
+              "standardReference": "IFRS 9",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.3.5",
+              "title": "Measuring ECL and loss allowances",
+              "summary": "预期信用损失以违约概率、违约损失与违约敞口为基础，按实际利率折现估计。",
+              "contentMd": "## 核心概念\n\n预期信用损失 = 违约概率（probability of default）× 违约损失率（loss given default）× 违约敞口（exposure at default），并以实际利率折现。主体可用矩阵法（如账龄表）、评级法或简化法（如应收账款采用整个存续期损失且无需分期）。\n\n## 常见考法\n\n计算某项金融资产的预期信用损失，或判断采用何种简易方法。\n\n## 易错点\n\n按 IFRS 9 可用简化法对不含重大融资成分的应收款确认整个存续期损失。\n\n## 例子\n\n对 10,000 的应收款，违约概率 2%、损失率 80%，则预期损失约 160。\n\n## 考试提醒\n\n记住“PD×LGD×EAD”公式并会折现。",
+              "standardReference": "IFRS 9",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.3.6",
+              "title": "Offsetting and presentation",
+              "summary": "金融资产与负债仅在满足净额结算权利等条件下才能抵销列报。",
+              "contentMd": "## 核心概念\n\nIFRS 9 与 IAS 32 规定，金融资产与金融负债仅在主体有法定可强制执行权利抵销且意图净额结算或同时实现/清偿时，才在资产负债表上抵销净额列报（offsetting）。否则应分别列示并披露。\n\n## 常见考法\n\n判断金融工具能否抵销，或识别抵销的披露要求。\n\n## 易错点\n\n“抵销”需满足法定权利+结算意图，缺一不可。\n\n## 例子\n\n企业与同一银行既有存款又欠贷款，但不满足净额结算权利，不能抵销列报。\n\n## 考试提醒\n\n把“法定权利+净额意图”作为抵销的两个必要条件。",
+              "standardReference": "IFRS 9 / IAS 32",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Hedge accounting",
+          "points": [
+            {
+              "code": "SBR.3.7",
+              "title": "Hedge accounting principles",
+              "summary": "套期会计旨在匹配套期工具与被套期项目的利得损失，需满足指定与有效性要求。",
+              "contentMd": "## 核心概念\n\n套期会计（hedge accounting）让套期工具的利得或损失与被套期项目的利得损失在相同期间计入损益，减少会计错配。需满足生效时的正式指定、有效的套期关系、与被套期项目间的经济关系与不主导性等条件。套期类型包括公允价值套期、现金流量套期与净投资套期。\n\n## 常见考法\n\n判断属于哪种套期类型，或分析套期关系的有效性。\n\n## 易错点\n\n现金流量套期的有效部分计入 OCI，无效部分计入损益。\n\n## 例子\n\n公司用远期合约对冲预期销售的外汇风险，属现金流量套期。\n\n## 考试提醒\n\n区分公允价值套期（损益即时对冲）与现金流量套期（OCI 递延）。",
+              "standardReference": "IFRS 9",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.3.8",
+              "title": "Disclosure of financial instruments",
+              "summary": "IFRS 7 要求披露金融工具的风险性质与程度、计量与抵销等信息。",
+              "contentMd": "## 核心概念\n\nIFRS 7 要求披露金融工具对财务状况与业绩的重要性、风险暴露（信用、流动性、市场风险）及其管理方法、计量基础与抵销信息。使用者借此理解企业面临的金融风险与风险管理策略。\n\n## 常见考法\n\n指出应披露的金融工具风险信息，或评价披露是否充分。\n\n## 易错点\n\n市场风险细分为利率、汇率、价格等，需分别披露敏感性。\n\n## 例子\n\n公司披露利率上升 100bp 对利润的影响，属市场风险的敏感性披露。\n\n## 考试提醒\n\n覆盖“风险定性+定量敏感性+管理方法”的披露框架。",
+              "standardReference": "IFRS 7",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.3.9",
+              "title": "Equity vs liability classification",
+              "summary": "金融工具是列作权益还是负债，取决于主体是否有避免交付现金的义务。",
+              "contentMd": "## 核心概念\n\n金融工具分类的关键是“是否存在不可避免的交付现金或其他金融资产的义务”。具有该义务的（如可赎回优先股、强制支付股利的工具）为金融负债；无该义务的（如普通股、无条件避免交付的优先股）为权益。\n\n## 常见考法\n\n判断某金融工具应列作权益还是负债，并分析对杠杆的影响。\n\n## 易错点\n\n不叫“股”就是权益；是否负债看“是否强制交付现金”。\n\n## 例子\n\n可赎回优先股若公司必须赎回，则列作金融负债。\n\n## 考试提醒\n\n以“交付现金义务”为判定核心。",
+              "standardReference": "IAS 32 / IFRS 9",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Leases",
+      "description": "运用 IFRS 16 处理承租人与出租人的租赁确认、计量与列报，关注复杂情形与判断。",
+      "topics": [
+        {
+          "title": "Identifying and recognising a lease",
+          "points": [
+            {
+              "code": "SBR.4.1",
+              "title": "Identifying a lease and lease term",
+              "summary": "租赁是让渡在约定期间控制已识别资产使用权以换取对价的合同；租赁期含合理确定行使的续租/终止选择权。",
+              "contentMd": "## 核心概念\n\nIFRS 16 定义的租赁（lease）是让渡对已识别资产（identified asset）使用权在一段时间内的控制以换取对价。合同需包含已识别资产、有权主导该资产的使用并取得几乎所有经济利益。租赁期（lease term）包括不可撤销期与合理确定会行使的续租或终止选择权覆盖期。\n\n## 常见考法\n\n判断合同是否包含租赁，或确定租赁期及选择权的处理。\n\n## 易错点\n\n“已识别资产”需具有实质控制且供应商无实质性替换权；服务成分需与租赁成分分离。\n\n## 例子\n\n高价定制设备且出租方无法轻易替换，满足已识别资产，构成租赁。\n\n## 考试提醒\n\n识别租赁先看“已识别资产+使用权控制+经济利益”。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.4.2",
+              "title": "Lessee accounting: recognition and measurement",
+              "summary": "承租方初始确认使用权资产与租赁负债，后续按摊余成本与折旧处理。",
+              "contentMd": "## 核心概念\n\n承租方在租赁开始日确认使用权资产（right-of-use asset）与租赁负债（lease liability），初始计量：使用权资产=租赁负债初值+预付+初始直接成本−租赁激励；租赁负债=尚未支付租赁付款额的现值（按增量借款利率折现）。后续使用权资产按成本减折旧与减值；租赁负债按实际利率法摊余并计入利息。\n\n## 常见考法\n\n计算使用权资产与租赁负债的初始金额，或处理后续折旧与利息。\n\n## 易错点\n\n租赁负债用增量借款利率（incremental borrowing rate）折现，除非能确定内含利率。\n\n## 例子\n\n年付 10,000、租期 5 年、增量借款利率 5%，用现值计算租赁负债后加调整得使用权资产。\n\n## 考试提醒\n\n掌握“现值、初始直接成本、边际利率”三个计量要点。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.4.3",
+              "title": "Lessee exemptions and short-term leases",
+              "summary": "短期租赁与低价值资产租赁可作为例外，选择按直线法确认费用而不资本化。",
+              "contentMd": "## 核心概念\n\nIFRS 16 允许承租方对“短期租赁”（short-term lease，≤12 个月且不含购买期权）与“低价值资产租赁”（low-value，如小型办公设备）选择按直线法（或另一系统性方法）确认租赁费用，而非确认使用权资产与租赁负债。选择需按类别一致应用。\n\n## 常见考法\n\n判断某租赁能否适用豁免，或分析豁免对报表的影响。\n\n## 易错点\n\n豁免是“可选”而非强制，且需按资产类别一致选择。\n\n## 例子\n\n租期 10 个月的单张办公桌租赁，可选择豁免按费用处理。\n\n## 考试提醒\n\n识别“短租+低价值”豁免并理解其报表影响。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Lessor accounting and complex leases",
+          "points": [
+            {
+              "code": "SBR.4.4",
+              "title": "Lessor accounting: finance vs operating",
+              "summary": "出租方按是否实质转移所有权与风险报酬，把租赁分为融资租赁与经营租赁。",
+              "contentMd": "## 核心概念\n\n出租方分类：若租赁实质转移了与所有权相关的全部风险与报酬，则为融资租赁（finance lease），出租方确认应收租赁款（net investment）并计入融资收益；否则为经营租赁（operating lease），出租方保留资产并确认折旧与租金收入。分类依据包括所有权转移、购买期权、租赁期占比、现值占比等指标。\n\n## 常见考法\n\n判断租赁属融资还是经营租赁，或计算出租方的应收租赁款。\n\n## 易错点\n\n承租方全部做资本化，但出租方仍分融资/经营两类。\n\n## 例子\n\n租期占资产寿命 80% 且租金现值接近公允价值，通常归类为融资租赁。\n\n## 考试提醒\n\n牢记“所有权风险报酬是否实质转移”是分类核心。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.4.5",
+              "title": "Lease modifications and remeasurement",
+              "summary": "租赁变更或选择权变化会触发对租赁负债与使用权资产的重新计量。",
+              "contentMd": "## 核心概念\n\n当租赁条款变化（如租金调整、租赁期延长）、行使续租/终止选择权或购买选择权、或折现率变化时，需重新计量租赁负债（按新折现率折现新付款额）。使用权资产相应调整；若租赁范围整体减少，差额计入损益；若为对价等比例调整，则调整使用权资产。\n\n## 常见考法\n\n判断某项变化是否触发重新计量，或计算重估后的租赁负债。\n\n## 易错点\n\n租赁范围整体缩减会对削减部分确认损益，其余部分调整资产。\n\n## 例子\n\n租期延长使租赁负债增加，应相应增加使用权资产账面价值。\n\n## 考试提醒\n\n把“折现率或付款变化”作为重新计量的触发条件。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.4.6",
+              "title": "Sale and leaseback",
+              "summary": "售后回租需判断资产转让是否符合收入确认，再按使用者或提供者角色处理。",
+              "contentMd": "## 核心概念\n\n售后回租（sale and leaseback）：先判断资产出售是否满足 IFRS 15（控制权转让）。若满足，卖方（承租方）按转让给买方的权利确认资产相关利得/损失，并仅就保留的使用权确认相应的（新增）使用权资产与租赁负债；若不满足，则视同融资，确认金融负债。\n\n## 常见考法\n\n判断售后回租应如何记账，或计算确认的利得金额。\n\n## 易错点\n\n售后回租的利得只确认“转让出去的那部分权利”，保留部分不能确认利得。\n\n## 例子\n\n公司把资产卖给承租机构再租回，仅就出售部分确认利得。\n\n## 考试提醒\n\n抓住“只确认已转让权利的利得+保留部分按租赁处理”。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Leases in the group and presentation",
+          "points": [
+            {
+              "code": "SBR.4.7",
+              "title": "Lease disclosures",
+              "summary": "承租方需披露使用权资产、租赁负债、折旧利息及短期/低价值租赁等相关信息。",
+              "contentMd": "## 核心概念\n\nIFRS 16 要求承租方披露使用权资产与租赁负债在报表中的金额、本期折旧与利息、短期租赁与低价值租赁费用、售后回租信息以及租赁相关的现金流量与到期分析。出租方则披露融资/经营租赁的收益、未折现收款与资产信息。\n\n## 常见考法\n\n指出租赁应披露的关键信息，或评价披露充分性。\n\n## 易错点\n\n租赁负债的到期分析（maturity analysis）是核心披露之一。\n\n## 例子\n\n承租方在附注披露使用权资产中厂房与设备的折旧构成。\n\n## 考试提醒\n\n记忆承租方与出租方各自的披露要点。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.4.8",
+              "title": "Leases involving judgements",
+              "summary": "租赁处理涉及折现率、租赁期与续租选择权等判断，是盈余管理与审计的重点。",
+              "contentMd": "## 核心概念\n\n租赁会计中的关键判断包括：确定增量借款利率、评估续租/终止选择权的可能性、识别短期/低价值豁免、以及售后回租的收入确认判断。这些判断影响资产、负债与损益，也常成为管理层的估计空间。\n\n## 常见考法\n\n识别租赁中的关键判断，或评估某判断对报表的影响。\n\n## 易错点\n\n续租选择权若被“合理确定”行使，须纳入租赁期。\n\n## 例子\n\n管理层以极低折现率计算租赁负债，会低估负债并高估利润。\n\n## 考试提醒\n\n关注“折现率+租赁期+选择权”三处判断。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.4.9",
+              "title": "Complex leases: variable payments and residual values",
+              "summary": "可变租赁付款需在满足条件时计入租赁付款额，担保残值会影响租赁负债计量。",
+              "contentMd": "## 核心概念\n\n可变租赁付款额（variable lease payments）若取决于指数或利率（如挂钩 CPI），则以计量日指数/利率计入租赁负债；若取决于使用或销售（如按销售额提成），则非租赁付款，在发生时计入损益。出租方的残值担保（residual value guarantees）会纳入净投资计量。\n\n## 常见考法\n\n判断可变付款是否计入租赁负债，或处理残值担保。\n\n## 易错点\n\n“与指数挂钩”的可变付款计入负债，而“与使用量挂钩”的付款计入损益。\n\n## 例子\n\n租金按 CPI 调整的部分计入租赁负债，按营业额提成的部分确认为费用。\n\n## 考试提醒\n\n用“是否与指数/利率有关”区分可变付款的处理。",
+              "standardReference": "IFRS 16",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Employee Benefits and Share-based Payment",
+      "description": "掌握 IAS 19 雇员福利（含设定受益计划）与 IFRS 2 股份支付（权益与现金结算）的会计处理。",
+      "topics": [
+        {
+          "title": "Employee benefits (IAS 19)",
+          "points": [
+            {
+              "code": "SBR.5.1",
+              "title": "Short-term employee benefits",
+              "summary": "短期雇员福利（工资、带薪休假、奖金）在当期已提供服务时确认，按未折现金额计量。",
+              "contentMd": "## 核心概念\n\n短期雇员福利（short-term employee benefits）指预期在期末 12 个月内全部结算的福利，包括工资、短期带薪缺勤、利润分享与奖金。主体在雇员提供服务的当期确认其未折现金额，作为费用或成本，并确认相关负债。\n\n## 常见考法\n\n判断某项福利属于短期还是长期，或计算当期应确认的福利费用。\n\n## 易错点\n\n短期福利按未折现金额计量，不计利息。\n\n## 例子\n\n给员工的年假在当年确认未折现金额。\n\n## 考试提醒\n\n识别“期末后 12 个月内结算”这一短期福利特征。",
+              "standardReference": "IAS 19",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.5.2",
+              "title": "Defined contribution plans",
+              "summary": "设定提存计划下，主体按固定金额缴款，不承担精算风险，缴款计入当期费用。",
+              "contentMd": "## 核心概念\n\n设定提存计划（defined contribution plan）中，主体按期缴入既定金额，雇员退休所得取决累计缴款与投资收益，主体不承担精算与投资风险。主体在雇员服务期间把应缴款确认为费用，若未缴则确认负债。\n\n## 常见考法\n\n区分设定提存与设定受益计划，或计算应确认的缴款费用。\n\n## 易错点\n\n设定提存计划下主体无后续义务，仅按缴款额确认。\n\n## 例子\n\n公司按工资 5% 缴入员工养老金账户，当期确认该缴款为费用。\n\n## 考试提醒\n\n把“主体是否承担精算风险”作为两类计划的区分。",
+              "standardReference": "IAS 19",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.5.3",
+              "title": "Defined benefit plans",
+              "summary": "设定受益计划需精算计量计划负债与资产，损益中的服务成本与净利息计入损益，精算利得损失计入 OCI。",
+              "contentMd": "## 核心概念\n\n设定受益计划（defined benefit plan）中，主体承诺既定退休福利并承担精算与投资风险。需按预计单位信贷法（projected unit credit method）计量义务现值，减去计划资产公允价值得到净负债/资产。损益表中确认当期服务成本与净利息（net interest），精算利得/损失计入其他综合收益（OCI，重计量），且不转入损益。\n\n## 常见考法\n\n计算设定受益计划的负债与服务成本，或判断精算利得损失归属。\n\n## 易错点\n\n精算利得/损失重计量计入 OCI，以后期间不重分类进损益（recycling 禁止）。\n\n## 例子\n\n折现率下降使义务现值上升，产生精算损失计入 OCI。\n\n## 考试提醒\n\n区分“服务成本/净利息进损益”与“重计量进 OCI”两条通道。",
+              "standardReference": "IAS 19",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Share-based payment (IFRS 2)",
+          "points": [
+            {
+              "code": "SBR.5.4",
+              "title": "Equity-settled share-based payment",
+              "summary": "权益结算股份支付，按授予日权益工具公允价值在等待期内确认为费用与权益。",
+              "contentMd": "## 核心概念\n\n权益结算股份支付（equity-settled share-based payment）中，主体以自身权益工具结算。应在授予日（grant date）确定权益工具公允价值，并在等待期（vesting period）内按所获服务的公允价值系统分摊，确认为费用并相应增加权益。若行权条件（服务/业绩条件）导致预计授予数量变化，需调整。\n\n## 常见考法\n\n计算权益结算股份支付应确认的费用，或处理行权条件变化。\n\n## 易错点\n\n权益结算用“授予日公允价值”计量，且以后不重估，除非预期行权数量变化。\n\n## 例子\n\n授予 1,000 股、交易日公允价值 10 元、等待 3 年，每年确认约 3,333.3 元费用。\n\n## 考试提醒\n\n记住“授予日公允价值+等待期分摊+行权条件调整”。",
+              "standardReference": "IFRS 2",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.5.5",
+              "title": "Cash-settled share-based payment",
+              "summary": "现金结算股份支付按每年重新计量的负债公允价值确认，变动计入当期损益。",
+              "contentMd": "## 核心概念\n\n现金结算股份支付（cash-settled share-based payment）中，主体以现金支付，金额基于主体权益工具的价值（如增值权、SAR）。应确认负债，并在每个报告日按公允价值重新计量，等待期内费用分摊，公允价值变动计入当期损益。\n\n## 常见考法\n\n区分权益结算与现金结算，或计算现金结算计划各期末的负债与费用。\n\n## 易错点\n\n现金结算计划负债每年按公允价值重估，变动进损益；权益结算固定按授予日价值。\n\n## 例子\n\n公司授予员工股份增值权，期末按当日公允价值对负债重估。\n\n## 考试提醒\n\n“现金结算→负债重估；权益结算→费用+权益固定”。",
+              "standardReference": "IFRS 2",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.5.6",
+              "title": "Share-based payment with cash alternatives and modifications",
+              "summary": "含现金选择权的股份支付需判断是以权益或现金为主，并处理条款修改。",
+              "contentMd": "## 核心概念\n\n若安排赋予交易对方选择以现金或权益结算，主体需确定该安排是否具有“以权益结算的实质”（如存在已授予的权益选择权）。对既有以权益结算安排的修改（modification），若非其公允价值减少，通常继续按原有计量并确认增量，符合条件时按修改后条款计量。\n\n## 常见考法\n\n判断含选择权安排的实质，或处理条款修改的影响。\n\n## 易错点\n\n“以权益结算”与“以现金结算”的判断关乎报表实质。\n\n## 例子\n\n员工可选择收股份或等值现金，主体通常按权益结算处理并确认权益。\n\n## 考试提醒\n\n理解“现金替代=实质权益”与“修改”的分流处理。",
+              "standardReference": "IFRS 2",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Disclosure and group issues",
+          "points": [
+            {
+              "code": "SBR.5.7",
+              "title": "Disclosure of employee benefits and share-based payments",
+              "summary": "主体需披露计划性质、金额、假设与风险，使使用者理解福利与股权激励的影响。",
+              "contentMd": "## 核心概念\n\nIAS 19 要求披露设定受益计划的义务、资产、精算假设与风险；IFRS 2 要求披露股份支付安排的性质、公允价值计量方式与对损益/权益的影响。这些披露帮助投资者评估长期福利义务与激励成本。\n\n## 常见考法\n\n指出应披露的福利/股份支付信息，或评价披露充分性。\n\n## 易错点\n\n设定受益计划的敏感性与风险披露容易被忽视但很重要。\n\n## 例子\n\n公司披露折现率每下降 0.5% 对退休金义务的影响。\n\n## 考试提醒\n\n关注“金额+假设+风险”的披露三位一体。",
+              "standardReference": "IAS 19 / IFRS 2",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.5.8",
+              "title": "Group share-based payment transactions",
+              "summary": "集团内股份支付需判断由谁结算、谁获得服务，并在个别与合并报表中分别处理。",
+              "contentMd": "## 核心概念\n\n集团内股份支付（group share-based payment）中，母公司可能以自身权益工具结算而子公司雇员获得服务。子公司若收到母公司权益工具，通常视为权益结算并确认费用与权益；母公司个别报表则按对子公司的资本注入处理；合并报表需反映整体安排。\n\n## 常见考法\n\n判断集团内股份支付在母、子、合并报表的处理。\n\n## 易错点\n\n接受服务的主体（子公司）即使未发行权益，也要确认费用。\n\n## 例子\n\n母公司授予子公司高管母公司股票，子公司确认股份支付费用。\n\n## 考试提醒\n\n抓住“谁获得服务”与“谁结算”来分配处理。",
+              "standardReference": "IFRS 2",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.5.9",
+              "title": "Pensions and business combinations",
+              "summary": "并购中取得的设定受益计划需在收购日按义务现值与计划资产公允价值确认。",
+              "contentMd": "## 核心概念\n\n在业务合并中，被收购方的设定受益计划需在收购日估计其义务现值与计划资产公允价值，并计入可辨认净资产。若计划的净资产超过可收回金额上限（asset ceiling），应限制确认。\n\n## 常见考法\n\n处理并购中的养老金计划，或计算可辨认净资产中的退休金金额。\n\n## 易错点\n\n设定受益计划净资产的确认受资产上限（IAS 19）限制。\n\n## 例子\n\n收购时被并方的养老金义务超过计划资产，形成净负债计入并购账面。\n\n## 考试提醒\n\n把退休金计划作为并购中的一项可辨认负债处理。",
+              "standardReference": "IAS 19 / IFRS 3",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Non-current Assets, Impairment and Investment Property",
+      "description": "掌握固定资产、无形资产的重估与减值，以及投资性房地产的计量模式。",
+      "topics": [
+        {
+          "title": "Property, plant and equipment (IAS 16)",
+          "points": [
+            {
+              "code": "SBR.6.1",
+              "title": "Recognition and measurement of PPE",
+              "summary": "固定资产按成本确认，后续可选择成本模式或重估模式，并计提折旧。",
+              "contentMd": "## 核心概念\n\n固定资产（PPE）初始按成本确认（含可直接归属的购置与使资产达到可用状态的成本）。后续计量可选择成本模式（cost model，成本减累计折旧与减值）或重估模式（revaluation model，公允价值减后续折旧与减值）。折旧（depreciation）把可折旧金额系统分摊到有用寿命内。\n\n## 常见考法\n\n计算固定资产初始成本，或处理重估模式下的折旧与重估增值。\n\n## 易错点\n\n重估增值计入 OCI（重估盈余），重估减值先冲减既有重估盈余再入损益。\n\n## 例子\n\n厂房从 100 万重估到 120 万，增值 20 万计入其他综合收益。\n\n## 考试提醒\n\n记住“重估增值进 OCI、减值先冲盈余后进损益”。",
+              "standardReference": "IAS 16",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.6.2",
+              "title": "Borrowing costs and subsequent costs",
+              "summary": "符合条件资产的借款成本可资本化，后续支出满足确认条件时资本化否则费用化。",
+              "contentMd": "## 核心概念\n\n借款成本（borrowing costs）若直接归属于符合资本化条件资产（qualifying asset）的购置、建造或生产，应资本化为资产成本；其他借款成本费用化。后续支出（subsequent expenditure）若延长寿命或提升性能（满足确认条件）才资本化，否则计入当期损益。\n\n## 常见考法\n\n判断借款成本是否资本化，或识别可资本化的后续支出。\n\n## 易错点\n\n资本化仅限“符合条件资产”，并在达到预定可用状态时停止。\n\n## 例子\n\n建造厂房期间借入资金，其利息可资本化入厂房成本。\n\n## 考试提醒\n\n用“符合条件资产+达到状态前”两个条件判断资本化。",
+              "standardReference": "IAS 16 / IAS 23",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.6.3",
+              "title": "Derecognition and depreciation",
+              "summary": "固定资产处置时，账面价值与处置净额差额计入损益；折旧方法应反映经济利益消耗模式。",
+              "contentMd": "## 核心概念\n\n固定资产在其处置或预期无法带来经济利益时终止确认，利得或损失 = 处置净收入 − 账面价值，计入当期损益（作为收益或费用）。折旧方法（直线法、余额递减法、产量法等）应反映经济利益消耗模式，并定期复核寿命与残值。\n\n## 常见考法\n\n计算处置利得/损失，或判断折旧方法与残值复核。\n\n## 易错点\n\n处置利得不能计入收入（revenue），应单列损益。\n\n## 例子\n\n账面价值 50 万、售价 58 万的资产，处置利得 8 万计入损益。\n\n## 考试提醒\n\n折旧不是计提负债，而是把已耗用成本系统分配。",
+              "standardReference": "IAS 16",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Intangible assets (IAS 38)",
+          "points": [
+            {
+              "code": "SBR.6.4",
+              "title": "Recognition of intangible assets",
+              "summary": "无形资产需满足可识别、可控、经济利益等条件，内部产生的商誉、品牌等通常不得资本化。",
+              "contentMd": "## 核心概念\n\n无形资产（intangible asset）需满足可识别性（identifiability）、对资源的控制与经济利益很可能流入。外购无形资产按成本确认；内部研究阶段支出费用化，开发阶段满足条件才资本化。内部产生的商誉、品牌、报刊名、客户名单等通常不作无形资产确认。\n\n## 常见考法\n\n判断某项支出能否资本化为无形资产，特别是研发阶段。\n\n## 易错点\n\n研究阶段支出一律费用化，开发阶段才能有条件资本化。\n\n## 例子\n\n公司内部研发的自创品牌不能资本化，因其无法可靠识别与计量。\n\n## 考试提醒\n\n牢记“研究费用化、开发条件资本化、商誉不可自创”。",
+              "standardReference": "IAS 38",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.6.5",
+              "title": "Measurement after recognition",
+              "summary": "无形资产后续可采用成本或重估模式，有限寿命者摊销，无限寿命者测试减值。",
+              "contentMd": "## 核心概念\n\n无形资产后续可选成本模式（cost）或重估模式（revaluation，仅限活跃市场存在公允价值）。有限寿命无形资产按期系统摊销（amortisation）；无限寿命无形资产不摊销但每年至少测试减值，并复核寿命是否仍为无限。\n\n## 常见考法\n\n判断无形资产应摊销还是做减值测试，或处理重估模式。\n\n## 易错点\n\n重估模式只能用于存在活跃市场的无形资产（如可交易牌照）。\n\n## 例子\n\n无限寿命的商标不摊销，但每年做减值测试。\n\n## 考试提醒\n\n用“寿命有限与否”决定摊销或减值测试。",
+              "standardReference": "IAS 38",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.6.6",
+              "title": "Impairment of intangible assets",
+              "summary": "当无形资产账面价值超过可收回金额时，应确认减值损失。",
+              "contentMd": "## 核心概念\n\n可收回金额（recoverable amount）= 公允价值减处置成本（FVLCTS）与使用价值（VIU）两者较高者。若账面价值超过可收回金额，应确认减值损失，冲减资产账面并可计入损益（重估模式下先冲重估盈余）。无明确迹象时，无限寿命无形资产与商誉仍需每年测试。\n\n## 常见考法\n\n计算可收回金额与减值损失，或判断减值测试时点。\n\n## 易错点\n\n减值不可转回（对商誉），其他资产只能冲回至未减值前的水平。\n\n## 例子\n\n商标账面 80 万、可收回金额 60 万，确认减值 20 万。\n\n## 考试提醒\n\n记住“较低者=可收回金额中的较高者（FVLCTS vs VIU）”。",
+              "standardReference": "IAS 36",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Investment property (IAS 40)",
+          "points": [
+            {
+              "code": "SBR.6.7",
+              "title": "Classification of investment property",
+              "summary": "投资性房地产是赚取租金或资本增值而持有的房地产，与自用及存货区分。",
+              "contentMd": "## 核心概念\n\n投资性房地产（investment property）指为赚取租金或资本增值（或两者）而持有的房地产（土地、建筑或部分）。自用房地产、正常经营中出售的存货性房地产、以及自建/在建的投资性房地产需区分处理。\n\n## 常见考法\n\n判断某不动产属于投资性房地产还是自用/存货。\n\n## 易错点\n\n为自用而持有的建筑属于 PPE，不是投资性房地产。\n\n## 例子\n\n公司出租给第三方运营的写字楼按投资性房地产核算；自用总部大楼按固定资产核算。\n\n## 考试提醒\n\n用“持有没有（租金/增值）vs 自用/出售”区分。",
+              "standardReference": "IAS 40",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.6.8",
+              "title": "Fair value vs cost model",
+              "summary": "投资性房地产可选择公允价值或成本模式；公允价值变动计入损益。",
+              "contentMd": "## 核心概念\n\n投资性房地产后续可选择公允价值模式（fair value model）或成本模式（cost model）。公允价值模式下，公允价值变动计入当期损益，且不计提折旧。成本模式则按 IAS 16 处理（计提折旧与减值）。一旦选择公允价值模式，转换通常不可逆。\n\n## 常见考法\n\n计算公允价值变动损益，或比较两种模式对报表的影响。\n\n## 易错点\n\n公允价值模式下不折旧，公允价值波动直接进损益。\n\n## 例子\n\n投资性地产从 200 万升至 220 万，增值 20 万计入当期损益。\n\n## 考试提醒\n\n“公允价值模式无折旧、变动进损益”是高频率考点。",
+              "standardReference": "IAS 40",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.6.9",
+              "title": "Transfers to and from investment property",
+              "summary": "用途改变导致投资性房地产与自用/存货之间转换，按公允价值或账面价值处理。",
+              "contentMd": "## 核心概念\n\n当用途改变（如自用转为出租、出租转为自用、以公允价值计量转为存货）时进行转换。转换为公允价值模式下，自用转出租按转移日公允价值，其与账面价值差额作为重估增值处理；出租转自用时账面价值即固定资产成本；存货转投资性房地产（公允价值模式）差额计入损益。\n\n## 常见考法\n\n处理投资性房地产与自用/存货之间的转换。\n\n## 易错点\n\n自用转投资性房地产（公允价值模式）的增值按重估处理，差额计入 OCI 或损益。\n\n## 例子\n\n总部大楼改出租，按转换日公允价值确认，与账面差额按重估处理。\n\n## 考试提醒\n\n转换处理的差异取决于转换方向与计量模式。",
+              "standardReference": "IAS 40",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Taxation and Provisions",
+      "description": "掌握 IAS 12 所得税（含递延税）与 IAS 37 准备、或有负债和或有资产的会计处理。",
+      "topics": [
+        {
+          "title": "Income tax (IAS 12)",
+          "points": [
+            {
+              "code": "SBR.7.1",
+              "title": "Current tax and deferred tax concept",
+              "summary": "所得税费用由当期所得税与递延所得税构成；递延税源于资产负债计税基础与账面价值的差异。",
+              "contentMd": "## 核心概念\n\n所得税（income tax）= 当期税（current tax，当期应税利润×税率）+ 递延税（deferred tax）。递延税源于暂时性差异（temporary differences）：资产/负债的账面价值与其计税基础（tax base）之差。递延所得税负债（DTA/DTL）按预期转回期间适用税率计量。\n\n## 常见考法\n\n识别暂时性差异，或计算递延税资产/负债的期末余额。\n\n## 易错点\n\n计税基础是“税法上的账面价值”；账面价值与计税基础之差决定暂时性差异。\n\n## 例子\n\n资产账面 100、计税基础 70，导致应纳税暂时性差异 30，产生递延所得税负债。\n\n## 考试提醒\n\n把“账面价值−计税基础”作为计算暂时性差异的起点。",
+              "standardReference": "IAS 12",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.7.2",
+              "title": "Deferred tax assets and recognition",
+              "summary": "递延所得税资产仅在很可能有足够应税利润抵销时确认，并需定期复核。",
+              "contentMd": "## 核心概念\n\n递延所得税资产（deferred tax asset）因可抵扣暂时性差异、未使用税收亏损与抵减而产生，须在“很可能有未来应税利润可利用”时确认。主体需复核未确认的递延税资产；已确认资产若不再很可能实现，应减记。\n\n## 常见考法\n\n判断递延税资产能否确认，或处理其减值/冲回。\n\n## 易错点\n\n递延税资产确认受“很可能实现”约束，不能仅因存在差异就确认。\n\n## 例子\n\n公司预计未来有足够盈利，故确认可抵扣亏损产生的递延税资产。\n\n## 考试提醒\n\n记牢“可抵扣差异→DTA，应税差异→DTL”的对应。",
+              "standardReference": "IAS 12",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.7.3",
+              "title": "Taxation in the statement of profit or loss and OCI",
+              "summary": "当期与递延税按产生项目归属，分别计入损益、OCI 或权益。",
+              "contentMd": "## 核心概念\n\n所得税（当期+递延）通常计入损益；若与在其他综合收益（OCI）或直接权益中确认的项目相关（如重估增值、某些金融工具公允价值变动），则税项也计入对应报表行。税率变化或递延税重新计量（如税率变动）计入损益。\n\n## 常见考法\n\n判断某税项应计入损益还是 OCI，或处理税率变动的影响。\n\n## 易错点\n\n与重估增值相关的递延税计入 OCI，而非损益。\n\n## 例子\n\n厂房重估增值产生的递延税负债变动计入 OCI。\n\n## 考试提醒\n\n用“与 OCI 项目的关联”判断税项归属。",
+              "standardReference": "IAS 12",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Provisions, contingent liabilities and assets (IAS 37)",
+          "points": [
+            {
+              "code": "SBR.7.4",
+              "title": "Provisions: recognition criteria",
+              "summary": "准备需同时满足现时义务、很可能流出与可靠估计三个确认条件。",
+              "contentMd": "## 核心概念\n\n准备（provision）是时间或金额不确定的负债。确认需同时满足：1) 因过去事项产生现时义务（legal 或 constructive）；2) 经济利益很可能（probable）流出；3) 金额可可靠估计。若仅具可能性，则是或有负债（contingent liability），不得确认，仅披露。\n\n## 常见考法\n\n判断某义务应确认准备还是披露或有负债。\n\n## 易错点\n\n“很可能”通常指超过 50% 的可能；推定义务（constructive obligation）也构成现时义务。\n\n## 例子\n\n因过去担保产生的赔偿责任很可能发生且可估计，应确认准备。\n\n## 考试提醒\n\n用“现时义务+很可能+可靠估计”三条件判定确认。",
+              "standardReference": "IAS 37",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.7.5",
+              "title": "Measurement and review of provisions",
+              "summary": "准备按履行义务所需支出的最佳估计计量，并考虑折现与风险。",
+              "contentMd": "## 核心概念\n\n准备按清偿义务所需支出的最佳估计（best estimate）计量，可考虑风险与不确定性；若货币时间价值重大且折现影响重大，应按现时无风险利率税前折现。每个报告日应复核准备并调整，以保证反映当前最佳估计。\n\n## 常见考法\n\n计算准备金额，或处理折现与复核调整。\n\n## 易错点\n\n折现前后金额差异应计入利息/当期损益。\n\n## 例子\n\n预计 3 年后支付 1,000、折现率 5%，现值约 863.8 元。\n\n## 考试提醒\n\n“最佳估计+概率加权+折现”是计量的三个要点。",
+              "standardReference": "IAS 37",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.7.6",
+              "title": "Restructuring and onerous contracts",
+              "summary": "重组准备仅在存在详细且已开始执行的重组计划时确认；亏损合同应确认损失准备。",
+              "contentMd": "## 核心概念\n\n重组准备（restructuring provision）仅在主体有“详细的重组计划并已开始执行或向受影响方公告、形成推定义务”时确认，且仅确认直接由重组导致、与被重组业务无关的支出（如遣散费、提前终止租赁）。亏损合同（onerous contract）指不可避免成本超过预期利益的合同，应确认损失。\n\n## 常见考法\n\n判断重组准备能否确认，或处理亏损合同。\n\n## 易错点\n\n重组准备必须是“推定义务”且计划已充分沟通；初始确认仅限于增量直接成本。\n\n## 例子\n\n公司公布并开始执行关闭某工厂计划，可确认遣散等相关准备。\n\n## 考试提醒\n\n抓“详细计划+已宣布或执行”这一重组准备确认门槛。",
+              "standardReference": "IAS 37",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Complex tax and provision issues",
+          "points": [
+            {
+              "code": "SBR.7.7",
+              "title": "Deferred tax in business combinations",
+              "summary": "并购中确认的可辨认资产和负债的递延税需计入商誉或收购会计。",
+              "contentMd": "## 核心概念\n\n业务合并中，被收购的可辨认资产与负债按公允价值确认，其账面价值与计税基础差异产生暂时性差异，需确认递延税。这会影响商誉或合并调整。商誉本身的计税基础与账面差异一般不确认递延税（除非有其他影响）。\n\n## 常见考法\n\n处理并购中的递延税及对商誉的影响。\n\n## 易错点\n\n合并中确认的递延税会影响商誉金额。\n\n## 例子\n\n被并方资产公允价值高于计税基础，产生应纳税暂时性差异，需确认递延税负债并纳入收购会计。\n\n## 考试提醒\n\n记住“合并中的暂时性差异→递延税→影响商誉/收购”。",
+              "standardReference": "IAS 12 / IFRS 3",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.7.8",
+              "title": "Judgements in provisions",
+              "summary": "准备的估计存在大量判断空间，是盈余管理与审计关注的重点。",
+              "contentMd": "## 核心概念\n\n准备涉及重大估计判断，如诉讼赔偿概率、保修成本、亏损合同与重组范围。管理层可能利用“过度计提（cookie jar）”或“少计提”来平滑利润，审计师需评估估计假设的合理性并关注动机。\n\n## 常见考法\n\n识别准备的盈余管理手段，或评估管理层估计的合理性。\n\n## 易错点\n\n准备的“进退”弹性既是会计也是风险点。\n\n## 例子\n\n管理层为平滑利润而多提或有诉讼准备，属利用估计进行盈余管理。\n\n## 考试提醒\n\n从“判断+激励+证据”视角审视准备估计。",
+              "standardReference": "IAS 37",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.7.9",
+              "title": "Contingent liabilities and measurement of uncertainty",
+              "summary": "或有负债不确认但需披露，或有资产在很可能获得时披露、基本确定时确认。",
+              "contentMd": "## 核心概念\n\n或有负债（contingent liability）是可能性不高或无法可靠估计的潜在义务，不确认但披露其性质与潜在金额。或有资产（contingent asset）是可能产生的经济利益，仅在经济利益几乎确定（virtually certain）实现时才确认；很可能实现则披露。\n\n## 常见考法\n\n区分准备、或有负债与或有资产的处理。\n\n## 易错点\n\n或有资产确认门槛是“基本确定”，而非“很可能”。\n\n## 例子\n\n公司胜诉索赔几乎确定为第三方赔付，可确认或有资产。\n\n## 考试提醒\n\n把“很可能→准备/披露”“基本确定→或有资产确认”的界限记牢。",
+              "standardReference": "IAS 37",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Group Reporting",
+      "description": "掌握控制、合并报表、商誉、内部交易抵销与联营合营的会计处理。",
+      "topics": [
+        {
+          "title": "Control and consolidation",
+          "points": [
+            {
+              "code": "SBR.8.1",
+              "title": "IFRS 10 concept of control",
+              "summary": "控制是投资方对被投资方拥有权力、享有可变动回报并能运用权力影响回报。",
+              "contentMd": "## 核心概念\n\nIFRS 10 定义控制（control）为：投资方对被投资方拥有权力（power）、对被投资方可变回报（variable returns）享有权利或承担风险、并能通过运用权力影响其回报。三者同时满足才构成控制。控制评估需考虑潜在表决权、合同安排与实际主导能力。\n\n## 常见考法\n\n判断母公司是否控制子公司，或分析潜在表决权对控制的影响。\n\n## 易错点\n\n“权力+可变动回报+运用权力影响回报”三要素缺一不可。\n\n## 例子\n\n母公司持股 55% 且能主导董事会决策，构成对子公司的控制。\n\n## 考试提醒\n\n记住控制三要素，判断时逐项检查。",
+              "standardReference": "IFRS 10",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.8.2",
+              "title": "Business combinations and goodwill",
+              "summary": "IFRS 3 采用购买法，商誉=合并对价+非控股权益−可辨认净资产公允价值。",
+              "contentMd": "## 核心概念\n\nIFRS 3 业务合并（business combination）采用购买法（acquisition method）。商誉（goodwill）＝转让对价（consideration transferred）＋非控股权益（NCI）金额－取得可辨认净资产的公允价值。NCI 可按公允价值（full goodwill）或按可辨认净资产份额（proportionate）计量，两种选择影响商誉金额。\n\n## 常见考法\n\n计算并购商誉，或比较不同 NCI 计量法下的商誉差异。\n\n## 易错点\n\n商誉只在合并报表出现；若购买价低于净资产则为 bargain purchase（负商誉），计入损益。\n\n## 例子\n\n对价 500、NCI（公允）100、可辨认净资产公允 450，则商誉 = 150。\n\n## 考试提醒\n\n记住商誉公式，并区分 NCI 两种计量选择。",
+              "standardReference": "IFRS 3",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.8.3",
+              "title": "Non-controlling interests",
+              "summary": "非控股权益代表非母公司股东持有子公司的权益，需在合并权益中单独列示。",
+              "contentMd": "## 核心概念\n\n非控股权益（non-controlling interest, NCI）指子公司中不属于母公司的权益部分。在合并资产负债表中，NCI 作为权益的一部分单列；在合并损益表中，NCI 分享子公司损益。NCI 计量可选公允价值（全部法）或按可辨认净资产比例分摊（部分法）。\n\n## 常见考法\n\n计算 NCI 的期末金额或其分享的损益份额。\n\n## 易错点\n\nNCI 也分享子公司内部交易抵销后的损益与净资产。\n\n## 例子\n\n子公司利润 100、NCI 持股 20%，NCI 分享利润 20。\n\n## 考试提醒\n\n把 NCI 当作合并报表中独立的“外部股东”份额处理。",
+              "standardReference": "IFRS 3 / IFRS 10",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Consolidation adjustments",
+          "points": [
+            {
+              "code": "SBR.8.4",
+              "title": "Intra-group trading and unrealised profit",
+              "summary": "内部交易毛利需消除未实现利润，并抵销内部往来、商品与固定资产交易。",
+              "contentMd": "## 核心概念\n\n合并报表需抵销（eliminate）内部交易：抵销母子公司间的内部销售收入/成本、内部应收应付，以及未实现利润（unrealised profit，如内部销售存货尚未对外出售、内部发生交易当年利润在集团内部未实现）。未实现利润还应调整存货或固定资产账面价值，并按持股比例分配至 NCI。\n\n## 常见考法\n\n计算内部交易未实现利润的抵销，或处理内部固定资产交易。\n\n## 易错点\n\n未实现利润抵销会同时影响母公司/集团损益与 NCI 损益。\n\n## 例子\n\n子公司以 120 卖给母公司成本 100 的存货，期末仍未销售，集团应抵销 20 未实现毛利。\n\n## 考试提醒\n\n“未对外销售=未实现利润需抵销”是核心判断。",
+              "standardReference": "IFRS 10",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.8.5",
+              "title": "Fair value adjustments at acquisition",
+              "summary": "并购时被并方可辨认资产/负债需按公允价值调整，并计入合并报表与商誉。",
+              "contentMd": "## 核心概念\n\n收购日需把被并方的可辨认资产与负债按公允价值（而非账面价值）计量，产生的公允价值调整（fair value adjustments）在合并报表中体现，并影响商誉与后续折旧/摊销。历史未确认资产（如内部品牌）若符合条件也应确认。\n\n## 常见考法\n\n计算公允调整对合并报表（资产、折旧、商誉）的影响。\n\n## 易错点\n\n公允调整影响后续折旧与摊销，进而影响合并损益。\n\n## 例子\n\n被并方土地账面 80、公允 120，增值 40 需合并调整并计入商誉计算。\n\n## 考试提醒\n\n“公允调整+折旧摊销+商誉”是一条计算主线。",
+              "standardReference": "IFRS 3",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.8.6",
+              "title": "Goodwill impairment and disposal of subsidiaries",
+              "summary": "商誉需每年减值测试，处置子公司时应终止确认并计算处置损益。",
+              "contentMd": "## 核心概念\n\n商誉不摊销，每年进行减值测试（或更频繁）。商誉减值计入损益且不可转回。处置子公司（disposal）时，需在实现控制权失去之日终止确认子公司资产与负债、NCI，重新计量保留权益（remeasurement），并计算处置利得/损失（= 处置对价 + 保留权益公允 − 处置日净资产 − 商誉相关等）。\n\n## 常见考法\n\n计算商誉减值或处置子公司的利得损失。\n\n## 易错点\n\n部分处置导致失去控制但保留权益时，须重估保留权益并确认处置损益。\n\n## 例子\n\n出售全部子公司股权，处置对价与处置日净资产账面之差形成处置损益。\n\n## 考试提醒\n\n“商誉减值不可转回”“处置时控制权消失”是关键词。",
+              "standardReference": "IFRS 3 / IFRS 10",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Joint arrangements and associates",
+          "points": [
+            {
+              "code": "SBR.8.7",
+              "title": "IFRS 11 joint arrangements",
+              "summary": "合营安排分为共同经营（共同享有资产与义务）与合营企业（共同享有净资产），处理方式不同。",
+              "contentMd": "## 核心概念\n\n合营安排（joint arrangement）由两个及以上方共同控制，分为：共同经营（joint operation，各方对资产与义务享有权利/承担责任，按份额确认资产、负债、收入与费用）与合营企业（joint venture，各方对净资产享有权利，按权益法核算）。\n\n## 常见考法\n\n判断合营安排属于共同经营还是合营企业，并确定核算方法。\n\n## 易错点\n\n共同经营是“逐项份额法”，合营企业是“权益法”，二者不同。\n\n## 例子\n\n两家公司共同经营一条石油管线并按份额确认资产费用，属共同经营。\n\n## 考试提醒\n\n用“共享资产/义务 vs 共享净资产”区分两类安排。",
+              "standardReference": "IFRS 11 / IAS 28",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.8.8",
+              "title": "Associates and equity method",
+              "summary": "联营企业是被投资方拥有重大影响但无控制，采用权益法核算。",
+              "contentMd": "## 核心概念\n\n联营（associate）是投资方对其具有重大影响（significant influence）但不控制或共同控制的被投资方，通常持股 20%~50%。按权益法（equity method）：初始按成本确认，后续按享有被投资方净损益份额调整，并减少收到的股利。\n\n## 常见考法\n\n判断是否构成联营，或计算权益法下投资账面价值与投资收益。\n\n## 易错点\n\n“重大影响”是判断标准，持股比例是推定而非绝对。\n\n## 例子\n\n公司持股 30% 并委派董事，构成重大影响，按权益法核算。\n\n## 考试提醒\n\n记住“权益法：初始成本+份额损益−股利”。",
+              "standardReference": "IAS 28 / IFRS 11",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.8.9",
+              "title": "Disclosures for group reporting",
+              "summary": "IFRS 12 要求披露控制的判断、子/联营/合营信息与重要性限制。",
+              "contentMd": "## 核心概念\n\nIFRS 12 要求披露：对子公司、联营与合营企业的控制/重大影响判断、主要子公司信息、NCI 明细、非控制的结构化主体，以及因权力受限或不能控制时的披露。这些披露帮助使用者理解集团结构与风险。\n\n## 常见考法\n\n指出集团披露的要点，或评价披露是否充分。\n\n## 易错点\n\nIFRS 12 强调“披露控制判断”与“重要限制”，非仅列示主体。\n\n## 例子\n\n集团披露主要子公司的持股比例、NCI 份额与关键限制。\n\n## 考试提醒\n\n关注“控制判断+结构+限制+NCI”四大披露块。",
+              "standardReference": "IFRS 12",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Foreign Currency Translation",
+      "description": "掌握 IAS 21 外币交易与外币财务报表折算，以及无货币市场处理。",
+      "topics": [
+        {
+          "title": "Foreign currency transactions (IAS 21)",
+          "points": [
+            {
+              "code": "SBR.9.1",
+              "title": "Functional currency and spot rate",
+              "summary": "交易按交易日的即期汇率折算，结算日或报告日汇率差异计入损益。",
+              "contentMd": "## 核心概念\n\n外币交易（foreign currency transaction）在初始确认时按交易日即期汇率（spot rate）折算为功能货币记账。到资产负债表日，货币性项目（monetary items，如现金、应收、应付）按期末汇率（closing rate）折算，非货币性项目按历史汇率或公允价值时点汇率折算，产生的汇兑差额（exchange differences）计入当期损益。\n\n## 常见考法\n\n计算交易日与期末日的折算金额及汇兑损益。\n\n## 易错点\n\n货币性项目期末重估、非货币性不重估，是折算的要点。\n\n## 例子\n\n期初 $100 应收款（功能货币本币），期末汇率变动产生的汇兑差额进损益。\n\n## 考试提醒\n\n先区分“货币性 vs 非货币性”，再决定是否按期末汇率重估。",
+              "standardReference": "IAS 21",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.9.2",
+              "title": "Functional currency determination",
+              "summary": "功能货币是主体主要经营环境所处货币，判断需考虑销售、定价、融资等因素。",
+              "contentMd": "## 核心概念\n\n功能货币（functional currency）是主体经营所处主要经济环境的货币。判断依据包括：销售与定价主要货币、影响售价与劳动力成本的货币、融资与经营收益主要货币等。一旦确立应持续使用，除非主要环境显著变化。\n\n## 常见考法\n\n判断某主体的功能货币，或解释变更的功能货币处理。\n\n## 易错点\n\n功能货币是“经营环境”货币，不等于列报货币（presentation currency）。\n\n## 例子\n\n一家完全以美元定价与结算、主要市场在欧美的公司，功能货币为美元。\n\n## 考试提醒\n\n用“销售、定价、融资、成本”四个线索判断功能货币。",
+              "standardReference": "IAS 21",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.9.3",
+              "title": "Monetary vs non-monetary and exchange differences",
+              "summary": "货币性项目按期末汇率折算，非货币性按历史汇率，汇兑差异计入损益或 OCI。",
+              "contentMd": "## 核心概念\n\n货币性项目（monetary items）是有固定或可确定金额的现金或应收应付，按期末汇率折算；非货币性项目（non-monetary）如固定资产、存货按历史汇率（或公允价值时点汇率）折算。产生的汇兑差额通常计入当期损益；但对构成处置境外经营净投资的货币性项目，其汇兑差异计入 OCI 直至处置时重分类。\n\n## 常见考法\n\n区分货币性/非货币性并计算汇兑损益。\n\n## 易错点\n\n构成净投资的外币借款汇兑差额计入 OCI 而非损益。\n\n## 例子\n\n境外子公司净投资相关的外币借款汇兑差异计入 OCI。\n\n## 考试提醒\n\n“净投资套期相关差异进 OCI”是特殊但高频的考点。",
+              "standardReference": "IAS 21",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Translation of foreign operations",
+          "points": [
+            {
+              "code": "SBR.9.4",
+              "title": "Translation of foreign operations",
+              "summary": "境外经营的资产与负债按期末汇率、损益按平均汇率折算，汇兑差额计入 OCI。",
+              "contentMd": "## 核心概念\n\n折算境外经营（foreign operation）时，资产与负债按期末汇率（closing rate），收入与费用按交易日期汇率（常取平均汇率），权益成分按历史汇率折算。产生的折算差额（translation reserve）计入其他综合收益（OCI），在处置境外经营时重分类到损益（recycling）。\n\n## 常见考法\n\n计算境外子公司折算后的净资产与折算差异。\n\n## 易错点\n\n折算差异计入 OCI，与“交易汇兑差额进损益”不同。\n\n## 例子\n\n境外子公司资产负债表按期末汇率、利润表按平均汇率折算，递延计入 OCI。\n\n## 考试提醒\n\n“资产负债期末汇率、损益平均汇率、差额进 OCI”是折算口诀。",
+              "standardReference": "IAS 21",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.9.5",
+              "title": "Hyperinflationary economies",
+              "summary": "在恶性通货膨胀经济中，需先重述报表再折算，以确保一致性。",
+              "contentMd": "## 核心概念\n\nIAS 21 与 IAS 29 要求：若功能货币属于恶性通货膨胀经济，报表须先按一般物价指数重述（restate），再按期末汇率折算为列报货币。IAS 21 列出了判断恶性通胀的定性指标（如三年累计通胀接近或超过 100%）。\n\n## 常见考法\n\n判断某经济是否属于恶性通胀，或处理重述后的折算。\n\n## 易错点\n\n恶性通胀的功能货币须重述后再折算，不能直接按汇率折算。\n\n## 例子\n\n某国三年物价翻倍，其子公司报表需先按物价指数重述再折算。\n\n## 考试提醒\n\n记住“先重述、后折算”的顺序。",
+              "standardReference": "IAS 21 / IAS 29",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "SBR.9.6",
+              "title": "Disposal of foreign operations",
+              "summary": "处置（或失去控制）境外经营时，累计折算差异重分类到损益。",
+              "contentMd": "## 核心概念\n\n当处置全部或部分境外经营（如出售子公司、部分处置仍保留控制时按比例重分类）时，之前计入 OCI 的累计折算差异（translation reserve）应重分类（recycle）到当期损益。仅部分处置并保留控制的，按比例转入 NCI。\n\n## 常见考法\n\n处理处置境外经营时折算差异的重分类。\n\n## 易错点\n\n“处置”才触发重分类；保留控制的部分处置按比例转移而非全额重分类。\n\n## 例子\n\n公司出售某境外子公司，其累计折算差额转入当期损益。\n\n## 考试提醒\n\n把“处置→重分类进损益”作为处理折算差异的终端动作。",
+              "standardReference": "IAS 21",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Foreign currency in group context",
+          "points": [
+            {
+              "code": "SBR.9.7",
+              "title": "Translation adjustments in consolidation",
+              "summary": "合并境外子公司时，其折算差额计入 OCI，并在合并中与 NCI 份额分配。",
+              "contentMd": "## 核心概念\n\n合并报表中，境外子公司的折算差额（translation reserve）计入 OCI，并按持股比例在母公司与非控股权益（NCI）之间分配。集团内往来产生的汇兑差异也可能需要抵销或调整。\n\n## 常见考法\n\n在合并中处理境外子公司的折算差异及 NCI 归属。\n\n## 易错点\n\n折算差额属于 OCI，不计入当期损益，且需向 NCI 分配。\n\n## 例子\n\n境外子公司因汇率变动产生的折算差额，20% 分配到 NCI。\n\n## 考试提醒\n\n“折算差额→OCI→按比例分给 NCI”是合并处理主线。",
+              "standardReference": "IAS 21 / IFRS 10",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.9.8",
+              "title": "Hedging a net investment in a foreign operation",
+              "summary": "为对冲境外净投资的套期，其有效部分按净投资套期处理，差异计入 OCI。",
+              "contentMd": "## 核心概念\n\n主体可用外币借款或金融工具对冲境外净投资（net investment）敞口，构成净投资套期（net investment hedge）。套期工具的有效部分利得/损失计入 OCI，并在处置境外经营时重分类至损益；无效部分计入当期损益。\n\n## 常见考法\n\n判断净投资套期的处理，或区分有效与无效部分。\n\n## 易错点\n\n净投资套期的有效部分进 OCI 与折算差异对应，无效部分进损益。\n\n## 例子\n\n母公司借入外币借款对冲子公司净投资风险，有效套期部分计入 OCI。\n\n## 考试提醒\n\n把“净投资套期→OCI，无效→损益”与折算差异逻辑对齐。",
+              "standardReference": "IAS 21 / IFRS 9",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.9.9",
+              "title": "Foreign currency disclosures",
+              "summary": "主体应披露汇率假设、汇兑差异与折算方法等外币相关信息。",
+              "contentMd": "## 核心概念\n\nIAS 21 要求披露功能货币与列报货币的选择、重大汇兑差异的性质与金额、境外经营折算采用的方法等。使用者据此理解汇率变动对报表的影响与风险暴露。\n\n## 常见考法\n\n指出应披露的外币信息，或评价汇率风险的披露充分性。\n\n## 易错点\n\n披露需区分“已实现/未实现汇兑损益”与“折算差异（OCI）”。\n\n## 例子\n\n公司披露本年度汇率变动对利润的影响与对境外净投资的折算差额。\n\n## 考试提醒\n\n覆盖“功能货币+汇兑差异+折算方法”的披露框架。",
+              "standardReference": "IAS 21",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Analysis, Interpretation and Ethics in Reporting",
+      "description": "运用财务比率与质量分析评价业绩与财务状况，并处理报表中涉及的伦理判断。",
+      "topics": [
+        {
+          "title": "Financial statement analysis",
+          "points": [
+            {
+              "code": "SBR.10.1",
+              "title": "Profitability and efficiency ratios",
+              "summary": "盈利能力与营运效率比率（ROCE、净利率、资产周转等）评估经营业绩与资本使用效率。",
+              "contentMd": "## 核心概念\n\n盈利能力指标包括 ROCE（资本回报率）、毛利率、净利率；营运效率指标包括资产周转率（asset turnover）、存货/应收/应付周转天数。把 ROCE 分解为净利率×资产周转率（DuPont 分析），可定位盈利改善的来源。\n\n## 常见考法\n\n计算并解读盈利能力与效率指标，或进行杜邦分解。\n\n## 易错点\n\nROCE 用扣除利息股利前的利润与投入资本（权益+长期负债）相比。\n\n## 例子\n\n某企业净利率 8%、资产周转率 1.5，则 ROCE 约 12%。\n\n## 考试提醒\n\n把“利润÷资本”等口径记清，避免分子分母口径不一致。",
+              "standardReference": "IFRS / ACCA SBR Analysis",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.10.2",
+              "title": "Liquidity, gearing and cash flow analysis",
+              "summary": "流动性、杠杆与现金流指标评估短期偿付能力与财务风险结构。",
+              "contentMd": "## 核心概念\n\n流动性指标含流动比率、速动比率；杠杆指标含资产负债率、利息保障倍数（interest cover）、债务权益比；现金流指标含经营现金流与自由现金流。杠杆升高会放大财务风险，利息保障倍数下降预示偿债压力。\n\n## 常见考法\n\n计算并解读流动性、杠杆与现金流指标。\n\n## 易错点\n\n速动比率剔除了存货，更能反映短期变现能力。\n\n## 例子\n\n利息保障倍数 = 息税前利润÷利息费用，低于 1 说明经营利润不足付息。\n\n## 考试提醒\n\n把“偿付能力、杠杆、现金流”三类指标与风险判断关联。",
+              "standardReference": "IFRS / ACCA SBR Analysis",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.10.3",
+              "title": "Limitations of ratio analysis",
+              "summary": "比率分析依赖可比性、会计政策与行业差异，存在局限需结合定性判断。",
+              "contentMd": "## 核心概念\n\n比率分析的局限包括：行业与公司间可比性有限、会计政策与估计差异影响数字、历史成本或公允价值造成失真、忽略通货膨胀与非财务因素、比率可能被盈余管理操纵。因此比率需结合定性信息与趋势判断。\n\n## 常见考法\n\n指出比率分析局限，或评估某结论是否可靠。\n\n## 易错点\n\n比率不能替代判断，需结合经营、行业与现金流等定性信息。\n\n## 例子\n\n一家公司流动比率高，但如果存货积压，实际流动性仍可能紧张。\n\n## 考试提醒\n\n回答局限时强调“可比性、会计政策、时间性、非财务”四个方面。",
+              "standardReference": "IFRS / ACCA SBR Analysis",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Interpretation and judgement",
+          "points": [
+            {
+              "code": "SBR.10.4",
+              "title": "Interpreting financial statements and making judgements",
+              "summary": "要把报表数据转化为洞察，需结合行业、战略与现金流进行综合判断。",
+              "contentMd": "## 核心概念\n\n高质量的报表解读需把财务比率与公司战略、行业周期、经营模式与未来展望结合，识别增长质量、盈利可持续性与风险，避免只看单一指标。\n\n## 常见考法\n\n基于报表数据评价企业经营业绩与风险，并给出改进建议。\n\n## 易错点\n\n利润高增长若伴随现金流恶化，则增长质量存疑。\n\n## 例子\n\n收入利润双增但经营现金流为负，可能反映应收/存货积压，应引起警惕。\n\n## 考试提醒\n\n用“财务+战略+现金流”三维度解读报表。",
+              "standardReference": "IFRS / ACCA SBR Analysis",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.10.5",
+              "title": "Earnings management and financial reporting quality",
+              "summary": "报告质量取决于是否如实反映，盈余管理与报表粉饰会损害可信度。",
+              "contentMd": "## 核心概念\n\n报告质量（reporting quality）核心是财务信息如实反映经济实质。盈余管理（earnings management）通过会计政策选择、应计操纵或真实活动操控（如压成本、提前销售）平滑或美化利润。识别手段包括异常应计、收入与现金流背离、频繁会计变更等。\n\n## 常见考法\n\n识别盈余管理与报表粉饰迹象，或评估报告质量。\n\n## 易错点\n\n合法的会计判断与违规操纵界限需结合动机与实质判断。\n\n## 例子\n\n公司通过年底提前确认大批收入推高利润，属收入操纵迹象。\n\n## 考试提醒\n\n从“动机+异常指标+会计政策变更”识别报告质量问题。",
+              "standardReference": "IFRS / ACCA SBR Analysis",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.10.6",
+              "title": "Impact of different reporting frameworks",
+              "summary": "不同准则与监管要求（如 IFRS 与当地准则差异）影响报表可比性与解读。",
+              "contentMd": "## 核心概念\n\n不同报告框架（如 IFRS、US GAAP 或监管要求的差异）会对收入、租赁、金融工具、披露等产生不同结果，影响跨国可比性。使用者需理解框架差异，评估其在比较与分析时的局限。\n\n## 常见考法\n\n分析不同框架下报表差异对分析解读的影响。\n\n## 易错点\n\n跨框架比较时需调整口径差异，否则结论失真。\n\n## 例子\n\n同一公司在 IFRS 与美国准则下租赁或收入确认结果可能不同，影响可比性。\n\n## 考试提醒\n\n记住“框架差异→口径不可比→需调整”的逻辑。",
+              "standardReference": "IFRS / ACCA SBR Analysis",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Ethics and professional judgement in reporting",
+          "points": [
+            {
+              "code": "SBR.10.7",
+              "title": "Ethical issues in preparing and presenting reports",
+              "summary": "编制与呈报报表需坚持真实公允、不误导，平衡利益相关者诉求。",
+              "contentMd": "## 核心概念\n\n报表编制者须确保信息真实公允、完整、不误导使用者的决策。面对管理层美化报表的压力，会计人员应坚持诚信与客观，必要时依据伦理与准则拒绝违规操作，并妥善披露。\n\n## 常见考法\n\n分析报表编制中的伦理冲突及应对。\n\n## 易错点\n\n“打擦边球”的报表表述同样可能构成误导。\n\n## 例子\n\n管理层要求把一次性收益包装为经常性收入，编制者应拒绝并如实分类。\n\n## 考试提醒\n\n回答伦理题用“识别威胁→对照原则→给出应对”。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "SBR.10.8",
+              "title": "Professional judgement and scepticism",
+              "summary": "专业判断与职业怀疑是确保报表质量、应对复杂与模糊情形的重要能力。",
+              "contentMd": "## 核心概念\n\n专业判断（professional judgement）是在准则框架内结合证据与经验作出合理评估；职业怀疑（professional scepticism）是保持质疑、审慎核实的态度。二者共同帮助识别风险、挑战管理层假设并提升报告可靠性。\n\n## 常见考法\n\n说明专业判断与职业怀疑在报表编制中的价值。\n\n## 易错点\n\n职业怀疑不是“怀疑一切”，而是基于证据的审慎质疑。\n\n## 例子\n\n审计师对管理层提供的高估利润证据保持怀疑，并要求补充佐证。\n\n## 考试提醒\n\n“判断+怀疑”是应对复杂情形的两大能力。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "SBR.10.9",
+              "title": "The role of the reporting accountant in society",
+              "summary": "会计报告者肩负公众利益责任，其专业行为影响资本市场与经济运行。",
+              "contentMd": "## 核心概念\n\n会计与报告职业承担公众利益（public interest）责任，其工作为投资者与市场提供可信信息。职业行为不当（如帮助财务造假）会损害信任、破坏市场秩序，故须坚守独立、客观与专业行为。\n\n## 常见考法\n\n论述报告会计的社会责任，或分析失信带来的后果。\n\n## 易错点\n\n公众利益高于个别客户利益（超越客户义务）。\n\n## 例子\n\n会计人员因披露造假而受处分，警示其坚守公众利益的重要性。\n\n## 考试提醒\n\n记住“公众利益”是职业行为的根本立场。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

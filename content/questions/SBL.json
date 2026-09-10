@@ -1,0 +1,77 @@
+[
+  {
+    "paper": "SBL",
+    "variant": "GLO",
+    "chapterCode": "01",
+    "topicTitle": "Leadership theories and styles",
+    "kpTitle": "Leadership qualities and styles",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "A chief executive inspires employees by articulating a compelling vision, encouraging creative thinking and providing individual coaching to develop each team member. This approach is most consistent with which leadership style?\n\nA. Transactional leadership\nB. Transformational leadership\nC. Laissez-faire leadership\nD. Autocratic leadership",
+    "options": [
+      { "key": "A", "text": "Transactional leadership", "isCorrect": false, "feedbackMd": "错误：交易型领导依赖奖惩与例外管理维持既定绩效，而非愿景与个别激励。" },
+      { "key": "B", "text": "Transformational leadership", "isCorrect": true, "feedbackMd": "正确：通过愿景、智力激发与个性化关怀激励下属超越预期，是变革型领导的典型特征。" },
+      { "key": "C", "text": "Laissez-faire leadership", "isCorrect": false, "feedbackMd": "错误：放任型领导较少干预，由下属自主决定，与积极引导的变革型领导不同。" },
+      { "key": "D", "text": "Autocratic leadership", "isCorrect": false, "feedbackMd": "错误：专制型领导由个人独断决策，与启发、激励型的变革型领导相反。" }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n变革型领导（transformational leadership）通过理想化影响、鼓舞性激励、智力激发与个性化关怀，激发下属追求超越预期的表现。题干中的 CEO 用愿景鼓舞、鼓励创新并逐一辅导员工，正是变革型领导风格的体现。\n\n## 对应知识点\n\nSBL 第 1 章：领导理论与风格。\n\n## 其他选项分析\n\nA 交易型靠奖惩维持；C 放任型较少干预；D 专制型由个人拍板。三者都不具备“愿景激励+个别关怀”的特征。\n\n## 易错提醒\n\n变革型与交易型并非互斥，但“以愿景与鼓舞激发”是变革型的关键标签；看到“授权、放任”则是放任型。\n\n## 考试技巧\n\n识别关键词：愿景、激发、智力、个性化→变革型；奖惩、例外→交易型；不管→放任型；独断→专制型。",
+    "marks": 2,
+    "estimatedTimeSec": 150,
+    "taxYear": null,
+    "standardReference": "ACCA SBL Leadership",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "SBL",
+    "variant": "GLO",
+    "chapterCode": "03",
+    "topicTitle": "External analysis",
+    "kpTitle": "Porter's five forces",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 4,
+    "textMd": "A company is assessing the profitability of a proposed new industry. It notes that the industry requires high capital investment and strong brand loyalty, that customers can easily switch, and that suppliers are few. Which combination of Porter's five forces best describes the industry's attractiveness?\n\nA. High entry barriers, high buyer power, strong supplier power — moderately attractive\nB. Low entry barriers, low buyer power, weak supplier power — very attractive\nC. High entry barriers, weak buyer power, weak supplier power — very attractive\nD. Low entry barriers, strong buyer power, weak supplier power — unattractive",
+    "options": [
+      { "key": "A", "text": "High entry barriers, high buyer power, strong supplier power — moderately attractive", "isCorrect": true, "feedbackMd": "正确：高资本与品牌忠诚抬高进入壁垒（有利），但顾客易转换（买方差价力强）且供应商少（供应方差价力强），整体吸引力中等。" },
+      { "key": "B", "text": "Low entry barriers, low buyer power, weak supplier power — very attractive", "isCorrect": false, "feedbackMd": "错误：低进入壁垒会削弱吸引力，且本题明确买方易转换、供应商少，并非两项都弱。" },
+      { "key": "C", "text": "High entry barriers, weak buyer power, weak supplier power — very attractive", "isCorrect": false, "feedbackMd": "错误：题干说明顾客易转换（买方差价力强）、供应商少（供应方差价力强），与“两项都弱”不符。" },
+      { "key": "D", "text": "Low entry barriers, strong buyer power, weak supplier power — unattractive", "isCorrect": false, "feedbackMd": "错误：题干是高进入壁垒与强供应方，并非低壁垒与弱供应方。" }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n波特五力中：高资本投入与强品牌忠诚提高了“新进入者威胁”的壁垒（有利）；顾客“容易转换”意味着买方差价力（buyer power）较强（不利）；供应商“很少”意味着供应方差价力（supplier power）较强（不利）。因此行业面临高壁垒的正面因素与买卖双方强议价能力的负面因素，吸引力为中等。\n\n## 对应知识点\n\nSBL 第 3 章：外部分析——波特五力模型。\n\n## 其他选项分析\n\nB、C、D 都在“进入壁垒”或“买方/供应方差价力”上与题干描述不符，尤其是夸大或低估了各项强弱。A 正确反映了题干给出的三个关键信号。\n\n## 易错提醒\n\n进入壁垒高是“利好”（挡新进入者），而买方/供应方差价力强是“利空”；不要把所有“高/强”都当作吸引力。\n\n## 考试技巧\n\n逐项把题干信号翻译成“五力强弱”，再判断每一项对行业盈利的方向（壁垒高利好、买卖双方强不利），最后综合出吸引力等级。",
+    "marks": 2,
+    "estimatedTimeSec": 180,
+    "taxYear": null,
+    "standardReference": "ACCA SBL Strategy",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "SBL",
+    "variant": "GLO",
+    "chapterCode": "05",
+    "topicTitle": "Risk identification and assessment",
+    "kpTitle": "Risk and the risk management process",
+    "type": "CASE_MCQ",
+    "difficulty": 4,
+    "textMd": "## 案例背景\n\nBoardCo 是一家上市制造企业。董事会最近在评估一项潜在的海外扩张。管理层提交的评估报告强调，该项目预期收益率较高，但未充分考虑当地货币大幅波动的可能，也未评估当地政治稳定风险。一位独立董事指出，公司风险偏好较低，且现有内控主要针对国内经营，对海外汇率与政治风险缺乏应对安排。\n\n**问题：** 按照风险管理过程，BoardCo 董事会首先是未能做到下列哪一项？\n\nA. 风险应对方式的成本效益分析\nB. 对相关风险进行系统识别与评估\nC. 监控并持续修订风险应对措施\nD. 向股东披露风险承受能力声明",
+    "options": [
+      { "key": "A", "text": "风险应对方式的成本效益分析", "isCorrect": false, "feedbackMd": "错误：管理层尚未识别出汇率与政治风险，谈其应对成本效益属于后置步骤，不是首要缺口。" },
+      { "key": "B", "text": "对相关风险进行系统识别与评估", "isCorrect": true, "feedbackMd": "正确：管理层忽略了汇率与政治风险，属于风险识别与评估环节的疏漏，这正是风险管理的起始与核心步骤。" },
+      { "key": "C", "text": "监控并持续修订风险应对措施", "isCorrect": false, "feedbackMd": "错误：监控是识别评估之后的活动；本例连首阶段的识别评估都未完成。" },
+      { "key": "D", "text": "向股东披露风险承受能力声明", "isCorrect": false, "feedbackMd": "错误：披露是治理与沟通层面的要求，不是风险过程本身的第一步。" }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n风险管理过程的一般顺序是：识别风险 → 评估其可能性与影响 → 选择应对策略 → 实施并监控。题干中管理层只关注预期收益，未识别出汇率与政治风险，也未能评估其影响，属于风险管理“识别与评估”这一首要环节的缺失。只有先把风险识别出来并评估其严重性，才能谈应对与监控。\n\n## 对应知识点\n\nSBL 第 5 章：风险管理流程（识别—评估—应对—监控）。\n\n## 其他选项分析\n\nA 成本效益分析发生在“评估应对方式”阶段；C 监控发生在应对之后；D 披露属于治理/沟通，并非流程首要环节。三者在题目情境中都滞后于“识别评估”这一根本缺口。\n\n## 易错提醒\n\n区分“风险识别/评估”与“风险应对/监控”的顺序——识别评估在前，若风险都没被识别，其他环节无从谈起。\n\n## 考试技巧\n\n面对风险管理案例，先问“风险是否被识别并评估”（首步），再依次检查应对、实施与监控；题干强调“未充分考虑/未评估”，即指向识别评估缺口。",
+    "marks": 2,
+    "estimatedTimeSec": 200,
+    "taxYear": null,
+    "standardReference": "ACCA SBL Risk Management",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

@@ -1,0 +1,672 @@
+{
+  "code": "APM",
+  "name": "Advanced Performance Management",
+  "nameCn": "高级绩效管理",
+  "level": "STRATEGIC_PROFESSIONAL",
+  "category": "OPTIONS",
+  "order": 13,
+  "accent": "#8b5cf6",
+  "description": "面向高级绩效管理，涵盖战略绩效、外部竞争分析、绩效测量系统、预算与差异、风险决策及行为因素。",
+  "examDurationMin": 195,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Case Question", "scope": "案例题", "count": 2, "marksPerQuestion": 25, "sectionMarks": 50 },
+      { "id": "B", "name": "Section B - Constructed Response (2 of 3)", "scope": "主观题", "count": 2, "marksPerQuestion": 25, "sectionMarks": 50 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Strategic Planning and Performance Management",
+      "description": "理解战略规划与绩效管理的联系，以及战略目标如何转化为可衡量的绩效。",
+      "topics": [
+        {
+          "title": "Strategic planning and control",
+          "points": [
+            {
+              "code": "APM.1.1",
+              "title": "Strategic planning process",
+              "summary": "战略规划（分析-选择-实施-控制）把组织愿景转化为可执行的战略与绩效目标。",
+              "contentMd": "## 核心概念\n\n战略规划过程（strategic planning）包括：环境与内部分析、战略选择、战略实施与战略控制。绩效管理是战略控制的一部分，通过设定目标、衡量与反馈确保战略落地。规划把长期愿景分解为可操作的短期目标。\n\n## 常见考法\n\n梳理战略规划与绩效管理的衔接，或分析规划失败的环节。\n\n## 易错点\n\n战略规划需滚动更新，不能僵化为年度例行。\n\n## 例子\n\n企业把五年战略分解为年度目标，并通过季度绩效复盘检查进展。\n\n## 考试提醒\n\n把“闭环（规划-执行-控制）”作为绩效管理的主线。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.1.2",
+              "title": "Performance management and strategic alignment",
+              "summary": "绩效指标应与战略目标对齐，避免局部优化与目标不一致。",
+              "contentMd": "## 核心概念\n\n绩效管理（performance management）通过度量与反馈驱动行为与结果。指标须与战略一致，用因果关系连接（如平衡计分卡）；否则会产生目标不一致（goal congruence）问题，局部最优损害整体目标。\n\n## 常见考法\n\n分析绩效管理是否与战略一致，或识别目标冲突。\n\n## 易错点\n\n仅考核单一财务指标会诱发短视与行为偏差。\n\n## 例子\n\n销售只拼销量而忽视交付质量，造成客户不满，是目标不一致。\n\n## 考试提醒\n\n用“战略对齐+因果关系+目标一致”评估绩效体系。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.1.3",
+              "title": "Critical success factors and KPIs",
+              "summary": "关键成功因素（CSF）与关键绩效指标（KPI）把战略重点转化为可衡量、可管理的指标。",
+              "contentMd": "## 核心概念\n\n关键成功因素（critical success factors, CSF）是组织成功必须做好的关键领域；关键绩效指标（KPI）是量化这些因素的指标。好 KPI 应相关、可控、可衡量、及时且平衡财务与非财务。\n\n## 常见考法\n\n识别 CSF 并设计对应 KPI。\n\n## 易错点\n\nKPI 应聚焦少数关键变量，过多指标会分散注意力。\n\n## 例子\n\n零售企业的 CSF 是顾客体验，对应 KPI 包括复购率与投诉率。\n\n## 考试提醒\n\n用“CSF→KPI→可控/可测”的链条设计指标。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Strategy and value creation",
+          "points": [
+            {
+              "code": "APM.1.4",
+              "title": "Value creation and value-based management",
+              "summary": "价值管理（VBM）以股东价值为核心驱动财务与非财务决策。",
+              "contentMd": "## 核心概念\n\n价值管理（value-based management, VBM）以创造长期股东价值为核心，用 EVA、现金流回报率与价值驱动树（value drivers）指导决策，把战略、指标与激励挂钩。\n\n## 常见考法\n\n分析企业如何以价值创造为导向设定绩效与激励。\n\n## 易错点\n\nVBM 不只是财务指标，更需识别价值驱动因素并全员对齐。\n\n## 例子\n\n企业用 EVA 考核分部，强调扣除资本成本后的价值创造。\n\n## 考试提醒\n\n把“价值驱动→指标→激励”作为 VBM 的落地链条。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.1.5",
+              "title": "Shareholder value analysis",
+              "summary": "股东价值分析（SVA）评估战略对股东价值的影响，涉及价值驱动与情景测算。",
+              "contentMd": "## 核心概念\n\n股东价值分析（shareholder value analysis, SVA）识别影响价值的因素（销售增长、营业利润率、资本成本、投资等），并把战略选择与其对股东价值的贡献联系起来。\n\n## 常见考法\n\n用 SVA 评估某战略的价值贡献。\n\n## 易错点\n\nSVA 需结合情景与敏感性，避免单点估值。\n\n## 例子\n\n评估扩张战略对销量增长与资本投入的综合价值影响。\n\n## 考试提醒\n\n把“价值驱动+情景+敏感性”作为 SVA 分析要点。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.1.6",
+              "title": "Strategic performance in the public sector and NFP",
+              "summary": "非营利与公共部门的绩效管理侧重价值与社会效益，而非仅财务回报。",
+              "contentMd": "## 核心概念\n\n非营利与公共部门（NFP/public sector）的目标是公共服务与社会价值，绩效管理需用成本效率、服务产出、公众满意度与使命达成等指标，避免单一财务指标。\n\n## 常见考法\n\n设计非营利组织的绩效指标。\n\n## 易错点\n\n非营利绩效考核要兼顾效率（3E：经济、效率、有效性）与公正。\n\n## 例子\n\n医院用病人满意度与治疗结果衡量绩效，而不仅是预算执行。\n\n## 考试提醒\n\n把“3E+社会价值”作为非营利绩效框架。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "External and Competitive Analysis",
+      "description": "运用外部与竞争分析工具理解行业环境，为绩效与战略提供宏观与微观依据。",
+      "topics": [
+        {
+          "title": "External and industry analysis",
+          "points": [
+            {
+              "code": "APM.2.1",
+              "title": "PESTEL and macro analysis",
+              "summary": "PESTEL 扫描政治、经济、社会、技术、环境与法律因素，识别外部机会与威胁。",
+              "contentMd": "## 核心概念\n\nPESTEL 用于扫描宏观环境，识别影响组织绩效的外部驱动力。它帮助管理者预判政策、经济、社会与科技变化对业绩与战略的影响。\n\n## 常见考法\n\n用 PESTEL 分析某行业的外部环境对绩效的影响。\n\n## 易错点\n\nPESTEL 关注外部，需与内部能力分析结合。\n\n## 例子\n\n政府补贴新能源推高某行业需求，是政策+环境因素。\n\n## 考试提醒\n\n把外部因素与“机会/威胁”和绩效影响对接。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.2.2",
+              "title": "Porter's five forces and profitability",
+              "summary": "五力模型解释行业竞争强度与盈利潜力，是外部绩效分析的基础。",
+              "contentMd": "## 核心概念\n\n五力模型（现有竞争者、新进入者、替代品、买方与供应商议价能力）决定行业平均盈利。五力越强，行业利润空间越小，企业需据此优化定位与战略。\n\n## 常见考法\n\n用五力分析行业盈利能力。\n\n## 易错点\n\n五力反映行业结构，但不直接体现单个企业能力。\n\n## 例子\n\n高进入壁垒与低替代威胁使某行业盈利能力较强。\n\n## 考试提醒\n\n把五力与“行业盈利=绩效天花板”关联。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.2.3",
+              "title": "Competitive benchmarking",
+              "summary": "标杆分析通过对比竞争者的流程与业绩，识别差距与最佳实践。",
+              "contentMd": "## 核心概念\n\n标杆分析（benchmarking）比较本企业与他人的流程、成本、质量与业绩，分为内部、竞争、功能与过程标杆。它帮助识别差距、学习最佳实践并设定改进目标。\n\n## 常见考法\n\n运用标杆分析识别绩效差距。\n\n## 易错点\n\n标杆比较需考虑可比性与口径一致。\n\n## 例子\n\n企业对标行业最佳的交付周期与成本，找出优化空间。\n\n## 考试提醒\n\n把“选择标杆→比较→改进”作为标杆分析流程。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Competitive positioning and change",
+          "points": [
+            {
+              "code": "APM.2.4",
+              "title": "Competitive advantage and value chain",
+              "summary": "价值链分析识别价值创造活动中的优势来源与绩效改进点。",
+              "contentMd": "## 核心概念\n\n波特价值链把活动分为基本与支持活动，分析各环节对成本、差异化与价值的贡献。企业通过优化关键环节建立竞争优势。\n\n## 常见考法\n\n用价值链识别优势环节或改进点。\n\n## 易错点\n\n价值链要结合行业特性，不同行业关键活动不同。\n\n## 例子\n\n电商公司把履约物流（基本活动）作为核心竞争优势。\n\n## 考试提醒\n\n把“成本/差异化”与价值链环节对应分析。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.2.5",
+              "title": "Product life cycle and performance",
+              "summary": "产品生命周期影响绩效指标与策略，不同阶段侧重不同目标。",
+              "contentMd": "## 核心概念\n\n产品生命周期（导入、成长、成熟、衰退）各阶段对现金、利润、竞争与绩效目标影响不同：导入期重增长与市场份额，成熟期重成本与效率，衰退期重收缩与转型。\n\n## 常见考法\n\n分析产品阶段对绩效指标选择的影响。\n\n## 易错点\n\n成熟期竞争最激烈，绩效应注重成本与差异化；衰退期不宜盲目投入。\n\n## 例子\n\n某产品销量趋稳、竞争者众多，已进入成熟期，绩效侧重成本控制。\n\n## 考试提醒\n\n把“阶段特征→绩效侧重”关联记忆。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.2.6",
+              "title": "Impact of change on performance management",
+              "summary": "外部变革与技术颠覆要求绩效管理动态调整，适应新的竞争与运营模式。",
+              "contentMd": "## 核心概念\n\n外部变化（技术、法规、竞争格局）要求绩效管理动态调整指标、权重的激励，以反映新的价值驱动。僵化的绩效体系会滞后于变革。\n\n## 常见考法\n\n分析外部变革对绩效管理的影响。\n\n## 易错点\n\n绩效指标需随战略与环境更新，不能一成不变。\n\n## 例子\n\n数字化转型后，企业引入数字与客户体验指标进入绩效考核。\n\n## 考试提醒\n\n把“环境变化→指标更新→系统调适”作为动态绩效观。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Performance Measurement Systems",
+      "description": "理解绩效测量系统的设计、财务与非财务指标、以及测量系统在组织中的应用。",
+      "topics": [
+        {
+          "title": "Designing performance measurement systems",
+          "points": [
+            {
+              "code": "APM.3.1",
+              "title": "Financial performance measures",
+              "summary": "财务绩效指标（利润、ROCE、EVA、现金流）提供综合结果但偏短期滞后。",
+              "contentMd": "## 核心概念\n\n财务指标包括盈利能力（毛利率、净利率、ROCE）、效率（周转率）、流动性、杠杆（资产负债率、利息保障）与股东价值（EPS、EVA、MVA）。它们便于比较但偏向历史与结果。\n\n## 常见考法\n\n计算与解读财务绩效指标。\n\n## 易错点\n\nROC/EVA 需使用一致的资本口径。\n\n## 例子\n\n用 EVA 衡量扣除资本成本后的价值创造。\n\n## 考试提醒\n\n把财务指标与“盈利/效率/流动性/价值”分组理解。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.3.2",
+              "title": "Non-financial performance measures",
+              "summary": "非财务指标反映质量、客户、员工、创新与流程，是财务结果的先行驱动因素。",
+              "contentMd": "## 核心概念\n\n非财务指标（non-financial measures）涵盖客户满意度、质量（次品率）、员工（流失率、满意度）、创新、交付与流程效率。它们反映过程与长期驱动，常是财务结果的先行指标（leading indicators）。\n\n## 常见考法\n\n设计非财务指标并说明其价值。\n\n## 易错点\n\n非财务指标需与战略和结果挂钩，否则缺乏意义。\n\n## 例子\n\n次品率与客户投诉作为质量指标，领先于售后成本与口碑。\n\n## 考试提醒\n\n把“结果指标（财务）vs 过程/先行指标（非财务）”并用。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.3.3",
+              "title": "Problems with performance measurement",
+              "summary": "测量系统可能出现指标替代、短视、博弈与数据失真等问题，需审慎设计。",
+              "contentMd": "## 核心概念\n\n不良绩效测量的副作用包括：指标替代（只考核可测的）、短视（忽视长期）、博弈（操纵指标）、数据失真与行为偏差。管理层需平衡指标、采用多维度并定期审视，避免“指标绑架”。\n\n## 常见考法\n\n识别绩效测量的问题，或提出改进。\n\n## 易错点\n\n过度依赖单一指标会诱发操纵与短视。\n\n## 例子\n\n只考核产量导致质量下降，是单一指标副作用的体现。\n\n## 考试提醒\n\n用“替代/短视/博弈/失真”识别测量问题。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Balanced scorecard and frameworks",
+          "points": [
+            {
+              "code": "APM.3.4",
+              "title": "The balanced scorecard (BSC)",
+              "summary": "平衡计分卡从财务、客户、内部流程、学习成长四视角，把战略转化为因果相连的绩效指标。",
+              "contentMd": "## 核心概念\n\n平衡计分卡（Balanced Scorecard, BSC）把战略目标从四个视角展开：财务（股东回报）、客户（满意度与价值）、内部流程（效率与质量）、学习与成长（员工与创新）。四视角由因果链串联，平衡长期与短期、财务与非财务、内外与领先滞后指标。\n\n## 常见考法\n\n构建平衡计分卡，或把战略目标映射到四个视角并说明因果。\n\n## 易错点\n\nBSC 不是简单罗列指标，而是用“战略地图”连成的因果逻辑链。\n\n## 例子\n\n“员工培训（学习）→流程改善→客户满意→财务增长”构成因果链。\n\n## 考试提醒\n\n先画战略地图，再按四视角落指标，避免只见树木。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.3.5",
+              "title": "The performance prism",
+              "summary": "绩效棱镜从利益相关者满意与贡献、战略、流程与能力五方面构建绩效。",
+              "contentMd": "## 核心概念\n\n绩效棱镜（performance prism）从五个相互关联的面审视绩效：利益相关者满意（stakeholder satisfaction）、利益相关者贡献（stakeholder contribution）、战略（strategies）、流程（processes）与能力（capabilities）。它强调从利益相关者出发设计绩效。\n\n## 常见考法\n\n用绩效棱镜分析企业绩效体系。\n\n## 易错点\n\n绩效棱镜强调“利益相关者的双向关系（满意+贡献）”。\n\n## 例子\n\n从员工既满意又贡献的视角设计其绩效指标。\n\n## 考试提醒\n\n把“五面模型”作为扩展绩效视角的工具。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.3.6",
+              "title": "Value-based and integrated measurement",
+              "summary": "综合使用价值管理、平衡计分卡与财务指标形成一致、立体的绩效体系。",
+              "contentMd": "## 核心概念\n\n成熟的绩效体系整合财务与非财务、价值与流程指标，形成一致的目标分解与反馈。如把 EVA（价值）、BSC（多视角）与作业成本等结合，确保指标之间协同而非冲突。\n\n## 常见考法\n\n评价某绩效体系的完整性与一致性。\n\n## 易错点\n\n指标之间若冲突，会引发行为矛盾。\n\n## 例子\n\n企业融合 BSC 与 EVA，实现多视角与价值导向兼顾。\n\n## 考试提醒\n\n用“一致性+多维度+作用力”评价体系设计。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Strategic Performance Measurement",
+      "description": "掌握分部绩效衡量、转移定价与多维绩效，处理战略层面的数据与判断。",
+      "topics": [
+        {
+          "title": "Divisional performance measurement",
+          "points": [
+            {
+              "code": "APM.4.1",
+              "title": "Divisional performance measures (ROI/RI/EVA)",
+              "summary": "分部绩效用 ROI、剩余收益（RI）与经济增加值（EVA）衡量，各有侧重与局限。",
+              "contentMd": "## 核心概念\n\n投资回报率（ROI）= 分部利润/投资；剩余收益（RI）= 利润 − 资本成本×投资；经济增加值（EVA）在 RI 基础上调整会计利润（如研发、商誉）。ROI 简单但易诱使放弃高回报项目；RI/EVA 更利于目标一致但需资本成本与调整。\n\n## 常见考法\n\n计算 ROI/RI 并评价其决策影响。\n\n## 易错点\n\nROI 可能让经理拒绝高于整体 ROI 但低于其 ROI 的项目。\n\n## 例子\n\n分部利润 120、投资 1000、资本成本 10%，则 RI = 120 − 100 = 20。\n\n## 考试提醒\n\n区分“ROI 简单易失真、RI 利于一致”是高频考点。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.4.2",
+              "title": "Transfer pricing",
+              "summary": "转移定价是分部间内部交易的价格，影响绩效衡量与集团整体决策。",
+              "contentMd": "## 核心概念\n\n转移定价（transfer pricing）是集团内部子公司/分部间产品与服务的定价。方法有市场价格（market-based）、成本加成（cost-plus）与协商价（negotiated）；理想价格应促成目标一致与集团整体最优。过高过低都可能造成次优决策或绩效扭曲。\n\n## 常见考法\n\n选择转移定价方法并分析其对分部绩效与集团决策的影响。\n\n## 易错点\n\n转移定价不当会导致“局部最优但整体次优”，并涉及税务合规（独立交易原则）。\n\n## 例子\n\n卖方分部按市价调拨，避免内部利润被高估或低估。\n\n## 考试提醒\n\n用“目标一致+激励+税务”多视角评转移定价。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.4.3",
+              "title": "Strategic level issues in performance measurement",
+              "summary": "战略绩效衡量需兼顾多目标、多时期与内外部利益相关者，并处理度量与激励的复杂问题。",
+              "contentMd": "## 核心概念\n\n战略绩效衡量不易：目标多维且长期、难以量化无形价值、需平衡利益相关者与长短期、且数据与归因复杂。管理者需综合多指标、谨慎设定奖惩，并结合战略与情景理解绩效。\n\n## 常见考法\n\n分析战略绩效衡量中的困难与应对。\n\n## 易错点\n\n战略绩效不能用单一财务指标刻画，需多维与判断。\n\n## 例子\n\n研发投入的长期价值难以量化，需结合创新能力等非财务指标。\n\n## 考试提醒\n\n用“多维+长期+数据/归因难”理解战略绩效的复杂性。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "People and performance",
+          "points": [
+            {
+              "code": "APM.4.4",
+              "title": "Reward systems and behaviour",
+              "summary": "薪酬激励影响经理行为，需与绩效和长期目标匹配，防止博弈。",
+              "contentMd": "## 核心概念\n\n薪酬激励（reward systems）把经理努力与回报挂钩。设计与目标一致、清晰且可核验的激励能驱动正确行为；过度单指标的激励会诱发短视、操纵与预算博弈。\n\n## 常见考法\n\n评价激励方案的行为效应。\n\n## 易错点\n\n只看财务短期指标会诱发盈余管理与短视。\n\n## 例子\n\n高管激励纳入长期回报与 ESG，平衡长短期。\n\n## 考试提醒\n\n用“目标一致+长期导向+可核验”评估激励。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.4.5",
+              "title": "Behavioural aspects of control",
+              "summary": "控制系统会引发预算松弛、博弈与目标冲突等行为反应。",
+              "contentMd": "## 核心概念\n\n控制与考核的行为副作用包括：预算松弛（budgetary slack，压低目标留余地）、博弈（gaming the system）、目标冲突与短视。缓解手段包括参与式预算、多维度指标、合理考核与文化引导。\n\n## 常见考法\n\n识别并缓解控制的行为副作用。\n\n## 易错点\n\n严厉考核可能诱发不良行为。\n\n## 例子\n\n经理为留余地而降低预算目标，形成松弛。\n\n## 考试提醒\n\n用“激励+参与+长期”缓解行为的负面效应。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.4.6",
+              "title": "Goal congruence and responsibility accounting",
+              "summary": "责任会计通过划分责任中心与目标，促使经理为可控业绩负责。",
+              "contentMd": "## 核心概念\n\n责任会计（responsibility accounting）把组织划分为成本、收入、利润与投资中心，各中心只对可控项负责（controllability）。目标一致性（goal congruence）要求各中心目标与整体一致，避免相互冲突。\n\n## 常见考法\n\n划分责任中心并评估可控性。\n\n## 易错点\n\n考核应限定在可控范围，否则打击积极性。\n\n## 例子\n\n成本中心经理只对成本可控，不对利润负责。\n\n## 考试提醒\n\n用“责任中心+可控性+目标一致”组织。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Budgeting and Performance Evaluation",
+      "description": "掌握预算编制方法、预算控制与业绩评价，以及预算在激励与绩效中的作用。",
+      "topics": [
+        {
+          "title": "Budgeting approaches",
+          "points": [
+            {
+              "code": "APM.5.1",
+              "title": "Traditional and activity-based budgeting",
+              "summary": "增量预算简单但易僵化，作业基础预算（ABB）按作业与成本动因配置资源。",
+              "contentMd": "## 核心概念\n\n增量预算（incremental）在往年基础上调整，简单但可能固化低效；作业基础预算（activity-based budgeting）识别作业与成本动因，按预期作业量分配资源，更贴近真实成本动因但编制成本高。\n\n## 常见考法\n\n比较预算方法并选择适用场景。\n\n## 易错点\n\n增量预算可能掩盖浪费，ABB 更精细但复杂。\n\n## 例子\n\n制造企业用 ABB 按订制/量产作业量分配资源，提高预算准确性。\n\n## 考试提醒\n\n用“成本精确度 vs 编制复杂度”权衡。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.5.2",
+              "title": "Zero-based and rolling budgets",
+              "summary": "零基预算从零论证每项支出，滚动预算不断延伸，增强弹性与资源利用率。",
+              "contentMd": "## 核心概念\n\n零基预算（zero-based budgeting, ZBB）要求每个项目从零论证其必要性，利于消除浪费但成本高、耗时；滚动预算（rolling budget）不断延伸未来期，保持前瞻与弹性，适合变化快的环境。\n\n## 常见考法\n\n比较 ZBB 与滚动预算的优劣与适用。\n\n## 易错点\n\nZBB 利于成本控制但管理负担重，滚动预算利于前瞻但编制频繁。\n\n## 例子\n\n预算受限时采用 ZBB 重审每项支出。\n\n## 考试提醒\n\n把“控制效率 vs 编制成本/弹性”作为选择依据。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.5.3",
+              "title": "Budgeting and performance evaluation relationship",
+              "summary": "预算是计划与控制工具，也用于业绩评价，需使预算目标兼具挑战性与可实现性。",
+              "contentMd": "## 核心概念\n\n预算既设定目标也作为评估基准。目标可过高（挫败）、过低（松弛）或恰到好处（弹力目标 stretch）。参与式预算提升认同但易产生松弛；需平衡参与与压力，并避免仅以预算奖惩。\n\n## 常见考法\n\n评价预算作为业绩评价基准的合理性。\n\n## 易错点\n\n把预算差异完全归因经理而不细分可控性，会误判。\n\n## 例子\n\n预算目标过高导致团队放弃或操纵。\n\n## 考试提醒\n\n用“目标难度+参与度+可控性”评价预算考核。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Budgetary control and feedback",
+          "points": [
+            {
+              "code": "APM.5.4",
+              "title": "Budgetary control and variance analysis",
+              "summary": "预算控制通过比较预算与实际并分析差异，识别业绩问题与可控责任。",
+              "contentMd": "## 核心概念\n\n预算控制（budgetary control）把实际与预算对比，计算差异（variance）并分析成因与责任。分析需区分可控与不可控因素（如市场、汇率），避免不公问责。\n\n## 常见考法\n\n计算并解读差异，判断责任归属。\n\n## 易错点\n\n不可控差异（如市场整体）不应简单归咎经理。\n\n## 例子\n\n材料涨价造成的不利差异属市场因素，而非采购经理责任。\n\n## 考试提醒\n\n把“差异→成因→可控性→责任”作为分析链。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.5.5",
+              "title": "Feedback and feed-forward control",
+              "summary": "反馈控制基于历史结果纠偏，前馈控制采取预防性行动，二者结合更有效。",
+              "contentMd": "## 核心概念\n\n反馈控制（feedback）在结果出现后对比目标纠偏；前馈控制（feed-forward）在问题发生前预判并采取预防行动。现代绩效管理结合预测、滚动预算与实时指标，实现前瞻性控制。\n\n## 常见考法\n\n区分反馈与前馈控制并说明应用。\n\n## 易错点\n\n单纯反馈可能“时滞”过长，前馈更具预防性。\n\n## 例子\n\n预算差异反馈是反馈控制；市场预警预测并提前调整是前馈控制。\n\n## 考试提醒\n\n用“事后纠偏 vs 事前预防”区分两种控制。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.5.6",
+              "title": "Behavioural impact of budgets",
+              "summary": "预算对员工行为（激励、压力、博弈）影响显著，需审慎设计其目标与考核方式。",
+              "contentMd": "## 核心概念\n\n预算影响行为：高目标可激励也可能挫败；过于刚性约束可扼杀创新；考核压力诱发博弈与松弛。参与式预算与良性沟通能提升承诺，但需防止“部门间对立”。\n\n## 常见考法\n\n分析预算对行为的影响及改进。\n\n## 易错点\n\n预算既是工具也会引发人的反应，需因势利导。\n\n## 例子\n\n参与式预算提升部门认同，但也可能出现松弛。\n\n## 考试提醒\n\n用“目标+参与+沟通+考核”设计良性预算行为。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Variance Analysis: Strategic Issues",
+      "description": "深入战略层面差异分析，处理运营与战略差异、市场差异与学习效应。",
+      "topics": [
+        {
+          "title": "Planning and operational variances",
+          "points": [
+            {
+              "code": "APM.6.1",
+              "title": "Planning and operational variances",
+              "summary": "把差异分为规划差异（计划本身的偏差）与运营差异（执行效率），提升差异归因的合理性。",
+              "contentMd": "## 核心概念\n\n规划差异（planning variance）源于计划设定的假设（如市场、价格）不当；运营差异（operational variance）来自实际执行与可修正的计划之差。区分二者能更客观评价经理（剔除不可控的规划影响）。\n\n## 常见考法\n\n计算并区分规划与运营差异。\n\n## 易错点\n\n规划差异是“计划不切实际”，运营差异是“执行好差”，归属不同。\n\n## 例子\n\n市场整体萎缩导致的销量缺口属规划差异，而非销售业绩差。\n\n## 考试提醒\n\n把“规划 vs 运营”作为差异责任归因的关键。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "APM.6.2",
+              "title": "Market share and market size variances",
+              "summary": "销量差异进一步分解为市场份额与市场规模差异，评估销售与市场的贡献。",
+              "contentMd": "## 核心概念\n\n市场差异（market variance）把预算利润差分解为：市场份额差异（公司相对市场的份额变化）与市场规模差异（整体市场大小变化），据此区分销售部门贡献与外部市场因素。\n\n## 常见考法\n\n计算市场细分差异并归因。\n\n## 易错点\n\n市场规模差异常为外部不可控因素。\n\n## 例子\n\n行业内整体需求下降导致的市场规模差异不归咎于销售。\n\n## 考试提醒\n\n用“规模外部、份额内部”判断责任。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.6.3",
+              "title": "Learning curve and its impact on variance",
+              "summary": "学习曲线影响单位成本随累计产量下降，需在预算与差异分析中考虑。",
+              "contentMd": "## 核心概念\n\n学习曲线（learning curve）显示累计产量翻倍时单位工时按固定比例下降，影响成本预测与直接人工预算。在劳动密集与新产品阶段显著，若忽略会导致预算与差异误判。\n\n## 常见考法\n\n用学习曲线预测成本或解释人工差异。\n\n## 易错点\n\n学习效应只在人工为主且重复作业时显著，自动化程度高时不适用。\n\n## 例子\n\n累计产量翻倍单位人工减少 20%，用于预算人工成本。\n\n## 考试提醒\n\n用“累计产量→单位成本递减”理解学习曲线并用于预算。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Advanced variance and behavioural issues",
+          "points": [
+            {
+              "code": "APM.6.4",
+              "title": "Overhead and throughput variances",
+              "summary": "制造费用与产出（throughput）差异分析用于评价效率与瓶颈利用。",
+              "contentMd": "## 核心概念\n\n制造费用差异（成本差异分析）分解价格/耗费、效率与产量差异；产出会计（throughput accounting）围绕瓶颈资源，用 productivity、efficiency 与 volume 比率评价。前者侧重成本，后者侧重瓶颈产出。\n\n## 常见考法\n\n计算制造费用差异或用产出比率分析。\n\n## 易错点\n\n产出会计关注瓶颈，与非瓶颈的产出扩张无关。\n\n## 例子\n\n用效率与产量比率评价瓶颈工序利用是否最大化。\n\n## 考试提醒\n\n把“成本视角 vs 瓶颈/产出视角”区分。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.6.5",
+              "title": "Behavioural issues in variance analysis",
+              "summary": "差异分析可能被操纵（如操纵预算、指标），需关注激励与数据真实。",
+              "contentMd": "## 核心概念\n\n差异分析可能诱发操纵行为，如把差异归因于不可控因素、操纵预算、或不披露不利信息（information asymmetry）。需通过数据校验、诚实文化与合理考核缓解。\n\n## 常见考法\n\n识别差异分析中的行为问题。\n\n## 易错点\n\n过度奖惩差异会诱发操纵与隐瞒。\n\n## 例子\n\n经理把不利差异都归为“市场因素”以规避问责。\n\n## 考试提醒\n\n把“激励+诚信+数据校验”作为差异分析的反操纵保障。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.6.6",
+              "title": "Variances and decision making",
+              "summary": "差异提供的信号需结合情景与不确定性用于决策，而非机械奖惩。",
+              "contentMd": "## 核心概念\n\n差异分析服务于决策改进：识别问题、验证假设、评估计划是否切实际。需结合外部环境、非财务信息与数据质量，避免把差异当作作弊成绩单。\n\n## 常见考法\n\n用差异分析支持决策与改进。\n\n## 易错点\n\n差异只是信号，要结合情景理解背后的原因。\n\n## 例子\n\n人工效率差异上升，可能源于新员工培训不足而非员工懒惰。\n\n## 考试提醒\n\n把“差异→根因→改进行动”作为决策导向的分析。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Risk, Uncertainty and Decision Making",
+      "description": "运用概率、预期值与风险评估进行不确定环境下的决策，并掌握信息价值与敏感性。",
+      "topics": [
+        {
+          "title": "Decision making under uncertainty",
+          "points": [
+            {
+              "code": "APM.7.1",
+              "title": "Probabilities and expected values",
+              "summary": "预期值（EV）用概率加权平均评估决策，但未反映风险偏好与离散程度。",
+              "contentMd": "## 核心概念\n\n预期值（expected value, EV）= Σ(结果×概率)。EV 提供平均结果但掩盖风险（极端情形），对风险中性者适用；风险偏好者需结合效用与风险。\n\n## 常见考法\n\n计算 EV 并说明其局限。\n\n## 易错点\n\nEV 是均值，可能忽略高重大损失的小概率情形。\n\n## 例子\n\n项目有 40% 概率赚 100、60% 概率赔 50，EV = 0.4×100 − 0.6×50 = 10。\n\n## 考试提醒\n\n“EV 用于风险中性、忽略离散”是核心局限。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.7.2",
+              "title": "Bayesian revision and value of information",
+              "summary": "贝叶斯与决策树用于更新概率，信息价值评估是否值得获取更多信息。",
+              "contentMd": "## 核心概念\n\n决策树（decision tree）展示决策与结果的序列；贝叶斯概率用新证据更新主观概率。信息价值（value of information）比较“获取信息后 EV 提升”与其成本，判断是否值得购买信息/做调研。\n\n## 常见考法\n\n构建决策树或计算信息价值。\n\n## 易错点\n\n信息价值是“有信息与无信息的 EV 之差”，需与信息成本比较。\n\n## 例子\n\n市场调研提升预测准确度，其 EV 增量高于调研费用则值得做。\n\n## 考试提醒\n\n用“EV 增量 vs 信息成本”决定是否获取信息。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.7.3",
+              "title": "Risk attitudes and utility theory",
+              "summary": "风险态度（厌恶、中性、偏好）影响决策，效用理论把主观偏好纳入评估。",
+              "contentMd": "## 核心概念\n\n不同决策者对不同风险有不同态度：风险厌恶者偏好确定性，风险偏好者愿冒险。效用理论（utility theory）把结果转化为效用值以反映偏好，指导在不确定下的最优选择。\n\n## 常见考法\n\n分析风险态度对决策的影响。\n\n## 易错点\n\n风险厌恶可能在高回报但高风险时选择保守方案。\n\n## 例子\n\n风险厌恶的管理者偏好稳定收益项目而非高波动项目。\n\n## 考试提醒\n\n把“风险态度+效用”作为风险评估的主观维度。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Sensitivity and decision tools",
+          "points": [
+            {
+              "code": "APM.7.4",
+              "title": "Sensitivity analysis",
+              "summary": "敏感性分析考察关键变量变动对结果的影响，识别最敏感的风险点。",
+              "contentMd": "## 核心概念\n\n敏感性分析（sensitivity analysis）通过改变单个或多个关键假设，观察对 NPV、利润或决策的影响，识别最敏感的变量与安全边际。它是风险管理与判断的重要工具。\n\n## 常见考法\n\n做敏感性分析并指出关键变量。\n\n## 易错点\n\n单变量敏感性未考虑变量间的相关与交互。\n\n## 例子\n\n售价下降 5% 就使项目转亏，说明价格是最敏感变量。\n\n## 考试提醒\n\n用“单变量变动→结果变化→识别关键变量”组织。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.7.5",
+              "title": "Simulation and scenario analysis",
+              "summary": "模拟与情景分析用多种可能情形评估风险，比单点预测更稳健。",
+              "contentMd": "## 核心概念\n\n情景分析（scenario analysis）设计不同情景（乐观/基准/悲观）评估结果；蒙特卡洛模拟（simulation）用随机分布大量迭代生成结果分布，评估整体风险与概率。它们比单点预测更全面但依赖假设。\n\n## 常见考法\n\n用情景或模拟评估项目风险。\n\n## 易错点\n\n模拟结果取决于输入分布假设，需结合专业判断。\n\n## 例子\n\n用蒙特卡洛模拟项目 NPV 的分布与失败概率。\n\n## 考试提醒\n\n把“情景=离散可能、模拟=分布迭代”区分。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.7.6",
+              "title": "Decision making under risk: practical application",
+              "summary": "把风险分析工具应用于投资与运营决策，平衡风险与回报。",
+              "contentMd": "## 核心概念\n\n实务中把预期值、决策树、敏感性、情景与模拟结合，评估项目与运营决策的风险回报。关键是把风险量化结果与战略目标、风险偏好结合，形成审慎而不过度保守的决策。\n\n## 常见考法\n\n综合运用风险工具支持决策。\n\n## 易错点\n\n过度依赖模型而忽视业务实质会误导决策。\n\n## 例子\n\n结合情景与敏感度评估新市场进入的回报与风险。\n\n## 考试提醒\n\n把多种风险工具与业务判断结合。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Not-for-profit and Public Sector",
+      "description": "理解非营利与公共部门的绩效管理，兼顾效率、效果与价值创造。",
+      "topics": [
+        {
+          "title": "NFP and public sector performance",
+          "points": [
+            {
+              "code": "APM.8.1",
+              "title": "Objectives and funding of NFPs",
+              "summary": "非营利组织以使命与社会价值为目标，资金来源多样且需求益与绩效的约束。",
+              "contentMd": "## 核心概念\n\n非营利组织（NFP）目标不追求利润最大化，而以服务使命、服务对象与公共利益为核心；资金来自捐赠、拨款、会费与服务收费。其绩效管理需兼顾财务可持续与使命达成。\n\n## 常见考法\n\n分析非营利组织目标与资金来源对绩效的影响。\n\n## 易错点\n\n非营利不等于无成本意识，仍需财务健康与效率。\n\n## 例子\n\n慈善机构用捐款使用效率与服务覆盖衡量绩效。\n\n## 考试提醒\n\n把“使命+财务+效率”作为非营利绩效维度。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.8.2",
+              "title": "The 3 Es in the public sector",
+              "summary": "公共部门用经济、效率与有效性（3E）衡量绩效，VFM 是其核心。",
+              "contentMd": "## 核心概念\n\n公共部门绩效常用 3E：经济（economy，成本最小化）、效率（efficiency，投入产出比）、有效性（effectiveness，目标达成）。价值为本（value for money, VFM）是公共管理核心，强调少花钱、多办事、办实事。\n\n## 常见考法\n\n用 3E 评价公共项目绩效。\n\n## 易错点\n\n3E 相互制衡，过度强调经济可能牺牲效果。\n\n## 例子\n\n教育项目评估单位成本（经济）、毕业率（有效性）。\n\n## 考试提醒\n\n把“经济-效率-有效”三项作为公共绩效标尺。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.8.3",
+              "title": "Performance issues in NFPs and public bodies",
+              "summary": "非营利与公共部门绩效测量的困难包括目标多元、产出难量化与利益相关者多样。",
+              "contentMd": "## 核心概念\n\n非营利/公共部门绩效测量常受限于：目标多元且难量化、缺乏可比的市场指标、多重利益相关者与政治因素、数据与归因复杂。需结合定性与定量、关注长短期与公平。\n\n## 常见考法\n\n识别公共/非营利绩效测量的困难并提改进。\n\n## 易错点\n\n纯财务指标不适合非营利，需综合使命与效果。\n\n## 例子\n\n医院既看成本又看患者结果与员工满意度，多指标衡量。\n\n## 考试提醒\n\n用“多维+定性+利益相关者”理解其复杂性。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Value for money and accountability",
+          "points": [
+            {
+              "code": "APM.8.4",
+              "title": "Value for money (VFM)",
+              "summary": "价值为本（VFM）衡量公共支出是否实现经济、效率与有效，强调资源配置效果。",
+              "contentMd": "## 核心概念\n\n价值为本（value for money）评价公共资金使用的“3E”：用最低成本获得既定服务（经济）、以最少投入换最多产出（效率）、实现预期目标（有效）。VFM 是公共问责的核心。\n\n## 常见考法\n\n评估公共项目的 VFM。\n\n## 易错点\n\nVFM 需同时满足 3E，不能只看省钱。\n\n## 例子\n\n公共基础设施项目评估成本控制、按时完工与服务覆盖面。\n\n## 考试提醒\n\n把“3E”作为 VFM 的衡量框架。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.8.5",
+              "title": "Managing performance in public sector",
+              "summary": "公共部门的绩效管理需兼顾合规、透明、问责与效果。",
+              "contentMd": "## 核心概念\n\n公共部门绩效管理强调合规（遵守法规）、透明（公开披露）、问责（向公众负责）与效果。常用平衡计分卡、绩效仪表盘与关键绩效指标，结合外部评价与审计。\n\n## 常见考法\n\n设计公共部门绩效管理体系。\n\n## 易错点\n\n公共绩效需平衡硬指标与软价值（如公平、满意度）。\n\n## 例子\n\n政府机构用公开绩效指标提升透明度与问责。\n\n## 考试提醒\n\n把“合规+透明+问责+效果”作为公共绩效主线。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "APM.8.6",
+              "title": "Performance accountability in public bodies",
+              "summary": "公共机构需向民选机构、公众与审计机关负责，绩效评价支撑问责与改进。",
+              "contentMd": "## 核心概念\n\n公共机构的问责（accountability）链条长，绩效评价需支撑立法机关监督、公众知情与审计确认。通过绩效报告、外部审计与社会评价，形成发现问题—改进服务的闭环。\n\n## 常见考法\n\n分析公共机构的绩效问责机制。\n\n## 易错点\n\n问责过度会诱发“合规游戏”，需平衡创新与约束。\n\n## 例子\n\n政府机构公布年度绩效报告并接受审计，体现问责。\n\n## 考试提醒\n\n把“绩效+审计+公众监督”作为问责闭环。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Behavioural and Human Factors",
+      "description": "理解人的行为、激励与文化对绩效管理的影响，以及如何设计良性系统。",
+      "topics": [
+        {
+          "title": "Behavioural and motivational factors",
+          "points": [
+            {
+              "code": "APM.9.1",
+              "title": "Motivation theories and performance",
+              "summary": "激励理论（需求、公平、期望）解释员工动机如何影响绩效。",
+              "contentMd": "## 核心概念\n\n激励理论包括 Maslow 需求层次、Herzberg 双因素、Adams 公平理论与 Vroom 期望理论。理解动机能帮助设计薪酬、目标与反馈，激发员工绩效。\n\n## 常见考法\n\n用激励理论解释员工行为或改进激励。\n\n## 易错点\n\n“期望理论”强调努力-绩效-回报的预期链。\n\n## 例子\n\n员工认为努力能带来绩效且回报可观时，更积极投入。\n\n## 考试提醒\n\n把“需求+公平+期望”作为激励设计依据。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.9.2",
+              "title": "Behavioural issues in performance evaluation",
+              "summary": "绩效评价受主观偏差、博弈与信息不对称影响，需公平透明设计。",
+              "contentMd": "## 核心概念\n\n绩效评价的行为问题包括：主观偏差（光环、近因）、目的偏差（经理操纵）、信息不对称、指标替代与博弈。需用多源评价、清晰标准、反馈沟通与合理奖惩缓解。\n\n## 常见考法\n\n识别绩效评价的行为偏差并提改进。\n\n## 易错点\n\n单一上级评价易带主观偏差，多角度评价更公平。\n\n## 例子\n\n经理只重短期收益评价导致长期投入被忽视。\n\n## 考试提醒\n\n用“多源+透明+反馈”减少评价偏差。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.9.3",
+              "title": "Culture and performance management",
+              "summary": "组织文化影响绩效管理的接受度与效果，需与系统匹配。",
+              "contentMd": "## 核心概念\n\n组织文化（如创新、稳健、集权）塑造员工对绩效管理的态度。强信任文化让绩效反馈更被接受；保守文化可能抗拒变革。绩效管理需与文化一致，否则流于形式。\n\n## 常见考法\n\n分析文化对绩效管理的影响。\n\n## 易错点\n\n绩效制度与文化不匹配会造成抵触。\n\n## 例子\n\n创新型公司用结果导向与宽容失败的绩效文化。\n\n## 考试提醒\n\n把“文化匹配”作为绩效系统能否落地的软变量。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Incentives and control alignment",
+          "points": [
+            {
+              "code": "APM.9.4",
+              "title": "Designing reward systems",
+              "summary": "激励设计需目标一致、按绩付酬、兼顾长短期，防止博弈与短视。",
+              "contentMd": "## 核心概念\n\n设计激励需考虑：目标一致性（经理与股东）、绩效可测且可控、长短期平衡、公平与风险分担。过度单一目标易诱发操纵；指标应多元且经得起核验。\n\n## 常见考法\n\n设计或评价薪酬激励方案。\n\n## 易错点\n\n只考核短期利润会诱发盈余管理。\n\n## 例子\n\n高管激励纳入长期回报与质量指标，平衡长短期。\n\n## 考试提醒\n\n用“一致性+多指标+可核验+长期”评估激励。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.9.5",
+              "title": "Game playing and dysfunctional behaviour",
+              "summary": "绩效指标的扭曲会诱发博弈与行为失当（操纵、虚报目标）。",
+              "contentMd": "## 核心概念\n\n绩效管理可能引发博弈（gaming）：操纵数字、瞄准可测项、虚报或压低目标、短期行为。缓解包括多维度指标、创新导向、诚信文化、数据审计与合理奖惩。\n\n## 常见考法\n\n识别博弈行为并提治理对策。\n\n## 易错点\n\n“指标即目标”会扭曲行为，需警惕 Goodhart 效应。\n\n## 例子\n\n只考核接单数导致销售忽视利润与售后。\n\n## 考试提醒\n\n用“多元指标+诚信文化+审计”防博弈。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.9.6",
+              "title": "Human resource planning and performance",
+              "summary": "人力资源规划把员工能力与发展与绩效管理结合，保障战略所需人才。",
+              "contentMd": "## 核心概念\n\n人力资源规划（HR planning）评估人员需求、技能缺口与人才发展，并与绩效管理、培训与继任衔接。绩效数据为人才决策提供依据，形成能力与绩效的良性循环。\n\n## 常见考法\n\n分析人力资源规划与绩效管理的协同。\n\n## 易错点\n\n绩效管理应服务于人才成长，而非单纯考核。\n\n## 例子\n\n根据绩效与能力评估规划培训与晋升。\n\n## 考试提醒\n\n把“能力+绩效+发展”作为 HR 与绩效的连接。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Current Developments",
+      "description": "关注影响绩效管理的新兴议题，如技术、可持续与非财务信息变革。",
+      "topics": [
+        {
+          "title": "Emerging performance issues",
+          "points": [
+            {
+              "code": "APM.10.1",
+              "title": "Technology and performance management",
+              "summary": "数据分析、自动化与 AI 变革绩效测量与决策，实现更实时、精准的绩效管理。",
+              "contentMd": "## 核心概念\n\n技术让绩效数据实时、自动化与预测化，实时仪表盘、预测分析与 AI 支持动态决策；但也带来数据质量、模型风险与治理问题。\n\n## 常见考法\n\n分析技术对绩效管理的影响。\n\n## 易错点\n\n数据准确与专业判断仍不可替代。\n\n## 例子\n\n实时仪表盘让管理层即时监控关键绩效并快速响应。\n\n## 考试提醒\n\n用“实时+预测+风险”理解技术驱动的绩效变革。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.10.2",
+              "title": "Integrated reporting and ESG performance",
+              "summary": "整合报告与 ESG 绩效把财务与非财务、可持续信息纳入绩效与披露。",
+              "contentMd": "## 核心概念\n\n整合报告（integrated reporting）与 ESG 披露把战略、治理、绩效与可持续价值综合呈现，强调六类资本与价值创造。绩效管理需纳入环境与社会指标，回应投资者与监管。\n\n## 常见考法\n\n分析整合报告或 ESG 对绩效管理的影响。\n\n## 易错点\n\nESG 披露需真实可核验，避免漂绿。\n\n## 例子\n\n企业把碳减排与员工指标纳入绩效与报告。\n\n## 考试提醒\n\n把“可持续+多资本+披露”作为绩效新维度。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "APM.10.3",
+              "title": "Contemporary issues in performance management",
+              "summary": "绩效管理面临战略敏捷、非财务测量与数据治理等当代议题。",
+              "contentMd": "## 核心概念\n\n当代议题包括：在快速变化中保持绩效体系敏捷、更好测量无形/非财务价值、数据治理与伦理、以及多利益相关者视角。绩效管理需持续进化。\n\n## 常见考法\n\n讨论当代绩效管理挑战与趋势。\n\n## 易错点\n\n绩效体系要不断调适，避免僵化。\n\n## 例子\n\n敏捷战略企业采用滚动调整与实时指标。\n\n## 考试提醒\n\n把“敏捷+非财务+数据治理”作为当代绩效议题。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Future of performance management",
+          "points": [
+            {
+              "code": "APM.10.4",
+              "title": "Data analytics and predictive performance",
+              "summary": "预测分析让绩效从历史评价转向未来预判与主动干预。",
+              "contentMd": "## 核心概念\n\n预测分析（predictive analytics）利用历史与外部数据预测未来绩效与风险，支持前馈控制与主动干预，使绩效管理更具前瞻性。\n\n## 常见考法\n\n分析预测分析对绩效决策的价值。\n\n## 易错点\n\n预测依赖数据质量与模型假设。\n\n## 例子\n\n用客户行为预测营收并提前调配资源。\n\n## 考试提醒\n\n把“预测+前馈+主动”作为绩效未来方向。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "APM.10.5",
+              "title": "Sustainability and value creation measurement",
+              "summary": "把可持续价值纳入绩效衡量，实现财务与非财务、短期与长期的统一。",
+              "contentMd": "## 核心概念\n\n企业日益把可持续价值纳入绩效衡量，用多资本与 ESG 指标评价长期价值创造，与短期财务目标平衡。\n\n## 常见考法\n\n分析可持续价值的绩效衡量。\n\n## 易错点\n\n可持续价值衡量需避免口径不一与漂绿。\n\n## 例子\n\n企业把环境足迹与员工福祉纳入绩效评估。\n\n## 考试提醒\n\n把“长期+多资本+ESG”作为价值衡量趋势。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "APM.10.6",
+              "title": "Professional skills for performance management",
+              "summary": "绩效管理需结合数据分析、战略思考与沟通等专业技能。",
+              "contentMd": "## 核心概念\n\n现代绩效管理者需具备数据分析、战略解读、判断与沟通能力，把数据转化为洞察并推动改进。综合技能决定绩效管理的落地效果。\n\n## 常见考法\n\n讨论绩效管理所需技能。\n\n## 易错点\n\n单纯技术或单纯业务都难以做好绩效管理。\n\n## 例子\n\n财务总监用数据分析结合战略解读提出绩效改进建议。\n\n## 考试提醒\n\n把“数据+战略+沟通”作为绩效管理能力框架。",
+              "standardReference": "ACCA APM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "code": "AA",
+  "name": "Audit and Assurance",
+  "nameCn": "审计与鉴证",
+  "level": "APPLIED_SKILLS",
+  "category": null,
+  "order": 8,
+  "accent": "#0ea5e9",
+  "description": "审计与鉴证科目：掌握审计框架、职业道德、审计计划、内控与证据、审计报告与意见形成的核心能力。",
+  "examDurationMin": 180,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Objective Test Questions", "scope": "客观题", "count": 15, "marksPerQuestion": 2, "sectionMarks": 30 },
+      { "id": "B", "name": "Section B - OT Case Questions", "scope": "案例选择", "count": 15, "marksPerQuestion": 2, "sectionMarks": 30 },
+      { "id": "C", "name": "Section C - Constructed Response", "scope": "主观题", "count": 2, "marksPerQuestion": 20, "sectionMarks": 40 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" },
+    { "code": "INT", "label": "International", "region": "International" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Audit Framework and Regulation",
+      "description": "理解审计的目的、法定审计与监管框架，明确审计师与管理层的职责边界。",
+      "topics": [
+        {
+          "title": "Purpose of an audit and the audit framework",
+          "points": [
+            {
+              "code": "AA.01.1.1",
+              "title": "The purpose of an audit",
+              "summary": "审计由独立审计师对财务报表作出合理保证并提高其可信度，而非保证企业未来不失败。",
+              "contentMd": "## 核心概念\n\n审计（audit）是独立审计师（auditor）对企业财务报表（financial statements）实施的鉴证，目的是提高财务报表使用者对报表的信赖程度。审计师就报表是否在所有重大方面按照适用的财务报告框架编制，发表审计意见（audit opinion）。\n\n审计的关键特征是独立性（independence）与保证（assurance）。审计提供的是合理保证（reasonable assurance），而非绝对保证（absolute assurance），因为受时间、成本与抽样等限制，审计师无法发现所有错报。\n\n## 常见考法\n\n区分审计与会计、审计与鉴证服务；判断审计能否发现所有舞弊；说明审计意见对报表可信度的作用。\n\n## 易错点\n\n审计不是对企业未来经营成败或管理层经营能力的担保，也不是绝对保证能查出所有问题。\n\n## 例子\n\n一家上市公司年报经审计师出具有保留意见，投资者据此提高警觉，因为审计意见提示了报表可能存在重大错报。\n\n## 考试提醒\n\n牢记审计提高的是“报表的可信度”，核心是合理保证而非绝对保证。",
+              "standardReference": "ISA 200",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.01.1.2",
+              "title": "Statutory audits and the regulatory framework",
+              "summary": "法定审计是法律强制的审计，由监管框架约束，公司治理与公众利益是其产生的原因。",
+              "contentMd": "## 核心概念\n\n法定审计（statutory audit）是指法律强制要求进行的审计。例如英国 Companies Act 2006 规定公司须提交经审计的年度财务报表。法定审计服务于股东等报表使用者，也服务于更广泛的公众利益（public interest）。\n\n监管框架（regulatory framework）规定审计师资格、审计准则、报告要求与惩戒机制。公司治理（corporate governance）要求管理层对报表负责，而独立审计正是对管理层责任的监督。\n\n## 常见考法\n\n解释为何法定审计是强制性的；说明监管框架对审计质量与公众信心的保障作用。\n\n## 易错点\n\n法定审计的对象是企业，但受益者首先是股东，并非所有企业都强制审计（小公司可能豁免）。\n\n## 例子\n\n上市公司年报必须经过法定审计，若审计师行为失当，监管机构可对其调查、罚款或暂停执业。\n\n## 考试提醒\n\n抓住“法定=强制”与“公众利益”两个关键词，理解审计存在的制度意义。",
+              "standardReference": "Companies Act 2006",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AA.01.1.3",
+              "title": "Assurance and audit engagements",
+              "summary": "鉴证业务由专业机构对主体事项作出结论以提升可信度，审计是其中一种合理保证的鉴证。",
+              "contentMd": "## 核心概念\n\n鉴证业务（assurance engagement）指执业者（practitioner）就某一主体事项（subject matter）的认定发表结论，以增强预期使用者对该事项信息的信任。鉴证分为合理保证（reasonable assurance）与有限保证（limited assurance）。\n\n审计（audit）是典型的高水平合理保证鉴证业务；审阅（review，如 ISA 2400/2410）通常提供有限保证。鉴证业务要素包括三方关系（责任人、预期使用者、执业者）、主体事项、适当标准、证据与结论。\n\n## 常见考法\n\n区分合理保证与有限保证；判断某项服务是否属鉴证业务；识别鉴证业务的三方关系。\n\n## 易错点\n\n合理保证≠绝对保证；审阅只提供有限的消极保证，其结论表述与审计不同。\n\n## 例子\n\n审计报告表述为“我们认为……公允反映”，属于合理保证；审阅报告通常表述为“我们未注意到需要修改的事项”，属于有限保证。\n\n## 考试提醒\n\n用“保证程度”区分审计与审阅，并记住鉴证业务强调独立性与专业胜任能力。",
+              "standardReference": "ISA 200",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Standards and responsibilities",
+          "points": [
+            {
+              "code": "AA.01.2.1",
+              "title": "The IAASB and International Standards on Auditing (ISAs)",
+              "summary": "IAASB 制定国际审计准则（ISAs），为审计师执业提供统一标准，提升审计质量与可比性。",
+              "contentMd": "## 核心概念\n\n国际审计与鉴证准则理事会（IAASB，International Auditing and Assurance Standards Board）隶属国际会计师联合会（IFAC），是制定国际审计准则（International Standards on Auditing，ISAs）的机构。\n\nISAs 规定了审计师在执行审计时应遵循的要求，涵盖目标、定义、责任与程序。除 ISAs 外，IAASB 还发布国际审阅执业准则（ISREs）、国际鉴证业务准则（ISAEs）与国际相关服务准则（ISRSs）。\n\n## 常见考法\n\n识别 ISAs 的制定机构；说明准则为何能提高不同国家之间审计质量的趋同与可比性。\n\n## 易错点\n\nIAASB 负责制定准则，但各国有权采纳或调整；不要把 IAASB 与制定会计框架的 IASB 混淆。\n\n## 例子\n\n当各国采用 ISAs 时，同一家跨国公司的审计在不同国家遵循相似程序，便于跨国投资者比较。\n\n## 考试提醒\n\n分清 IAASB（审计）与 IASB（会计准则），并记住 ISAs 是审计师执业的最低要求与标准。",
+              "standardReference": "ISA",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AA.01.2.2",
+              "title": "Responsibilities of management and the auditor",
+              "summary": "管理层负责编制并按框架编制报表、设计内控；审计师负责独立取证并发表意见，二者边界清晰。",
+              "contentMd": "## 核心概念\n\n管理层（management）的责任是：按照适用的财务报告框架编制财务报表，设计并维护与报表相关的内部控制，防止并发现舞弊与错误，向审计师提供必要信息。管理层对报表负直接责任（responsibility）。\n\n审计师（auditor）的责任是：获取充分适当的审计证据，对报表是否公允表达发表独立意见。审计师不能代替管理层编制报表，也不能就报表编制成功承担责任。\n\n这种责任划分在审计报告中有明确表述（管理层责任段与审计师责任段），目的是让使用者理解各方角色。\n\n## 常见考法\n\n区分管理层与审计师各自的责任；判断某项工作（如编制报表、设计内控）应归属于谁。\n\n## 易错点\n\n审计师不负责编制报表、不保证企业绝不舞弊；报表的编制责任始终属于管理层。\n\n## 例子\n\n若发现报表存在重大错报，责任首先在于管理层编制不当，审计师若未按准则取证则可能承担审计责任。\n\n## 考试提醒\n\n牢记“编报表归管理层，出意见归审计师”，这是判断责任归属的基本标尺。",
+              "standardReference": "ISA 200",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Professional Ethics",
+      "description": "掌握守则的基本原则、概念框架下的威胁防范，以及独立性与舞弊的责任处理。",
+      "topics": [
+        {
+          "title": "ACCA Code of Ethics and professional behaviour",
+          "points": [
+            {
+              "code": "AA.02.1.1",
+              "title": "The fundamental principles of professional ethics",
+              "summary": "职业道德五项基本原则是诚信、客观、专业胜任与勤勉、保密、专业行为，指导和约束执业人士。",
+              "contentMd": "## 核心概念\n\nACCA 职业道德守则（Code of Ethics）确立了五项基本原则（fundamental principles）：\n1. 诚信（integrity）——诚实正直、言行一致；\n2. 客观（objectivity）——不受偏见、利益冲突或他人不当影响；\n3. 专业胜任与应有的关注（professional competence and due care）——保持并运用专业知识技能；\n4. 保密（confidentiality）——对获取的信息保密；\n5. 专业行为（professional behaviour）——遵守法律法规，职业形象得体。\n\n## 常见考法\n\n判断某行为违反哪一项原则；给出情境后选择适用原则；评价“保持独立性为何属于客观性”的表现。\n\n## 易错点\n\n“客观性”更偏向不受影响，而“独立”通常特指审计情形下的独立性要求，二者有联系但不完全等同。\n\n## 例子\n\n审计师接受客户贵重礼品并因此放松取证，这违反客观性与诚信原则。\n\n## 考试提醒\n\n用“诚实、中立、专业、保密、守规”五个关键词记忆原则，并结合情境识别。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.02.1.2",
+              "title": "The conceptual framework approach to ethical threats",
+              "summary": "守则采用概念框架而非规则清单，先识别威胁，再评估其重要性，最后采取应对或拒绝。",
+              "contentMd": "## 核心概念\n\n概念框架（conceptual framework）要求执业人士识别对基本原则的威胁（threats）、评估其重要性，并在超出可接受水平时加以消除或降低（safeguards）。若无法将威胁降至可接受水平，则应拒绝或终止该业务。\n\n常见威胁类型：自身利益（self-interest）、自我评价（self-review）、过度推介（advocacy）、密切关系（familiarity）与压力（intimidation）。\n\n## 常见考法\n\n识别题干情境对应哪种威胁；判断某项防范措施是否能有效消除威胁；评估是否应接受委托。\n\n## 易错点\n\n概念框架是一个动态评估过程，没有绝对“对”或“错”的规则答案，关键看威胁是否降到可接受水平。\n\n## 例子\n\n审计师兼任客户财务总监，产生明显的自我评价威胁，通常需通过调整人员或拒绝委托来应对。\n\n## 考试提醒\n\n按“识别威胁→评估→防范→决定”思路答题，并牢记五大威胁类型。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Independence and safeguards",
+          "points": [
+            {
+              "code": "AA.02.2.1",
+              "title": "Independence threats and safeguards",
+              "summary": "独立性分实质独立与形式独立，面临各种威胁时需依靠防范措施降至可接受水平。",
+              "contentMd": "## 核心概念\n\n独立性（independence）包括实质独立（independence in mind，思想上的独立）与形式独立（independence in appearance，对外表现上的独立）。审计师必须保持独立，否则审计意见可信度受损。\n\n威胁独立性的情形包括：经济利益（如持有客户股份）、直接或重大间接的利益、自我评价（审计自身的服务结果）、密切关系（长期或亲属关系）、提供非鉴证服务等。防范措施可来自准则、事务所层面（如轮换、独立复核）或客户层面（如治理层监督）。\n\n## 常见考法\n\n判断某利益关系是否损害独立性；说明某防范措施是否有效；在案例中提出恰当应对。\n\n## 易错点\n\n即便审计师心理上客观，若在外界看来存在利益冲突（形式不独立）也会损害可信度。\n\n## 例子\n\n注册会计师持有被审计单位上市公司股票，属于自身利益威胁，通常应卖出股票或退出该审计项目。\n\n## 考试提醒\n\n同时考虑实质与形式独立，并针对具体威胁给出具体、可操作的防范措施。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.02.2.2",
+              "title": "Confidentiality and disclosure",
+              "summary": "保密原则要求不泄露客户信息，但法律法规、专业义务或公共利益可能要求例外披露。",
+              "contentMd": "## 核心概念\n\n保密原则（confidentiality）要求会计师对在执业中获取的信息保密，不为自己或第三方谋利。保密义务在业务关系结束与离职后仍然存在，除非获得授权或法律要求披露。\n\n例外披露（disclosure）的情形通常包括：法律强制（如法院传票）、专业职责（如遵守准则要求的披露）、公共利益（如发现重大违法行为）、经客户授权同意。\n\n## 常见考法\n\n判断某情形是否属于保密例外；解释为何某信息必须披露；分析保密与公共利益的权衡。\n\n## 易错点\n\n保密并不绝对；当存在法律强制或公共利益时，披露是被允许甚至必须的。\n\n## 例子\n\n审计师发现客户存在洗钱行为，虽属客户秘密，但依法应向有关当局报告。\n\n## 考试提醒\n\n记住保密例外主要来自“法律、专业义务、公共利益、本人同意”四类来源。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AA.02.2.3",
+              "title": "Fraud and the responsibilities of the auditor",
+              "summary": "审计师负责发现能导致重大错报的舞弊，但应区分舞弊与错误，并识别舞弊风险。",
+              "contentMd": "## 核心概念\n\n舞弊（fraud）是有意行为，分为编制虚假报表的舞弊（fraudulent financial reporting，如虚增收入）与侵占资产的舞弊（misappropriation of assets，如盗用现金）。错误（error）则是无意差错。\n\nISAs 要求审计师保持职业怀疑（professional skepticism），识别舞弊风险，针对因舞弊导致的重大错报风险设计并实施应对程序，并考虑舞弊迹象。审计师不能对发现所有舞弊作出保证，但须对重大舞弊风险保持警觉。\n\n## 常见考法\n\n区分舞弊与错误；识别舞弊风险因素；说明审计师对舞弊的责任及为何不能绝对发现。\n\n## 易错点\n\n审计师的职责是追查重大错报（含舞弊），并非所有舞弊都会被查出，因为存在管理层凌驾于内控、串通等情形。\n\n## 例子\n\n管理层通过虚构销售合同虚增收入，属于编制虚假报表的舞弊，审计师应关注异常交易并获取外部证据。\n\n## 考试提醒\n\n记住舞弊两大类别与“职业怀疑”，答题时强调审计师关注的是重大层次的舞弊风险。",
+              "standardReference": "ISA 240",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Audit Planning",
+      "description": "学习总体审计策略与审计计划，以及重要性水平的确定与修订，为有效审计提供框架。",
+      "topics": [
+        {
+          "title": "ISA 300 audit planning",
+          "points": [
+            {
+              "code": "AA.03.1.1",
+              "title": "The overall audit strategy",
+              "summary": "总体审计策略确定审计范围、时间与方向，是指导并约束审计计划制定的顶层文件。",
+              "contentMd": "## 核心概念\n\n总体审计策略（overall audit strategy）是在审计开始时确定审计范围、资源分配、时间安排与出具报告等事项的总体计划。它规定审计的“大方向”，包括报表特征、重要性水平、审计风险与重点领域。\n\n审计策略应当决定资源的分配（哪些领域投入更多资深人员、在何时执行审计），并随审计进展作必要更新。\n\n## 常见考法\n\n区分总体审计策略与审计计划；指出策略包含哪些要素；判断某事项属策略还是计划。\n\n## 易错点\n\n策略是“做什么、覆盖什么、何时做”的高层方向，计划是“具体怎么做”的详细程序。\n\n## 例子\n\n管理层存在虚增利润动机时，审计策略应把收入确认列为高风险领域并配置资深人员。\n\n## 考试提醒\n\n把策略理解为“资源与方向”，把计划理解为“具体程序”，二者层级不同。",
+              "standardReference": "ISA 300",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.03.1.2",
+              "title": "The audit plan and audit programme",
+              "summary": "审计计划将策略细化为具体程序，审计程序表列出执行步骤以指导实务操作。",
+              "contentMd": "## 核心概念\n\n审计计划（audit plan）比策略更具体，详述为应对评估出的风险而实施审计程序的性质、时间与范围，以及所需的审计证据。它在审计过程中持续更新。\n\n审计程序表（audit programme）是列明具体审计步骤、执行人、时间与结果的清单，用于指导现场执行并留下工作记录。\n\n## 常见考法\n\n说明计划与程序表的关系；解释为何计划需随审计调整；判断某程序应记录在何处。\n\n## 易错点\n\n计划与策略不同；程序表不是一成不变，需根据发现的新风险调整。\n\n## 例子\n\n针对存货余额，审计计划规定执行监盘程序，审计程序表则列出监盘的具体检查与测试步骤。\n\n## 考试提醒\n\n策略定方向、计划定程序、程序表定操作步骤，层层细化。",
+              "standardReference": "ISA 300",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "ISA 320 materiality",
+          "points": [
+            {
+              "code": "AA.03.2.1",
+              "title": "Materiality and performance materiality",
+              "summary": "重要性衡量错报影响使用者决策的程度；执行重要性用于控制审计证据的适当数量。",
+              "contentMd": "## 核心概念\n\n重要性（materiality）指错报或漏报达到会影响报表使用者经济决策的程度。重要性需要职业判断，通常按基准（如税前利润、营业收入、总资产）的某一百分比确定。\n\n执行重要性（performance materiality）是为降低未发现错报累积超过重要性的风险，而设定的低于整体重要性的金额。它用于确定审计程序的范围与样本量。\n\n## 常见考法\n\n选择并计算重要性基准；解释为何设置执行重要性；判断某错报是否重大。\n\n## 易错点\n\n重要性是定性与定量结合，不仅看金额；执行重要性通常低于整体重要性。\n\n## 例子\n\n某公司税前利润 1000 万，审计师按 5% 设定整体重要性 50 万，执行重要性设为 30 万以留出余量。\n\n## 考试提醒\n\n理解重要性是“决策门槛”，执行重要性是“留有余地”的保险性设置。",
+              "standardReference": "ISA 320",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.03.2.2",
+              "title": "Revision of materiality",
+              "summary": "重要性随审计进行可能因情况变化而调整，修订后需重新评估审计证据的充分适当性。",
+              "contentMd": "## 核心概念\n\n随着审计进展，若出现影响重要性的新信息（如发现重大错报、被审计单位经营状况变化、报表基准改变），审计师应修订重要性水平（revision of materiality）。\n\n修订后审计师需要重新考虑：是否需要调整执行重要性、是否需要扩大审计程序的范围、已获取证据是否仍然充分适当。\n\n## 常见考法\n\n判断何时需要修订重要性；说明修订后对审计工作的影响；指出未修订可能产生的后果。\n\n## 易错点\n\n重要性不是一次性定死；修订本身意味着审计证据的充分性需重新评价。\n\n## 例子\n\n年度快报显示公司由预期盈利转为大幅亏损，审计师应下调基于利润的重要性，并重新考虑证据充分性。\n\n## 考试提醒\n\n凡是影响“使用者决策门槛”变化的情形，都要想到可能需要修订重要性。",
+              "standardReference": "ISA 320",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Audit Risk and Assessment",
+      "description": "掌握审计风险的组成与风险模型，并学会了解被审计单位、识别重大风险。",
+      "topics": [
+        {
+          "title": "ISA 315 audit risk",
+          "points": [
+            {
+              "code": "AA.04.1.1",
+              "title": "Components of audit risk: inherent, control and detection risk",
+              "summary": "审计风险由固有风险、控制风险与检查风险组成，前两者属被审计单位，后者由审计师管控。",
+              "contentMd": "## 核心概念\n\n审计风险（audit risk）是财务报表存在重大错报而审计师发表不恰当意见的风险。它由三部分组成：\n1. 固有风险（inherent risk）——在无内部控制时，某认定本身易发生重大错报的风险（如复杂交易、需估计的事项）；\n2. 控制风险（control risk）——内部控制未能及时防止或发现重大错报的风险；\n3. 检查风险（detection risk）——审计程序未能发现已存在重大错报的风险。\n\n## 常见考法\n\n识别某情形属于哪种风险；解释固有、控制与检查风险的关系；判断某项措施降低的是哪种风险。\n\n## 易错点\n\n固有与控制风险由被审计单位决定，检查风险才是审计师能通过程序控制的部分。\n\n## 例子\n\n存货计价依赖复杂估计，固有风险较高；若其内控薄弱，控制风险也较高，审计师需扩大实质性程序。\n\n## 考试提醒\n\n牢记三大风险并举，明白审计师只能通过程序控制检查风险。",
+              "standardReference": "ISA 315",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.04.1.2",
+              "title": "The audit risk model",
+              "summary": "审计风险=固有风险×控制风险×检查风险，三风险反向联动决定审计证据的数量。",
+              "contentMd": "## 核心概念\n\n审计风险模型（audit risk model）：审计风险 = 固有风险 × 控制风险 × 检查风险。审计师设定可接受的审计风险（通常较低且固定），据此倒推出可接受的检查风险。\n\n固有风险与控制风险越高，可接受的检查风险就越低，意味着需要获取更多、更有力的审计证据。检查风险与所获取证据的数量与质量成反比。\n\n## 常见考法\n\n用模型推算检查风险；说明三者如何影响审计证据数量；判断提高或降低某风险对审计工作的影响。\n\n## 易错点\n\n检查风险不能降为 0，所以审计意见只是合理保证而非绝对保证。\n\n## 例子\n\n某认定固有与控制风险都很高，则检查风险须控制得低，需获取更多外部与实质性证据。\n\n## 考试提醒\n\n记住“风险高则证据多”的逆向关系，这是贯穿全科的核心逻辑。",
+              "standardReference": "ISA 315",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Risk assessment procedures",
+          "points": [
+            {
+              "code": "AA.04.2.1",
+              "title": "Understanding the entity and its environment",
+              "summary": "审计师需了解被审计单位及其环境、内控与经营风险，作为识别和评估重大错报风险的基础。",
+              "contentMd": "## 核心概念\n\n风险评估程序（risk assessment procedures）包括：了解被审计单位及其环境（industry, regulatory, ownership, operations）、了解适用的财务报告框架、了解内部控制系统、执行分析程序与询问。\n\n了解的对象还包括管理层对舞弊风险的态度、治理结构、经营目标与相关经营风险（business risks）。通过这些了解，审计师才能识别出重大错报风险。\n\n## 常见考法\n\n列举了解和评估风险的程序；判断某信息来源属哪一类了解；说明了解环境如何帮助识别风险。\n\n## 易错点\n\n风险识别建立在对被审计单位的充分了解上，不能主观臆断，也不能仅限于财务报表数据。\n\n## 例子\n\n审计师了解某制造业公司面临汇率与原材料涨价风险，从而关注其存货计价与负债类科目。\n\n## 考试提醒\n\n把“审计师要懂客户的生意”作为出发点，理解风险识别离不开对经营与行业的了解。",
+              "standardReference": "ISA 315",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.04.2.2",
+              "title": "Identification of significant risks",
+              "summary": "重大风险是指需要特别考虑的、很可能导致重大错报的风险，需得到与一般风险不同的关注。",
+              "contentMd": "## 核心概念\n\n重大风险（significant risk）是指审计师认为需要特别考虑（significant）的重大错报风险。此类风险通常与固有风险较高、涉及管理层判断、异常交易、舞弊风险（如超出正常经营过程的交易）相关。\n\n对识别出的重大风险，审计师应作出相应应对，包括评价相关控制设计、执行针对性的实质性程序，并在审计计划与报告中予以强调。\n\n## 常见考法\n\n判断某情形是否构成重大风险；说明为何某风险值得特别关注；列出应采取的应对措施。\n\n## 易错点\n\n并非所有高风险认定都是“重大风险”；重大风险需要判断，且常伴随舞弊或重大估计。\n\n## 例子\n\n年末一笔对关联方的重大异常销售交易，涉嫌虚构收入，属于需要特别关注和取证的重大风险。\n\n## 考试提醒\n\n抓住“需要特别考虑、常涉判断与异常、可能涉舞弊”三个特征来识别重大风险。",
+              "standardReference": "ISA 315",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Internal Control Systems and Tests of Controls",
+      "description": "理解内部控制的五要素与控制环境，掌握销售、采购、存货循环的控制与控制测试。",
+      "topics": [
+        {
+          "title": "Internal control and the control environment",
+          "points": [
+            {
+              "code": "AA.05.1.1",
+              "title": "The five components of internal control",
+              "summary": "内部控制五要素为控制环境、风险评估、控制活动、信息与沟通、监督活动，构成内控整体。",
+              "contentMd": "## 核心概念\n\n内部控制（internal control）由管理层设计，以实现经营效率、报表可靠与合规等目标。内部控制包含五要素（components）：\n1. 控制环境（control environment）——治理、管理层理念与诚信、组织结构；\n2. 风险评估（risk assessment）——识别并应对经营风险；\n3. 控制活动（control activities）——授权、职务分离、核对等具体控制；\n4. 信息与沟通（information and communication）——相关信息的传递；\n5. 监督（monitoring）——对控制运行持续或定期监督。\n\n## 常见考法\n\n识别某控制属于哪一要素；说明五要素如何协同发挥作用；评价控制的整体有效性。\n\n## 易错点\n\n控制活动是“具体操作”，控制环境是“氛围与基调”，二者层级与作用不同。\n\n## 例子\n\n管理层坚持不相容职务分离，属于控制活动；而管理层诚信与重视内控的理念，属于控制环境。\n\n## 考试提醒\n\n用“环境→风险→活动→信息→监督”的顺序记忆五要素。",
+              "standardReference": "ISA 315",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.05.1.2",
+              "title": "The control environment",
+              "summary": "控制环境是内控的基础，体现管理层对内控的态度，其健全程度影响其他控制的有效性。",
+              "contentMd": "## 核心概念\n\n控制环境（control environment）包括治理层的职能、管理层的理念与经营风格、组织架构、职责与授权、人事政策与诚信道德价值观。它是内部控制其他要素的基础（tone at the top）。\n\n若控制环境薄弱，即使存在具体控制活动，其有效性也大打折扣，审计师可能因此扩大实质性程序范围。\n\n## 常见考法\n\n说明控制环境对整体内控的影响；判断某因素是否属于控制环境；分析控制环境薄弱对审计策略的影响。\n\n## 易错点\n\n控制环境属于“软控制”，容易只从形式判断；其关键在于管理层是否从行动上重视内控。\n\n## 例子\n\n若经理层普遍忽视内控、纵容违规，即便有授权流程，控制效果仍弱，审计师需增加实质性测试。\n\n## 考试提醒\n\n把控制环境理解为“公司文化的高层基调”，它对其他控制起基础性作用。",
+              "standardReference": "ISA 315",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Control cycles and tests of controls",
+          "points": [
+            {
+              "code": "AA.05.2.1",
+              "title": "Internal control cycles for sales, purchases and inventory",
+              "summary": "销售、采购与存货循环各有典型控制，核心在于授权、记录与核对等职务分离。",
+              "contentMd": "## 核心概念\n\n业务循环（transaction cycles）反映企业的经营活动。销售循环：从订单、信用审批、发货、开票到收款，关键控制包括信用授权、记录及时、核对、职务分离。\n\n采购循环：从请购、订购、验收、记录应付到付款，关键控制包括请购与订购授权、验收、三单核对（order/goods received/invoice）。\n\n存货循环：采购保管与盘存、永续记录、定期盘点与差异处理。\n\n## 常见考法\n\n识别某循环中的控制；说明控制对应的目标（完整性、发生、计价等）；分析控制缺失的后果。\n\n## 易错点\n\n同一控制可能服务多个认定；要结合“发生、完整性、计价”等审计目标来分析控制作用。\n\n## 例子\n\n销售部门不得同时负责赊销审批与发货，否则可能出现重复发货或虚构收入的风险。\n\n## 考试提醒\n\n把三个循环与控制目标（授权、记录、核对、分离）结合起来理解。",
+              "standardReference": "ISA 315",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.05.2.2",
+              "title": "Tests of controls",
+              "summary": "控制测试用于验证内控在审计期间是否一贯有效运行，决定能否依赖内控以减少实质性程序。",
+              "contentMd": "## 核心概念\n\n控制测试（tests of controls）是为获得控制运行有效性的证据而执行的程序，包括询问、观察、检查与重新执行（reperformance）。其审计认定对象是“控制的运行有效性”。\n\n当审计师计划依赖内部控制（即减少实质性程序）时，必须执行控制测试。测试范围取决于控制的频率、依赖程度与风险评估结果。控制测试可结合属性抽样进行。\n\n## 常见考法\n\n判断某程序属于控制测试还是实质性程序；说明何时需要执行控制测试；评价控制测试的结果。\n\n## 易错点\n\n控制测试验证的是“控制是否有效运行”，与实质性程序验证“报表金额是否正确”不同。\n\n## 例子\n\n审计师重新执行一次信用审批流程（reperformance）以确认其一贯执行，属于控制测试。\n\n## 考试提醒\n\n牢记“依赖内控→必须做控制测试→才能减少实质性程序”的逻辑链。",
+              "standardReference": "ISA 330/315",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.05.2.3",
+              "title": "Limitations of internal control",
+              "summary": "内部控制存在固有局限，如人为错误、串通、管理层凌驾于内控之上等，因此仍须实质性程序。",
+              "contentMd": "## 核心概念\n\n内部控制有其固有局限（limitations），包括：人为判断与错误、管理层凌驾于控制之上（management override）、职务串通（collusion）、成本效益考虑、以及控制只能针对已识别的风险。\n\n因此，无论内控多健全，审计师都不能只依赖控制测试，仍需执行一定实质性程序（substantive procedures）以获取充分适当证据。\n\n## 常见考法\n\n列举内控的局限；解释为何内控健全仍需实质性程序；分析某情形是否体现内控局限。\n\n## 易错点\n\n内控无法预防或发现所有错报，尤其无法防止管理层的蓄意舞弊。\n\n## 例子\n\n两名员工串通虚构采购并共同掩盖，内控核对可能被绕过，审计师需依赖外部证据核实。\n\n## 考试提醒\n\n记住内控是“合理保证”而非绝对保证，局限以“人、串通、凌驾、成本”为关键词。",
+              "standardReference": "ISA 315",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "IT Systems and E-commerce Risks",
+      "description": "理解一般 IT 控制与应用控制，以及电子商务对审计带来的风险与挑战。",
+      "topics": [
+        {
+          "title": "IT systems and control implications",
+          "points": [
+            {
+              "code": "AA.06.1.1",
+              "title": "General IT controls",
+              "summary": "一般 IT 控制针对整个信息系统，包括访问、程序变更、运行与数据保护，是应用控制的基础。",
+              "contentMd": "## 核心概念\n\n一般 IT 控制（general IT controls，GITCs）是对整个信息系统的控制，包括：访问控制（access controls，权限与密码）、程序变更控制（program change controls）、系统运行控制（如备份与恢复）、数据保护与灾难恢复。\n\n一般 IT 控制作用于所有应用，若薄弱，会影响依赖系统的应用控制与自动化处理的可靠性，从而影响审计策略。\n\n## 常见考法\n\n区分一般 IT 控制与应用控制；说明一般 IT 控制薄弱对审计的影响；列举一般 IT 控制的类型。\n\n## 易错点\n\n一般 IT 控制是“系统层面、全局性”，应用控制是“某个具体业务流程输入输出”的控制。\n\n## 例子\n\n公司对财务系统的密码与权限管理不善，导致任何员工可修改数据，属于一般 IT 控制缺陷。\n\n## 考试提醒\n\n用“全局访问/变更/运行/备份”等词定位一般 IT 控制。",
+              "standardReference": "ISA 315",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AA.06.1.2",
+              "title": "Application controls",
+              "summary": "应用控制针对具体业务流程的数据输入、处理与输出，确保交易记录的准确与完整。",
+              "contentMd": "## 核心概念\n\n应用控制（application controls）针对具体应用系统的输入（input）、处理（processing）与输出（output），包括：输入校验（如格式化检查、合理性检查、缺项检查）、处理逻辑校验、输出核对、以及对异常报告的复核。\n\n应用控制通常与具体认定（如完整性、准确性、发生）密切相关，且常常依赖一般 IT 控制的正常运行。\n\n## 常见考法\n\n识别某控制属于应用控制；说明应用控制对应的认定；判断应用控制与一般 IT 控制的依赖关系。\n\n## 易错点\n\n应用控制针对“业务数据处理”，一般 IT 控制针对“系统环境”，两者不能混淆。\n\n## 例子\n\n系统在录入金额时强制校验不超过设定的额度，属于应用控制的输入校验。\n\n## 考试提醒\n\n记住“输入、处理、输出”三个环节是应用控制的落点。",
+              "standardReference": "ISA 315",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "E-commerce risks",
+          "points": [
+            {
+              "code": "AA.06.2.1",
+              "title": "E-commerce and risks to the audit",
+              "summary": "电子商务带来新的经营与技术风险，如欺诈、安全、收入确认与审计证据问题，影响风险评估。",
+              "contentMd": "## 核心概念\n\n电子商务（e-commerce）使企业通过互联网开展交易，带来系统安全、身份认证、交易真实与完整性、数据与隐私保护等风险。同时可能产生收入确认、退货、收款与跨境税务等复杂性。\n\n对审计而言，电子商务增加了一些风险（如虚假交易、非现金交付、技术依赖），也可能使某些证据（如电子数据）易被篡改而可信度降低，从而影响审计师的风险评估与取证方式。\n\n## 常见考法\n\n列举电子商务给审计带来的风险；说明这些风险如何影响审计策略；分析电子证据的可靠性。\n\n## 易错点\n\n电子商务风险不只在技术安全，还包括收入确认、证据可靠性等审计关怀。\n\n## 例子\n\n在线商城订单量大、且常以电子记录为准，审计师需关注其系统一般 IT 控制与收入确认政策。\n\n## 考试提醒\n\n从“风险增多、证据可靠性、依赖系统”三个角度理解电商对审计的影响。",
+              "standardReference": "ISA 315",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Audit Evidence",
+      "description": "掌握充分适当证据的判定、各类审计程序，以及外部函证等具体取证方式。",
+      "topics": [
+        {
+          "title": "ISA 500 audit evidence",
+          "points": [
+            {
+              "code": "AA.07.1.1",
+              "title": "Sufficient appropriate audit evidence",
+              "summary": "审计证据须充分且适当，充分关乎数量，适当关乎质量（相关性与可靠性）。",
+              "contentMd": "## 核心概念\n\n审计证据（audit evidence）是审计师用于形成审计意见的信息，包括会计记录与其他信息。充分性（sufficiency）指证据数量的要求，受风险评估与重大错报可能性的影响；适当性（appropriateness）指证据质量，包括相关性（relevance）与可靠性（reliability）。\n\n证据可靠性的高低顺序通常是：外部独立来源优于内部；内部控制良好下产生的证据优于控制较弱时；审计师直接获取的证据优于间接获取。数量与质量相互影响，证据质量越高，所需数量越少。\n\n## 常见考法\n\n判断证据的充分与适当；比较不同证据的可靠性；说明风险评估如何影响所需证据数量。\n\n## 易错点\n\n充分≠越多越好，质量差时数量再多也难补；可靠性排序是高频考点。\n\n## 例子\n\n银行函证回函通常比内部总账记录更可靠，因为其来自外部独立第三方。\n\n## 考试提醒\n\n记住“外部>内部、强控>弱控、直接>间接”的可靠性排序。",
+              "standardReference": "ISA 500",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.07.1.2",
+              "title": "Audit procedures: inspection, observation, enquiry, confirmation, recalculation and analytical procedures",
+              "summary": "审计程序包括检查、观察、询问、函证、重新计算与分析程序，用于获取不同证据。",
+              "contentMd": "## 核心概念\n\n审计程序（audit procedures）是用于获取审计证据的具体方法：\n1. 检查（inspection）——检查记录、文件或实物资产；\n2. 观察（observation）——观察他人执行或流程；\n3. 询问（enquiry）——向内部或外部人员了解情况；\n4. 函证（confirmation）——对外部第三方获取书面确认；\n5. 重新计算（recalculation）——重新执行计算；\n6. 重新执行（reperformance）——重新执行控制或流程；\n7. 分析程序（analytical procedures）——通过比率、趋势与关系分析。\n\n## 常见考法\n\n匹配某程序与某认定；判断为获取某证据最适合用哪种程序；比较不同程序的可信度。\n\n## 易错点\n\n询问（enquiry）可信度较低，通常需与其他程序结合；实物检查≠产权确认。\n\n## 例子\n\n审计师清点仓库存货（inspection）并观察盘点过程（observation），同时向客户确认应收款（confirmation）。\n\n## 考试提醒\n\n牢记七类程序及各自主要服务的认定，特别是“询问不可单独、函证针对外部、分析用于趋势”。",
+              "standardReference": "ISA 500",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "ISA 505 external confirmations",
+          "points": [
+            {
+              "code": "AA.07.2.1",
+              "title": "External confirmations",
+              "summary": "外部函证是向独立第三方取得的直接证据，常用于银行存款、应收款与应付款的核实。",
+              "contentMd": "## 核心概念\n\n外部函证（external confirmation）是审计师直接向第三方获取的书面信息（如银行函证、应收账款函证、律师函）。它提供较高的可靠性，因为它来自独立来源且审计师可直接控制函证过程。\n\n函证通常用于银行存款与借款、应收账款（应收账款函证通常是强制性的）、应付款项及其他交易。函证方式有积极式（positive，要求回函）与消极式（negative，仅要求不符时回复）。\n\n## 常见考法\n\n说明函证适用于哪些科目；比较积极式与消极式函证；判断函证未回函时应如何处理。\n\n## 易错点\n\n函证未回函并不等于证明无错报，应对此执行替代程序（如检查后续收款、销售单据）。\n\n## 例子\n\n审计师就某笔应收账款向客户发积极式询证函，若未获回函，将检查该客户后续的付款记录作为替代。\n\n## 考试提醒\n\n记住应收账款函证常为必须，未回函要执行替代程序，这是高频考点。",
+              "standardReference": "ISA 505",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Audit Sampling and CAATs",
+      "description": "理解审计抽样、抽样风险与抽样过程，以及计算机辅助审计技术在取证中的应用。",
+      "topics": [
+        {
+          "title": "ISA 530 audit sampling",
+          "points": [
+            {
+              "code": "AA.08.1.1",
+              "title": "Sampling risk and the sampling process",
+              "summary": "审计抽样通过选取部分项目得出总体结论，需管理抽样风险，并按设计、选取、执行的流程进行。",
+              "contentMd": "## 核心概念\n\n审计抽样（audit sampling）是从总体（population）中选取部分样本，根据样本结果推断总体特征的方法。抽样的目的是在合理成本下获得证据。\n\n抽样风险（sampling risk）指样本结论与总体实际情况不符的风险，包括控制测试中的信赖过度/信赖不足风险，以及实质性程序中的误受/误拒风险。非抽样风险则来自审计师判断或程序执行错误。\n\n审计抽样过程包括：确定目标与总体、确定样本量与选取方法（随机、系统、等距）、执行程序、评价样本结果并推断至总体。\n\n## 常见考法\n\n区分抽样风险与非抽样风险；判断样本选取方法是否恰当；说明如何从样本结果推断总体。\n\n## 易错点\n\n抽样风险是可以管理和控制的，但不代表能被完全消除；非抽样风险源于人为错误。\n\n## 例子\n\n审计师从 1000 笔销售中随机抽取 50 笔测试，若发现 2 笔错误，会据此估计总体错报发生率。\n\n## 考试提醒\n\n理解“样本→总体”的推断逻辑，并区分抽样与非抽样风险。",
+              "standardReference": "ISA 530",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.08.1.2",
+              "title": "Statistical and non-statistical sampling",
+              "summary": "统计抽样可量化抽样风险，非统计抽样依赖职业判断，二者都必须遵循审计准则。",
+              "contentMd": "## 核心概念\n\n统计抽样（statistical sampling）依据概率与统计学原理，可量化抽样风险、确定样本量并评估样本结果（常用货币单位抽样 MUS、属性抽样、变量抽样）。\n\n非统计抽样（non-statistical sampling）不依赖概率计量，而是依据职业判断确定样本量和推断总体，成本较低但无法量化抽样风险。\n\n两者都必须遵循 ISA 530，审计师可根据判断选用；关键是样本应能代表总体、程序规范、结果合理推断。\n\n## 常见考法\n\n比较统计与非统计抽样的优缺点；判断某情形适合哪种抽样；说明统计抽样的优点。\n\n## 易错点\n\n统计抽样并不自动优于非统计抽样；非统计抽样同样强调代表性与职业判断。\n\n## 例子\n\n对大量同质化交易（如应收账款），统计抽样能较精确地量化风险；对小规模总体，非统计抽样更经济。\n\n## 考试提醒\n\n记住统计抽样“可量化风险但成本高”，非统计抽样“经济但依赖判断”。",
+              "standardReference": "ISA 530",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Computer-assisted audit techniques (CAATs)",
+          "points": [
+            {
+              "code": "AA.08.2.1",
+              "title": "Audit software and test data",
+              "summary": "计算机辅助审计技术运用审计软件与测试数据，提高数据测试效率，需注意数据安全与依赖。",
+              "contentMd": "## 核心概念\n\n计算机辅助审计技术（CAATs，Computer-Assisted Audit Techniques）包括审计软件（audit software，如通用审计软件用于读取、筛选、比对大量电子数据）与测试数据（test data，向系统输入虚构数据以验证其处理逻辑与控制）。\n\nCAATs 能高效处理大数据、发现异常交易，但也依赖系统与一般 IT 控制，存在数据安全、通用性与获得完整数据等问题。\n\n## 常见考法\n\n区分审计软件与测试数据的用途；列举 CAATs 的优点与局限；判断某情形是否适合使用 CAATs。\n\n## 易错点\n\n审计软件用于“检查真实数据”，测试数据用于“测试系统处理逻辑”，两者目的不同。\n\n## 例子\n\n审计师用审计软件筛选出金额异常、超过阈值的销售记录；或输入测试数据验证系统是否拒绝超额付款。\n\n## 考试提醒\n\n分清“审计软件查数据、测试数据测系统”，并记住其高效但依赖安全性。",
+              "standardReference": "ISA 500",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Audit Procedures for Specific Items",
+      "description": "针对收入、固定资产、存货、应收应付等具体项目设计并执行恰当的审计程序。",
+      "topics": [
+        {
+          "title": "Audit procedures for specific balances",
+          "points": [
+            {
+              "code": "AA.09.1.1",
+              "title": "Audit procedures for revenue",
+              "summary": "收入审计关注虚增风险，需结合控制测试与实质性程序，如分析、截止、抽查与函证。",
+              "contentMd": "## 核心概念\n\n收入（revenue，通常指 sales）是审计重点，尤其存在管理层虚增收入的动机。审计程序包括：分析程序（比较收入趋势、毛利率、按月度或产品线分析）、截止测试（cut-off，确保收入计入正确期间）、检查销售合同与发票、查询发货与收款记录、应收账款函证、以及期末前后大额或异常交易的检查。\n\n## 常见考法\n\n为收入设计审计程序；判断某程序针对哪个认定（发生 vs 完整性）；分析收入虚增风险的控制与处理。\n\n## 易错点\n\n虚增收入涉及“发生”认定；漏记收入涉及“完整性”认定；不同认定需要不同程序。\n\n## 例子\n\n针对年末销售大幅增长，审计师抽查销售合同、发运凭证并执行截止测试以确认收入真实发生。\n\n## 考试提醒\n\n牢记收入高风险对应“发生”认定，并围绕发生、完整、计价、截止设计程序。",
+              "standardReference": "ISA 500/240",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.09.1.2",
+              "title": "Audit procedures for property, plant and equipment",
+              "summary": "固定资产审计关注存在、计价与授权，重点是监盘、折旧复核与增减变动检查。",
+              "contentMd": "## 核心概念\n\n固定资产（PPE）审计程序包括：检查固定资产卡片与明细账、实地观察或盘点（存在）、检查购置与处置文件及授权、复核折旧政策与计算的合理性、检查资本化与减值（impairment）判断、核查所有权文件（如产权证明）以及分析重大变动。\n\n## 常见考法\n\n为固定资产设计程序；判断某程序对应哪个认定；识别折旧计提或减值处理中的问题。\n\n## 易错点\n\n实物存在不等于所有权正确，也不等于计价恰当；账面结转与资产减值都是常见风险。\n\n## 例子\n\n审计师实地观察一台新购置机器，并索取其所有权证明与购置审批，以核实存在与权利认定。\n\n## 考试提醒\n\n围绕存在、权利、计价、完整设计固定资产程序，并特别关注折旧与减值。",
+              "standardReference": "ISA 500",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.09.1.3",
+              "title": "Audit procedures for inventory",
+              "summary": "存货审计以监盘为核心，关注存在与计价，涉及盘点观察、截止测试、计价与减值测试。",
+              "contentMd": "## 核心概念\n\n存货（inventory）审计的核心是监盘（inventory count observation）：审计师观察并抽点存货，确认其存在与完整性。同时执行：盘点日的截止测试（cut-off）、复核存货的数量与计价（成本与可变现净值孰低）、检查存货质量与过时（obsolescence）风险、以及分析毛利率与周转情况。\n\n## 常见考法\n\n说明监盘的程序与作用；设计针对存货存在/计价的程序；处理无法监盘或盘点差异。\n\n## 易错点\n\n监盘只能证实存在，不能自动证实计价；可变现净值低于成本的存货需计提减值。\n\n## 例子\n\n审计师在年末参与存货盘点，抽点若干批次并记录，同时关注是否有多计、少计或过时存货。\n\n## 考试提醒\n\n存货常考“监盘+计价”，把存在（监盘）与计价（减值/核对）分开处理。",
+              "standardReference": "ISA 500",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.09.1.4",
+              "title": "Audit procedures for receivables and payables",
+              "summary": "应收款与应付款分别侧重存在与完整，常以函证、核对与截止测试为主。",
+              "contentMd": "## 核心概念\n\n应收账款（receivables）审计以函证（confirmation）、检查后续收款、复核账龄与坏账准备（allowance）为主，重点关注存在性与计价（可收回性）。\n\n应付账款（payables）审计以函证、核查供应商对账单、执行截止测试（确保负债计入正确期间）、关注是否存在未入账负债（完整性）为主。\n\n## 常见考法\n\n为应收账款/应付账款设计程序；区分应收侧重“存在”、应付侧重“完整”；评价坏账准备是否充分。\n\n## 易错点\n\n资产项目（应收）与负债项目（应付）的重点认定不同：应收防虚增（存在），应付防少报（完整）。\n\n## 例子\n\n审计师向客户函证应收账款并在期末后检查回款；同时向供应商函证应付款并核对未入账的应付凭单。\n\n## 考试提醒\n\n记住“应收查是否存在、应付查是否完整、坏账看可收回”，这是命题高频逻辑。",
+              "standardReference": "ISA 500",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Going Concern, Subsequent Events and Written Representations",
+      "description": "掌握持续经营评估、期后事项处理与管理层书面声明等收尾性审计事项。",
+      "topics": [
+        {
+          "title": "ISA 570 going concern",
+          "points": [
+            {
+              "code": "AA.10.1.1",
+              "title": "Going concern and the auditor's responsibilities",
+              "summary": "持续经营假设是报表编制基础，审计师需评估是否存在重大不确定性，并决定意见类型。",
+              "contentMd": "## 核心概念\n\n持续经营（going concern）假设企业将在可预见的未来继续经营。管理层负责评估持续经营能力，审计师（ISA 570）负责复核管理层评估、考虑是否存在的重大不确定性，并获取充分适当证据。\n\n若存在重大不确定性但已恰当披露，审计师应发表无保留意见，并在报告中增加“与持续经营相关的重大不确定性”段落（emphasis / material uncertainty related to going concern）；若未妥当披露或存在严重影响，则可能导致保留、否定或无法表示意见。\n\n## 常见考法\n\n判断持续经营不确定性的迹象；说明不同情况下应出具的意见；解释“重大不确定性”段落的出现。\n\n## 易错点\n\n存在重大不确定性≠必须否定意见；只要披露充分且审计证据充分，可能仍是无保留意见并加说明段。\n\n## 例子\n\n公司面临重大诉讼与现金流危机，董事披露了持续经营重大不确定性，审计师核实后加“重大不确定性”段落。\n\n## 考试提醒\n\n区分“不确定性但仍可披露”（加段）与“不确定性使报表失真”（改意见）两种情况。",
+              "standardReference": "ISA 570",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "ISA 560 subsequent events",
+          "points": [
+            {
+              "code": "AA.10.2.1",
+              "title": "Subsequent events and the audit report",
+              "summary": "期后事项分调整事项与披露事项，审计师须识别其对报表与审计报告的影响。",
+              "contentMd": "## 核心概念\n\n期后事项（subsequent events）指资产负债表日之后、审计报告日之前（及其后）发生的事项。分为两类：调整事项（adjusting events，提供资产负债表日已存在情况的证据，需调整报表）与披露事项（non-adjusting events，属于日后新情况，需披露）。\n\n审计师（ISA 560）须执行程序识别期后事项，并判断其是否需调整或披露，从而影响审计报告日期与意见。\n\n## 常见考法\n\n区分调整事项与披露事项；判断某期后事项对报表的影响；说明审计师对期后事项的责任。\n\n## 易错点\n\n调整事项反映“资产负债表日已存在”的情况；披露事项反映“日后新发生”的情况。\n\n## 例子\n\n年末某债务人破产，表明年末应收款已减值，属调整事项应计提坏账；而年末后发生火灾，属披露事项。\n\n## 考试提醒\n\n用“资产负债表日是否已有迹象”来判断调整或披露。",
+              "standardReference": "ISA 560",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "ISA 580 written representations",
+          "points": [
+            {
+              "code": "AA.10.3.1",
+              "title": "Written representations from management",
+              "summary": "管理层书面声明是审计证据但非替代程序，用于确认管理层责任，并作为询问的书面补充。",
+              "contentMd": "## 核心概念\n\n书面声明（written representations）是管理层向审计师提供的正式书面陈述，确认其履行了财务报表编制责任、内部控制责任以及已提供全部信息与记录。\n\n书面声明属于审计证据，但可靠性有限，不能替代其他必要程序（statement alone is not sufficient evidence）。若管理层拒绝提供声明，审计师应考虑对审计范围与意见的影响（可能无法表示意见）。\n\n## 常见考法\n\n说明书面声明的性质与局限；判断管理层拒提供时的处理；列举声明通常涵盖的内容。\n\n## 易错点\n\n书面声明不能替代审计师自行获取的证据，否则可能构成审计范围受限。\n\n## 例子\n\n管理层在审计结束提供书面声明，确认已向审计师完整披露所有舞弊、违法与关联方交易信息。\n\n## 考试提醒\n\n牢记“书面声明是证据但不够、不可替代程序”，管理层拒签会影响意见。",
+              "standardReference": "ISA 580",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "title": "Final Review and Audit Report",
+      "description": "掌握形成审计意见的思路、审计报告要素，以及非无保留意见与其他信息的处理。",
+      "topics": [
+        {
+          "title": "ISA 700 forming an opinion",
+          "points": [
+            {
+              "code": "AA.11.1.1",
+              "title": "Forming an opinion on the financial statements",
+              "summary": "审计师基于证据评价报表是否公允且符合框架，判断是否构成重大错报并形成意见。",
+              "contentMd": "## 核心概念\n\n形成审计意见（forming an opinion）是审计师的最终结论。审计师须评估所获取证据是否充分适当、是否存在未更正的重大错报（unadjusted misstatements）、报表是否在所有重大方面符合适用的财务报告框架并公允反映。\n\n审计师应完成最终复核（final review），如复核分析、检查期后事项与书面声明，再判断是出具无保留意见（unmodified）还是修改意见（modified）。\n\n## 常见考法\n\n判断应出具哪种意见；说明形成意见前的复核内容；比较无保留与修改意见的条件。\n\n## 易错点\n\n形成意见的前提是证据充分适当；若证据不足应视为范围受限而非直接改意见。\n\n## 例子\n\n若审计师发现收入被虚增但管理层拒绝更正，且影响重大，则考虑出具保留意见。\n\n## 考试提醒\n\n形成意见的逻辑是“评估证据→判断错报是否重大与广泛→决定意见类型”。",
+              "standardReference": "ISA 700",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.11.1.2",
+              "title": "Elements of the auditor's report",
+              "summary": "审计报告包括标题、收件人、审计意见、基础、责任段、签名与日期等要素，内容规范。",
+              "contentMd": "## 核心概念\n\n审计报告（auditor's report）的标准要素包括：标题、收件人（addressee，如股东）、审计意见段（opinion）、意见的基础段（basis for opinion）、管理层责任段（management's responsibility）、审计师责任段（auditor's responsibility）、其他信息段、签名、日期与地点。\n\n报告还可能在需要时加入“强调事项”（emphasis of matter）或“其他事项”（other matter）段落。\n\n## 常见考法\n\n识别报告的各要素；判断某内容应出现在哪个段落；说明签字与报告日期的作用。\n\n## 易错点\n\n意见段与责任段要分开；报告日期通常为审计师完成审计工作的日期，而非报表日。\n\n## 例子\n\n在标准无保留意见报告中，“审计意见”段表述“我们认为……公允反映”，“对财务报表审计的责任”段单独说明审计师责任。\n\n## 考试提醒\n\n背诵报告要素顺序，特别注意“意见段/责任段/基础段”三者的区分。",
+              "standardReference": "ISA 700",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "ISA 705 and ISA 720 modifications to the opinion",
+          "points": [
+            {
+              "code": "AA.11.2.1",
+              "title": "Modified opinions: qualified, adverse and disclaimer of opinion",
+              "summary": "修改意见分保留、否定与无法表示意见，取决于错报是否重大与广泛，或是否存在范围受限。",
+              "contentMd": "## 核心概念\n\n非无保留意见（modified opinion）分为：\n1. 保留意见（qualified opinion）——存在重大但不广泛的错报或范围受限，其余部分仍公允；\n2. 否定意见（adverse opinion）——错报重大且广泛，报表整体不公允；\n3. 无法表示意见（disclaimer of opinion）——范围受限影响重大且广泛，无法获取充分适当证据。\n\n判断的关键是区分“重大（material）与广泛（pervasive）”。“广泛”指错报或受限可能影响多数认定或整体报表。\n\n## 常见考法\n\n根据情境判断意见类型（保留/否定/无法表示）；运用重大与广泛两个维度；说明各意见段的写法。\n\n## 易错点\n\n“否定意见”源于重大且广泛的错报；“无法表示意见”源于重大且广泛的范围受限，二者原因不同。\n\n## 例子\n\n若存货盘点受限但影响限于存货，出具保留意见；若审计师完全无法接触账册且无法替代，则无法表示意见。\n\n## 考试提醒\n\n牢牢把握“重大+广泛”矩阵，按“错报 vs 范围受限”双维判断意见类型。",
+              "standardReference": "ISA 705",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AA.11.2.2",
+              "title": "Other information (ISA 720)",
+              "summary": "审计师需关注年度报告中对财务报表的其他信息，核对其是否与已审计报表存在重大不一致。",
+              "contentMd": "## 核心概念\n\n其他信息（other information）指包含已审计财务报表的年度报告（annual report）中、对财务报表之外的信息，如管理层讨论与分析、治理报告等。\n\nISA 720 要求审计师阅读这些其他信息，关注其与已审计报表是否存在重大不一致（material inconsistency）、或存在重大错报（material misstatement of other information）。若发现，应与管理层沟通；必要时调整审计意见或在报告中说明。\n\n## 常见考法\n\n判断某内容是否属于其他信息；说明审计师对其他信息的责任；分析发现了不一致应如何应对。\n\n## 易错点\n\n其他信息通常不影响审计意见本身，但重大的不一致可能导致审计师在报告中提请关注。\n\n## 例子\n\n年度报告中的经营评述与已审计报表的营业收入数据不一致，审计师应与管理层核对并处理。\n\n## 考试提醒\n\n分清“其他信息”与“财务报表”以及“期后事项”，关注“重大不一致”这一核心概念。",
+              "standardReference": "ISA 720",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

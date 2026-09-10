@@ -1,0 +1,337 @@
+[
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "02",
+    "topicTitle": "ACCA Code of Ethics and professional behaviour",
+    "kpTitle": "The fundamental principles of professional ethics",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 1,
+    "textMd": "根据 ACCA 职业道德守则（ACCA Code of Ethics），注册会计师在执业过程中应当遵守若干项基本职业道德原则。下列哪一项属于五项基本职业道德原则之一？\n\n| 选项 | 内容 |\n| --- | --- |\n| A | 保密（Confidentiality） |\n| B | 盈利性（Profitability） |\n| C | 市场竞争力（Market competitiveness） |\n| D | 领导力（Leadership） |",
+    "options": [
+      {
+        "key": "A",
+        "text": "保密（Confidentiality）",
+        "isCorrect": true,
+        "feedbackMd": "正确：保密（Confidentiality）是 ACCA 职业道德守则所确立的五项基本职业道德原则之一，注册会计师不得在未经授权的情况下披露执业中获取的客户信息。"
+      },
+      {
+        "key": "B",
+        "text": "盈利性（Profitability）",
+        "isCorrect": false,
+        "feedbackMd": "错误：盈利性属于企业（客户）的经营目标，并非 ACCA 守则规定的基本职业道德原则，注册会计师追求利润不构成一项道德原则。"
+      },
+      {
+        "key": "C",
+        "text": "市场竞争力（Market competitiveness）",
+        "isCorrect": false,
+        "feedbackMd": "错误：市场竞争力是商业能力层面的要求，不在五项基本职业道德原则之列，不能把商业目标误当成道德底线。"
+      },
+      {
+        "key": "D",
+        "text": "领导力（Leadership）",
+        "isCorrect": false,
+        "feedbackMd": "错误：领导力属于管理/个人素质要求，并非职业道德守则所列出的基本职业道德原则。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\nACCA 职业道德守则（Code of Ethics）确立了五项基本职业道德原则（fundamental principles）：诚信（Integrity）、客观（Objectivity）、专业胜任与应有的关注（Professional competence and due care）、保密（Confidentiality）以及专业行为（Professional behaviour）。这五项原则是注册会计师执业的道德底线，其中“保密”正是五大原则之一，故 A 正确。\n\n## 计算过程\n\n本题为概念辨析题，无需计算。可用记忆口诀辅助记忆：“诚、客、专、保、行”（诚信、客观、专业胜任与应有之关注、保密、专业行为）。\n\n## 对应知识点\n\nACCA Code of Ethics 基本职业道德原则\n\n## 其他选项分析\n\nB 错在：盈利不是守则规定的道德原则，追求利润是经营目标而非职业道德要求。C 错在：市场竞争力同样不属于五项基本原则。D 错在：领导力属于管理与素质范畴，不构成职业道德基本原则。\n\n## 易错提醒\n\n考生容易把“诚信”与“诚实”混为一谈，或把商业目标（盈利、竞争）误当成道德原则。务必牢记完整五原则，而非只记住一两个。\n\n## 考试技巧\n\n遇到“哪项属于基本原则”类题目，先在草稿上默写出五项基本原则，再逐一与选项比对，干扰项多为商业或管理类词汇。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": "ACCA Code of Ethics",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "07",
+    "topicTitle": "ISA 500 audit evidence",
+    "kpTitle": "Sufficient appropriate audit evidence",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 2,
+    "textMd": "根据 ISA 500（审计证据），注册会计师需要获取“充分且适当”的审计证据（sufficient appropriate audit evidence）以支持其审计意见。下列关于“充分（sufficient）”与“适当（appropriate）”含义的表述，哪一项最为恰当？\n\n| 选项 | 表述 |\n| --- | --- |\n| A | 充分指证据的数量，适当指证据的质量（相关性与可靠性） |\n| B | 充分指证据的质量，适当指证据的数量 |\n| C | 两者都仅指审计证据的数量 |\n| D | 两者都仅指审计证据取得的时间 |",
+    "options": [
+      {
+        "key": "A",
+        "text": "充分指证据的数量，适当指证据的质量（相关性与可靠性）",
+        "isCorrect": true,
+        "feedbackMd": "正确：充分（sufficient）衡量证据的数量，适当（appropriate）衡量证据的质量，即相关性与可靠性，ISA 500 正是从这两个维度界定审计证据。"
+      },
+      {
+        "key": "B",
+        "text": "充分指证据的质量，适当指证据的数量",
+        "isCorrect": false,
+        "feedbackMd": "错误：两词的含义被颠倒了。充分（sufficient）关乎数量，适当（appropriate）关乎质量，不能互换。"
+      },
+      {
+        "key": "C",
+        "text": "两者都仅指审计证据的数量",
+        "isCorrect": false,
+        "feedbackMd": "错误：适当（appropriate）强调的是证据的质量（相关性与可靠性），并非仅指数量，仅用数量无法衡量证据质量。"
+      },
+      {
+        "key": "D",
+        "text": "两者都仅指审计证据取得的时间",
+        "isCorrect": false,
+        "feedbackMd": "错误：时间（timeliness）只是影响证据可靠性的因素之一，并不等于“充分”“适当”本身的定义。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n依据 ISA 500，审计证据需要同时满足“充分”与“适当”。充分（sufficient）是对证据数量的衡量，取决于审计师的职业判断、重大错报风险以及证据质量；适当（appropriate）是对证据质量的衡量，包含相关性（relevance）与可靠性（reliability）两方面。因此“充分指数量、适当指质量（相关性与可靠性）”的表述最恰当。\n\n## 计算过程\n\n本题为概念判断题，无需复杂计算。判断题干中的两个维度：数量对应“充分”，质量对应“适当”，以此作为快速定位依据。\n\n## 对应知识点\n\nISA 500 审计证据——充分且适当的审计证据\n\n## 其他选项分析\n\nB 错在把两个维度的含义颠倒；C 错在忽略了“适当”强调质量；D 错在把“取得时间”误当成充分/适当的定义，时间只是影响可靠性的一项因素。\n\n## 易错提醒\n\n不少人误以为“证据越多越好”，但证据数量再多、若与认定无关或来源不可靠，仍不构成适当证据。数量与质量缺一不可。\n\n## 考试技巧\n\n见到“sufficient / appropriate”先划关键词：sufficient = 数量，appropriate = 质量（相关性＋可靠性）。考试时可直接据此排除将二者颠倒的选项。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": "ISA 500",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "05",
+    "topicTitle": "Control cycles and tests of controls",
+    "kpTitle": "Tests of controls",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "审计师拟对被审计单位的销售与收款循环实施审计程序。下列各项中，哪些属于**控制测试（tests of controls）**，即旨在测试内部控制运行有效性的程序？\n\n| 选项 | 程序 |\n| --- | --- |\n| A | 检查销售订单是否附有经授权人员的审批签字 |\n| B | 重新执行信用额度审批控制 |\n| C | 向外部供应商函证应付账款余额 |\n| D | 对销售毛利率执行分析性程序 |",
+    "options": [
+      {
+        "key": "A",
+        "text": "检查销售订单是否附有经授权人员的审批签字",
+        "isCorrect": true,
+        "feedbackMd": "正确：检查授权审批的证据（inspection of evidence of authorization）用于验证相关控制是否被执行，属于控制测试。"
+      },
+      {
+        "key": "B",
+        "text": "重新执行信用额度审批控制",
+        "isCorrect": true,
+        "feedbackMd": "正确：重新执行（reperformance）某项控制，验证其能否持续有效运行，属于典型的控制测试。"
+      },
+      {
+        "key": "C",
+        "text": "向外部供应商函证应付账款余额",
+        "isCorrect": false,
+        "feedbackMd": "错误：外部函证（external confirmation）用于验证账户余额的存在性与准确性，属于实质性程序（substantive procedures），而非控制测试。"
+      },
+      {
+        "key": "D",
+        "text": "对销售毛利率执行分析性程序",
+        "isCorrect": false,
+        "feedbackMd": "错误：分析性程序（analytical procedures）用于评估财务报表项目的合理性，属于实质性程序，不测试控制的运行。"
+      }
+    ],
+    "answerJson": "[\"A\",\"B\"]",
+    "explanationMd": "## 正确答案\n\nA、B\n\n## 为什么\n\n控制测试（tests of controls）旨在评价内部控制是否在运行以及运行是否有效，常见手段包括检查（inspection）、观察（observation）、询问（inquiry）与重新执行（reperformance）。A 通过检查授权审批记录来验证“授权”控制是否被执行，B 通过重新执行来验证“信用审批”控制能否有效运行，二者都属于控制测试。C、D 则用于验证账户余额或经营指标的准确性/合理性，属于实质性程序。\n\n## 计算过程\n\n本题为程序归类题，无需计算。判断口诀：凡是“验证控制是否在运行”的属于控制测试；凡是“验证金额/项目本身是否正确”的属于实质性程序。\n\n## 对应知识点\n\nISA 330 控制测试与实质性程序\n\n## 其他选项分析\n\nC 错在：函证确认的是余额本身的存在与准确性，属实质性程序。D 错在：分析性程序评估的是金额合理性，同样属实质性程序，并非测试控制运行。\n\n## 易错提醒\n\n有些考生把“检查单据”一律当作控制测试，其实现象要区分检查目的是验证“控制”还是验证“余额”。以验证控制为目的的检查才是控制测试。\n\n## 考试技巧\n\n多选时先判断每项程序的“目的”：是否用于证明控制已按设计运行。是 → 控制测试；否（证明金额/报表项目）→ 实质性程序。以此快速划分选项。",
+    "marks": 2,
+    "estimatedTimeSec": 150,
+    "taxYear": null,
+    "standardReference": "ISA 330",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "03",
+    "topicTitle": "ISA 320 materiality",
+    "kpTitle": "Materiality and performance materiality",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 2,
+    "textMd": "根据 ISA 320（重要性），在确定财务报表整体重要性（materiality）之后，注册会计师通常还会设定一个较低水平的**执行重要性（performance materiality）**。注册会计师设定执行重要性的主要目的是什么？\n\n| 选项 | 表述 |\n| --- | --- |\n| A | 降低未更正和未发现的错报之合计超过整体重要性的可能性 |\n| B | 将审计风险降为零 |\n| C | 用于确定向客户收取的审计费用 |\n| D | 用于制定客户的会计政策 |",
+    "options": [
+      {
+        "key": "A",
+        "text": "降低未更正和未发现的错报之合计超过整体重要性的可能性",
+        "isCorrect": true,
+        "feedbackMd": "正确：设定低于整体重要性的执行重要性，能让审计师在样本层面留出安全边际，从而降低未更正及未发现错报合计超过整体重要性的概率。"
+      },
+      {
+        "key": "B",
+        "text": "将审计风险降为零",
+        "isCorrect": false,
+        "feedbackMd": "错误：审计只能提供“合理保证”而无法达到绝对保证，审计风险无法降为零，这不是设定执行重要性的目的。"
+      },
+      {
+        "key": "C",
+        "text": "用于确定向客户收取的审计费用",
+        "isCorrect": false,
+        "feedbackMd": "错误：审计收费由审计工作量、风险、市场竞争等因素决定，与执行重要性无关。"
+      },
+      {
+        "key": "D",
+        "text": "用于制定客户的会计政策",
+        "isCorrect": false,
+        "feedbackMd": "错误：会计政策由管理层（客户）制定，审计师的任务是获取证据并发表意见，而非替客户制定会计政策。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n执行重要性（performance materiality）是在整体重要性之下单独设定的一个（或几个）金额，通常低于整体重要性。设定它的目的在于为审计工作留出“安全边际”，从而降低未更正与未发现的错报合计数超过财务报表整体重要性的可能性，帮助审计师更稳妥地形成结论。选项 A 正是其核心目的。\n\n## 计算过程\n\n本题为概念理解题，无需计算。逻辑链条可记作：执行重要性低于整体重要性 → 为发现未更正/未发现错报留出缓冲 → 降低错报合计超过整体重要性的风险。\n\n## 对应知识点\n\nISA 320 重要性与执行重要性\n\n## 其他选项分析\n\nB 错在：审计提供合理保证，审计风险不可能为零。C 错在：审计费用与执行重要性无关。D 错在：会计政策是管理层职责，非审计师职责。\n\n## 易错提醒\n\n“重要性与执行重要性”和“审计风险”的因果关系容易混淆。勿把执行重要性理解为“消除风险”，它只是降低风险的缓冲手段。\n\n## 考试技巧\n\n牢记执行重要性的作用是为错报留出“安全边际”，凡说“降为零”“用于收费”“定会计政策”的选项都可直接排除。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": "ISA 320",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "08",
+    "topicTitle": "ISA 530 audit sampling",
+    "kpTitle": "Sampling risk and the sampling process",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "根据 ISA 530（审计抽样），下列关于**抽样风险（sampling risk）**的表述，哪一项最为恰当？\n\n| 选项 | 表述 |\n| --- | --- |\n| A | 指审计师基于样本得出的结论与对整个总体实施相同程序可能得出的结论不同的风险，包含信赖不足/过度信赖风险与误受/误拒风险 |\n| B | 指样本规模过大导致审计缺乏效率的风险 |\n| C | 指审计师对全部总体进行100%测试时才会出现的风险 |\n| D | 使用统计抽样可以完全消除抽样风险 |",
+    "options": [
+      {
+        "key": "A",
+        "text": "指审计师基于样本得出的结论与对整个总体实施相同程序可能得出的结论不同的风险，包含信赖不足/过度信赖风险与误受/误拒风险",
+        "isCorrect": true,
+        "feedbackMd": "正确：抽样风险是审计师从样本推出的结论与对总体实施相同程序可能推出的结论不同的风险，控制测试表现为信赖不足/过度信赖风险，细节测试表现为误受/误拒风险。"
+      },
+      {
+        "key": "B",
+        "text": "指样本规模过大导致审计缺乏效率的风险",
+        "isCorrect": false,
+        "feedbackMd": "错误：抽样风险衡量的是“样本可能不代表总体”的风险，并非样本过大导致审计效率低下。样本过大只影响效率，不代表抽样风险本身。"
+      },
+      {
+        "key": "C",
+        "text": "指审计师对全部总体进行100%测试时才会出现的风险",
+        "isCorrect": false,
+        "feedbackMd": "错误：恰恰相反，抽样风险只存在于使用样本而非测试全部总体的情况；当对总体进行100%测试时，不存在抽样风险。"
+      },
+      {
+        "key": "D",
+        "text": "使用统计抽样可以完全消除抽样风险",
+        "isCorrect": false,
+        "feedbackMd": "错误：统计抽样只能量化和控制抽样风险，不能完全消除；只要采用抽样而非全数测试，抽样风险就始终存在。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n依据 ISA 530，抽样风险（sampling risk）是指审计师根据样本得出的结论可能与对全部总体实施同样的审计程序得出的结论不同的风险。具体而言：在控制测试中表现为信赖不足风险（under-reliance risk，导致审计效率下降）与过度信赖风险（over-reliance risk，导致审计有效性受威胁）；在细节测试中表现为误受风险（incorrect acceptance risk，可能导致得出错误结论）与误拒风险（incorrect rejection risk，导致额外审计工作）。选项 A 完整且准确地概括了这一概念。\n\n## 计算过程\n\n本题为概念判断题，无需计算。速记：抽样风险 = “样本结论 ≠ 总体结论”，它源自“只测样本”这一做法本身。\n\n## 对应知识点\n\nISA 530 审计抽样——抽样风险\n\n## 其他选项分析\n\nB 错在把“样本过大”与“抽样风险”混为一谈，样本过大只影响效率。C 错在条件颠倒，只有不测全部总体时才存在抽样风险。D 错在统计抽样只能量化/控制抽样风险，无法消除。\n\n## 易错提醒\n\n注意不要把“非抽样风险（non-sampling risk）”与“抽样风险”混淆。非抽样风险来自审计师判断错误或程序选择不当，即使在100%测试下也可能存在；而抽样风险仅与“抽样”这一方法相关。\n\n## 考试技巧\n\n判断抽样风险题，抓住“由抽样方法本身引起、样本可能不代表总体”这一核心；凡描述样本过大、全数测试、可被统计抽样消除的选项通常为干扰项。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": "ISA 530",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "02",
+    "topicTitle": "Independence and safeguards",
+    "kpTitle": "Fraud and the responsibilities of the auditor",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "根据 ISA 240（财务报表审计中对舞弊的责任），下列关于注册会计师在舞弊（fraud）方面责任的表述，哪一项最为恰当？\n\n| 选项 | 表述 |\n| --- | --- |\n| A | 注册会计师负有获取合理保证、使财务报表不存在因舞弊或错误导致的重大错报的责任 |\n| B | 注册会计师负有发现所有舞弊的责任 |\n| C | 注册会计师的唯一职责是将舞弊报告给监管或执法部门 |\n| D | 由于舞弊的预防责任完全在管理层，注册会计师对舞弊不负任何责任 |",
+    "options": [
+      {
+        "key": "A",
+        "text": "注册会计师负有获取合理保证、使财务报表不存在因舞弊或错误导致的重大错报的责任",
+        "isCorrect": true,
+        "feedbackMd": "正确：ISA 240 规定审计师的责任是获取“合理保证”，即财务报表不存在因舞弊或错误导致的重大错报，而非绝对保证发现全部舞弊。"
+      },
+      {
+        "key": "B",
+        "text": "注册会计师负有发现所有舞弊的责任",
+        "isCorrect": false,
+        "feedbackMd": "错误：审计只能提供合理保证，受固有局限性影响（如管理层串通、伪造文件、内部控制的固有局限），审计师无法保证发现所有舞弊。"
+      },
+      {
+        "key": "C",
+        "text": "注册会计师的唯一职责是将舞弊报告给监管或执法部门",
+        "isCorrect": false,
+        "feedbackMd": "错误：审计师主要通过与治理层/管理层沟通舞弊事项，若存在舞弊还可能涉及报告义务，但向监管/执法部门报告并非其唯一职责。"
+      },
+      {
+        "key": "D",
+        "text": "由于舞弊的预防责任完全在管理层，注册会计师对舞弊不负任何责任",
+        "isCorrect": false,
+        "feedbackMd": "错误：尽管预防和发现舞弊的首要责任在管理层与治理层，但审计师仍有评估舞弊风险、获取证据并作出应对的责任，并非完全免责。"
+      }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n依据 ISA 240，预防与发现舞弊的首要责任（primary responsibility）属于管理层与治理层，但注册会计师仍有责任获取“合理保证”，使财务报表整体不存在因舞弊或错误导致的重大错报。审计师还应保持职业怀疑、评估舞弊风险并实施针对性的审计程序，必要时与治理层/管理层沟通。选项 A 准确概括了这一责任边界。\n\n## 计算过程\n\n本题为责任界定题，无需计算。把握“合理保证”而非“绝对保证”这一关键限界定即可。\n\n## 对应知识点\n\nISA 240 财务报表审计中对舞弊的责任\n\n## 其他选项分析\n\nB 错在：审计无法绝对发现所有舞弊。C 错在：向监管/执法部门报告并非唯一职责，审计师更主要的沟通对象是治理层与管理层。D 错在：管理层的首要责任不意味着审计师完全免责，审计师仍负有评估与应对舞弊风险的责任。\n\n## 易错提醒\n\n勿把“管理层对预防舞弊负有首要责任”理解为“审计师对舞弊完全无责”。审计师拥有的是减轻的责任——合理保证与职业怀疑，而非免责。\n\n## 考试技巧\n\n涉及责任的选项，凡是出现“所有舞弊”“唯一职责”“完全无责”等绝对化表述，一般都构成干扰项；应选择体现“合理保证”与“风险评估”的表述。",
+    "marks": 2,
+    "estimatedTimeSec": 120,
+    "taxYear": null,
+    "standardReference": "ISA 240",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "10",
+    "topicTitle": "ISA 560 subsequent events",
+    "kpTitle": "Subsequent events and the audit report",
+    "type": "CLASSIFICATION",
+    "difficulty": 4,
+    "textMd": "ASigma 公司财务报表日为 2022 年 12 月 31 日，审计报告日为 2023 年 3 月 15 日，审计师于 2023 年 3 月 10 日仍在执行审计程序。请根据 ISA 560，将下列发生于资产负债表日（2022-12-31）之后的期后事项（subsequent events）分为**调整事项（Adjusting event）**与**非调整事项（Non-adjusting event）**。\n\n| 项目 | 事件描述 |\n| --- | --- |\n| A | 2023 年 1 月，法院对一项在报告日已存在未决诉讼的客户作出终审判决，确认公司于 2022-12-31 已存在一项预计负债，金额 500 万元，判决提供了此前无法获得的证据。 |\n| B | 2023 年 2 月，公司一座主要仓库发生火灾，火损约 800 万元，该火灾发生于报告日之后，与报告日的资产状况无关。 |\n| C | 2023 年 2 月，公司一名主要客户宣告破产；该客户在报告日财务状况已持续恶化，证实报告日（2022-12-31）相关应收账款已无法收回。 |\n| D | 2023 年 3 月，因市场整体环境影响，公司股价大幅下跌，与报告日的资产及经营状况无关。 |",
+    "options": [],
+    "answerJson": "{\"groups\":[{\"group\":\"Adjusting event\",\"items\":[\"A\",\"C\"]},{\"group\":\"Non-adjusting event\",\"items\":[\"B\",\"D\"]}]}",
+    "explanationMd": "## 正确答案\n\n调整事项（Adjusting event）：A、C；非调整事项（Non-adjusting event）：B、D\n\n## 为什么\n\n依据 ISA 560，期后事项分为两类：**调整事项**是指为报告日已存在的情况提供了补充证据的事项，需要据此调整财务报表；**非调整事项**是指表明在报告日之后新出现情况、与报告日状况无关的事项，通常仅需在报表中披露（如属重大）。\n\n- A：诉讼在报告日已存在，终审判决提供了报告日已存在负债的补充证据 → 调整事项。\n- C：客户在报告日财务状况已恶化，破产证实报告日应收账款不可收回 → 调整事项。\n- B：火灾发生于报告日之后，属于报告日后新出现的情况 → 非调整事项。\n- D：股价下跌由报告日后的市场环境影响，与报告日资产状况无关 → 非调整事项。\n\n## 计算过程\n\n本题为分类判断题，无需计算。判断关键：事件所揭示的状况/证据在**报告日（资产负债表日）是否已经存在**。若“已存在、只是此前不知情或金额未决”则为调整事项；若“报告日后才发生/形成”则为非调整事项。\n\n## 对应知识点\n\nISA 560 期后事项——调整事项与非调整事项的区分\n\n## 其他选项分析\n\nA 与 C 对应“报告日已存在的情况获得补充证据”，应作调整；B 与 D 对应“报告日后新出现的情况”，应作披露而非调整。易混淆点在于：破产客户须进一步判断其报告日财务状况是否已恶化，本题因报告日已恶化而定性为调整事项。\n\n## 易错提醒\n\n判断“客户破产”到底是调整还是非调整事项，关键不是看是否破产，而是看导致破产的财务状况恶化是发生在报告日之前还是之后。若报告日已恶化，即调整事项。\n\n## 考试技巧\n\n先判断每项事件中“情况/证据”发生在报告日之前还是之后：之前 → 调整；之后 → 非调整。用“报告日已存在”作为分界标准即可快速归类。",
+    "marks": 2,
+    "estimatedTimeSec": 180,
+    "taxYear": null,
+    "standardReference": "ISA 560",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AA",
+    "variant": "GLO",
+    "chapterCode": "11",
+    "topicTitle": "ISA 705 and ISA 720 modifications to the opinion",
+    "kpTitle": "Modified opinions: qualified, adverse and disclaimer of opinion",
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": 5,
+    "textMd": "根据 ISA 705（对财务报表形成审计意见和出具审计报告时对意见的修正），下列关于保留意见、否定意见与无法表示意见的表述中，哪些是正确的？\n\n| 选项 | 表述 |\n| --- | --- |\n| A | 当财务报表存在重大错报，但其影响重大且不广泛（not pervasive）时，出具保留意见 |\n| B | 当财务报表存在重大错报，且其影响重大且广泛（pervasive）时，出具否定意见 |\n| C | 当无法获取充分、适当的审计证据，且其可能的影响重大且广泛时，出具无法表示意见 |\n| D | 只要存在任何未更正错报，就必须出具否定意见 |",
+    "options": [
+      {
+        "key": "A",
+        "text": "当财务报表存在重大错报，但其影响重大且不广泛（not pervasive）时，出具保留意见",
+        "isCorrect": true,
+        "feedbackMd": "正确：存在重大错报但影响尚不广泛时，出具保留意见（qualified opinion），这是“重大且不广泛”情形下的标准处理。"
+      },
+      {
+        "key": "B",
+        "text": "当财务报表存在重大错报，且其影响重大且广泛（pervasive）时，出具否定意见",
+        "isCorrect": true,
+        "feedbackMd": "正确：当重大错报的影响重大且广泛（pervasive）时，应出具否定意见（adverse opinion）。"
+      },
+      {
+        "key": "C",
+        "text": "当无法获取充分、适当的审计证据，且其可能的影响重大且广泛时，出具无法表示意见",
+        "isCorrect": true,
+        "feedbackMd": "正确：在无法获取充分、适当审计证据（范围受限）且可能影响重大且广泛时，应出具无法表示意见（disclaimer of opinion）。"
+      },
+      {
+        "key": "D",
+        "text": "只要存在任何未更正错报，就必须出具否定意见",
+        "isCorrect": false,
+        "feedbackMd": "错误：只有当未更正错报的影响重大且广泛时才出具否定意见；若影响不重大或不构成广泛影响，无需出具否定意见，甚至可能不影响审计意见。"
+      }
+    ],
+    "answerJson": "[\"A\",\"B\",\"C\"]",
+    "explanationMd": "## 正确答案\n\nA、B、C\n\n## 为什么\n\n依据 ISA 705，修改意见的类型取决于两方面判断：一是错报（或无法获取充分适当证据的可能影响）是否**重大（material）**；二是其影响是否**广泛（pervasive）**。\n\n- 保留意见：重大但不广泛。\n- 否定意见：重大且广泛（源于财务报表存在重大错报）。\n- 无法表示意见：无法获取充分、适当审计证据（范围受限）且可能影响重大且广泛。\n\n选项 A、B、C 均符合上述原则，故正确。D 的表述过于绝对，忽视了“重大且广泛”这一前提条件。\n\n## 计算过程\n\n本题为判断推理题，无需计算。可用“重大 × 广泛”矩阵辅助记忆：重大但不广泛 → 保留；重大且广泛 → 否定（错报）或无法表示（范围受限）。\n\n## 对应知识点\n\nISA 705 修改意见——保留意见、否定意见与无法表示意见\n\n## 其他选项分析\n\nA、B 正确区分了“重大但非广泛”与“重大且广泛”在错报情形下的不同处理。C 正确指出了范围受限下可能影响重大且广泛时采用无法表示意见。D 错在“只要存在任何未更正错报”就出具否定意见，忽略了“重大且广泛”的前提条件，措辞绝对化。\n\n## 易错提醒\n\n最容易混淆的是“否定意见”与“无法表示意见”的适用前提：否定意见对应“已发现的重大错报且影响广泛”；无法表示意见对应“无法获取证据且可能影响广泛”。前者基于“已知错报”，后者基于“范围受限”。\n\n## 考试技巧\n\n多选此类题时，先用“是否广泛”这一维度筛选：保留 = 重大但不广泛；否定/无法表示 = 重大且广泛；再进一步区分错报（否定）还是范围受限（无法表示）。凡出现“必须”“一律”等绝对化表述的选项多为干扰项。",
+    "marks": 2,
+    "estimatedTimeSec": 150,
+    "taxYear": null,
+    "standardReference": "ISA 705",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

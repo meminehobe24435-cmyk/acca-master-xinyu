@@ -1,0 +1,52 @@
+[
+  {
+    "paper": "ATX",
+    "variant": "UK",
+    "chapterCode": "05",
+    "topicTitle": "IHT computation and reliefs",
+    "kpTitle": "Inheritance tax computation (2025/26)",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 5,
+    "textMd": "A UK-domiciled individual (who has never been married) died on 1 April 2026, leaving an estate valued at £750,000. No reliefs or exemptions apply and there is no transferable nil rate band. For the tax year **2025/26**, the nil rate band is £325,000 and the inheritance tax (IHT) rate on death is 40%. What is the IHT payable on the estate?\n\nA. £170,000\nB. £300,000\nC. £130,000\nD. £325,000",
+    "options": [
+      { "key": "A", "text": "£170,000", "isCorrect": true, "feedbackMd": "正确：应税遗产 = 750,000 − 325,000 = 425,000，× 40% = £170,000。" },
+      { "key": "B", "text": "£300,000", "isCorrect": false, "feedbackMd": "错误：300,000 = 750,000 × 40%，忽略了 325,000 的零税率带（nil rate band）。" },
+      { "key": "C", "text": "£130,000", "isCorrect": false, "feedbackMd": "错误：130,000 = 325,000 × 40%，把零税率带本身当成了计税基数。" },
+      { "key": "D", "text": "£325,000", "isCorrect": false, "feedbackMd": "错误：325,000 是零税率带金额，不是应缴遗产税。" }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n遗产税（IHT）对死亡时的应税遗产课税，先适用零税率带（nil rate band）。2025/26 年度零税率带为 £325,000，超出部分按 40% 计税。本题无减免、无转让零税率带，因此应税遗产 = £750,000 − £325,000 = £425,000，税额 = £425,000 × 40% = £170,000。\n\n## 计算过程\n\n应税遗产 = 750,000 − 325,000 = 425,000\nIHT = 425,000 × 40% = £170,000\n\n## 对应知识点\n\nATX 第 5 章：遗产税计算（零税率带与 40% 税率）。\n\n## 其他选项分析\n\nB 用全额乘税率忽略零税率带；C 把零税率带当作基数；D 只是零税率带本身，均错误。\n\n## 易错提醒\n\n注意使用 2025/26 的税率与零税率带（£325,000）；若有未使用的配偶零税率带可转移，且生前转移按 20%、死亡按 40%。\n\n## 考试技巧\n\n死亡时 IHT：应税遗产减零税率带后按 40%；先确认可用的零税率带（含配偶可转移部分）再计税。",
+    "marks": 2,
+    "estimatedTimeSec": 180,
+    "taxYear": "2025/26",
+    "standardReference": "UK Inheritance Tax",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "ATX",
+    "variant": "UK",
+    "chapterCode": "02",
+    "topicTitle": "Groups and overseas",
+    "kpTitle": "Corporate groups and group relief",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 4,
+    "textMd": "P Ltd owns 75% of S Ltd. For the tax year **2025/26**, S Ltd makes a trading loss of £100,000, and P Ltd has taxable total profits of £500,000. The group makes a valid group relief claim surrendering S Ltd's loss to P Ltd. The main rate of corporation tax is 25%. What is the total corporation tax saving from the group relief claim?\n\nA. £25,000\nB. £100,000\nC. £125,000\nD. £37,500",
+    "options": [
+      { "key": "A", "text": "£25,000", "isCorrect": true, "feedbackMd": "正确：集团减免把 100,000 损失转移给 P，P 应税利润降为 400,000，节税 = 100,000 × 25% = £25,000。" },
+      { "key": "B", "text": "£100,000", "isCorrect": false, "feedbackMd": "错误：100,000 是转移的损失金额，而非节省的税款，未乘以公司税率。" },
+      { "key": "C", "text": "£125,000", "isCorrect": false, "feedbackMd": "错误：125,000 = 500,000 × 25%，是未作减免时 P 的公司税，不是节省额。" },
+      { "key": "D", "text": "£37,500", "isCorrect": false, "feedbackMd": "错误：37,500 并非由给定数据正确得出，未按 25% × 100,000 计算。" }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n集团减免（group relief）允许在同一 75% 集团内的公司把亏损转让给盈利公司抵减其应税利润。P 拥有 S 75%（达到集团减免条件，且前提是两公司同属一个集团），S 的 £100,000 亏损可全部（或部分）转让给 P。P 应纳税所得由 £500,000 降为 £400,000，减少的税款 = 亏损金额 × 公司税率 25% = £100,000 × 25% = £25,000。\n\n## 计算过程\n\n集团减免后 P 应税利润 = 500,000 − 100,000 = 400,000\n节税额 = 100,000 × 25% = £25,000\n\n## 对应知识点\n\nATX 第 2 章：集团公司税与集团减免。\n\n## 其他选项分析\n\nB 把损失金额当成节省额；C 是未减免前的公司税总额；D 不是按 25% × 100,000 得出。A 正确。\n\n## 易错提醒\n\n集团减免要求 75% 集团关系及其他条件；计算节税时一定要用“转移损失 × 公司税率”，而不是把损失当作节省额。\n\n## 考试技巧\n\n集团减免类题：先确认是否满足 75% 集团条件，再用（受益公司税率 × 转移损失）计算节税额；2025/26 主税率 25%。",
+    "marks": 2,
+    "estimatedTimeSec": 200,
+    "taxYear": "2025/26",
+    "standardReference": "UK Corporation Tax",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

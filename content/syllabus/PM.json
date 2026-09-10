@@ -1,0 +1,593 @@
+{
+  "code": "PM",
+  "name": "Performance Management",
+  "nameCn": "绩效管理",
+  "level": "APPLIED_SKILLS",
+  "category": null,
+  "order": 5,
+  "accent": "#8b5cf6",
+  "description": "绩效管理（PM）是 ACCA 应用技能阶段的科目，在管理会计基础上深化成本技术、决策分析、预算、标准成本与转移定价，训练企业绩效计量的综合能力。",
+  "examDurationMin": 180,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Objective Test Questions", "scope": "客观题", "count": 15, "marksPerQuestion": 2, "sectionMarks": 30 },
+      { "id": "B", "name": "Section B - OT Case Questions", "scope": "案例选择", "count": 15, "marksPerQuestion": 2, "sectionMarks": 30 },
+      { "id": "C", "name": "Section C - Constructed Response", "scope": "主观题", "count": 2, "marksPerQuestion": 20, "sectionMarks": 40 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Activity Based Costing",
+      "description": "理解 ABC 的原理、成本动因及其与传统吸收成本法的差异。",
+      "topics": [
+        {
+          "title": "ABC principles",
+          "points": [
+            {
+              "code": "PM.1.1",
+              "title": "Absorption costing vs activity based costing",
+              "summary": "ABC 以作业与成本动因分配间接费用，比传统按业务量吸收更贴近资源消耗，适合多品种复杂生产。",
+              "contentMd": "## 核心概念\n\n传统吸收成本法按机器/人工小时等业务量分配间接费用；ABC 识别主要作业（activity），再按成本动因（cost driver）分配作业成本。当间接费用占比高、产品多样、非产量动因显著时，ABC 更准确。\n\n## 常见考法\n\n比较 ABC 与传统吸收法的差异，判断在不同经营情境下哪种更合适，或指出何时二者结果相近。\n\n## 易错点\n\n若间接费用主要由产量驱动，则 ABC 与传统吸收法结果相似，ABC 不一定更优；ABC 实施成本高。\n\n## 例子\n\n两个产品，一个大批量一个多批小批量：传统法下两者单位成本相近，ABC 下多批小批量产品分摊的订单与检验成本更高。\n\n## 考试提醒\n\n关键词：作业（activity）+ 成本动因（cost driver）+ 多品种复杂场景。",
+              "standardReference": "Syllabus A1 - Activity based costing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.1.2",
+              "title": "Cost pools and cost drivers",
+              "summary": "把同类作业成本归集到成本库（cost pool），以成本动因（cost driver）把其分配到成本对象。",
+              "contentMd": "## 核心概念\n\n成本池（cost pool）是把性质相近的作业成本归集在一起；成本动因（cost driver）是驱动该作业成本发生的计量（如订单数、检验次数、机器小时、装运数）。成本池成本÷成本动因总量=单位动因成本。\n\n## 常见考法\n\n识别成本动因、计算某一成本池分配到产品的成本，或判断某项费用对应的最佳动因。\n\n## 易错点\n\n成本动因要与成本成因匹配：机器相关用机器小时，订单相关用订单数；动因选择不当会歪曲成本。\n\n## 例子\n\n订单处理成本池 $120,000，本年订单 2,000 份，单位订单成本=60；某产品用 100 份订单则分配 6,000。\n\n## 考试提醒\n\n“成本池→动因→单位动因成本→分配”四步链是 ABC 计算的核心。",
+              "standardReference": "Syllabus A1 - Cost pools and cost drivers",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.1.3",
+              "title": "Advantages and limitations of ABC",
+              "summary": "ABC 提升成本准确性与决策质量，但实施耗时、成本高，动因选择与数据收集困难。",
+              "contentMd": "## 核心概念\n\n优点：成本更准确、改善定价与产品组合决策、揭示非增值作业。局限：实施与维护成本高、需较多数据、动因选择主观、对产量驱动型业务收益有限。\n\n## 常见考法\n\n列举 ABC 的优缺点，或判断某情景下 ABC 是否值得采用。\n\n## 易错点\n\nABC 不能替代所有管理方法；若成本数据不可靠或动因无意义，ABC 反而增加复杂度。\n\n## 例子\n\n某厂 80% 间接费用由机器小时驱动，采用 ABC 后结果与吸收法相近，投入产出有限。\n\n## 考试提醒\n\n优点（准确、改善决策）+局限（成本、数据、动因主观）成对记忆，论述题常考。",
+              "standardReference": "Syllabus A1 - Advantages and limitations of ABC",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Target Costing and Life-cycle Costing",
+      "description": "掌握目标成本定价法与产品生命周期成本法。",
+      "topics": [
+        {
+          "title": "Target costing",
+          "points": [
+            {
+              "code": "PM.2.1",
+              "title": "Target cost and target pricing",
+              "summary": "目标成本=目标售价−目标利润；由市场倒推成本，是市场驱动而非成本驱动的定价。",
+              "contentMd": "## 核心概念\n\n目标成本法：先依据竞争市场确定目标售价，减去目标利润得到目标成本，再通过价值工程等手段把实际成本降到目标成本。与传统“成本+加成”方向相反，是市场驱动。\n\n## 常见考法\n\n计算目标成本=目标售价−目标利润率，或识别目标成本法的市场导向特征。\n\n## 易错点\n\n目标成本法是“价格决定成本”，而非“成本决定价格”；目标利润通常按销售利润率或投资回报率计算。\n\n## 例子\n\n目标售价 100，要求销售利润率 20%，则目标成本=100×(1−20%)=80。\n\n## 考试提醒\n\n方向感最重要：目标成本法从市场价倒扣出成本，别按成本加价思路算。",
+              "standardReference": "Syllabus A2 - Target costing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.2.2",
+              "title": "Cost reduction and value engineering",
+              "summary": "价值工程通过分析功能-成本配比，删除不增值功能以把成本降到目标水平。",
+              "contentMd": "## 核心概念\n\n价值工程（value engineering）审视产品各功能与成本的关系，剔除顾客不付价值的过度设计，或用更经济的材料/工艺替代，从而在不损失价值前提下降低成本。\n\n## 常见考法\n\n识别价值工程的工具，或判断某成本改善措施是否属于价值工程。\n\n## 易错点\n\n价值工程不是一味砍成本，而是在保持（或提升）功能价值前提下降低成本。\n\n## 例子\n\n用更轻量化但强度达标的材料替代昂贵材料，既降成本又不减功能。\n\n## 考试提醒\n\n紧扣“功能-成本”平衡：删的是不增值功能，而非必要的功能要求。",
+              "standardReference": "Syllabus A2 - Value engineering",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Life-cycle costing",
+          "points": [
+            {
+              "code": "PM.2.3",
+              "title": "Life-cycle costing",
+              "summary": "生命周期成本法把设计、生产、销售、使用与处置全周期成本纳入定价与决策。",
+              "contentMd": "## 核心概念\n\n生命周期成本（life-cycle cost）包含研发设计、生产、市场、分销、售后与处置等全周期成本。在引入期就评估全周期盈利能力，避免只看制造阶段成本而忽视后期成本。\n\n## 常见考法\n\n识别生命周期成本的构成，或计算全周期利润/单位生命周期成本。\n\n## 易错点\n\n不要只看生产成本：设计阶段已锁定大部分后续成本；售后与处置成本也须纳入。\n\n## 例子\n\n某产品研发 200,000、生产 500,000、市场与售后 300,000，总收入 1,200,000，全周期利润=200,000。\n\n## 考试提醒\n\n把“从研发到处置”的一切成本相加，判断全周期是否值得投资。",
+              "standardReference": "Syllabus A2 - Life-cycle costing",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Throughput Accounting and Environmental Accounting",
+      "description": "掌握约束理论与瓶颈产出会计，了解环境管理会计基础。",
+      "topics": [
+        {
+          "title": "Throughput accounting",
+          "points": [
+            {
+              "code": "PM.3.1",
+              "title": "Theory of constraints and throughput",
+              "summary": "产出会计聚焦瓶颈资源，通过提高瓶颈利用率来提升整体产出贡献。",
+              "contentMd": "## 核心概念\n\n产出会计（throughput accounting）基于约束理论（TOC），把瓶颈（bottleneck）视为制约产出的关键。定义吞吐量（throughput）=销售收入−直接材料成本，强调最大化单位瓶颈时间的吞吐贡献。\n\n## 常见考法\n\n识别瓶颈资源，或计算单位瓶颈小时的吞吐贡献（selling price − direct material cost）。\n\n## 易错点\n\n产出会计只把“直接材料”视为变动成本，人工与制造费用视为固定；瓶颈之外的闲置产能并不产出贡献。\n\n## 例子\n\n售价 90，直接材料 30，每单位需 0.5 瓶颈小时：单位瓶颈贡献=(90−30)÷0.5=120/小时。\n\n## 考试提醒\n\n吞吐贡献=售价−直接材料；除以瓶颈时间才是资源利用的排序依据。",
+              "standardReference": "Syllabus A3 - Throughput accounting",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.3.2",
+              "title": "Throughput accounting ratio (TA ratio)",
+              "summary": "TA 比率=吞吐贡献÷瓶颈成本率，用于判断产品对瓶颈资源利用的吸引力。",
+              "contentMd": "## 核心概念\n\nTA ratio=吞吐贡献÷工厂成本（按瓶颈时间分摊的制造成本）。比率大于 1 表示该产品贡献超过成本，值得优先生产。它是排序与评估瓶颈利用效率的工具。\n\n## 常见考法\n\n计算 TA 比率，或据其大小排序产品优先级。\n\n## 易错点\n\n分母“工厂成本”应除以瓶颈总时数，得到每小时工厂成本；并注意其与边际贡献率的区别。\n\n## 例子\n\n单位瓶颈贡献 120/小时，工厂成本率 80/小时，TA ratio=1.5。\n\n## 考试提醒\n\nTA ratio=吞吐贡献÷工厂成本率；>1 有利，越高越好。",
+              "standardReference": "Syllabus A3 - Throughput accounting ratio",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Environmental accounting",
+          "points": [
+            {
+              "code": "PM.3.3",
+              "title": "Environmental management accounting (EMA)",
+              "summary": "EMA 把环境成本（材料、能源、废弃物、合规）纳入管理与决策，促进可持续绩效。",
+              "contentMd": "## 核心概念\n\n环境管理会计（EMA）将环境相关成本（原材料、能源、废弃物处置、污染治理、合规与声誉）识别、计量并分配到产品或活动，支持绿色产品决策与绩效评价。\n\n## 常见考法\n\n识别环境成本，或说明 EMA 对决策的促进作用（成本透明、可持续价值）。\n\n## 易错点\n\n环境成本常被计入一般制造费用而掩盖；EMA 主张单独识别归类，才能驱动减排与效率提升。\n\n## 例子\n\n把废弃物处理费归集到产生该废弃物产品的成本，促使改进工艺。\n\n## 考试提醒\n\nEMA 关键词：环境成本核算+可持续+绿色经营决策。",
+              "standardReference": "Syllabus A3 - Environmental management accounting",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Cost Volume Profit Analysis",
+      "description": "掌握保本点、安全边际、目标利润与多产品 CVP 分析。",
+      "topics": [
+        {
+          "title": "CVP analysis",
+          "points": [
+            {
+              "code": "PM.4.1",
+              "title": "Breakeven point and C/S ratio",
+              "summary": "保本点=固定成本÷单位贡献；C/S 比率=贡献÷售价，衡量贡献的获利杠杆。",
+              "contentMd": "## 核心概念\n\n贡献=售价−变动成本；保本点（units）=固定成本÷单位贡献；C/S ratio（贡献边际率）=贡献÷售价。保本销售额=固定成本÷C/S ratio。\n\n## 常见考法\n\n计算保本销量、保本销售额或 C/S 比率，并用于盈亏分析。\n\n## 易错点\n\n保本销量用“单位贡献”，保本销售额用“C/S 比率”；零变动成本为零是常见错点。\n\n## 例子\n\n售价 25，变动成本 15，贡献=10，C/S=40%，固定成本 40,000：保本=40,000÷10=4,000 件。\n\n## 考试提醒\n\n先算单位贡献，再除固定成本求保本量；保本额=保本量×售价。",
+              "standardReference": "Syllabus C1 - Cost volume profit analysis",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.4.2",
+              "title": "Margin of safety and target profit",
+              "summary": "安全边际衡量实际销售超出保本点的缓冲；目标利润销量需额外覆盖目标利润。",
+              "contentMd": "## 核心概念\n\n安全边际（margin of safety）=实际（或预算）销量−保本销量；通常以百分比表示，越高越安全。目标利润销量=（固定成本+目标利润）÷单位贡献。\n\n## 常见考法\n\n计算安全边际率或目标利润所需销量，分析经营风险。\n\n## 易错点\n\n目标利润销量要“固定成本+目标利润”再除贡献，勿漏加目标利润；安全边际可以用金额或百分比表达。\n\n## 例子\n\n实际 5,000 件，保本 4,000 件：安全边际=1,000 件，即 20%。\n\n## 考试提醒\n\n安全边际=（实际−保本）÷实际；越接近保本点风险越大。",
+              "standardReference": "Syllabus C1 - Margin of safety and target profit",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.4.3",
+              "title": "Multi-product CVP and contribution sales mix",
+              "summary": "多产品用加权平均贡献与销售组合计算综合保本点。",
+              "contentMd": "## 核心概念\n\n多产品企业用销售组合（sales mix）计算加权平均单位贡献，或以综合 C/S 比率求保本销售额。销售组合变化会改变加权贡献，进而影响保本点。\n\n## 常见考法\n\n计算加权平均单位贡献与综合保本，或分析销售组合变动对保本点的影响。\n\n## 易错点\n\n加权需按销售组合权数；组合变化会同时改变加权贡献与保本点。\n\n## 例子\n\nA、B 两种产品贡献各 12 与 8，组合 3:2，加权贡献=(3×12+2×8)÷5=10.4。\n\n## 考试提醒\n\n先算各产品贡献，再按销售组合加权，最后再除固定成本。",
+              "standardReference": "Syllabus C1 - Multi-product CVP",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "PM.4.4",
+              "title": "Limitations of CVP analysis",
+              "summary": "CVP 依赖成本可线性分离、售价不变、单一产品等假设，现实往往不成立。",
+              "contentMd": "## 核心概念\n\nCVP 假设：线性成本函数、相关范围、售价不变、单一或多产品固定组合、存货不变、全量生产全量销售。现实中价格、成本、组合都可能变化，使结论失真。\n\n## 常见考法\n\n指出 CVP 的假设与局限，或判断哪些情境下 CVP 结论不可靠。\n\n## 易错点\n\n相关范围外成本不再线性；多产品且组合变化时，单一保本点失去意义。\n\n## 例子\n\n需求下滑导致降价促销，售价不再是常数，保本点被低估。\n\n## 考试提醒\n\n答“局限”题从成本线性、售价恒定、组合固定、产销一致四方面展开。",
+              "standardReference": "Syllabus C1 - Assumptions and limitations of CVP",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Relevant Costing and Short-term Decisions",
+      "description": "掌握相关成本分析、稀缺资源决策与自制外购。",
+      "topics": [
+        {
+          "title": "Relevant costing",
+          "points": [
+            {
+              "code": "PM.5.1",
+              "title": "Relevant costs, opportunity costs and sunk costs",
+              "summary": "相关成本是未来、增量、现金流出；机会成本相关，沉没成本与不变成本不相关。",
+              "contentMd": "## 核心概念\n\n相关成本：未来发生、随决策变化、以现金流衡量。机会成本（opportunity cost）是决策所放弃的最佳替代收益；沉没成本（sunk）、已发生的固定成本不相关。\n\n## 常见考法\n\n在决策情境中识别相关与不相关成本，或计算相关成本净额。\n\n## 易错点\n\n账面价值、折旧（对已购资产的分配）通常不相关；若资产有替代用途或可变现价值，则应计机会成本。\n\n## 例子\n\n现有库存账面成本 10,000 已沉没，但其可直接变卖 8,000，则用于生产的机会成本为 8,000。\n\n## 考试提醒\n\n用“未来+增量+现金流”三问过滤；机会成本千万别漏。",
+              "standardReference": "Syllabus C2 - Relevant costing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.5.2",
+              "title": "Make or buy and outsourcing decisions",
+              "summary": "自制外购决策比较相关成本，还需考虑产能、质量、供应风险与战略因素。",
+              "contentMd": "## 核心概念\n\n比较“自制相关成本”与“外购价格”，选择成本更低者。自制的变动成本与可避免固定成本相关；外购还可能释放产能用于其他更能获利的产品。\n\n## 常见考法\n\n计算自制与外购的成本优劣，或分析产能释放带来的机会。\n\n## 易错点\n\n只有“可避免的固定成本”才相关；不可避免的固定成本不参与比较。\n\n## 例子\n\n自制变动成本 10/件+可避免固定 20,000；外购价 12/件且需求 8,000 件：外购成本 96,000 vs 自制 10×8,000+20,000=100,000，外购更优。\n\n## 考试提醒\n\n只比相关成本；若有闲置产能用于他途，机会成本也要算进去。",
+              "standardReference": "Syllabus C2 - Make or buy",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Limiting factor and short-term decisions",
+          "points": [
+            {
+              "code": "PM.5.3",
+              "title": "Scarce resources (limiting factor) decisions",
+              "summary": "资源受限时，按“单位受限资源贡献”排序产品，最大化总贡献。",
+              "contentMd": "## 核心概念\n\n当某资源（如机器小时、熟练工、原材料）成为瓶颈时，应优先生产“单位瓶颈资源贡献”最大的产品，并据此分配稀缺资源。\n\n## 常见考法\n\n计算各产品单位受限资源贡献并排序，确定最优产品组合。\n\n## 易错点\n\n用“单位产品贡献”排会出错；必须除以瓶颈资源耗用量，得到单位资源的贡献。\n\n## 例子\n\nA 贡献 12、需瓶颈 2h → 6/h；B 贡献 10、需 1h → 10/h，故先产 B。\n\n## 考试提醒\n\n瓶颈=资源；公式：单位受限资源贡献=单位贡献÷单位耗用资源。",
+              "standardReference": "Syllabus C2 - Scarce resources",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.5.4",
+              "title": "Special orders and shut-down decisions",
+              "summary": "特殊订单看相关增量贡献；停产/关停决策比较可避免成本与相关收入。",
+              "contentMd": "## 核心概念\n\n特殊订单：只要价格高于相关增量成本即可贡献利润（尤其有闲置产能时）。部门关停：比较继续经营的相关收益（贡献−可避免固定成本）与关停后节省的成本。\n\n## 常见考法\n\n判断是否接受特殊订单，或某部门是否应关停。\n\n## 易错点\n\n特殊订单用相关成本而非全成本；关停决策关注“可避免成本”与对集团其他部分的协同影响。\n\n## 例子\n\n闲置产能接单 15/件、相关成本 11/件，每件贡献 4，接受。\n\n## 考试提醒\n\n这两类都是“相关成本+闲置产能”的经典应用。",
+              "standardReference": "Syllabus C2 - Special decisions",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Pricing Decisions",
+      "description": "掌握成本加成、市场导向定价与价格弹性。",
+      "topics": [
+        {
+          "title": "Pricing approaches",
+          "points": [
+            {
+              "code": "PM.6.1",
+              "title": "Cost-plus pricing",
+              "summary": "成本加成法在成本基础上加目标加成率定价，简单但忽略市场与需求。",
+              "contentMd": "## 核心概念\n\n成本加成（cost-plus）先在全部成本（或变动成本）上加目标利润加成定售价。可用全成本加成或变动成本加成。简单易行，但可能脱离市场、不利定价决策。\n\n## 常见考法\n\n计算成本加成价格，或指出其优缺点（忽视需求与竞争）。\n\n## 易错点\n\n变动成本加成与全成本加成基数不同；按成本加成定价可能在需求短缺时仍定低价。\n\n## 例子\n\n单位变动成本 60，固定成本分摊 20，全成本 80，加成 25% → 售价 100。\n\n## 考试提醒\n\n区分“全成本加成”与“变动成本加成”，看清基数再计算。",
+              "standardReference": "Syllabus C3 - Cost-plus pricing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.6.2",
+              "title": "Market-based pricing and demand",
+              "summary": "市场导向定价依据消费者感知价值与竞争价格，供需决定最优价。",
+              "contentMd": "## 核心概念\n\n市场导向定价（market-based）从市场需求与竞争者价格出发确定售价，常见有渗透定价与撇脂定价。定价要看需求弹性与竞争环境，而非仅看成本。\n\n## 常见考法\n\n识别市场导向定价策略，或分析需求与竞争对价格的影响。\n\n## 易错点\n\n渗透定价（低起步抢份额）与撇脂定价（高起步赚足早鸟）方向相反；定价须结合需求弹性。\n\n## 例子\n\n新品上市先定高价（撇脂）以回收投资，随后降价扩大市场。\n\n## 考试提醒\n\n先判断策略基调（高/低起步），再选对应策略。",
+              "standardReference": "Syllabus C3 - Market-based pricing",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Price elasticity",
+          "points": [
+            {
+              "code": "PM.6.3",
+              "title": "Price elasticity of demand",
+              "summary": "价格弹性衡量价格变化对需求的影响，弹性大小决定提降价策略。",
+              "contentMd": "## 核心概念\n\n需求价格弹性=需求量变动百分比÷价格变动百分比。弹性>1（富有弹性，降价增收入），弹性<1（缺乏弹性，提价增收入）。\n\n## 常见考法\n\n判断某产品价格弹性类型，或据弹性选择提价/降价策略。\n\n## 易错点\n\n弹性按绝对值比较；替代品多、非必需品的弹性更高。\n\n## 例子\n\n必需品需求缺乏弹性，提价会增加总收入；奢侈品需求富有弹性，降价促销更有效。\n\n## 考试提醒\n\n弹性大→降价增收；弹性小→提价增收。",
+              "standardReference": "Syllabus C3 - Price elasticity",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Risk and Uncertainty in Decision Making",
+      "description": "掌握期望值、敏感性、决策树与不确定环境下的风险评估。",
+      "topics": [
+        {
+          "title": "Decision making under uncertainty",
+          "points": [
+            {
+              "code": "PM.7.1",
+              "title": "Expected values and their limitations",
+              "summary": "期望值以概率加权的平均结果衡量，是风险决策的常用工具。",
+              "contentMd": "## 核心概念\n\n期望值（expected value，EV）=Σ（结果值×概率），用概率加权得出平均结果，用于比较不同方案。但它不代表任何单一实际结果，且对概率估计敏感。\n\n## 常见考法\n\n计算某方案的期望值，或讨论 EV 的局限（风险中立假设、单次决策无代表性）。\n\n## 易错点\n\nEV 是“平均”而非“最可能”结果；它忽略结果离散程度（风险），对单个决策可能失真。\n\n## 例子\n\n40% 概率赚 50,000、60% 概率赚 20,000：EV=0.4×50,000+0.6×20,000=32,000。\n\n## 考试提醒\n\nEV=概率×结果求和；答题时注明其“平均、风险中立”的局限。",
+              "standardReference": "Syllabus C5 - Expected values",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.7.2",
+              "title": "Decision trees and probabilities",
+              "summary": "决策树以节点与分支呈现多阶段选择与概率，计算各路径期望值。",
+              "contentMd": "## 核心概念\n\n决策树用方框（决策点）与圆圈（机会点/概率）层层展开，从后往前（rollback）计算各分支期望值，选出期望值最大的路径。\n\n## 常见考法\n\n编制或解读决策树，计算某分支期望值，或进行概率调整（修正试验信息）。\n\n## 易错点\n\n从右往左回推；每条路径把概率乘上结果求和；先可再考决策节点选择。\n\n## 例子\n\n若扩产则 70% 概率赚 100,000、30% 赚 40,000，EV=0.7×100,000+0.3×40,000=82,000。\n\n## 考试提醒\n\n回推时先算机会点 EV，再在决策点选最大；这是一条主干流程。",
+              "standardReference": "Syllabus C5 - Decision trees",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Sensitivity analysis and risk",
+          "points": [
+            {
+              "code": "PM.7.3",
+              "title": "Sensitivity analysis",
+              "summary": "敏感性分析考察关键变量变动多大百分比会使决策反转（如保本变化）。",
+              "contentMd": "## 核心概念\n\n敏感性分析（sensitivity）通过计算某变量（售价、成本、销量）变动多少百分比会导致结果由盈转亏或方案反转，来判断决策的稳健性。\n\n## 常见考法\n\n计算某变量的安全幅度（如销量可下降多少仍保本），或比较各变量敏感性。\n\n## 易错点\n\n需先确定“反转点”（如保本销量），再算与原估计的差距百分比；不同变量敏感度不同。\n\n## 例子\n\n原预计销量 5,000、保本 4,000：销量可下降 20% 仍盈利，属较稳健。\n\n## 考试提醒\n\n敏感性=（原值−反转点）÷原值；越小越敏感、风险越大。",
+              "standardReference": "Syllabus C5 - Sensitivity analysis",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "PM.7.4",
+              "title": "Maximin, maximax and minimax regret",
+              "summary": "不确定下的决策准则：保守的 maximin、乐观的 maximax 与后悔最小的 minimax。",
+              "contentMd": "## 核心概念\n\n无概率时可用决策准则：maximin（在最坏结果中选最大，保守）；maximax（在最好结果中选最大，乐观）；minimax regret（最小化最大后悔值）。\n\n## 常见考法\n\n应用某准则选出方案，或辨析不同准则的决策取向。\n\n## 易错点\n\nmaximin 关注最坏结果，maximax 关注最好结果，二者取向相反；后悔表需先算各状态最佳与实际的差。\n\n## 例子\n\n在两个方案、两种市场状态下的支付矩阵，分别按 maximin/maximax/regret 选。\n\n## 考试提醒\n\n记住三者“保守/乐观/遗憾最小”的定位，再落矩阵。",
+              "standardReference": "Syllabus C5 - Decision criteria",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Budgeting: Process and Types",
+      "description": "掌握增量/零基/滚动预算与预算行为影响。",
+      "topics": [
+        {
+          "title": "Budgeting approaches",
+          "points": [
+            {
+              "code": "PM.8.1",
+              "title": "Incremental budgeting",
+              "summary": "增量预算在基期基础上调整，省时但延续低效与既有浪费。",
+              "contentMd": "## 核心概念\n\n增量预算（incremental）以上年预算/实际为基数，按通胀或增长比例调整。简单快捷，但会固化上年低效支出，且缺乏对新活动的审视。\n\n## 常见考法\n\n识别增量预算特征，或指出其浪费与僵化的局限。\n\n## 易错点\n\n增量法默认“上年合理”，若上年存在浪费则被延续；对变动大的部门不合适。\n\n## 例子\n\n上年市场部 500,000，按 3% 通胀调为 515,000，未重新论证各项支出。\n\n## 考试提醒\n\n增量=基数+调整；关键词“上年为基/延续”。",
+              "standardReference": "Syllabus D1 - Incremental budgeting",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.8.2",
+              "title": "Zero-based budgeting (ZBB)",
+              "summary": "零基预算从零重新论证每项支出，聚焦效率但耗时、资源要求高。",
+              "contentMd": "## 核心概念\n\n零基预算（ZBB）每年从零开始，要求每项活动论证其必要性并按优先级排序，把资源分配到最高优先的活动。适合服务性、可斟酌支出，但对必须性支出价值有限。\n\n## 常见考法\n\n识别 ZBB 的特征，或比较其与增量法的优缺点、适用场景。\n\n## 易错点\n\nZBB 只对“可斟酌、服务性”支出最有效；对工厂生产等必须支出收益有限，且工作量与成本高。\n\n## 例子\n\n市场部把各活动按优先级排序，仅批前 70% 的活动，其余砍掉。\n\n## 考试提醒\n\nZBB=重新论证+优先级排序；优点（效率、剔除浪费）vs 局限（耗时、培训、资源）。",
+              "standardReference": "Syllabus D1 - Zero-based budgeting",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.8.3",
+              "title": "Rolling budgets and other approaches",
+              "summary": "滚动预算不断向前延伸；Activity-based 预算与 Beyond budgeting 各有侧重。",
+              "contentMd": "## 核心概念\n\n滚动预算（rolling）每期结束立即增补下一期，保证预算始终覆盖固定长度。还有作业基础预算（ABB）与超越预算（beyond budgeting，以滚动预测与相对目标取代僵硬年度预算）。\n\n## 常见考法\n\n识别滚动预算特征，或说明 ABB/Beyond budgeting 的理念。\n\n## 易错点\n\n滚动预算更及时但工作量大；ABB 以作业成本驱动预算量；beyond budgeting 强调去中心、相对目标。\n\n## 例子\n\n按月滚动：1 月末编 2 月—次年 1 月预算，2 月末再编 3 月—次年 2 月预算。\n\n## 考试提醒\n\n滚动=窗口前移+及时；ABB=作业驱动；beyond budgeting=去僵硬化。",
+              "standardReference": "Syllabus D1 - Rolling and activity-based budgets",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Budgetary behaviour",
+          "points": [
+            {
+              "code": "PM.8.4",
+              "title": "Behavioural aspects of budgeting",
+              "summary": "参与式预算提升认同但可能产生预算松弛；目标一致性影响激励与行为。",
+              "contentMd": "## 核心概念\n\n参与式预算让执行者参与制定，增强承诺与认同，但也可能造成预算松弛（budgetary slack）。目标应既有挑战又可实现，并与报酬与考核挂钩，防止短期行为。\n\n## 常见考法\n\n识别参与式预算的优缺点、预算松弛的表现，或目标激励的合理性。\n\n## 易错点\n\n参与式不等于更好；松弛与博弈是常见副作用；目标过难挫伤动机。\n\n## 例子\n\n员工为降低考核压力而低估可实现销量，形成预算松弛。\n\n## 考试提醒\n\n“行为影响”关注动机：接受度、信息扭曲、目标一致性。",
+              "standardReference": "Syllabus D2 - Behavioural aspects of budgeting",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Quantitative Techniques in Budgeting",
+      "description": "掌握高低法与回归、学习曲线及时序预测技术。",
+      "topics": [
+        {
+          "title": "Forecasting techniques",
+          "points": [
+            {
+              "code": "PM.9.1",
+              "title": "High-low method and least-squares regression",
+              "summary": "高低法用极值两点估计关系，回归用全部数据拟合 y=a+bx，用于预测。",
+              "contentMd": "## 核心概念\n\n高低法取最高/最低活动量两点求成本函数，简单但对异常点敏感；最小二乘回归 y=a+bx 用全部数据拟合，更精确但计算更复杂。二者都假设线性关系，用于预算预测。\n\n## 常见考法\n\n由两点求 a、b 并预测，或用回归公式计算并预测；重视外推与相关性局限。\n\n## 易错点\n\n回归外推（extrapolation）超出样本范围不可靠；高低法忽略中间数据；样本须有代表性。\n\n## 例子\n\n(1,000, 12,000) 与 (2,000, 18,000)：b=6，a=6,000；x=1,500 时 y=15,000。\n\n## 考试提醒\n\n先算单位变动成本，再代回求固定成本；外推、弱相关、非随机样本都是警示点。",
+              "standardReference": "Syllabus D3(b) - High-low and regression",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.9.2",
+              "title": "Learning curve",
+              "summary": "学习曲线显示累计平均工时随产量翻倍按固定比例下降。",
+              "contentMd": "## 核心概念\n\n学习曲线：当累计产量翻倍时，累计平均时间按学习率（如 80%）下降。公式 $Y=aX^b$，其中 $b=\\log r/\\log 2$，$Y$ 为累计平均时间，$X$ 为累计产量。\n\n## 常见考法\n\n计算某产量下累计平均时间或总时间，用于预算人工成本与定价。\n## 易错点\n\n学习曲线只在“学习已发生”且非大量重复机械化作业时适用；对无学习或自动化程度高的情况不适用。\n\n## 例子\n\n首件 100 小时，学习率 80%，4 件累计平均=100×4^(log0.8/log2)=64，总时间=64×4=256。\n\n## 考试提醒\n\n用 $Y=aX^b$；需先求 b，再算累计平均时间，最后乘数量得总时间。",
+              "standardReference": "Syllabus D3(b) - The learning curve",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Time series and budgeting",
+          "points": [
+            {
+              "code": "PM.9.3",
+              "title": "Time series and seasonal variation",
+              "summary": "时间序列含趋势、季节、周期与随机成分；用移动平均分离趋势与季节数。",
+              "contentMd": "## 核心概念\n\n时间序列的成分为趋势（trend）、季节（seasonal）、周期（cyclical）、随机（random）。用移动平均估计趋势，再用乘性（实际÷趋势=季节指数）或加性（实际−趋势=季节偏差）模型分离季节变动，用于预测。\n\n## 常见考法\n\n计算趋势值或季节指数，并用“趋势+季节”预测未来值。\n\n## 易错点\n\n偶数期间需中心化移动平均；加性季节偏差求和约零、乘性季节指数均值约 1；预测时先趋势再加/乘季节。\n\n## 例子\n\n四季移动平均得中心化趋势，各季季节指数约 1.1、0.9…；预测某季=趋势×该季指数。\n\n## 考试提醒\n\n区分乘性（乘指数）与加性（加偏差），并注意中心化。",
+              "standardReference": "Syllabus D3(a) - Time series",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "PM.9.4",
+              "title": "Expected values and sensitivity in budgeting",
+              "summary": "用期望值与敏感性评估预算与预测的不确定性。",
+              "contentMd": "## 核心概念\n\n把不确定的销量/价格用概率加权得到期望值，或用敏感性分析考察某假设变动多大决策反转；帮助评估预算方案的稳健性与风险。\n\n## 常见考法\n\n计算预算内某变量的期望值或分析其敏感性。\n\n## 易错点\n\n期望值忽略离散程度；敏感性应关注对预算结果影响最大的变量。\n\n## 例子\n\n销量 60% 概率 8,000、40% 概率 5,000，EV=0.6×8,000+0.4×5,000=6,800。\n\n## 考试提醒\n\n把期望值与敏感性结合，判断预算在多大范围内仍可行。",
+              "standardReference": "Syllabus D3 - Risk in budgeting",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Standard Costing and Variance Analysis",
+      "description": "掌握标准成本差异（材料、人工、变动/固定制造费用）及混合计划/操作差异。",
+      "topics": [
+        {
+          "title": "Standard costing and variances",
+          "points": [
+            {
+              "code": "PM.10.1",
+              "title": "Material and labour variances",
+              "summary": "材料/人工差异分解为价格（费率）差异与用量（效率）差异。",
+              "contentMd": "## 核心概念\n\n价格（费率）差异=（标准价格−实际价格）×实际数量；用量（效率）差异=（标准用量−实际用量）×标准价格。标准用量=实际产量×标准单耗。\n\n## 常见考法\n\n计算价格与用量、费率与效率差异并判断有利/不利。\n\n## 易错点\n\n用量差异用标准价格，价格差异用实际数量；标准用量须按实际产量折算。\n\n## 例子\n\n标准价 5、单耗 3kg、产量 100、实际用 320kg、实际价 5.2：价格差异=(5−5.2)×320=−64；用量差异=(300−320)×5=−100（均不利）。\n\n## 考试提醒\n\n先求标准用量，再分别套两公式；F=有利、A=不利。",
+              "standardReference": "Syllabus E1 - Material and labour variances",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.10.2",
+              "title": "Labour variances (rate, efficiency and idle time)",
+              "summary": "人工差异含费率差异、效率差异，并关注闲置时间差异。",
+              "contentMd": "## 核心概念\n\n费率差异=（标准费率−实际费率）×实际工时；效率差异=（标准工时−实际工时）×标准费率；闲置时间差异=闲置工时×标准费率（通常不利）。\n\n## 常见考法\n\n计算费率/效率差异、结合闲置时间解释不利差异，或识别其成因。\n\n## 易错点\n\n效率差异用标准费率、费率差异用实际工时；闲置时间单独核算并从效率差异中区分。\n\n## 例子\n\n标准工时 2h/件、产量 300→标准 600h；实际 620h、标准费率 8：效率差异=(600−620)×8=−160。\n\n## 考试提醒\n\n交叉用数：价/费率×实际量，标准价/费率×量差；闲置时间另计。",
+              "standardReference": "Syllabus E1 - Labour variances and idle time",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.10.3",
+              "title": "Overhead variances",
+              "summary": "变动制造费用差异为支出+效率；固定制造费用差异为支出+产量（效率、容量）。",
+              "contentMd": "## 核心概念\n\n变动制造费用支出差异=（标准费率−实际费率）×实际工时，效率差异同人工效率差异结构。固定制造费用支出差异=预算−实际；另有产量差异（容量+效率）。\n\n## 常见考法\n\n计算变动/固定制造费用各差异，注意是吸收法还是边际法。\n\n## 易错点\n\n吸收法才有产量（容量/效率）差异；边际法下固定制造费用只有支出差异。\n\n## 例子\n\n变动费率 3/h、实际 620、标准 600：效率差异=(600−620)×3=−60。\n\n## 考试提醒\n\n先判断成本法与是否吸收，再决定计算哪些差异。",
+              "standardReference": "Syllabus E1 - Overhead variances",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Advanced variances",
+          "points": [
+            {
+              "code": "PM.10.4",
+              "title": "Planning and operational variances",
+              "summary": "计划差异源于预算假设过时，操作差异反映实际执行，把差异拆分更利于归属责任。",
+              "contentMd": "## 核心概念\n\n计划差异（planning variance）是由于原始标准/预算过时（如市场价变化）造成的差异，超出管理者控制；操作差异（operational variance）是实际绩效与调整后标准之差，反映真实执行水平。\n\n## 常见考法\n\n计算并按“计划/操作”拆分差异，或判断其责任归属。\n\n## 易错点\n\n用调整后的标准算操作差异、用原标准与调整标准之差算计划差异；二者之和等于总差异。\n\n## 例子\n\n原标准价 5，市场价实际应为 5.5：计划差异=(5−5.5)×实际用量；操作差异用 5.5 作为标准。\n\n## 考试提醒\n\n总差异=计划差异+操作差异；凡“预算过时”即属计划差异。",
+              "standardReference": "Syllabus E2 - Planning and operational variances",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "PM.10.5",
+              "title": "Sales mix and yield variances",
+              "summary": "销售组合差异与产量差异分解多产品销售对贡献的影响。",
+              "contentMd": "## 核心概念\n\n销售量差异可分解为组合差异（mix，因产品结构变化）与数量/产量差异（yield，因总销量变化）。用于分析多产品企业销售业绩偏离标准贡献的原因。\n\n## 常见考法\n\n计算销售组合与产量差异，分析其对贡献的影响方向。\n\n## 易错点\n\n需先确定标准销售组合与加权贡献；组合差异+产量差异=总销量差异。\n\n## 例子\n\n某产品实际占比高于标准且属高贡献产品，组合差异有利。\n\n## 考试提醒\n\n记住“组合+产量=销量差异”的分解框架。",
+              "standardReference": "Syllabus E2 - Sales mix and yield variances",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "title": "Performance Measurement: Financial and Non-financial",
+      "description": "掌握财务与非财务绩效指标、BSC、CSF/KPI 与标杆比较。",
+      "topics": [
+        {
+          "title": "Financial performance measures",
+          "points": [
+            {
+              "code": "PM.11.1",
+              "title": "ROI, RI and ROCE measures",
+              "summary": "ROI/ROCE 衡量资本回报，RI 用绝对额衡量超过资本成本的增值。",
+              "contentMd": "## 核心概念\n\nROI（投资报酬率）/ROCE 衡量利润与投入资本之比；RI（剩余收益）=经营利润−（投入资本×资本成本率）。RI 强调超过资本成本的绝对增值，弥补 ROI 博弈（如放弃回报低于平均但高于资本成本的项目）。\n\n## 常见考法\n\n计算 ROI 或 RI，分析其优缺点，判断投资决策。\n\n## 易错点\n\nROI 可能导致部门放弃有利项目；RI 需合理设定资本成本率；两者都用经营利润剔除融资。\n\n## 例子\n\n经营利润 120,000，投入资本 600,000，资本成本 10%：ROI=20%，RI=120,000−60,000=60,000。\n\n## 考试提醒\n\nROI=利润÷资本；RI=利润−资本×资本成本；RI 更利于价值创造视角。",
+              "standardReference": "Syllabus F1 - Financial performance indicators",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.11.2",
+              "title": "NOPAT and EVA (basics)",
+              "summary": "EVA 在 RI 基础上调整会计口径，衡量经济增加值。",
+              "contentMd": "## 核心概念\n\nEVA（经济增加值）=NOPAT−（投入资本×资本成本率）。NOPAT 为税后净经营利润，EVA 通过调整（如资本化研发）减少会计扭曲，强调超过资本成本的真实价值创造。\n\n## 常见考法\n\n计算 EVA/NOPAT，或说明其相对会计利润的优势。\n\n## 易错点\n\nEVA 需扣资本成本并作口径调整；纯会计利润未考虑资本成本。\n\n## 例子\n\nNOPAT 140,000，投入资本 1,000,000，资本成本 10%：EVA=140,000−100,000=40,000。\n\n## 考试提醒\n\nEVA=经济增加=利润−资本成本，代表对资本提供者的真实增值。",
+              "standardReference": "Syllabus F1 - EVA and NOPAT",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Non-financial measures and BSC",
+          "points": [
+            {
+              "code": "PM.11.3",
+              "title": "Balanced scorecard (BSC)",
+              "summary": "BSC 从财务、客户、内部流程、学习与成长四视角平衡评价绩效。",
+              "contentMd": "## 核心概念\n\n平衡计分卡（BSC）把战略转化为可计量目标，涵盖四个视角：财务（Financial）、客户（Customer）、内部流程（Internal business process）、学习与成长（Learning and growth），克服单一财务指标短视。\n\n## 常见考法\n\n识别各视角的典型指标，或把措施归入相应视角。\n\n## 易错点\n\n四视角名称要准确：是“内部业务流程”而非“生产”；“学习与成长”涵盖员工与创新。\n\n## 例子\n\n财务视角：ROCE；客户视角：满意度；内部流程：准时交付；学习成长：培训小时。\n\n## 考试提醒\n\n记住四视角的典型指标，分类题最稳。",
+              "standardReference": "Syllabus F2 - Balances scorecard",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.11.4",
+              "title": "CSFs, KPIs and non-financial indicators",
+              "summary": "CSF 是成功关键因素，KPI 是量化其达成的指标；非财务指标弥补财务滞后。",
+              "contentMd": "## 核心概念\n\n关键成功因素（CSF）是达成战略必需的关键要素；关键绩效指标（KPI）用可计量数值衡量 CSF 达成度。非财务指标（NFPI，如客户满意度、缺陷率、准时交付）更及时、贴近运营且难粉饰。\n\n## 常见考法\n\n区分 CSF 与 KPI，识别非财务指标，或说明财务与非财务结合。\n\n## 易错点\n\nCSF 是定性关键因素，KPI 是量化指标；KPI 要与 CSF 挂钩才有意义。\n\n## 例子\n\nCSF“客户满意”→KPI“准时交付率 96%”“满意度 4.5/5”。\n\n## 考试提醒\n\nCSF=关键因素，KPI=衡量手段；多选常混入财务指标作干扰。",
+              "standardReference": "Syllabus F2 - CSFs and KPIs",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.11.5",
+              "title": "Benchmarking",
+              "summary": "标杆管理通过与内部最佳、同业或一流企业对比，识别差距并改进。",
+              "contentMd": "## 核心概念\n\n标杆类型含内部标杆、竞争标杆、功能标杆/最佳实践。重点在通过对比找到流程差距并学习改进，而非简单抄数字。\n\n## 常见考法\n\n识别标杆类型，或说明其价值与局限（可比性、保密、数据可得性）。\n\n## 易错点\n\n对标数据须可比；口径不同会误导；竞争数据可能难获取。\n\n## 例子\n\n零售企业借鉴同业配送中心周转天数，缩短自身订单处理时间。\n\n## 考试提醒\n\n标杆=对标本位改进；关键词“最佳实践/可比性”。",
+              "standardReference": "Syllabus F2 - Benchmarking",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "title": "Divisional Performance and Transfer Pricing",
+      "description": "掌握分部绩效（ROI/RI、EVA）与转移定价方法。",
+      "topics": [
+        {
+          "title": "Divisional performance",
+          "points": [
+            {
+              "code": "PM.12.1",
+              "title": "Residual income (RI)",
+              "summary": "RI=经营利润−（投入资本×资本成本率），以绝对额衡量分部增值。",
+              "contentMd": "## 核心概念\n\n剩余收益（RI）=分部经营利润−（分部投入资本×资本成本率）。相比 ROI，RI 强调超过资本成本的经济增值，避免分部为保 ROI 而放弃高回报但低于平均回报率的项目，故与公司整体目标更一致。\n\n## 常见考法\n\n计算 RI，比较其与 ROI 的优缺点，或据 RI 评价分部绩效。\n\n## 易错点\n\nROI 可能引发布部博弈；RI 需设定合理资本成本率，且绝对额不利于直接比较不同规模分部。\n\n## 例子\n\n分部利润 120,000，投入资本 600,000，资本成本 10%：RI=120,000−60,000=60,000。\n\n## 考试提醒\n\nRI=利润−资本×资本成本；若某项目 ROCE>资本成本则增加 RI。",
+              "standardReference": "Syllabus F3 - Divisional performance measures",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.12.2",
+              "title": "ROI and divisional performance issues",
+              "summary": "ROI 简单可比，但可能引发布部短视、跨期博弈与资产计量等问题。",
+              "contentMd": "## 核心概念\n\nROI 直观、可比、便于跨分部比较，但存在不足：可能让分部放弃对整体有利但降低本分部 ROI 的项目；易受折旧与资产估值影响；不同分部资本规模难比。\n\n## 常见考法\n\n分析 ROI 的优缺点，或结合行为影响评价其适用性。\n\n## 易错点\n\nROI 数值高不等于价值创造最大；分部可能为美化 ROI 而减少投资。\n\n## 例子\n\n某项目 ROCE 12%>资本成本 10% 但<分部现行 20%，分部可能拒绝，损害整体价值。\n\n## 考试提醒\n\n“行为影响”题常考：投资博弈、短视与目标一致性问题。",
+              "standardReference": "Syllabus F3 - ROI advantages and disadvantages",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Transfer pricing",
+          "points": [
+            {
+              "code": "PM.12.3",
+              "title": "Transfer pricing basics",
+              "summary": "转移价格是内部交易定价，其高低影响分部利润归属与整体决策。",
+              "contentMd": "## 核心概念\n\n转移价格（transfer price）是集团内部各分部间交易的价格。它为分部间收入与成本定价，会改变各自利润，但集团合并利润不受影响。关键是让内部转移价格有利于集团整体最优。\n\n## 常见考法\n\n识别转移价格的作用（激励、绩效、整体最优），或判断其影响。\n\n## 易错点\n\n转移价格不改变集团合并利润，但会扭曲分部绩效与决策动机。\n\n## 例子\n\n上游部以 80 内部转给下游部，上游赚、下游成本上升，但集团总体不变。\n\n## 考试提醒\n\n转移价格只影响分部间利润归属，合并不受影响，但影响整体决策。",
+              "standardReference": "Syllabus F3 - Transfer pricing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.12.4",
+              "title": "Transfer pricing methods (market-based and cost-based)",
+              "summary": "市场价、变异成本加价、全成本加价与协商价为常见转移定价法。",
+              "contentMd": "## 核心概念\n\n常见方法：市场价（market-based，最客观，但可能无外部市场）、边际/变动成本（可避免次优，但让上游无利可图）、全成本加价、协商价。选择要考虑激励性、外部市场存在与否与集团目标。\n\n## 常见考法\n\n识别或比较各转移定价方法，判断适用场景与激励效果。\n\n## 易错点\n\n市场价最利于整体决策但需有市场；变动成本法激励下游但上游亏损；须平衡分部激励与整体最优。\n\n## 例子\n\n有活跃外部市场时采用市场价格，既客观又保考核公平。\n\n## 考试提醒\n\n先问“有无外部市场”：有则市场价，无则成本/协商。",
+              "standardReference": "Syllabus F3 - Transfer pricing methods",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "PM.12.5",
+              "title": "General transfer pricing rule",
+              "summary": "当上游产能受限时，转移价应以机会成本为下限，避免内部交易损害集团。",
+              "contentMd": "## 核心概念\n\n一般规则：转移价格下限=上游的可变成本+机会成本（若产能用于外部销售则为市场价）；上限=下游可从外部取得的最低价。当产能受限时，转移价低于市场会侵蚀集团最优。\n\n## 常见考法\n\n判断在产能受限/闲置情形下的转移价区间，或分析对集团利润的影响。\n\n## 易错点\n\n产能受限时机会成本很大，转移价应接近市场；闲置产能时可用边际成本。\n\n## 例子\n\n上游满负荷，内部转移会挤占外部高毛利订单，此时机会成本使转移价应等于外部售价。\n\n## 考试提醒\n\n掌握上下限：下限=变动成本+机会成本；上限=外部采购最低价。",
+              "standardReference": "Syllabus F3 - General transfer pricing rule",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

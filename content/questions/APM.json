@@ -1,0 +1,52 @@
+[
+  {
+    "paper": "APM",
+    "variant": "GLO",
+    "chapterCode": "04",
+    "topicTitle": "Divisional performance measurement",
+    "kpTitle": "Transfer pricing",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 4,
+    "textMd": "Division A manufactures a component at a variable cost of £30 and transfers it internally to Division B. Division A currently has spare capacity and no alternative external use for the component. The external market price for the component is £40. Division B sells the finished product externally. Which statement about the transfer price is **CORRECT**?\n\nA. The external market price (£40) should always be used as the transfer price\nB. With spare capacity, a transfer price based on the marginal cost (£30) best preserves goal congruence\nC. The transfer price should be set to maximise Division A's reported profit\nD. The transfer price should allocate Division A's fixed overheads on a cost-plus basis",
+    "options": [
+      { "key": "A", "text": "The external market price (£40) should always be used as the transfer price", "isCorrect": false, "feedbackMd": "错误：当卖方有闲置产能且无替代用途时，若按市价 40 计算会让买方误以为成本过高而拒绝本应接受的内转，导致整体次优决策。" },
+      { "key": "B", "text": "With spare capacity, a transfer price based on the marginal cost (£30) best preserves goal congruence", "isCorrect": true, "feedbackMd": "正确：有闲置产能时，按边际成本（可变成本 30）定价能使买卖双方都做出利于集团整体的决策，保持目标一致。" },
+      { "key": "C", "text": "The transfer price should be set to maximise Division A's reported profit", "isCorrect": false, "feedbackMd": "错误：单独抬高卖方利润会损害集团整体目标一致，且可能让买方拒绝合理内转。" },
+      { "key": "D", "text": "The transfer price should allocate Division A's fixed overheads on a cost-plus basis", "isCorrect": false, "feedbackMd": "错误：成本加成（含固定成本分摊）在有闲置产能时可能高于边际成本，导致类似市价的次优决策问题。" }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n转移定价（transfer pricing）的理想目标是“目标一致（goal congruence）”——让买卖双方各自的最优决策等于集团整体最优。当卖方（Division A）有闲置产能、无替代用途时，内转不会牺牲外部销售，此时集团的增量成本就是边际成本 £30。若按市价 £40 定价，买方可能误判内转成本过高而拒绝，造成原本应发生的内部转移未能发生，损害集团整体。因此按边际成本 £30 定价最能保持目标一致。\n\n## 对应知识点\n\nAPM 第 4 章：转移定价与目标一致。\n\n## 其他选项分析\n\nA 市价法适合“有替代外部用途”的情形；C 只顾卖方利润会危害整体；D 成本加成（含固定成本）同样可能高于边际成本。B 才是在闲置产能情境下的正确选择。\n\n## 易错提醒\n\n转移定价没有“万能价格”：有闲置产能用边际成本（体现增量机会成本为 0），有外部替代用途时用市价或机会成本。\n\n## 考试技巧\n\n先判断卖方是否“有闲置产能 / 是否有替代用途”，再确定增量机会成本：没替代用途的增量成本=边际成本；有替代用途则用市价/机会成本。",
+    "marks": 2,
+    "estimatedTimeSec": 200,
+    "taxYear": null,
+    "standardReference": "ACCA APM",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "APM",
+    "variant": "GLO",
+    "chapterCode": "03",
+    "topicTitle": "Balanced scorecard and frameworks",
+    "kpTitle": "The balanced scorecard (BSC)",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 3,
+    "textMd": "Which of the following best illustrates the **cause-and-effect logic** of a balanced scorecard (BSC)?\n\nA. Employee training (learning & growth) → improved internal processes → higher customer satisfaction → better financial results\nB. Higher customer satisfaction → employee training → financial results\nC. Financial results → improved internal processes → learning & growth\nD. Internal processes → employee training → customer satisfaction → financial results",
+    "options": [
+      { "key": "A", "text": "Employee training (learning & growth) → improved internal processes → higher customer satisfaction → better financial results", "isCorrect": true, "feedbackMd": "正确：BSC 通过因果链把学习成长、内部流程、客户与财务四视角串联，培训→流程→满意→财务符合由内而外的传导。" },
+      { "key": "B", "text": "Higher customer satisfaction → employee training → financial results", "isCorrect": false, "feedbackMd": "错误：顺序颠倒且断裂——客户满意不应直接导致员工培训，因果链逻辑不成立。" },
+      { "key": "C", "text": "Financial results → improved internal processes → learning & growth", "isCorrect": false, "feedbackMd": "错误：BSC 的因果方向一般是从能力和流程驱动成果，而非反过来从财务结果倒推。" },
+      { "key": "D", "text": "Internal processes → employee training → customer satisfaction → financial results", "isCorrect": false, "feedbackMd": "错误：把“内部流程”放在“学习成长（员工培训）”之前，颠倒了 BSC 因果顺序。" }
+    ],
+    "answerJson": "[\"A\"]",
+    "explanationMd": "## 正确答案\n\nA\n\n## 为什么\n\n平衡计分卡（BSC）把战略目标从财务、客户、内部流程、学习与成长四个视角分解，并通过因果链（战略地图）串联：员工能力（学习成长）改善内部流程，进而提升客户满意，最终带来财务结果。A 正是这一“由内而外”的因果传导。\n\n## 对应知识点\n\nAPM 第 3 章：平衡计分卡（四视角与因果逻辑）。\n\n## 其他选项分析\n\nB、C、D 都颠倒了因果顺序或跳过关键环节，违背 BSC“能力→流程→客户→财务”的基本逻辑。A 正确呈现了该链。\n\n## 易错提醒\n\nBSC 不是简单罗列四个视角的指标，而是用因果链把它们连接；顺序一般是从“学习成长/内部流程”向“客户/财务”传导。\n\n## 考试技巧\n\n记住四视角因果链：学习与成长（能力）→ 内部流程 → 客户 → 财务；凡是打乱或逆转这个顺序的选项都是错误的。",
+    "marks": 2,
+    "estimatedTimeSec": 150,
+    "taxYear": null,
+    "standardReference": "ACCA APM",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

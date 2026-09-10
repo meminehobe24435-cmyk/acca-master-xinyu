@@ -1,0 +1,1000 @@
+{
+  "code": "LW",
+  "name": "Corporate and Business Law",
+  "nameCn": "公司与企业法",
+  "level": "APPLIED_SKILLS",
+  "category": null,
+  "order": 4,
+  "accent": "#6366f1",
+  "description": "本课程围绕 England & Wales（英格兰与威尔士）法律体系，系统讲解合同、代理与合伙、公司设立与资本、董事义务、公司治理、破产清算与雇佣法，是 ACCA 应用技能阶段的法律基础科目。",
+  "examDurationMin": 120,
+  "examConfig": {
+    "sections": [
+      {
+        "id": "A",
+        "name": "Section A - Objective Test Questions",
+        "scope": "客观题",
+        "count": 30,
+        "marksPerQuestion": 2,
+        "sectionMarks": 60
+      },
+      {
+        "id": "B",
+        "name": "Section B - OT Case Questions",
+        "scope": "案例选择",
+        "count": 20,
+        "marksPerQuestion": 2,
+        "sectionMarks": 40
+      }
+    ]
+  },
+  "variants": [
+    {
+      "code": "GLO",
+      "label": "Global",
+      "region": "Global"
+    },
+    {
+      "code": "ENG",
+      "label": "England & Wales",
+      "region": "England & Wales"
+    },
+    {
+      "code": "SGP",
+      "label": "Singapore",
+      "region": "Singapore"
+    },
+    {
+      "code": "HKG",
+      "label": "Hong Kong",
+      "region": "Hong Kong"
+    },
+    {
+      "code": "MYS",
+      "label": "Malaysia",
+      "region": "Malaysia"
+    }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Legal System and Sources of Law",
+      "description": "本章介绍英格兰与威尔士法律体系的渊源——遵循先例的普通法、成文法与欧盟法，以及法院审级结构。",
+      "topics": [
+        {
+          "title": "Judicial Precedent and the Common Law",
+          "points": [
+            {
+              "code": "LW1.1",
+              "title": "The doctrine of precedent (stare decisis)",
+              "summary": "遵循先例：England & Wales 下级法院受上级法院判决约束，维持法律一致性与可预期性。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，普通法以遵循先例（stare decisis）为基石：下级法院必须遵循上级法院的判决，同位法院原则上也尊重既判案例。判决中被认定为法律依据的部分构成判决理由（ratio decidendi），具有约束力。\n\n## 常见考法\n\n考查某法院是否受另一法院判决约束，或就一条原则判断其是否体现遵循先例。常用 R v R（婚姻中的强奸）说明先例可被推翻。\n\n## 易错点\n\n易混淆有约束力的先例与仅具说服力的先例；也易把判决附带意见（obiter dictum）误当判决理由。只有 ratio 有约束力。\n\n## 例子\n\nEngland & Wales 高等法院处理同类刑案时，若上诉法院已作出约束性解释，高等法院必须遵循该解释。\n\n## 考试提醒\n\nEngland & Wales 考题须先判断判决来自何审级、是否同位，再定约束力；区分 ratio 与 obiter 是高频考点。",
+              "standardReference": "Case law; R v R [1992] 1 AC 599 (precedent can be overruled)",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW1.2",
+              "title": "Ratio decidendi and obiter dicta",
+              "summary": "判决理由（ratio）有约束力；附带意见（obiter）仅有说服力。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，法官判决中以逻辑支撑结论的法律理由称为 ratio decidendi，它构成有约束力的先例；而法官对本案无关问题的评论称为 obiter dicta（附带意见），只有说服力、不具约束力。\n\n## 常见考法\n\n给出一段案例摘要，要求判断哪部分是 ratio 哪部分是 obiter，或问附带意见能否约束下级法院，答案是不能。\n\n## 易错点\n\n把法官为说明问题而举的例子、或者对假设事实的评论误认为判决理由；分量上，ratio 才决定下级法院必须如何判。\n\n## 例子\n\nEngland & Wales 上诉法院在判例中除解决争议外还评价相邻规则，这部分评论属于 obiter，未来法院可参考但不必遵守。\n\n## 考试提醒\n\nEngland & Wales 考试识别 ratio 与 obiter 的最快方法：看该论述是否直接决定本案结论；不是则多半为 obiter。",
+              "standardReference": "Case law; doctrine of judicial precedent",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW1.3",
+              "title": "The role of equity",
+              "summary": "衡平法源于大法官法庭，以公平、良心补充和矫正普通法的严格规则。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales 历史上，普通法因规则僵化而无法救济所有不公，衡平法院（Court of Chancery）以良心与公平原则介入，逐步形成衡平法。衡平法不否定普通法，而是补充之，并发展出禁令、特定履行、纠正等救济。\n\n## 常见考法\n\n考查衡平法在普通法不能提供充分救济时的作用，或衡平法格言（如\"衡平法遵循法律\"）的体现。\n\n## 易错点\n\n误以为衡平法取代普通法；实际上唯有在普通法救济不足时才诉诸衡平法，且衡平法救济由法院酌情授予。\n\n## 例子\n\nEngland & Wales 中，某人虽因形式瑕疵难以在普通法获得赔偿，但法院仍可基于衡平法发出禁令，督促对方履行义务。\n\n## 考试提醒\n\nEngland & Wales 考试注意：衡平法是\"补救\"的补充机制，其格言与特定履行、禁令等救济手段常一并考查。",
+              "standardReference": "Case law; evolution of equity",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Statute and Statutory Interpretation",
+          "points": [
+            {
+              "code": "LW1.4",
+              "title": "Primary and secondary legislation",
+              "summary": "议会制定法（primary）与授权立法（secondary / delegated legislation）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，成文法主要由议会通过的主立法（primary legislation，即 Acts of Parliament）与行政机关依据授权制定的次级立法（secondary or delegated legislation）构成。主立法由议会两院通过；次级立法则不须经过完整立法程序。\n\n## 常见考法\n\n考查次级立法的例子（如法规、命令、地方当局规章）及其受议会监督（如否决、审查委员会）的方式。\n\n## 易错点\n\n误认为次级立法效力等同主立法而可不受限制；实际上其合法性受授权范围约束，超出授权即可能越权（ultra vires）无效。\n\n## 例子\n\nEngland & Wales 依据某项议会法授权部长发布实施细则，该细则属于次级立法，必须在授权范围内制定。\n\n## 考试提醒\n\nEngland & Wales 考试常见判断题：故次级立法仍须在授权范围内且受议会审查，超出范围即无效。",
+              "standardReference": "UK legislation; delegated legislation",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "LW1.5",
+              "title": "Rules of statutory interpretation",
+              "summary": "字面、黄金、目的与规则解释等规则帮助法院理解成文法含意。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n当 England & Wales 成文法文义不清时，法院运用解释规则：字面规则（literal rule）按字面通常含义解释；黄金规则（golden rule）在字面导致荒谬时作有限修正；目的规则（purposive approach）依立法目的解释；另有整体规则、同类规则等辅助手段。\n\n## 常见考法\n\n给出一段法条与案件事实，问应选择哪一解释规则，或比较字面规则与目的规则的结果差异。\n\n## 易错点\n\n忽略\"同类规则\"（ejusdem generis）与\"明示其一排除他者\"（expressio unius）等细则；也常把黄金规则与目的规则混为一谈。\n\n## 例子\n\nEngland & Wales 法院面对一架飞机是否属于\"车辆\"的措辞，若采字面规则可能得出荒谬结论，转而运用黄金或目的规则以免落空立法意图。\n\n## 考试提醒\n\nEngland & Wales 考试要按\"字面→黄金→目的\"顺序分析，并指出各自优缺点与典型判例（如 Whitely v Chappell）。",
+              "standardReference": "Statutory interpretation; Whitely v Chappell (1868) LR 4 QB 147",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW1.6",
+              "title": "Parliamentary sovereignty",
+              "summary": "议会主权：议会是最高的立法机关，法院不得质疑其法令效力。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 的宪政基座之一是议会主权：议会可制定或废除任何法律，法院无权以某种\"更高\"宪法理由推翻议会法令。这是 Dicey 所称的议会至上，英国宪法无成文法典而依赖这一原则。\n\n## 常见考法\n\n考查议会主权对法院权力的含义，或欧盟法（及《2020 年欧盟（退出协议）法》后英国法）与议会主权之间的张力。\n\n## 易错点\n\n误以为法院可像美国那样违宪审查；England & Wales 中法院解释法律但不否定议会法令，除非议会自己如此规定。\n\n## 例子\n\n即使一部议会法被认为有争议，England & Wales 法院仍须适用；想让该法失效只能由议会另立新法废止。\n\n## 考试提醒\n\nEngland & Wales 考试注意议会主权与\"法院解释权\"的区别，以及英国脱欧后欧盟法地位的变化。",
+              "standardReference": "UK constitution; Constitutional Reform Act 2005",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Court Structure and EU Law",
+          "points": [
+            {
+              "code": "LW1.7",
+              "title": "The hierarchy of courts",
+              "summary": "法院等级：最高法院—上诉法院—高等法院—郡法院/刑事法院，决定先例权威。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 的法院构成等级体系：最高法院（Supreme Court）为终审，其判决对所有下级法院有约束力；上诉法院（Court of Appeal）分民事与刑事分庭；高等法院（High Court）审理较重要案件；基层有郡法院（County Court）与治安法院、刑事法院（Crown Court）。这一层级直接决定先例的权威。\n\n## 常见考法\n\n问某一判决对哪个法院有约束力，或法院审级的管辖分工（民事、刑事、上诉路线）。\n\n## 易错点\n\n把最高法院之前身（上议院）与现最高法院混淆；或忘记高等法院对其自身在内的一般受其自身与上诉法院先例约束。\n\n## 例子\n\nEngland & Wales 上诉法院的民事判决约束高等法院与郡法院，但高等法院无权推翻上诉法院的判例。\n\n## 考试提醒\n\nEngland & Wales 考试绘制审级链并标注约束关系最为稳妥；先例权威与审级一一对应。",
+              "standardReference": "Case law; Senior Courts Act 1981",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW1.8",
+              "title": "The tribunal system",
+              "summary": "行政裁判所解决特定领域（税务、劳动、移民等）争议，属替代性司法救济。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，除法院外存在大量行政裁判所（tribunals），如第一层级裁判所（First-tier Tribunal）与上诉裁判所（Upper Tribunal）。它们处理税收、社会保障、移民、就业等专门争议，程序较法院简便、专业，费用更低。\n\n## 常见考法\n\n考查裁判所与法院的区别、其层级与上诉路径（通常向 Upper Tribunal，再向法院上诉）。\n\n## 易错点\n\n误认为裁判所判决可无条件上诉至上诉法院；实际上须先经过 Upper Tribunal，且通常只就法律问题上诉。\n\n## 例子\n\nEngland & Wales 一名雇员对劳动生产率争议可先交就业裁判所（Employment Tribunal）而非直接起诉。\n\n## 考试提醒\n\nEngland & Wales 考试注意裁判所的专门性与上诉顺序，常用\"第一层级→上级裁判所→法院\"的记忆线索。",
+              "standardReference": "Tribunals, Courts and Enforcement Act 2007",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "LW1.9",
+              "title": "The effect of EU law",
+              "summary": "欧盟法在英国的法律地位及其在脱欧前后的变化。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 曾是欧盟成员国，欧盟法（条约、条例、指令）在一定条件下直接适用并优先于国内法。2016 年公投、2020 年英国根据《欧盟（退出协议）法》脱离欧盟后，欧盟法原则上不再自动适用，被转化为国内法的部分（如部分劳动权利）继续保留。\n\n## 常见考法\n\n考查欧盟直接效力、指令的落地与\"优先原则\"，以及脱欧后英国法的独立地位。\n\n## 易错点\n\n把条例（直接适用）与指令（需成员国转化）效力混同；或误以为脱欧后所有欧盟法律立即全部失效。\n\n## 例子\n\nEngland & Wales 劳动者享有的部分法定权利源于欧盟指令，英国已将其转化为国内法，故脱欧后仍可主张。\n\n## 考试提醒\n\nEngland & Wales 考试重点关注欧盟法\"直接效力/较优地位\"的历史逻辑与脱欧后保留范围，避免绝对化表述。",
+              "standardReference": "European Union (Withdrawal) Act 2018; retained EU law",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Formation of Contracts",
+      "description": "本章围绕英格兰与威尔士合同成立的三要素：要约与承诺、对价、设立法律关系的意图。",
+      "topics": [
+        {
+          "title": "Offer and Acceptance",
+          "points": [
+            {
+              "code": "LW2.1",
+              "title": "Offer and invitation to treat",
+              "summary": "要约是被要约人承诺即成立的订约表示；表示邀请而非要约（如橱窗陈列）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，要约（offer）是表明愿意以一定条款受约束、一经承诺即成立合同的表示。与之相对的是\"要约邀请\"（invitation to treat），它只是邀请对方作出要约，本身不构成要约，例如橱窗陈列（Fisher v Bell）、商品目录、拍卖中的叫价邀请、广告（一般情形）。\n\n## 常见考法\n\n给出场景判断某表示是要约还是要约邀请，如橱窗标价、自助商品货架（Pharmaceutical Society v Boots）、广告。\n\n## 易错点\n\n误把一般招揽性广告或价目表当作要约；也易混淆\"接受邀请后作出的承诺\"与\"接受要约\"。\n\n## 例子\n\nEngland & Wales 一家商店橱窗里标价陈列商品，顾客不得\"接受\"该陈列因而成立合同；顾客须先提出要约。\n\n## 考试提醒\n\nEngland & Wales 考试用\"客观理性人判断\"方法：该表示能否以承诺直接缔结合同。",
+              "standardReference": "Fisher v Bell [1961] 1 QB 394; Partridge v Crittenden",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW2.2",
+              "title": "Acceptance and the postal rule",
+              "summary": "承诺须无条件并有效传达；邮寄规则下承诺于寄出时生效。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，承诺（acceptance）是对要约的无条件同意，并须传达给要约人。例外是邮寄规则（postal rule，Adams v Lindsell）：当邮寄是合理方式时，承诺在投邮（而非送达）时即成立合同，除非要约明确排除该规则。\n\n## 常见考法\n\n考查承诺何时成立（投邮或送达）、沉默能否作为承诺（不能，Felthouse v Bindley）、即时通信如电邮/电话的即时性规则。\n\n## 易错点\n\n把邮寄规则套用到即时通信（如电子邮件），或误认为受要约人可因沉默而成立合同。\n\n## 例子\n\nEngland & Wales 中受要约人于周一向要约人寄出承诺信，周三才送达，但合同于周一投邮时即成立，即使要约人尚未收到。\n\n## 考试提醒\n\nEngland & Wales 考试先判断通信方式是否\"即时\"，再决定适用投邮规则还是送达规则。",
+              "standardReference": "Adams v Lindsell (1818); Felthouse v Bindley (1862)",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW2.3",
+              "title": "Termination of offer",
+              "summary": "要约可因撤销、拒绝（含反要约）、失效、死亡或期限届满而终止。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，要约可在承诺前被撤销（revocation），撤销须在承诺生效前传达（Dickinson v Dodds）；受要约人的拒绝或反要约（counter-offer）终止原要约（Hyde v Wrench）；要约还因期限届满、当事人死亡或标的灭失而失效。\n\n## 常见考法\n\n考查反要约如何消灭原要约，撤销是否须通知，以及要约是否因死亡终止。\n\n## 易错点\n\n把\"因某些条件询问（可视为请求信息）\"误当反要约；或忽视撤销必须在承诺完成前传达。\n\n## 例子\n\nEngland & Wales 买主就价格提出新条件，构成反要约，原要约随之终止，卖主不得再以原条款成立合同。\n\n## 考试提醒\n\nEngland & Wales 考试用时间线判断\"承诺是否在有效期内完成\"，并追踪每一次反要约对原要约的消灭。",
+              "standardReference": "Hyde v Wrench (1840); Dickinson v Dodds (1876)",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Consideration",
+          "points": [
+            {
+              "code": "LW2.4",
+              "title": "Consideration and the existing duty rule",
+              "summary": "对价可来自已有义务之履行，但履行既有法定义务/合同义务一般不构成新对价。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，对价（consideration）是合同可执行的核心要素之一：受允诺人须以对等利益交换允诺。履行既有义务（Public Duty）或既有合同义务（Existing Contractual Duty）原则上不构成新的有效对价，如 Williams v Roffey Bros 例外的界定。\n\n## 常见考法\n\n考查履行已有义务是否构成对价；判断追加付款的承诺是否有对价支持；比较 Williams v Roffey 与 Stilk v Myrick。\n\n## 易错点\n\n把\"履行既有合同义务\"一律视为有效对价，或误用 Williams 例外而忽略其适用条件。\n\n## 例子\n\nEngland & Wales 雇员本已约定完成某任务，雇主事后额外承诺加酬，因雇员无新对价，该加酬允诺原则上难强制。\n\n## 考试提醒\n\nEngland & Wales 考试牢记\"已有法律义务+无新增负担=无对价\"，并留意 Williams 例外多用于债方也获实际利益的场合。",
+              "standardReference": "Case law; Stilk v Myrick (1809); Williams v Roffey Bros [1991]",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW2.5",
+              "title": "Part payment of debt and promissory estoppel",
+              "summary": "部分付款不能免除全部债务；禁反言（estoppel）在特定情形可阻断强制追索。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 普通法上，债权人收取部分款项并不能免除债务人其余债务（part payment rule，Pinnel's Case）。例外是禁反言（promissory estoppel，Central London Property Trust v High Trees House）：一方以明确允诺使对方信赖履行而改变地位，之后不得反悔强制其履行原义务，但其通常只作\"盾\"而非\"诉因\"。\n\n## 常见考法\n\n考查部分付款的效力，以及 High Trees 案确立的禁反言及其限制条件。\n\n## 易错点\n\n把禁反言错误理解为可产生新给付义务（只能为抗辩）；或忽略其须有明确允诺与信赖改变作为前提。\n\n## 例子\n\nEngland & Wales 房东减收部分租金，之后不得临时主张补收全部旧租，但租期届满恢复原租金。\n\n## 考试提醒\n\nEngland & Wales 考试区分\"减少金额的允诺\"与\"一次性收取部分代替全部\"，并牢记禁反言大多作为抗辩使用。",
+              "standardReference": "Pinnel's Case (1602); Central London Property Trust v High Trees [1947]",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW2.6",
+              "title": "Adequacy and the benefit/detriment test",
+              "summary": "衡平不究对价是否充分；只须有利益/损失交换，对价无需等价。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，法院原则上不审查对价是否公平或等价（adequacy is not questioned，Chappell v Nestlé），只要存在相互的付出与获得（benefit/detriment）即可。但对价必须是真实的、有法律价值的，不能仅仅是既有的或过去完成的。\n\n## 常见考法\n\n考查对价是否\"充分\"无关紧要但必须\"真实/足够\"；判断某项过去对价（past consideration）是否有效。\n\n## 易错点\n\n误以为对价必须等价或公平；或把\"过去已完成的对价\"当作有效对价（原则无效）。\n\n## 例子\n\nEngland & Wales 中一个便士的象征性付款也能构成有效对价，只要它是双方协商的交换的一部分。\n\n## 考试提醒\n\nEngland & Wales 考试记口诀：对价\"不问公平，但须真实、且非过去式\"。",
+              "standardReference": "Chappell v Nestlé [1960] AC 87; Roscorla v Thomas",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Intention to Create Legal Relations and Capacity",
+          "points": [
+            {
+              "code": "LW2.7",
+              "title": "Intention to create legal relations",
+              "summary": "商业协议推定有法律约束意图；家庭/社交协议推定无，可被反证推翻。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 合同成立还须有设立法律关系的意图（intention to create legal relations）。商业与贸易协议通常被推定为有法律效力；家庭、社交或私人协议被推定为无法律效力（Balfour v Balfour），除非有相反证据（如 Merritt v Merritt 分居协议）。\n\n## 常见考法\n\n给出一段家庭或商业场景判断是否有约束意图；考核\"推定\"及其可被推翻的方向。\n\n## 易错点\n\n把家庭协议一律认定为无约束力而忽视推翻推定的可能；或忽略明确的\"不具法律效力\"条款。\n\n## 例子\n\nEngland & Wales 夫妻就日常家务花销的约定属家务安排，推定无法律约束；而分居时的书面协议因明确常被认定有约束力。\n\n## 考试提醒\n\nEngland & Wales 考试按\"商业性→有意图；家庭/社交→无意图\"切入，再判断有无推翻因素。",
+              "standardReference": "Case law; Balfour v Balfour [1919]; Merritt v Merritt [1970]",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW2.8",
+              "title": "Contractual capacity of minors",
+              "summary": "未成年人订立合同能力受限：必需品与已履行成年合同的规则。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，未成年人（18 岁以下，Minors' Contracts Act 1987）原则上无完全缔约能力。为\"必需品\"（necessaries）订立的合同对其有约束力；对未成年人有利的已履行合同视为有效；其他合同未成年人可撤销或不受拘束。\n\n## 常见考法\n\n考查未成年人订约可执行性，尤其\"必需品\"合同与未成年人可撤销合同的界限。\n\n## 易错点\n\n把未成年人的一切合同都认定为无效；实际上必需品合同有效，某些服务/雇佣合同亦有限度约束。\n\n## 例子\n\nEngland & Wales 一名 16 岁少年购买必要生活用品，若价格公道，该类合同有效并可执行。\n\n## 考试提醒\n\nEngland & Wales 考试记住\"必需品=可执行；可撤销合同=须在合理时间撤销并恢复原状\"的区分。",
+              "standardReference": "Minors' Contracts Act 1987; Nash v Inman (1908)",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "LW2.9",
+              "title": "Capacity of companies and mental capacity",
+              "summary": "公司依章程具有缔约能力；精神障碍者合同在特定情形可撤销。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，公司作为法人依其章程及公司法的授权对外缔约（Companies Act 2006），其能力通常受宪法性文件与公司法限制；精神障碍或醉酒者在丧失判断能力时订立的合同，若对方知悉且属非必需品，可依 Mental Capacity Act 2005 等规则撤销。\n\n## 常见考法\n\n考查公司越权（ultra vires）是否影响合同效力，或精神障碍者合同的撤销条件。\n\n## 易错点\n\n把公司未授权行为一律认为无效；现代公司法已使善意第三方与公司交易大多受保护。\n\n## 例子\n\nEngland & Wales 一家公司董事会越权签订的大额合同，善意相对方原则上仍可依公司归属原则主张其有效。\n\n## 考试提醒\n\nEngland & Wales 考试重点仍是公司能力（结合 Ch 05）与精神障碍者的撤销保护，注意区分当事人知悉与否。",
+              "standardReference": "Companies Act 2006; Mental Capacity Act 2005",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Content of Contracts and Breach",
+      "description": "本章讨论合同条款的性质与效力、免除条款的约束力边界，以及违约后的救济。",
+      "topics": [
+        {
+          "title": "Terms of the Contract",
+          "points": [
+            {
+              "code": "LW3.1",
+              "title": "Terms, conditions and warranties",
+              "summary": "条款分为条件、保证与无名条款，决定违反后的救济。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 合同条款按重要性可分为：条件（condition）——违反可解除合同并索赔；保证（warranty）——违反只能索赔不能解除；无名条款（innominate term）——视违反后果是否严重决定可否解除（Hong Kong Fir Shipping v Kawasaki）。\n\n## 常见考法\n\n给出一段违约事实判断其属于条件、保证还是无名条款，进而确定可否解除。\n\n## 易错点\n\n仅凭\"重要\"或\"不重要\"武断归类；无名条款须以\"后果是否严重\"而非\"条款性质\"判断。\n\n## 例子\n\nEngland & Wales 承运货物未按时起航，若属于无名条款，须看延误是否严重剥夺对方全部利益，再决定可否解除。\n\n## 考试提醒\n\nEngland & Wales 考试按类别判断救济：条件→解除权，保证→仅赔偿，无名→看违约后果。",
+              "standardReference": "Case law; Hong Kong Fir Shipping v Kawasaki [1962] 2 QB 26",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW3.2",
+              "title": "Terms versus mere representations",
+              "summary": "条款是合同的一部分；陈述（representations）在订约前作出，违反其救济不同。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 区分合同条款（terms）与订约前的陈述（representations）。若一项陈述构成合同条款，违反按违约处理；若仅是诱使订约的陈述且不实，则可能构成虚假陈述（misrepresentation），救济依《1967 年虚假陈述法》而不同，例如撤销与赔偿。\n\n## 常见考法\n\n考查某条陈述应被认定为条款还是陈述，通常参考重要性、时间间隔、当事方技能等标准（如 Oscar Chess v Williams）。\n\n## 易错点\n\n把陈述导致的\"赔偿\"与违约\"合同损害赔偿\"混同；或忽略陈述的重要性和当事人为此所依赖的依据。\n\n## 例子\n\nEngland & Wales 卖主说明车辆年份但基于第三方文件误述，因其依赖文件提供信息，倾向认定为陈述而非条款。\n\n## 考试提醒\n\nEngland & Wales 考试用\"订约前后、重要性、当事人专门知识\"四个维度判断条款与陈述。",
+              "standardReference": "Misrepresentation Act 1967; Oscar Chess v Williams [1957]",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW3.3",
+              "title": "Implied terms",
+              "summary": "部分条款由法令或惯例默示（implied），即使合同未明文规定。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中某些条款即使合同未写明也被默示（implied terms），来源包括成文法（如 Sale of Goods Act 1979：卖方须有所有权、货物须符合描述、质量合格并适合用途）、惯例、以及为使合同有效而有必要（business efficacy，The Moorcock）。\n\n## 常见考法\n\n考查货物买卖合同中的默示条款，或判断某项主张是否属于默示义务。\n\n## 易错点\n\n把默示条款与明示条款混同；或忘记默示条款不可任意排除，尤其在消费者合同中受法定限制。\n\n## 例子\n\nEngland & Wales 按描述购买新机，若到货性能不符说明，即使合同未明说也默示违反\"符合描述并适合用途\"条款。\n\n## 考试提醒\n\nEngland & Wales 考试牢记成文法默示义务不可排除（消费者法），并掌握其对应制裁。",
+              "standardReference": "Sale of Goods Act 1979; The Moorcock (1889)",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Exemption Clauses",
+          "points": [
+            {
+              "code": "LW3.4",
+              "title": "Incorporation of exemption clauses",
+              "summary": "免责条款须被充分引入合同：经签署、合理通知或先前交易惯例。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，免责/限制责任条款须有效引入合同（incorporation）才可援引：经签署（L'Estrange v Graucob）、在订约前或当时以合理通知告知（一般须合理步骤让当事人知悉）、或依据双方先前交易惯例（course of dealing）而被接纳。\n\n## 常见考法\n\n考查某豁免条款是否已有效\"引入\"合同，判断标准是通知的时间、措辞显著性与先前交易。\n\n## 易错点\n\n把订约后才通知的条款或以小字出现在背面的条款认定为已引入；忽略通知的合理性。\n\n## 例子\n\nEngland & Wales 商户在收据背面印免责条款，顾客订约后才看到，因未在订约前合理通知，该条款难以被引入。\n\n## 考试提醒\n\nEngland & Wales 考试按三个引入途径逐一检验；\"订约之前\"是最常见考题陷阱。",
+              "standardReference": "L'Estrange v Graucob [1934] 2 KB 394; incorporation rules",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW3.5",
+              "title": "Unfair contract terms and UCTA",
+              "summary": "《1977 年不公平合同条款法》等约束免责条款效力，消费者合同尤严。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 通过《1977 年不公平合同条款法》（Unfair Contract Terms Act 1977，UCTA）及《2015 年消费者权益法》（Consumer Rights Act 2015）限制免责与限制责任条款的效力：对人身伤亡的责任不能排除；消费者合同中若干默示义务条款亦不得排除；其他条款须通过\"合理性测试\"。\n\n## 常见考法\n\n考查某免责条款是否有效，尤其人身伤亡责任与消费者合理性问题。\n\n## 易错点\n\n把\"明显不公\"与\"合理性测试\"割裂；或忽视 UCTA 与消费者法在商业/消费者合同适用上的差异。\n\n## 例子\n\nEngland & Wales 一家健身房用条款排除其对顾客人身伤害的责任，该条款无效，因人身伤亡责任不得排除。\n\n## 考试提醒\n\nEngland & Wales 考试区分商业合同（UCTA 合理性测试）与消费者合同（Consumer Rights Act 2015 更强保护）。",
+              "standardReference": "Unfair Contract Terms Act 1977; Consumer Rights Act 2015",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW3.6",
+              "title": "Contra proferentem rule",
+              "summary": "疑义条款作不利于拟约方（通常是免责方）的解释。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 的 contra proferentem 规则：当豁免或限制责任条款措辞含糊时，应作不利于拟订该条款一方（通常指免责方）的解释，从而限缩其保护范围。\n\n## 常见考法\n\n考查在含糊措辞下条款应如何解释，或某限制责任表述能否覆盖特定违约情形。\n\n## 易错点\n\n忽略\"含糊才适用该规则\"；若条款清晰，应按字面执行而不肆意作不利解释。\n\n## 例子\n\nEngland & Wales 保险或运输合同中的免责表述含糊，法院将向有利于投保人/托运人的方向解释，限制免责范围。\n\n## 考试提醒\n\nEngland & Wales 考试先判断条款是否确实含糊，再决定是否启用 contra proferentem。",
+              "standardReference": "Case law; contra proferentem",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Breach of Contract and Remedies",
+          "points": [
+            {
+              "code": "LW3.7",
+              "title": "Breach of contract",
+              "summary": "违约包括实际违约与预期违约，程度决定可否解除。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中违约（breach of contract）可为实际违约（在履行期前明示或默示拒绝，anticipatory breach；或在履行期届满后不履行）或对合同履行要求的不符。违约程度决定受害方可否解除合同，或只能要求赔偿。\n\n## 常见考法\n\n考查预期违约的认定及其救济，或判断轻微违约是否赋予解除权。\n\n## 易错点\n\n把任何违约都当作可解除；实际上只有重大违约或违反条件时才有解除权。\n\n## 例子\n\nEngland & Wales 卖方在交货日前明确表示无法交货，属预期违约，买方可在到期前终止合同并索赔。\n\n## 考试提醒\n\nEngland & Wales 考试区分\"是否构成违约\"与\"是否有权解除\"，两者是不同层次的判断。",
+              "standardReference": "Case law; anticipatory breach",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW3.8",
+              "title": "Damages and remoteness of loss",
+              "summary": "赔偿旨在填补损失；以可预见性（remoteness）限制可得赔偿范围。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 违约损害赔偿的目的是使受害方回到合同如获履行时应处的地位（Hadley v Baxendale）。赔偿范围受可预见性（remoteness）限制：赔偿覆盖自然发生的直接损失与双方订约时可合理预见的特殊损失；受害方还须采取合理步骤减轻损失（mitigation）。\n\n## 常见考法\n\n考查某一损失是否过于遥远而不可赔，或计算赔偿时的减损义务。\n\n## 易错点\n\n把违反合同的\"远距损失\"判断与侵权标准混同；或忘记受害方有减损义务。\n\n## 例子\n\nEngland & Wales 托运人未告知机器延迟的特别影响（工厂停产），其巨额停产损失因不可预见而被视为过远，不予赔偿。\n\n## 考试提醒\n\nEngland & Wales 考试用\"订约时可预见性+直接/特殊损失\"框架，并检查减损。",
+              "standardReference": "Hadley v Baxendale (1854); Victoria Laundry v Newman [1949]",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW3.9",
+              "title": "Equitable remedies",
+              "summary": "特定履行、禁令与纠正等衡平救济在损害赔偿不足时由法院斟酌授予。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 除损害赔偿外，法院可授予衡平救济：特定履行（specific performance，强迫履行义务）常用于土地、稀缺商品等损害赔偿不足的场合；禁令（injunction）可禁止违约行为；纠正/撤销（rectification / rescission）用于修正或撤销合同。衡平救济不可强制执行个人服务合同。\n\n## 常见考法\n\n考查特定履行与禁令的适用条件，或判断某合同能否被强制履行。\n\n## 易错点\n\n把特定履行当作一般救济；其适用有限制（不能用于纯服务合同、须有实际可履行性、受害方须已履行义务）。\n\n## 例子\n\nEngland & Wales 土地买卖因地段独特，损害赔偿不足以补偿，法院可判特定履行责令交付土地。\n\n## 考试提醒\n\nEngland & Wales 考试关注衡平救济的酌定性与适用限制，需说明为何损害赔偿不足。",
+              "standardReference": "Case law; specific performance & injunctions",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Agency and Partnership",
+      "description": "本章介绍代理关系的产生与授权范围，以及合伙企业的设立、章程、责任与解散。",
+      "topics": [
+        {
+          "title": "Agency Relationships",
+          "points": [
+            {
+              "code": "LW4.1",
+              "title": "Creation of agency and actual authority",
+              "summary": "代理关系可经明示同意、推定、禁反言等产生；实际授权界定代理人权限。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，代理（agency）是指代理人（agent）经授权为被代理人（principal）并以其名义行事的关系。代理可因明示授权、默示/推定授权、必要的代理（agency of necessity）及禁反言（agency by estoppel）而产生。实际授权（actual authority）包括明示与默示授权，界定代理人可做之事。\n\n## 常见考法\n\n考查代理关系的产生方式，或某行为是否越出代理人的实际授权范围。\n\n## 易错点\n\n混淆实际授权与表见授权；忘记必要代理须有紧急与无法联系主事人的条件。\n\n## 例子\n\nEngland & Wales 公司授权采购经理在一定额度内购物，属于明示实际授权；超出额度的购买可能越权。\n\n## 考试提醒\n\nEngland & Wales 考试先判断有无授权，再区分实际授权与表面授权。",
+              "standardReference": "Case law; authority of agents",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW4.2",
+              "title": "Apparent authority and agency by estoppel",
+              "summary": "表见授权：被代理人行为使第三人合理信赖代理人有权限，则其受约束。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中表见授权（apparent / ostensible authority）是代理人对第三人呈现出的授权外观：即使代理人无实际权限，若被代理人以其行为（如让代理人居要职、持有授权文件）使第三人合理相信其有权，则被代理人对该交易负责。这可与禁反言代理（agency by estoppel）相互关联。\n\n## 常见考法\n\n考查表见授权的要件——被代理人的陈述或行为、第三人的合理信赖与改变地位。\n\n## 易错点\n\n把表见授权等同于实际授权；忽略\"第三人基于外观合理信赖\"这一关键前提。\n\n## 例子\n\nEngland & Wales 公司让一名经理实际处理某类往来，即使其未被正式授权签订该合同，公司也不得对抗善意第三方。\n\n## 考试提醒\n\nEngland & Wales 考试用\"外观+合理信赖+被代理人可归责\"三步验证表见授权。",
+              "standardReference": "Case law; apparent (ostensible) authority",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW4.3",
+              "title": "Liability of principal and agent",
+              "summary": "被代理人承接授权行为后果；代理人对无权代理及自身行为承担责任。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，被代理人（principal）对代理人在授权范围内与第三人订立的合同负责，即使代理人未披露被代理人的存在。无权代理（breach of warranty of authority）时，代理人可能要对第三人承担责任；被披露与否影响责任归属，未披露的被代理人可由第三人选择追认或追责。\n\n## 常见考法\n\n考查未披露/已披露被代理人时第三人可向谁追责，或代理人越权时是否须负代理权担保责任。\n\n## 易错点\n\n误以为代理人概不负责；实际上在代理权缺位时（尤其自称有权），代理人可能承担个人责任。\n\n## 例子\n\nEngland & Wales 代理人自称有权代表被代理人缔约但实则无权，第三人可要求代理人就\"代理权保证\"承担赔偿。\n\n## 考试提醒\n\nEngland & Wales 考试注意\"是否披露被代理人\"与\"授权有无\"两条主线影响责任承担。",
+              "standardReference": "Case law; agent's warranty of authority",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Formation of a Partnership",
+          "points": [
+            {
+              "code": "LW4.4",
+              "title": "Definition of partnership and its characteristics",
+              "summary": "合伙是共同经营业务并以分享利润为目的的关系（Partnership Act 1890）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依《1890 年合伙法》（Partnership Act 1890 s.1）定义合伙：合伙人是共同经营业务、以盈利为目的而存在的关系。合伙通常无法人资格，合伙人以个人财产承担无限责任（除非另有组织形式）；共享利润常被视为合伙的指标但非决定性。\n\n## 常见考法\n\n考查某安排是否构成合伙（而非单纯借贷或共同所有权），并分析其法律后果。\n\n## 易错点\n\n把\"共享利润\"当作合伙的充分条件；实际上须同时体现\"共同经营业务\"。\n\n## 例子\n\nEngland & Wales 两人共同投资门店并分担盈亏、共同管理，通常构成合伙，各合伙人须对合伙债务承担无限连带责任。\n\n## 考试提醒\n\nEngland & Wales 考试依 s.1 三要素（共同经营、业务、盈利）判断，并说明共享利润仅是参考因素。",
+              "standardReference": "Partnership Act 1890 s.1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW4.5",
+              "title": "The partnership agreement and mutual duties",
+              "summary": "合伙协议可明示或默示；合伙人之间负有诚信、分享收益等相互义务。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 合伙人之间义务既可来自明示合伙协议，也受《1890 年合伙法》默示规则约束：合伙人须向其他合伙人忠实、披露全部相关信息、不经同意不得以合伙财产谋私利或争竞业务（s.28-30）。合伙协议可约定利润分配、资本、决策与解散条款。\n\n## 常见考法\n\n考查合伙人的忠实义务、信息义务，或协议未约定时法定默示条款如何补位。\n\n## 易错点\n\n忽视合伙法默示规则只在\"协议无相反约定\"时适用；也易把合伙人的诚信义务与公司法董事义务混淆。\n\n## 例子\n\nEngland & Wales 一名合伙人未经同意私吞合伙机会，其他合伙人可要求其交出所得并赔偿损失。\n\n## 考试提醒\n\nEngland & Wales 考试明确\"协议优先、法条补充\"：凡协议未定，才适用 1890 年法的默示义务。",
+              "standardReference": "Partnership Act 1890 ss.24, 28-30",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW4.6",
+              "title": "Formation of a partnership and the firm name",
+              "summary": "合伙无需注册或正式手续，通常以协议明示或行为默示成立；名称须合规。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\n在 England & Wales，普通合伙不需要任何注册或官方手续即可成立，可由明示协议或双方行为（共同经营）默示形成。合伙名称须符合《1985 年商业名称法》等规则：不得误导性宣传、须公示真实合伙人姓名与营业地址，且不得使用受限字样（如 Ltd）。\n\n## 常见考法\n\n考查合伙设立是否需正式手续，或合伙名称、公开披露的合规要求。\n\n## 易错点\n\n误以为合伙须像公司一样注册；普通合伙通常无登记要求，但名称与公示有法定义务。\n\n## 例子\n\nEngland & Wales 两人未签书面协议但共同经营烘焙店多年，仍可依行为成立合伙。\n\n## 考试提醒\n\nEngland & Wales 考试重点掌握\"无强制设立程序\"但须遵守名称与信息公示义务。",
+              "standardReference": "Business Names Act 1985; Partnership Act 1890",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Partnership Liability and Dissolution",
+          "points": [
+            {
+              "code": "LW4.7",
+              "title": "Liability of partners and Partnership Act 1890",
+              "summary": "全体合伙人对合伙债务承担连带无限责任；新合伙人入伙前后的责任衔接。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依《1890 年合伙法》，每一合伙人对合伙在经营中所欠的债务与其他合伙人承担连带（joint and several）无限责任。新入伙的合伙人原则上须对入伙后发生的债务负责，而对入伙前的债务不负个人责任，除非另有约定。\n\n## 常见考法\n\n考查新、退伙人对合伙债务的责任范围，或合伙人对外承担的连带责任。\n\n## 易错点\n\n把入伙前的债责任错误归于新合伙人；或忽视退伙后对已发生债务不加清理的责任延续。\n\n## 例子\n\nEngland & Wales 一名新合伙人入伙，对入伙前已产生的先前债务原则上不负责任，但对入伙后新债与现有合伙人连带负责。\n\n## 考试提醒\n\nEngland & Wales 考试结合入伙/退伙时点判断责任归属，并注明连带无限责任的含义。",
+              "standardReference": "Partnership Act 1890 ss.9, 17, 24(7)",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW4.8",
+              "title": "Dissolution of a partnership",
+              "summary": "合伙可因协议、通知、死亡/破产、法院裁决等解散（Partnership Act 1890）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 合伙解散（dissolution）可由合伙协议规定的条件触发、经全体合伙人同意、由一名合伙人发出通知（无固定期限合伙）、因合伙人死亡或破产而自动、或因合伙人行为不端/经营持续亏损等由法院裁定解散。\n\n## 常见考法\n\n考查合伙解散的各类情形及解散后事务（清算、资产分配）。\n\n## 易错点\n\n错误认为合伙不会因个别合伙人死亡即解散；无固定期限合伙可因合伙人单方通知解散。\n\n## 例子\n\nEngland & Wales 一名合伙人在无限期合伙中死亡，除非协议另有约定，合伙通常因此而解散。\n\n## 考试提醒\n\nEngland & Wales 考试列举解散事由，并指出解散后须清算、清偿债务并经全体同意分配剩余资产。",
+              "standardReference": "Partnership Act 1890 ss.32-44",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW4.9",
+              "title": "Partnerships and LLPs",
+              "summary": "有限责任合伙（LLP）兼具合伙灵活与公司有限责任，须注册并适用专门法。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中有限责任合伙（Limited Liability Partnership，LLP）依《2000 年有限责任合伙法》设立，具有独立法人资格，成员（members）承担有限责任，但管理上类似合伙。LLP 必须向公司注册处登记，与其他公司类似有会计与公示义务；它与普通合伙在责任与法律主体上是两种不同安排。\n\n## 常见考法\n\n考查 LLP 与普通合伙、有限公司在法人资格、责任与设立程序上的区别。\n\n## 易错点\n\n把 LLP 当成无需注册的普通合伙；也要分清成员的有限责任与合伙人的无限责任。\n\n## 例子\n\nEngland & Wales 一家会计师事务所若以 LLP 组织，则其会计师作为成员对合伙债务一般仅承担有限责任。\n\n## 考试提醒\n\nEngland & Wales 考试对比三类主体：普通合伙（无限责任、无注册）、LLP（有限责任、须注册）、公司（法人、更正式治理）。",
+              "standardReference": "Limited Liability Partnerships Act 2000",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Companies: Legal Personality and Formation",
+      "description": "本章解析公司独立法人人格的建立、揭穿公司面纱、注册设立程序与公司章程。",
+      "topics": [
+        {
+          "title": "Separate Legal Personality",
+          "points": [
+            {
+              "code": "LW5.1",
+              "title": "Separate legal personality and the Salomon principle",
+              "summary": "公司一经注册即具独立法人人格，独立于股东与董事（Salomon v Salomon）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 的基石原则：公司一经注册即拥有独立法人人格（separate legal personality），与股东、董事相分离，可own财产、订约、起诉应诉并以公司资产承担责任。Salomon v A Salomon & Co Ltd 确立：即使股东（Salomon）几乎掌握全部股份，公司仍是独立主体，其合同债务不负个人责任。\n\n## 常见考法\n\n考查 Salomon 案的意义，或公司是否成立于股东无关且须独立承担债务。\n\n## 易错点\n\n忽视公司独立于控制的股东；把一手缔造公司的股东行为直接等同于公司行为。\n\n## 例子\n\nEngland & Wales 一名股东同时是债主，公司倒闭时公司债权人不得直接追其个人财产，除非符合\"揭穿法人面纱\"例外。\n\n## 考试提醒\n\nEngland & Wales 考试牢记法人独立并熟练掌握 Salomon 案与刺破面纱例外的对应。",
+              "standardReference": "Salomon v A Salomon & Co Ltd [1897] AC 22; Companies Act 2006",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW5.2",
+              "title": "Lifting the veil of incorporation",
+              "summary": "特定情形下法院或法律无视公司独立人格，让股东/董事负责。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，\"揭穿公司面纱\"（lifting the veil of incorporation）是例外：在欺诈、规避义务、集团内部不当行为等情形，法院或成文法可无视公司独立人格，将责任归于股东或实际控制人。成文例子如某些公司法下的责任，以及在分配、担保等场景公司人格被忽略。\n\n## 常见考法\n\n考查何种情形可刺破面纱，或区分公司正常有限责任与例外追究责任。\n\n## 易错点\n\n把仅因\"股东是唯一/主要股东\"当作刺破的理由；必须存在欺诈、规避等不当目的。\n\n## 例子\n\nEngland & Wales 若公司被用作肆意滥用与欺诈的工具（如规避既有义务），法院可刺破面纱追究控制人责任。\n\n## 考试提醒\n\nEngland & Wales 考试强调\"刺破是例外\"：须有欺诈、代名人、规避义务等明确情形。",
+              "standardReference": "Case law; Adams v Cape Industries [1990], veil of incorporation",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW5.3",
+              "title": "Corporate capacity and contracts",
+              "summary": "公司按章程与公司法能缔约；第三方对善意公司交易多受保护。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司具有订立合同的法人能力，通常由章程（objects 或其现代无限制）界定范围。公司（a company）通过其机关（董事会、授权代表）以公司名义订约。Companies Act 2006 对多数公司不再要求特定\"object\"；与公司交易的善意第三方在多数情况下受保护，公司并不因越权而当然不受拘束。\n\n## 常见考法\n\n考查公司是否受某项\"越权\"合同约束，或第三方善意与公司缔约的保护。\n\n## 易错点\n\n把现代公司法下公司能力误解为严格受限；实际上善意第三方与公司的多数交易有效。\n\n## 例子\n\nEngland & Wales 某公司董事会越出内部程序签署合同，善意交易对手一般仍可约束公司。\n\n## 考试提醒\n\nEngland & Wales 考试区分\"公司能力\"与\"机关授权\"：能力通常广泛，关键在于代表权与善意保护。",
+              "standardReference": "Companies Act 2006 s.31, 40",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Formation of a Company",
+          "points": [
+            {
+              "code": "LW5.4",
+              "title": "Registration and incorporation",
+              "summary": "公司经向 Companies House 提交文件、登记颁证而成立。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司通过向公司注册处（Companies House）注册而设立：提交章程（memorandum）与公司章程细则、注册地址、董事与公司秘书信息、初始股本与\"维持公司\"声明等。注册机构核发注册证书（certificate of incorporation），公司自此成立并取得法人资格。\n\n## 常见考法\n\n考查公司注册所需文件、注册证书的意义，或申请瑕疵的后果。\n\n## 易错点\n\n忽视注册证书作为\"法人诞生\"的关键节点；把签署章程与注册证书混为一谈。\n\n## 例子\n\nEngland & Wales 一家私人有限公司提交完备文件并获注册证书，即日起成为独立法人。\n\n## 考试提醒\n\nEngland & Wales 考试记住注册是法人人格的起点，注册证书日期即公司成立日。",
+              "standardReference": "Companies Act 2006 Part 2 (Registration)",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW5.5",
+              "title": "Memorandum and articles of association",
+              "summary": "章程包括公司设立基本内容，章程细则（articles）是公司内部治理规则。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，备忘录（memorandum of association）载明公司名称、注册办公地、责任限制、成员等基础信息，由倡议人签署；章程细则（articles of association）规范公司内部事务（董事权力、会议、股份转让等）。Companies Act 2006 将传统\"公司章程\"要求简化，章程细则可依模板（模型条款）定制或沿用。\n\n## 常见考法\n\n考查备忘录与章程细则的不同功能，或公司可在章程细则中约定的事项。\n\n## 易错点\n\n混淆备忘录与章程细则的职能：前者是\"对外/设立\"，后者是\"对内治理\"。\n\n## 例子\n\nEngland & Wales 一家公司可依据模型条款采用标准章程细则，也可自行起草以调整董事权限。\n\n## 考试提醒\n\nEngland & Wales 考试明确两者分工并记住 Companies Act 2006 的新框架。",
+              "standardReference": "Companies Act 2006 ss.1-17; model articles",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW5.6",
+              "title": "Public and private companies",
+              "summary": "公开公司与私人公司在股本、规模、上市与监管上不同。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 区分私人有限公司（Ltd）与公众有限公司（plc）。公众公司可向公众发行股份、须有最低已缴资本（50,000 英镑及相关规定）、具备更严格治理；私人公司不能向公众要约认购股份，无最低资本要求。这一区分影响募资、报告与治理义务。\n\n## 常见考法\n\n考查私人与公众公司在发行股份、最低资本与上市上的差异。\n\n## 易错点\n\n把\"私人公司\"与\"非上市\"完全等同；滥用公众公司称号须承担相应报告责任。\n\n## 例子\n\nEngland & Wales 一家公众有限公司须满足最低实缴股本并承担更全面的披露与治理义务。\n\n## 考试提醒\n\nEngland & Wales 考试抓住\"能否公开募股\"与\"最低资本/治理严格度\"区分公私。",
+              "standardReference": "Companies Act 2006 s.4, 763 (minimum share capital)",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "The Company's Constitution and Types of Company",
+          "points": [
+            {
+              "code": "LW5.7",
+              "title": "The articles as a statutory contract (s.33)",
+              "summary": "公司章程细则依法在成员之间、成员与公司之间构成合同（Companies Act 2006 s.33）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Companies Act 2006 s.33，公司章程细则构成一份成员之间以及成员与公司之间的法定合同（statutory contract）。它赋予成员可依章程细则主张的权利，但该合同的强制执行范围有局限：一般只可依章程细则本身的权利主张，而不能据此要求公司履行普通民事合同的全部权利。\n\n## 常见考法\n\n考查 s.33 使章程细则成为何种关系（公司与成员、成员相互间），及其可执行性边界。\n\n## 易错点\n\n把章程细则视同成员与公司的全面私人合同；其效果受限于章程所载权利与公司法规则。\n\n## 例子\n\nEngland & Wales 一名成员可依据章程细则中关于股份转让的条款，就公司或成员拒不遵守的行为提出主张。\n\n## 考试提醒\n\nEngland & Wales 考试记牢 s.33 的\"法定合同\"定位及其在成员权利与董事权力间的运用。",
+              "standardReference": "Companies Act 2006 s.33",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW5.8",
+              "title": "Amendment of the articles",
+              "summary": "公司经股东大会特别决议可修改章程细则；但须善意且为整体利益。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司可依 Companies Act 2006 s.21 以特别决议（special resolution，通常 75% 成员多数）修改章程细则。法院将审查修改是否基于善意且为公司整体利益（a bona fide and for the benefit of the company as a whole，参考 Greenhalgh v Arderne Cinemas）。\n\n## 常见考法\n\n考查修改章程细则的程序与多数门槛，或某一修改能否被挑战。\n\n## 易错点\n\n把修改章程等同于普通决议；或忽略法院对\"整体利益与善意\"的审查标准。\n\n## 例子\n\nEngland & Wales 公司拟修改章程细则限制股份转让，若符合特别决议程序且非仅服务于个别成员私利，通常有效。\n\n## 考试提醒\n\nEngland & Wales 考试按\"特别决议+整体利益善意测试\"双重要件思考。",
+              "standardReference": "Companies Act 2006 s.21; Greenhalgh v Arderne Cinemas [1951]",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW5.9",
+              "title": "Company name and registered office",
+              "summary": "公司名称须含公司形式标识、不得误导；须有注册办公地与公示信息。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司名称须符合 Companies Act 2006：私人有限公司以\"Limited\"（Ltd）结尾，公众有限公司以\"public limited company\"（plc）结尾；不得与已登记名称相同或过于类似，亦不得误导或有冒犯性；并须在注册办公地（registered office）接收文书，同时有公示义务。\n\n## 常见考法\n\n考查公司名称的法定构成、名称争议与注册办公地的作用。\n\n## 易错点\n\n忽视名称中\"Ltd/plc\"标识的强制要求，或混淆注册办公地与营业地址。\n\n## 例子\n\nEngland & Wales 一家私人有限公司名称后缀\"Limited\"是法定要求，且名称被保留后方可使用。\n\n## 考试提醒\n\nEngland & Wales 考试把握名称组成与登记公示义务，注意与合伙名称规则的差别。",
+              "standardReference": "Companies Act 2006 Part 5, ss.53-86",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Company Finance",
+      "description": "本章讨论公司股本与股票类别、借贷资本与担保，以及资本维持原则及其运用。",
+      "topics": [
+        {
+          "title": "Share Capital",
+          "points": [
+            {
+              "code": "LW6.1",
+              "title": "Share capital and classes of shares",
+              "summary": "公司股本由股份构成；普通股、优先股等在权利与表决权上不同。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司股本（share capital）划分为股份（shares）。股份可按类别具有不同权利：普通股（ordinary）通常有表决权与剩余利润权；优先股（preference）一般优先分得固定股息但表决权有限，且部分为累积优先股；另有期限股、无表决权股等。股份附带的权利由章程细则与发行条款决定。\n\n## 常见考法\n\n考查普通股与优先股在股息、表决、清算优先上的区别，或某一类股份的权利内容。\n\n## 易错点\n\n把优先股误认为必然固定收益并永远优先受偿；其具体权利须依发行条款判断。\n\n## 例子\n\nEngland & Wales 公司发行的优先股如约定固定股息但无表决权，持有者在盈利分配上优先于普通股。\n\n## 考试提醒\n\nEngland & Wales 考试按\"权利清单\"（股息、表决、清算、可赎）逐项对比股票类别。",
+              "standardReference": "Companies Act 2006; class rights",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW6.2",
+              "title": "Issue and allotment of shares",
+              "summary": "股份发行与分配须经公司机关授权并遵循相关程序与限制。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，董事须经授权（authority）或股东大会批准才能分配（allotment）新股份（Companies Act 2006 s.549-551），股份发行须遵循先发行优先权（pre-emption rights，s.561）等规则；股票须以适当方式记录并经股东名册登记。发行新股可能导致现有股东股权被稀释。\n\n## 常见考法\n\n考查董事分配股份是否须授权、先买权如何适用，或新股发行对既有股东的影响。\n\n## 易错点\n\n忽视董事分配新股的授权要求与先发行权限制；把股东以非现金对价支付一概等同现金。\n\n## 例子\n\nEngland & Wales 公司拟增发新股，若无股东授权或违反优先购股权，相关分配可能受损甚至无效。\n\n## 考试提醒\n\nEngland & Wales 考试记住\"分配须授权+优先购买权\"两大程序约束。",
+              "standardReference": "Companies Act 2006 ss.549-551, 561",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW6.3",
+              "title": "Payment for shares and share premium",
+              "summary": "股份须以充足对价支付；以溢价发行时溢价转入股本溢价账户。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Companies Act 2006，发行的股份须以充足对价支付（公众公司取得非现金对价须经独立估值评估，s.593-597）。股份以高于面值（溢价）发行时，溢价部分须转入股本溢价账户（share premium account，s.578），该账户在资本维持等规则下受到限制，用于特定用途。\n\n## 常见考法\n\n考查股份对价与独立评估要求，或股本溢价账户的性质与用途限制。\n\n## 易错点\n\n把溢价当作可直接分配利润；溢价账户受资本维持规则约束，不可作为可分配利润任意使用。\n\n## 例子\n\nEngland & Wales 一家公众公司以高于面值的价格发行股份，其超出部分转入股本溢价账户，公司不能随意将其用于分红。\n\n## 考试提醒\n\nEngland & Wales 考试关注\"对价充足+非现金须评估\"及溢价账户的资本属性。",
+              "standardReference": "Companies Act 2006 ss.578, 593-597",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Loan Capital and Debentures",
+          "points": [
+            {
+              "code": "LW6.4",
+              "title": "Debentures and loan capital",
+              "summary": "公司借贷资本以债券（debenture）为凭证，持有人为公司债权人而非股东。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司可筹集借贷资本（loan capital），以债券（debenture）作为证明借款的文件。债券持有人是公司债权人，有权按期收取利息、到期收回本金，但通常无表决权，且在公司清算中优先于普通股东受偿。债券可为个别发行或构成债券信托。\n\n## 常见考法\n\n考查债券与股份在持有人地位、表决权、回报与清算受偿顺序上的根本差异。\n\n## 易错点\n\n把债券持有人当作股东；债券持有人只是债权人，其回报靠利息而非股息。\n\n## 例子\n\nEngland & Wales 公司发行债券融资，债券持有人按期收到利息；公司破产清算时其在股东之前获得受偿。\n\n## 考试提醒\n\nEngland & Wales 考试用\"债权人 vs 股东\"对立框架记忆债券与股份。",
+              "standardReference": "Companies Act 2006; debentures",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW6.5",
+              "title": "Fixed and floating charges",
+              "summary": "固定抵押与浮动抵押：前者指向特定财产，后者浮动于整体资产并对特定事件附着。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，固定抵押（fixed charge）指向特定、确定的资产（如土地、特定设备），债务人未经同意不得处分；浮动抵押（floating charge，依 Re Yorkshire Woolcombers）则浮动于公司现在及将来的一整类资产（如存货、应收款），在公司经营中可易手，直到发生特定\"结晶\"（crystallization）事件才固定在具体资产上。\n\n## 常见考法\n\n考查固定与浮动抵押的界定、结晶触发事由，以及浮动抵押在清算加入时顺位处理。\n\n## 易错点\n\n把对\"不断变化资产\"的抵押误判为固定；或混淆结晶时点及其被固定优先权的限制。\n\n## 例子\n\nEngland & Wales 银行就公司库存与贸易应收款设定浮动抵押，公司照常经营出售存货；一旦进入清算即结晶。\n\n## 考试提醒\n\nEngland & Wales 考试掌握两者定义要件与浮动抵押的顺位/归属受约束规则。",
+              "standardReference": "Re Yorkshire Woolcombers Association Ltd [1903] 2 Ch 284",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW6.6",
+              "title": "Registration and priority of charges",
+              "summary": "抵押须在公司抵押登记簿注册；顺位与登记时间/固定浮动性质相关。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Companies Act 2006 s.859A 等，公司设定的多数抵押（charge）须在向 Companies House 规定时间内登记，未登记可能导致抵押对后续第三方（如清算人、其他债权人）无效；公司内部亦须备置抵押登记簿。各类抵押的优先顺位取决于登记顺序、固定/浮动性质及法定删除事项。\n\n## 常见考法\n\n考查抵押登记的时限与后果，或多个抵押并存时的受偿顺序。\n\n## 易错点\n\n把未登记仅理解为\"行政瑕疵\"；未按规定登记的抵押可能无法对抗公司清算中的其他债权人。\n\n## 例子\n\nEngland & Wales 一家公司向银行设定浮动抵押但未按时登记，清算时该抵押可能无法对抗已登记的其他债权人。\n\n## 考试提醒\n\nEngland & Wales 考试记住登记时限（一般 21 天）与未登记的\"失权\"后果。",
+              "standardReference": "Companies Act 2006 s.859A; registration of charges",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Capital Maintenance",
+          "points": [
+            {
+              "code": "LW6.7",
+              "title": "The principle of capital maintenance and dividends",
+              "summary": "资本维持原则：公司不得任意削减资本；分红须源于可分配利润。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 的资本维持原则（capital maintenance）保护债权人：公司不得将其股本返还给股东或任意削减，而应以真实资本保障债务。股息分红须源于\"可分配利润\"（distributable profits，Companies Act 2006 s.829-830），即累计已实现利润并减去已实现亏损等；私人公司还须通过\"可分配利润测试\"。\n\n## 常见考法\n\n考查资本维持原则的目的，或某笔分红是否符合可分配利润条件。\n\n## 易错点\n\n把未实现增值当作可分配利润；或误以为公司可以股本储备随意分红。\n\n## 例子\n\nEngland & Wales 公司仅有未实现的重估增值而无已实现利润，若据以分红则违反可分配利润规则。\n\n## 考试提醒\n\nEngland & Wales 考试用\"可分配利润=已实现利润-已实现亏损（及特定调整）\"框架判断分红合法性。",
+              "standardReference": "Companies Act 2006 s.829-830 (distributable profits)",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW6.8",
+              "title": "Reduction of capital and purchase of own shares",
+              "summary": "公司经法院/特别决议程序可减资；符合条件时可在特定情形购买自有股份。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 允许公司减少股本（reduction of capital），私人公司可通过特别决议并清偿能力声明（solvency statement），公众公司通常须经法院确认（Companies Act 2006 Part 17）。公司也可在特定条件（如公司回购、公司章程授权、以可分配利润或发行新股拨款，s.690-708）下购回自有股份，回购后股份须注销或作为库存股持有。\n\n## 常见考法\n\n考查减资的程序要件（特别决议/法院/清偿能力声明），或公司回购自有股份的合法条件与款项来源。\n\n## 易错点\n\n忽视回购款的合法来源（可分配利润或发行新股收益）；或以为私人公司减资无需任何程序。\n\n## 例子\n\nEngland & Wales 一家私人公司若满足清偿能力声明并获特别决议，可合法减少股本，从而向股东返还部分资本。\n\n## 考试提醒\n\nEngland & Wales 考试把握\"减资=特别决议+清偿声明（私人）/法院确认（公众）\"与回购资金来源规定。",
+              "standardReference": "Companies Act 2006 Part 17, ss.690-708",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW6.9",
+              "title": "Financial assistance for the acquisition of shares",
+              "summary": "公司为他人购买自身股份提供财务帮助受严格限制（Companies Act 2006）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Companies Act 2006 s.677-683，公司不得向他人收购本公司股份提供财务资助（financial assistance），除非属于法定豁免，或私人公司通过特定的\"一般性许可/特别决议+清偿能力声明\"程序并满足严格条件。违反可能导致相关交易无效并对责任人产生处罚。\n\n## 常见考法\n\n考查财务资助的定义、豁免情形、以及私人公司满足条件后的例外。\n\n## 易错点\n\n把私人公司财务资助一概认为当然允许；须符合豁免或严格程序（特别决议与清偿声明）。\n\n## 例子\n\nEngland & Wales 一家私人公司拟贷款给买方以助其认购本公司股份，须先满足财务帮助豁免或特别决议等法定程序。\n\n## 考试提醒\n\nEngland & Wales 考试牢记\"原则禁止+特定豁免+私人公司程序例外\"，不要笼统说合法。",
+              "standardReference": "Companies Act 2006 ss.677-683",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Management: Directors",
+      "description": "本章介绍董事的任命与解任、公司董事的法定义务（s.171-177），及违反义务的后果。",
+      "topics": [
+        {
+          "title": "Appointment and Removal of Directors",
+          "points": [
+            {
+              "code": "LW7.1",
+              "title": "Appointment and qualifications of directors",
+              "summary": "董事由成员（或章程授权）任命，须符合资格并承担管理职责。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，董事负责公司管理与决策，由成员通过普通决议或依章程细则指派。Companies Act 2006 规定：董事须年满一定年龄，不得是破产未解除者、与公司相关的失格人员（除非在特定程序中）；公众公司董事会通常须有若干并非单纯橡皮图章的成分，并履行法定职责。\n\n## 常见考法\n\n考查董事任命的程序与资格限制，或某人在何种情形下不具备董事资格。\n\n## 易错点\n\n忽视未解除破产等失格情形下担任董事违法；或混淆董事长与董事的一般任职要求。\n\n## 例子\n\nEngland & Wales 一名已被公司董事失格令禁止的人不得在未获法院许可时担任董事。\n\n## 考试提醒\n\nEngland & Wales 考试区分\"任命程序\"与\"资格限制\"，并留意失格制度（CDDA 1986）。",
+              "standardReference": "Companies Act 2006; Company Directors Disqualification Act 1986",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW7.2",
+              "title": "Executive and non-executive directors",
+              "summary": "执行董事参与日常经营，非执行董事独立监督、提供外部视角与治理平衡。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司董事会通常由执行董事（executive directors，兼公司高管参与日常经营）与非执行董事（non-executive directors，NEDs）组成。非执行董事不参与日常管理，主要承担监督、战略与风险把关，并为董事会提供独立判断，在治理上平衡执行董事权力。\n\n## 常见考法\n\n考查执行与非执行董事在职责、独立性、与监督角色上的区别。\n\n## 易错点\n\n把非执行董事视为无责\"顾问\"；其同样承担董事的受托与谨慎义务，且负有监督职责。\n\n## 例子\n\nEngland & Wales 一家上市公司董事会含独立非执行董事，负责监督审计与高管薪酬，为董事会提供独立意见。\n\n## 考试提醒\n\nEngland & Wales 考试将治理规则（如下文 UK Corporate Governance Code）与非执行董事的独立角色结合记忆。",
+              "standardReference": "Company Directors Disqualification Act 1986; UK Corporate Governance Code",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW7.3",
+              "title": "Removal and disqualification of directors",
+              "summary": "成员可依普通决议罢免董事；存在适格情形可被公司董事失格令禁止。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Companies Act 2006 s.168，无论章程细则如何，公司成员可依普通决议（ordinary resolution，一般 50% 多数）罢免董事，但须给予特别通知（special notice）及陈述机会。此外，法院依《1986 年公司董事失格法》（CDDA 1986）可对不适格者作出董事失格令（disqualification order）。\n\n## 常见考法\n\n考查罢免董事的程序（普通决议+特别通知），或失格令的触发情形与期限。\n\n## 易错点\n\n误以为罢免董事须特别决议；实为普通决议，但须特别通知并保障被罢免者陈述权。\n\n## 例子\n\nEngland & Wales 公司成员依特别通知与普通决议罢免一名董事，即使其任期未满或章程另有规定，除非属特定保护情形。\n\n## 考试提醒\n\nEngland & Wales 考试记牢 s.168 的\"普通决议+特别通知\"双要件，并区分 CDDA 失格制度与罢免。",
+              "standardReference": "Companies Act 2006 s.168; CDDA 1986",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Directors' Duties",
+          "points": [
+            {
+              "code": "LW7.4",
+              "title": "Duties to act within powers and promote success (s.171-172)",
+              "summary": "董事须在授权范围内行事、为公司利益；并促进公司整体成功（s.172）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Companies Act 2006 s.171：董事须依公司章程与授权范围行事；s.172：董事须以善意促进公司整体利益与成员整体成功，并在决策时考虑长期后果、雇员利益、供应商/客户关系、社区与环境影响等因素；s.172 还要求公开董事对经营风险的权衡。\n\n## 常见考法\n\n考查 s.171 越权行为与 s.172\"促进公司成功\"义务的考量因素，以及董事权衡的司法审查尺度。\n\n## 易错点\n\n把 s.172 简化为\"只对股东负责\"；该义务要求平衡多元主体利益并兼顾长期。法官一般不就董事商业判断的智慧展开再审。\n\n## 例子\n\nEngland & Wales 董事会决定关闭老旧工厂以提升长期竞争力，即使短期损失，只要基于整体利益与长期考虑，通常不违反 s.172。\n\n## 考试提醒\n\nEngland & Wales 考试重点在 s.172 的多元考量与\"善意与整体利益\"而非经营智慧。",
+              "standardReference": "Companies Act 2006 ss.171, 172",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW7.5",
+              "title": "Duties of independent judgment, care and skill (s.173-174)",
+              "summary": "董事须独立判断；并尽合理技能与谨慎义务（s.174 主客观标准）。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales s.173：董事须行使独立判断（independent judgment），不得无条件子从他人或外部指令；s.174：董事须尽到合理技能与谨慎（care and skill）义务，该义务采主客观结合标准——既要求具备与其所任职务相称的客观标准，也要求如实运用其个人实际具备的技能与经验。\n\n## 常见考法\n\n考查独立判断义务的边界，或 s.174 的注意义务标准如何适用于行为与技能不符合的情形。\n\n## 易错点\n\n把 s.174 当作纯主观标准；它兼具客观（合理董事）与主观（自身技能）要素。\n\n## 例子\n\nEngland & Wales 一名有金融背景的董事，若因疏忽未能发现明显财务风险，可能因未达到其应具备的技能标准而违反 s.174。\n\n## 考试提醒\n\nEngland & Wales 考试结合\"主观+客观\"双标准分析董事过失，并对照判断是否合理。",
+              "standardReference": "Companies Act 2006 ss.173, 174",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW7.6",
+              "title": "Duties to avoid conflicts and declare interests (s.175-177)",
+              "summary": "董事须避免利益冲突、获取第三方利益；利益相关须向董事会声明。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales s.175：董事须避免其自身利益与公司利益相冲突的情形；s.176：董事不得就从第三方取得利益，除非得到授权；s.177：董事在与公司交易中直接或间接具有重要利益时，须向董事会申报其利益性质与程度。这些义务使董事行为保持在透明、公平与公司利益最大化之内。\n\n## 常见考法\n\n考查利益冲突义务（如私分公司机会）、第三方利益、以及须申报交易利益的场合。\n\n## 易错点\n\n把 s.177 申报义务与 s.175 的避免冲突混淆：前者是\"披露\"，后者是\"避免\"冲突状况。\n\n## 例子\n\nEngland & Wales 董事私自将本属公司的商业机会据为己有，即便公司当时未能开发，也可能违反 s.175。\n\n## 考试提醒\n\nEngland & Wales 考试分层记忆：避免冲突（s.175）、第三方利益（s.176）、申报利益（s.177）。",
+              "standardReference": "Companies Act 2006 ss.175-177",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Breach of Duty and Remedies",
+          "points": [
+            {
+              "code": "LW7.7",
+              "title": "Consequences and remedies for breach of duty",
+              "summary": "违反董事义务可致公司请求赔偿、追回收益、撤销交易或解除董事。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 董事违反法定义务（s.171-177）的后果可由公司追究：损害赔偿或不返还收益（董事因违约所获利益须缴回）、撤销相关交易、临时或永久禁令、以及罢免董事。公司可作为公司在行为上受损（但通常不可为第三者利益）而提起诉讼，或由成员提起衍生诉讼（derivative action）。\n\n## 常见考法\n\n考查违反义务可用的救济（赔偿、缴回、撤销、解除），以及谁可提起（公司/成员衍生诉讼）。\n\n## 易错点\n\n混淆\"公司为自身损失\"与\"代表股东/第三人损失\"的诉讼主体差异；衍生诉讼有门槛。\n\n## 例子\n\nEngland & Wales 董事因违反 s.172 造成公司损失，公司可要求其赔偿损失并缴回其所获利益。\n\n## 考试提醒\n\nEngland & Wales 考试区分\"公司救济\"与\"衍生诉讼\"并列出可用救济清单。",
+              "standardReference": "Companies Act 2006 s.178 (breach of duty remedies)",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW7.8",
+              "title": "Relief from liability and indemnity",
+              "summary": "法院可依法定条件免除董事责任；公司不得无条件赔偿或购买责任保险的限制。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Companies Act 2006 s.1157，法院可在董事出于善意且合理行事、且按其情形应获公平豁免时，全部或部分免除其责任；s.232 等限制公司对董事的赔偿（indemnity），一般仅允许特定范围（如依法院命令、或对第三方索赔的诉讼费）的赔偿。公司可为董事投保责任险（D&O insurance）。\n\n## 常见考法\n\n考查 s.1157 的公正豁免条件，或公司可为董事提供的赔偿范围与限制。\n\n## 易错点\n\n把公司对董事的免责视为无限制；s.232 对赔偿范围设限，禁止对罚款等无条件赔偿。\n\n## 例子\n\nEngland & Wales 董事善意但轻微过失，法院可依 s.1157 部分免除其赔偿责任。\n\n## 考试提醒\n\nEngland & Wales 考试记住 s.1157（司法豁免）与 s.232（赔偿限制）不可混为一谈。",
+              "standardReference": "Companies Act 2006 ss.1157, 232",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "LW7.9",
+              "title": "Wrongful and fraudulent trading",
+              "summary": "公司清算中董事在明知公司无力偿债时不得不当扩张交易，否则个人负责。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Insolvency Act 1986 s.213：欺诈性交易（fraudulent trading，欺诈债权人之目的）对公司债权人负责的所得承担责任；s.214：若董事在公司清算开始前，合理地应当预见公司将无法避免破产，却未采取措施使债权人亏损最小化，则须对债权人损失承担个人责任（wrongful trading）。s.214 采主客观结合的合理期待标准。\n\n## 常见考法\n\n考查 wrongful trading 与 fraudulent trading 的构成要件与区别，以及董事的合理预期标准。\n\n## 易错点\n\n把 s.214 的\"合理从业者应知/应以为\"标准简单化；也易把二者混同——fraud 需欺诈故意，wrongful 重在疏忽致损。\n\n## 例子\n\nEngland & Wales 一名董事在公司已明显无力偿债时仍继续大规模经营扩充亏损，可能因 wrongful trading 而对债权人承担责任。\n\n## 考试提醒\n\nEngland & Wales 考试明确两者定义，重点掌握 s.214 的\"合理预见+最小化损失义务\"。",
+              "standardReference": "Insolvency Act 1986 ss.213, 214",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Corporate Governance and Ethics",
+      "description": "本章讨论公司治理的目标与原则、UK Corporate Governance Code，以及董事会的构成与伦理责任。",
+      "topics": [
+        {
+          "title": "Corporate Governance Framework",
+          "points": [
+            {
+              "code": "LW8.1",
+              "title": "Purpose and principles of corporate governance",
+              "summary": "公司治理旨在平衡管理层、董事会、股东与利益相关者之间的权力与责任。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司治理（corporate governance）是指导和控制公司的一套规则、惯例与制度，旨在确保公司为股东和更广泛利益相关者的利益运作，强化问责、透明与公平。核心原则包括：董事会对股东的问责、透明披露、风险与内控、以及对长期可持续价值的追求。\n\n## 常见考法\n\n考查公司治理的根本目的与核心原则，或治理失败（如公司丑闻）暴露的问题。\n\n## 易错点\n\n把治理仅等同于\"合规/报告\"；其本质是权力制衡与委托-代理问题（agency problem）的回应。\n\n## 例子\n\nEngland & Wales 上市公司因董事与股东利益冲突而导致重大财务丑闻，反映出治理与问责机制的缺失。\n\n## 考试提醒\n\nEngland & Wales 考试以\"问责、透明、公平、责任\"为主线理解公司治理框架。",
+              "standardReference": "Corporate governance principles; UK Corporate Governance Code",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW8.2",
+              "title": "The UK Corporate Governance Code",
+              "summary": "英国《公司治理准则》以\"遵循或解释\"方式为上市公司提供治理标准。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 的《UK Corporate Governance Code》（适用于在主板上市的公司）采用\"遵循或解释\"（comply or explain）原则：公司要么遵循准则条款，要么在年报中说明为何未遵循。准则围绕董事会领导力与目的、分工与责任、组成与独立、审计与风险、薪酬等五大原则制定，并经历多次修订。\n\n## 常见考法\n\n考查\"遵循或解释\"机制的含义，或综合治理准则中的关键原则（如董事长与 CEO 分离、独立非执行董事）。\n\n## 易错点\n\n把准则当作强制性法律要求；它属\"软法\"，公司可通过充分解释来偏离某些条款。\n\n## 例子\n\nEngland & Wales 一家公司若不遵守准则中\"董事长与 CEO 分离\"条款，须在报告中对偏离作出解释。\n\n## 考试提醒\n\nEngland & Wales 考试明确准则的适用对象与 comply-or-explain 性质，而非刑事强制。",
+              "standardReference": "UK Corporate Governance Code (FRC)",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW8.3",
+              "title": "Stakeholders and the agency problem",
+              "summary": "所有者（股东）与管理层之间的委托代理冲突通过治理机制缓解。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司中，股东（委托人）将控制权交给董事与管理层（代理人），形成委托代理（agency）关系；代理人可能追求私利而非股东或公司利益，产生代理成本。公司治理机制（董事会、薪酬激励、透明披露、股东监督、独立董事）旨在缓解这一冲突，并兼顾雇员、供应商、客户、社区等利益相关者。\n\n## 常见考法\n\n考查代理问题的表现与治理机制如何缓解，或利益相关者在决策中的权重。\n\n## 易错点\n\n把治理单纯理解为\"股东利益最大化\"；现代治理兼顾多元利益相关者与长期价值。\n\n## 例子\n\nEngland & Wales 高管薪酬过高可能与股东利益冲突，合理的薪酬委员会与股东表决有助于缓释代理问题。\n\n## 考试提醒\n\nEngland & Wales 考试用代理理论与多元利益相关者视角理解公司治理动机。",
+              "standardReference": "Agency theory; s.172 Companies Act 2006",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Board Structure and Committees",
+          "points": [
+            {
+              "code": "LW8.4",
+              "title": "Board composition and independence",
+              "summary": "董事会须有足够规模的独立非执行董事以保障监督与制衡。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales《UK Corporate Governance Code》要求董事会半数以上（不含董事长）由独立非执行董事组成，非执行董事应具备独立性、技能与经验，以对执行董事形成有效监督与挑战。董事会的规模、多样性与独立性是治理质量的关键。\n\n## 常见考法\n\n考查独立非执行董事的必要性与独立性判据，或董事会构成失衡的风险。\n\n## 易错点\n\n忽视独立性判断（如持股、亲属、长期任职等削弱独立的情形）；把\"独立\"等同于\"非执行\"。\n\n## 例子\n\nEngland & Wales 一家上市公司若董事会几乎全为执行董事或关系人，将削弱对管理层的制衡与监督。\n\n## 考试提醒\n\nEngland & Wales 考试结合独立性判据与准则要求（多数独立、角色分离）综合理解。",
+              "standardReference": "UK Corporate Governance Code",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW8.5",
+              "title": "Audit and remuneration committees",
+              "summary": "审计委员会监督财务报告与内控；薪酬委员会设定并监督高管薪酬。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales《UK Corporate Governance Code》要求上市公司设立审计委员会（audit committee）与薪酬委员会（remuneration committee）。审计委员会由独立非执行董事组成，负责监督财务报告、内部控制、外部审计师独立性与审计流程；薪酬委员会负责制定并监督董事与高管薪酬，确保与绩效挂钩且对股东负责。\n\n## 常见考法\n\n考查各委员会（审计、薪酬、提名）的组成与职责，以及治理责任的分工。\n\n## 易错点\n\n把各委员会职责混淆；审计聚焦财务真实与内控，薪酬聚焦激励与公平，提名聚焦董事选任。\n\n## 例子\n\nEngland & Wales 上市公司设立审计委员会，由独立非执行董事审查审计师独立性与财务报告真实性。\n\n## 考试提醒\n\nEngland & Wales 考试把握委员会的独立性与专门职责，注意其向董事会负责而非替代董事会。",
+              "standardReference": "UK Corporate Governance Code",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW8.6",
+              "title": "Chairman, CEO and nomination committee",
+              "summary": "董事长与CEO角色分离；提名委员会负责董事继任与多样性。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales《UK Corporate Governance Code》原则：董事长（chairman）与首席执行官（CEO）应分离，避免权力过度集中；董事长负责主持董事会、确保董事会有效；CEO 负责公司日常经营。董事会应设立提名委员会（nomination committee）负责董事会的能力、规模与多样性、继任计划与任命流程。\n\n## 常见考法\n\n考查董事长与 CEO 分离的治理意义，或提名委员会的职责与独立非执行董事的任命。\n\n## 易错点\n\n把董事长当作日常运营负责人；其主要是董事会的\"管理者\"与制衡者，非经营决策首脑。\n\n## 例子\n\nEngland & Wales 上市公司若同一人兼任董事长与 CEO，会削弱董事会独立监督，准则通常要求分离。\n\n## 考试提醒\n\nEngland & Wales 考试结合准则的\"分离与独立\"原则理解角色分工。",
+              "standardReference": "UK Corporate Governance Code",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Ethics and Accountability",
+          "points": [
+            {
+              "code": "LW8.7",
+              "title": "Directors' accountability and transparency",
+              "summary": "董事对股东负责，通过年报、披露与股东参与保持透明。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 董事对公司与股东负有受托责任，须通过年度报告、财务披露、董事报告与股东决议等机制保持透明度与问责（accountability）。透明使股东能有效监督、参与和追责，也是资本市场信心的基础。s.172 亦要求董事在决策中考虑利益相关者影响。\n\n## 常见考法\n\n考查董事问责与透明度机制（年报、披露、股东大会、股东表决），以及治理体系的层层制衡。\n\n## 易错点\n\n把问责仅理解为\"合规报表\"；高质量披露同时服务于治理与资本市场效率。\n\n## 例子\n\nEngland & Wales 上市公司的年报提供财务与非财务信息，使股东能评估董事会表现并行使表决权。\n\n## 考试提醒\n\nEngland & Wales 考试将透明度与董事问责、股东权利相联系综合记忆。",
+              "standardReference": "s.172 Companies Act 2006; corporate reporting",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW8.8",
+              "title": "Corporate social responsibility and ethics",
+              "summary": "公司须在盈利之外承担社会责任，遵循商业伦理与利益相关者利益平衡。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 企业中，企业社会责任（Corporate Social Responsibility，CSR）强调公司在创造利润的同时关注环境、社区、员工与伦理，将社会与环境考量纳入决策。s.172 已体现这一理念，要求董事考虑利益相关者与长期影响；CSR 常通过可持续报告、供应链责任与伦理行为表现。\n\n## 常见考法\n\n考查 CSR 的内涵、s.172 与 CSR 的关联，或公司将社会责任纳入治理的实践。\n\n## 易错点\n\n把 CSR 与法律合规完全等同；CSR 是超出法定义务的自愿与战略伦理投入。\n\n## 例子\n\nEngland & Wales 一家公司投入减少碳排放并在年报披露其可持续举措，体现 CSR 与伦理责任。\n\n## 考试提醒\n\nEngland & Wales 考试将公司伦理、利益相关者与 s.172 的可持续导向联系起来。",
+              "standardReference": "UK Corporate Governance Code; CSR",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW8.9",
+              "title": "Whistleblowing and corporate reporting",
+              "summary": "举报人制度保护揭露不当行为者；公司报告与风险披露提升治理透明度。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依《1998 年公益披露法》（Public Interest Disclosure Act 1998，PIDA）保护\"举报人\"（whistleblower），防止其因揭露公司不法或不当行为而受到报复；公司应设立内部举报渠道并重视风险报告。此外，透明报告（如年报、风险管理与内部控制说明）是治理与问责的重要支柱。\n\n## 常见考法\n\n考查 PIDA 对举报人的保护、举报的公共利益性质，或公司报告在治理中的作用。\n\n## 易错点\n\n把举报视为\"违法告密\"；PIDA 旨在保护出于公共利益披露不当行为者的正当行为。\n\n## 例子\n\nEngland & Wales 一名员工揭发公司财务造假，若属受保护披露，公司不得对其解雇或施以报复。\n\n## 考试提醒\n\nEngland & Wales 考试关注举报的受保护条件与公司应建立的透明报告机制。",
+              "standardReference": "Public Interest Disclosure Act 1998",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Insolvency and Liquidation",
+      "description": "本章介绍公司破产的各类程序（管理、自愿安排、清算）、资产分配顺序与董事责任。",
+      "topics": [
+        {
+          "title": "Introduction to Insolvency and Administration",
+          "points": [
+            {
+              "code": "LW9.1",
+              "title": "Insolvency and the range of procedures",
+              "summary": "公司不能偿还到期债务即可能破产；适用程序包括管理、自愿安排与清算。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Insolvency Act 1986，公司无力清偿到期债务（cash flow 或 balance sheet 资不抵债）即可能陷入破产。公司可选用不同程序：管理（administration）、公司自愿安排（Company Voluntary Arrangement，CVA）、以及解散清算（liquidation/winding up）。选择取决于目的（拯救企业、实现债权人更优回报或有序清算）。\n\n## 常见考法\n\n考查不同破产程序的目标与适用场景，或判断公司是否已资不抵债。\n\n## 易错点\n\n把\"破产程序\"都等同于清算；管理、CVA 等旨在挽救或重组，与最终清算不同。\n\n## 例子\n\nEngland & Wales 一家陷入财务困难的公司可申请进入管理，以期重整并实现较清算更高的债权人回报。\n\n## 考试提醒\n\nEngland & Wales 考试按\"挽救/重组 vs 有序清算\"的目标区分各程序。",
+              "standardReference": "Insolvency Act 1986 (administration, CVA, liquidation)",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW9.2",
+              "title": "Administration and the moratorium",
+              "summary": "管理程序任命管理人并予暂停（moratorium）保护，旨在拯救公司或优化债权人回报。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 管理（administration）由法院或合资格人任命管理人（administrator），其核心目标是把公司作为继续经营实体加以拯救，或（退而求其次）实现比直接清算更有利的债权人回报。管理期间产生\"暂停\"（moratorium）：暂停债权人采取强制措施（如担保执行、诉讼、清算申请），为公司争取重组时间。\n\n## 常见考法\n\n考查管理的目的、管理人职责与暂停的效果，或申请管理的方式（法院/行政/受担保人）。\n\n## 易错点\n\n把管理费用、管理人的报告义务与后续退出（继续经营/出售/转清算）混淆；暂停效力是该程序关键。\n\n## 例子\n\nEngland & Wales 公司进入管理后，债权人在暂停期间不得擅自申请清算或强制执行担保而无法院/管理人同意。\n\n## 考试提醒\n\nEngland & Wales 考试抓住管理\"拯救或更优回报\"与暂停机制，注意其对未获担保债权人与担保人的影响。",
+              "standardReference": "Insolvency Act 1986 Schedule B1",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW9.3",
+              "title": "Company voluntary arrangements (CVAs)",
+              "summary": "公司与债权人就债务清偿达成自愿安排，避免直接清算。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 公司自愿安排（Company Voluntary Arrangement，CVA）是公司与其债权人（及成员）协商达成的债务重组协议，由持牌破产执业者（通常为监督人）监督。若有符合要求的多数债权人同意，方案对所有债权人（包括异见者）具有约束力，是避免清算的一种灵活方式。\n\n## 常见考法\n\n考查 CVA 的性质、通过所需多数、以及其对债权人的约束力与监督机制。\n\n## 易错点\n\n把 CVA 当作可随意变更；其成立须经法定多数且由监督人监督执行。\n\n## 例子\n\nEngland & Wales 一家公司提出分若干期偿还部分债务的 CVA，若获法定多数债权人批准，则对所有债权人具约束力。\n\n## 考试提醒\n\nEngland & Wales 考试重点在 CVA 的契约化重组、多数通过及对全体债权人的约束。",
+              "standardReference": "Insolvency Act 1986 Part I",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Liquidation",
+          "points": [
+            {
+              "code": "LW9.4",
+              "title": "Compulsory winding up",
+              "summary": "强制清算是法院基于法定事由（如不能偿债）命令公司解散。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 强制清算（compulsory winding up）由法院应债权人、公司或成员等的请求命令作出，最常见理由是公司不能清偿到期债务（Insolvency Act 1986 s.122(1)(f)）。法院可指定官方接管人（official receiver）或清算人控制公司财产并处理分配。\n\n## 常见考法\n\n考查强制清算的法定事由、申请主体与法院命令的效力。\n\n## 易错点\n\n把强制清算与自愿清算程序（成员/债权人自愿）混淆；强制需法院命令并启动官方接管。\n\n## 例子\n\nEngland & Wales 一家公司因无法支付到期债务，被债权人申请并由法院命令强制清算。\n\n## 考试提醒\n\nEngland & Wales 考试以\"法院命令+法定事由\"识别强制清算。",
+              "standardReference": "Insolvency Act 1986 s.122",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW9.5",
+              "title": "Voluntary winding up and the liquidator",
+              "summary": "自愿清算由成员或债权人作出，由清算人接管、变卖并分配公司资产。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 自愿清算（voluntary winding up）分为成员自愿清算（members' voluntary liquidation，需董事作出偿付能力声明）与债权人自愿清算（creditors' voluntary liquidation，公司无偿付能力时由债权人参与）。无论何种形式，均由清算人（liquidator）接管公司财产、变现资产、清偿债务并向有权者分配剩余。\n\n## 常见考法\n\n考查成员与债权人自愿清算的区分（有无偿付能力声明），以及清算人的职权。\n\n## 易错点\n\n忽略\"偿付能力声明\"是成员自愿清算的前提；无该声明即属债权人自愿清算。\n\n## 例子\n\nEngland & Wales 若董事无法作出公司能清偿全部债务的声明，自愿清算须按债权人自愿清算程序进行。\n\n## 考试提醒\n\nEngland & Wales 考试以\"能否清偿全部债务\"为分界判读两种自愿清算。",
+              "standardReference": "Insolvency Act 1986 ss.89-110",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW9.6",
+              "title": "Distribution of assets and priority of creditors",
+              "summary": "清算资产按法定顺序分配：固定抵押、清算费用、优先债权、浮动抵押、无担保债权、股东。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 清算时资产分配遵循法定优先顺序：通常先满足持有固定抵押的债权人（从特定资产收入中受偿），随后是清算费用、特定的优先债权（如某些雇员工资、法定缴费）、浮动抵押持有人（从浮动资产中）、无担保债权人，最后剩余才归股东。未能全额受偿的无担保债权人与股东类债权依次排在末位。\n\n## 常见考法\n\n考查清算分配顺序及各层级债权人的受偿先后，或某一类型债权的优先地位。\n\n## 易错点\n\n把优先债权人顺序记错；浮动抵押排在其后、无担保债权更后，股东的剩余权利最末。\n\n## 例子\n\nEngland & Wales 公司进入清算，未担保的供应商债仅在有担保与优先债权解决后才可能受偿。\n\n## 考试提醒\n\nEngland & Wales 考试记住\"固定抵押→清算费用→优先→浮动→无担保→股东\"链条。",
+              "standardReference": "Insolvency Act 1986 s.175; hierarchy of creditors",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Preferential Creditors and Director Liability",
+          "points": [
+            {
+              "code": "LW9.7",
+              "title": "Preferential and unsecured creditors",
+              "summary": "优先债权（如员工工资）在无担保债权之前受偿；普通无担保债权人按比例。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中优先债权人（preferential creditors）在无担保债权人之前受偿，例如雇员在特定期限内的工资（限额）、法定养老金及某些税费（就纳入范围的款项）。普通无担保债权人（unsecured creditors）只能就剩余资产按比例分配（pari passu），难以全额受偿。\n\n## 常见考法\n\n考查哪些属于优先债权，以及优先与无担保债权在清算中的受偿次序。\n\n## 易错点\n\n把增值税等某些税费一概当作优先；优先权范围（含特定限额与范围）须按法律界定。\n\n## 例子\n\nEngland & Wales 公司清算时，符合限额的雇员未付工薪作为优先债权，先于普通供应商债权受偿。\n\n## 考试提醒\n\nEngland & Wales 考试把握优先债权的构成与限额，并理解无担保债权的比例分配。",
+              "standardReference": "Insolvency Act 1986 s.175; preferential debts",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "LW9.8",
+              "title": "Wrongful trading and director disqualification",
+              "summary": "清算中董事不当扩大交易或行为失当，可招致个人责任与董事失格令。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Insolvency Act 1986 s.213/214，董事在清算前明知或应当预见公司无法避免破产，却未采取措施尽量减少债权人损失，可能对债权人损失承担个人责任（wrongful trading）；欺诈性交易（fraudulent trading）则须存在欺诈债权人的意图。此外，行为不端董事可依 CDDA 1986 被法院作出董事失格令，期限最长可达 15 年。\n\n## 常见考法\n\n考查 wrongful / fraudulent trading 的构成与区别，以及失格令的情形与期限。\n\n## 易错点\n\n把两者混为一谈（fraud 需欺诈意图，wrongful 重疏忽最小化义务），或忽视失格期限与行为类型对应。\n\n## 例子\n\nEngland & Wales 一名董事在明知公司必破产时仍扩张业务，被认定 wrongful trading 而对债权人损失承担个人责任。\n\n## 考试提醒\n\nEngland & Wales 考试用\"合理预见+最小化损失\"与\"欺诈意图\"区分 wrongful 与 fraudulent。",
+              "standardReference": "Insolvency Act 1986 ss.213, 214; CDDA 1986",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW9.9",
+              "title": "The role of the Insolvency Service and personal insolvency",
+              "summary": "破产管理局调查失当行为并推动失格；个人破产制度与公司破产相区分。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 破产管理局（Insolvency Service，隶属于政府部门）负责调查董事与公司的失当行为，并向法院申请董事失格令、协助清算进程；其职能还包括监督破产执业者。个人破产（individual insolvency）则另有程序：个人自愿安排（IVA）、破产令（bankruptcy order），与公司破产在主体与后果上不同。\n\n## 常见考法\n\n考查破产管理局的职能（调查、失格程序），以及个人破产与公司破产的区别。\n\n## 易错点\n\n把个人破产与公司破产混同；两者适用不同法律与程序，且个人破产更多涉及个人债务豁免与限制。\n\n## 例子\n\nEngland & Wales 破产管理局发现某董事在公司破产前有失当行为，可申请法院对其作出失格令。\n\n## 考试提醒\n\nEngland & Wales 考试区分公司破产（清算/管理/CVA）与个人破产（银行破产令/IVA），并理解监管机构角色。",
+              "standardReference": "Insolvency Act 1986; Insolvency Service / CDDA 1986",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Employment Law",
+      "description": "本章讨论雇佣合同的订立与条款、不公平解雇与裁员，以及平等法下的歧视问题。",
+      "topics": [
+        {
+          "title": "The Contract of Employment",
+          "points": [
+            {
+              "code": "LW10.1",
+              "title": "Formation and terms of the employment contract",
+              "summary": "雇佣合同可由明示或默示成立；含明示、默示及并入条款。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 雇佣合同（contract of employment）是雇主与雇员之间的协议，可书面、口头或依行为成立，并常包含由合同、公司法及成文法（如 Employment Rights Act 1996）默示的条款。默示条款包括雇主提供安全体系、支付报酬、雇员忠实与服从合理指令等相互义务。\n\n## 常见考法\n\n考查雇佣合同如何成立，或默示条款（如劳资互信义务、合理支付报酬）的来源与内容。\n\n## 易错点\n\n把\"雇佣合同\"与\"雇佣岗位事实描述\"混同；成文法与判例均会补充默示条款与法定权利。\n\n## 例子\n\nEngland & Wales 一名雇员与雇主未签书面协议但仍被雇佣，依行为亦形成雇佣合同，并受法定最低条款保护。\n\n## 考试提醒\n\nEngland & Wales 考试记住除明示外还有法定与默示条款，且多不可排除。",
+              "standardReference": "Employment Rights Act 1996 s.1; contract of employment",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW10.2",
+              "title": "Written particulars and express/implied terms",
+              "summary": "雇主须出具书面雇佣条件（written particulars）；条款分明示、默示与法定。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Employment Rights Act 1996 s.1，雇主须在雇员入职起一定期限内向其提供主要条款的书面说明（written statement of particulars），包括薪金、工时、假期、通知期、职务等。雇佣条款分为明示条款、默示条款（含法定与判例默示）及由集体协议并入的部分。\n\n## 常见考法\n\n考查书面雇佣条件的内容要求与期限，或明示/默示/法定条款的划分。\n\n## 易错点\n\n把书面说明当成\"合同本身\"；它仅是证明条款的证据文件，合同仍可由其他方式成立。\n\n## 例子\n\nEngland & Wales 雇主在新雇员到职后两个月内提供包含主要薪酬与假期条款的书面说明。\n\n## 考试提醒\n\nEngland & Wales 考试关注 s.1 的书面说明内容与期限，并与明示/默示条款相区分。",
+              "standardReference": "Employment Rights Act 1996 ss.1-4",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW10.3",
+              "title": "Wrongful dismissal and notice",
+              "summary": "错误解雇是雇主未按合同通知期解雇；属合同求偿。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，错误解雇（wrongful dismissal）指雇主以违反合同方式解雇雇员，如未给予合同或法定要求的最低通知期（notice period，依 Employment Rights Act 1996 有最低通知要求）。其救济以合同损害赔偿为基础（赔偿通知期损失），与不公平解雇（statutory claim）在依据与救济上不同。\n\n## 常见考法\n\n考查错误解雇与不公平解雇的区别，或雇主未给足通知期时的后果。\n\n## 易错点\n\n把错误解雇（合同之诉）与不公平解雇（成文法之诉）混淆；前者不要求连续服务期，后者通常须服务期门槛。\n\n## 例子\n\nEngland & Wales 雇主未按合同规定工资期通知即解雇雇员，雇员可主张错误解雇赔偿该通知期损失。\n\n## 考试提醒\n\nEngland & Wales 考试区分\"违约解雇\"与\"不公平解雇\"：前者重在通知期/合同，后者重在合理性。",
+              "standardReference": "Employment Rights Act 1996; wrongful dismissal",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Unfair Dismissal and Redundancy",
+          "points": [
+            {
+              "code": "LW10.4",
+              "title": "Qualifying period and grounds for unfair dismissal",
+              "summary": "不公平解雇须满足连续服务资格期，并有法定自动不公平情形。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Employment Rights Act 1996，雇员主张不公平解雇（unfair dismissal）一般须满足连续服务至少两年（qualifying period；自动不公平情形无此要求）等条件。被解雇的雇员若认为解雇不公平，承担一定举证责任；雇主须证明解雇原因属于法定合理原因，且处理合理。\n\n## 常见考法\n\n考查不公平解雇的资格期（连续服务两年）、自动不公平情形（如解雇因怀孕、工会成员、揭露举报等）。\n\n## 易错点\n\n忽略\"连续服务两年\"门槛及自动不公平情形无需该门槛；把错误解雇与不公平解雇混同。\n\n## 例子\n\nEngland & Wales 女雇员因怀孕被解雇属于自动不公平解雇，不须满足两年连续服务期即可主张。\n\n## 考试提醒\n\nEngland & Wales 考试明确资格期与自动不公平情形，并区分解雇（dismissal）还是裁员（redundancy）。",
+              "standardReference": "Employment Rights Act 1996 Part X",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW10.5",
+              "title": "Fair reasons and reasonableness",
+              "summary": "雇主须证明解雇属法定合理原因，且处置合乎情理。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 不公平解雇分析分两步：雇主须证明解雇原因属于法定合理原因——如能力/资格、行为、冗余、违反法定义务或其他实质原因；同时须证明雇主按\"合理\"（reasonableness，Burchell 测试与\"合理雇主\"标准）处理，包括充分调查、给予陈述机会、确信解雇合理。\n\n## 常见考法\n\n考查五大法定正当解雇原因，或雇主处理程序是否符合\"合理雇主\"标准（含调查、听证、比例）。\n\n## 易错点\n\n只关注原因而忽略\"处理是否合理\"；即使原因成立，程序不当仍可能构成不公平解雇。\n\n## 例子\n\nEngland & Wales 雇主以行为不端解雇雇员，若未调查或不听其申辩，即使指控属实，也可能被认作不公平。\n\n## 考试提醒\n\nEngland & Wales 考试以\"原因+合理性\"双要件分析，重点在程序公正与比例。",
+              "standardReference": "Employment Rights Act 1996 s.98; Burchell test",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW10.6",
+              "title": "Redundancy and remedies for unfair dismissal",
+              "summary": "裁员是出于岗位消失的解雇；不公平解雇可获复职、重新雇用或补偿。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，冗余/裁员（redundancy）指因企业停业、营业地点变动或岗位需求减少等经济原因导致的解雇。雇员通常有裁员补偿资格（连续服务两年以上）。不公平解雇的救济（remedies）包括复职（reinstatement）、重新雇用（re-engagement）或赔偿金（compensatory award，有法定上限）等。\n\n## 常见考法\n\n考查裁员的法定定义与补偿资格，或不公平解雇救济的种类与性质。\n\n## 易错点\n\n把裁员与不公平解雇混同；裁员本身可能合理，但若未合理处理或未能证明岗位消失，仍可能构成不公平。\n\n## 例子\n\nEngland & Wales 因市场萎缩使公司某一岗位不复存在，雇员被裁；若处理程序公允且证明岗位消失，通常属合法裁员。\n\n## 考试提醒\n\nEngland & Wales 考试区分裁员定义、补偿与不公平解雇救济，并掌握救济的种类。",
+              "standardReference": "Employment Rights Act 1996 Part XI; remedies",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Discrimination and Equality",
+          "points": [
+            {
+              "code": "LW10.7",
+              "title": "The Equality Act 2010 and protected characteristics",
+              "summary": "《2010 年平等法》界定受保护特征并禁止相关歧视。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依《2010 年平等法》（Equality Act 2010），禁止基于受保护特征（protected characteristics）的歧视，包括年龄、残疾、性别再分配、婚姻与民事伴侣关系、怀孕与生育、种族、宗教或信仰、性别、性取向等。雇主要在雇佣的各个环节（招聘、晋升、解雇、报酬）平等对待。\n\n## 常见考法\n\n考查受保护特征的种类，以及某项雇佣决定是否构成被禁止的歧视。\n\n## 易错点\n\n遗漏部分受保护特征或混淆\"直接/间接/骚扰/受害\"的不同歧视类型。\n\n## 例子\n\nEngland & Wales 雇主因雇员的宗教信仰而在晋升上不利对待，构成基于受保护特征的直接歧视。\n\n## 考试提醒\n\nEngland & Wales 考试先确认受保护特征，再判读具体行为类型（直接、间接、骚扰、受害）。",
+              "standardReference": "Equality Act 2010 Part 2",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW10.8",
+              "title": "Direct and indirect discrimination",
+              "summary": "直接歧视是以受保护特征为不利对待；间接歧视是中立规则对特定群体不利影响。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 中，直接歧视（direct discrimination）指对某人因其受保护特征作出不利对待；间接歧视（indirect discrimination）指一项表面上中立的条款或惯例实际对某一受保护群体造成不成比例的不利，且难以客观正当化。两者依 Equality Act 2010 均被禁止，并可能有不同抗辩（如真正的职业要求）。\n\n## 常见考法\n\n考查直接与间接歧视的认定要素，以及客观正当化辩护的适用。\n\n## 易错点\n\n把中性但具不利影响的情形误判为直接歧视；间接歧视重点在\"比例影响+缺乏正当化\"。\n\n## 例子\n\nEngland & Wales 雇主规定全职到岗，实际使需要照顾孩子的女性员工受更大影响，可能构成间接歧视，除非能客观正当化。\n\n## 考试提醒\n\nEngland & Wales 考试用\"针对性不利=直接；中立规则+比例不利=间接\"框架区分。",
+              "standardReference": "Equality Act 2010 s.13, 19",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "LW10.9",
+              "title": "Harassment, victimisation and remedies",
+              "summary": "骚扰与受害是独立歧视形式；歧视受害人可获赔偿等救济与时效要求。",
+              "contentMd": "# 核心概念\n\n## 核心概念\n\nEngland & Wales 依 Equality Act 2010：骚扰（harassment）指与受保护特征相关的、侵犯尊严或营造威吓/敌意环境的行为；受害（victimisation）指因他人提出或支持歧视申诉（如作证）而受不利对待。歧视救济包括就业裁判所裁决的赔偿金（含精神损害补偿）、复职/重新雇用建议等，并有时效要求（通常三个月内提出）。\n\n## 常见考法\n\n考查骚扰与受害的构成要件，或歧视案件的救济与时效期限。\n\n## 易错点\n\n把骚扰与受害混同：骚扰针对与特征有关的行为；受害针对\"因申诉/支持申诉而报复\"。\n\n## 例子\n\nEngland & Wales 雇员因举报同事作证歧视而被降职，构成受害；若在工作场所被唱与特征相关的羞辱歌曲，构成骚扰。\n\n## 考试提醒\n\nEngland & Wales 考试区分骚扰与受害，并记住投诉时效（多三个月）与救济范围。",
+              "standardReference": "Equality Act 2010 ss.26-27; remedies & time limits",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

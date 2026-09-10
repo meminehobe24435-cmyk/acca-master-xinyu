@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "node scripts/prepare-postgres.mjs && prisma generate --schema prisma/schema.postgresql.prisma && next build",
+  "installCommand": "npm install",
+  "regions": ["hkg1"],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+    }
+  ]
+}

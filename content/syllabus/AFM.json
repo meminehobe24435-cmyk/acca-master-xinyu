@@ -1,0 +1,672 @@
+{
+  "code": "AFM",
+  "name": "Advanced Financial Management",
+  "nameCn": "高级财务管理",
+  "level": "STRATEGIC_PROFESSIONAL",
+  "category": "OPTIONS",
+  "order": 12,
+  "accent": "#14b8a6",
+  "description": "面向高级财务的并购估值、投资评估、跨国投融资、资金与利率/汇率风险管理，强调复杂计算与战略判断。",
+  "examDurationMin": 195,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Case Question", "scope": "案例题", "count": 2, "marksPerQuestion": 25, "sectionMarks": 50 },
+      { "id": "B", "name": "Section B - Constructed Response (2 of 3)", "scope": "主观题", "count": 2, "marksPerQuestion": 25, "sectionMarks": 50 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Role and Responsibility of the Senior Financial Adviser",
+      "description": "理解高级财务顾问的职责、目标与利益相关者责任，以及其面临的伦理与战略问题。",
+      "topics": [
+        {
+          "title": "The financial management function and objectives",
+          "points": [
+            {
+              "code": "AFM.1.1",
+              "title": "Role of the senior financial adviser",
+              "summary": "高级财务顾问服务管理层与董事会，在战略、资本配置、风险与财务治理中提供专业建议。",
+              "contentMd": "## 核心概念\n\n高级财务顾问（senior financial adviser）扮演战略伙伴角色，协助董事会评估投资与融资方案、管理财务风险、制定资本结构与股利政策，并确保财务目标的实现。其职责超越记账，涵盖价值创造、风险控制与治理合规。\n\n## 常见考法\n\n界定高级财务顾问的职责范围，或分析其对战略决策的支持。\n\n## 易错点\n\n财务顾问需平衡管理层目标、股东利益与治理要求，避免利益冲突。\n\n## 例子\n\n财务总监为董事会提供并购估值分析，支持资本配置决策。\n\n## 考试提醒\n\n强调“战略+风险+治理”三位一体的顾问角色。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.1.2",
+              "title": "Shareholder wealth maximisation",
+              "summary": "传统财务管理以股东财富最大化为目标，通过现金流价值与可持续增长体现。",
+              "contentMd": "## 核心概念\n\n股东财富最大化（shareholder wealth maximisation）是企业财务管理的核心目标，体现为长期现金流与股价提升。现代观点扩展为利益相关者价值与可持续性，但股东目标仍需作为基本约束。\n\n## 常见考法\n\n评估决策是否促进股东财富，或对比不同目标的取舍。\n\n## 易错点\n\n短期利润最大化不等于股东财富最大化，后者关注长期价值。\n\n## 例子\n\n公司加大研发投入虽降低当期利润，但提升了长期股东价值。\n\n## 考试提醒\n\n用“长期现金流/价值”而非短期利润衡量股东财富目标。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.1.3",
+              "title": "Stakeholder and ethical considerations",
+              "summary": "财务决策需兼顾利益相关者并遵循伦理与治理要求，避免损害声誉与公众信任。",
+              "contentMd": "## 核心概念\n\n财务决策应平衡股东、债权人、员工、客户与社会等利益相关者诉求，并遵循诚信、客观、保密等道德原则。忽视伦理会导致声誉与法律风险，损害长期价值。\n\n## 常见考法\n\n识别财务决策中的利益冲突或伦理问题。\n\n## 易错点\n\n把财务效率与伦理责任割裂，忽略了声誉与合规风险。\n\n## 例子\n\n公司拒绝通过弄虚作假美化报表，维护了股东与公众信任。\n\n## 考试提醒\n\n用“价值+伦理+合规”多维评估财务决策。",
+              "standardReference": "ACCA AFM / Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Agency and corporate governance in finance",
+          "points": [
+            {
+              "code": "AFM.1.4",
+              "title": "Agency theory in finance",
+              "summary": "管理层（代理人）与股东（委托人）目标可能偏离，需通过激励与监督机制缓解代理冲突。",
+              "contentMd": "## 核心概念\n\n代理问题（agency problem）源于所有权与经营权分离，管理层可能追求自身利益而非股东财富最大化。缓解机制包括薪酬激励、董事会监督、市场约束与信息披露。\n\n## 常见考法\n\n识别代理问题，或评价某项治理措施能否缓解冲突。\n\n## 易错点\n\n过于激进的激励（如只看短期股价）反而诱发冒进行为。\n\n## 例子\n\n高管薪酬与长期股东回报挂钩，缓解短期化代理问题。\n\n## 考试提醒\n\n把握“委托-代理+激励监督”的分析框架。",
+              "standardReference": "ACCA AFM / Governance",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.1.5",
+              "title": "Corporate governance of financial decisions",
+              "summary": "资本配置、借贷与风险管理需置于治理框架下，确保决策透明、审慎并对股东负责。",
+              "contentMd": "## 核心概念\n\n财务决策的治理要求包括：重大投资与融资须经董事会审批、风险限额与内控有效、财务报告透明。良好的治理防止过度冒险、关联交易与管理层自利。\n\n## 常见考法\n\n分析财务决策中的治理薄弱环节或防范措施。\n\n## 易错点\n\n重大资本决策若绕过治理程序，会带来失控与问责风险。\n\n## 例子\n\n大额海外并购须经董事会与合规审查后才执行。\n\n## 考试提醒\n\n用“审批+限额+透明”作为财务治理抓手。",
+              "standardReference": "ACCA AFM / Governance",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "AFM.1.6",
+              "title": "International financial management context",
+              "summary": "跨国经营涉及多币种、多税率与多监管，财务顾问需理解国际环境及其风险。",
+              "contentMd": "## 核心概念\n\n跨国财务（international financial management）面临汇率、利率、税收、政治与法律等多重环境。财务顾问需评估这些因素对现金流、融资与投资的综合影响，并制定适应性策略。\n\n## 常见考法\n\n分析国际经营对财务决策的额外考量。\n\n## 易错点\n\n忽略政治与税收差异会低估国际项目风险。\n\n## 例子\n\n跨国公司在多国征税环境选择最优资本结构，需考虑当地税收政策。\n\n## 考试提醒\n\n把“汇率、利率、税收、政治”作为国际财务的风险清单。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Multinationals and Economic Environment",
+      "description": "分析跨国公司面临的国际经济环境、汇率与政经风险，及其对投融资决策的影响。",
+      "topics": [
+        {
+          "title": "The international economic environment",
+          "points": [
+            {
+              "code": "AFM.2.1",
+              "title": "Globalisation and the multinational",
+              "summary": "全球化推动企业跨国经营，跨国公司在资源配置、市场与风险分散上获得机会但也面临复杂环境。",
+              "contentMd": "## 核心概念\n\n全球化降低贸易与资本流动壁垒，促使企业跨国布局。跨国公司（MNC）可获取更大市场、更低成本与资源组合，但也面临汇率、政治、文化与合规等复杂挑战。\n\n## 常见考法\n\n分析全球化对某企业的机会与挑战。\n\n## 易错点\n\n跨国不是简单的复制，需本地化适应与风险管理。\n\n## 例子\n\n制造企业把生产基地转移到低成本国家以增强竞争力。\n\n## 考试提醒\n\n用“机会（市场/成本/资源）+风险（汇率/政治/文化）”双视角。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.2.2",
+              "title": "Exchange rate regimes",
+              "summary": "固定、浮动与有管理的汇率制度影响汇率稳定与跨国企业面临的货币风险。",
+              "contentMd": "## 核心概念\n\n固定汇率（fixed）、浮动汇率（floating）与管理浮动（managed float）制度对外汇波动与风险不同。浮动汇率下汇率随市场变化，跨国企业面临更大折算与交易风险；固定汇率可降低不确定性但需政策支撑。\n\n## 常见考法\n\n比较不同汇率制度对跨国企业的外汇风险影响。\n\n## 易错点\n\n汇率制度影响风险水平，但不消除风险，只是改变其形式。\n\n## 例子\n\n在浮动汇率下，出口商面临的汇率波动风险更大，常需对冲。\n\n## 考试提醒\n\n把汇率制度与汇率风险暴露程度联系起来。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.2.3",
+              "title": "Political and economic risk",
+              "summary": "政治与经济风险（政策变化、没收、通胀、主权违约）会冲击跨国投资的现金流与安全。",
+              "contentMd": "## 核心概念\n\n政治风险（political risk）包括政策变动、管制、征收与政局动荡；经济风险（economic risk）包括通胀、汇率、主权债务等。跨国投资需识别并用政治风险保险、本地合作、多元化等方式管理。\n\n## 常见考法\n\n识别跨国投资的政治/经济风险，或提出应对措施。\n\n## 易错点\n\n政治风险的评估需综合判断，不能只看当前政策。\n\n## 例子\n\n公司在政局不稳国家投资，投保政治风险险以对冲征收风险。\n\n## 考试提醒\n\n把“政治+经济风险”作为国际投资的专项尽调。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "International financing and capital structure",
+          "points": [
+            {
+              "code": "AFM.2.4",
+              "title": "Sources of international finance",
+              "summary": "跨国企业可从国际资本市场、跨国银行、出口信贷、债券等多渠道融资，需权衡成本与风险。",
+              "contentMd": "## 核心概念\n\n国际融资渠道包括欧洲债券（Eurobond）、国际银团贷款、出口信贷、国际股权、跨国银行信贷与当地融资。选择时需考虑币种、利率、期限、税收与汇率风险。\n\n## 常见考法\n\n选择跨国融资渠道并分析其优缺点。\n\n## 易错点\n\n外币融资会产生汇率敞口，需结合对冲安排。\n\n## 例子\n\n跨国集团发行以美元计价的欧洲债券，锁定长期低成本资金。\n\n## 考试提醒\n\n把币种、成本、风险作为国际融资选择的三大考虑。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.2.5",
+              "title": "International capital structure",
+              "summary": "跨国企业的资本结构需考虑税收、政治风险、汇率与融资可得性，常与本土结构不同。",
+              "contentMd": "## 核心概念\n\n跨国资本结构（international capital structure）受多重因素影响：各国税率与税收抵免、外币融资的汇率风险、政治风险的保险与融资、国际市场融资的可得性。企业常针对不同国家的子公司制定差异化资本结构。\n\n## 常见考法\n\n分析影响跨国资本结构的因素，或评价融资方案。\n\n## 易错点\n\n国际资本结构无法简单套用国内框架，需纳入税收与汇率因素。\n\n## 例子\n\n在高税国子公司多用债务融资以利用利息税盾。\n\n## 考试提醒\n\n把“税收、汇率、风险”作为跨国资本结构的权重。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.2.6",
+              "title": "Multi-national capital investment decisions",
+              "summary": "跨国投资评估需考虑境外现金流、外汇折算、税收与政治风险，常用增量的外币现金流折现。",
+              "contentMd": "## 核心概念\n\n跨国投资项目评估（如 APV 框架）需区分项目现金流与融资现金流，考虑外币折算、当地税收、汇回限制（remittance restrictions）与政治风险。通常以项目实体现金流折现，并用适当折现率反映国家风险。\n\n## 常见考法\n\n计算跨国投资的净现值，或判断是否含国家风险溢价。\n\n## 易错点\n\n国家风险溢价会提高折现率，但也可能因风险分散而降低。\n\n## 例子\n\n评估海外工厂时，把汇回限制与政治风险计入现金流与折现率。\n\n## 考试提醒\n\n把“外币现金流+税收+政治风险”纳入项目评估。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Advanced Investment Appraisal",
+      "description": "运用调整现值（APV）与实物期权等方法评估复杂资本项目，处理通货膨胀、风险与融资效应。",
+      "topics": [
+        {
+          "title": "Investment appraisal under uncertainty",
+          "points": [
+            {
+              "code": "AFM.3.1",
+              "title": "Adjusted present value (APV)",
+              "summary": "APV 把项目基础价值与融资效应（税盾、补贴、发行成本）分开计算，适用于复杂融资情形。",
+              "contentMd": "## 核心概念\n\n调整现值（adjusted present value, APV）＝项目全权益基础净现值（base case NPV，用无杠杆资本成本折现）＋融资副作用（financing side effects，如利息税盾、发行成本、补贴贷款的价值）。APV 比传统 NPV 更适合项目有专门融资安排或资本结构多变的情形。\n\n## 常见考法\n\n计算 APV 中的基础 NPV、税盾现值与发行成本，进而得出调整后现值并给出投资建议。\n\n## 易错点\n\nAPV 需使用“无杠杆资本成本”（unlevered cost of equity）折现基础现金流，而非加权平均资本成本（WACC）。税盾现值应按债务税率折现。\n\n## 例子\n\n项目全权益 NPV 为 80，额外借款产生的利息税盾现值 20，发行成本 5，则 APV = 95。\n\n## 考试提醒\n\n分步计算“基础 NPV + 税盾 + 补贴 − 发行成本”，并注明每一步假设。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AFM.3.2",
+              "title": "Real options",
+              "summary": "实物期权把管理灵活性（延期、扩张、放弃）视为投资中的期权价值，提升项目评估的完整性。",
+              "contentMd": "## 核心概念\n\n实物期权（real options）承认管理层在项目进行中拥有选择权：延期/等待（option to wait/defer）、扩张（option to expand）、放弃（option to abandon）与切换（switching）。这些灵活性能增加项目价值，尤其在高不确定性与高未来决策空间时显著。\n\n## 常见考法\n\n识别并量化某类实物期权价值（如扩产期权、放弃期权），或在 NPV 基础上加上期权价值重新评估项目。\n\n## 易错点\n\n实物期权并非把所有项目都变成值得投资；它只增加与不确定性相关的灵活性价值，需谨慎估计参数（波动率、期限、执行价）。\n\n## 例子\n\n项目初始 NPV 略为负，但若市场向好可扩产，扩产期权价值为正，合并后项目值得投资。\n\n## 考试提醒\n\n先算“基础 NPV”，再判断“哪类期权+其价值”，避免为了“加价值”而滥用期权。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AFM.3.3",
+              "title": "Investment appraisal with inflation and risk",
+              "summary": "通货膨胀与多风险贴现率需在现金流与折现率中一致处理，评估敏感性。",
+              "contentMd": "## 核心概念\n\n通货膨胀处理需保持名义/实际一致性：若现金流为名义值则用名义利率折现，若为实际值则用实际利率。评估风险可用敏感性分析、情景分析、概率分析与蒙特卡洛模拟，识别关键变量。\n\n## 常见考法\n\n调整通胀并选择一致折现率，或做敏感性分析判断项目风险。\n\n## 易错点\n\n名义与实际的错误匹配（如名义现金流用实际利率）会导致估值偏差。\n\n## 例子\n\n含通胀的 100 名义现金流按 8% 名义利率折现；若剔通胀则 90 实际值按 5% 实际利率折现，结果应一致。\n\n## 考试提醒\n\n牢记“名义对名义、实际对实际”的一致原则。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Key appraisal techniques and capital rationing",
+          "points": [
+            {
+              "code": "AFM.3.4",
+              "title": "NPV, IRR and MIRR",
+              "summary": "NPV 是评估基准，IRR 存在多解与规模问题，MIRR 修正了再投资率假设。",
+              "contentMd": "## 核心概念\n\nNPV 用适当折现率折现现金流，正值创造价值；IRR 是使 NPV 为零的折现率，用于比较，但存在多重根与再投资假设不合理的问题。MIRR（修正内部报酬率）假设现金流以资本成本再投资，更为稳健。\n\n## 常见考法\n\n计算 NPV/IRR 并解释差异，或在互斥项目中选择正确方法。\n\n## 易错点\n\n互斥项目时 IRR 可能给出与 NPV 相反结论，应以 NPV 为准。\n\n## 例子\n\n互斥的两个项目中，IRR 高的净值可能低于 NPV 高者，故以 NPV 决策为主。\n\n## 考试提醒\n\n“规模不同、再投资率不同”时优先看 NPV。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.3.5",
+              "title": "Capital rationing",
+              "summary": "资本限定量下，通过获利能力指数或整数规划选择能最大化总 NPV 的项目组合。",
+              "contentMd": "## 核心概念\n\n资本限量（capital rationing）指资金不足以实施所有 NPV 为正的项目。单期限量可用净现值指数（NPV per dollar invested）排序；多期或不可分项目需用整数规划/线性规划求解。\n\n## 常见考法\n\n在资本限量下选出最优项目组合并计算总 NPV。\n\n## 易错点\n\n不可分项目不能简单按指数简单取整，需尝试组合。\n\n## 例子\n\n预算 100 万，两个 NPV 5 万/投资 50 万与 NPV 6 万/投资 100 万，指数高者优先但需视可分性。\n\n## 考试提醒\n\n把“NPV 指数+可分割性+组合优化”作为解题步骤。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.3.6",
+              "title": "Lease versus buy",
+              "summary": "融资租赁与购买比较关注税盾与现金流差异，通过折现比较净成本优势。",
+              "contentMd": "## 核心概念\n\n租赁或购买（lease vs buy）决策比较两种方式的税后现金流出现净值，考虑折旧税盾、租赁付款的税抵扣与残值。选择现金流现值较低者。\n\n## 常见考法\n\n计算两种方案的税后成本现值并给出建议。\n\n## 易错点\n\n需考虑双方税收地位（出租方与承租方）对税盾的影响。\n\n## 例子\n\n租赁节税使税后成本现值低于购买，则倾向于租赁。\n\n## 考试提醒\n\n统一用“税后现金流+合适折现率”比较。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "International Investment and Financing",
+      "description": "处理境外投资的现金流、汇回、税收与政治风险，以及国际融资的币种与风险管理。",
+      "topics": [
+        {
+          "title": "Foreign investment appraisal",
+          "points": [
+            {
+              "code": "AFM.4.1",
+              "title": "Appraising a foreign investment project",
+              "summary": "境外投资评估需折算外币现金流、考虑税收与汇回限制，并用适当折现率反映国家风险。",
+              "contentMd": "## 核心概念\n\n境外项目评估常用两步法：先以外币计算项目税后现金流，考虑当地税收与汇回限制，再按汇率折算为母国货币，用反映母国风险与要求的折现率折现。若存在换汇限制，需区分可汇回与留存现金流。\n\n## 常见考法\n\n计算境外项目的 NPV，处理折算、税负与汇回限制。\n\n## 易错点\n\n折现率应反映项目风险与母国视角，汇率预测应与利率平价一致。\n\n## 例子\n\n评估海外工厂时，先算当地币税后现金流，再按预期汇率折回本币折现。\n\n## 考试提醒\n\n按“当地现金流→折算→折现”三步走。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AFM.4.2",
+              "title": "Taxation and remittance issues",
+              "summary": "境外投资受当地所得税、预提税与汇回限制影响，需纳入现金流并考虑税收抵免。",
+              "contentMd": "## 核心概念\n\n境外项目的税后现金流需考虑当地公司税、股利预提税（withholding tax）与母国税收抵免（tax credit）。汇回限制（remittance restrictions）可能使部分利润滞留当地，应按可汇回金额计入。\n\n## 常见考法\n\n计算境外项目的净税后现金流，或处理税收抵免与汇回限制。\n\n## 易错点\n\n忽略预提税或税收抵免会高估或低估项目价值。\n\n## 例子\n\n当地利润 $100、预提税 10%，汇回 90，母国再按抵免处理。\n\n## 考试提醒\n\n把“当地税+预提税+抵免+汇回”纳入现金流。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.4.3",
+              "title": "Political risk in investment appraisal",
+              "summary": "政治风险可通过风险溢价、敏感性分析、保险与本地化措施纳入境外投资评估。",
+              "contentMd": "## 核心概念\n\n处理境外投资政治风险的方式：提高折现率的国家风险溢价、做敏感性/情景分析、投保政治风险险、与当地合资或合作以分散与绑定利益、以及风险缓解的合同安排。\n\n## 常见考法\n\n提出管理境外投资政治风险的措施。\n\n## 易错点\n\n单一提高折现率可能过度惩罚，需结合风险缓解措施综合评估。\n\n## 例子\n\n公司在高风险国家以合资方式进入并投保，降低征收风险暴露。\n\n## 考试提醒\n\n把“风险折现+保险+合作/本地化”作为组合应对。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "International project financing",
+          "points": [
+            {
+              "code": "AFM.4.4",
+              "title": "Currency choice for financing",
+              "summary": "融资币种选择需匹配现金流币种并考虑汇率风险，使用自然对冲与币种匹配。",
+              "contentMd": "## 核心概念\n\n融资币种应尽量与项目现金流币种匹配，以减少汇率敞口。若项目现金流为外币，可用同币种借款形成自然对冲（natural hedge）；否则需借助衍生工具对冲汇率风险。\n\n## 常见考法\n\n选择融资币种与对冲策略。\n\n## 易错点\n\n借款币种与收益币种错配会造成汇率风险暴露。\n\n## 例子\n\n项目以美元现金流入，用美元借款融资，形成自然对冲。\n\n## 考试提醒\n\n牢记“币种匹配=自然对冲”的原则。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.4.5",
+              "title": "International capital structure and financing mix",
+              "summary": "跨国集团需在母子公司间选择合适的融资组合，平衡税负、杠杆与风险。",
+              "contentMd": "## 核心概念\n\n跨国融资结构设计包括：在东道国本地融资、母公司贷款、股权注入与内部资金调配。需权衡利息税盾、预提税、汇率风险与政治风险，并考虑资金汇回与再投资的灵活性。\n\n## 常见考法\n\n设计跨国融资方案或评价其税负与风险。\n\n## 易错点\n\n过度依赖母公司融资可能放大汇率与政治风险。\n\n## 例子\n\n集团子公司以当地货币借款并用当地收入偿还，匹配币种并降低汇率风险。\n\n## 考试提醒\n\n用“税负+杠杆+币种+风险”综合设计融资。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.4.6",
+              "title": "Dividend and transfer pricing policies",
+              "summary": "跨国股利汇回与转让定价政策影响税负、利润分配与资金配置，需统筹规划。",
+              "contentMd": "## 核心概念\n\n跨国企业通过股利汇回、管理费、许可费与转让定价在不同实体间配置利润与资金。合理的政策能降低整体税负、优化资金使用，但也需遵循公平交易与合规要求，避免滥用。\n\n## 常见考法\n\n分析转让定价或股利政策对税负与现金流的影响。\n\n## 易错点\n\n转让定价需符合独立交易原则，否则面临税务调整与罚款。\n\n## 例子\n\n集团通过合理的服务费与许可费把部分利润转移到低税实体。\n\n## 考试提醒\n\n把“税负+资金配置+合规”作为跨国财务规划要点。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Mergers, Acquisitions and Business Valuations",
+      "description": "掌握企业估值方法，以及并购的战略、财务与风险考量。",
+      "topics": [
+        {
+          "title": "Business valuation",
+          "points": [
+            {
+              "code": "AFM.5.1",
+              "title": "Asset-based valuation",
+              "summary": "资产基础法采用净资产（账面、重置或清算价值）评估企业价值，适用于特殊情形。",
+              "contentMd": "## 核心概念\n\n资产基础法（asset-based valuation）以企业净资产为基础，可采用账面净值、重置成本或清算价值。它常用于控股收购、资产密集或清算评估，但忽略盈利与无形资产，对持续经营企业的估值偏低。\n\n## 常见考法\n\n用资产法计算企业价值并说明适用与局限。\n\n## 易错点\n\n资产法忽略盈利与商誉，通常不适用于高盈利企业。\n\n## 例子\n\n某公司净资产 500 万，用账面资产法估值为 500 万。\n\n## 考试提醒\n\n把资产法定位为“下限参考+特殊用途”。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.5.2",
+              "title": "Income-based and market-based valuation",
+              "summary": "收益法与倍数法（P/E、EV/EBITDA）基于盈利或市场指标估算企业价值。",
+              "contentMd": "## 核心概念\n\n收益法按可持续盈利（如调整后利润）乘以倍数（如 P/E、EV/EBITDA）估值；市场倍数法用可比公司或交易的倍数。需调整非常项目与非经常性损益，并考虑成长与风险。\n\n## 常见考法\n\n用 P/E 或 EBITDA 倍数估算企业价值。\n\n## 易错点\n\nP/E 估值对盈利质量与倍数选择敏感，需调整可持续利润。\n\n## 例子\n\n可持续净利润 200 万、行业 P/E 12，则估值 2,400 万。\n\n## 考试提醒\n\n用“调整后利润×合适倍数”并解释倍数依据。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AFM.5.3",
+              "title": "Discounted cash flow (DCF) valuation",
+              "summary": "DCF 以预期自由现金流折现估算企业价值，是理论最严谨的估值方法。",
+              "contentMd": "## 核心概念\n\nDCF 估值：企业价值 = 未来自由现金流（FCF）现值，折现率用加权平均资本成本（WACC）；终值（terminal value）按 Gordon 增长模型估算。DCF 需合理预测现金流与增长，并做敏感性分析。\n\n## 常见考法\n\n计算 DCF 企业价值（含 FCF 折现与终值）。\n\n## 易错点\n\n终值对增长率与折现率高度敏感，是估值的主要不确定性来源。\n\n## 例子\n\n前 5 年 FCF 折现现值 1,500，终值现值 3,500，企业价值约 5,000。\n\n## 考试提醒\n\n把“FCF 预测+WACC+终值”作为 DCF 三步核心。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Acquisitions and mergers",
+          "points": [
+            {
+              "code": "AFM.5.4",
+              "title": "Motives for acquisitions",
+              "summary": "并购动机包括规模经济、协同、市场进入、多元化、管理层动机与税收考量。",
+              "contentMd": "## 核心概念\n\n并购动机（motives for M&A）包括：获取规模经济与协同、进入新市场/获取技术与能力、多元化分散风险、获得税收或财务利益，以及管理层的扩张与自我利益。动机是否合理化决定并购能否创造价值。\n\n## 常见考法\n\n分析并购动机及其价值合理性。\n\n## 易错点\n\n管理层的自我扩张动机可能导致“帝国建造”与价值毁损。\n\n## 例子\n\n公司并购以获得对方专利与渠道，属协同与市场进入动机。\n\n## 考试提醒\n\n区分“价值创造动机”与“管理层自利动机”。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.5.5",
+              "title": "Financing an acquisition",
+              "summary": "并购融资可用现金、股票、债务或混合，不同方式影响交易后资本结构与控制权。",
+              "contentMd": "## 核心概念\n\n并购融资方式包括现金（自有或借款）、股票交换、债券/可转债与卖方融资。现金支付影响流动性，股票支付稀释股权，债务增加杠杆与风险。需考虑目标估值、股东偏好与资本结构影响。\n\n## 常见考法\n\n评估并购融资方式的利弊与适配。\n\n## 易错点\n\n现金并购需评估资金可得性；股票并购需考虑股东稀释与市场反应。\n\n## 例子\n\n公司发行新股换股并购，避免即时现金压力但稀释现有股东。\n\n## 考试提醒\n\n把“现金/股票/债务+流动性/稀释/杠杆”作为融资评估维度。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.5.6",
+              "title": "Post-acquisition issues and integration",
+              "summary": "并购后整合（文化、系统、人员）与协同实现是并购价值兑现的关键，失败多因整合不力。",
+              "contentMd": "## 核心概念\n\n并购后整合（post-acquisition integration）涉及组织、文化、系统与人员的融合。实现对冲（synergies）需要明确的执行方案与时间表，否则高估的协同难以落地，导致价值毁损。\n\n## 常见考法\n\n分析并购整合的风险与对策。\n\n## 易错点\n\n文化冲突与人才流失是整合失败的常见原因。\n\n## 例子\n\n并购后因文化不合导致核心团队离职，协同目标落空。\n\n## 考试提醒\n\n把“文化+系统+人才+协同落地”作为整合重点。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Business Reorganisation and Divestment",
+      "description": "理解企业重组、分拆与剥离的战略动机及财务影响。",
+      "topics": [
+        {
+          "title": "Reorganisation motives and value",
+          "points": [
+            {
+              "code": "AFM.6.1",
+              "title": "Divestment motives and methods",
+              "summary": "剥离动机包括聚焦核心、释放价值、融资与纠正战略，方式有出售、分拆、股权转让等。",
+              "contentMd": "## 核心概念\n\n剥离（divestment）动机包括：聚焦核心业务、变现释放价值、改善资本配置与管理层注意力。方式有出售（divestiture）、分拆（demerger/spin-off）、股权切离（equity carve-out）与管理层收购（MBO）。\n\n## 常见考法\n\n分析剥离动机或选择剥离方式。\n\n## 易错点\n\n分拆（spin-off）常被低估，因母公司可能存“集团折扣”。\n\n## 例子\n\n集团出售非核心业务，聚焦主业并回笼资金。\n\n## 考试提醒\n\n把“价值释放+聚焦+融资”作为剥离的多重动机。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.6.2",
+              "title": "Analysis of reorganisation",
+              "summary": "重组评估需衡量分部价值、协同/折价与资本结构影响，判断是否创造价值。",
+              "contentMd": "## 核心概念\n\n重组评估需比较“拆开后的各分部价值之和”与“整体价值”，识别是否存在集团折扣（conglomerate discount）或价值创造机会，同时评估重组对资本结构、税收与治理的影响。\n\n## 常见考法\n\n评估重组是否增加企业价值，或计算分部估值加总。\n\n## 易错点\n\n“整体价值 < 分部加总”是拆分的价值动因，但需考虑交易成本与税收。\n\n## 例子\n\n母公司估值低于各分部独立价值之和，拆分可实现价值释放。\n\n## 考试提醒\n\n用“分部和 vs 整体”评估重组的价值逻辑。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.6.3",
+              "title": "Management buyouts",
+              "summary": "管理层收购（MBO）由管理层融资收购企业，常见于退出或资产剥离，但伴随高杠杆与利益冲突。",
+              "contentMd": "## 核心概念\n\n管理层收购（management buyout, MBO）是管理层用自有与借贷资金收购企业（或分部）。它提高管理层激励与决策效率，但带来高杠杆、信息不对称与利益冲突，且需合理的估值与治理安排。\n\n## 常见考法\n\n分析 MBO 的动机、风险与治理问题。\n\n## 易错点\n\nMBO 中管理层既当买家又可能有信息优势，存在公平性问题。\n\n## 例子\n\n创始人退休，管理层联合私募收购公司，实现控股。\n\n## 考试提醒\n\n关注“高杠杆+估值公允+治理”三大 MBO 议题。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Reconstruction and financial distress",
+          "points": [
+            {
+              "code": "AFM.6.4",
+              "title": "Financial reconstruction",
+              "summary": "财务重组通过债务重组、资本削减或注入重组陷入财务困境的公司。",
+              "contentMd": "## 核心概念\n\n财务重组（financial reconstruction）用于挽救财务困境企业，措施包括债务重组（债务豁免、债转股）、股东资本削减、资产出售与引入新资本。目标是把企业拉回可持续状态。\n\n## 常见考法\n\n设计财务重组方案或评估其可行性。\n\n## 易错点\n\n重组需兼顾债权人、股东与员工的利益协调。\n\n## 例子\n\n银行同意削减部分债务并把部分转为股权，降低企业负担。\n\n## 考试提醒\n\n把“债务重组+资本调整+可持续性”作为方案要点。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.6.5",
+              "title": "Modigliani-Miller and capital structure",
+              "summary": "MM 理论说明在无税或含税条件下资本结构与公司价值的关系，为资本结构决策提供框架。",
+              "contentMd": "## 核心概念\n\nMM 定理（无税）认为在完美市场中资本结构与公司价值无关；含税后债务产生税盾提升价值，但同时带来财务困境成本。优化资本结构需权衡税盾收益与财务困境（破产、代理）成本，即静态权衡理论（trade-off theory）。\n\n## 常见考法\n\n用 MM 或权衡理论分析资本结构对价值的影响。\n\n## 易错点\n\n高杠杆的税盾收益会被财务困境成本抵消，存在最优杠杆点。\n\n## 例子\n\n公司增加债务获税盾，但过度举债增加破产风险，权衡后选择适度杠杆。\n\n## 考试提醒\n\n把握“税盾 vs 财务困境成本”的权衡逻辑。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.6.6",
+              "title": "Unbundling and restructuring value",
+              "summary": "对业务组合进行拆分重组，可消除集团折扣、提升聚焦并实现资本再配置。",
+              "contentMd": "## 核心概念\n\n业务拆分重组（unbundling）通过出售、分拆或股权切离剥离非核心业务，使各业务获得独立估值与专注管理，消除集团折扣，并释放资本用于核心业务的增长。\n\n## 常见考法\n\n分析业务重组如何创造价值。\n\n## 易错点\n\n拆分也可能失去协同，需权衡整体价值与拆分价值。\n\n## 例子\n\n多元化集团把某分部独立上市，其独立估值高于合并整体估值。\n\n## 考试提醒\n\n从“聚焦+估值+资本配置”评估拆分的价值。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Treasury Management",
+      "description": "理解资金管理的目标、结构、营运资金与短期融资，以及流动性风险的管控。",
+      "topics": [
+        {
+          "title": "Treasury function and objectives",
+          "points": [
+            {
+              "code": "AFM.7.1",
+              "title": "Objectives of treasury management",
+              "summary": "资金管理目标是在保障流动性的前提下优化资金使用、控制风险并支持经营。",
+              "contentMd": "## 核心概念\n\n资金管理（treasury management）目标包括：确保有足够资金满足经营与偿债需求、优化资金成本与回报、管理财务风险（利率、汇率、流动性）以及支持战略。它需在效益与安全间平衡。\n\n## 常见考法\n\n界定资金管理目标或分析其在企业中的职责。\n\n## 易错点\n\n资金管理不是单纯“现金保有”，而是流动性、风险与收益的平衡。\n\n## 例子\n\n资金部通过现金归集与投资提高闲置资金回报并保持流动性。\n\n## 考试提醒\n\n把“流动性+风险+收益”作为资金管理目标三位一体。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.7.2",
+              "title": "Treasury organisation: centralised vs decentralised",
+              "summary": "集中与分散资金管理在效率、控制与灵活性上有不同取舍。",
+              "contentMd": "## 核心概念\n\n集中化资金管理（centralised treasury）利于统一资金归集、降低整体借贷成本、集中风险对冲并加强控制；分散化（decentralised）则更贴近地方市场、响应快但可能重复与低效。大型跨国集团常采用部分集中的模式。\n\n## 常见考法\n\n比较集中与分散资金管理的优劣。\n\n## 易错点\n\n集中化能实现资金池（cash pooling）净额减少借贷，但可能牺牲当地灵活性。\n\n## 例子\n\n集团内现金池把各子公司盈余集中，减少外部借款。\n\n## 考试提醒\n\n用“效率/控制 vs 灵活/响应”权衡集中化。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.7.3",
+              "title": "Working capital and cash flow management",
+              "summary": "营运资金与现金流管理优化现金循环，保障日常运营与短期偿付。",
+              "contentMd": "## 核心概念\n\n营运资金管理通过优化存货、应收、应付与现金，缩短现金循环周期（cash conversion cycle），降低资金占用与融资成本。需在流动性安全与盈利性之间取得平衡。\n\n## 常见考法\n\n计算现金循环周期，或分析营运资金政策的影响。\n\n## 易错点\n\n缩短循环周期可释放现金，但过度收紧信用可能损及销售与客户关系。\n\n## 例子\n\n企业加速应收回收与存货周转，缩短现金循环、减少营运资金。\n\n## 考试提醒\n\n用“存货+应收+应付”构成现金循环周期来评估。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Short-term funding and liquidity risk",
+          "points": [
+            {
+              "code": "AFM.7.4",
+              "title": "Short-term sources of finance",
+              "summary": "短期融资包括银行透支、短期贷款、商业票据与应收账款融资等，需控制成本与风险。",
+              "contentMd": "## 核心概念\n\n短期融资（short-term financing）来源包括银行透支（overdraft）、短期贷款、商业票据（commercial paper）、供应链融资与应收账款保理。它们灵活但成本较高，且透支可随时被要求偿还。\n\n## 常见考法\n\n选择短期融资方式并分析其成本与风险。\n\n## 易错点\n\n过度依赖短期融资会增加再融资（rollover）风险。\n\n## 例子\n\n企业用银行透支满足季节性资金缺口，成本较高。\n\n## 考试提醒\n\n把“成本+灵活性+再融资风险”作为短期融资权衡。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.7.5",
+              "title": "Managing liquidity risk",
+              "summary": "流动性风险管理通过现金预测、融资安排与缓冲，确保企业随时偿付债务。",
+              "contentMd": "## 核心概念\n\n流动性风险（liquidity risk）是企业无法及时筹集资金履行到期债务的风险。管理工具包括：现金预算与预测、合理的流动性缓冲（现金/备用信用）、同币种资产与负债匹配，以及应急融资计划。\n\n## 常见考法\n\n识别流动性风险并提出管理措施。\n\n## 易错点\n\n高杠杆与资产负债期限错配会放大流动性风险。\n\n## 例子\n\n企业维持备用信贷额度并做现金预测，应对季节性资金紧张。\n\n## 考试提醒\n\n用“预测+缓冲+匹配+应急”管理流动性。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.7.6",
+              "title": "Cash management models and banking",
+              "summary": "现金管理模型（Baumol、Miller-Orr）帮助确定最佳现金持有量，银行关系管理影响融资效率。",
+              "contentMd": "## 核心概念\n\n现金管理模型用于平衡现金持有的交易成本与机会成本：Baumol 模型把现金视为存货（批量与变现成本），Miller-Orr 模型在随机波动下设定现金上下限。企业与银行的良好关系有助于融资便利与资金效率。\n\n## 常见考法\n\n用现金模型计算最佳现金持有量，或分析银行关系价值。\n\n## 易错点\n\n模型基于假设与简化，实际需结合实务判断。\n\n## 例子\n\n用 Baumol 模型在变现成本与持有成本间确定最优现金余额。\n\n## 考试提醒\n\n理解两大现金模型的核心权衡（成本 vs 确定性）。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Currency Risk Management",
+      "description": "识别交易、经济与折算的汇率风险，并运用远期、期货、期权与互换进行对冲。",
+      "topics": [
+        {
+          "title": "Types of currency risk and hedging",
+          "points": [
+            {
+              "code": "AFM.8.1",
+              "title": "Transaction, translation and economic exposure",
+              "summary": "汇率风险分交易、折算与经济风险暴露，各自影响现金流、报表价值与竞争地位。",
+              "contentMd": "## 核心概念\n\n交易风险暴露（transaction exposure）来自外币计价的实际交易（应收/应付）产生的汇兑损益；折算风险（translation exposure）来自境外报表折算的账面波动；经济风险（economic exposure）指汇率变动影响企业长期现金流与竞争力的风险。\n\n## 常见考法\n\n识别某汇率风险属于哪类暴露，或分析其影响。\n\n## 易错点\n\n交易与折算风险是账面/现金层面，经济风险影响长期价值。\n\n## 例子\n\n出口商收到外币应收账款汇兑损失，属交易风险；境外子公司折算差额，属折算风险。\n\n## 考试提醒\n\n把三类型与“现金流/报表/竞争力”对应。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AFM.8.2",
+              "title": "Currency hedging with forwards and futures",
+              "summary": "远期合约与货币期货用于锁定未来汇率，期货标准化且需逐日盯市，存在基差风险。",
+              "contentMd": "## 核心概念\n\n远期外汇合约（forward）按约定汇率在未来交割，锁定汇率无基差风险；货币期货（futures）为标准化、交易所交易，需逐日盯市（mark-to-market），用数量近似对冲，存在基差（basis）风险。两者都旨在锁定汇率、降低不确定性。\n\n## 常见考法\n\n用远期或期货设计对冲并计算锁定汇率或基差。\n\n## 易错点\n\n期货对冲使用合约数量近似，基差变化会造成残余风险。\n\n## 例子\n\n出口商以 3 个月远期卖出美元应收，锁定收款本币金额。\n\n## 考试提醒\n\n区分“远期（定制、无基差）”与“期货（标准、有基差）”。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "AFM.8.3",
+              "title": "Currency options and swaps",
+              "summary": "外汇期权赋予选择权（下行保护+上行收益），货币互换交换不同币种的现金流。",
+              "contentMd": "## 核心概念\n\n外汇期权（currency option）赋予买方在约定价买卖外币的权利而非义务，既保底部风险又保留有利波动收益，需付权利金（premium）。货币互换（currency swap）交换不同币种的本金与利息现金流，用于匹配币种、降低汇率与利率风险。\n\n## 常见考法\n\n比较期权与其他工具，或设计货币互换。\n\n## 易错点\n\n期权有权利金成本，适合需保留上行的场景；对冲成本相对更高。\n\n## 例子\n\n企业购买看跌期权锁定收款外币最低汇率，保留汇率上升收益。\n\n## 考试提醒\n\n“期权=保底+权利金、互换=现金流交换、远期=锁定”。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Internal hedging and hedging efficiency",
+          "points": [
+            {
+              "code": "AFM.8.4",
+              "title": "Internal hedging techniques",
+              "summary": "内部对冲包括匹配、净额、提前/滞后收付款与发票币种选择，成本通常更低。",
+              "contentMd": "## 核心概念\n\n内部对冲（internal hedging）不依赖外部衍生工具：币种匹配（matching）、集团净额（netting）、提前/滞后收付款（leading and lagging）、发票币种选择与定价调整。这些方法成本低、无手续费，但受交易伙伴与税务限制。\n\n## 常见考法\n\n判断某内部对冲方法的适用性或价值。\n\n## 易错点\n\n净额与匹配能自然抵消风险，是最优先考虑的廉价对冲。\n\n## 例子\n\n集团对同一币种的应收与应付进行净额结算，减少敞口。\n\n## 考试提醒\n\n先考虑内部对冲，再考虑外部衍生工具。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.8.5",
+              "title": "Choosing a hedging strategy",
+              "summary": "对冲策略选择需权衡风险偏好、成本、工具特性与企业目标。",
+              "contentMd": "## 核心概念\n\n选择对冲策略时需考虑：企业风险偏好（是否愿意承担汇率波动）、对冲成本、各工具特性（远期锁定、期权灵活）、现金流时点匹配与会计处理。不同企业、不同期限应采取差异化对冲。\n\n## 常见考法\n\n为特定场景推荐合适的对冲工具与策略。\n\n## 易错点\n\n若企业偏好承担上行收益，应选择期权而非远期。\n\n## 例子\n\n企业希望锁定成本并放弃上行收益，用远期对冲。\n\n## 考试提醒\n\n用“风险偏好+成本+工具特性”匹配对冲策略。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.8.6",
+              "title": "Calculating currency hedge effectiveness",
+              "summary": "对冲有效性与套期会计要求对冲能抵消汇率风险，计算净效果评估损益。",
+              "contentMd": "## 核心概念\n\n评估对冲需比较“不hedging 的汇率损失”与“hedging 后的净结果”。有效对冲应显著降低汇率波动对现金流/损益的影响。计算时把对冲工具损益与实际敞口损益合并，得出净对冲收益。\n\n## 常见考法\n\n计算对冲后的净损益，或评价对冲有效性。\n\n## 易错点\n\n对冲有效性衡量的是风险抵消，而非每期都盈利。\n\n## 例子\n\n远期卖出对冲降汇率损失 100，工具产生损失 20，净降低风险约 80。\n\n## 考试提醒\n\n用“敞口损益+工具损益=净效果”评估有效性。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Interest Rate Risk Management",
+      "description": "识别利率风险并运用远期利率协议、利率期货、期权与互换等工具管理。",
+      "topics": [
+        {
+          "title": "Interest rate risk exposure",
+          "points": [
+            {
+              "code": "AFM.9.1",
+              "title": "Identifying interest rate risk",
+              "summary": "利率风险源于利率变动对借贷成本、投资回报与价值的影响，分固定与浮动敞口。",
+              "contentMd": "## 核心概念\n\n利率风险（interest rate risk）是利率变动导致现金流或价值不确定的风险。对浮动利率借款者，利率上升增加成本；对固定利率持有者，利率变动影响投资价值。企业需识别利率敞口并决定是否及如何管理。\n\n## 常见考法\n\n识别利率风险敞口的影响方向。\n\n## 易错点\n\n利率风险既影响负债成本，也影响资产回报与工具价值。\n\n## 例子\n\n公司浮动利率借款在利率上升时利息负担加重。\n\n## 考试提醒\n\n把“负债成本+资产/工具价值”纳入利率风险识别。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.9.2",
+              "title": "Methods of managing interest rate risk",
+              "summary": "利率风险管理可用内部匹配与外部衍生工具（FRAs、期货、期权、互换）实现。",
+              "contentMd": "## 核心概念\n\n管理利率风险的方法包括：内部方法（匹配资产与负债期限、自然对冲）与外部衍生工具——远期利率协议（FRA）、利率期货、利率期权（如 cap/floor/swapoption）与利率互换（swap）。不同工具在固定成本与灵活度上各异。\n\n## 常见考法\n\n为某利率敞口选择合适的管理工具。\n\n## 易错点\n\nFRA 与利率互换在现代财务中广泛用于锁定或稳定利率。\n\n## 例子\n\n公司用利率互换把浮动利率债务换成固定利率，稳定利息成本。\n\n## 考试提醒\n\n把“锁定利率（FRA/互换）vs 保留灵活（期权）”区分。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.9.3",
+              "title": "Interest rate futures and FRAs",
+              "summary": "FRA 与利率期货用于锁定未来借贷利率，期货需标准数量与逐日盯市。",
+              "contentMd": "## 核心概念\n\n远期利率协议（FRA）是场外协议，按约定利率锁定未来某期间借贷利率，用差额现金结算。利率期货（interest rate futures）为交易所标准化工具，按数量近似对冲并逐日盯市，存在基差风险。\n\n## 常见考法\n\n用 FRA 或利率期货对冲并计算锁定利率或基差效果。\n\n## 易错点\n\n期货用数量近似对冲，基差变化会造成残余风险。\n\n## 例子\n\n借款人以 FRA 锁定 3 个月后借款的 5% 利率，免于利率上涨。\n\n## 考试提醒\n\n掌握“FRA 场外、期货标准、皆有基差近似”的特点。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Interest rate swaps and options",
+          "points": [
+            {
+              "code": "AFM.9.4",
+              "title": "Interest rate swaps",
+              "summary": "利率互换交换固定与浮动利息现金流，用于改变利率敞口、降低成本。",
+              "contentMd": "## 核心概念\n\n利率互换（interest rate swap）中，双方交换基于相同本金的不同利率（固定换浮动），不交换本金。它用于把浮动利率债务转为固定（或反之）、匹配资产负债利率结构，或利用比较优势降低成本。\n\n## 常见考法\n\n设计利率互换或计算互换成后的成本/节约。\n\n## 易错点\n\n互换只交换利息，不动本金，且承担对手方违约风险。\n\n## 例子\n\n浮动利率借款人通过互换锁定固定利率，稳定利息负担。\n\n## 考试提醒\n\n把握“固定换浮动、只动利息、留存违约风险”。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.9.5",
+              "title": "Interest rate options and caps",
+              "summary": "利率期权、上限（cap）、下限（floor）与 collar 提供利率保护并可保留有利变动。",
+              "contentMd": "## 核心概念\n\n利率期权（interest rate option）赋予权利锁定利率；利率上限（interest rate cap）是借款人买入的一系列看涨期权，限制最高利率，保留利率下降收益；下限（floor）限制最低利率；cap 与 floor 组合成 collar。需支付权利金。\n\n## 常见考法\n\n用 cap/floor/collar 设计利率保护，或比较其与互换的差异。\n\n## 易错点\n\n期权有权利金成本，适合希望保底且保留上行的企业。\n\n## 例子\n\n借款公司购买 cap 限制最高融资利率，利率下跌时可获益。\n\n## 考试提醒\n\n“cap 保上限、floor 保下限、期权付费买灵活”。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.9.6",
+              "title": "hedging strategies in practice",
+              "summary": "实务中结合套期会计与风险偏好，选择并组合工具实现利率风险管理。",
+              "contentMd": "## 核心概念\n\n实务中，企业结合风险偏好、成本与套期会计要求，选择合适的利率管理工具组合（可供选择 FRA、互换、期权、内部匹配）。需评估工具有效性、会计处理（如现金流量套期）以及对手方风险与流动性。\n\n## 常见考法\n\n设计综合利率风险管理方案，或评价其效果。\n\n## 易错点\n\n套期会计与有效性要求影响损益列报，需统筹考虑。\n\n## 例子\n\n企业对某笔大额浮动负债用互换加 cap 组合，兼顾锁定与保护。\n\n## 考试提醒\n\n用“目标+成本+会计+对手风险”综合设计对冲。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Emerging Issues",
+      "description": "关注影响高级财务管理的新兴议题，如可持续金融、ESG、数字货币与科技驱动的金融创新。",
+      "topics": [
+        {
+          "title": "Emerging financial issues",
+          "points": [
+            {
+              "code": "AFM.10.1",
+              "title": "Sustainable and ESG finance",
+              "summary": "可持续金融把环境、社会与治理目标纳入融资与投资，绿色债券与 ESG 相关披露日益重要。",
+              "contentMd": "## 核心概念\n\n可持续金融（sustainable finance）把 ESG 纳入资本配置与风险管理，如绿色债券、社会责任投资与 ESG 披露。它既回应监管与投资者要求，也带来新的融资渠道与声誉回报，但需与回报权衡。\n\n## 常见考法\n\n分析可持续金融对融资与估值的影响。\n\n## 易错点\n\nESG 需与企业战略结合并真实可核验，避免漂绿。\n\n## 例子\n\n企业发行绿色债券融资环保项目，吸引重视气候影响的投资者。\n\n## 考试提醒\n\n把 ESG 作为“融资渠道+风险管理+估值因素”理解。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "AFM.10.2",
+              "title": "Fintech, digital currencies and new financing",
+              "summary": "金融科技、数字货币与新型融资（如 P2P、众筹、代币）改变融资与支付方式。",
+              "contentMd": "## 核心概念\n\n金融科技（fintech）与数字货币（如央行数字货币、加密货币）重塑支付、融资与投资。新型融资渠道（P2P 借贷、众筹、代币化资产）提供多元资金，但也伴随监管、波动与高风险。\n\n## 常见考法\n\n分析新技术对融资与财务风险的机遇与挑战。\n\n## 易错点\n\n新型融资快速但监管不全、波动大，需审慎评估。\n\n## 例子\n\n初创企业用股权众筹获取资金，便捷但需合规。\n\n## 考试提醒\n\n把“创新+风险+监管”作为新兴金融分析框架。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "AFM.10.3",
+              "title": "Impact of technology on the finance function",
+              "summary": "大数据、自动化与 AI 提升财务分析的效率与精度，重塑财务职能与决策模式。",
+              "contentMd": "## 核心概念\n\n技术（数据分析、自动化、AI）让财务预测更准、风险识别更早、报告更及时，财务职能从“记账”转向“业务伙伴与决策支持”。但需关注数据治理、模型风险与人才技能升级。\n\n## 常见考法\n\n分析技术对财务职能与决策的影响。\n\n## 易错点\n\n技术是工具，需结合专业判断与治理，避免过度依赖模型。\n\n## 例子\n\nAI 辅助现金流预测提升精度，但需人工复核关键假设。\n\n## 考试提醒\n\n把握“效率提升+角色转型+治理风险”三条影响主线。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Contemporary treasury and funding topics",
+          "points": [
+            {
+              "code": "AFM.10.4",
+              "title": "Concerns in treasury: fraud and controls",
+              "summary": "资金管理面临舞弊与安全风险，需健全内控与审批。",
+              "contentMd": "## 核心概念\n\n资金管理易受舞弊（付款欺诈、伪造指令）与网络安全威胁。防范措施包括职责分离、严格授权、付款核验、防钓鱼培训与异常监控，确保资金安全。\n\n## 常见考法\n\n识别资金舞弊风险与防范控制。\n\n## 易错点\n\n付款环节的授权与复核是防舞弊的关键。\n\n## 例子\n\n企业要求大额付款由经理双人授权并电话回访核验收款方。\n\n## 考试提醒\n\n把“授权+复核+监控”作为资金防舞弊控制。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "AFM.10.5",
+              "title": "Environmental risk and the cost of capital",
+              "summary": "气候与环境风险影响企业估值与资本成本，需纳入财务决策。",
+              "contentMd": "## 核心概念\n\n气候与环境风险（physical & transition risk）影响资产价值、运营与合规，投资者日益把 ESG 风险纳入定价，环境表现差可能提高资本成本、限制融资。\n\n## 常见考法\n\n分析环境风险对资本成本或估值的影响。\n\n## 易错点\n\n环境风险是长期的、系统性的，会影响折现率与现金流。\n\n## 例子\n\n高碳排放企业融资成本上升，反映投资者对转型风险的定价。\n\n## 考试提醒\n\n把“环境风险→现金流/估值/成本”纳入财务分析。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "AFM.10.6",
+              "title": "Future of financial management",
+              "summary": "财务管理的未来趋势：更智能、更可持续、更整合战略与风险管理。",
+              "contentMd": "## 核心概念\n\n未来财务管理趋势包括：智能化与数据驱动的决策、可持续与 ESG 整合、战略与财务的深度融合、以及更敏捷与风险意识强的资本配置。财务管理者需兼具技术与战略思维。\n\n## 常见考法\n\n讨论财务管理的发展趋势与能力要求。\n\n## 易错点\n\n技术无法替代专业判断与伦理责任。\n\n## 例子\n\n财务团队利用实时数据与分析做动态资本配置，实现敏捷财务。\n\n## 考试提醒\n\n把“智能化+可持续+战略整合”作为未来趋势主线。",
+              "standardReference": "ACCA AFM",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

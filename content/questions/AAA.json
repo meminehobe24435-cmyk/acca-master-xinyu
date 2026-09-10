@@ -1,0 +1,52 @@
+[
+  {
+    "paper": "AAA",
+    "variant": "GLO",
+    "chapterCode": "06",
+    "topicTitle": "Audit report and opinions",
+    "kpTitle": "Types of modified opinions (ISA 705)",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 4,
+    "textMd": "The auditor of X Co obtains sufficient appropriate evidence that an inventory misstatement of £5 million exists. The misstatement is material to the statement of financial position but does not affect other financial statement areas and is not otherwise pervasive. Management refuses to correct the misstatement. Which type of opinion should the auditor issue?\n\nA. An unmodified (clean) opinion\nB. A qualified ('except for') opinion\nC. An adverse opinion\nD. A disclaimer of opinion",
+    "options": [
+      { "key": "A", "text": "An unmodified (clean) opinion", "isCorrect": false, "feedbackMd": "错误：存在重大但非广泛的错报且未被更正，不能给出无保留意见。" },
+      { "key": "B", "text": "A qualified ('except for') opinion", "isCorrect": true, "feedbackMd": "正确：错报重大但仅影响特定项目、不广泛，未被更正→应出具保留意见（qualified 'except for'）。" },
+      { "key": "C", "text": "An adverse opinion", "isCorrect": false, "feedbackMd": "错误：否定意见适用于“重大且广泛”且存在重大错报，本题错报不广泛，应为保留意见。" },
+      { "key": "D", "text": "A disclaimer of opinion", "isCorrect": false, "feedbackMd": "错误：无法表示意见适用于审计范围严重受限且广泛；本题是已发现的重大错报，并非范围受限。" }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n按 ISA 705，审计意见类型由“是否具有广泛性（pervasiveness）”与“是存在重大错报还是范围受限”决定。当存在重大错报但**不广泛**（仅影响存货等特定项目）且未被更正时，应出具保留意见（qualified 'except for'）。本题错报金额重大，但只涉及存货、不影响其他报表领域，属于重大但不广泛，故为保留意见。\n\n## 对应知识点\n\nAAA 第 6 章：审计报告与修改意见（ISA 700/705）。\n\n## 其他选项分析\n\nA 无保留意见在有重大未更正错报时不可能；C 否定意见要求错报“重大且广泛”；D 无法表示意见针对范围受限且广泛。B 正确匹配了“重大但不广泛”的情形。\n\n## 易错提醒\n\n区分两个维度：“重大性（materiality）”影响是否修改意见，“广泛性（pervasiveness）”决定修改的种类（qualify vs adverse/disclaimer）。\n\n## 考试技巧\n\n先判断是“存在重大错报”还是“范围受限”，再判断“是否广泛”：\n- 重大+不广泛 → 保留（qualified）\n- 重大+广泛（错报）→ 否定（adverse）\n- 重大+广泛（范围受限）→ 无法表示（disclaimer）。",
+    "marks": 2,
+    "estimatedTimeSec": 200,
+    "taxYear": null,
+    "standardReference": "ISA 705 / ISA 700",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  },
+  {
+    "paper": "AAA",
+    "variant": "GLO",
+    "chapterCode": "04",
+    "topicTitle": "Group audit considerations",
+    "kpTitle": "Group audit and component auditors",
+    "type": "SINGLE_CHOICE",
+    "difficulty": 5,
+    "textMd": "A group auditor plans to use the work of a component auditor for a significant component of the group. Which of the following best reflects the group auditor's responsibilities?\n\nA. The group auditor may rely on the component auditor's report without any evaluation of their work\nB. The group auditor must evaluate the component auditor's competence and objectivity, and direct and review the component auditor's work\nC. The component auditor takes responsibility for the group audit opinion on the consolidated financial statements\nD. The group auditor must re-perform all of the component auditor's procedures",
+    "options": [
+      { "key": "A", "text": "The group auditor may rely on the component auditor's report without any evaluation of their work", "isCorrect": false, "feedbackMd": "错误：集团审计师必须评价组成部分审计师的胜任能力与独立客观性，并指导复核其工作，不能无视就依赖。" },
+      { "key": "B", "text": "The group auditor must evaluate the component auditor's competence and objectivity, and direct and review the component auditor's work", "isCorrect": true, "feedbackMd": "正确：集团审计师需评估组成部分审计师的胜任能力与客观性，并对其工作加以指导与复核，确保证据充分适当。" },
+      { "key": "C", "text": "The component auditor takes responsibility for the group audit opinion on the consolidated financial statements", "isCorrect": false, "feedbackMd": "错误：对集团报表的意见由集团审计师负责，组成部分审计师不承担集团审计意见责任。" },
+      { "key": "D", "text": "The group auditor must re-perform all of the component auditor's procedures", "isCorrect": false, "feedbackMd": "错误：集团审计师无需重新执行全部程序，而是评价并必要时复核其工作，重点在重大组成部分与重要判断。" }
+    ],
+    "answerJson": "[\"B\"]",
+    "explanationMd": "## 正确答案\n\nB\n\n## 为什么\n\n在集团审计（group audit）中，集团审计师对集团报表意见负有最终责任。当利用组成部分审计师的工作时，集团审计师须：评价组成部分审计师的胜任能力与独立客观性、了解其工作、向其明确指令（如重要性、范围）、并复核其关键工作，以取得充分适当的证据。不能盲目依赖，也无需重做全部程序。\n\n## 对应知识点\n\nAAA 第 4 章：集团审计与组成部分审计师（ISA 600）。\n\n## 其他选项分析\n\nA 完全依赖而不评估是错误的；C 把集团意见责任转移给组成部分审计师，违背责任归属；D 要求重做全部程序过度且不必要。B 正确体现集团审计师“评估+指导+复核”的职责。\n\n## 易错提醒\n\n集团审计师对集团意见负最终责任，组成部分审计师只是提供证据；依赖他人工作不等于放弃评价与复核。\n\n## 考试技巧\n\n记住集团审计要点：主审审计师“评估胜任与客观→下达指令→复核工作→确定是否可依赖”。凡说“直接相信”“转由组成部分负责”“重做全部”都属错。",
+    "marks": 2,
+    "estimatedTimeSec": 200,
+    "taxYear": null,
+    "standardReference": "ISA 600",
+    "sourceType": "original_ai_generated",
+    "sourceName": "ACCA Master 原创演示题",
+    "copyrightStatus": "original"
+  }
+]

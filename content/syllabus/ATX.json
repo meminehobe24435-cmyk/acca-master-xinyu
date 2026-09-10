@@ -1,0 +1,593 @@
+{
+  "code": "ATX",
+  "name": "Advanced Taxation",
+  "nameCn": "高级税务",
+  "level": "STRATEGIC_PROFESSIONAL",
+  "category": "OPTIONS",
+  "order": 14,
+  "accent": "#ef4444",
+  "description": "面向高级税务（UK 2025/26）的公司税、个税、资本利得税、遗产税与增值税的计算与税务筹划。",
+  "examDurationMin": 195,
+  "examConfig": {
+    "sections": [
+      {
+        "id": "A",
+        "name": "Section A - Case Question",
+        "scope": "案例题",
+        "count": 2,
+        "marksPerQuestion": 25,
+        "sectionMarks": 50
+      },
+      {
+        "id": "B",
+        "name": "Section B - Constructed Response (2 of 3)",
+        "scope": "主观题",
+        "count": 2,
+        "marksPerQuestion": 25,
+        "sectionMarks": 50
+      }
+    ]
+  },
+  "variants": [
+    {
+      "code": "UK",
+      "label": "United Kingdom",
+      "region": "UK"
+    }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "UK Tax System: Administration and Ethics",
+      "description": "理解英国税收体系、税种结构与纳税人义务，以及税务专业人员的道德责任。",
+      "topics": [
+        {
+          "title": "The UK tax system",
+          "points": [
+            {
+              "code": "ATX.1.1",
+              "title": "Structure of the UK tax system",
+              "summary": "英国税制由 HMRC 管理，分为所得税、公司税、资本利得税、遗产税与增值税等税种。",
+              "contentMd": "## 核心概念\n\n英国税收由 HMRC（HM Revenue & Customs）征收管理，主要税种包括：所得税（Income Tax）、公司税（Corporation Tax）、资本利得税（Capital Gains Tax, CGT）、遗产税（Inheritance Tax, IHT）、增值税（VAT）与国民保险（NIC）。\n\n## 常见考法\n\n识别不同收入/交易的课税税种，或说明税制结构。\n\n## 易错点\n\n不同收入（就业、投资、资本利得）适用不同税种与税率。\n\n## 例子\n\n薪酬征所得税与 NIC，出售资产征资本利得税。\n\n## 考试提醒\n\n把“人/交易→税种”对应，是税务题的基础判断。",
+              "standardReference": "UK Tax System",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.1.2",
+              "title": "Tax administration and compliance",
+              "summary": "纳税人须自我评估申报、按期缴税，HMRC 通过审查与处罚保障合规。",
+              "contentMd": "## 核心概念\n\n英国实行自我评估（self-assessment）体系，纳税人须及时申报与缴税。HMRC 通过审查（enquiry）与处罚（penalties）确保合规；逾期申报与缴税会产生罚款与利息。\n\n## 常见考法\n\n说明申报与缴税期限，或识别合规违规处罚。\n\n## 易错点\n\n不同税种的申报与缴税期限不同。\n\n## 例子\n\n个人收到有利的税务申报提醒后按时提交申报。\n\n## 考试提醒\n\n把“申报+缴税+处罚”作为税务合规三条线。",
+              "standardReference": "HMRC Administration",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.1.3",
+              "title": "Ethics and professional duties in tax",
+              "summary": "税务专业人员须诚信执业、纳税申报真实完整，并保护客户机密与公众利益。",
+              "contentMd": "## 核心概念\n\n税务专业人员遵循基本道德原则（诚信、客观、专业胜任、保密、专业行为），须确保申报真实合规、不协助逃税，并平衡客户利益与公众（税收）利益。\n\n## 常见考法\n\n识别税务处理中的伦理风险或不当行为。\n\n## 易错点\n\n协助客户规避义务（avoidance/evasion）会违背道德与法律。\n\n## 例子\n\n客户要求虚报支出，会计师拒绝并说明法律与道德后果。\n\n## 考试提醒\n\n把“诚信+真实申报+公众利益”作为税务职业道德底线。",
+              "standardReference": "ACCA Code of Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Personal tax framework (2025/26)",
+          "points": [
+            {
+              "code": "ATX.1.4",
+              "title": "Income tax rates and allowances",
+              "summary": "2025/26 所得税基础税率 20%、高税率 40%、附加税率 45%；个人免税额约 £12,570，超出部分分级课税。",
+              "contentMd": "## 核心概念\n\n2025/26 英国所得税税率：基础档（basic rate）20%、高档（higher rate）40%、附加档（additional rate）45%，适用于超过个人免税额（personal allowance，约 £12,570）的应税所得。超过 £100,000 的收入会逐步减少个人免税额。\n\n## 常见考法\n\n计算个人应纳税所得与所得税。\n\n## 易错点\n\n免税额按收入级距调整，高收入者免税额减少。\n\n## 例子\n\n应税所得 50,000，免税额 12,570，则 37,430 按 20% 计 7,486。\n\n## 考试提醒\n\n用“应税所得=总收入−免税额−扣除”分层计税。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.1.5",
+              "title": "Employment vs self-employment income",
+              "summary": "就业收入（Employment）与自雇收入（Self-employment）的课税与申报不同。",
+              "contentMd": "## 核心概念\n\n就业收入（employment income）来自雇佣关系，雇主代扣 PAYE；自雇/营业利润（self-employment/trading income）按营业利润征税。判断就业或自雇影响税率、扣除与申报。\n\n## 常见考法\n\n判断某收入属性，或区分两类收入的课税。\n\n## 易错点\n\n是否存在雇佣/自雇关系影响 NIC 与申报义务。\n\n## 例子\n\n合同工若具有自雇特征，按营业利润课税。\n\n## 考试提醒\n\n把“收入来源→税种与申报方式”对应判断。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.1.6",
+              "title": "Investment income and savings",
+              "summary": "利息、股利等投资收入按所得税课税并享受相应免税额与税率。",
+              "contentMd": "## 核心概念\n\n投资收入（investment income）包括利息（savings income）与股利（dividend income）。利息收入享有 0% 的起始税率带（savings nil rate）且受税率高低影响；股利收入适用 0%/8.75%/33.75%/39.35% 等税率（随档级）。\n\n## 常见考法\n\n计算利息与股利的税额。\n\n## 易错点\n\n股利与利息适用不同税率与免税额。\n\n## 例子\n\n股利超过股利免税额后按对应档税率计。\n\n## 考试提醒\n\n区分“就业/利息/股利”三类收入的税率结构。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Corporation Tax: Advanced",
+      "description": "掌握公司税的计算、资本调整、集团纳税与海外业务，以及专营公司的特殊处理。",
+      "topics": [
+        {
+          "title": "Corporation tax computation",
+          "points": [
+            {
+              "code": "ATX.2.1",
+              "title": "Corporation tax computation (2025/26)",
+              "summary": "公司税按会计利润调整后的应税利润计算，2025/26 主税率 25%，低利润适用 19%。",
+              "contentMd": "## 核心概念\n\n公司税（Corporation Tax, CT）以会计折旧调整后的“应税总利润（taxable total profits）”计算，加回不可扣减项目（如折旧、娱乐费）并减去资本免税额（capital allowances）。2025/26 公司税主税率 25%；利润不超 £50,000 的“低利润”适用 19%（小型利润率区间按边际税率在 19%~25% 间）。\n\n## 常见考法\n\n从会计利润调整计算应税利润与企业所得税。\n\n## 易错点\n\n须加回不允许抵扣的折旧与费用，并扣减资本免税额。\n\n## 例子\n\n会计利润 400,000，加回折旧 30,000，减资本免税额 20,000，应税利润 410,000。\n\n## 考试提醒\n\n按“会计利润→加回→减资本免税额→应税利润→税率”递进。",
+              "standardReference": "UK Corporation Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.2.2",
+              "title": "Capital allowances",
+              "summary": "资本免税额（资本折旧）按资产类别提供，年度投资免税额（AIA）与写作免税额可加速抵扣。",
+              "contentMd": "## 核心概念\n\n资本免税额（capital allowances）替代会计折旧在税前列支，包括：年度投资免税额（Annual Investment Allowance, AIA）对多数工厂机械支出（一定限额内）当年抵扣、写作免税额（writing down allowances）按 18%/6% 递减、以及汽车按排放适用不同费率。\n\n## 常见考法\n\n计算某期的资本免税额总额。\n\n## 易错点\n\nAIA 有年度限额且不适用所有资产（如轿车）；写作免税额在 ALA（main pool）18%、special rate pool 6%。\n\n## 例子\n\n新车间的工厂机械支出 200,000，可在 AIA 限额内当年抵免。\n\n## 考试提醒\n\n把资产分类并按“AIA+写作免税额”计算。",
+              "standardReference": "UK Capital Allowances",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.2.3",
+              "title": "Losses relief for companies",
+              "summary": "公司亏损可用多种方式抵减（如当期集团或前后期），需分析最佳利用。",
+              "contentMd": "## 核心概念\n\n公司亏损（trading losses）可向前结转（carry forward）抵减未来同业务利润；也可申请向前追溯（carry back）抵减前期利润（受限），或在集团内通过集团减免（group relief）转移给其他集团公司。选择最优减免方式能降低整体税负。\n\n## 常见考法\n\n选择亏损的最佳抵减方式并计算利用。\n\n## 易错点\n\n集团减免（group relief）要求 75% 集团关系与其他条件。\n\n## 例子\n\n亏损公司在集团内把亏损转移给盈利公司抵税。\n\n## 考试提醒\n\n把“结转/追溯/集团减免”作为亏损利用的三条路径。",
+              "standardReference": "UK Corporation Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Groups and overseas",
+          "points": [
+            {
+              "code": "ATX.2.4",
+              "title": "Corporate groups and group relief",
+              "summary": "集团内公司可相互转让亏损（集团减免），并处理集团内部交易与转让定价。",
+              "contentMd": "## 核心概念\n\n公司集团满足 75% 关系等条件可进行集团减免（group relief），把亏损从亏损公司转让给盈利公司。集团内部交易须遵循独立交易原则（arm's length），转让定价（transfer pricing）不符合将被 HMRC 调整，并可能涉及分账支付（diverted profits tax）等特殊规定。\n\n## 常见考法\n\n评估集团减免条件或分析转让定价的影响。\n\n## 易错点\n\n集团减免需满足持股比例与同集团条件，且受反避税约束。\n\n## 例子\n\n母公司控股 80% 的子公司亏损可集团减免给母公司的盈利。\n\n## 考试提醒\n\n把“75% 集团+亏损转移+独立交易原则”作为集团纳税要点。",
+              "standardReference": "UK Corporation Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.2.5",
+              "title": "Overseas aspects of corporation tax",
+              "summary": "海外利润、海外税收抵免与转让定价在跨国集团间产生复杂税务问题。",
+              "contentMd": "## 核心概念\n\n英国公司按居民身份对全球利润征税，海外利润可申请海外税收抵免（foreign tax credit）避免双重征税。跨国集团需处理海外分支、受控外国公司（CFC）与转让定价，并考虑海外税负与英国税负的衔接。\n\n## 常见考法\n\n处理海外利润或双重征税的抵免。\n\n## 易错点\n\n海外税负不一定可全额抵免，需按分国限额判断。\n\n## 例子\n\n海外利润已纳当地税，可在英国税中申请抵免。\n\n## 考试提醒\n\n把“全球征税+税收抵免+海外分支”纳入跨国税处理。",
+              "standardReference": "UK Corporation Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.2.6",
+              "title": "Closed companies and close investment companies",
+              "summary": "封闭公司（close companies）股权集中于少数人，相关贷款与投资有特殊税务规定 (如 S455 税)。",
+              "contentMd": "## 核心概念\n\n封闭公司（close company）指被少数“参与人”控制的公司。参与人（participators）取得的贷款可能触发公司税（如信贷公司给股东的某些贷款适用补充税），封闭投资公司（close investment-holding company, CIC）不享小型公司税率优惠，适用 25%（如适用）。\n\n## 常见考法\n\n识别封闭公司并处理特殊税务规则。\n\n## 易错点\n\nCIC 不适用 19% 低利润率，且股东贷款会触发 S455 税。\n\n## 例子\n\n股东向公司借款，公司可能被要求缴纳 S455 附加税。\n\n## 考试提醒\n\n把“封闭公司+股东贷款+适用税率”作为专项考点。",
+              "standardReference": "UK Corporation Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Income Tax: Employment and Investment",
+      "description": "掌握就业收入、福利、股份激励与养老金的个税处理，以及投资收入课税。",
+      "topics": [
+        {
+          "title": "Employment income and benefits",
+          "points": [
+            {
+              "code": "ATX.3.1",
+              "title": "Employment income and benefits in kind",
+              "summary": "就业收入含薪酬与各项实物福利（benefits in kind），多数按现金等值计税。",
+              "contentMd": "## 核心概念\n\n就业收入包括工资、奖金与实物福利（如公司车、医疗、贷款）。多数实物福利按“现金等值（cash equivalent）”课税；公司车、低息贷款等有专门计税规则。部分免税福利（如某些育儿、通勤）不课税。\n\n## 常见考法\n\n计算实物福利的应税金额。\n\n## 易错点\n\n不同福利适用不同计税规则（如公司车按价值与排放）。\n\n## 例子\n\n低息贷款按“官方利率与实际利息差”计应税福利。\n\n## 考试提醒\n\n把“福利类型→计税规则”对应记忆。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.3.2",
+              "title": "Share schemes and share-based remuneration",
+              "summary": "股份激励（选项、购股计划）在授予、行权或售出环节触发个税与 NIC。",
+              "contentMd": "## 核心概念\n\n股份激励（share schemes）包括企业购股权（EMI、CSOP）、股份购买计划（SIP）等。一般行权时按“市价−行权价”计所得（若市价低于行权价可能不税），出售时按资本利得处理；符合条件计划（如 EMI）享有税务优惠。\n\n## 常见考法\n\n判断股份激励在何时、按何金额征税。\n\n## 易错点\n\n行权时的“折价”视为所得，出售价为资本利得。\n\n## 例子\n\n员工以 2 元行权市场价 6 元的股票，行权时应税所得 4 元/股。\n\n## 考试提醒\n\n把“行权折价=所得、售出增值=CGT”区分。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.3.3",
+              "title": "Pensions and tax reliefs",
+              "summary": "养老金缴款享受税收减免，退休提取与年金处理有专门规则。",
+              "contentMd": "## 核心概念\n\n养老金（pension）缴款通常可在个税中享受减免（按相对税率，受年度限额与终身限额约束）。提取养老金时可取免税现金（lump sum）并受终身免税额限制；年金或分期提取按所得课税。\n\n## 常见考法\n\n计算养老金的税收减免或提取税负。\n\n## 易错点\n\n超过年度缴款限额的部分可能失去减免或补税。\n\n## 例子\n\n员工向养老金缴款 4,000，按 20% 减免 800，实际成本 3,200。\n\n## 考试提醒\n\n把“缴款减免+提取税负+限额”作为养老金主线。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Investment income",
+          "points": [
+            {
+              "code": "ATX.3.4",
+              "title": "Savings and dividend income",
+              "summary": "利息与股利收入享有多项免税额并按档级课税。",
+              "contentMd": "## 核心概念\n\n利息收入（savings income）适用储蓄免税带（nil rate）与档级税率；股利收入（dividend income）适用股利免税额与 0%/8.75%/33.75% 等税率。两者在应税所得中按档级叠加课税。\n\n## 常见考法\n\n计算储蓄与股利收入的税额。\n\n## 易错点\n\n股利与利息适用不同税率与免税额。\n\n## 例子\n\n超出股利免税额的股利按应税档级税率计。\n\n## 考试提醒\n\n把“利息带+股利档级”分别计算再合计。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.3.5",
+              "title": "Property income and other income",
+              "summary": "房产出租、其他收入按净利课税，并适用相应申报。",
+              "contentMd": "## 核心概念\n\n房产收入（property income）按租金收入减相关可抵扣费用（如利息限制后）的净额课税；其他收入（如杂项、境外收入）也需纳入应税所得。\n\n## 常见考法\n\n计算房产出租的应税净所得。\n\n## 易错点\n\n住房购买利息的抵扣在本年度受限等因素影响净额。\n\n## 例子\n\n年租金 20,000 减费用 6,000，应税房产所得 14,000。\n\n## 考试提醒\n\n把“收入−费用”计算净所得，并注意借款利息限制。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.3.6",
+              "title": "Personal allowances and tax planning",
+              "summary": "利用个人免税额、税档与时间安排进行个税筹划，降低整体税负。",
+              "contentMd": "## 核心概念\n\n个人免税额（PA）、税档边界与收入时点安排用于筹划：把收入在年度间平滑、利用免税额与低税率档、合理分配夫妻间收入（配偶转移）、以及利用投资与养老金减免。\n\n## 常见考法\n\n提出个税筹划建议或计算节税。\n\n## 易错点\n\n高收入者免税额减少，筹划需考虑边际税率。\n\n## 例子\n\n夫妻把部分投资收入转移给低税率配偶，降低边际税率。\n\n## 考试提醒\n\n把“免税额+档级+平滑+转移”作为筹划工具。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Chargeable Gains: Advanced",
+      "description": "掌握资本利得税的计算、减免、重大持股减免与海外资产的处理。",
+      "topics": [
+        {
+          "title": "CGT computation and reliefs",
+          "points": [
+            {
+              "code": "ATX.4.1",
+              "title": "CGT computation (2025/26)",
+              "summary": "资本利得 = 处置收益 − 取得成本（含改善）− 年度免税额；2025/26 税率 18%/24%。",
+              "contentMd": "## 核心概念\n\n资本利得（chargeable gain）= 处置所得 − 取得成本与改善支出 − 减免额。每位纳税人每年享有年度免税额（annual exempt amount，2025/26 约 £3,000），按当年总利得抵扣。CGT 税率 2025/26：基础档 18%、高档 24%（对多数资产）。\n\n## 常见考法\n\n计算某资产的资本利得与 CGT。\n\n## 易错点\n\n年度免税额按“当年已实现利得总额”统一扣减。\n\n## 例子\n\n处置收益 40,000，成本 30,000，利得 10,000，减免税额 3,000，应税 7,000 按 18%。\n\n## 考试提醒\n\n按“收益−成本−免税额−税率”计算。",
+              "standardReference": "UK Capital Gains Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.4.2",
+              "title": "CGT reliefs: business asset reliefs",
+              "summary": "营业资产减免（如 BADR、holdover）可降低出售营业资产的税负。",
+              "contentMd": "## 核心概念\n\n营业资产减免（business reliefs）包括：营业处置减免（Business Asset Disposal Relief, BADR，对出售符合条件的营业资产适用较低税率与终身限额）、企业投资计划（EIS/SITR）资本利得减免、以及递延财产转让（holdover relief）等。\n\n## 常见考法\n\n判断某项资产能否享受营业资产减免。\n\n## 易错点\n\nBADR 对“符合条件营业资产”且满足持股/任职年限等要求。\n\n## 例子\n\n符合条件的小企业主出售公司股份，可适用 BADR 较低税率。\n\n## 考试提醒\n\n把“符合条件+年限+限额”作为 BADR 判断要点。",
+              "standardReference": "UK Capital Gains Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.4.3",
+              "title": "Substantial shareholding exemption (SSE)",
+              "summary": "符合条件重大持股的资本利得（SSE）可免税，激励企业重组与集团交易。",
+              "contentMd": "## 核心概念\n\n重大持股减免（Substantial Shareholding Exemption, SSE）规定，公司（投资方）处置在另一公司持股达到一定比例并持续满足持有条件的股份，其资本利得可免税。SSE 促进集团重组与资产剥离，但需满足持股比例与持有期限等条件。\n\n## 常见考法\n\n判断某项公司间股份处置能否适用 SSE。\n\n## 易错点\n\nSSE 主要针对公司（投资方）处置符合条件股份的利得，且要求持股比例与关系。\n\n## 例子\n\n母公司出售子公司股权（满足持股比例与年限），可适用 SSE 免税。\n\n## 考试提醒\n\n把“公司对+持股条件+持有期限”作为 SSE 判断关键。",
+              "standardReference": "UK Capital Gains Tax",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Offshore and complex gains",
+          "points": [
+            {
+              "code": "ATX.4.4",
+              "title": "Offshore assets and gains",
+              "summary": "海外资产利得需考虑居民身份、税收协定与递延/抵免安排。",
+              "contentMd": "## 核心概念\n\n英国居民的海外资产利得通常需纳税（基于居民身份征税）。处置海外资产可能触发英国 CGT，可用海外已纳税收抵免或通过税收协定避免双重征税；资金离境（remittance）等安排也影响利得确认。\n\n## 常见考法\n\n处理海外资产利得的课税与抵免。\n\n## 易错点\n\n海外资产利得可能受 remittance 基础与居留状态影响。\n\n## 例子\n\n英国居民出售海外房产，利得应纳税并可申请海外税抵免。\n\n## 考试提醒\n\n把“居民身份+抵免+协定”纳入海外利得处理。",
+              "standardReference": "UK Capital Gains Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.4.5",
+              "title": "Assets held at 31 March 1982 and indexation",
+              "summary": "历史取得资产的成本与指数化调整影响计价与利得计算。",
+              "contentMd": "## 核心概念\n\n对持有资产（尤其 1982 年 3 月 31 日前取得的资产），用 1982 年重估基准与指数化（indexation）调整成本，以减少通胀造成的虚增利得。个人已不适用指数化，但公司/特殊情形仍涉及（视规则）。\n\n## 常见考法\n\n处理历史资产成本与利得计算。\n\n## 易错点\n\n个人 2025/26 一般已不适用指数化，需注意规则的演变。\n\n## 例子\n\n老资产用 1982 年价值作为成本基准计算利得。\n\n## 考试提醒\n\n把“基准重估+调整成本”作为历史资产计价要点。",
+              "standardReference": "UK Capital Gains Tax",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "ATX.4.6",
+              "title": "CGT planning and interactions",
+              "summary": "利用年度免税额、时点、减免与基础调整规划资本利得。",
+              "contentMd": "## 核心概念\n\nCGT 筹划包括：利用年度免税额（在税率较低年份实现利得）、分批处置、利用 BADR/SSE 等减免、安排处置时点以落入低税率档、以及配偶间资产转移（触发或利用免税额）。\n\n## 常见考法\n\n提出 CGT 筹划建议或计算节税。\n\n## 易错点\n\n筹划需注意过户即“触发处置”，可能即时产生利得。\n\n## 例子\n\n在免税额内分批出售股份，降低整体 CGT。\n\n## 考试提醒\n\n把“免税额+时点+减免”作为 CGT 筹划工具箱。",
+              "standardReference": "UK Capital Gains Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Inheritance Tax",
+      "description": "掌握英国遗产税的计算、免税额、营业与农业资产减免、以及信托与转移筹划。",
+      "topics": [
+        {
+          "title": "IHT computation and reliefs",
+          "points": [
+            {
+              "code": "ATX.5.1",
+              "title": "Inheritance tax computation (2025/26)",
+              "summary": "遗产税按应税转移计，税率 40%（超出 nil rate band £325,000 的部分），转移区税率 20%。",
+              "contentMd": "## 核心概念\n\n遗产税（Inheritance Tax, IHT）对死亡时的遗产价值课税，也要对生前转移（chargeable lifetime transfers）计税。nil rate band（零税率带）为 £325,000；超出部分税率 20%（生前/转移）或 40%（死亡时）。夫妻/民事伴侣间转移免税，并可转移未使用的 nil rate band。\n\n## 常见考法\n\n计算遗产税（考虑 nil rate band 与配偶转移）。\n\n## 易错点\n\n死亡与生前转移的税率不同（40% vs 20%）；可转移的 nil rate band 增加可用额度。\n\n## 例子\n\n死亡时应税遗产 625,000，减 nil rate band 325,000，余 300,000 按 40% = 120,000。\n\n## 考试提醒\n\n用“应税转移−免税额−税率”计算，并注意配偶与农业/营业资产减免。",
+              "standardReference": "UK Inheritance Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.5.2",
+              "title": "Business property relief (BPR) and agricultural relief",
+              "summary": "营业资产减免（BPR）与农业资产减免（AR）可大幅减少课税遗产。",
+              "contentMd": "## 核心概念\n\n营业资产减免（Business Property Relief, BPR）对符合条件营业资产（如营业中的企业、某些未上市股份）在持有满 2 年后给予 50%~100% 减免。农业资产减免（Agricultural Property Relief, APR）对农业土地与建筑适用。二者能显著降低 IHT 负担。\n\n## 常见考法\n\n判断某项资产能否适用 BPR/APR，并计算减免后税负。\n\n## 易错点\n\nBPR 要求资产为“营业性”且满足持有年限，纯投资性资产通常不适用。\n\n## 例子\n\n符合条件的家族企业股份可享 BPR，减少遗产税。\n\n## 考试提醒\n\n把“营业性+持有年限+100%/50%”作为 BPR 判断关键。",
+              "standardReference": "UK Inheritance Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.5.3",
+              "title": "Lifetime transfers and nil rate band",
+              "summary": "生前转让（PET、CLT）与七年规则影响 IHT，转移与免税额安排是筹划核心。",
+              "contentMd": "## 核心概念\n\n生前转让（lifetime transfers）包括：潜在免税转移（Potentially Exempt Transfer, PET，若赠与人存活满 7 年则免税）与应课税转移（Chargeable Lifetime Transfer, CLT，立即计 IHT）。若赠与人 7 年内死亡，PET/CLT 可能按比例被纳入税基（taper relief）。\n\n## 常见考法\n\n分析生前转移的 IHT 处理（PET/CLT/taper）。\n\n## 易错点\n\nPET 若赠与人 7 年内死亡则需补税，且 taper relief 按年限降低税负。\n\n## 例子\n\n赠与人把大额财产转让并存活满 7 年，PET 免税。\n\n## 考试提醒\n\n用“PET/CLT+7 年规则+taper”组织生前转让分析。",
+              "standardReference": "UK Inheritance Tax",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Trusts and IHT planning",
+          "points": [
+            {
+              "code": "ATX.5.4",
+              "title": "Trusts and IHT",
+              "summary": "信托转移与受托人（Trust）在 IHT 下适用不同课税规则。",
+              "contentMd": "## 核心概念\n\n信托在 IHT 下有专门规则：设立信托可能构成 CLT；信托中的资产在特定事件（如每 10 年、转入）可能被课税。信托类型（相关/无关、利息类型）影响适用税率与减免。\n\n## 常见考法\n\n处理信托转移或受托持有资产的 IHT。\n\n## 易错点\n\n信托的 IHT 规则复杂，需按信托类型与事件判断。\n\n## 例子\n\n设立相关利益信托（受某些限制）可能触发 CLT。\n\n## 考试提醒\n\n把“信托类型+设立/周年/退出事件”作为信托 IHT 判断。",
+              "standardReference": "UK Inheritance Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.5.5",
+              "title": "IHT planning strategies",
+              "summary": "利用免税额、转移与减免进行 IHT 筹划，减少遗产税负担。",
+              "contentMd": "## 核心概念\n\nIHT 筹划包括：利用年度免税额与小型礼物豁免、转移财产并存活 7 年、利用 BPR/APR、利用配偶转移与未使用 nil rate band、以及通过信托与保险安排。\n\n## 常见考法\n\n提出 IHT 筹划建议或计算节税。\n\n## 易错点\n\n提前转移需承担“7 年规则”风险与放弃控制权。\n\n## 例子\n\n高资产个人通过生前赠予与 BPR 资产降低课税遗产。\n\n## 考试提醒\n\n把“免税额+转移+减免+信托/保险”作为筹划工具。",
+              "standardReference": "UK Inheritance Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.5.6",
+              "title": "IHT residence and anti-avoidance",
+              "summary": "住所（domicile）与反避税规则影响 IHT 课税范围与筹划。",
+              "contentMd": "## 核心概念\n\nIHT 课税范围与个人“住所（domicile）”密切相关，英国住所居民对全球资产征 IHT。反避税规则限制通过转移、信托或住所安排规避 IHT，筹划须在合规框架内。\n\n## 常见考法\n\n判断住所对 IHT 课税范围的影响。\n\n## 易错点\n\n“住所”不等同于国籍或居留，需专门判断。\n\n## 例子\n\n英国住所居民需对其全球资产缴纳 IHT。\n\n## 考试提醒\n\n把“住所+课税范围+反避税”作为高净值个人 IHT 要点。",
+              "standardReference": "UK Inheritance Tax",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Stamp Duty and VAT: Advanced",
+      "description": "掌握印花税（SDLT）与增值税（VAT）的计算、减免与申报要素。",
+      "topics": [
+        {
+          "title": "Stamp duty land tax (SDLT)",
+          "points": [
+            {
+              "code": "ATX.6.1",
+              "title": "SDLT computation",
+              "summary": "印花税土地税（SDLT）按土地/房产价值分段累进，居住与商业税率不同。",
+              "contentMd": "## 核心概念\n\nSDLT（Stamp Duty Land Tax）在购买英国土地或房产时按成交价分段累进课税，居住性房产与非居住性适用不同税率带。价税区间（如超过一定金额按更高税率）并考虑额外住宅（如附加费率）。\n\n## 常见考法\n\n计算某房产购买应缴 SDLT。\n\n## 易错点\n\nSDLT 是分段累进，而非全额乘税率；额外住宅适用附加费率。\n\n## 例子\n\n购买居住房 500,000，按分段税率计算累计 SDLT。\n\n## 考试提醒\n\n把“分段税率+档级+附加费率”作为 SDLT 计算要点。",
+              "standardReference": "UK SDLT",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.6.2",
+              "title": "VAT basics and registration",
+              "summary": "VAT 按销项减进项计，注册门槛与申报周期影响现金与合规。",
+              "contentMd": "## 核心概念\n\n增值税（VAT）对商品与服务征收，标准税率 20%。企业营业额超过自愿注册门槛须登记 VAT，申报时以销项税减进项税缴交差额。部分商品/服务适用较低税率（reduced rate 5%）或零税率（0%）。\n\n## 常见考法\n\n计算 VAT 缴税额或判断注册义务。\n\n## 易错点\n\nVAT 申报是“销项−进项”，且存在不同税率（标准/较低/零）。\n\n## 例子\n\n销项 VAT 12,000、进项 VAT 9,000，需缴 3,000。\n\n## 考试提醒\n\n把“税目税率+销项进项+注册”作为 VAT 框架。",
+              "standardReference": "UK VAT",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "VAT advanced and interactions",
+          "points": [
+            {
+              "code": "ATX.6.3",
+              "title": "VAT special schemes and supplies",
+              "summary": "部分交易（如持续供应、部分免税、跨区）有专门 VAT 规则。",
+              "contentMd": "## 核心概念\n\nVAT 的专门处理包括：部分免税企业按比例分摊进项税、持续供给（如资本资产）、跨区/出口零税率、以及特殊计划（如现金会计、分阶段付款）。这些影响可抵扣进项与申报。\n\n## 常见考法\n\n处理 VAT 专门规则或分摊进项。\n\n## 易错点\n\n部分免税企业需合理分摊不可直接归属的进项税。\n\n## 例子\n\n企业既有应税又免税销售，按比例分摊进项税抵扣。\n\n## 考试提醒\n\n把“抵扣+税率+专门计划”作为 VAT 进阶要点。",
+              "standardReference": "UK VAT",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "ATX.6.4",
+              "title": "Tax planning and compliance across taxes",
+              "summary": "跨税种筹划与合规整合（所得税、CGT、IHT、VAT）为复杂交易提供综合方案。",
+              "contentMd": "## 核心概念\n\n跨税种筹划把所得税、资本利得税、遗产税、印花税与增值税综合考量，处理家庭财富、企业出售与并购等复杂场景。需遵循反避税规则，在合规前提下优化整体税负。\n\n## 常见考法\n\n为复杂交易提出跨税种筹划方案。\n\n## 易错点\n\n忽视相互作用（如 CGT 与 IHT）会导致次优选择。\n\n## 例子\n\n出售家族企业时综合比较公司税、CGT 与 IHT 影响。\n\n## 考试提醒\n\n把“多税种协同+反避税+合规”作为税务筹划原则。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "International Taxation",
+      "description": "理解国际税务：居民身份、双重征税、转让定价与国际税收协定。",
+      "topics": [
+        {
+          "title": "International tax framework",
+          "points": [
+            {
+              "code": "ATX.7.1",
+              "title": "UK residence and the tax base",
+              "summary": "居民身份决定英国对全球所得/利得的课税范围。",
+              "contentMd": "## 核心概念\n\n英国对居民（UK resident）全球所得/利得征税；非居民仅对英国来源及有限资产征税。居民身份按法定测试（如住、居留天数与居住权）判断，对税收范围影响重大。\n\n## 常见考法\n\n判断居民身份并确定课税范围。\n\n## 易错点\n\n居民身份测试复杂，需综合居留与居住权等因素。\n\n## 例子\n\n英国居民须申报全球所得，非居民仅申报英国来源。\n\n## 考试提醒\n\n把“居民身份→课税范围”作为国际税起点。",
+              "standardReference": "UK International Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.7.2",
+              "title": "Double taxation relief and treaties",
+              "summary": "双重征税可通过税收抵免、免税或税收协定缓解。",
+              "contentMd": "## 核心概念\n\n避免双重征税机制包括：外国税收抵免（foreign tax credit, FTC）、免税法（exemption）与税收协定（double tax treaties）分配征税权与提供抵免/豁免。它确保同一收入不被重复课税。\n\n## 常见考法\n\n处理双重征税抵免或解释协定作用。\n\n## 易错点\n\nFTC 通常有限额限制（不能超过英国税负）。\n\n## 例子\n\n海外收入已纳当地税，可用 FTC 抵减英国税。\n\n## 考试提醒\n\n把“抵免/豁免+协定+限额”作为双重征税处理。",
+              "standardReference": "UK International Tax",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.7.3",
+              "title": "Transfer pricing and controlled foreign companies",
+              "summary": "转让定价与受控外国公司（CFC）规则防止跨国集团转移利润侵蚀税基。",
+              "contentMd": "## 核心概念\n\n转让定价（transfer pricing）要求关联交易符合独立交易原则（arm's length），否则 HMRC 可调整；受控外国公司（controlled foreign company, CFC）规则对英国母公司控制的低税海外子公司利润征税，防止利润转移。\n\n## 常见考法\n\n分析转让定价调整或 CFC 的影响。\n\n## 易错点\n\n转让定价与 CFC 是国际反避税的核心。\n\n## 例子\n\n英国母公司通过在低税地区设 CFC 转移利润，可能被纳入英国征税。\n\n## 考试提醒\n\n把“独立交易+CFC”作为转移利润反避税要点。",
+              "standardReference": "UK International Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Offshore structures",
+          "points": [
+            {
+              "code": "ATX.7.4",
+              "title": "Permanent establishment and overseas profits",
+              "summary": "常设机构与海外利润分配影响企业跨国经营的课税。",
+              "contentMd": "## 核心概念\n\n常设机构（permanent establishment, PE）使外国企业在一定条件下在英国（或其他）纳税。海外分支（branch）与子公司（subsidiary）的利润处理不同，影响税收、抵免与筹划。\n\n## 常见考法\n\n判断是否构成 PE，或处理海外利润课税。\n\n## 易错点\n\nPE 的判定取决于经营活动场所与实质。\n\n## 例子\n\n外国公司在英国设固定经营场所，可能构成英国 PE 需纳税。\n\n## 考试提醒\n\n把“PE+分支/子公司”作为跨国经营税结构要点。",
+              "standardReference": "UK International Tax",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "ATX.7.5",
+              "title": "International tax planning",
+              "summary": "国际税收筹划在合规与反避税框架下优化集团全球税负。",
+              "contentMd": "## 核心概念\n\n国际税收筹划包括：利用税收协定与避税天堂审慎安排、优化融资与转让定价、选择常设机构/子公司形式、以及处理利润汇回与抵免。须遵循 BEPS 与反避税规则。\n\n## 常见考法\n\n提出国际税收筹划建议或评估风险。\n\n## 易错点\n\n激进避税会触发 BEPS/反避税调整与处罚。\n\n## 例子\n\n集团通过合理融资结构降低全球有效税负，但需合规。\n\n## 考试提醒\n\n把“协定+结构+BEPS 合规”作为国际筹划原则。",
+              "standardReference": "UK International Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Tax Planning and Business Strategies",
+      "description": "把税务纳入商业战略，平衡税务效率与商业目标、风险与合规。",
+      "topics": [
+        {
+          "title": "Tax strategy and planning",
+          "points": [
+            {
+              "code": "ATX.8.1",
+              "title": "Tax strategies for business",
+              "summary": "税务策略需与商业战略一致，在合规前提下优化整体税负。",
+              "contentMd": "## 核心概念\n\n税务策略（tax strategy）围绕企业结构、资本结构、投资、融资、国际化与生命周期，在合法合规前提下降低税负并支撑商业目标。策略应结合商业模式与风险偏好。\n\n## 常见考法\n\n为某商业决策设计税务策略。\n\n## 易错点\n\n税务效率不能牺牲商业与合规目标。\n\n## 例子\n\n企业通过合理资本结构与地区布局优化税负。\n\n## 考试提醒\n\n把“商业+税负+合规+风险”作为策略设计维度。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.8.2",
+              "title": "Choice of business vehicle",
+              "summary": "企业组织形式（个体、合伙、公司）影响税负、社保与灵活度。",
+              "contentMd": "## 核心概念\n\n选择经营载体影响税负：个体/自雇按个税与 NIC；公司按公司税且可留利；合伙按合伙人分享计税。比较各载体的税负、社保、融资与灵活性后选择。\n\n## 常见考法\n\n比较不同经营载体的税务影响。\n\n## 易错点\n\n公司虽税率低，但利润分配时股东还需缴股利税。\n\n## 例子\n\n高利润企业可能选公司以享较低公司税，但需考虑股息税。\n\n## 考试提醒\n\n把“载体→税种+社保+分配税”综合比较。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.8.3",
+              "title": "Tax and investment decisions",
+              "summary": "投资决策需考虑税收（资本免税额、CGT、税盾）对净收益与项目价值的影响。",
+              "contentMd": "## 核心概念\n\n税收影响投资与项目评估：资本免税额影响税后现金流与企业税、资本利得税影响处置、利息税盾影响资本结构。税务现金流应纳入投资评估的现金流折现。\n\n## 常见考法\n\n把税收影响纳入投资决策评估。\n\n## 易错点\n\n投资评估须用“税后现金流”并考虑资本免税额。\n\n## 例子\n\n项目净现值计算考虑资本免税额带来的税收节约。\n\n## 考试提醒\n\n把“税后现金流+免税额+税盾”纳入投资评估。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Tax and business life cycle",
+          "points": [
+            {
+              "code": "ATX.8.4",
+              "title": "Tax planning for growth and exit",
+              "summary": "企业成长与退出（出售、继承）阶段需考虑公司税、CGT、IHT 与减免。",
+              "contentMd": "## 核心概念\n\n企业生命周期各阶段税务需求不同：成长阶段关注扩张投资与融资税；退出阶段（出售/传承）关注 CGT、BADR、公司税与 IHT 的协调。提前筹划能显著降低退出税负。\n\n## 常见考法\n\n分析企业成长或退出阶段的税务筹划。\n\n## 易错点\n\n退出时多种税（公司税、CGT、IHT）需统筹。\n\n## 例子\n\n创始人在出售企业前规划以享受 BADR 较低税率。\n\n## 考试提醒\n\n把“生命周期+税种协同+减免”作为筹划主线。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.8.5",
+              "title": "Anti-avoidance and risk management",
+              "summary": "税务筹划须在反避税与风险控制框架内，避免激进安排带来的处罚。",
+              "contentMd": "## 核心概念\n\n税务筹划须识别反避税规则（GAAR、披露义务等）与风险。激进或人为安排可能被 HMRC 挑战、加收处罚与利息，损害声誉。应坚持“以商业实质为基础、合规透明”的筹划原则。\n\n## 常见考法\n\n评估某筹划安排的风险或合规性。\n\n## 易错点\n\n缺乏商业实质的纯避税安排风险高。\n\n## 例子\n\n被认定避税的安排可能被调整并加处罚。\n\n## 考试提醒\n\n把“商业实质+合规+风险”作为筹划的底线。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Tax Computations: Case Studies",
+      "description": "综合运用公司税、个税、CGT、IHT 与 VAT 进行考试风格的税务计算与分析。",
+      "topics": [
+        {
+          "title": "Comprehensive computations",
+          "points": [
+            {
+              "code": "ATX.9.1",
+              "title": "Corporation tax case computation",
+              "summary": "综合公司税案例：从会计利润调整、资本免税额到集团与海外因素的完整计算。",
+              "contentMd": "## 核心概念\n\n公司税案例计算步骤：1) 以会计利润为起点；2) 加回不允许抵扣的费用（折旧、娱乐等）；3) 扣减资本免税额与免税项目；4) 调整集团减免与海外抵免；5) 按适用税率计算税额。\n\n## 常见考法\n\n给出公司账目与调整项，计算企业税。\n\n## 易错点\n\n条理清晰分步调整，避免漏加回或漏减免。\n\n## 例子\n\n会计利润 500,000，加回折旧 40,000，减资本免税额 30,000，集团减免 100,000，应税 410,000。\n\n## 考试提醒\n\n按“利润→调整→扣减→税率”递进，列明各项。",
+              "standardReference": "UK Corporation Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.9.2",
+              "title": "Income tax case computation",
+              "summary": "综合个税案例：汇总各类收入、扣除与免税额，按档级计算所得税。",
+              "contentMd": "## 核心概念\n\n个税案例计算：汇总就业、自雇、利息、股利等收入，减个人免税额与相关扣除，按所得额分层（基础/高档/附加档）计算各档税额并合计。注意股利与利息适用特定税率带。\n\n## 常见考法\n\n计算个人的所得税总额。\n\n## 易错点\n\n不同所得类型适用不同税率与带。\n\n## 例子\n\n总收入 70,000，免税额 12,570，应税 57,430，按 20%/40% 分档计算。\n\n## 考试提醒\n\n把“收入汇总→免税额→分档计税”作为步骤。",
+              "standardReference": "UK Income Tax",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "ATX.9.3",
+              "title": "CGT and IHT case computations",
+              "summary": "综合 CGT 与 IHT 案例：计算资本利得、年度免税额、减免与遗产税。",
+              "contentMd": "## 核心概念\n\nCGT 案例：计算处置利得、减年度免税额与营业/重大持股减免后按税率计。IHT 案例：计算应税转移、减 nil rate band（含配偶可转移部分）与 BPR/APR 后按 40%/20% 计税。\n\n## 常见考法\n\n计算资本利得税或遗产税并考虑减免。\n\n## 易错点\n\nCGT 与 IHT 的减免与免税额各有规则，需分别核对。\n\n## 例子\n\n应税遗产 500,000，减 nil rate band 325,000 与 BPR 部分，余按 40%。\n\n## 考试提醒\n\n按“利得/遗产→免税/减免→税率”计算，注意分步。",
+              "standardReference": "UK CGT / IHT",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Integrated analysis and advice",
+          "points": [
+            {
+              "code": "ATX.9.4",
+              "title": "Comparative tax outcomes",
+              "summary": "比较不同方案（载体的、结构的）的税负差异，为委托人提供建议。",
+              "contentMd": "## 核心概念\n\n综合案例中，比较不同安排（如个体 vs 公司、立即处置 vs 分批）的税后结果，识别税负差异与最优方案，并结合商业、现金流与风险给出建议。\n\n## 常见考法\n\n比较不同方案的税负并给出建议。\n\n## 易错点\n\n比较须计算净税后结果，非仅看税率。\n\n## 例子\n\n比较采取公司或个体经营的税后利润差异。\n\n## 考试提醒\n\n用“净税后结果+风险+现金流”支撑建议。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.9.5",
+              "title": "Advising on tax planning opportunities",
+              "summary": "识别筹划机会（减免、时点、结构），并在合规反避税框架下提出方案。",
+              "contentMd": "## 核心概念\n\n依据案例识别可用的税务减免与筹划机会（如资本免税额、BADR、BPR、养老金减免、年度免税额），评估其适用性、节税效果与风险，并向委托人提出建议。\n\n## 常见考法\n\n识别并建议税务筹划机会。\n\n## 易错点\n\n建议需证据充分、合规且考虑反避税。\n\n## 例子\n\n建议利用年度免税额与养老金减免降低个税/利得税。\n\n## 考试提醒\n\n把“识别机会→评估效果→合规建议”作为答题框架。",
+              "standardReference": "UK Tax Planning",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "ATX.9.6",
+              "title": "Exam-style integration and presentation",
+              "summary": "在时间压力下，清晰呈现计算的每一步、假设与结论。",
+              "contentMd": "## 核心概念\n\n考试需在限制时间内条理清晰：先列出相关规则与税率、再开展计算、最后给出结论与税务/商业建议，注意单位、税率与假设的标注。\n\n## 常见考法\n\n综合案例计算与建议。\n\n## 易错点\n\n漏项、税率使用错误与表述不清是常见失分点。\n\n## 例子\n\n列明税率（如 CT 25%、IHT 40%）并在计算中标注。\n\n## 考试提醒\n\n“标注税率+分步计算+结论建议”是答题质量关键。",
+              "standardReference": "UK Tax",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

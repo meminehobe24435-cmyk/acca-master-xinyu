@@ -1,0 +1,31 @@
+# ⭐🐟 ACCA Master — Render Blueprint（自托管方案，含 PostgreSQL 持久数据库）
+# 用法：Render Dashboard → New → Blueprint → 选择本仓库
+services:
+  - type: web
+    name: acca-master
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install && node scripts/prepare-postgres.mjs && npx prisma generate --schema prisma/schema.postgresql.prisma && npx next build
+    startCommand: npx prisma db push --schema prisma/schema.postgresql.prisma --skip-generate && npx tsx scripts/seed.ts && npx next start -p $PORT
+    healthCheckPath: /api/papers
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: acca-master-db
+          property: connectionString
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: AI_PROVIDER
+        sync: false
+      - key: NODE_VERSION
+        value: "22"
+
+databases:
+  - name: acca-master-db
+    plan: free
+    region: singapore
+    databaseName: acca_master
+    user: acca

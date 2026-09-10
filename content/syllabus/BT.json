@@ -1,0 +1,774 @@
+{
+  "code": "BT",
+  "name": "Business and Technology",
+  "nameCn": "商业与技术",
+  "level": "APPLIED_KNOWLEDGE",
+  "category": null,
+  "order": 1,
+  "accent": "#3b82f6",
+  "description": "面向商业与技术的入门科目，涵盖组织、利益相关者、宏观与微观环境、公司治理与道德、信息技术以及基础金融与市场营销。",
+  "examDurationMin": 120,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Objective Test Questions", "scope": "客观题", "count": 30, "marksPerQuestion": 2, "sectionMarks": 60 },
+      { "id": "B", "name": "Section B - OT Case Questions", "scope": "案例选择", "count": 20, "marksPerQuestion": 2, "sectionMarks": 40 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "Business Organisations, Stakeholders and Environment",
+      "description": "理解组织的类型、目的与利益相关者诉求，把握组织与外部环境的关系。",
+      "topics": [
+        {
+          "title": "Types and purposes of business organisations",
+          "points": [
+            {
+              "code": "BT.1.1",
+              "title": "Purpose of a business organisation",
+              "summary": "组织通过组合资源为所有者或社会创造价值，其目标随组织类型不同而不同。",
+              "contentMd": "## 核心概念\n\n企业组织（business organisation）是为了实现特定目标而将人力、资金、物资与信息等资源组织起来的系统。营利性组织的首要目标是利润最大化，但现实中会兼顾股东回报、顾客满意与员工福祉。非营利组织（如慈善机构、政府机构）目标更偏向社会价值而非财务利润。\n\n## 常见考法\n\n区分营利与非营利组织的首要目标，或判断某组织行为更符合哪一类目标（利润 vs 社会责任）。\n\n## 易错点\n\n不要把“利润最大化”当作所有组织唯一目标；很多组织（合作社、慈善基金）追逐社会或成员利益。\n\n## 例子\n\n一家连锁超市同时服务股东（分红）、顾客（低价商品）与员工（稳定雇佣），体现了多目标平衡。\n\n## 考试提醒\n\n识别组织宗旨时要结合其法律形式与成立动机，而非只看是否赚钱。",
+              "standardReference": "ACCA BT Business Organisations",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.1.2",
+              "title": "Legal structure of organisations",
+              "summary": "组织的法律形式决定其出资、责任、税负与持续经营方式，常见有独资、合伙与公司。",
+              "contentMd": "## 核心概念\n\n独资企业（sole trader）由个人拥有并对全部债务承担无限责任；合伙企业（partnership）由合伙人共同经营并按协议分担责任；有限公司（company）具有法人资格，股东以其出资额为限承担有限责任，因此公司可独立于所有者存续。\n\n## 常见考法\n\n比较不同法律形式的股东责任、融资能力与连续性，或判断某场景应选择何种组织形态。\n\n## 易错点\n\n“有限责任”只适用于公司股东，独资与普通合伙人均承担无限责任。\n\n## 例子\n\n张先生独自经营一家小餐馆，若餐馆欠债，张先生需以个人财产偿还，这是独资企业的典型特征。\n\n## 考试提醒\n\n先看清题干是“对谁担责”还是“如何融资”，再对应法律形式作答。",
+              "standardReference": "ACCA BT Business Organisations",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.1.3",
+              "title": "Stakeholders of an organisation",
+              "summary": "利益相关者是与组织利益相关的个人或群体，其诉求可能冲突，需要平衡管理。",
+              "contentMd": "## 核心概念\n\n利益相关者（stakeholders）指能影响组织或被组织影响的个人或群体。内部利益相关者如员工、管理层；外部利益相关者如股东、顾客、供应商、政府与社区。不同群体的诉求常相互矛盾，例如股东追求高股利而员工追求高薪酬。\n\n## 常见考法\n\n识别某群体属于哪类利益相关者，或分析公司某项决策满足了谁又损害了谁。\n\n## 易错点\n\n股东属于外部还是内部？在决策影响上通常视为外部资金提供者，但作为所有者其诉求优先。\n\n## 例子\n\n公司决定裁员以降低成本，满足了股东降本愿望，却损害了员工。\n\n## 考试提醒\n\n用“影响或被影响”判断归属，并注意股东与员工之间的典型利益冲突。",
+              "standardReference": "ACCA BT Business Organisations",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "The macro and micro environment of organisations",
+          "points": [
+            {
+              "code": "BT.1.4",
+              "title": "The external environment",
+              "summary": "组织的宏观环境包括政治、经济、社会、技术、法律与环境等因素，通常用 PESTEL 分析。",
+              "contentMd": "## 核心概念\n\nPESTEL 将外部环境分为政治（Political）、经济（Economic）、社会（Social）、技术（Technological）、环境（Environmental）与法律（Legal）六类。这些因素构成组织难以控制、只能适应的外部约束。\n\n## 常见考法\n\n判断某外部事件属于 PESTEL 的哪一类别，或评估某项环境变化对行业的影响。\n\n## 易错点\n\n经济因素（利率、通胀）常被误判为社会因素；法律与政治因素也容易混淆。\n\n## 例子\n\n政府上调最低工资属于政治/法律环境变化，会影响劳动密集型企业的人力成本。\n\n## 考试提醒\n\n牢记 PESTEL 六项缩写及其对应的事件类型。",
+              "standardReference": "ACCA BT Business Environment",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.1.5",
+              "title": "Micro environment: Porter's five forces",
+              "summary": "五力模型分析行业竞争强度，包含现有竞争者、新进入者、替代品、买方与供应商议价能力。",
+              "contentMd": "## 核心概念\n\n波特的五力（Porter's Five Forces）用于评估行业吸引力：现有竞争者的对抗、潜在进入者的威胁、替代品的威胁、买方的议价能力与供应商的议价能力。五力越强，行业盈利空间通常越小。\n\n## 常见考法\n\n识别某情境属于哪一种“力”，或判断某种因素如何影响行业竞争强度。\n\n## 易错点\n\n“新进入者威胁”与“替代品威胁”是两回事：替代品是用另一种方式满足同样的需求。\n\n## 例子\n\n网购平台让实体书店的客流下降，这是替代品威胁而非同业竞争。\n\n## 考试提醒\n\n先界定行业边界（卖什么、卖给谁），再套用五力建立分析的逻辑。",
+              "standardReference": "ACCA BT Business Environment",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.1.6",
+              "title": "Stakeholder mapping: the power/interest matrix",
+              "summary": "利益相关者矩阵按‘权力’与‘兴趣’两个维度定位群体，据此选择不同的管理策略。",
+              "contentMd": "## 核心概念\n\n权力/利益矩阵（power/interest matrix）将利益相关者分成四类：高权力高兴趣（关键参与者，需紧密管理）、高权力低兴趣（保持满意）、低权力高兴趣（保持知情）、低权力低兴趣（最小关注）。\n\n## 常见考法\n\n根据给定情境判断某利益相关者应采用何种策略，如“保持满意”或“紧密管理”。\n\n## 易错点\n\n“关键参与者”应对策略为紧密管理（manage closely），而不仅是“保持知情”。\n\n## 例子\n\n大股东拥有一票否决权且高度关注公司战略，属于高权力高兴趣的关键参与者。\n\n## 考试提醒\n\n先判断权力高低，再判断兴趣高低，两者组合决定策略。",
+              "standardReference": "ACCA BT Stakeholder Mapping",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Economic and competitive factors",
+          "points": [
+            {
+              "code": "BT.1.7",
+              "title": "Demand and supply",
+              "summary": "需求与供给决定价格与产量；均衡价格在供需相交处形成。",
+              "contentMd": "## 核心概念\n\n需求（demand）指消费者在给定价格下愿意购买的数量，价格越高需求通常越低；供给（supply）指生产者愿意提供的数量，价格越高供给通常越高。均衡出现在供需曲线相交处。\n\n## 常见考法\n\n判断价格变化或外生事件（如收入上升、成本下降）会如何移动供需曲线并影响均衡价格。\n\n## 易错点\n\n需求曲线移动（整条移动）与沿需求曲线移动（价格变动）不同；区分“移动”与“沿移动”是高频考点。\n\n## 例子\n\n消费者收入普遍上升使需求曲线右移，均衡价格与数量同时上升。\n\n## 考试提醒\n\n判断是整条曲线移动（收入、偏好变化）还是沿曲线移动（价格变化）。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.1.8",
+              "title": "The price mechanism and elasticity",
+              "summary": "价格机制通过价格信号协调资源配置，供求弹性决定价格变动对数量的敏感程度。",
+              "contentMd": "## 核心概念\n\n价格机制（price mechanism）通过价格升降自动调节供给与需求，把稀缺资源配置到最需要的用途。需求的价格弹性（price elasticity of demand）衡量价格变动引起需求变动的敏感度：弹性>1 为富有弹性，<1 为缺乏弹性。\n\n## 常见考法\n\n判断某商品需求是否富有弹性，或评价政府干预（如征税、限价）的实际影响。\n\n## 易错点\n\n弹性是“百分比之比”，不能用绝对数量变化直接判断。\n\n## 例子\n\n食盐需求几乎不受价格影响，属于缺乏弹性；奢侈品则富有弹性。\n\n## 考试提醒\n\n记住“弹性大=价格敏感”，并理解弹性能解释为何某些商品征税后销量变化不大。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.1.9",
+              "title": "Market structure and competition",
+              "summary": "市场结构从完全竞争到垄断决定企业的定价能力与竞争行为，垄断者拥有较高定价权。",
+              "contentMd": "## 核心概念\n\n市场结构（market structure）按竞争程度分类：完全竞争（大量小企业，价格接受者）、垄断竞争、寡头垄断（少数大企业）与垄断（单一供给者）。结构越偏向垄断，企业的定价权越强。\n\n## 常见考法\n\n判断给定行业属于哪种市场结构，或分析进入壁垒对竞争的影响。\n\n## 易错点\n\n寡头市场企业相互依赖，常出现价格战或合谋，这与完全竞争的独立性不同。\n\n## 例子\n\n电力传输这类自然垄断行业通常由政府监管，因为单一供给者拥有绝对定价权。\n\n## 考试提醒\n\n用“竞争者数量”与“进入壁垒”两个维度快速定位市场结构。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Business Structure and Culture",
+      "description": "介绍组织的功能、事业部、矩阵与虚拟结构，以及组织文化的类型与塑造。",
+      "topics": [
+        {
+          "title": "Organisational structure",
+          "points": [
+            {
+              "code": "BT.2.1",
+              "title": "Functional and divisional structure",
+              "summary": "功能结构按职能分工，事业部结构按产品/地区/顾客划分，两者在集权与专业化上各有侧重。",
+              "contentMd": "## 核心概念\n\n功能结构（functional structure）按营销、财务、生产等职能划分部门，利于专业化和规模经济，但跨部门协调较差；事业部结构（divisional structure）按产品、地区或顾客群划分，每个事业部可独立核算，利于快速响应但可能重复资源。\n\n## 常见考法\n\n比较功能结构与事业部结构的优缺点，或判断某企业按何种维度划分部门。\n\n## 易错点\n\n事业部结构下各单元相对独立，容易出现目标不一致或资源重叠。\n\n## 例子\n\n一家全国连锁餐饮企业按地域成立华东、华南事业部，方便适应当地口味。\n\n## 考试提醒\n\n记牢“功能=按职能专业化，事业部=按产品/地区/顾客独立”。",
+              "standardReference": "ACCA BT Organisational Structure",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.2.2",
+              "title": "Matrix and virtual organisation",
+              "summary": "矩阵结构同时按职能与项目交叉管理，虚拟组织通过外包与网络化协作降低固定成本。",
+              "contentMd": "## 核心概念\n\n矩阵结构（matrix structure）让员工同时归属职能线与项目线，资源利用灵活但存在“多头领导”问题。虚拟组织（virtual organisation）以网络与外包为核心，企业只保留核心能力，其余职能交由外部伙伴，因而灵活但对协调要求高。\n\n## 常见考法\n\n识别矩阵结构的双线汇报特征，或评价虚拟组织的效率与风险。\n\n## 易错点\n\n矩阵结构的最大弱点是权力模糊与冲突，而非成本高。\n\n## 例子\n\n一家咨询公司让顾问既隶属行业组又参与项目组，即矩阵结构。\n\n## 考试提醒\n\n“多头领导”是矩阵结构的标签，虚拟组织关键是“轻资产+强外包”。",
+              "standardReference": "ACCA BT Organisational Structure",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.2.3",
+              "title": "Centralisation and delegation",
+              "summary": "集权把决策权集中在上层，分权把决策权下放，二者影响效率、速度与员工激励。",
+              "contentMd": "## 核心概念\n\n集权（centralisation）是指决策权集中在高层，利于统一政策和控制但响应慢；分权（decentralisation）把决策权下放到较低层级，利于快速响应和员工授权，但可能削弱控制。授权（delegation）是管理者把任务与相应权力交给下属。\n\n## 常见考法\n\n判断某决策应集权还是分权，或评价授权带来的激励与风险。\n\n## 易错点\n\n授权不等于放弃责任，管理者仍对结果负责（accountability 不可让渡）。\n\n## 例子\n\n一家全球公司的总部把本地定价权下放给各国分部，属分权。\n\n## 考试提醒\n\n抓住“效率与控制vs速度与激励”的权衡主线。",
+              "standardReference": "ACCA BT Organisational Structure",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Organisational culture",
+          "points": [
+            {
+              "code": "BT.2.4",
+              "title": "Types of organisational culture",
+              "summary": "组织文化类型（权力、角色、任务、个人）反映价值观与行为方式，可由不同模型刻画。",
+              "contentMd": "## 核心概念\n\n组织文化（organisational culture）是成员共享的价值观、信念与实践。常见分类包括权力文化（围绕核心人物）、角色文化（依赖流程与规则）、任务文化（聚焦项目与结果）与个人文化（强调个人自由）。此外还有 Handy 的四类文化与 Hofstede 的国家文化维度。\n\n## 常见考法\n\n识别某企业的行为反映哪种文化类型，或分析文化对变革的阻力。\n\n## 易错点\n\n文化与正式结构不同：文化是无形的假定与习惯，不等于写在流程里的规则。\n\n## 例子\n\n一家强调流程严谨的银行多属角色文化；一家创新小公司多为任务文化。\n\n## 考试提醒\n\n把文化类型与“权力、规则、任务、个人”四个关键词对应记忆。",
+              "standardReference": "ACCA BT Organisational Culture",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.2.5",
+              "title": "How culture is formed and maintained",
+              "summary": "文化由创始人、领导示范、故事、仪式与奖励系统形成并维持。",
+              "contentMd": "## 核心概念\n\n文化的形成受创始人价值观、领导行为、榜样故事、公司仪式与制度（招聘、考核、奖励）共同塑造。领导者的言行是最有力的文化信号；奖励机制引导成员重视什么。\n\n## 常见考法\n\n分析某项管理制度如何强化或削弱既有文化，或判断文化为何难以改变。\n\n## 易错点\n\n文化改变缓慢，靠发布文件无法改变，须由领导示范与制度配合。\n\n## 例子\n\n一家公司常年表彰“守时”，员工逐渐形成守时习惯，这是奖励塑造文化。\n\n## 考试提醒\n\n“领导示范+制度奖励”是文化维持的关键抓手。",
+              "standardReference": "ACCA BT Organisational Culture",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.2.6",
+              "title": "National culture and its impact",
+              "summary": "国家文化维度（如权力距离、个人主义）塑造员工期望与跨国管理方式。",
+              "contentMd": "## 核心概念\n\nHofstede 的国家文化维度包括权力距离（对不平等的接受程度）、个人主义 vs 集体主义、男性气质 vs 女性气质、不确定性规避与长期导向。这些维度影响跨国企业的管理风格、沟通与激励。\n\n## 常见考法\n\n判断某种管理行为是否适配某国文化，或解释跨国公司为何需本地化。\n\n## 易错点\n\n国家文化是总体倾向，不等于每个个体都如此，避免以偏概全。\n\n## 例子\n\n在高权力距离国家，下属更习惯接受层级指令；低权力距离国家则偏好参与式领导。\n\n## 考试提醒\n\n记住“权力距离、个人主义、不确定性规避”这三个核心维度即可应对多数题。",
+              "standardReference": "ACCA BT National Culture",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Business functions and processes",
+          "points": [
+            {
+              "code": "BT.2.7",
+              "title": "Core business functions",
+              "summary": "企业核心职能包括营销、生产、财务、人力资源与研发，各职能需协同实现战略。",
+              "contentMd": "## 核心概念\n\n企业一般具备营销（了解并满足需求）、生产/运营（制造与交付）、财务（资金与核算）、人力资源（选育用留）与研发（创新）等职能。各职能相互依赖，协调不好会降低整体效率。\n\n## 常见考法\n\n识别某活动属于哪个职能，或分析职能间协同不足带来的后果。\n\n## 易错点\n\n质量管理不仅属于生产，也影响营销口碑与售后服务。\n\n## 例子\n\n营销部门承诺产品功能，研发部门未能实现，导致顾客不满，这是职能协同问题。\n\n## 考试提醒\n\n把职能与“价值创造链条”联系，理解协同的重要性。",
+              "standardReference": "ACCA BT Business Functions",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.2.8",
+              "title": "Process management and efficiency",
+              "summary": "流程管理通过标准化与持续改进提升效率，减少浪费并稳定质量。",
+              "contentMd": "## 核心概念\n\n业务流程管理（business process management）把工作视为一系列可分析、可优化的活动。通过流程标准化、自动化与改进工具（如精益、六西格玛）提升效率与质量。\n\n## 常见考法\n\n识别流程优化的目标（降本、提速、提质），或判断某项改进措施的作用。\n\n## 易错点\n\n流程优化不等于单纯裁员，关键是消除不增值活动。\n\n## 例子\n\n通过自动化订单处理把下单到发货时间从 3 天缩短到 1 天，属流程改进。\n\n## 考试提醒\n\n关注“消除浪费、标准化、授权一线”三个流程改进方向。",
+              "standardReference": "ACCA BT Process Management",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "BT.2.9",
+              "title": "Organisational size and life cycle",
+              "summary": "组织规模与所处生命周期阶段影响其结构复杂度和控制方式。",
+              "contentMd": "## 核心概念\n\n组织生命周期（成立、成长、成熟、衰退）不同阶段面临不同挑战：初创期依赖创始领导，成长期需要规范化制度，成熟期易僵化，衰退期需转型。规模越大，结构越复杂、协调成本越高。\n\n## 常见考法\n\n判断某企业在生命周期哪个阶段，或分析规模化带来的管理与控制问题。\n\n## 易错点\n\n成长过快常导致“管理失控”，这既是机会也是风险。\n\n## 例子\n\n一家初创公司随订单暴涨而快速扩张，却因缺乏制度而出现流程混乱。\n\n## 考试提醒\n\n将生命周期与“领导方式、制度、控制”的变化趋势对应理解。",
+              "standardReference": "ACCA BT Organisational Life Cycle",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "The Business Environment: Macro and Micro",
+      "description": "借助 PESTEL 分析宏观环境，借助供需与价格机制理解微观市场运作。",
+      "topics": [
+        {
+          "title": "PESTEL analysis",
+          "points": [
+            {
+              "code": "BT.3.1",
+              "title": "The PESTEL framework",
+              "summary": "PESTEL 从政治、经济、社会、技术、环境与法律六个维度扫描外部宏观环境。",
+              "contentMd": "## 核心概念\n\nPESTEL 是扫描宏观环境的结构化工具：政治（Political，如政府稳定、政策）、经济（Economic，如利率、通胀）、社会（Social，如人口结构、文化）、技术（Technological，如创新、自动化）、环境（Environmental，如可持续、资源）、法律（Legal，如法规、合规）。\n\n## 常见考法\n\n将给定事件归入某一维度，或指出 PESTEL 分析的价值在于提前识别机会与威胁。\n\n## 易错点\n\nPESTEL 描述的是外部趋势，不是企业内部优劣势（后者用 SWOT）。\n\n## 例子\n\n环保法规趋严属于环境+法律维度，会推高企业的合规成本。\n\n## 考试提醒\n\nPESTEL 只讲外部“机会与威胁”，与内部 SWOT 区分开。",
+              "standardReference": "ACCA BT PESTEL",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.3.2",
+              "title": "Applying PESTEL to business decisions",
+              "summary": "把 PESTEL 发现与战略决策对接，判断环境变化对行业机会与威胁的指向。",
+              "contentMd": "## 核心概念\n\nPESTEL 产出的是环境信号清单，企业需进一步判断每个信号是机会（opportunity）还是威胁（threat），并据此调整战略、投资或风险应对。\n\n## 常见考法\n\n给出某环境变化，判断其对企业是机会还是威胁，并说明影响路径。\n\n## 易错点\n\n同一环境变化对不同企业可能方向相反（如利率上升利好银行、不利高杠杆企业）。\n\n## 例子\n\n老龄化社会（社会因素）利好健康产业，却可能增加养老与医疗成本。\n\n## 考试提醒\n\n分析时要落到“对特定企业/行业的影响”，而非泛泛而谈。",
+              "standardReference": "ACCA BT PESTEL",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.3.3",
+              "title": "Limitations of PESTEL",
+              "summary": "PESTEL 提供宏观快照，但无法量化影响大小，也难反映动态变化与交互作用。",
+              "contentMd": "## 核心概念\n\nPESTEL 是定性扫描工具，其局限包括：无法量化各因素影响程度、难以捕捉快速变化、各因素可能相互作用（如技术改变社会行为）、可能过时。因此常需结合量化预测与情景分析。\n\n## 常见考法\n\n识别 PESTEL 的缺点，或解释为何单一工具不足以支撑重大决策。\n\n## 易错点\n\n不要以为 PESTEL 能给出明确“答案”，它只是在提供输入。\n\n## 例子\n\nPESTEL 显示“AI 技术兴起”，但无法自动告诉企业应投入多少研发资金。\n\n## 考试提醒\n\n回答局限时强调“定性、静态、难以量化与交互”。",
+              "standardReference": "ACCA BT PESTEL",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Microeconomic principles",
+          "points": [
+            {
+              "code": "BT.3.4",
+              "title": "Supply and demand in the market",
+              "summary": "供给与需求共同决定市场价格与交易数量，均衡在两者相交处实现。",
+              "contentMd": "## 核心概念\n\n需求曲线向下倾斜（价格降、需求升），供给曲线向上倾斜（价格升、供给升）。当价格高于均衡价存在过剩，低于均衡价存在短缺，市场通过价格调整回归均衡。\n\n## 常见考法\n\n计算或判断均衡价格与数量，或分析供需变动对均衡的影响。\n\n## 易错点\n\n把需求“增加”说成价格上升导致，其实是收入/偏好改变使整条曲线移动。\n\n## 例子\n\n咖啡豆歉收使供给减少，均衡价格上升、数量下降。\n\n## 考试提醒\n\n画供需图判断移动方向，是解答该类题的最快方法。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.3.5",
+              "title": "Price elasticity of demand",
+              "summary": "需求价格弹性衡量需求量对价格变动的敏感度，决定定价与营收策略。",
+              "contentMd": "## 核心概念\n\n需求价格弹性 = 需求量变化百分比 ÷ 价格变化百分比。弹性>1 为富有弹性，<1 为缺乏弹性，=1 为单一弹性。对富有弹性商品降价可增加总收入，对缺乏弹性商品提价可增加总收入。\n\n## 常见考法\n\n计算弹性值并判断商品弹性属性，或据此给定价建议。\n\n## 易错点\n\n弹性为负值，通常取绝对值比较大小。\n\n## 例子\n\n某商品价格上升 10%，需求下降 25%，弹性 = 25%/10% = 2.5，属于富有弹性。\n\n## 考试提醒\n\n记忆“薄利多销适用富有弹性，耐用品/必需品多为缺乏弹性”。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.3.6",
+              "title": "Income elasticity and cross elasticity",
+              "summary": "收入弹性衡量需求对收入变动的反应，交叉弹性衡量一种商品价格对另一种商品需求的影响。",
+              "contentMd": "## 核心概念\n\n需求收入弹性 = 需求量变化% ÷ 收入变化%，正常品为正、劣等品为负。交叉价格弹性 = 商品B需求量变化% ÷ 商品A价格变化%，正值表示替代品，负值表示互补品。\n\n## 常见考法\n\n判断两种商品是替代品还是互补品，或区分正常品与劣等品。\n\n## 易错点\n\n替代品交叉弹性为正，互补品为负，方向容易搞混。\n\n## 例子\n\n牛肉涨价后鸡肉需求上升（替代品，交叉弹性为正）；打印机降价后打印纸需求上升（互补品，交叉弹性为负）。\n\n## 考试提醒\n\n用“替代=同方向、互补=反方向”快速判断符号。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "The price mechanism and market failure",
+          "points": [
+            {
+              "code": "BT.3.7",
+              "title": "How the price mechanism allocates resources",
+              "summary": "价格在市场上向消费者与生产者传递稀缺信号，引导资源流向最需要的地方。",
+              "contentMd": "## 核心概念\n\n价格机制是自发的协调机制：价格上升表示稀缺加剧，促使生产者增产、消费者节约；价格下降则相反。它是市场经济配置资源的核心手段，无需中央指令。\n\n## 常见考法\n\n解释价格如何传递信号、激励生产与约束消费。\n\n## 易错点\n\n价格机制依赖竞争环境，竞争不完善时信号会失真。\n\n## 例子\n\n油价上涨促使人们节油并推动新能源研发，是价格信号的作用。\n\n## 考试提醒\n\n用“信号+激励”概括价格机制的两大作用。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.3.8",
+              "title": "Market failure and government intervention",
+              "summary": "当市场不能有效配置资源时出现市场失灵，政府可通过税收、补贴、法规等方式干预。",
+              "contentMd": "## 核心概念\n\n市场失灵（market failure）指市场无法实现帕累托最优，原因包括外部性（positive/negative externality）、公共品、垄断与信息不对称。政府可通过征税/补贴、价格管制、法规、提供公共品等工具矫正。\n\n## 常见考法\n\n识别某情形属于哪类市场失灵，或判断某政府干预措施的作用。\n\n## 易错点\n\n外部性既可能是负（污染）也可能是正（教育），干预方向相反。\n\n## 例子\n\n污染产生负外部性，政府对其征税可使企业产量回到社会最优水平。\n\n## 考试提醒\n\n把“外部性、公共品、垄断、信息不对称”列为市场失灵四来源。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.3.9",
+              "title": "Impact of government intervention on business",
+              "summary": "政府干预改变企业的成本结构与竞争环境，既可能带来合规成本也可能创造市场机会。",
+              "contentMd": "## 核心概念\n\n政府通过税收、补贴、最低工资、反垄断与环保法规影响企业。合规会增加成本，但补贴与行业政策也可能创造需求或保护本国产业，企业需动态适应。\n\n## 常见考法\n\n分析某项政策对企业成本、竞争力或市场的具体影响。\n\n## 易错点\n\n不能只看成本增加，也要看到政策带来的市场机会与保护。\n\n## 例子\n\n政府提供新能源补贴，降低了企业投资清洁技术的成本。\n\n## 考试提醒\n\n用“成本-机会”双视角评估政策影响。",
+              "standardReference": "ACCA BT Economics",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Corporate Governance and Ethics",
+      "description": "介绍公司治理的基本框架、控制机制与商业道德，强调利益相关者保护与诚信经营。",
+      "topics": [
+        {
+          "title": "Corporate governance framework",
+          "points": [
+            {
+              "code": "BT.4.1",
+              "title": "Purpose of corporate governance",
+              "summary": "公司治理通过制衡董事会、管理层与股东关系，保障公司被正确管理并对利益相关者负责。",
+              "contentMd": "## 核心概念\n\n公司治理（corporate governance）是指导和控制公司的制度安排，其目的是确保公司为股东及更广泛利益相关者的长期利益而运作，核心是权力制衡、问责（accountability）与透明（transparency）。\n\n## 常见考法\n\n解释治理为何重要（防滥用、提升信任、融资能力），或识别治理缺失的后果。\n\n## 易错点\n\n治理是“管理层对董事会负责、董事会对股东负责”的链条，不只是合规。\n\n## 例子\n\n安然等丑闻后加强治理监管，正是为了重建资本市场信任。\n\n## 考试提醒\n\n记住治理的四大支柱：问责、透明、公平、责任（stewardship）。",
+              "standardReference": "ACCA BT Corporate Governance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.4.2",
+              "title": "Board roles and the separation of powers",
+              "summary": "董事会负责战略与监督，管理层负责执行；独立董事与审计委员会强化监督制衡。",
+              "contentMd": "## 核心概念\n\n董事会（board）负责设定战略方向、任免管理层并监督其业绩；管理层负责日常经营。为防止权力滥用，治理框架强调“董事长与 CEO 分离”“独立非执行董事”“审计委员会/提名委员会/薪酬委员会”等制衡安排。\n\n## 常见考法\n\n判断某做法是否体现权力分离，或识别董事会与管理层的职责分工。\n\n## 易错点\n\n非执行董事的“独立性”是其价值的来源，独立性的削弱属治理缺陷。\n\n## 例子\n\n董事长与 CEO 由不同人担任，避免一人独揽决策与监督权。\n\n## 考试提醒\n\n把“独立性、分离、委员会”作为治理制衡的关键词。",
+              "standardReference": "ACCA BT Corporate Governance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.4.3",
+              "title": "Internal control as part of governance",
+              "summary": "内部控制为经营效率、财务报告可靠性与合规提供合理保证，是治理落地的重要机制。",
+              "contentMd": "## 核心概念\n\n内部控制（internal control）是实现治理目标的过程，涵盖控制环境、风险评估、控制活动、信息与沟通、监控五要素（COSO 框架）。良好的内控降低舞弊与差错，保障资产安全与报告可靠。\n\n## 常见考法\n\n识别内控缺失，或判断某控制活动属于哪一要素。\n\n## 易错点\n\n内控只能提供“合理保证”而非绝对保证，且成本需与收益平衡。\n\n## 例子\n\n财务报销需分级审批，属于控制活动中的授权控制。\n\n## 考试提醒\n\n掌握 COSO 五要素，并理解内控目标与合理保证的边界。",
+              "standardReference": "ACCA BT Internal Control",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Business ethics",
+          "points": [
+            {
+              "code": "BT.4.4",
+              "title": "Ethical principles in business",
+              "summary": "商业道德基于诚信、客观、正直与专业行为等原则，超越纯粹的法律合规。",
+              "contentMd": "## 核心概念\n\n商业道德（business ethics）涉及在经营中做“正确”的决定。ACCA 强调的基本道德原则包括诚信（integrity）、客观（objectivity）、专业胜任（professional competence）、保密（confidentiality）与专业行为（professional behaviour）。法律是最低标准，道德要求更高。\n\n## 常见考法\n\n判断某行为违背哪条道德原则，或识别合规与道德的差异。\n\n## 易错点\n\n“合法”不等于“合德”，道德要求常高于法律底线。\n\n## 例子\n\n营销中夸大疗效虽不一定违法，但违背诚信与专业行为原则。\n\n## 考试提醒\n\n把五大原则与具体场景对应，是道德题的核心解法。",
+              "standardReference": "ACCA BT Ethics",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.4.5",
+              "title": "The role of ethics in decision making",
+              "summary": "道德框架帮助管理者在利益冲突与灰色地带中做出负责任、可持续的决策。",
+              "contentMd": "## 核心概念\n\n道德决策框架通过澄清问题、识别受影响者、权衡后果与对照原则，帮助管理者处理利益冲突。组织可通过道德准则（code of conduct）、培训与举报机制构建道德文化。\n\n## 常见考法\n\n运用道德决策步骤分析某情形，或评价组织如何强化道德建设。\n\n## 易错点\n\n道德决策要考虑“长期信任与声誉”，不能只看短期利润。\n\n## 例子\n\n面对供应商行贿，坚持拒绝虽损失短期订单，但保护了企业声誉。\n\n## 考试提醒\n\n用“识别-分析-抉择-反思”四步组织道德题答案。",
+              "standardReference": "ACCA BT Ethics",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.4.6",
+              "title": "Corporate culture and ethical behaviour",
+              "summary": "强烈的道德文化使员工在无人监督时也选择正确行为，是道德治理的根基。",
+              "contentMd": "## 核心概念\n\n道德文化通过领导示范、明示价值观、奖惩机制与持续沟通塑造。当“做正确的事”成为组织默认习惯时，内部控制与合规成本更低，舞弊与丑闻概率更高。\n\n## 常见考法\n\n判断某组织文化是否促进道德行为，或提出强化道德文化的建议。\n\n## 易错点\n\n“上有政策下有对策”说明制度与文化若不匹配，道德仍会滑坡。\n\n## 例子\n\n高管拒绝虚假汇报并鼓励员工举报，逐步形成透明的道德文化。\n\n## 考试提醒\n\n把“领导示范+制度匹配”作为回答文化题的关键论点。",
+              "standardReference": "ACCA BT Business Ethics",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Governance codes and accountability",
+          "points": [
+            {
+              "code": "BT.4.7",
+              "title": "Codes of corporate governance",
+              "summary": "治理准则（如 UK Corporate Governance Code 等）通过“遵循或解释”提升公司治理水平。",
+              "contentMd": "## 核心概念\n\n治理准则（code of corporate governance）为董事会构成、委员会设置、风险与内控等提供最佳实践。许多准则采用“遵循或解释（comply or explain）”原则，公司若不遵循需向股东解释理由，从而在标准化与灵活性间取得平衡。\n\n## 常见考法\n\n解释“遵循或解释”机制，或判断某公司做法是否符合治理最佳实践。\n\n## 易错点\n\n治理准则通常不是强制性法律，而是自愿准则或交易所规则。\n\n## 例子\n\n某公司董事长兼任 CEO，须在年报中向股东说明原因与缓解措施。\n\n## 考试提醒\n\n掌握“遵循或解释”的内涵，是治理准则类题的核心。",
+              "standardReference": "ACCA BT Governance Codes",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.4.8",
+              "title": "Accountability to stakeholders",
+              "summary": "董事会对股东负责并透明披露，同时须回应员工、顾客与社会等广泛利益相关者。",
+              "contentMd": "## 核心概念\n\n问责（accountability）要求管理层定期向董事会汇报，董事会向股东报告经营成果并接受质询。近年治理理念扩展为“对更广泛利益相关者负责”，要求公司在追逐利润的同时承担环境与社会责任。\n\n## 常见考法\n\n识别公司应向谁负责，或判断某项披露是否体现了透明度。\n\n## 易错点\n\n问责需要在不同利益相关者之间权衡，难有唯一答案。\n\n## 例子\n\n公司年报披露薪酬与碳排放，体现了对股东与社会的双重问责。\n\n## 考试提醒\n\n“问责链条”从管理层到董事会再到股东，是社会期待的方向。",
+              "standardReference": "ACCA BT Accountability",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "BT.4.9",
+              "title": "Ethical conflicts of interest",
+              "summary": "利益冲突指个人利益与职业/公司利益相冲突，需通过披露、回避与制度性防护管理。",
+              "contentMd": "## 核心概念\n\n利益冲突（conflict of interest）可能出现在采购、亲属任用、关联交易等场景。处理方式包括如实披露、回避决策、建立防火墙制度与独立审批，防止个人动机损害公司或客户利益。\n\n## 常见考法\n\n识别某情形是否存在利益冲突，或给出处理该冲突的恰当措施。\n\n## 易错点\n\n只要“存在”冲突关系就可能构成风险，即使未实际受益。\n\n## 例子\n\n采购经理的亲属是供应商股东，即便价格公允，也应披露并回避。\n\n## 考试提醒\n\n回答利益冲突题，先识别冲突，再给出“披露+回避+制度”的应对。",
+              "standardReference": "ACCA BT Conflicts of Interest",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Corporate Social Responsibility",
+      "description": "探讨企业对利益相关者与社会环境的责任，以及可持续经营的战略意义。",
+      "topics": [
+        {
+          "title": "The concept of CSR",
+          "points": [
+            {
+              "code": "BT.5.1",
+              "title": "What is corporate social responsibility",
+              "summary": "企业社会责任（CSR）指企业在追求利润之外，对其行为影响的环境与社会承担责任的义务。",
+              "contentMd": "## 核心概念\n\n企业社会责任（corporate social responsibility, CSR）是企业在创造利润的同时，自愿对社会、环境与利益相关者承担的责任，包括经济、法律、伦理与慈善四个层次（Carroll 金字塔）。\n\n## 常见考法\n\n判断某行为属于哪一个 CSR 层次，或区分利润导向与社会责任的观点。\n\n## 易错点\n\nCSR 是“自愿”承担的责任，法律强制合规不属于严格意义的自愿 CSR。\n\n## 例子\n\n企业捐资助学属于慈善责任；依法纳税属于法律责任。\n\n## 考试提醒\n\n记住“经济-法律-伦理-慈善”四层金字塔的排序。",
+              "standardReference": "ACCA BT CSR",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.5.2",
+              "title": "Friedman vs stakeholder view of CSR",
+              "summary": "弗里德曼认为企业唯一责任是合法增加利润，而利益相关者观点认为须平衡多方诉求。",
+              "contentMd": "## 核心概念\n\n弗里德曼（Friedman）主张企业管理者是股东的代理人，唯一责任是在遵守规则的前提下实现利润最大化；而利益相关者理论认为企业应对所有受影响群体负责，长期看兼顾社会利益也能增进股东价值。\n\n## 常见考法\n\n对比两种 CSR 观点的立场与论据，或判断某观点更接近哪一学派。\n\n## 易错点\n\n弗里德曼并不主张“不负责任”，而是主张以合法合规谋利为主责。\n\n## 例子\n\n面对环保投入，弗里德曼观点会审视其对利润的代价，利益相关者观点则看重长期声誉。\n\n## 考试提醒\n\n把弗里德曼与“股东优先/利润为主”、把利益相关者观点与“平衡/长期”对应。",
+              "standardReference": "ACCA BT CSR Theories",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.5.3",
+              "title": "Arguments for and against CSR",
+              "summary": "支持 CSR 者看重声誉与可持续，反对者担心成本与偏离股东目标。",
+              "contentMd": "## 核心概念\n\n支持 CSR 的论据包括：增强品牌与信任、降低监管与诉讼风险、吸引人才、改善融资与长期可持续；反对的论据包括：增加成本、分散管理精力、可能沦为公关手段、削弱对股东的直接责任。\n\n## 常见考法\n\n权衡 CSR 的利弊，或评价某 CSR 项目的价值。\n\n## 易错点\n\nCSR 不是稳赚不赔，需评估其对竞争力和长期价值的实际贡献。\n\n## 例子\n\n环保投入短期增加成本，却可能因符合监管趋势而降低长期风险。\n\n## 考试提醒\n\n答题时分别列出“支持/反对”论点，突出权衡而非一边倒。",
+              "standardReference": "ACCA BT CSR",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Sustainability and the environment",
+          "points": [
+            {
+              "code": "BT.5.4",
+              "title": "Sustainability and sustainable development",
+              "summary": "可持续经营要求在满足当代需求的同时不损害后代满足其需求的能力。",
+              "contentMd": "## 核心概念\n\n可持续发展（sustainable development）强调经济、社会与环境三者的协调，企业须在运营中减少对资源与环境的消耗。可持续经营（sustainability）成为企业长期竞争力的重要来源。\n\n## 常见考法\n\n判断某做法是否符合可持续理念，或分析可持续对商业的机遇。\n\n## 易错点\n\n可持续不等于单纯环保，还包含经济与社会维度（三重底线）。\n\n## 例子\n\n企业使用可回收包装并在生产中使用清洁能源，体现了可持续运营。\n\n## 考试提醒\n\n牢记“经济-社会-环境”三重底线（triple bottom line）。",
+              "standardReference": "ACCA BT Sustainability",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.5.5",
+              "title": "Environmental responsibility of business",
+              "summary": "企业须管理其经营对环境的污染、碳排放与资源消耗等影响，以减少外部风险。",
+              "contentMd": "## 核心概念\n\n企业的环境责任涵盖污染防治、资源节约、碳中和、废弃管理以及供应链的环保监督。环境行为受法规、公众预期与投资者评价共同推动，环境表现差会带来罚款、声誉损失与融资困难。\n\n## 常见考法\n\n识别企业的环境责任范围，或评估某环保措施对企业的影响。\n\n## 易错点\n\n范围三（供应链）碳排放常被忽略，却是监管与投资者关注的重点。\n\n## 例子\n\n制造业企业安装废气处理设备并披露碳排，属于环境责任履行。\n\n## 考试提醒\n\n把环境责任与“三废处理、碳核算、供应链绿色化”挂钩。",
+              "standardReference": "ACCA BT Sustainability",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.5.6",
+              "title": "Green strategies and their impact",
+              "summary": "绿色战略兼顾环保与效益，可能带来成本与差异化两方面影响。",
+              "contentMd": "## 核心概念\n\n绿色战略（green strategy）将环保融入经营，如绿色产品、绿色供应链与节能改造。它能降低能耗成本、赢得环保消费者、改善品牌形象，但也可能提高前期投入，故需权衡。\n\n## 常见考法\n\n分析绿色战略的成本收益，或判断其差异化优势。\n\n## 易错点\n\n绿色战略未必立即盈利，需用长期视角评估。\n\n## 例子\n\n汽车公司推出新能源车型，既响应环保又开拓新市场。\n\n## 考试提醒\n\n从“成本-收益-差异化-风险”四方面评估绿色战略。",
+              "standardReference": "ACCA BT Sustainability",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Stakeholder engagement and social impact",
+          "points": [
+            {
+              "code": "BT.5.7",
+              "title": "Engaging with the community",
+              "summary": "企业通过与社区沟通与合作，回应社会关切并增强社区信任与经营合法性。",
+              "contentMd": "## 核心概念\n\n社区参与（community engagement）是 CSR 的重要组成部分，包括倾听社区声音、提供就业与公共服务、本地采购与公益项目。良好的社区关系提升企业的“经营许可”（social licence to operate）与抗风险能力。\n\n## 常见考法\n\n识别社区参与的做法，或分析其带来的信任收益。\n\n## 易错点\n\n单方面“捐款宣传”不等于真正的社区参与。\n\n## 例子\n\n矿业公司在矿区周边建学校与医院，改善了社区关系。\n\n## 考试提醒\n\n强调“双向沟通与社会许可”，而不仅是单向捐赠。",
+              "standardReference": "ACCA BT CSR",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.5.8",
+              "title": "The business case for sustainability",
+              "summary": "可持续经营可通过节约成本、控制风险与提升品牌，形成可持续的竞争优势。",
+              "contentMd": "## 核心概念\n\n可持续的商业逻辑（business case）在于：节能降耗降低成本、合规与声誉降低风险、绿色产品创造差异化、吸引绿色投资者与人才。这使可持续从“成本”变成“投资”。\n\n## 常见考法\n\n论证可持续为何能创造商业价值。\n\n## 易错点\n\n可持续的商业价值需要量化证据，不能空谈道德。\n\n## 例子\n\n节能改造减少电费支出，同时获得政府补贴，实现双重收益。\n\n## 考试提醒\n\n用“降本-降险-差异化-融资”四条路径组织论证。",
+              "standardReference": "ACCA BT Sustainability",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.5.9",
+              "title": "Reporting on social and environmental matters",
+              "summary": "企业通过可持续发展报告披露环境与社会绩效，提升透明度并回应利益相关者。",
+              "contentMd": "## 核心概念\n\n可持续发展报告（sustainability reporting）披露企业的环境、社会与治理（ESG）表现，帮助投资者与公众评估企业的长期可持续性。报告内容需真实、可量化并具备可比性。\n\n## 常见考法\n\n判断披露内容是否有效，或分析报告对建立信任的作用。\n\n## 易错点\n\n“漂绿（greenwashing）”——虚报环保绩效——会严重损害信誉。\n\n## 例子\n\n公司年报公开碳排数据并设减排目标，提升了透明度。\n\n## 考试提醒\n\n关注ESG披露的真实性与可核验性，警惕漂绿风险。",
+              "standardReference": "ACCA BT Sustainability Reporting",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Information Technology and Data",
+      "description": "理解电子商务、大数据、云计算与网络安全在现代商业中的作用与风险。",
+      "topics": [
+        {
+          "title": "Information systems and e-business",
+          "points": [
+            {
+              "code": "BT.6.1",
+              "title": "Role of information systems in business",
+              "summary": "信息系统支撑数据采集、决策与流程自动化，是现代企业运营与竞争的基础设施。",
+              "contentMd": "## 核心概念\n\n信息系统（information systems, IS）把数据加工成支持决策与管理的信息，涵盖运营系统（如订单、库存）与管理支持系统（如 MIS、DSS、EIS）。IS 提升效率、改善决策并支撑创新商业模式。\n\n## 常见考法\n\n判断某系统的用途，或分析 IS 对效率与决策的价值。\n\n## 易错点\n\n“数据”（data）与“信息”（information）不同，信息是经过加工、有意义的数据。\n\n## 例子\n\n销售系统实时汇总订单数据，帮助管理层判断备货量，体现了数据到信息的转化。\n\n## 考试提醒\n\n把 IS 与“效率+决策+创新”三条价值联系。",
+              "standardReference": "ACCA BT Information Systems",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.6.2",
+              "title": "E-business and e-commerce",
+              "summary": "电子商务（e-commerce）指通过电子渠道进行买卖，重塑了渠道、成本与客户关系。",
+              "contentMd": "## 核心概念\n\n电子商务（e-commerce）是用互联网完成商品/服务的交易与商务活动，分为 B2B、B2C、C2C 等模式。它降低渠道成本、扩大市场覆盖、支持 24 小时经营并沉淀客户数据，也带来物流与网络安全新挑战。\n\n## 常见考法\n\n识别某商业活动属于哪种电子商务模式，或评估电商化的优势与风险。\n\n## 易错点\n\nB2B（企业对企）与 B2C（企业对消费者）的客户与销售逻辑不同。\n\n## 例子\n\n消费者在网店下单购物属于 B2C，企业向供应商在线采购属于 B2B。\n\n## 考试提醒\n\n用“交易双方身份”判断电子商务模式。",
+              "standardReference": "ACCA BT E-business",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.6.3",
+              "title": "Social media and digital marketing",
+              "summary": "社交媒体改变企业与顾客的互动方式，成为品牌传播与客户洞察的重要渠道。",
+              "contentMd": "## 核心概念\n\n社交媒体（social media）让企业直接与顾客对话，用于品牌推广、客户服务与舆情监测。它提升互动性与触达效率，但也带来舆情暴发、隐私与内容管理风险。\n\n## 常见考法\n\n识别社交媒体在营销中的作用，或分析其风险。\n\n## 易错点\n\n社交媒体的“病毒式传播”是一把双刃剑，负面舆情传播同样迅速。\n\n## 例子\n\n品牌新品通过短视频实现裂变传播，迅速提升知名度。\n\n## 考试提醒\n\n关注“互动-触达-舆情风险”三要素。",
+              "standardReference": "ACCA BT Digital Marketing",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Big data, cloud and AI",
+          "points": [
+            {
+              "code": "BT.6.4",
+              "title": "Big data and data analytics",
+              "summary": "大数据以体量大、速度快、来源多样为特征，通过分析挖掘洞察并支持智能决策。",
+              "contentMd": "## 核心概念\n\n大数据（big data）通常以“4V”描述：Volume（体量大）、Velocity（速度快）、Variety（形式多样）、Veracity（真实性）。通过数据分析挖掘客户行为、优化运营、预测趋势，但也带来数据质量、隐私与治理问题。\n\n## 常见考法\n\n判断某数据特征对应哪个 V，或分析大数据分析的应用价值。\n\n## 易错点\n\n大数据价值在于“能否转化为洞察”，并非数据越多越好。\n\n## 例子\n\n电商平台分析用户浏览数据推荐商品，是大数据在营销中的应用。\n\n## 考试提醒\n\n记住 4V 并理解大数据“从数据到决策”的价值链。",
+              "standardReference": "ACCA BT Big Data",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.6.5",
+              "title": "Cloud computing",
+              "summary": "云计算通过网络按需提供计算资源，降低资本投入并提升弹性，兼顾效率与安全考量。",
+              "contentMd": "## 核心概念\n\n云计算（cloud computing）通过网络按需提供 IaaS（基础设施）、PaaS（平台）与 SaaS（软件服务）。它免去大量购置与维护成本、按需扩展、支持远程协作，但也带来数据主权、供应商锁定与网络安全风险。\n\n## 常见考法\n\n区分 IaaS/PaaS/SaaS，或评估云化的收益与风险。\n\n## 易错点\n\nSaaS 是“软件即服务”（直接用软件），PaaS 提供开发平台，IaaS 提供基础算力。\n\n## 例子\n\n企业使用在线办公软件（如协同文档）即 SaaS。\n\n## 考试提醒\n\n把“基础设施/平台/软件”三层与 IaaS/PaaS/SaaS 对应。",
+              "standardReference": "ACCA BT Cloud Computing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.6.6",
+              "title": "Artificial intelligence and automation",
+              "summary": "人工智能与自动化替代重复性工作、辅助决策，重塑生产力与岗位结构。",
+              "contentMd": "## 核心概念\n\n人工智能（AI）通过算法与数据模拟智能行为，与自动化结合可分类数据处理、客服机器人、预测分析等。它能提升效率与准确性，但带来岗位替代、算法偏见、责任界定等伦理与治理问题。\n\n## 常见考法\n\n识别 AI 的应用场景，或分析自动化的利弊。\n\n## 易错点\n\nAI 依赖数据质量，数据偏差会导致算法偏见。\n\n## 例子\n\n银行用 AI 识别可疑交易，提升风控效率。\n\n## 考试提醒\n\n从“效率-替代-伦理-治理”多维评估 AI 影响。",
+              "standardReference": "ACCA BT AI and Automation",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Information security and control",
+          "points": [
+            {
+              "code": "BT.6.7",
+              "title": "Cyber security threats",
+              "summary": "网络威胁包括恶意软件、钓鱼、勒索、内部攻击等，危及数据完整性、保密性与可用性。",
+              "contentMd": "## 核心概念\n\n网络安全威胁（cyber threats）包括恶意软件（malware）、钓鱼/社交工程（phishing）、勒索软件、拒绝服务（DoS）、内部人员威胁等。其后果是数据泄露、业务中断、声誉与经济损失。\n\n## 常见考法\n\n识别某攻击属于哪种威胁类型，或分析某项安全事件的影响。\n\n## 易错点\n\n许多攻击源于“人”的松懈（如点击钓鱼链接），而不只是技术漏洞。\n\n## 例子\n\n员工误点含木马的邮件导致公司数据泄露，属于钓鱼/恶意软件攻击。\n\n## 考试提醒\n\n把网络安全威胁分类记忆，并强调“人的因素”。",
+              "standardReference": "ACCA BT Cyber Security",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.6.8",
+              "title": "Security controls and risk mitigation",
+              "summary": "通过技术、流程与培训建立分层防御，降低信息资产面临的风险。",
+              "contentMd": "## 核心概念\n\n信息安全管理（information security）遵循保密性（confidentiality）、完整性（integrity）与可用性（availability）的 CIA 目标。控制手段包括访问控制、加密、防火墙、备份恢复、防病毒以及员工安全培训与安全策略。\n\n## 常见考法\n\n判断某项控制针对哪个 CIA 目标，或识别安全管控的缺口。\n\n## 易错点\n\n“备份+灾难恢复”维护的是可用性，访问控制与加密维护保密性。\n\n## 例子\n\n设置强密码与多因素认证，提升了访问保密性。\n\n## 考试提醒\n\n用 CIA 三维度定位各类安全控制的作用。",
+              "standardReference": "ACCA BT Security Controls",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.6.9",
+              "title": "Data protection and privacy",
+              "summary": "数据保护法规要求企业合法、透明地收集与使用个人数据，平衡商业应用与个人隐私。",
+              "contentMd": "## 核心概念\n\n数据保护（data protection）规范个人数据的收集、存储、使用与共享，原则包括合法正当、目的限定、最小化、准确与安全保存。企业须取得同意、明确用途并保障数据主体权利（如访问、删除）。违规将面临罚款与声誉损失。\n\n## 常见考法\n\n判断某数据处理是否合规，或分析数据保护与商业价值的权衡。\n\n## 易错点\n\n数据保护的核心是“告知+同意+目的限定”，不能不经告知就滥用数据。\n\n## 例子\n\n企业向客户投放广告须事先获得同意并允许退订。\n\n## 考试提醒\n\n强调“同意、目的、最小化、安全”四大基本原则。",
+              "standardReference": "ACCA BT Data Protection",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Business Finance and Sources of Finance",
+      "description": "理解企业资金需求、资金来源与财务决策对经营和风险的影响。",
+      "topics": [
+        {
+          "title": "Financing business activity",
+          "points": [
+            {
+              "code": "BT.7.1",
+              "title": "The need for finance and types of finance",
+              "summary": "企业为投资与运营融资，按期限分为短期与长期，按来源分为内部与外部。",
+              "contentMd": "## 核心概念\n\n企业融资用于满足固定资产（资本性支出）与营运资金（短期周转）需求。融资按期限分为短期（如透支、短期贷款）与长期（如股、债券、长期贷款），按来源分为内部（留存收益）与外部（股权、债务）。\n\n## 常见考法\n\n判断某资金来源属于短期还是长期、内部还是外部。\n\n## 易错点\n\n“留存收益”是内部来源，不是外部融资。\n\n## 例子\n\n公司用年度利润再投资扩产，属于内部长期融资。\n\n## 考试提醒\n\n用“期限+来源”两个维度给资金分类。",
+              "standardReference": "ACCA BT Business Finance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.7.2",
+              "title": "Equity vs debt finance",
+              "summary": "股权融资（股份）不强制还本付息但稀释控制权，债务融资（贷款/债券）需还本付息但保留控制权。",
+              "contentMd": "## 核心概念\n\n股权融资（equity）以股份方式引入资金，股东承担经营风险，分享利润但不强制还本；债务融资（debt）以借贷/债券方式融资，需按期支付利息并最终还本，具有固定偿付义务。债务的利息可在税前扣除，具有税盾，但增加财务风险。\n\n## 常见考法\n\n比较股权与债务的成本、风险与控制权影响。\n\n## 易错点\n\n债务会带来固定的利息负担，增加破产风险；股权稀释控制权。\n\n## 例子\n\n发行新股会摊薄老股东持股比例，而银行贷款不会。\n\n## 考试提醒\n\n围绕“成本、风险、控制权、税盾”四要素对比两类资金。",
+              "standardReference": "ACCA BT Business Finance",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.7.3",
+              "title": "Cost of capital and gearing",
+              "summary": "资本成本是企业为使用资金支付的平均成本，资本结构影响财务风险与资本成本。",
+              "contentMd": "## 核心概念\n\n资本成本（cost of capital）是企业取得资金的最低必要回报率，也是投资决策的折现率。资本结构（gearing）指债务与权益的比例：杠杆越高，财务风险越大，但同时可享税盾。企业需在风险与成本间权衡。\n\n## 常见考法\n\n分析杠杆对财务风险的影响，或判断资本结构是否合理。\n\n## 易错点\n\n高杠杆在经营好时放大收益，但也会放大亏损与破产风险。\n\n## 例子\n\n企业借入大量债务扩张，短期获利，但在营收下滑时面临偿付压力。\n\n## 考试提醒\n\n理解“税盾收益 vs 财务风险”的权衡是资本结构核心。",
+              "standardReference": "ACCA BT Business Finance",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Working capital and cash management",
+          "points": [
+            {
+              "code": "BT.7.4",
+              "title": "Working capital and its components",
+              "summary": "营运资金是流动资产与流动负债的差额，其管理关乎企业日常流动性与盈利能力。",
+              "contentMd": "## 核心概念\n\n营运资金（working capital）= 流动资产 − 流动负债，主要成分包括存货、应收账款、应付账款与现金。营运资金管理（working capital management）追求在流动性与盈利性之间取得平衡：过多资金闲置，过少则可能资金链断裂。\n\n## 常见考法\n\n识别营运资金组成，或分析某项政策对流动性的影响。\n\n## 易错点\n\n营运资金管理关注的“流动性”与“盈利能力”常此消彼长。\n\n## 例子\n\n企业放宽信用政策可增加销售，但会占用更多应收账款资金。\n\n## 考试提醒\n\n把“现金周转与流动性”作为营运资金管理的核心关切。",
+              "standardReference": "ACCA BT Working Capital",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.7.5",
+              "title": "Cash flow vs profit",
+              "summary": "企业可能账面盈利却现金短缺，现金流是判断企业健康的关键。",
+              "contentMd": "## 核心概念\n\n利润是权责发生制下的经营成果，现金流是实际收付的资金。企业可能因为大额应收、存货积压或资本性支出而出现“有利润但没钱”，故现金流（cash flow）是流动性与持续经营的直接保障。\n\n## 常见考法\n\n解释为何盈利企业仍可能破产，或辨析现金流与利润的差异。\n\n## 易错点\n\n“账面盈利”不代表“现金充足”，二者核算基础不同。\n\n## 例子\n\n公司实现高额销售但均为赊销，账面利润高，却因缺乏现金无法支付工资。\n\n## 考试提醒\n\n强调“现金为王”，应收账款与存货都会占用现金。",
+              "standardReference": "ACCA BT Cash Flow",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.7.6",
+              "title": "Short-term sources of finance",
+              "summary": "短期融资（透支、短期贷款、应付账款、保理等）满足营运资金需求，但需控制成本与风险。",
+              "contentMd": "## 核心概念\n\n短期融资来源包括银行透支（overdraft）、短期贷款、商业信用（应付账款延迟付款）、应收账款保理（factoring）与存货融资等。它们灵活但通常成本较高，且透支需随时偿还。\n\n## 常见考法\n\n判断某短期融资方式的特征，或分析其成本与风险。\n\n## 易错点\n\n应付账款虽是“免费”来源，但过度拖欠会损害供应商关系与信誉。\n\n## 例子\n\n企业用银行透支弥补季节性资金缺口，灵活但利息较高。\n\n## 考试提醒\n\n理解短期融资“灵活但成本高”的权衡。",
+              "standardReference": "ACCA BT Business Finance",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Financial management decisions",
+          "points": [
+            {
+              "code": "BT.7.7",
+              "title": "Capital investment decisions",
+              "summary": "资本投资决策评估长期项目的价值，常用回收期与净现值等方法比较选项。",
+              "contentMd": "## 核心概念\n\n资本投资决策（capital investment decision）涉及长期资产的投入，常用回收期（payback，看多久回本）与净现值（NPV，折现现金流）等评估。NPV 为正说明项目为公司创造价值。\n\n## 常见考法\n\n比较不同投资评估方法的优劣，或判断某项目是否值得投资。\n\n## 易错点\n\n回收期忽略货币时间价值与回收期后现金流，NPV 更科学但也有折现率假设。\n\n## 例子\n\n项目投入 100 万、每年回收 30 万，回收期约 3.3 年。\n\n## 考试提醒\n\n理解“回收期简单但片面，NPV 兼顾时间价值”。",
+              "standardReference": "ACCA BT Investment Appraisal",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.7.8",
+              "title": "The role of the finance function",
+              "summary": "财务职能负责资金筹集、配置、控制与报告，支撑企业战略目标的实现。",
+              "contentMd": "## 核心概念\n\n财务职能（finance function）负责预算、资金管理、成本控制、财务报告与绩效分析，并确保资金安全与合规。现代财务职能通过商业伙伴角色（business partner）融入业务决策，而不仅是记账。\n\n## 常见考法\n\n识别财务职能的职责，或说明其如何支持业务决策。\n\n## 易错点\n\n财务不仅是核算，更承担风险管理与决策支持职责。\n\n## 例子\n\n财务部门编制预算并监控差异，帮助业务部门控制成本。\n\n## 考试提醒\n\n理解财务职能“记账+管控+决策支持”的三重角色。",
+              "standardReference": "ACCA BT Finance Function",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "BT.7.9",
+              "title": "Risk in financial decision making",
+              "summary": "财务决策需识别并管理资金、利率、汇率与信用等风险，以保障财务稳健。",
+              "contentMd": "## 核心概念\n\n财务风险包括流动性风险、利率风险、汇率风险、信用风险与偿债风险。企业通过资金计划、对冲（套期保值）、分散与信用控制等管理风险，确保在不确定环境中维持偿付能力与经营稳定。\n\n## 常见考法\n\n识别某风险的类型，或分析某措施能否降低某项财务风险。\n\n## 易错点\n\n套期保值（hedging）的目的多是“锁定、降低不确定性”，而非追逐投机收益。\n\n## 例子\n\n出口企业用远期合约锁定汇率，规避汇率波动。\n\n## 考试提醒\n\n把财务风险分类并对应到各自管理工具。",
+              "standardReference": "ACCA BT Financial Risk",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Marketing and Customer Service",
+      "description": "掌握营销组合、市场细分与客户服务的核心概念，理解其对经营价值的影响。",
+      "topics": [
+        {
+          "title": "The marketing mix",
+          "points": [
+            {
+              "code": "BT.8.1",
+              "title": "The four Ps of the marketing mix",
+              "summary": "营销组合（4P）包含产品、价格、渠道与促销，是制定市场营销策略的基础框架。",
+              "contentMd": "## 核心概念\n\n营销组合（marketing mix）由产品（product）、价格（price）、渠道（place）与促销（promotion）四个要素构成。企业需围绕目标市场让 4P 相互配合，传递一致的价值主张。\n\n## 常见考法\n\n判断某营销活动属于 4P 中的哪一项，或分析各要素的配合。\n\n## 易错点\n\n“place”指分销渠道与配送，不是“地点选址”。\n\n## 例子\n\n企业推出新产品、定价高端、走线上旗舰店并配合广告，是 4P 协同。\n\n## 考试提醒\n\n牢记“产品、价格、渠道、促销”四项缩写。",
+              "standardReference": "ACCA BT Marketing Mix",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.8.2",
+              "title": "Product life cycle",
+              "summary": "产品生命周期分为导入、成长、成熟与衰退，不同阶段应采取不同营销与定价策略。",
+              "contentMd": "## 核心概念\n\n产品生命周期（product life cycle）分为导入期（introduction，投入高）、成长期（growth，销量与利润上升）、成熟期（maturity，竞争激烈）、衰退期（decline，销量下滑）。策略随阶段调整：导入期注重推广，成熟期强调差异化与成本，衰退期考虑收缩或转型。\n\n## 常见考法\n\n判断产品处于哪个阶段，或匹配相应的营销/定价策略。\n\n## 易错点\n\n成熟期是现金流最充裕、但也是竞争最激烈的阶段。\n\n## 例子\n\n某款手机销量稳定、竞争对手众多，已进入成熟期，需主打差异化。\n\n## 考试提醒\n\n把“阶段特征+对应策略”成对记忆。",
+              "standardReference": "ACCA BT Product Life Cycle",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.8.3",
+              "title": "Pricing strategies",
+              "summary": "定价策略（撇脂、渗透、成本加成、价值定价等）受成本、需求与竞争共同影响。",
+              "contentMd": "## 核心概念\n\n定价策略包括市场撇脂（skimming，高价入市赚取早期利润）、市场渗透（penetration，低价快速占领市场）、成本加成（cost plus）、竞争导向定价与价值定价（value-based）。定价需兼顾成本覆盖、顾客感知价值与竞争环境。\n\n## 常见考法\n\n判断某场景适用哪种定价策略，或分析定价与需求弹性的关系。\n\n## 易错点\n\n撇脂适合差异化强、竞争少的新品，渗透适合竞争激烈、追求份额的市场。\n\n## 例子\n\n新款高科技产品先高价发售（撇脂），随竞争加剧再降价。\n\n## 考试提醒\n\n把“何时用高价、何时用低价”与产品生命周期/竞争关联。",
+              "standardReference": "ACCA BT Pricing",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Market segmentation and targeting",
+          "points": [
+            {
+              "code": "BT.8.4",
+              "title": "Market segmentation",
+              "summary": "市场细分把异质市场按地理、人口、心理、行为等维度划分为同质群体。",
+              "contentMd": "## 核心概念\n\n市场细分（market segmentation）将市场按地理（geographic）、人口（demographic）、心理（psychographic）、行为（behavioural）等标准划分，使企业能针对特定群体提供更贴合的产品与信息，提高营销效率。\n\n## 常见考法\n\n判断某细分变量属于哪一维度，或分析细分带来的价值。\n\n## 易错点\n\n好细分需具备“可识别、可衡量、可接近、有足够规模、可行动”等条件。\n\n## 例子\n\n针对年轻健身人群推出高蛋白零食，是按人口与心理特征细分。\n\n## 考试提醒\n\n记忆四种细分维度，并理解细分旨在“聚焦与差异化”。",
+              "standardReference": "ACCA BT Segmentation",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.8.5",
+              "title": "Targeting and positioning",
+              "summary": "目标市场选择决定聚焦哪些细分，定位则在顾客心智中建立差异化形象。",
+              "contentMd": "## 核心概念\n\n目标市场选择（targeting）评估细分吸引力后决定进入哪些市场（集中、差异化、无差异/大众）。定位（positioning）是在目标顾客心中塑造独特且有价值的位置，如“性价比”“高端”“环保”。\n\n## 常见考法\n\n分析企业的目标市场与定位选择，或评价定位是否清晰一致。\n\n## 易错点\n\n定位若与产品实际不符，会导致顾客失望与信任受损。\n\n## 例子\n\n某品牌定位“平价高质”，并以此贯穿产品与广告。\n\n## 考试提醒\n\n“先细分、再选目标、最后定位”是营销战略三步。",
+              "standardReference": "ACCA BT Targeting and Positioning",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.8.6",
+              "title": "Promotion and the promotional mix",
+              "summary": "促销组合包括广告、销售促进、公关、人员销售与直接营销，共同实现沟通目标。",
+              "contentMd": "## 核心概念\n\n促销组合（promotional mix）包括广告（advertising）、销售促进（sales promotion，如折扣、赠品）、公共关系（public relations）、人员销售（personal selling）与直接营销/数字营销。各工具协同形成一致的传播信息。\n\n## 常见考法\n\n判断某促销活动属于哪一工具，或分析促销组合的配合。\n\n## 易错点\n\n广告是“非人际、付费、单向”；公关强调“免费、建立信任”。\n\n## 例子\n\n新品推广同时投广告、请KOL（公关/直接营销）与发放优惠券（销售促进）。\n\n## 考试提醒\n\n把促销组合各工具与“目标、成本、信赖度”特征对应。",
+              "standardReference": "ACCA BT Promotion",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Customer service and satisfaction",
+          "points": [
+            {
+              "code": "BT.8.7",
+              "title": "The importance of customer service",
+              "summary": "优质客户服务提升满意与忠诚、带来口碑与复购，是差异化竞争的重要来源。",
+              "contentMd": "## 核心概念\n\n客户服务（customer service）是交易前后企业为顾客提供的支持与体验。优质的客户服务提升满意度（satisfaction）、促进忠诚（loyalty）与口碑（word of mouth），对复购和品牌资产有显著正向影响。\n\n## 常见考法\n\n分析客户服务对企业价值的影响，或识别服务质量提升路径。\n\n## 易错点\n\n服务是无形的，其质量取决于员工态度、响应速度与一致性。\n\n## 例子\n\n一家咖啡店贴心问候并记住老顾客习惯，提升了复购率。\n\n## 考试提醒\n\n把客户服务与“满意-忠诚-口碑”的价值链联系。",
+              "standardReference": "ACCA BT Customer Service",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "BT.8.8",
+              "title": "Customer relationship management",
+              "summary": "客户关系管理通过数据与流程沉淀客户信息，实现个性化服务与长期价值挖掘。",
+              "contentMd": "## 核心概念\n\n客户关系管理（customer relationship management, CRM）借助系统收集与分析客户数据，管理从获客、服务到保留的全旅程。CRM 支持个性化推荐、客户分级与服务优化，提升客户生命周期价值（CLV）。\n\n## 常见考法\n\n分析 CRM 的作用，或评估其对客户稳定性的贡献。\n\n## 易错点\n\nCRM 是“以客户为中心”的理念+系统，而不只是软件。\n\n## 例子\n\n会员系统记录消费偏好，推送个性化优惠，提升复购。\n\n## 考试提醒\n\n强调“数据+流程+个性化”的 CRM 内涵。",
+              "standardReference": "ACCA BT CRM",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "BT.8.9",
+              "title": "Service quality and complaint handling",
+              "summary": "服务质量决定客户体验，有效处理投诉可把不满转化为修复信任的机会。",
+              "contentMd": "## 核心概念\n\n服务质量（service quality）用可靠性、响应性、保证性、移情性与有形性等维度衡量（SERVQUAL）。有效的投诉处理（complaint handling）要快速、真诚地回应并解决问题，把潜在流失的客户挽回，并从反馈中改进。\n\n## 常见考法\n\n识别服务质量指标，或分析投诉处理策略的价值。\n\n## 易错点\n\n忽视投诉会让不满扩散到社交媒体，损害口碑。\n\n## 例子\n\n顾客投诉退货，客服及时退款并致歉，顾客满意度反而回升。\n\n## 考试提醒\n\n强调“主动倾听+快速解决+持续改进”的服务质量闭环。",
+              "standardReference": "ACCA BT Service Quality",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

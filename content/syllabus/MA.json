@@ -1,0 +1,749 @@
+{
+  "code": "MA",
+  "name": "Management Accounting",
+  "nameCn": "管理会计",
+  "level": "APPLIED_KNOWLEDGE",
+  "category": null,
+  "order": 2,
+  "accent": "#10b981",
+  "description": "管理会计（MA）是 ACCA 应用知识阶段的科目，聚焦成本会计、预算、标准成本与绩效计量，训练学员为企业内部决策提供管理信息的能力。",
+  "examDurationMin": 120,
+  "examConfig": {
+    "sections": [
+      { "id": "A", "name": "Section A - Objective Test", "scope": "客观题", "count": 30, "marksPerQuestion": 2, "sectionMarks": 60 },
+      { "id": "B", "name": "Section B - OT Case Questions", "scope": "案例选择", "count": 20, "marksPerQuestion": 2, "sectionMarks": 40 }
+    ]
+  },
+  "variants": [
+    { "code": "GLO", "label": "Global", "region": "Global" }
+  ],
+  "chapters": [
+    {
+      "code": "01",
+      "title": "The Nature, Source and Purpose of Management Information",
+      "description": "理解管理会计的定位、信息质量特征与信息来源。",
+      "topics": [
+        {
+          "title": "Management information",
+          "points": [
+            {
+              "code": "MA.1.1",
+              "title": "Management accounting vs financial accounting",
+              "summary": "管理会计面向内部管理者提供决策信息，不受法定报表形式约束；财务会计面向外部使用者，须遵循准则。",
+              "contentMd": "## 核心概念\n\n管理会计为内部管理者提供决策、计划与控制所需的财务与非财务信息；财务会计按照会计准则向外部利益相关者报告。管理会计不强制遵循准则，可随时用，更强调未来导向。\n\n## 常见考法\n\n单选出题，判断某描述属于管理会计还是财务会计，或识别管理会计的目标（提供内部决策信息而非编制法定报表）。\n\n## 易错点\n\n不要把管理会计等同于成本会计。成本会计是管理会计的一部分；管理会计还包含预算、绩效等技术。\n\n## 例子\n\n管理者制定下季度产品定价需要变动成本信息，属于管理会计；向股东发布年报则属于财务会计。\n\n## 考试提醒\n\n记住关键词：管理会计=内部+决策+未来；财务会计=外部+合规+历史。",
+              "standardReference": "Syllabus A1(a) - The nature and purpose of management accounting",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.1.2",
+              "title": "The six characteristics of good management information",
+              "summary": "好的管理信息应具备准确、完整、相关、及时、成本效益平衡、可理解等特征。",
+              "contentMd": "## 核心概念\n\n高质量管理信息通常满足：accurate（准确）、complete（完整）、relevant（相关）、timely（及时）、cost-beneficial（成本效益）、understandable（可理解）。信息价值须超过其获取成本。\n\n## 常见考法\n\n给出一段情境，判断某一信息特征被违背，或将特征与描述配对。\n\n## 易错点\n\n准确性与相关性是两回事：数字再准确，若与决策无关也是无用信息；反之，相关但粗略的信息也可能有价值。\n\n## 例子\n\n为响应一项即将到期的促销需在次日完成决策，若报告三天后才出则违背及时性。\n\n## 考试提醒\n\n特征英文首字母可帮助记忆：ACCOUNT 或简记“准全相关时要懂本”。",
+              "standardReference": "Syllabus A1(b) - Characteristics of good information",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.1.3",
+              "title": "Cost accounting and its role",
+              "summary": "成本会计记录、归集并分配成本，为定价、控制与决策提供基础数据。",
+              "contentMd": "## 核心概念\n\n成本会计通过成本记录、成本归集与成本分配，计算产品/服务总成本，供存货计价、价格制定与绩效评价使用，是管理会计的基础。\n\n## 常见考法\n\n判断题：成本会计是否等于管理会计，或成本会计的产出（成本报表）用途。\n\n## 易错点\n\n成本会计既可对外（存货计价）也可对内（决策），不能简单归类为财务或管理会计独有。\n\n## 例子\n\n工厂每月归集直接材料、直接人工与制造费用，计算单位成本用于定价与差异分析。\n\n## 考试提醒\n\n把握“记录—归集—分配—分析”的主线即可应对大多数概念题。",
+              "standardReference": "Syllabus A2 - The role of cost accounting",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Sources of information",
+          "points": [
+            {
+              "code": "MA.1.4",
+              "title": "Internal and external sources of data",
+              "summary": "内部数据（会计系统、工时卡、生产记录）与外部数据（市场调查、竞争对手、政府统计）共同构成信息基础。",
+              "contentMd": "## 核心概念\n\n内部来源包括会计记录、员工工时记录、产量与库存数据；外部来源包括市场调研、行业报告、政府统计与竞争对手信息。\n\n## 常见考法\n\n识别某来源属于内部还是外部，或判断管理者决策应优先依赖哪类信息。\n\n## 易错点\n\n外部信息可能不够精确或及时，需权衡其成本与可靠性；完全依赖内部信息则可能忽视市场变化。\n\n## 例子\n\n产能扩张决策既需内部产能数据，也需外部需求预测与竞争者数据。\n\n## 考试提醒\n\n内部=可控、及时、具体；外部=宏观、宽泛、需甄别可靠性。",
+              "standardReference": "Syllabus A3 - Sources of information",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.1.5",
+              "title": "Big data and its impact",
+              "summary": "大数据以体量大、种类多、速度快为特征，可提升预测与决策质量，但带来成本与治理挑战。",
+              "contentMd": "## 核心概念\n\n大数据通常用 Volume（体量）、Velocity（速度）、Variety（多样）描述，也包括 Veracity（真实性）与 Value（价值）。企业利用大数据做客户细分、需求预测与风险识别。\n\n## 常见考法\n\n识别大数据的特征（3V/5V），或其给管理决策带来的机会与挑战。\n\n## 易错点\n\n大数据不等于自动正确：数据质量、隐私与成本仍是关键制约因素。\n\n## 例子\n\n零售商分析线上浏览与购买记录，实时调整定价与库存。\n\n## 考试提醒\n\n记住 3V 起步，趋势题经常考“机会 vs 风险”。",
+              "standardReference": "Syllabus A3 - Big data and management accounting",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "title": "Data Analysis and Statistical Techniques",
+      "description": "掌握集中趋势、离散程度量度、散点图与相关回归分析。",
+      "topics": [
+        {
+          "title": "Measures of central tendency and dispersion",
+          "points": [
+            {
+              "code": "MA.2.1",
+              "title": "Mean, median and mode",
+              "summary": "均值易受极端值影响，中位数稳健，众数反映频次最高值。",
+              "contentMd": "## 核心概念\n\n均值（arithmetic mean）=总和/个数；中位数（median）为排列后的中间值；众数（mode）为出现最多的数值。均值最常用但对极端值敏感。\n\n## 常见考法\n\n给数据计算均值/中位数/众数，或选择受极端值影响最小的量度。\n\n## 易错点\n\n偶数个数据的中位数取中间两数平均；分组数据中位数需用插值估算。\n\n## 例子\n\n数据 12,18,15,21,14：均值=(12+18+15+21+14)/5=16；中位数=15；无众数。\n\n## 考试提醒\n\n遇到“受极端值影响”就问均值最敏感，中位数最稳健。",
+              "standardReference": "Syllabus B1(a) - Measures of central tendency",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.2.2",
+              "title": "Range, variance and standard deviation",
+              "summary": "全距只取极值，方差与标准差度量数据围绕均值的离散程度。",
+              "contentMd": "## 核心概念\n\n全距=最大值−最小值；方差=各偏差平方的均值；标准差=√方差，是最常用的离散量度。标准差越大，数据波动越大。\n\n## 常见考法\n\n用公式计算标准差，或解释标准差对决策的意义（风险/稳定性）。\n\n## 易错点\n\n方差与标准差单位不同（标准差与原数据同单位）；样本与总体公式分母不同（n−1 vs n）。\n\n## 例子\n\n两组利润均值相同，标准差大者波动大、风险高，定价与预算应更保守。\n\n## 考试提醒\n\n考试常考概念排序：离散程度从小到大为全距、标准差、方差。",
+              "standardReference": "Syllabus B1(b) - Measures of dispersion",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.2.3",
+              "title": "Frequency distributions and grouping",
+              "summary": "分组数据用组中值近似计算均值，体现数据的分布形态。",
+              "contentMd": "## 核心概念\n\n当数据以频数分组时，用每组组中值（mid-point）乘以频数近似求均值；分布形态可决定用哪种集中量度更合适。\n\n## 常见考法\n\n给分组频数表估算均值，或选择最适合偏态分布的集中量度（中位数）。\n\n## 易错点\n\n组中值代表该组所有数据的近似假设，结果受组宽影响；偏斜分布下均值会被长尾拉动。\n\n## 例子\n\n10–19 组组中值 14.5，20–29 组组中值 24.5，分别乘以频数后求和再除以总频数。\n\n## 考试提醒\n\n注意组边界：连续数据 10–19 实际范围 9.5–19.5，组中值为 14.5。",
+              "standardReference": "Syllabus B1 - Frequency distributions",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Presentation and correlation",
+          "points": [
+            {
+              "code": "MA.2.4",
+              "title": "Scatter diagrams and correlation coefficient",
+              "summary": "散点图直观展示两变量关系，相关系数 r 量化线性相关方向与强度。",
+              "contentMd": "## 核心概念\n\n散点图（scattergraph）描点观察趋势；相关系数 r 取值 −1 到 +1：接近 +1 为强正相关，接近 −1 为强负相关，接近 0 为无线性相关。\n\n## 常见考法\n\n判断 r 值表示的相关方向与强度，或依据散点图趋势选相关类型。\n\n## 易错点\n\n相关不等于因果；r 只度量线性关系，存在非线性但 r≈0 的情形。\n\n## 例子\n\n广告支出与销售额散点呈右上分布且 r=0.92，说明强正线性相关。\n\n## 考试提醒\n\n牢记 r 的范围与三个区间：±1 强、±0.5 中等、0 无。",
+              "standardReference": "Syllabus B2 - Correlation",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.2.5",
+              "title": "Line of best fit and regression",
+              "summary": "回归直线 y=a+bx 用最小二乘拟合趋势，用于估算变量间的平均关系。",
+              "contentMd": "## 核心概念\n\n回归直线 y=a+bx 中，b 为斜率（单位变动），a 为截距。最小二乘（least squares）法使各点到直线的垂直偏差平方和最小。\n\n## 常见考法\n\n给若干数据用小最小二乘公式求 a、b，或据回归方程预测 y。\n\n## 易错点\n\n内推（interpolation）较可靠，外推（extrapolation）超出数据范围风险高，结果不可靠。\n\n## 例子\n\n得到 y=20+3x，当 x=50 时预测 y=170，前提是 x 仍在观察范围内。\n\n## 考试提醒\n\n外推、非随机样本、忽略季节因素都会使预测失控，为常考警示点。",
+              "standardReference": "Syllabus B2 - The least squares (regression) technique",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "title": "Cost Classification and Behaviour",
+      "description": "掌握成本分类维度以及成本随业务量变化的规律。",
+      "topics": [
+        {
+          "title": "Cost classification",
+          "points": [
+            {
+              "code": "MA.3.1",
+              "title": "Direct and indirect costs",
+              "summary": "直接成本可直接归属到成本对象，间接成本需经由分摊归集到成本对象。",
+              "contentMd": "## 核心概念\n\n直接成本（direct）能与特定成本对象直接关联，如生产某产品的直接材料与直接人工；间接成本（indirect/overhead）为多个成本对象共同发生，需分摊，如工厂租金、管理层薪金。\n\n## 常见考法\n\n将成本项目分类为直接或间接成本，或判断其是否可直接追踪到成本对象。\n\n## 易错点\n\n“直接”针对成本对象而言：监督人工对某产品是间接，对某车间可能是直接。\n\n## 例子\n\n专门为订单 A 采购的钢材属直接材料；车间照明电力属间接费用。\n\n## 考试提醒\n\n先圈定成本对象，再判断成本与其的关系。",
+              "standardReference": "Syllabus C1 - Direct and indirect costs",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.3.2",
+              "title": "Product costs and period costs",
+              "summary": "产品成本归入存货待售，期间成本在当期全额计入损益。",
+              "contentMd": "## 核心概念\n\n产品成本（product cost，如直接材料、直接人工、制造费用）计入存货成本，出售时转成本；期间成本（period cost，如管理费用、销售费用）直接在发生时计入当期损益。\n\n## 常见考法\n\n把某成本归为产品成本或期间成本，尤其在吸收成本下辨析。\n\n## 易错点\n\n固定制造费用在吸收成本法下是产品成本，在边际成本法下是期间成本——这是重要区别。\n\n## 例子\n\n生产车床的折旧是产品成本；总部行政人员工资是期间成本。\n\n## 考试提醒\n\n先判断成本是否与生产直接相关；相关则多为产品成本。",
+              "standardReference": "Syllabus C1 - Product and period costs",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.3.3",
+              "title": "Differential, opportunity and committed costs",
+              "summary": "决策关注增量成本与机会成本，沉没成本与承诺成本不相关。",
+              "contentMd": "## 核心概念\n\n相关成本是未来发生且随决策变化的现金流出，如增量成本和机会成本；沉没成本（sunk）与承诺成本（committed）不随决策改变，因而不相关。\n\n## 常见考法\n\n在决策情境中识别相关成本（未来、增量、现金流）与不相关成本（沉没、不变）。\n\n## 易错点\n\n账面价值、已支付的采购款多为沉没成本，不应计入决策；折旧作为对已购资产的分配通常不相关。\n\n## 例子\n\n是否接受特殊订单时，已采购库存的账面成本不相关，但用该库存的替代收益（机会成本）相关。\n\n## 考试提醒\n\n决策成本三要素：未来发生、随决策变化、现金流出。",
+              "standardReference": "Syllabus C1 - Relevant costs",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Cost behaviour",
+          "points": [
+            {
+              "code": "MA.3.4",
+              "title": "Variable, fixed and semi-variable costs",
+              "summary": "变动成本随业务量成正比，固定成本在相关范围内不变，半变动成本两者兼有。",
+              "contentMd": "## 核心概念\n\n变动成本（variable）随业务量比例变动；固定成本（fixed）在相关范围内总额不变；半变动成本（semi-variable）含固定部分与变动部分，如电话费（月租+按时计费）。\n\n## 常见考法\n\n识别成本类型，或拆分半变动成本中的固定与变动部分。\n\n## 易错点\n\n相关范围（relevant range）概念：固定成本只在特定产量区间内固定，超出区间则跳跃变化。\n\n## 例子\n\n每件产品材料费是变动成本；月租金是固定成本；电费（基本费+电量费）是半变动。\n\n## 考试提醒\n\n总变动成本随产量上升，单位变动成本则保持不变——两者勿混。",
+              "standardReference": "Syllabus C2 - Cost behaviour patterns",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.3.5",
+              "title": "Stepped costs",
+              "summary": "阶梯成本在达到某一产量阈值时发生跳跃式上升。",
+              "contentMd": "## 核心概念\n\n阶梯式固定成本在某一区间内固定，跨越阈值后跳升到更高水平，例如增加一台机器或新增一名主管。\n\n## 常见考法\n\n根据活动量变化判断成本是否跨越阈值，从而确定其是否上升。\n\n## 易错点\n\n阶梯成本在阈值内表现如固定成本，但产量突破阈值后整体抬升，成本函数变成阶梯状。\n\n## 例子\n\n产量超过 10,000 件时需增聘一名主管，管理人员成本从 40,000 跳升至 55,000。\n\n## 考试提醒\n\n审题注意“相关范围”或“产量突破”字样，识别阶梯跳升点。",
+              "standardReference": "Syllabus C2 - Stepped costs",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.3.6",
+              "title": "High-low method",
+              "summary": "用最高与最低业务量-成本数据拆解半变动成本的变动与固定部分。",
+              "contentMd": "## 核心概念\n\n高低法（high-low）取最高产量与最低产量的总成本差，除以产量差得单位变动成本，再代回求固定成本。公式：b=(C_high−C_low)/(V_high−V_low)；a=C_high−b×V_high。\n\n## 常见考法\n\n给定两个业务量下的总成本，求变动成本率或固定成本，再预测目标业务量总成本。\n\n## 易错点\n\n只取最高、最低两点，忽略其他数据，结果受观测点异常影响；产量区间必须合理。\n\n## 例子\n\n1,000 件成本 12,000；2,000 件成本 18,000。b=6,000/1,000=6；a=12,000−1,000×6=6,000；1,500 件成本=6,000+1,500×6=15,000。\n\n## 考试提醒\n\n写清单位：变动成本率单位是元/件，固定成本是总额。",
+              "standardReference": "Syllabus C2 - High-low method",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "title": "Accounting for Materials",
+      "description": "掌握物料订购量、再订货点、计价方法与 JIT/定价理念。",
+      "topics": [
+        {
+          "title": "Inventory ordering and control",
+          "points": [
+            {
+              "code": "MA.4.1",
+              "title": "Economic order quantity (EOQ)",
+              "summary": "EOQ 使订购成本与持有成本之和最小的最佳每次订货量。",
+              "contentMd": "## 核心概念\n\nEOQ=√(2×年需求量×每次订购成本÷单位年持有成本)。订购成本随订购次数增加，持有成本随平均库存增加，两者之和在 EOQ 处最小。\n\n## 常见考法\n\n代入公式求最佳订货量，或解释 EOQ 的假设（匀速消耗、价格不变、即时补货）。\n\n## 易错点\n\n持有成本须为“每单位每年”的金额；年需求量与订购成本须同一期间。\n\n## 例子\n\n年需求 4,800，每次订购成本 64，单位年持有成本 6：EOQ=√(2×4,800×64÷6)=√102,400=320。\n\n## 考试提醒\n\n题目给的是“每月需求”要把单位统一到年；否则算出的 EOQ 是错的。",
+              "standardReference": "Syllabus C3(a) - Economic order quantity",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.4.2",
+              "title": "Reorder level, buffer stock and lead time",
+              "summary": "再订货点取决于再订货周期与需求；缓冲库存抵御需求或到货波动。",
+              "contentMd": "## 核心概念\n\n再订货水平 = 最大需求 × 最长到货周期（或按需求率×到货周期）；缓冲库存（buffer stock）为最低库存水平，用于吸收需求与供应波动，平衡持有成本与缺货风险。\n\n## 常见考法\n\n计算再订货水平、平均库存，或判断缓冲库存变大对持有成本与缺货风险的影响。\n\n## 易错点\n\n小心区分“再订货周期”（补货间隔）与“到货周转时间”（lead time），单位要一致。\n\n## 例子\n\n日最大需求 40 件，最长到货周期 5 天，则再订货水平=40×5=200 件。\n\n## 考试提醒\n\n再订货水平高→缺货风险低但持有成本高，两点都要分析。",
+              "standardReference": "Syllabus C3(a) - Reorder level and buffer stock",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.4.3",
+              "title": "Just-in-time (JIT) and purchasing",
+              "summary": "JIT 追求零库存、按需生产，依赖可靠供应与均衡生产，降低持有成本。",
+              "contentMd": "## 核心概念\n\nJIT 旨在消除库存与浪费：仅在需要时小批量进货/生产，强调准时到货、质量零缺陷、快速换模。好处是降低库存持有成本与仓储，风险是供应中断敏感性高。\n\n## 常见考法\n\n识别 JIT 的特征或其对库存、持有成本、缺货风险的影响。\n\n## 易错点\n\nJIT 并非零库存即可，而是建立在可靠供应、供应商密切合作与均衡生产之上。\n\n## 例子\n\n汽车厂把零配件在装配开始前数小时才送到工位，大幅降低库存占用。\n\n## 考试提醒\n\nJIT 题目常考“优点 vs 风险”配对，注意缺货与打乱生产的两面性。",
+              "standardReference": "Syllabus C3 - Just-in-time procurement",
+              "examFrequency": "LOW"
+            },
+            {
+              "code": "MA.4.4",
+              "title": "Pricing of materials and value analysis",
+              "summary": "物料计价影响成本与利润，价值分析聚焦功能-成本配比，实现成本优化。",
+              "contentMd": "## 核心概念\n\n物料计价方法（下一点详述）影响存货与利润；定价策略需考虑成本、竞争与需求弹性。价值分析（value analysis）评估产品各功能与成本的匹配，删除不增值功能以优化成本。\n\n## 常见考法\n\n判断定价方法是否变动成本加价（cost-plus）或价值导向，或识别价值分析的目标。\n\n## 易错点\n\n低价不等于高效：过分追求低价可能牺牲质量或交货可靠性。\n\n## 例子\n\n对产品做功能-成本分析，剔除顾客不付费的过度包装以降低成本。\n\n## 考试提醒\n\n结合“成本 vs 价值”双视角：顾客愿意付的是价值功能，而非全部成本。",
+              "standardReference": "Syllabus C3 - Pricing and value analysis",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Inventory valuation and costing",
+          "points": [
+            {
+              "code": "MA.4.5",
+              "title": "FIFO and AVCO methods",
+              "summary": "FIFO 先进先出，AVCO 加权平均，两者影响期末存货与销货成本估值。",
+              "contentMd": "## 核心概念\n\nFIFO（先进先出）假设先购入的先售出，期末存货较接近最新价格；AVCO（加权平均）按各批成本加权平均计价，平滑价格波动。\n\n## 常见考法\n\n计算 FIFO 或 AVCO 下的期末存货成本、销货成本，或比较两法对利润的影响。\n\n## 易错点\n\n价格持续上升时 FIFO 高估利润与存货，AVCO 更平稳；期末存货必须先界定售出数量再算余量。\n\n## 例子\n\n购入 200 @4 与 100 @6，期末 150 件。FIFO：先售 150（来自 @4 批），余 50@4+100@6=200+600=800。\n\n## 考试提醒\n\n画出“购入—售出—结余”流水表，别漏掉期初结存。",
+              "standardReference": "Syllabus C3(b) - FIFO and AVCO",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.4.6",
+              "title": "LIFO and its limitations",
+              "summary": "LIFO 后进先出在涨价时压低利润，其存货估值不够现实，备考中多为对比概念。",
+              "contentMd": "## 核心概念\n\nLIFO（后进先出）假设最后购入先售出，期末存货为最早价格。价格上涨时 LIFO 利润较低、存货也较低；但期末库存与实物流动常不一致，实务中较少允许。\n\n## 常见考法\n\n比较 FIFO/AVCO/LIFO 对利润与存货的不同影响，尤其在涨价情境下。\n\n## 易错点\n\nLIFO 与 FIFO 方向相反：涨价时 FIFO 利润高、LIFO 利润低；AVCO 居中。\n\n## 例子\n\n价格上行时，按 FIFO 期末存货成本最高、利润最高；按 LIFO 则最低。\n\n## 考试提醒\n\n选择题常出“在通货膨胀下哪种计价导致利润最大/最小”，直接对照三者。",
+              "standardReference": "Syllabus C3(b) - LIFO",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "title": "Accounting for Labour",
+      "description": "掌握工时记录、薪酬制度、奖金以及闲置工时与加班成本。",
+      "topics": [
+        {
+          "title": "Labour remuneration",
+          "points": [
+            {
+              "code": "MA.5.1",
+              "title": "Time-based and piecework pay",
+              "summary": "计时工资按工时，计件工资按产量，各有激励与风险权衡。",
+              "contentMd": "## 核心概念\n\n计时工资（time-based）按工时计酬，稳定但激励性弱；计件工资（piecework）按合格产出计酬，激励强但可能牺牲质量。实务常设保证最低工资与计件以保障工人收入。\n\n## 常见考法\n\n计算计件工资（含超产量阶梯或保证底薪），或比较计时与计件的优缺点。\n\n## 易错点\n\n计件工资的“单价”需对“合格品”计酬，废品不计酬；有保证工资时取二者较高者。\n\n## 例子\n\n单价 2 元/件，保证日薪 60 元。日产量 40 件则计件 80 元>60，按 80 元计。\n\n## 考试提醒\n\n注意“保证最低工资 + 计件”时取大数，且废品不计件。",
+              "standardReference": "Syllabus C4(a) - Situations in which different methods of remuneration may be used",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.5.2",
+              "title": "Bonus schemes",
+              "summary": "奖金制度把报酬与产量、成本节约或团体绩效挂钩，调动积极性。",
+              "contentMd": "## 核心概念\n\n奖金常见为个人计件奖金、成本节约分享奖、团队/集团（group bonus）奖金。团队奖鼓励协作但可能搭便车；个人奖激励性强但易忽略团队目标。\n\n## 常见考法\n\n识别不同奖金类型的动机效果，或计算节省成本分享奖金。\n\n## 易错点\n\n团队奖金可能造成搭便车、个人间攀比；奖金基数需清晰（标准时间/标准成本）。\n\n## 例子\n\n某工序达到标准成本以下 5,000 元，按 50% 分享给团队，则奖金共 2,500 元。\n\n## 考试提醒\n\n奖金题常与标准成本/标准时间结合，注意“分享比例”与“是否超标准”。",
+              "standardReference": "Syllabus C4(a) - Bonus schemes",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.5.3",
+              "title": "Overtime and overtime premium",
+              "summary": "正常工时按基础工资，超时部分含奖金性溢价，溢价常计入间接费用。",
+              "contentMd": "## 核心概念\n\n加班（overtime）超出正常工时的报酬含基础工资与溢价（premium）。因产能不足产生的加班溢价通常计入制造费用；因特定客户订单引起的加班可直接归属。\n\n## 常见考法\n\n计算加班报酬（基础+溢价），或判断加班溢价计入直接成本还是间接费用。\n\n## 易错点\n\n加班溢价 vs 平时工资：溢价部分常作为 overhead，基础工资仍属直接人工；特定订单加班例外。\n\n## 例子\n\n时薪 12，正常 40h/周，加班溢价 50%。加班 8h 的溢价=8×12×0.5=48；加班总报酬=8×(12×1.5)=144。\n\n## 考试提醒\n\n区分“加班总报酬”与“加班溢价”，题干问哪个就答哪个。",
+              "standardReference": "Syllabus C4 - Overtime and overtime premium",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Labour cost control and records",
+          "points": [
+            {
+              "code": "MA.5.4",
+              "title": "Idle time",
+              "summary": "闲置时间指员工在岗但未生产的工时，其成本应计入间接费用并单独报告。",
+              "contentMd": "## 核心概念\n\n闲置时间（idle time）是员工本可工作但未生产的工时（机器故障、材料短缺、停工）。正常闲置成本计入制造费用；异常大量闲置应作为差异单独报告并调查。\n\n## 常见考法\n\n计算某时期的闲置工时成本，或说明闲置时间应如何处理（计费用而非直接人工成本）。\n\n## 易错点\n\n闲置时间成本≠直接人工成本；其入账会使差异分析出现不利偏差，务必单独拆分。\n\n## 例子\n\n某周实际工时 400h，生产工时 360h，闲置 40h。时薪 10，则闲置成本 400，计入制造费用。\n\n## 考试提醒\n\n题干出现“机器停转/缺料”就是闲置时间信号，计入间接费用。",
+              "standardReference": "Syllabus C4(b) - Idle time",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.5.5",
+              "title": "Labour records and timekeeping",
+              "summary": "工时记录（出勤卡、工时单）为工资核算与差异分析提供原始数据。",
+              "contentMd": "## 核心概念\n\n作业卡/job card 记录某工作耗用工时，工时单（time sheet）记录员工在各工作间分配的时间。二者用于工资计算、产品成本归集与效率差异分析。\n\n## 常见考法\n\n识别工时记录的主要用途，或判断哪类记录用于成本归集。\n\n## 易错点\n\n出勤时间（attendance）与作业时间（job time）不同：前者反映应发工资，后者反映成本归集。\n\n## 例子\n\n员工在 job 101 上耗 3 小时、job 102 上耗 5 小时，工时单把 3/5 分别归属两订单。\n\n## 考试提醒\n\n把握“工资靠出勤卡，成本靠工时单”的对应关系。",
+              "standardReference": "Syllabus C4 - Labour recording and timekeeping",
+              "examFrequency": "LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "title": "Accounting for Overheads",
+      "description": "掌握间接费用的归集、分摊、分配与预订费用吸收率，了解 ABC 基础。",
+      "topics": [
+        {
+          "title": "Overhead allocation, apportionment and absorption",
+          "points": [
+            {
+              "code": "MA.6.1",
+              "title": "Allocation, apportionment and absorption",
+              "summary": "先按成本中心归集，再按受益比例分摊到生产部门，最后按吸收率计入产品成本。",
+              "contentMd": "## 核心概念\n\n分配（allocation）将可直接归属的间接费用直接计入成本中心；分摊（apportionment）按比率把共同费用分配到各成本中心；吸收（absorption）再把费用按预订吸收率计入每一单位产品成本。\n\n## 常见考法\n\n判断某费用用分配、分摊或吸收，或按人工/机器小时分摊服务部门费用。\n\n## 易错点\n\n分摊基础要与成本动因匹配（机器部门用机器小时，人事部门可用员工数）；重复分摊（reciprocal）是进阶点。\n\n## 例子\n\n修理车间费用按各生产部门机器小时分摊；若修理 2,000h 且甲部门 800h，则甲分摊 40%。\n\n## 考试提醒\n\n熟记三步链：Allocate → Apportion → Absorb（3A）。",
+              "standardReference": "Syllabus C5 - Allocation, apportionment and absorption of overheads",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.6.2",
+              "title": "Overhead absorption rate (OAR)",
+              "summary": "OAR=预算间接费用÷预算业务量，按预订的机器/人工小时把费用摊入产品成本。",
+              "contentMd": "## 核心概念\n\nOAR（预订吸收率）=预算制造费用÷预算业务量（工作小时、机器小时、人工成本等）。按此率把间接费用吸收到每件产品；期末实际费用与吸收费用之差为少/多吸收（under/over-absorption）。\n\n## 常见考法\n\n计算 OAR，或用 OAR 求某订单应吸收的费用，或计算少/多吸收额。\n\n## 易错点\n\n少吸收（under-absorbed）说明实际费用>吸收费用，期末应增加成本（调增）；多吸收则调减。单位要与业务量匹配。\n\n## 例子\n\n预算制造费用 120,000，机器小时 30,000，OAR=4 元/机器小时；某订单用 500 小时，应吸收费用=4×500=2,000。\n\n## 考试提醒\n\n金额单位换算：题目给“元/小时”还是“小时/元”要看清；少/多吸收以“实际−吸收”判断。",
+              "standardReference": "Syllabus C5 - Overhead absorption rate",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.6.3",
+              "title": "Blanket vs departmental absorption",
+              "summary": "全厂统一吸收率简单但不精确，分部门吸收率更贴近各成本中心成本动因。",
+              "contentMd": "## 核心概念\n\n全厂统一吸收率（blanket rate）对所有产品用同一费率，简单但扭曲成本；分部门吸收率（departmental rate）按各部门各自动因（人工/机器小时）设定，成本更准确。\n\n## 常见考法\n\n判断在成本动因差异大的多部门工厂应选哪种吸收率，或比较其优缺点。\n\n## 易错点\n\n若人工密集与机器密集部门并存，统一吸收率会明显高估或低估产品成本。\n\n## 例子\n\n装配部用人工小时、机加部用机器小时，分设两部吸收率比统一费率更合理。\n\n## 考试提醒\n\n记住：成本更准确→分部门；简单省事→统一（但牺牲准确性）。",
+              "standardReference": "Syllabus C5 - Blanket and departmental absorption rates",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Overhead under/over recovery and activity-based costing",
+          "points": [
+            {
+              "code": "MA.6.4",
+              "title": "Under- and over-absorption of overheads",
+              "summary": "实际费用与预订吸收费用不等时产生少/多吸收，期末调整到损益或存货。",
+              "contentMd": "## 核心概念\n\n少吸收（实际>吸收）：多发生的费用未分摊完，期末增加损益成本（利润减少）；多吸收（吸收>实际）：多分摊了费用，期末冲减（利润增加）。\n\n## 常见考法\n\n给实际费用与预算/吸收费用求少或多吸收额，并判断其对利润的影响。\n\n## 易错点\n\n“吸收费用=OAR×实际业务量”，而非用预算业务量；期末调整方向容易搞反。\n\n## 例子\n\nOAR=4，实际机器小时 31,000 → 吸收=124,000；实际费用 120,000，则多吸收 4,000（利润增加）。\n\n## 考试提醒\n\n计算式：吸收=OAR×实际量；少/多吸收=实际费用−吸收费用（正为少吸收）。",
+              "standardReference": "Syllabus C5 - Under/over absorption",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.6.5",
+              "title": "Activity-based costing (ABC) fundamentals",
+              "summary": "ABC 以成本动因驱动共同费用分配，比传统按业务量吸收更贴近资源消耗。",
+              "contentMd": "## 核心概念\n\nABC 识别主要作业（activity），以成本动因（cost driver，如订单数、检验次数、装运数）把作业成本分配到产品或成本对象。相对传统按机器/人工小时吸收，它对多品种、非产量动因占比高的企业更准确。\n\n## 常见考法\n\n识别成本动因，或说明 ABC 与传统吸收法的差异及适用场景。\n\n## 易错点\n\nABC 并非万能：成本动因选择、实施成本高，若间接费用与产量驱动相关则与吸收法结果相近。\n\n## 例子\n\n订单处理成本以“订单数”为动因，小批量多批次产品分摊的订单成本更高。\n\n## 考试提醒\n\nABC 关键词：作业（activities）+ 成本动因（cost driver）+ 复杂/多品种场景。",
+              "standardReference": "Syllabus C6 - Activity-based costing introduction",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "title": "Marginal and Absorption Costing",
+      "description": "理解边际成本法与吸收成本法的差异、利润对账及其决策含义。",
+      "topics": [
+        {
+          "title": "Marginal costing",
+          "points": [
+            {
+              "code": "MA.7.1",
+              "title": "Contribution and marginal costing",
+              "summary": "边际成本法只把变动成本计入产品成本，以贡献边际衡量盈利能力。",
+              "contentMd": "## 核心概念\n\n边际成本法下，存货只含变动成本（直接材料+直接人工+变动制造费用），固定制造费用在当期全额费用化。贡献边际（contribution）=销售收入−变动成本。\n\n## 常见考法\n\n计算单位贡献边际、总贡献边际或贡献边际率；或辨析边际法对存货计价的影响。\n\n## 易错点\n\n边际法将固定制造费用全部冲当期，导致存货价值较低、利润随产销量波动较敏感。\n\n## 例子\n\n售价 25，变动成本 15，则单位贡献边际=10，贡献边际率=10/25=40%。\n\n## 考试提醒\n\n贡献边际=售价−变动成本；固定成本只影响利润总额，不影响单位贡献。",
+              "standardReference": "Syllabus D2 - Marginal costing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.7.2",
+              "title": "Absorption costing profit",
+              "summary": "吸收成本法把固定制造费用摊入存货，利润受产量与销量共同影响。",
+              "contentMd": "## 核心概念\n\n吸收成本法下，固定制造费用按吸收率计入每单位产品成本，随存货结转到下期，故利润受“产量≠销量”影响。当产量>销量（存货增加）时吸收法利润更高。\n\n## 常见考法\n\n计算吸收成本法利润，或分析产量变化对利润的影响。\n\n## 易错点\n\n吸收法将部分固定成本藏在期末存货里延迟确认，所以产大于销时利润被高估。\n\n## 例子\n\n单位固定制造费用 5，若产量大于销量 200 件，则吸收法利润比边际法高 200×5=1,000。\n\n## 考试提醒\n\n吸收法利润−边际法利润=固定费用在存货中的净变动。",
+              "standardReference": "Syllabus D2 - Absorption costing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.7.3",
+              "title": "Reconciling absorption and marginal profits",
+              "summary": "两法利润差=期初/期末存货中固定制造费用变动的净额。",
+              "contentMd": "## 核心概念\n\n当期末存货中的固定费用>期初时，吸收法利润>边际法利润。差额=固定制造费用率×（期末存货单位−期初存货单位）。\n\n## 常见考法\n\n计算两法利润差并说明方向；或由边际法利润倒推吸收法利润。\n\n## 易错点\n\n方向判断：存货增加（期末>期初）→吸收利润更高；存货减少→边际利润更高。\n\n## 例子\n\n固定费用率 5/件，期初 200 件、期末 400 件，差额=(400−200)×5=1,000，吸收法利润=边际法利润+1,000。\n\n## 考试提醒\n\n列出“期初存货—产量—销量—期末存货”四要素再计算，方向一定标清楚。",
+              "standardReference": "Syllabus D2 - Reconciling profits",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.7.4",
+              "title": "Relevant costing and marginal costing decisions",
+              "summary": "边际成本法服务于短期决策，相关成本分析聚焦未来增量现金流。",
+              "contentMd": "## 核心概念\n\n边际/吸收成本法提供成本全景；短期决策（是否接单、自制外购、产量组合）应用相关成本——未来、增量、现金流出。\n\n## 常见考法\n\n在决策情境中识别相关成本，与固定/沉没成本区分。\n\n## 易错点\n\n决策题不要把所有变动成本都当相关，也不要忽略机会成本；固定成本若不受决策影响则不变。\n\n## 例子\n\n是否接受低于全成本价的特殊订单，只需比较其相关变动成本与增量收益。\n\n## 考试提醒\n\n决策三问：未来吗？随决策变吗？现金流吗？满足才相关。",
+              "standardReference": "Syllabus D1 - Relevant costs and short-term decisions",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "title": "Job, Batch and Process Costing",
+      "description": "掌握订单成本法、批次成本法与分步成本法（含约当产量与损失）。",
+      "topics": [
+        {
+          "title": "Job and batch costing",
+          "points": [
+            {
+              "code": "MA.8.1",
+              "title": "Job costing",
+              "summary": "按每个独立订单/工作归集直接材料、直接人工与应分摊制造费用，形成订单成本卡。",
+              "contentMd": "## 核心概念\n\n订单成本法适用于按客户要求定制的唯一产品。每张订单设 job cost sheet，记录直接材料、直接人工与按吸收率分摊的制造费用，结单时求单位成本并定价。\n\n## 常见考法\n\n根据订单卡数据求总成本或单位成本，或判断适合订单成本法的行业。\n\n## 易错点\n\n直接材料/人工直接归集；制造费用按 OAR 分摊，不能用实际费用硬算。\n\n## 例子\n\n某订单材料 2,000、人工 1,500、OAR=4/人工小时且耗 100 小时，制造费用 400，总成本 3,900。\n\n## 考试提醒\n\n订单成本法常用 OAR 分摊，注意“按机器还是人工小时”吸收。",
+              "standardReference": "Syllabus D3(a) - Job costing",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.8.2",
+              "title": "Batch costing",
+              "summary": "一批相同产品归集成本后除以批产量求单位成本，是订单成本法的批量化应用。",
+              "contentMd": "## 核心概念\n\n批次成本法用于生产成批相同单位的产品（如一批零件/一批服装）。先归集该批全部成本，再除以批内单位数得平均单位成本。\n\n## 常见考法\n\n计算批次的单位成本，或判断何时用批次成本法。\n\n## 易错点\n\n批成本以“批次”为成本对象；若批内产品差异大则单位成本平均化失真。\n\n## 例子\n\n一批 500 件总成本 7,500，单位成本=7,500/500=15 元/件。\n\n## 考试提醒\n\n批成本法可视为订单成本法在“同类多件”上的延伸。",
+              "standardReference": "Syllabus D3(a) - Batch costing",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.8.3",
+              "title": "Batch size and economic batch quantity (EBQ)",
+              "summary": "EBQ 是使生产准备成本与持有成本之和最小的每批产量。",
+              "contentMd": "## 核心概念\n\nEBQ=√(2×年产量×每次准备成本÷单位年持有成本)。它权衡换线/准备成本与库存持有成本，类似 EOQ 但用“准备成本”替代“订购成本”。\n\n## 常见考法\n\n代入公式求最佳批规模，或说明 EBQ 与 EOQ 的区别。\n\n## 易错点\n\nEBQ 用的是生产准备(Setup)成本；EOQ 用的是订购(Order)成本，注意代入对应项。\n\n## 例子\n\n年产量 10,000，每次准备 40，单位年持有 8：EBQ=√(2×10,000×40÷8)=√100,000=316。\n\n## 考试提醒\n\n公式结构与 EOQ 相同，只换成本名称，勿混淆字母含义。",
+              "standardReference": "Syllabus D3(a) - Economic batch quantity",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Process costing",
+          "points": [
+            {
+              "code": "MA.8.4",
+              "title": "Process accounts and transfers",
+              "summary": "分步成本法按连续流程归集成本，并在各工序间结转，期末把成本分配到完工品与在产品。",
+              "contentMd": "## 核心概念\n\n分步成本法用于连续、大批量生产（如炼油、化工）。每工序设 process account，投入成本（前期转入+本期材料/人工/费用）在完工转出与期末在产品间分配。\n\n## 常见考法\n\n编制分部账户，或在完工品与在产品间分配成本。\n\n## 易错点\n\n期末在产品未完工，不能按整单位计成本，须用约当产量折算。\n\n## 例子\n\n工序-投入 1,000 件成本 8,000，完工 600，在产品 400（50%），按约当单位分配。\n\n## 考试提醒\n\n分部成本法核心在“约当产量”与“成本在完工/在产品间分配”。",
+              "standardReference": "Syllabus D3(b) - Process costing",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.8.5",
+              "title": "Equivalent units (weighted average)",
+              "summary": "把未完工在产品按其完工程度折算为约当完工单位，用于成本分配。",
+              "contentMd": "## 核心概念\n\n约当产量=完工单位+在产品数量×完工程度。把本期成本除以约当总单位得每约当单位成本，再分配到完工品与在产品。\n\n## 常见考法\n\n计算约当数量或每约当单位成本，再求出完工与在产品成本。\n\n## 易错点\n\n分要素计算：材料与转换成本(conversion)的完工程度常不同，需分别算约当产量。\n\n## 例子\n\n完工 1,000 件，在产品 400 件完成 60%：转换约当=1,000+400×0.6=1,240。\n\n## 考试提醒\n\n先写“要素（材料/转换）×完工程度”矩阵，再逐要素算约当量，勿混。",
+              "standardReference": "Syllabus D3(b) - Equivalent units",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.8.6",
+              "title": "Normal and abnormal losses and gains",
+              "summary": "正常与异常损失分别处理，异常损失单独列示并计入损益。",
+              "contentMd": "## 核心概念\n\n正常损失（normal loss）为工艺固有、不可避免，其成本由合格品承担；异常损失（abnormal loss）非预期，独立账户核算并在计入当期损益。异常收益(abnormal gain)同理冲减。\n\n## 常见考法\n\n计算正常/异常损失单位数及其成本，或说明其对单位成本的影响。\n\n## 易错点\n\n正常损失不计入约当产量，成本由剩余合格品吸收；异常损失按约当单位计价，单独列示。\n\n## 例子\n\n投入 1,000 件，正常损失 50，完工 800，在产品 150（50%）。异常损失=1,000−50−800−150=0。\n\n## 考试提醒\n\n“正常损失”是预计内的，勿当成异常而单独计价；数量上正常损失不计约当。",
+              "standardReference": "Syllabus D3(b) - Normal and abnormal losses",
+              "examFrequency": "HIGH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "title": "Budgeting",
+      "description": "掌握功能预算、主预算、弹性预算及滚动/零基预算等预算编制方法。",
+      "topics": [
+        {
+          "title": "Budget preparation",
+          "points": [
+            {
+              "code": "MA.9.1",
+              "title": "Purpose and process of budgeting",
+              "summary": "预算用于计划、协调、控制与激励，编制流程从销售预算开始逐环推进。",
+              "contentMd": "## 核心概念\n\n预算（budget）是未来一定期间的量化计划。功能包括计划、协调、控制、沟通与激励，也常用于业绩评价与授权。编制从销售预算（principal budget factor）起步，依次推生产、材料、人工、费用、现金预算，最后汇总成 master budget。\n\n## 常见考法\n\n识别预算的主要目的，或指出预算编制的起点与顺序。\n\n## 易错点\n\n并非总从销售开始：当原料或产能受限时，稀缺资源才是起点（principal budget factor）。\n\n## 例子\n\n年度预算先定销售 10,000 件，再推生产 10,000、材料 30,000kg、工时 20,000h。\n\n## 考试提醒\n\n默认销售预算为起点，但题目若说“产能受限”则换起点，务必审题。",
+              "standardReference": "Syllabus E1 - The budgeting process",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.9.2",
+              "title": "Functional and master budgets",
+              "summary": "功能预算（销售、生产、采购、人工、费用）组合成主预算（预算损益表、预算资产负债表、现金预算）。",
+              "contentMd": "## 核心概念\n\n功能预算涵盖销售、生产、材料采购、人工、费用；主预算（master budget）把各功能预算综合为预算损益表、预算资产负债表与现金预算。\n\n## 常见考法\n\n由某功能预算反推另一功能预算（如生产预算→材料采购预算），或识别主预算构成。\n\n## 易错点\n\n生产预算=销售+期末存货−期初存货；材料采购=生产用量+期末存货−期初存货，两处“存货”不可混。\n\n## 例子\n\n下季销售 1,000，期末存货 200，期初存货 150，则生产量=1,000+200−150=1,050。\n\n## 考试提醒\n\n预算钩稽（tie-in）往往两问连出：先生产量，再采购数量与金额。",
+              "standardReference": "Syllabus E1(b) - Functional budgets and the master budget",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.9.3",
+              "title": "Cash budget",
+              "summary": "现金预算汇总预算期内的现金流入流出，预测资金盈余或缺口。",
+              "contentMd": "## 核心概念\n\n现金预算按时间线列示现金收入（销售回款）、现金支出（采购、工资、费用、资本支出），显示期末现金余额。用于预测盈余、融资需求与进行资金管理。\n\n## 常见考法\n\n基于收款政策与付款条款编制现金预算，或求某期现金盈余/缺口。\n\n## 易错点\n\n现金预算是现金基础，不用权责发生：只有实际收付才入预算；销售回款考虑信用期与坏账。\n\n## 例子\n\n某月销售 50,000 当月收 40%，次月收 60%，则当月回款=上月销售额×60%+当月×40%。\n\n## 考试提醒\n\n现金题要扣掉信用期与坏账，期初现金余额别忘了加总。",
+              "standardReference": "Syllabus E1(c) - The cash budget",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.9.4",
+              "title": "Flexible budgets",
+              "summary": "弹性预算按不同业务量水平重算，为差异分析提供可比基准。",
+              "contentMd": "## 核心概念\n\n弹性预算根据实际活动量调整预算数：变动成本随业务量线性调整，固定成本在相关范围内不变。用弹性预算比较实际，能剔除产量变化对差异的影响。\n\n## 常见考法\n\n按实际产量重编预算（变动成本×实际量+固定成本），或与固定预算对比判断产量影响。\n\n## 易错点\n\n固定成本在弹性预算中仍按原数，只有变动成本随活动量缩放；半变动成本须拆分。\n\n## 例子\n\n预算 10,000 件，变动成本 6/件、固定 20,000；实际 12,000 件，弹性预算总成本=12,000×6+20,000=92,000。\n\n## 考试提醒\n\n“弹性预算成本”=变动成本按实际量+固定成本原额，勿按预算量算。",
+              "standardReference": "Syllabus E4 - Flexible budgets",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Budget approaches and behaviour",
+          "points": [
+            {
+              "code": "MA.9.5",
+              "title": "Incremental vs zero-based budgeting",
+              "summary": "增量法以基期为基础调整，零基法从零重新论证每项支出的必要性。",
+              "contentMd": "## 核心概念\n\n增量预算法（incremental）在上年基础上加减调整，省时但延续低效；零基预算法（ZBB）每年从零审视每项支出的必要性与优先级，更聚焦效率但耗时、资源要求高。\n\n## 常见考法\n\n识别增量/零基的特征，或比较二者适用场景与优缺点。\n\n## 易错点\n\nZBB 对服务性/可斟酌支出最有效，对必须性支出（如工厂运营成本）价值有限。\n\n## 例子\n\n市场部过去预算 500,000，增量法下加 5% 得 525,000；ZBB 重新论证每项活动后可能只批 400,000。\n\n## 考试提醒\n\n记住定性判断：增量省时低效、零基高耗高效；按题目“是否浪费/是否新活动”判断。",
+              "standardReference": "Syllabus E4 - Incremental and zero-based budgeting",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.9.6",
+              "title": "Rolling budgets",
+              "summary": "滚动预算不断向前延伸更新，保持预算始终覆盖未来固定期间。",
+              "contentMd": "## 核心概念\n\n滚动预算（rolling）在每个期间结束后立即增补下一个期间，使预算始终覆盖固定长度（如 12 个月），持续反映最新信息。\n\n## 常见考法\n\n识别滚动预算的特征，或指出其相对年度预算的优缺点（更及时但更耗时）。\n\n## 易错点\n\n滚动预算要不断重估，工作量与不确定性成本高；对稳定业务可能不划算。\n\n## 例子\n\n按月滚动：1 月末编制 2 月—次年 1 月预算，2 月末再编制 3 月—次年 2 月预算。\n\n## 考试提醒\n\n“滚动”描述的是时间窗口不断前移，而非只更新数值。",
+              "standardReference": "Syllabus E4 - Rolling budgets",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.9.7",
+              "title": "Behavioural aspects of budgeting",
+              "summary": "预算会影响管理者行为：参与式与目标一致性、预算松弛与预算博弈。",
+              "contentMd": "## 核心概念\n\n参与式预算提升认同感与承诺，但也可能造成预算松弛（budgetary slack，人为调低目标）；自上而下预算执行力强但易抵触。目标应既有挑战又可实现，并与报酬挂钩。\n\n## 常见考法\n\n识别参与式预算的优缺点、预算松弛的表现，或目标激励的合理性。\n\n## 易错点\n\n参与式不等于一定更优：可能产生松弛与短期行为，需配合绩效考核设计。\n\n## 例子\n\n员工为降低考核压力而低估可实现销量，形成预算松弛。\n\n## 考试提醒\n\n“行为影响”题关注动机：目标能否被接受与是否扭曲信息。",
+              "standardReference": "Syllabus E2 - Behavioural aspects of budgeting",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "Standard Costing",
+      "description": "掌握标准成本的概念及材料、人工、变动与固定制造费用差异分析。",
+      "topics": [
+        {
+          "title": "Standards and variance analysis",
+          "points": [
+            {
+              "code": "MA.10.1",
+              "title": "Types of standard",
+              "summary": "标准成本有理想、基本、可达与现行四类，可达标准用于业绩评价最合适。",
+              "contentMd": "## 核心概念\n\n理想标准（ideal）在无浪费条件下成立、难以达成；基本标准（basic）长期不变；可达标准（attainable）考虑正常浪费、可实现；现行标准（current）反映现状。标准成本是预先设定的单位成本基准。\n\n## 常见考法\n\n识别各类型标准的特征及适用目的（业绩评价多用可达标准）。\n\n## 易错点\n\n理想标准会挫伤士气；基本标准因通胀而过时，需配合指数调整。\n\n## 例子\n\n考虑 3% 正常损耗后设定的单位成本为可达标准。\n\n## 考试提醒\n\n判断标准为何种：关键词“无浪费”=ideal，“正常浪费”=attainable。",
+              "standardReference": "Syllabus F3 - Standard costing",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.10.2",
+              "title": "Material variances",
+              "summary": "材料价格差异与用量差异分别度量价差与量差，二者之和为总材料差异。",
+              "contentMd": "## 核心概念\n\n材料价格差异=标准价格−实际价格，乘以实际采购/用量；材料用量差异=（标准用量−实际用量）×标准价格。标准用量=实际产量×标准单耗。\n\n## 常见考法\n\n计算价格与用量差异并判断有利/不利（F/A），或用差异解释业绩。\n\n## 易错点\n\n用量差异用标准价格，价格差异用实际数量；标准用量须以“实际产量”折算。价格正负：实际价高→不利。\n\n## 例子\n\n标准价 5，标准单耗 3kg，生产 100 件实际用 320kg、实际价 5.2：价格差异=(5−5.2)×320=−64（不利）；用量差异=(300−320)×5=−100（不利）。\n\n## 考试提醒\n\n先求标准用量=实际产量×标准单耗；F=实际<标准（有利），A=实际>标准（不利）。",
+              "standardReference": "Syllabus F3 - Material variances",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.10.3",
+              "title": "Labour variances",
+              "summary": "人工费率差异与效率差异度量人工成本偏离标准的情况。",
+              "contentMd": "## 核心概念\n\n人工费率差异=（标准费率−实际费率）×实际工时；人工效率差异=（标准工时−实际工时）×标准费率。标准工时=实际产量×标准单耗工时。\n\n## 常见考法\n\n计算人工费率差异、效率差异，或结合闲置工时解释不利差异。\n\n## 易错点\n\n实际工时是实际投入工时；标准工时须按实际产量折算；闲置工时降低效率差异但不解释费率差异。\n\n## 例子\n\n标准工时 2h/件，产量 300 件 → 标准 600h；实际 620h，标准费率 8：效率差异=(600−620)×8=−160（不利）。\n\n## 考试提醒\n\n“费率差异用实际工时、效率差异用标准费率”交叉使用，别把价格/数量配对搞反。",
+              "standardReference": "Syllabus F3 - Labour variances",
+              "examFrequency": "HIGH"
+            }
+          ]
+        },
+        {
+          "title": "Overhead and sales variances",
+          "points": [
+            {
+              "code": "MA.10.4",
+              "title": "Variable overhead variances",
+              "summary": "变动制造费用差异含费率（支出）差异与效率差异。",
+              "contentMd": "## 核心概念\n\n变动制造费用支出差异=（标准费率−实际费率）×实际工时；效率差异=（标准工时−实际工时）×标准费率。二者之和为总变动制造费用差异。\n\n## 常见考法\n\n计算变动制造费用支出与效率差异，或解释其成因。\n\n## 易错点\n\n变动制造费用效率差异与人工效率差异**一致**（同用标准/实际工时），只因费率不同而金额不同。\n\n## 例子\n\n标准变动费率 3/h，实际工时 620，标准 600：效率差异=(600−620)×3=−60（不利）。\n\n## 考试提醒\n\n变动制造费用差异结构=支出+效率，与人工差异结构对称，便于记忆。",
+              "standardReference": "Syllabus F3 - Variable overhead variances",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.10.5",
+              "title": "Fixed overhead variances",
+              "summary": "固定制造费用差异含支出差异与产量差异，产量差异又分效率与容量差异。",
+              "contentMd": "## 核心概念\n\n固定制造费用支出差异=预算−实际；产量差异衡量产量偏离预算对吸收的影响（效率差异+容量差异）。固定制造费用会在吸收法下被吸收进产成品。\n\n## 常见考法\n\n计算固定制造费用支出差异、产量/容量/效率差异，注意吸收法下的表达。\n\n## 易错点\n\n固定制造费用差异只在全部吸收成本法下计算；边际成本法下只有支出差异。\n\n## 例子\n\n预算固定费用 50,000，实际 52,000：支出差异=50,000−52,000=−2,000（不利 A）。\n\n## 考试提醒\n\n先判断是否吸收法：若是，则除支出差异外还有产量（效率+容量）差异。",
+              "standardReference": "Syllabus F3 - Fixed overhead variances",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.10.6",
+              "title": "Sales variances",
+              "summary": "销量差异与价格差异衡量实际销售偏离预算对利润/贡献的影响。",
+              "contentMd": "## 核心概念\n\n在边际法下，销售量的贡献差异=（预算销量−实际销量）×单位标准贡献；价格差异=（标准单价−实际单价）×实际销量。\n\n## 常见考法\n\n计算销量贡献差异或销售价格差异，判断对利润的影响方向。\n\n## 易错点\n\n销量差异在边际法下按“标准贡献”计价（不含固定成本）；吸收法下按单位标准利润计价，数额不同。\n\n## 例子\n\n标准贡献 10/件，预算 4,000 件、实际 5,000 件：销量差异=(4,000−5,000)×10=−10,000（有利，多卖）。\n\n## 考试提醒\n\n先确定用边际法还是吸收法，选对应的计价基础（贡献 vs 标准利润）。",
+              "standardReference": "Syllabus F3 - Sales variances",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "title": "Performance Measurement",
+      "description": "掌握财务与非财务绩效指标、责任中心与标杆比较。",
+      "topics": [
+        {
+          "title": "Financial performance measures",
+          "points": [
+            {
+              "code": "MA.11.1",
+              "title": "ROCE and profit-related measures",
+              "summary": "资本回报率等比率衡量整体盈利能力，用于评价投资效率。",
+              "contentMd": "## 核心概念\n\nROCE=经营利润÷投入资本（净经营资产），衡量资本使用效率；其他如毛利率、净利率、资产周转率用于分解盈利能力。比率需横向（同业）与纵向（趋势）比较。\n\n## 常见考法\n\n计算 ROCE、毛利率等比率，或分析其对绩效评价的意义与局限。\n\n## 易错点\n\nROCE 分子分母口径要匹配（利润用营业利润，资本用净经营资产）；比率受折旧政策影响。\n\n## 例子\n\n经营利润 120,000，投入资本 600,000，ROCE=120,000/600,000=20%。\n\n## 考试提醒\n\n指标要与行业可比，单独比率无意义；趋势与同业对比才是重点。",
+              "standardReference": "Syllabus G1 - Financial performance indicators",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.11.2",
+              "title": "Contribution margin analysis",
+              "summary": "贡献边际率反映每元销售对固定成本与利润的贡献，用于产品/部门对比。",
+              "contentMd": "## 核心概念\n\n贡献边际率=（销售收入−变动成本）÷销售收入。可用于产品结构、定价与保本分析；边际法下单位贡献乘以销量得出贡献总额。\n\n## 常见考法\n\n计算贡献边际率、保本点，或对比不同产品盈利性（单位贡献 vs 贡献率）。\n\n## 易错点\n\n“单位贡献”与“贡献率”不同；资源受限时选单位瓶颈资源贡献最大的产品。\n\n## 例子\n\n售价 25、变动 15，贡献率=10/25=40%。\n\n## 考试提醒\n\n对比产品用“单位贡献”，但资源受限时用“单位受限资源贡献”，勿混。",
+              "standardReference": "Syllabus G1 - Contribution-based measures",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.11.3",
+              "title": "Limitations of financial measures",
+              "summary": "财务指标滞后、易被操纵，忽略质量、客户与员工等长期因素。",
+              "contentMd": "## 核心概念\n\n财务指标（利润、ROCE）是滞后的（lagging），反映过去；易受会计政策与短期行为影响；忽略顾客满意度、员工士气、创新等未来价值来源。\n\n## 常见考法\n\n指出财务指标的局限，或说明为何需辅以非财务指标。\n\n## 易错点\n\n财务指标不能替代非财务；二者结合才是平衡评价（可联系 BSC）。\n\n## 例子\n\n为压低成本裁掉客服，短期利润上升但长期损害客户满意与复购。\n\n## 考试提醒\n\n答“局限”题用：滞后、可操纵、短视、忽略非财务四板斧。",
+              "standardReference": "Syllabus G1 - Limitations of financial measures",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        },
+        {
+          "title": "Non-financial performance and responsibility centres",
+          "points": [
+            {
+              "code": "MA.11.4",
+              "title": "Non-financial performance indicators",
+              "summary": "质量、客户、交货、员工等非财务指标弥补财务指标准确与前瞻性不足。",
+              "contentMd": "## 核心概念\n\n非财务指标（NFPI）包括客户满意度、准时交付率、缺陷率、员工流动率、订单周转等，通常更及时、更贴近运营，且不易被粉饰。\n\n## 常见考法\n\n识别哪些属于非财务绩效指标，比较其与财务指标的优劣。\n\n## 易错点\n\n非财务指标条目繁多，需与 CSF/KPI 挂钩；过多指标会导致注意力分散。\n\n## 例子\n\n“本月准时交付 96%”与“员工流失率 5%”是非财务指标；“毛利率 40%”是财务指标。\n\n## 考试提醒\n\n选题围绕客户、流程、员工、质量这四个维度的典型 NFPI。",
+              "standardReference": "Syllabus G1 - Non-financial performance indicators",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.11.5",
+              "title": "Benchmarking",
+              "summary": "标杆管理通过与内部最佳、竞争者或一流企业对比，找到改进差距。",
+              "contentMd": "## 核心概念\n\n内部标杆（部门间）、竞争标杆（同业）、功能标杆（跨行业最佳实践），通过对比找到流程差距并改善。重点在“学习改进”而非简单抄数字。\n\n## 常见考法\n\n识别标杆类型，或说明标杆管理的价值与局限性（可比性、保密性）。\n\n## 易错点\n\n标杆数据须可比，口径不同则误导；竞争对手数据可能难以获取。\n\n## 例子\n\n某零售企业借鉴同行配送中心的周转天数，缩短自身订单处理时间。\n\n## 考试提醒\n\n标杆=对标学习；关键词“差距/最佳实践/可比性”。",
+              "standardReference": "Syllabus G2 - Benchmarking",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.11.6",
+              "title": "Responsibility centres",
+              "summary": "成本中心、收入中心、利润中心与投资中心按控制范围分层授权与考核。",
+              "contentMd": "## 核心概念\n\n成本中心只对成本负责；收入中心对收入负责；利润中心对收入与成本（利润）负责；投资中心对利润与资本（ROI/RI）负责。评价方式随责任层级不同。\n\n## 常见考法\n\n识别某部门属于哪类责任中心，或判断应采用的考核指标。\n\n## 易错点\n\n投资中心用 ROCE/RI，而利润中心用利润；把责任与考核指标错配是常见失分点。\n\n## 例子\n\n能控制资本支出的分部经理属于投资中心，用 ROCE 考核投资效率。\n\n## 考试提醒\n\n责任中心层级：成本→收入→利润→投资，指标逐渐升级到含资本。",
+              "standardReference": "Syllabus G2 - Responsibility centres",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "title": "Time Series and Forecasting Methods",
+      "description": "掌握时间序列与趋势、季节波动、移动平均及回归等预测技术。",
+      "topics": [
+        {
+          "title": "Time series analysis",
+          "points": [
+            {
+              "code": "MA.12.1",
+              "title": "Components of a time series",
+              "summary": "时间序列含趋势、季节波动、周期与随机波动四成分。",
+              "contentMd": "## 核心概念\n\n时间序列是随时间排序的数据，成分包括长期趋势（trend）、季节波动（seasonal）、周期波动（cyclical）和随机波动（random）。分解方法把趋势与季节数分离，用于预测。\n\n## 常见考法\n\n识别各成分，或说明季节波动如何从数据中分离（加性/乘性模型）。\n\n## 易错点\n\n季节波动回归期通常一年；加性模型下季节偏差求和约零，乘性模型下季节指数均值约 1。\n\n## 例子\n\n冰淇淋销量每年夏季上升，属季节波动；长期缓升为趋势。\n\n## 考试提醒\n\n“周期”多与宏观经济周期对应，而“季节”为固定周期，勿混。",
+              "standardReference": "Syllabus H3 - Time series",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.12.2",
+              "title": "Moving averages",
+              "summary": "移动平均平滑数据以分离趋势，季节变动用平均相对趋势的比例度量。",
+              "contentMd": "## 核心概念\n\n移动平均（含中心化移动平均）用于消除季节波动、估计趋势；季节变动值=实际值−趋势值（加性）或实际值÷趋势值（乘性）。\n\n## 常见考法\n\n计算移动平均趋势值或季节变动，再用以来回预测未来值。\n\n## 易错点\n\n偶数期间需中心化（取两期平均）对齐；预测时“趋势+季节”要按同模型（加/乘）分开处理。\n\n## 例子\n\n四季移动平均得到中心化趋势，各季季节指数约 1.10、0.90…，乘性模型下均值为 1。\n\n## 考试提醒\n\n做预测先用趋势线，再加回/乘上对应季节成分。",
+              "standardReference": "Syllabus H3 - Moving averages",
+              "examFrequency": "MEDIUM"
+            },
+            {
+              "code": "MA.12.3",
+              "title": "Index numbers",
+              "summary": "指数用以描述一组相关数据随时间或空间的相对变化。",
+              "contentMd": "## 核心概念\n\n指数用基期=100，将各期数值相对化，衡量相对变动（如价格指数、数量指数）。链式指数反映环比变化；用于比价、拆分量价影响。\n\n## 常见考法\n\n计算简单指数、链式指数，或解释指数在预算与通胀调整中的应用。\n\n## 易错点\n\n基期选择影响指数绝对值但不影响相对变动；换基期需重新标定。\n\n## 例子\n\n基年物价指数 100，后年为 120，说明价格上涨 20%。\n\n## 考试提醒\n\n记住“基期=100”，问题常问变动百分比而非绝对值。",
+              "standardReference": "Syllabus B2 - Index numbers",
+              "examFrequency": "LOW"
+            }
+          ]
+        },
+        {
+          "title": "Forecasting techniques",
+          "points": [
+            {
+              "code": "MA.12.4",
+              "title": "High-low and least-squares regression forecasting",
+              "summary": "高低法与最小二乘回归用于估计成本/需求函数，从而外推预测。",
+              "contentMd": "## 核心概念\n\n高低法取极值两点估计线性关系（简单，忽略中间数据）；最小二乘回归 y=a+bx 用全部数据拟合，更精确但计算量更大。二者都假设线性关系，可用于预测目标业务量下的成本或需求。\n\n## 常见考法\n\n由两点求 a、b 或预测目标值；或用最小二乘公式计算并预测。\n\n## 易错点\n\n回归外推（extrapolation）超出数据范围不可靠；高低法对异常点敏感；样本需有代表性。\n\n## 例子\n\n(1,000, 12,000) 与 (2,000, 18,000)：b=6，a=6,000；x=1,500 时 y=15,000。\n\n## 考试提醒\n\n外推、相关性弱、非随机样本都会扭曲预测——答“局限”题多写这几点。",
+              "standardReference": "Syllabus H1 - High-low method and regression",
+              "examFrequency": "HIGH"
+            },
+            {
+              "code": "MA.12.5",
+              "title": "Assumptions and limitations of forecasts",
+              "summary": "预测基于历史外推，假设过去规律延续，故结果有不确定性。",
+              "contentMd": "## 核心概念\n\n预测依赖历史数据与假设（线性、季节规律延续），现实中环境变化、政策、竞争会使假设失效；预测越远，误差越大。\n\n## 常见考法\n\n识别预测的假设与局限，或判断对未来多年预测是否可靠。\n\n## 易错点\n\n均值回归、结构突变、外推越界都会使预测失真；预测应结合定性判断。\n\n## 例子\n\n用过去三年销售线性外推未来五年，未考虑新竞争者进入，结论可能严重失真。\n\n## 考试提醒\n\n回答“局限”从：依赖历史、假设延续、越远越不准、忽略突变四方面展开。",
+              "standardReference": "Syllabus H2 - Forecasting and its limitations",
+              "examFrequency": "MEDIUM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
