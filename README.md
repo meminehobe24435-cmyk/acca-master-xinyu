@@ -2,6 +2,8 @@
 
 **ACCA 全科智能复习与刷题空间** — 打开就能学，不需要登录。
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmeminehobe24435-cmyk%2Facca-master-xinyu&project-name=acca-master-xinyu&repository-name=acca-master-xinyu&env=AUTH_SECRET,ADMIN_PASSWORD&envDescription=%E4%BC%9A%E8%AF%9D%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5%E4%B8%8E%E7%AE%A1%E7%90%86%E5%91%98%E5%8F%A3%E4%BB%A4%EF%BC%88%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E8%AF%B7%E5%8B%BF%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%E5%80%BC%EF%BC%89)
+
 > 这是给「歆瑜」的专属版本（v1.1）：在完整 ACCA 学习产品之上，加入更温柔的反馈、随时变化的鼓励语、⭐🐟 专属视觉，并把登录流程整个去掉 —— 打开网址直接开始学习。
 > 专业内容（题目、答案、准则引用、计算公式、Mock 规则）保持严谨，不做任何可爱化改写。
 
