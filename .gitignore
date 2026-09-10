@@ -32,5 +32,8 @@ test-results/
 playwright-report/
 reports/screenshots/
 
+# 本地工具（cloudflared 等，不纳入版本控制）
+.tools/
+
 # generated postgres schema (由 scripts/prepare-postgres.mjs 生成)
 prisma/schema.postgresql.prisma
