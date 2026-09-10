@@ -39,7 +39,23 @@ HTTPS：证书有效，server: cloudflare
 | 部署配置 | `vercel.json`（Vercel，构建时自动切换 Postgres schema）、`render.yaml`（Render Blueprint：Web + Postgres）、`Dockerfile`（自托管，SQLite 挂载 `/data` 卷） |
 | 环境变量 | `DATABASE_URL`、`AUTH_SECRET`、`ADMIN_PASSWORD`、`AI_PROVIDER` + 对应 API Key —— **只写平台 Secret，绝不入库**（`.env` 已在 `.gitignore`） |
 | HTTPS | 平台默认提供；隧道方案亦为 HTTPS |
-| 代码仓库 | https://github.com/meminehobe24435-cmyk/acca-master-xinyu （私有，main 分支） |
+| 代码仓库 | https://github.com/meminehobe24435-cmyk/acca-master-xinyu （**已设为公开**，main 分支） |
+| 一键部署 | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmeminehobe24435-cmyk%2Facca-master-xinyu&project-name=acca-master-xinyu&repository-name=acca-master-xinyu&env=AUTH_SECRET,ADMIN_PASSWORD) |
+
+### 仓库公开后的安全检查（2026-09-10 实测）
+
+| 检查项 | 结果 |
+|---|---|
+| 匿名访问仓库页面 / 目录 / 文件 | 200（`github.com/...`、`/blob/main/package.json`、`/tree/main/src/lib`） |
+| 匿名克隆（`git ls-remote`） | 成功，HEAD = `0eda9cb` |
+| `.env`（含本地口令） | **404 不可访问**（已被 .gitignore 排除，历史中也从未提交） |
+| `prisma/dev.db`（歆瑜的学习数据） | **404 不可访问** |
+| `reports/screenshots/*`、`.tools/cloudflared.exe` | **404 不可访问** |
+| 全量敏感串扫描（API Key / Token / 连接串 / 私钥） | 未发现任何真实密钥，仅占位模板与代码字段名 |
+
+> ⚠️ 公开仓库时请注意：`AUTH_SECRET` / `ADMIN_PASSWORD` 的**示例值**在 `.env.example` 中（占位用途），
+> 部署到 Vercel/Render 时必须填写**新的随机值**，不要沿用示例值或本地 `.env` 中的值。
+
 
 ## 3. 永久部署的三条路径（任选其一）
 
